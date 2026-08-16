@@ -1,0 +1,1807 @@
+[
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "http://www.ecsdl.org/getpdf/servlet/GetPDFServlet?filetype=pdf&id=JESOAN000140000008002192000001&idtyp e=cvips&prog=normal"
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "© The Electrochemical Society, Inc.1993. All rights reserved. Except as provided under U.S. copyright law, this work may not be reproduced, resold, distributed, or modified without the express permission of The Electrochemical Society (ECS). The archival version of this work was published in Journal of the Electrochemical Society, 1993, Volume 140, Issue 8, Pages 2192-2197."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                147,
+                882,
+                176
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "On the Pitting Resistance of Sputter-Deposited Aluminum Alloys"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                112,
+                250,
+                751,
+                270
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "G. S. Frankel * R. C, Newman,<sup>a</sup> C. V. Jahnes, and M. A. Russak"
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                290,
+                655,
+                308
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "IBM Research Division, T. J. Watson Research Center Yorktown Heights, New York <sup>a</sup>UMIST, Corrosion and Protection Centre, Manchester, England"
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                324,
+                833,
+                354
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Abstract"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                112,
+                369,
+                192,
+                386
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The pitting behavior of sputter-deposited Al binary alloy thin films was studied. Pitting and repassivation potentials were determined in 0.1M NaCl for samples in freshly deposited and air-aged states. Aging for several years in laboratory air increased the pitting potential for some of the alloy systems but had no effect on others. The repassivation potentials, meaningful values for pits in thin films, were found to be very close to the pitting potentials of freshly-deposited films for many alloy systems. Stable pits initiate in these Al binary alloys at potentials just above the value at which they would repassivate, indicating that pit growth considerations control the pitting process. By determining the pit anodic current density just before passivation it is shown that alloying improves pitting resistance through a reduction in the ability of pits to maintain the critical local environment necessary for growth. The influences of alloying on the passive film chemistry and on the tendency of the metal to repassivate (depassivation pH) are secondary in nature."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                402,
+                885,
+                550
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sputter-deposited supersaturated Al binary alloys have been shown to exhibit remarkable pitting resistance in chloride solutions.<sup>1-6</sup> The pitting potential, measured in 01M Cl<sup>−</sup>, for Al alloyed with about 5 atom percent (a/o) of any of a number of elements is about 600 mV higher than that for pure Al. Alloys with Mo, Nb, and Ta have pitting potentials that increase steadily with solute content at least to 40 a/o. AlW alloys have been reported to exhibit even better pitting resistance for a given composition.<sup>6,7</sup> Interestingly, the pitting potential for AlCr alloys is independent of concentration and comparatively low for alloys in the range of 5-35 a/o Cr.<sup>3</sup>"
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                566,
+                885,
+                689
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Moshier and coworkers have studied the evolution of the passive film chemistry for a number of sputtered Al alloys.<sup>2,4,5</sup> They have attributed the improved pitting resistance to enrichment of the solute element in the passive film. Specifically, passive films on AlTa, AlMo, and AlCr alloys were found to be enriched with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { T a } } _ { 2 } { \\mathrm { O } } _ { 5 }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { M o O } _ { 4 } ^ { - 2 } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ", and CrOOH, respectively. It was suggested that these species impede the ingress of chloride through the passive film. Surface analysis of films formed near the pitting potential suggested to them that pitting occurred either as a result of changes in the passive film (oxidation of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C r } ^ { + 3 } ~ \\mathrm { t o } ~ \\mathrm { C r } ^ { + 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "or replacement of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { M o O _ { 4 } } ^ { - 2 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "with "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { M o } } ^ { + 4 } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "or by field-assisted penetration of chloride (in the case of AlTa, which has a thin passive film). In contrast to these systems, W has been found to be depleted from the passive film on AlW alloys.<sup>6,7</sup> This occurs despite the observation that alloying with W is extremely effective in improving pitting resistance."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                689,
+                885,
+                881
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Others have proposed that the enrichment of solute ions in the passive film on these Al alloys decreases the pH of zero charge, which in turn acts to repel chloride ion from the electrode surface.<sup>8</sup> Recently, the work on AlW alloys has prompted Smialowska to suggest that the solute elements exert their influences at the active pit surface rather than in the passive film.<sup>3</sup> She has proposed that the limited solubility of the oxidized solute phase in the acidic pit environment is responsible for the improved resistance to pitting."
+                    }
+                ]
+            },
+            "bbox": [
+                169,
+                881,
+                885,
+                898
+            ]
+        },
+        {
+            "type": "page_header",
+            "content": {
+                "page_header_content": [
+                    {
+                        "type": "text",
+                        "content": "Journal of the Electrochemical Society, 1993, Volume 140, Issue 8, Pages 2192-2197."
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                89,
+                681,
+                106
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                111,
+                90,
+                885,
+                178
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "This paper presents data to support the idea put forth by Frankel and Newman that the alloying of Al by sputter-deposition might alter the kinetics of the dissolution process.<sup>10</sup> A similar argument has been proposed for the role of Mo in stainless steels.<sup>11,12</sup> By analysis of repassivation and pitting potentials, along with the pit current densities, it will be shown that the role of solute enrichment in the passive film on sputtered Al alloys is small in comparison to changes in the ability of a pit to sustain the conditions necessary for growth."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                178,
+                887,
+                282
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The notion of repassivation or protection potential has been in the literature for thirty years.<sup>13</sup> However, the utility of the repassivation potential has been questioned because of evidence showing that it depends strongly on experimental parameters such as the potential scan rate and the charge passed between pit initiation and the point of reversal scanning direction.<sup>14,15</sup> Studies of pits in thin metallic films on inert substrates have shown that, in contrast to pits in bulk samples, the repassivation potential is a reproducible and meaningful value because there is no increasing dimension to result in an increasing diffusion path or ohmic potential drop.<sup>16,17</sup> Pits in thin films grow in a 2-D fashion with a constant current density and repassivate at the potential at which the current density is so low that the critical pit environment cannot be maintained. The repassivation potential for pits in NiFe thin films has been found to be slightly dependent on thickness, and just above the intersection with the potential axis of a linear extrapolation of the pit current density vs. potential curve.<sup>17</sup>"
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                282,
+                887,
+                491
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "An analysis of pit growth in thin film samples has shown that ohmic and charge-transfer considerations may be important below the limiting current density and that the position of the current density vs. potential curve along the potential axis is controlled by both thermodynamics, through the reversible potential of the alloy in the pit environment, and kinetics, through the exchange current density.<sup>17</sup> The position of this curve and the repassivation potential therefore provide a measure of the influence of the rate of dissolution in the pit on the pitting potential."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                491,
+                885,
+                597
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "It should be noted that growth and repassivation of stable pits are described in this paper. However the relevance of these data to the phenomenon of metastable pitting will be discussed."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                597,
+                883,
+                632
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Experimental"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                112,
+                648,
+                235,
+                666
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Thin-film sputter-deposited samples, with thickness in the range of 1000-2000 Ǻ, were tested in stagnant, air-exposed 0.1M NaCl. Samples were examined with no pre-treatment of the surface, other than washing with water. The samples were masked with a sputter-deposited oxide film as described previously<sup>18</sup> and pressed against the bottom of a Plexiglas cell, facing upwards, using a Viton o-ring. An SCE reference electrode was used and all potentials are referred to this scale."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                681,
+                885,
+                786
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The potential was scanned at a rate of 1 mV/s anodically from open circuit until a stable pit formed, as evidenced by an abrupt and prolonged increase in current. At that point, which is defined as the pitting potential, the scan was halted and the potential was held constant for a period. Images of the growing pit were recorded using a system described previously<sup>16</sup> and the potential was then stepped downward (in the active direction) in increments of 10-100 mV to potentials which were maintained for periods of 15-120 s before further downward stepping. At relatively high potentials close to the pitting potential where the pit growth rate was high, the potential was held for only short periods (≈15-20 s) before stepping the potential down further, and large potential steps were applied. At potentials near the repassivation potential, where the rate of pit growth was lower, each potential was applied for longer periods and the steps were 10 mV in size. In this fashion it was possible to determine accurate values of the repassivation potential, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", which is defined as the point at which the pit was observed to stop growing. Given the resolution of the optical system, the fact that the pit image was unchanging for 120 s indicates that the pit current density after repassivation was less than about "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\bar { 0 } } . 2 { \\bar { 5 } } \\ \\mathrm { A } / \\mathrm { c m } ^ { 2 } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ". A sudden drop in dissolution rate of over 20 times following a decrease in potential of only 10 mV was quite obvious and clear evidence of repassivation. This approach to measuring "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is not possible for pits in bulk samples for which the active pit surface is not entirely visible. Optical determination of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for pits in thin films is much more accurate than the commonly used method of ascertaining the interception of the reverse scan with the forward scan. The passive current density for these Al alloys may vary considerably with potential and is a function of prior polarization history. As a result, the intersection of the forward and reverse scans may not be related to cessation of pitting. Furthermore, pits in thin films grow rapidly and can quickly reach the sample edge and then continue with different controlling considerations as crevice corrosion under the masking material. By constantly examining the pit, it is possible to be sure that such complications are prevented."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                787,
+                887,
+                895
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                111,
+                90,
+                885,
+                422
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Many of the samples were deposited 2-4 years earlier and kept during that time at room temperature in plastic boxes, but otherwise unprotected from the laboratory atmosphere. The pitting potentials of these aged samples were compared to values measured on the same samples (or sister samples deposited in the same run) in the freshly deposited condition several years earlier.<sup>3</sup> New samples of some compositions were deposited to check the pitting potentials of freshly deposited alloys reported previously. Most of the repassivation potential measurements were made on aged samples as it was assumed that "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { r } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "would not change with aging. This assumption is supported by the fact that the repassivation potentials for aged and freshly deposited samples of the same composition were identical. Furthermore, aging will only affect the very top fraction of the samples, whereas repassivation involves cessation of dissolution of a cross section of the whole alloy thin film, which is unchanged by room-temperature aging. It is not expected that aging of these alloys at room temperature results in microstructural changes such as precipitate formation, which is commonly associated with commercial Al alloys. The formation of precipitates would increase the corrosion and pitting susceptibility. The microstructures of these supersaturated alloys remain stable during prolonged storage at room temperature and, as will be shown, exhibit improved resistance to pitting. For the purpose of this work, \"freshly deposited\" samples were tested within a few months of deposition, while \"aged\" samples were tested more than a year after deposition. It should be noted that the earlier study used 0.1M NaCl adjusted to a pH of 10 with NaOH and a slower scan rate of 0.2 mV/s."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                421,
+                887,
+                753
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The anodic current density at the pit surface was determined for some of the pits at each potential step during the approach to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "by analysis of the images of the growing pit using a method described previously.<sup>16,17</sup> In most experiments, more than one pit formed. As a result, the net current density and the rate of the hydrogen evolution were not determined. However, copious hydrogen gas evolution was observed during many of the experiments. Weighted values of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "n , \\mathsf { p } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and M were used in the analysis where these constants have their usual meanings."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                753,
+                885,
+                859
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/962b642f171e961d5b8fc108b3b6fcdd62b2ce14cce8c212fa9a0b5657495436.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 1. Pitting potentials for freshly deposited samples, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { p } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and aged samples "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathbf { p } } ^ { \\mathbf { a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "along with repassivation potentials, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathbf { { { E } } _ { R } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for pure Al and AlNb alloys."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                303,
+                93,
+                687,
+                330
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Results"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                112,
+                392,
+                181,
+                409
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Pitting potentials measured on aged samples and repassivation potentials provided considerable insight into the role of the solute additions in increasing pitting resistance. Each alloy system behaved somewhat differently and is discussed in turn. Data for the AlNb system are given in Fig. 1. The pitting potentials for AlNb films increased by about 300 mV during a storage period of 4 years. As was true for most alloy systems, the scatter in the pitting potentials for aged samples was quite large. The pitting potentials for the freshly deposited samples determined in the earlier study also exhibited considerable scatter and the values reported were averages of several experiments. For aged AlNb samples, however, the pitting potential was typically much higher than that found for corresponding samples in the freshly deposited condition. The repassivation potentials were only about 100 mV lower than the pitting potentials measured on freshly deposited samples. In contrast to the pitting potentials, the repassivation potentials were reproducible to within ±10 mV. This very small scatter in "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "has been observed for all thin film systems studied to date and is in contrast to the behavior of pits in bulk samples. As mentioned, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "was found previously to vary with NiFe metal film thickness over the range 300 Ǻ-1 µm.<sup>17</sup> The samples in this study, however, all had a thickness within the range 1000- 2000 "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathring \\mathrm { A } ."
+                    },
+                    {
+                        "type": "text",
+                        "content": ", so the influence of thickness variations was minimal."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                426,
+                885,
+                707
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The behavior of pure Al films is also shown in Fig. 1. Freshly sputter deposited Al films exhibit a pitting potential of −690 mV SCE, which is close to the value observed for pits in bulk pure Al in 0.1M NaCl. The pitting potential for Al films aged 4 years was about 200 mV higher, a factor that is well beyond the range of scatter for freshly deposited samples. The value of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for pure Al films was found to be only about 25 mV below the pitting potential for freshly deposited films."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                705,
+                885,
+                810
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Figure 2 shows data for the AlMo system. Some new AlMo samples were examined and found to have similar pitting potentials to the freshly deposited samples examined in the previous study despite the differences in solution pH and scanning rate. Unlike the AlNb system, the pitting potentials of aged AlMo samples were not higher than those of freshly deposited samples. Except for one concentration, the values of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "were only about 50 mV"
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                809,
+                885,
+                898
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/711a155508031744ff92f66bc334684f8ba65be75313f8d4785d6e1e16d7aa01.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 2. Pitting potentials for freshly deposited samples, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { p } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and aged samples, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathbf { p } } ^ { \\mathbf { a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "along with repassivation potentials, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { { R } } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for pure Al and AlMo alloys."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                303,
+                114,
+                687,
+                351
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "lower than the pitting potentials. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for the 10% Mo alloy was anomalously low. This value was measured on an aged sample, and the pitting potential was also low. The older samples were deposited from two targets (Al and the solute element) and the compositions were determined by averaging the compositions, measured by Rutherford backscattering, of films on small carbon substrates placed to either side of each sample during deposition. This method was general quite reliable. However, given the small scatter in the measurement of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { { R } } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", the anomalous behavior for this sample is likely due to an error in the measurement of concentration."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                415,
+                885,
+                537
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Aged AlW samples were not tested because the original study did not include this system. However, freshly deposited AlW samples with up to 5.2% W were examined and the data are shown in Fig. 3. Comparison with Fig. 2 reveals that the pitting potentials of AlW samples were similar to those of AlMo samples with similar compositions. For instance, the pitting potential of Al-5.2% W was about −60 mV SCE. This is in contrast to reports by Shaw et al. who have indicated that this alloy should not pit until above 800 mV SCE.<sup>7</sup> Similar to the behavior of the AlMo system, the repassivation potentials for pits in AlW were only about 50 mV below the pitting potentials."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                537,
+                885,
+                676
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The AlCr alloys exhibited yet a different behavior, Fig. 4. Pitting potentials for aged AlCr samples were particularly nonreproducible; some aged samples improved tremendously while others actually had lower pitting potentials than freshly deposited samples. Included in Fig. 4 are two alloys that were recently deposited and tested in the fresh state. Like the new AlMo samples, the pitting potentials measured for these samples were in the range of values found previously. The repassivation potentials decreased by 180 mV with increasing Cr content over the range of 6-30% Cr. As will be described below, this behavior may result from the effects of Cr hydrolysis. The values of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "are up to 300 mV lower than the pitting potentials of freshly deposited samples."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                676,
+                887,
+                835
+            ]
+        }
+    ],
+    [
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/a6974eea2e725c9597bb0b0eabfb5ebec6d2e83630a086edcf44eda047d82824.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 3. Pitting potentials for freshly deposited samples, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathbf { p } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and aged samples, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathbf { \\mathfrak { p } } } ^ { \\mathbf { a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "along with repassivation potentials, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { { R } } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for pure Al, AlV alloys, AlMn alloys, and AlW alloys."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                302,
+                95,
+                686,
+                329
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/6e600bf7432cada511935b9ffe954bfbedee6909b202cb9169b4a67ec8c97a5e.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 4. Pitting potentials for freshly deposited samples, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { p } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "and aged samples, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathfrak { p } } ^ { \\mathrm { a } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "along with repassivation potentials, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { { R } } } ,"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for pure Al and AlCr alloys."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                303,
+                400,
+                686,
+                636
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Other systems have been studied to a limited extent. The behavior of AlV and AlMn alloys is shown in Fig. 3. These alloys were not tested in the fresh state and were aged only about 2 years. However, the pitting potentials of these aged samples indicate that alloying with either Mn or V is also beneficial. Other investigators have also seen beneficial effects of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { M n } , ^ { 1 9 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "an element not typically considered to improve corrosion resistance. The repassivation potentials of AlMn and AlV alloys are similar and are not strong functions of solute concentration. However, AlMn alloys pitted at potentials just above their repassivation potentials whereas AlV alloys pitted at much higher potentials."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                717,
+                885,
+                858
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Discussion"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                112,
+                873,
+                209,
+                891
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "By studying the behavior of sputter-deposited Al alloy thin films, it is possible both to fabricate extremely corrosion-resistant materials that are not possible by conventional approaches, and to utilize analytical techniques that allow accurate determination of the pit current densities and repassivation potentials. Since the pit depth (equal to the metal film thickness) is unchanging during pit growth and quite small, pits in thin films behave throughout their life like very small pits in bulk samples."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                90,
+                885,
+                195
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The behavior of the AlNb system shown in Fig. 1 provides a useful framework for the interpretation of the repassivation potentials and the aged-sample behavior. The improvement achieved by alloying, over the behavior of pure Al, can be divided into two components: the influence of the passive film and the role of pit growth. The value of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is not dependent on the extent of prior growth for pits in thin films. For pits growing in a stable fashion at higher potentials, it is an accurate limiting value at which they will cease to grow if the potential is stepped downward. Since stable pit growth is not possible below "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", the portion of the increase in pitting potential from that of pure Al to "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "for a given alloy results from pit growth considerations (see Fig. 1). Extremely noble potentials are required for a pit to grow in the Al alloy films. Pits can grow in a stable fashion above "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "but stable pits do not initiate until the pitting potential because of protection provided by the passive film. According to this interpretation, the difference between the alloy repassivation and pitting potentials is the added effect of protection provided by the alloy passive film, as schematically indicated in Fig. 1. Since very little scatter exists in the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "data, it is the passive film component that results in the experimental scatter in pitting potentials. Clearly, enrichment of a solute element such as Nb in the alloy passive film is beneficial. However, the magnitude of this benefit is small in comparison to the large effect of the inhibition of pit growth."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                195,
+                887,
+                492
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Since aging does not alter the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "values, it results in added benefit by improving the passive film, as shown in Fig. 1. For the AlNb system, the aging effect is quite large, although the major portion of the improvement over the behavior of Al is still from pit growth limitations. Davis et. "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\bar { a } l ^ { 5 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "have shown that Ta preferentially segregates to the passive film formed on AlTa alloys, and it is likely that Nb in AlNb acts similarly. It may be speculated that continued preferential oxidation of Nb during prolonged air exposure is responsible for the influence of aging, but aging was not the focus of this study and detailed analyses of the passive films were not performed. However, since pure Al also improved with time, aging may involve oxide thickening and reordering as well as solute enrichment."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                491,
+                887,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "AlMo alloys were previously found to exhibit a higher pitting potential than AlNb for given solute atomic concentration. Since the pitting potentials for fresh and aged samples are only slightly above the repassivation potentials, the increase in pitting resistance is dominated by the effects of pit growth. The passive films formed on AlMo alloys, which have been shown to be enriched with Mo,<sup>2,4</sup> generate much less protection than the films formed on AlNb alloys, and aging of the AlMo films does not add improvement. So despite the enrichment of Mo in the passive film, stable pits initiate at potentials only slightly above the potential at which they repassivate."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                648,
+                887,
+                787
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The large influence of pit growth can be understood through the conditions for pit repassivation, i.e., the pit stability criteria. For a pit to continue to grow, the environment at the active pit surface must be more aggressive than a critical condition for repassivation. This critical condition may be viewed as a critical surface pH for a given dissolving metal. The ability of a material to passivate will determine this critical pH. A material that repassivates more readily, perhaps as a result of a lower solubility as has been suggested by Smialowska,<sup>9</sup> would have a lower repassivation pH. This means it would have a larger range of passivity than a material that was weakly passivating. Since the pH of the pit electrolyte is controlled by cation hydrolysis, the critical pH is associated with a critical surface cation concentration in the pit electrolyte. The cation concentration is in turn related to the pit current density and the pit geometric and hydrodynamic conditions. The more readily repassivating material with lower critical pH would have a higher critical surface cation concentration and higher critical current density. In other words, it would take more current density to maintain the more aggressive critical pit environment needed for this strongly passivating material to continue growing."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                787,
+                887,
+                895
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                109,
+                90,
+                885,
+                231
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The scenario presented above suggests that two factors control the repassivation potential. The first is the tendency of the metal to repassivate, which is described by the critical environment, pH, cation concentration, or current density for repassivation. The second factor is the ability of the metal to maintain at least that critical environment at the controlled potentials. Part of this effect is the kinetics of dissolution as determined by the reversible potential, exchange current density, activation overpotential, ohmic potential drop and concentration overpotential. Another part is the hydrolysis of the dissolved cations or the relation between cation concentration and pH."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                229,
+                885,
+                369
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "For bulk samples, as discussed above, larger pits exhibit a lower repassivation potential than smaller pits.<sup>14,</sup> <sup>15</sup> This happens because the critical pH can be maintained with lower current density since transport is more difficult as a pit deepens. According to Galvele's detailed"
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                368,
+                885,
+                424
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/a0ba6ee6df4e44dbd0e5dd0ca6f7667905ead00113b09b2ce477f061d959047d.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 5. Anodic pit current density as a function of growth potential for pure Al and AlNb alloys. The points on the abscissa represent the repassivation potentials. The arrows indicate the critical pit current densities for repassivation."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                313,
+                446,
+                691,
+                694
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "description of this phenomenon, a critical value of x · i is required to achieve sufficient pit acidification for pit growth to continue, where x is pit depth and i is current density.<sup>20</sup> Pits in thin films grow laterally with constant pit depth once reaching the substrate so the critical x · i condition reduces to that of a critical i for continued pit growth. The repassivation potential and current density at the point of repassivation for pits in thin films have been found to increase slightly for thinner films.<sup>17</sup> However, for pits in thin films with similar geometry, the current density at the point of repassivation should be a measure of the critical surface concentration."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                772,
+                887,
+                896
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The pit current density for pits in AlNb films is shown in Fig. 5 as a function of potential during the downward stepping of potential. Also included in Fig. 5 are anodic pit current densities as a function of potential determined previously for pure "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { A l . } ^ { 1 6 }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "These curves were obtained by stepping the potential downwards from the pitting potential, which is the highest potential on each curve. The lowest potential for each curve is the last value at which pit growth was observed, "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { o r } \\approx 1 0 \\ : \\mathrm { m V }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "above "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ". The current density at this potential (marked by an arrow in Fig. 5) is the critical pit current density, or the current density below which pits repassivate. It is clear from Fig. 5 that the critical current densities do not increase as the Nb content and pitting"
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                90,
+                887,
+                232
+            ]
+        },
+        {
+            "type": "chart",
+            "content": {
+                "image_source": {
+                    "path": "images/63327fa971d62e970bf1c40dff3f82b00bf046d90bdff2f51a94aefcd8356ecc.jpg"
+                },
+                "content": "",
+                "chart_caption": [
+                    {
+                        "type": "text",
+                        "content": "Fig. 6. Anodic pit current density as a function of growth potential for pure Al and AlCr alloys."
+                    }
+                ],
+                "chart_footnote": []
+            },
+            "bbox": [
+                305,
+                257,
+                683,
+                501
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "potential increase. In fact, they may decrease slightly. Similar behavior was exhibited by pits in AlCr films, Fig. 6. As described above, a material that repassivates more easily should have a higher critical pit current density. The fact that the pit current density prior to repassivation does not increase with Nb or Cr concentration suggests that the great improvement achieved by alloying Al with Nb or Cr does not result from an improvement in the ability of pits to repassivate. Instead, it arises from a decrease in the ability of the dissolving metal to maintain the critical pit environment. The repassivation potential is ennobled because the anodic dissolution is ennobled; higher potentials are needed to achieve and maintain the critical pit environment. The influences of Nb in the passive film and in improving passivation via decreased solubility seem to be minor in comparison."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                549,
+                885,
+                724
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The behavior of the AlCr system may now be understood. Unlike the other systems, Cr alloying does not continually ennoble the repassivation process; it is much harder for a pit in an Al-30% Cr alloy to repassivate compared to one in Al-6%Cr. This results from the more effective hydrolysis of Cr ions compared to Al ions. Even though the hydrolysis constant of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "{ \\mathrm { A l } } ^ { 3 + }"
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "( \\approx 1 0 ^ { - 5 } M / \\mathrm { l i t e r } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is extremely high relative to most metallic ions, the hydrolysis constant of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "\\mathrm { C r } ^ { 3 + } \\left( \\approx \\right."
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "1 0 ^ { - 4 } M / \\mathrm { l i t e r } )"
+                    },
+                    {
+                        "type": "text",
+                        "content": "is even higher.<sup>21</sup> As a result, the critical pit environment may be maintained at a lower potential (and current density) when more Cr is available to hydrolyze. However, the role of the passive film on AlCr is stronger than in other alloy systems as the pitting potentials of freshly deposited samples are up to 300 mV higher than the repassivation potentials. It is not clear, on the other hand, why aging of AlCr alloys was not always beneficial to pitting resistance and why the aged AlCr samples exhibited such large scatter in pitting potentials."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                724,
+                887,
+                901
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                111,
+                90,
+                751,
+                108
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The AlMn system is also interesting. It has been shown by Moffat et al. that, like the AlW system, Mn is not present in the passive film on AlMn in chloride solutions.<sup>19</sup> They also point out that this element, which is not known for its passivating properties, has a high solubility in acids. Therefore, the rationale of improved pitting resistance via decreased solubility is not applicable. The repassivation potentials of these alloys are relatively high but almost equal to the pitting potential. It is clear that the improvement in pitting resistance for AlMn over pure Al results from the requirement of noble potentials for the pits to grow. Even alloying with a relatively active metal like Mn allows this phenomenon to occur."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                108,
+                887,
+                247
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "There are several possible mechanisms by which the solute elements ennoble the pitting process. As mentioned above, most ion including Mn<sup>+2</sup>, have lower hydrolysis constants than Al<sup>+3</sup>.<sup>21</sup> So a higher dissolution rate would be required in the case of alloyed Al to maintain a given pH, compared to pure Al. This also explains the negative influence of Cr additions at high concentrations but not the large effect of the addition of a few percent compared to pure Al."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                247,
+                885,
+                335
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Alloying elements may also influence the current efficiency or rate of hydrogen evolution. For instance, pits in AlW alloys evolve massive amounts of hydrogen gas during growth. So much so, in fact, that the pit perimeter is obscured and image analysis to determine pit current density is impossible. Hydrogen evolution increases the pH and thus counteracts the influence of hydrolysis."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                335,
+                885,
+                421
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "On the other hand, the addition of more-noble elements to Al, which is extremely active, may simply ennoble the dissolution process, resulting in the need for higher potentials to achieve a given current density. An increase in the reversible potential for metal dissolution, a decrease in the exchange current density, or a combination of the two would result in a shift of the dissolution kinetics in the anodic direction. It is reasonable to expect that alloying of Al will have these effects. The notion that alloying of Al improves pitting resistance by affecting the dissolution process is similar to the results of Newman, who studied the influence of Mo on the pitting resistance of stainless steel.<sup>11,12</sup> In that work, the addition of 1.7 a/o Mo in Fe-Cr and Fe-Cr-Ni alloys was found to reduce the current density of both scratched and artificial pit electrodes held at a given potential. By sputter deposition, it is possible to incorporate large amounts of solute into the matrix. Even small additions are extremely effective in Al alloys because of the active nature of metallic Al. As in the case of Mo in stainless steel, the solute atoms might act by enriching at kink or step sites on the active surface."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                421,
+                887,
+                648
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Finally, the current-potential curves show a strong ohmic contribution. The values of di/dE for the corrosion resistant alloys are lower than that of pure Al, indicating that the ohmic contribution to these curves may be higher than for pure Al It is possible that precipitated oxides of the alloying elements or an alumina gel stabilized by these elements could create a resistive, though not passivating, layer with ion-selective properties that alters the current-potential relation."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                648,
+                887,
+                752
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Studies into the passive film chemistry of sputtered Al alloys have provided correlations to pitting behavior<sup>1,2,4-7</sup> and such a relation may be intuitive to some investigators. However, direct tests of causality have not been furnished. The measurements of repassivation potential provide a direct causal link between the influence of alloying on pit growth considerations and the elevation of pitting potential. The data suggest that changes in the passive film chemistry as a result of alloying are much less important."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                752,
+                887,
+                858
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The fact that the critical pit current densities do not increase with pitting potential for the AlNb and AlCr systems suggests that pit growth is limited by the decreased ability of pits to maintain the critical pit environment rather than an increased ability to repassivate. Since alloying with elements such as Mn, which should not enhance repassivation, also improves pitting resistance, this view of pitting may be generally applicable to the whole class of binary Al alloys that has been studied in recent years."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                857,
+                887,
+                893
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                111,
+                90,
+                883,
+                160
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "It has recently been suggested that the improved pitting resistance of AlW alloys results from the possible presence of a metallic layer just beneath the passive film that is enriched in W compared to the bulk alloy composition.<sup>22</sup> The results of this investigation show that the properties of the dilute alloys are sufficient to improve pitting resistance via ennoblement of "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "The influence of a solute-enriched metallic layer beneath the passive film would result in apparent "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "values higher than the "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "curves measured here. Since the measured "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": "values are close to the freshly deposited pitting potentials for most alloy systems, little added benefit of a solute-enriched layer is possible."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                160,
+                885,
+                299
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "It remains to be explained how the interpretation of pitting described above can be reconciled with the phenomenon of metastable pitting. Metastable pits initiate in Al and its alloys at potentials below "
+                    },
+                    {
+                        "type": "equation_inline",
+                        "content": "E _ { \\mathrm { R } }"
+                    },
+                    {
+                        "type": "text",
+                        "content": ", grow for short periods, and then repassivate.<sup>23</sup> So metastable pits exhibit some growth at potentials at which stable pits would repassivate. Apparently, the factors controlling pit stability are different for metastable pits than for stable pits. In stainless steel, metastable pits were found to be covered by passive film remnants.<sup>24</sup> Rupture of the pit covers was associated with pit repassivation. It is possible that pits in these Al alloys are also covered, allowing short metastable pit growth at low potentials and current densities. Given the large anodic pit current densities and the extent of hydrogen evolution for Al and its alloys, it might be extremely difficult for a covered pit to retain its cover. In this view, stable pits would not form until the potential was high enough so that the current density was large enough to maintain the critical pit environment in an open pit."
+                    }
+                ]
+            },
+            "bbox": [
+                111,
+                300,
+                885,
+                511
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Conclusions"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                112,
+                526,
+                222,
+                542
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "The pitting and repassivation potentials of sputtered Al binary alloys were determined in a chloride solution. Whereas the pitting potentials of many sputter-deposited Al alloys are far higher than that for pure Al, they are only slightly higher than the repassivation potentials of the given alloys. This indicates that pit growth considerations play a much larger role than passive film effects in the pitting process for these alloys. Aging by prolonged exposure to air improves the pitting resistance of some alloys by improving the passive film, but the effect is still small copared to growth limitations. The anodic pit current density just prior to repassivation does not increase with increasing solute content and pitting resistance, suggesting that the repassivation and pitting potentials are ennobled by alloying because of a decrease in the ability of the metal to maintain the critical conditions required for pit growth."
+                    }
+                ]
+            },
+            "bbox": [
+                109,
+                560,
+                885,
+                737
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Acknowledgments"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                112,
+                753,
+                274,
+                770
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Interesting conversations with Tom Moffat are greatly appreciated."
+                    }
+                ]
+            },
+            "bbox": [
+                169,
+                787,
+                702,
+                806
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "IBM T. J. Watson Research Center assisted in meeting the publication costs of this article."
+                    }
+                ]
+            },
+            "bbox": [
+                112,
+                819,
+                707,
+                834
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "References"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                112,
+                848,
+                210,
+                864
+            ]
+        },
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "1. W. C. Moshier, G. D. Davis, J. S. Ahearn, and H. F.Hough, This Journal, 133, 1063 (1986)."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                122,
+                878,
+                746,
+                895
+            ]
+        }
+    ],
+    [
+        {
+            "type": "list",
+            "content": {
+                "list_type": "reference_list",
+                "list_items": [
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "2. W. C. Moshier, G. D. Davis, J. S. Ahearn, and H. F.Hough, ibid, 134, 2677 (1987)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "3. G. S. Frankel, M. A. Russak, C. V. Jahnes, M. Mirza-maani, and V. A. Brusic, ibid, 136, 1243 (1989)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "4. W. C. Moshier, G. D. Davis, and G. O. Cote, ibid., 136, 356 (1989)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "5. G. D. Davis, W. C. Moshier, T. L. Fritz, and G. O. Cote, ibid., 137,422 (1990)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "6. B. A. Shaw, T. L. Fritz, G. D. Davis, and W. C. Moshier, ibid., 137, 1317 (1990)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "7. B. A. Shaw, G. D. Davis, T. L. Fritz, B. J. Rees, and W. C. Moshier, in Critical Factors in Localized Corrosion, G. S. Frankel and R. C. Newman, Editors, PV 92-9 p. 323, The Electrochemical Society, Softbound Proceedings Series, Pennington, NJ (1992)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "8. E. McCafferty and P. M. Natishan ibid., p. 299."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "9. Z. Szklarska-Smialowska, Corros. Set. 33, 1193 (1992)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "10. G. S. Frankel and R. C. Newman, in Critical Factors in Localized Corrosion, G. S. Frankel and R. C. Newman, Editors, PV-92, p. ix, The Electrochemical Society Softbound Proceedings Series, Pennington, NJ (1992)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "11. R. C. Newman, Corr, Sci., 25, 331 (1985)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "12. R. C. Newman, ibid., 25, 341 (1985)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "13. M. Pourbaix, L. Klimzack-Mathieu, C. Mertens, J. Meunier, C. Vanleugenhaghe, L. de Munck, J. Laureys, L. Nellemans, and M. Warzee, ibid., 3, 239 (1963)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "14. B. E. Wilde and E. Williams, Electrochim. Acta, 16, 1971 (1971)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "15. B. E. Wilde, in Localized Corrosion, NACE-3, R. W Staehle, B. F. Brown, J. Kruger, and A. Agrawal, Editors, p. 342, NACE, Houston, TX (1974)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "16. G. S. Frankel, Corros. Sci., 30, 1203 (1990)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "17. G. S. Frankel, J. O. Dukovic, B. M. Rush, V. Brusic, and C. V. Jahnes, This Journal, 139, 2196 (1992)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "18. G. S. Frankel, C. V. Jahnes, and M. A. Russak, Corrosion, 45, 630 (1989)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "19. T. Moffat, G. R. Stafford, and D. E. Hall, Abstract 149, p. 220, The Electrochemical Society Extended Abstracts, Vol. 93-1 Honolulu, HI, Meeting, May 16-21, 1993; submitted to This Journal."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "20. J. R. Galvele, This Journal, 123, 464 (1976)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "21. L. G. Sillen and A. E. Martell, Stability Constants of Metal-ion Complexes, 2nd ed., Special publication No. 17, The Chemical Society (Great Britain), London (1964)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "22. G. B. Davis, B. A. Shaw, B. J. Rees, and M. Ferry, This Journal 140, 951 (1993)."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "23. J. Craig, R. C. Newman, and G. S. Frankel, unpublished results."
+                            }
+                        ]
+                    },
+                    {
+                        "item_type": "text",
+                        "item_content": [
+                            {
+                                "type": "text",
+                                "content": "24. G. S. Frankel, L. Stockert, F. Hunkeler, and H. Boehni, Corrosion, 43, 429 (1987)."
+                            }
+                        ]
+                    }
+                ]
+            },
+            "bbox": [
+                120,
+                89,
+                692,
+                104
+            ]
+        }
+    ]
+]

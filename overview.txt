@@ -1,0 +1,29 @@
+I have a collection of 77 research papers in materials science. They were originally in pdf format but I recently used a program called MinerU to parse them all.
+
+For each paper I have a Markdown document of the text, a json document that categorizes every piece of information in that text ("title", "paragraph", "image", "chart", "table", "equation", etc...), and every figure has been recognized & saved as a separate jpg file.
+
+Although I'm a guest researcher at Max Planck Institute, we collaborate with a company called Citrine Informatics. In 2021, researchers there manually reviewed this same collection of 77 papers (err... actually they reviewed 85 papers, but we could not obtain copies of a few) and hand-crafted a database of all the metal alloys studied therein, including information about the experiments conducted to measure their corrosion resistance and the results they found.
+
+The way they measure corrosion resistance is by taking a metal sample and submerging it in a test solution (usually a saltwater solution, but sometimes made acidic or basic by adding hydrochloric acid, sulphuric acid, sodium hydroxide, or other salts/solutes).
+
+They then run an electric current through this metal sample, gradually increasing the voltage until the electric current skyrockets. The voltage at which this happens is known as the "pitting potential" - it's the point at which the metal begins to corrode. The higher the voltage, the more resistant that metal is to corrosion (or so the theory goes - this test isn't always representative of what happens in the real world).
+
+All the details of this database were published in the journal Nature in 2021 (https://www.nature.com/articles/s41597-021-00840-y).
+
+This database includes things like the precise chemical composition of every metal alloy and test solution, the pH value of the test solution, text descriptions of any heat treatments applied to the alloys, the temperature of the solution in which the test was conducted, the measured pitting potential, and the "scan rate" (how quickly researchers increase voltage to find the pitting potential), and a few other metrics.
+
+Since this database of alloys was created by hand, it was time consuming and costly to make. Plus, it contains biases - the included only the information that they deemed most relevant and skipped over a great deal which might be significant.
+
+My job is to create some kind of system - whether a computer program, collection of agents, something - that can reproduce the same database but in a fully automated manner.
+
+I want to be able to give this system that collection of pdf files, and have it output all of the same information as contained in that hand-crafted database, then compare the generated database to the original one in order to gague how well LLMs are up to the task of making sense of the materials science literature.
+
+One part of this system needs to be responsible for generating and running Python scripts necessary for unit conversions. Chemical compositions, pitting potentials, and other metrics aren't always measured in the same units in every paper so a Python script needs to normalize everything to be the same.
+
+Once I have the system able to accurately reconstruct this database, then I'll want to add additional features to it to identify & extract other potentially interesting metrics that might affect corrosion resistance. I also want to train various kinds of machine learning models on this dataset to try to establish the relevance of every metric - e.g., do various kinds of heat treatments increase or decrease corrosion resistance? Is there something about the way the experiments are conducted which might be biasing the results? Things like that. I'm also interested in running this on a larger collection of papers, not covered by the original Citrine database.
+
+The important thing is that it's not the end result I'm interested in - it's the system itself. Other researchers need to be able to download my code and run the same system in order to reproduce my results (within a margin of error - I know that LLMs are probabilistic so you get slightly different results with every run).
+
+Ideally, I want to be able to run this on other LLMs as well - not just Codex, but it shouldn't be too difficult to transfer everything to run in Gemini, or even through an API to any other LLM (the OpenAI API has become a kind of universal standard - if you run, e.g. DeepSeek or GLM through vLLM you can access them programatically through the OpenAI API).
+
+That basically summarizes what it is I'm trying to do. 
