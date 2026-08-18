@@ -11,10 +11,11 @@ vision and local context, and save an auditable semantic classification.
 ## Workflow
 
 1. Accept one MinerU paper directory such as `mineru_output/paper_80`.
-2. Run the bundled extractor with an available Python 3.11+ interpreter:
-
+2. Run the bundled extractor with uv to use an available Python 3.11+ 
+   interpreter in the project's local virtual environment. 
+    
    ```powershell
-   python <skill-dir>/scripts/extract_chart_manifest.py <paper-folder>
+   uv run <skill-dir>/scripts/extract_chart_manifest.py <paper-folder>
    ```
 
    This writes `<paper-folder>/paper_<reference>_charts.json`. Do not discover
@@ -24,7 +25,7 @@ vision and local context, and save an auditable semantic classification.
    reason code:
 
    ```powershell
-   python <skill-dir>/scripts/prepare_classification.py `
+   uv run <skill-dir>/scripts/prepare_classification.py `
      --manifest <paper-folder>/paper_<reference>_charts.json
    ```
 
@@ -42,7 +43,7 @@ vision and local context, and save an auditable semantic classification.
 6. Update the summary and validate completeness and provenance:
 
    ```powershell
-   python <skill-dir>/scripts/validate_simple_plots.py `
+   uv run <skill-dir>/scripts/validate_simple_plots.py `
      --manifest <paper-folder>/paper_<reference>_charts.json `
      --input <paper-folder>/paper_<reference>_simple_plots.json
    ```
