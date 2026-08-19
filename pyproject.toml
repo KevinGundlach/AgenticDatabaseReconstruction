@@ -1,20 +1,11 @@
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
-
 [project]
-name = "corrosion-plot-digitizer"
+name = "agentic-database-reconstruction"
 version = "0.1.0"
-description = "Evidence-first digitization of pitting-potential plots"
+description = "Agentic reconstruction of scientific databases from literature"
 readme = "README.md"
 requires-python = ">=3.11"
-dependencies = [
-  "Pillow>=10.0",
-]
+dependencies = []
 
-[project.scripts]
-corrosion-plot-digitizer = "corrosion_plot_digitizer.cli:main"
-
-[tool.hatch.build.targets.wheel]
-packages = ["src/corrosion_plot_digitizer"]
+[tool.uv]
+package = false
 
