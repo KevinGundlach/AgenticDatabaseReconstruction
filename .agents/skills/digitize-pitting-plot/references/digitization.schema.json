@@ -1,0 +1,273 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:agentic-database-reconstruction:digitize-pitting-plot:v1",
+  "title": "Digitized pitting-potential plot",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source", "digitization"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "source": {"$ref": "#/$defs/source"},
+    "digitization": {"$ref": "#/$defs/digitization"}
+  },
+  "$defs": {
+    "nonEmptyString": {"type": "string", "minLength": 1},
+    "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+    "fileReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["path", "sha256"],
+      "properties": {
+        "path": {"$ref": "#/$defs/nonEmptyString"},
+        "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"}
+      }
+    },
+    "classifierAxis": {
+      "type": "object",
+      "required": ["label", "unit", "scale"],
+      "properties": {
+        "label": {"type": "string"},
+        "unit": {"type": "string"},
+        "scale": {"enum": ["linear", "log", "categorical", "unknown"]}
+      }
+    },
+    "plotMetadata": {
+      "type": "object",
+      "required": [
+        "chart_id", "image_path", "caption", "reason_code", "reason",
+        "confidence", "relevant_panels", "target_series", "x_axis", "y_axis"
+      ],
+      "properties": {
+        "chart_id": {"$ref": "#/$defs/nonEmptyString"},
+        "image_path": {"type": "string"},
+        "caption": {"type": "string"},
+        "reason_code": {"const": "direct_pitting_potential_plot"},
+        "reason": {"$ref": "#/$defs/nonEmptyString"},
+        "confidence": {"$ref": "#/$defs/confidence"},
+        "relevant_panels": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        },
+        "target_series": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        },
+        "x_axis": {"$ref": "#/$defs/classifierAxis"},
+        "y_axis": {"$ref": "#/$defs/classifierAxis"}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "paper_reference", "source_chart_manifest", "image", "metadata",
+        "plot_metadata"
+      ],
+      "properties": {
+        "paper_reference": {"$ref": "#/$defs/nonEmptyString"},
+        "source_chart_manifest": {"$ref": "#/$defs/nonEmptyString"},
+        "image": {"$ref": "#/$defs/fileReference"},
+        "metadata": {"$ref": "#/$defs/fileReference"},
+        "plot_metadata": {"$ref": "#/$defs/plotMetadata"}
+      }
+    },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["code", "message", "target_series_refs"],
+      "properties": {
+        "code": {
+          "enum": [
+            "ambiguous_axis", "ambiguous_series_mapping",
+            "ambiguous_mark_semantics", "insufficient_resolution",
+            "occluded_marks", "unresolved_target_series",
+            "unsupported_geometry"
+          ]
+        },
+        "message": {"$ref": "#/$defs/nonEmptyString"},
+        "target_series_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        }
+      }
+    },
+    "axis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "axis_id", "dimension", "side", "label_raw", "unit_raw", "scale",
+        "value_type", "target_metric", "breaks"
+      ],
+      "properties": {
+        "axis_id": {"$ref": "#/$defs/nonEmptyString"},
+        "dimension": {"enum": ["x", "y"]},
+        "side": {"enum": ["bottom", "top", "left", "right", "unknown"]},
+        "label_raw": {"type": "string"},
+        "unit_raw": {"type": "string"},
+        "scale": {"enum": ["linear", "log", "categorical", "unknown"]},
+        "value_type": {"enum": ["numeric", "categorical", "mixed", "unknown"]},
+        "target_metric": {"type": "boolean"},
+        "breaks": {"type": "array", "items": {"$ref": "#/$defs/nonEmptyString"}}
+      }
+    },
+    "tag": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["key", "value_raw", "evidence_source"],
+      "properties": {
+        "key": {"$ref": "#/$defs/nonEmptyString"},
+        "value_raw": {"$ref": "#/$defs/nonEmptyString"},
+        "evidence_source": {
+          "enum": [
+            "legend", "plot_annotation", "caption", "axis",
+            "classifier_metadata"
+          ]
+        }
+      }
+    },
+    "visualEncoding": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["color_raw", "marker_raw", "line_raw", "fill_raw"],
+      "properties": {
+        "color_raw": {"type": "string"},
+        "marker_raw": {"type": "string"},
+        "line_raw": {"type": "string"},
+        "fill_raw": {"type": "string"}
+      }
+    },
+    "interval": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["lower", "upper", "kind", "meaning_raw"],
+      "properties": {
+        "lower": {"type": "number"},
+        "upper": {"type": "number"},
+        "kind": {"enum": ["error_bar", "reported_range", "other"]},
+        "meaning_raw": {"type": "string"}
+      }
+    },
+    "coordinateValue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["axis_id", "value", "interval"],
+      "properties": {
+        "axis_id": {"$ref": "#/$defs/nonEmptyString"},
+        "value": {"type": ["number", "string", "null"]},
+        "interval": {
+          "anyOf": [
+            {"type": "null"},
+            {"$ref": "#/$defs/interval"}
+          ]
+        }
+      }
+    },
+    "observation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "observation_id", "mark_type", "values", "label_raw", "confidence",
+        "notes"
+      ],
+      "properties": {
+        "observation_id": {"$ref": "#/$defs/nonEmptyString"},
+        "mark_type": {"enum": ["marker", "bar", "range", "other_discrete"]},
+        "values": {
+          "type": "array",
+          "minItems": 2,
+          "items": {"$ref": "#/$defs/coordinateValue"}
+        },
+        "label_raw": {"type": "string"},
+        "confidence": {"$ref": "#/$defs/confidence"},
+        "notes": {"type": "string"}
+      }
+    },
+    "series": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "series_id", "target_series_refs", "labels_raw", "tags", "x_axis_id",
+        "y_axis_id", "visual_encoding", "observations"
+      ],
+      "properties": {
+        "series_id": {"$ref": "#/$defs/nonEmptyString"},
+        "target_series_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        },
+        "labels_raw": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        },
+        "tags": {"type": "array", "items": {"$ref": "#/$defs/tag"}},
+        "x_axis_id": {"$ref": "#/$defs/nonEmptyString"},
+        "y_axis_id": {"$ref": "#/$defs/nonEmptyString"},
+        "visual_encoding": {"$ref": "#/$defs/visualEncoding"},
+        "observations": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/observation"}
+        }
+      }
+    },
+    "omittedSeries": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["label_raw", "reason_code", "notes"],
+      "properties": {
+        "label_raw": {"$ref": "#/$defs/nonEmptyString"},
+        "reason_code": {
+          "enum": [
+            "non_pitting_metric", "fitted_or_connecting_line",
+            "other_out_of_scope"
+          ]
+        },
+        "notes": {"type": "string"}
+      }
+    },
+    "panel": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "panel_id", "label_raw", "notes", "axes", "series", "omitted_series"
+      ],
+      "properties": {
+        "panel_id": {"$ref": "#/$defs/nonEmptyString"},
+        "label_raw": {"type": "string"},
+        "notes": {"type": "string"},
+        "axes": {"type": "array", "items": {"$ref": "#/$defs/axis"}},
+        "series": {"type": "array", "items": {"$ref": "#/$defs/series"}},
+        "omitted_series": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/omittedSeries"}
+        }
+      }
+    },
+    "digitization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "status", "reason_code", "reason", "confidence", "issues", "panels"
+      ],
+      "properties": {
+        "status": {"enum": ["complete", "partial", "needs_review", "skipped"]},
+        "reason_code": {
+          "enum": [
+            "digitized_discrete_marks", "partially_digitized",
+            "ambiguous_axis", "ambiguous_series_mapping",
+            "ambiguous_mark_semantics", "insufficient_resolution",
+            "markerless_trace", "unsupported_geometry",
+            "no_discrete_target_marks"
+          ]
+        },
+        "reason": {"$ref": "#/$defs/nonEmptyString"},
+        "confidence": {"$ref": "#/$defs/confidence"},
+        "issues": {"type": "array", "items": {"$ref": "#/$defs/issue"}},
+        "panels": {"type": "array", "items": {"$ref": "#/$defs/panel"}}
+      }
+    }
+  }
+}
