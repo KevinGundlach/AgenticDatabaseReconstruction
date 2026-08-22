@@ -56,5 +56,16 @@ def main():
        
 
 if __name__ == "__main__":
-    main() 
+
+    pass 
+
+    # papers = ['paper_2_', 'paper_3_', 'paper_4_']
+
+    # files = [f for f in os.listdir('pitting_potential_plots')
+    #          if any(f.startswith(p) for p in papers) and f.endswith('.jpg')]
+
+    # for f in files:
+    #     print(f)
+
+    # main() 
 
