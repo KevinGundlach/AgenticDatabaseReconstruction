@@ -1,6 +1,6 @@
 ---
 name: tabularize-plots
-description: Extract and digitize pitting potential plot figures and metadata into schema-compliant JSON format. Use whenever asked to tabularize, digitize, or extract data from images in Images/Batch_*.
+description: Extract and digitize pitting potential plot figures and paired metadata from a user-supplied input directory into schema-compliant JSON files in a user-supplied output directory.
 ---
 
 # Tabularize Plots Skill
@@ -9,9 +9,11 @@ This skill extracts and digitizes pitting-potential plot figures from materials 
 
 ## Input & Output Locations
 
-* **Input Images & Metadata**: `Images/Batch_{n}/` (contains paired `*.jpg` figures and `*.json` metadata files).
-* **Output Destination**: `Output/Batch_{n}/tabularized_{image_name}.json`.
+* **Input Images & Metadata**: A required user-supplied directory containing paired `*.jpg` figures and `*.json` metadata files.
+* **Output Destination**: A required user-supplied directory. Write each result as `tabularized_{image_name}.json` inside it.
 * **Output Schema**: [references/digitized_pitting_potential_plot.schema.json](./references/digitized_pitting_potential_plot.schema.json) (or root `digitized_pitting_potential_plot.schema.json`).
+
+Both directory paths must be explicitly supplied by the user. Do not infer, search for, or default either path. If either path is missing, ask for the missing path and do not continue until it is supplied.
 
 ---
 
@@ -46,20 +48,21 @@ All generated JSON files must strictly adhere to the `digitized-pitting-potentia
 
 ## Step-by-Step Execution Runbook
 
-### Step 1: Identify Target Batch
-* If the user specified a batch number or directory in their prompt (e.g., `Batch 1`, `Images/Batch_2`), target that batch.
-* If unspecified, ask the user which batch (`1` through `10`) to process.
+### Step 1: Collect Required Paths
+* Require the user to supply both the input directory and output directory.
+* If either path is missing, ask for it and stop. Do not discover a likely directory or substitute a default.
 
-### Step 2: Prepare Target Output Directory
-* Ensure the target directory `Output/Batch_{n}` exists (create it if missing).
+### Step 2: Verify Input and Prepare Output
+* Confirm that the supplied input path exists and is a directory. If not, report the error and stop.
+* Ensure the explicitly supplied output directory exists; create it if missing.
 
 ### Step 3: Discover Input Files
-* List all files in `Images/Batch_{n}/`.
+* List all files in the supplied input directory.
 * Identify each paired `.jpg` and `.json` metadata file.
 
 ### Step 4: Process Each Plot Image (Direct Multimodal Vision)
-For each plot figure in the batch, process one figure at a time and write out its file immediately:
-1. **Metadata Context**: Read the corresponding `.json` metadata file (e.g. `Images/Batch_{n}/{image_name}.json`) to obtain `paper_reference`, `source_chart_manifest`, and `plot_metadata`.
+For each plot figure in the input directory, process one figure at a time and write out its file immediately:
+1. **Metadata Context**: Read the corresponding `{image_name}.json` metadata file from the supplied input directory to obtain `paper_reference`, `source_chart_manifest`, and `plot_metadata`.
 2. **Visual Inspection**: View and inspect the `.jpg` image using the `view_file` tool to examine axes, tick marks, legends, labels, and marker positions directly with multimodal vision.
 3. **Digitize Points**: Directly extract data points, series names, tags, and coordinates using native vision capabilities. Do not write CV/image-processing code.
 4. **Construct & Write Output JSON**: 
@@ -68,18 +71,20 @@ For each plot figure in the batch, process one figure at a time and write out it
    * Set `digitization_status` (`"complete"`, `"partial"`, `"needs_review"`, or `"skipped"`).
    * Include `digitization_notes` (array of strings, required if partial/needs_review/skipped).
    * Populate `plot_data`: ensure each series defines unique `series_id`, `tags`, `data_points`, and both `x_axis` and `y_axis` with `type` (`"numeric"` / `"categorical"`) and exactly one `is_target: true`.
-   * Immediately save the output file to `Output/Batch_{n}/tabularized_{image_name}.json` before proceeding to the next figure.
+   * Immediately save the output file as `tabularized_{image_name}.json` in the supplied output directory before proceeding to the next figure.
 
 ### Step 5: Validate Outputs
 * Execute the permanent validation script:
-  ```bash
-  uv run .agents/skills/tabularize-plots/scripts/validate_outputs.py {n}
+  ```powershell
+  uv run .agents/skills/tabularize-plots/scripts/validate_outputs.py `
+    --input <input-directory> `
+    --output <output-directory>
   ```
 * If validation identifies schema or semantic discrepancies, correct the generated output JSON files and re-validate.
 
 ### Step 6: Present Summary Report
 * Print a clear final summary table listing:
-  * Total files processed in `Batch_{n}`.
+  * Total files processed from the supplied input directory.
   * Number of `complete`, `partial`, and `needs_review` / `skipped` files.
   * Any specific notes or warnings regarding difficult figures.
 
@@ -93,5 +98,5 @@ For each plot figure in the batch, process one figure at a time and write out it
 * **No Inline Python**: Do **NOT** execute inline Python code on the command line (e.g., avoid `python -c "..."` or command-line one-liners).
 * **Script Storage Rules**:
   * **Permanent / Skill Scripts**: All reusable, permanent scripts belong inside `.agents/skills/tabularize-plots/scripts/` (e.g., `validate_outputs.py`).
-  * **Ad-hoc Scripts**: If any non-digitization calculation script is needed, store it in `Temporary_Scripts/`.
+  * **Ad-hoc Scripts**: If any non-digitization calculation script is needed, store it in `.agents/skills/tabularize-plots/temp_scripts/`.
 * **Strict Error Handling & Abort Policy**: If `uv run` fails due to permission denial or environment errors (and is not resolved by bypassing sandbox restrictions), **stop immediately and report the error directly to the user**. Do **NOT** attempt ad-hoc workarounds, shell probing, or command guessing.

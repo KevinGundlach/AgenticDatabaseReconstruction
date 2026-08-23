@@ -5,7 +5,6 @@ Validates output JSON files against the standardized schema and semantic rules.
 """
 
 import sys
-import os
 import json
 import argparse
 from pathlib import Path
@@ -21,27 +20,24 @@ def find_schema(script_dir: Path, workspace_root: Path) -> Path:
             return p
     raise FileNotFoundError("Could not find digitized_pitting_potential_plot.schema.json in skill references or workspace root.")
 
-def find_input_metadata(output_file: Path, workspace_root: Path) -> Path | None:
-    """Find the corresponding input metadata JSON file in Images/."""
+def find_input_metadata(output_file: Path, input_dir: Path) -> Path:
+    """Return the expected input metadata path for an output JSON file."""
     # Output file: tabularized_{stem}.json
     stem = output_file.stem
     if stem.startswith("tabularized_"):
         stem = stem[len("tabularized_"):]
-    
-    batch_name = output_file.parent.name # e.g. Batch_1
-    candidate = workspace_root / "Images" / batch_name / f"{stem}.json"
-    if candidate.exists():
-        return candidate
-    return None
 
-def semantic_checks(data: dict, file_path: Path, workspace_root: Path) -> list[str]:
+    return input_dir / f"{stem}.json"
+
+def semantic_checks(data: dict, file_path: Path, input_dir: Path) -> tuple[list[str], list[str]]:
     """Perform non-schema semantic checks described in the schema specification."""
     errors = []
+    warnings = []
     plot_data = data.get("plot_data", [])
-    
+
     # 1. Cross-reference with input metadata if available
-    input_meta_path = find_input_metadata(file_path, workspace_root)
-    if input_meta_path:
+    input_meta_path = find_input_metadata(file_path, input_dir)
+    if input_meta_path.exists():
         try:
             with open(input_meta_path, "r", encoding="utf-8") as f:
                 input_meta = json.load(f)
@@ -53,6 +49,8 @@ def semantic_checks(data: dict, file_path: Path, workspace_root: Path) -> list[s
                 errors.append("plot_metadata does not exactly match the input metadata file.")
         except Exception as e:
             errors.append(f"Failed to read paired input metadata {input_meta_path.name}: {e}")
+    else:
+        warnings.append(f"Paired input metadata not found: {input_meta_path}")
 
     # 2. series_id uniqueness within plot_data
     seen_series = set()
@@ -86,9 +84,9 @@ def semantic_checks(data: dict, file_path: Path, workspace_root: Path) -> list[s
                         if not (pt["y_lower"] <= pt["y"] <= pt["y_upper"]):
                             errors.append(f"Series '{s_id}' point #{p_idx}: y_value ({pt['y']}) not in [{pt['y_lower']}, {pt['y_upper']}].")
 
-    return errors
+    return errors, warnings
 
-def validate_batch(target_dir: Path, schema_path: Path, workspace_root: Path):
+def validate_outputs(input_dir: Path, output_dir: Path, schema_path: Path):
     try:
         import jsonschema
         from jsonschema import Draft202012Validator
@@ -101,12 +99,13 @@ def validate_batch(target_dir: Path, schema_path: Path, workspace_root: Path):
 
     validator = Draft202012Validator(schema)
 
-    json_files = sorted(list(target_dir.glob("tabularized_*.json")) or list(target_dir.glob("*.json")))
+    json_files = sorted(list(output_dir.glob("tabularized_*.json")) or list(output_dir.glob("*.json")))
     if not json_files:
-        print(f"[WARN] No JSON files found in {target_dir}")
+        print(f"[WARN] No JSON files found in {output_dir}")
         return True
 
-    print(f"\n--- Validating {len(json_files)} output file(s) in {target_dir} ---")
+    print(f"\n--- Validating {len(json_files)} output file(s) in {output_dir} ---")
+    print(f"Using input metadata from: {input_dir}")
     print(f"Using schema: {schema_path.name}\n")
 
     total_valid = 0
@@ -123,7 +122,10 @@ def validate_batch(target_dir: Path, schema_path: Path, workspace_root: Path):
             continue
 
         schema_errors = list(validator.iter_errors(data))
-        sem_errors = semantic_checks(data, jf, workspace_root)
+        sem_errors, sem_warnings = semantic_checks(data, jf, input_dir)
+
+        for warning in sem_warnings:
+            print(f"[WARN] {jf.name}: {warning}")
 
         if not schema_errors and not sem_errors:
             status = data.get("digitization_status", "unknown")
@@ -140,7 +142,7 @@ def validate_batch(target_dir: Path, schema_path: Path, workspace_root: Path):
                 print(f"   • Semantic error: {err}")
 
     print("\n" + "="*50)
-    print(f"Summary for {target_dir.name}:")
+    print(f"Summary for {output_dir.name}:")
     print(f"  Total Checked : {len(json_files)}")
     print(f"  Valid         : {total_valid}")
     print(f"  Invalid       : {total_invalid}")
@@ -154,30 +156,26 @@ def validate_batch(target_dir: Path, schema_path: Path, workspace_root: Path):
 
 def main():
     parser = argparse.ArgumentParser(description="Validate digitized pitting potential JSON outputs.")
-    parser.add_argument("batch", nargs="?", default="1", help="Batch number (e.g. 1 or Batch_1) or path to output folder.")
+    parser.add_argument("--input", required=True, type=Path, help="Directory containing paired input metadata JSON files.")
+    parser.add_argument("--output", required=True, type=Path, help="Directory containing tabularized output JSON files.")
     args = parser.parse_args()
 
     script_dir = Path(__file__).resolve().parent
     workspace_root = Path.cwd()
-
     schema_path = find_schema(script_dir, workspace_root)
 
-    # Determine target folder
-    target = args.batch
-    if os.path.exists(target) and os.path.isdir(target):
-        target_dir = Path(target)
-    elif target.isdigit():
-        target_dir = workspace_root / "Output" / f"Batch_{target}"
-    elif target.lower().startswith("batch_"):
-        target_dir = workspace_root / "Output" / target
-    else:
-        target_dir = workspace_root / "Output" / f"Batch_{target}"
+    input_dir = args.input.expanduser().resolve()
+    output_dir = args.output.expanduser().resolve()
 
-    if not target_dir.exists():
-        print(f"[ERROR] Target directory '{target_dir}' does not exist.", file=sys.stderr)
-        sys.exit(1)
+    for label, directory in (("Input", input_dir), ("Output", output_dir)):
+        if not directory.exists():
+            print(f"[ERROR] {label} directory '{directory}' does not exist.", file=sys.stderr)
+            sys.exit(1)
+        if not directory.is_dir():
+            print(f"[ERROR] {label} path '{directory}' is not a directory.", file=sys.stderr)
+            sys.exit(1)
 
-    success = validate_batch(target_dir, schema_path, workspace_root)
+    success = validate_outputs(input_dir, output_dir, schema_path)
     sys.exit(0 if success else 1)
 
 if __name__ == "__main__":
