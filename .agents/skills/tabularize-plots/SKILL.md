@@ -22,7 +22,7 @@ Both directory paths must be explicitly supplied by the user. Do not infer, sear
 All generated JSON files must strictly adhere to the `digitized-pitting-potential-plot:v2` schema:
 
 1. **Direct Multimodal Vision Extraction**:
-   * **Rely on Native Vision**: Use your built-in multimodal capabilities to directly view and read figures via `view_file`. Directly inspect tick marks, axis bounds, data points, error bars, markers, and legends.
+   * **Rely on Native Vision**: Use your built-in multimodal capabilities to directly view and read figures using the available image-viewing tool (e.g., `view_file` in Antigravity or `view_image` in Codex). Directly inspect tick marks, axis bounds, data points, error bars, markers, and legends.
    * **No Complex CV Scripting**: Do **NOT** generate complex Python scripts involving OpenCV, contour detection, OCR, or pixel heuristics to extract data points. Direct multimodal inspection is faster, more robust, and significantly more accurate for materials science plots.
 
 2. **Root Fields**:
@@ -63,7 +63,7 @@ All generated JSON files must strictly adhere to the `digitized-pitting-potentia
 ### Step 4: Process Each Plot Image (Direct Multimodal Vision)
 For each plot figure in the input directory, process one figure at a time and write out its file immediately:
 1. **Metadata Context**: Read the corresponding `{image_name}.json` metadata file from the supplied input directory to obtain `paper_reference`, `source_chart_manifest`, and `plot_metadata`.
-2. **Visual Inspection**: View and inspect the `.jpg` image using the `view_file` tool to examine axes, tick marks, legends, labels, and marker positions directly with multimodal vision.
+2. **Visual Inspection**: View and inspect the `.jpg` image using the available image-viewing tool (e.g., `view_file` in Antigravity or `view_image` in Codex) to examine axes, tick marks, legends, labels, and marker positions directly with multimodal vision.
 3. **Digitize Points**: Directly extract data points, series names, tags, and coordinates using native vision capabilities. Do not write CV/image-processing code.
 4. **Construct & Write Output JSON**: 
    * Retain `paper_reference`, `source_chart_manifest`, and `plot_metadata` verbatim from the input metadata.
@@ -75,10 +75,8 @@ For each plot figure in the input directory, process one figure at a time and wr
 
 ### Step 5: Validate Outputs
 * Execute the permanent validation script:
-  ```powershell
-  uv run .agents/skills/tabularize-plots/scripts/validate_outputs.py `
-    --input <input-directory> `
-    --output <output-directory>
+  ```text
+  uv run .agents/skills/tabularize-plots/scripts/validate_outputs.py --input "<input-directory>" --output "<output-directory>"
   ```
 * If validation identifies schema or semantic discrepancies, correct the generated output JSON files and re-validate.
 
@@ -92,11 +90,11 @@ For each plot figure in the input directory, process one figure at a time and wr
 
 ## Environment & Scripting Rules
 
-* **Virtual Environment & System-wide `uv`**: `uv` is installed system-wide. If `uv` is not recognized or not found when running a command, that is likely only due to it being blocked by the sandboxed environment (switch to bypass sandbox mode / `BypassSandbox: true` if needed).
-* **Direct LLM Extraction**: Python scripting is not needed for plot digitizing; use Python solely for validation (`validate_outputs.py`).
+* **Virtual Environment & System-wide `uv`**: `uv` is installed system-wide. If `uv run` is blocked by sandbox permissions, use the available sandbox-bypass or permission-escalation mechanism (e.g., `BypassSandbox` in Antigravity or permission escalation in Codex).
+* **Direct Multimodal Extraction**: Python scripting is not needed for plot digitizing; use Python solely for validation (`validate_outputs.py`).
 * **Execution via `uv run`**: Always run Python scripts using `uv run <path_to_script.py>`.
 * **No Inline Python**: Do **NOT** execute inline Python code on the command line (e.g., avoid `python -c "..."` or command-line one-liners).
 * **Script Storage Rules**:
   * **Permanent / Skill Scripts**: All reusable, permanent scripts belong inside `.agents/skills/tabularize-plots/scripts/` (e.g., `validate_outputs.py`).
   * **Ad-hoc Scripts**: If any non-digitization calculation script is needed, store it in `.agents/skills/tabularize-plots/temp_scripts/`.
-* **Strict Error Handling & Abort Policy**: If `uv run` fails due to permission denial or environment errors (and is not resolved by bypassing sandbox restrictions), **stop immediately and report the error directly to the user**. Do **NOT** attempt ad-hoc workarounds, shell probing, or command guessing.
+* **Strict Error Handling & Abort Policy**: If `uv run` still fails because of permissions or environment errors, **stop and report the exact error**. Do **NOT** attempt ad-hoc workarounds, shell probing, or command guessing.
