@@ -87,11 +87,11 @@ For each plot figure in the batch, process one figure at a time and write out it
 
 ## Environment & Scripting Rules
 
-* **Virtual Environment**: Use `uv` to manage dependencies and execute scripts.
+* **Virtual Environment & System-wide `uv`**: `uv` is installed system-wide. If `uv` is not recognized or not found when running a command, that is likely only due to it being blocked by the sandboxed environment (switch to bypass sandbox mode / `BypassSandbox: true` if needed).
 * **Direct LLM Extraction**: Python scripting is not needed for plot digitizing; use Python solely for validation (`validate_outputs.py`).
 * **Execution via `uv run`**: Always run Python scripts using `uv run <path_to_script.py>`.
 * **No Inline Python**: Do **NOT** execute inline Python code on the command line (e.g., avoid `python -c "..."` or command-line one-liners).
 * **Script Storage Rules**:
   * **Permanent / Skill Scripts**: All reusable, permanent scripts belong inside `.agents/skills/tabularize-plots/scripts/` (e.g., `validate_outputs.py`).
   * **Ad-hoc Scripts**: If any non-digitization calculation script is needed, store it in `Temporary_Scripts/`.
-* **Strict Error Handling & Abort Policy**: If `uv run` fails due to permission denial, command discovery issues, or environment errors, **stop immediately and report the error directly to the user**. Do **NOT** attempt ad-hoc workarounds, shell probing, or command guessing.
+* **Strict Error Handling & Abort Policy**: If `uv run` fails due to permission denial or environment errors (and is not resolved by bypassing sandbox restrictions), **stop immediately and report the error directly to the user**. Do **NOT** attempt ad-hoc workarounds, shell probing, or command guessing.
