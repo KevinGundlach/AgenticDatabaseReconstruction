@@ -28,6 +28,27 @@ They found that incorporating this additional information significantly improved
 
 This paper also explores a "Feature Transformed DNN" in which the compositional parameters of the alloys have been transformed into a set of different descriptors making use of different atomic, physical, and chemical properties of the constituent elements. This allows the model to generalize over alloy compositions involving elements not seen during training. Unlike the "Process Aware DNN", however, this model does not make use of the textual input. 
 
+## Repository Structure
+
+### Folders:
+
+* `citrine_database/`: Contains the original corrosion resistance database (CRA_database_Scientific_Data_Publication_12102020.xlsx) along with the pitting potential spreadsheet from that database saved as a csv (pitting_potential.csv).
+
+* `papers/`: Contains the corpus of literature, in pdf format, from which the Citrine database was created.
+
+* `mineru_output/`: The [MinerU](https://opendatalab.github.io/MinerU/) utility was used to parse each research paper, the output of which is placed in this folder. Each subfolder is named according to `paper_{reference_number}/`. 
+
+* `pitting_potential_plots/images`: Contains jpg files of all of the figures that represent plots of "pitting potential" vs. another metric, along with corresponding metadata (e.g, figure captions). This information comes from the `MinerU` output and the `classify-pitting-plots` agent skill.
+
+* `pitting_potential_plots/tabularized`: Contains the output of the `tabularize-plots` skill applied to each of the figures in `pitting_potential_plots/images`.
+
+* `schemas/digitized_pitting_potential_plot.schema.json` A complete schema with descriptions of the json files output by the `tabularize-plots` skill.
+
+### Agents:
+
+* `classify_pitting_plots`: Traverses the parsed images of all papers in the `mineru_output` folder, identifying those figures which represent plots of pitting potential vs. another metric. It's these figures from which much of the information in the Citrine Database was derived. Results are saved to `paper_{reference_number}_charts.json` and `paper_{reference_number}_simple_plots.json`.
+
+* `tabularize-plots`: Takes every image identified by `classify_pitting_plots` and converts every plotted datapoint into tabular/json form, along with properly identifying axes and separately labeled series within each plot.
 
 
 
