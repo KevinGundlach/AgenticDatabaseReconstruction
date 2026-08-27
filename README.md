@@ -50,5 +50,14 @@ This paper also explores a "Feature Transformed DNN" in which the compositional 
 
 * `tabularize-plots`: Takes every image identified by `classify_pitting_plots` and converts every plotted datapoint into tabular/json form, along with properly identifying axes and separately labeled series within each plot.
 
+## Current Goals:
 
+- [ ] Develop a set of agent skills capable of reliably and autonomously reconstructing the Citrine pitting potential dataset from the literature in `papers/`. 
 
+    + Every piece of data must be directly traceable to its source - not merely to the paper its from, but to the precise figure or quote from the paper's text. This will help to ensure accurate extraction. 
+
+    + The system will first generate an unnormalized database containing the raw values as cited in the papers, in their original units. Deterministic python scripts will then be used to convert all values into consistent units.  
+
+- [ ] Extend the framework to identify and record additional metrics/details related to pitting potential that is mentioned in the papers, but was not included in the Citrine database. A meta-ontology such as [GEMD](https://citrineinformatics.github.io/gemd-docs/) may be used to record this information if data sparsity makes a tabular format unsuitable. 
+
+- [ ] Develop machine learning models and heuristics to quantify the effect that each extracted feature has on the pitting potential, in an attempt to explain the causes and factors that impact alloy corrosion resistance.
