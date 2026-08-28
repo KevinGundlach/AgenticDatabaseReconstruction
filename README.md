@@ -44,11 +44,21 @@ This paper also explores a "Feature Transformed DNN" in which the compositional 
 
 * `schemas/digitized_pitting_potential_plot.schema.json` A complete schema with descriptions of the json files output by the `tabularize-plots` skill.
 
+* `corrosion_tables/images`: Staging area for table images classified as processable, paired with source and catalog metadata sidecars.
+
+* `corrosion_tables/tabularized`: Contains source-faithful structured JSON produced by the `parse-corrosion-tables` skill.
+
+* `schemas/digitized_corrosion_table.schema.json`: Canonical schema for parsed corrosion tables, including merged cells, raw and parsed values, and hierarchical header links.
+
 ### Agents:
 
 * `classify_pitting_plots`: Traverses the parsed images of all papers in the `mineru_output` folder, identifying those figures which represent plots of pitting potential vs. another metric. It's these figures from which much of the information in the Citrine Database was derived. Results are saved to `paper_{reference_number}_charts.json` and `paper_{reference_number}_simple_plots.json`.
 
 * `tabularize-plots`: Takes every image identified by `classify_pitting_plots` and converts every plotted datapoint into tabular/json form, along with properly identifying axes and separately labeled series within each plot.
+
+* `catalog-corrosion-tables`: Inventories every MinerU table in a paper, preserves its structured source context, classifies its purpose and processability, maps visible headers to Citrine fields, and stages processable images.
+
+* `parse-corrosion-tables`: Reconstructs staged table images into schema-compliant JSON while preserving physical cell spans, exact visible text, conservative parsed values, footnotes, and row/column header relationships.
 
 ## Current Goals:
 

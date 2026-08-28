@@ -1,0 +1,270 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:agentic-database-reconstruction:digitized-corrosion-table:v1",
+  "title": "Digitized corrosion table output",
+  "description": "Source-faithful structural parsing of one staged corrosion table image.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "source",
+    "parsing_status",
+    "parsing_notes",
+    "mineru_assessment",
+    "grids"
+  ],
+  "properties": {
+    "schema_version": {"const": 1},
+    "source": {"$ref": "#/$defs/source"},
+    "parsing_status": {
+      "enum": ["complete", "partial", "needs_review", "skipped"]
+    },
+    "parsing_notes": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/nonEmptyString"}
+    },
+    "mineru_assessment": {"$ref": "#/$defs/mineruAssessment"},
+    "grids": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/grid"}
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {"parsing_status": {"enum": ["complete", "partial"]}},
+        "required": ["parsing_status"]
+      },
+      "then": {"properties": {"grids": {"minItems": 1}}}
+    },
+    {
+      "if": {
+        "properties": {"parsing_status": {"const": "partial"}},
+        "required": ["parsing_status"]
+      },
+      "then": {"properties": {"parsing_notes": {"minItems": 1}}}
+    },
+    {
+      "if": {
+        "properties": {
+          "parsing_status": {"enum": ["needs_review", "skipped"]}
+        },
+        "required": ["parsing_status"]
+      },
+      "then": {
+        "properties": {
+          "parsing_notes": {"minItems": 1},
+          "grids": {"maxItems": 0}
+        }
+      }
+    }
+  ],
+  "$comment": "Semantic checks outside JSON Schema: grid IDs and cell IDs must be unique; cell bounds must fit the grid and not overlap; header links must resolve within the same grid; row_start <= row_end and column_start <= column_end.",
+  "$defs": {
+    "nonEmptyString": {"type": "string", "minLength": 1},
+    "bbox": {
+      "oneOf": [
+        {
+          "type": "array",
+          "prefixItems": [
+            {"type": "number"},
+            {"type": "number"},
+            {"type": "number"},
+            {"type": "number"}
+          ],
+          "items": false
+        },
+        {"type": "null"}
+      ]
+    },
+    "tableRole": {
+      "enum": [
+        "alloy_composition",
+        "corrosion_measurements",
+        "test_environment",
+        "test_method",
+        "material_processing",
+        "microstructure_phase",
+        "mechanical_properties",
+        "regression_model_results",
+        "material_identifiers",
+        "other"
+      ]
+    },
+    "citrineField": {
+      "enum": [
+        "No.", "Fe", "Cr", "Ni", "Mo", "W", "N", "Nb", "C", "Si",
+        "Mn", "Cu", "P", "S", "Al", "V", "Ta", "Re", "Ce", "Ti",
+        "Co", "B", "Mg", "Y", "Gd", "Avg. Epit, mV (SCE) ",
+        "Max Epit, mV (SCE)", "Min Epit, mV (SCE)", "Test Temp. C",
+        "Test Solution", "[Cl-] M", "pH", "Test Method",
+        "Scan Rate mV/s", "Heat treatment", "Microstructures", "Comments",
+        "Reference", "Material class"
+      ]
+    },
+    "citrineFieldMapping": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "citrine_field",
+        "source_label",
+        "header_role",
+        "match_type",
+        "confidence"
+      ],
+      "properties": {
+        "citrine_field": {"$ref": "#/$defs/citrineField"},
+        "source_label": {"$ref": "#/$defs/nonEmptyString"},
+        "header_role": {"enum": ["column_header", "row_header"]},
+        "match_type": {"enum": ["exact", "synonym", "semantic"]},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    },
+    "section": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "block_id", "type", "page_number", "item_index", "bbox", "text", "level"
+      ],
+      "properties": {
+        "block_id": {"$ref": "#/$defs/nonEmptyString"},
+        "type": {"const": "title"},
+        "page_number": {"type": "integer", "minimum": 1},
+        "item_index": {"type": "integer", "minimum": 1},
+        "bbox": {"$ref": "#/$defs/bbox"},
+        "text": {"$ref": "#/$defs/nonEmptyString"},
+        "level": {"type": "integer", "minimum": 1}
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "paper_reference",
+        "source_table_manifest",
+        "source_table_catalog",
+        "table_id",
+        "page_number",
+        "item_index",
+        "bbox",
+        "image_path",
+        "caption",
+        "footnote",
+        "section_path",
+        "table_roles",
+        "citrine_field_mappings"
+      ],
+      "properties": {
+        "paper_reference": {"$ref": "#/$defs/nonEmptyString"},
+        "source_table_manifest": {"$ref": "#/$defs/nonEmptyString"},
+        "source_table_catalog": {"$ref": "#/$defs/nonEmptyString"},
+        "table_id": {"$ref": "#/$defs/nonEmptyString"},
+        "page_number": {"type": "integer", "minimum": 1},
+        "item_index": {"type": "integer", "minimum": 1},
+        "bbox": {"$ref": "#/$defs/bbox"},
+        "image_path": {"$ref": "#/$defs/nonEmptyString"},
+        "caption": {"type": "string"},
+        "footnote": {"type": "string"},
+        "section_path": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/section"}
+        },
+        "table_roles": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/tableRole"}
+        },
+        "citrine_field_mappings": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/citrineFieldMapping"}
+        }
+      }
+    },
+    "mineruAssessment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "notes"],
+      "properties": {
+        "status": {
+          "enum": [
+            "consistent", "minor_errors", "major_errors", "unusable", "not_available"
+          ]
+        },
+        "notes": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        }
+      }
+    },
+    "cell": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "cell_id",
+        "row_start",
+        "row_end",
+        "column_start",
+        "column_end",
+        "role",
+        "raw_text",
+        "value",
+        "footnote_markers",
+        "row_header_ids",
+        "column_header_ids",
+        "transcription_status",
+        "notes"
+      ],
+      "properties": {
+        "cell_id": {"$ref": "#/$defs/nonEmptyString"},
+        "row_start": {"type": "integer", "minimum": 1},
+        "row_end": {"type": "integer", "minimum": 1},
+        "column_start": {"type": "integer", "minimum": 1},
+        "column_end": {"type": "integer", "minimum": 1},
+        "role": {
+          "enum": [
+            "column_header", "row_header", "corner_header", "section_header",
+            "stub", "data", "blank", "unknown"
+          ]
+        },
+        "raw_text": {"type": "string"},
+        "value": {"type": ["number", "string", "null"]},
+        "footnote_markers": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        },
+        "row_header_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        },
+        "column_header_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        },
+        "transcription_status": {"enum": ["clear", "uncertain", "illegible"]},
+        "notes": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        }
+      }
+    },
+    "grid": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["grid_id", "label", "row_count", "column_count", "cells"],
+      "properties": {
+        "grid_id": {"$ref": "#/$defs/nonEmptyString"},
+        "label": {"type": ["string", "null"]},
+        "row_count": {"type": "integer", "minimum": 1},
+        "column_count": {"type": "integer", "minimum": 1},
+        "cells": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"$ref": "#/$defs/cell"}
+        }
+      }
+    }
+  }
+}
