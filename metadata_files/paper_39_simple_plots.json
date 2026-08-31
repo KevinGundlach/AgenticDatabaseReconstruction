@@ -1,0 +1,108 @@
+{
+  "schema_version": 2,
+  "paper_reference": "39",
+  "source_chart_manifest": "paper_39_charts.json",
+  "summary": {
+    "chart_count": 8,
+    "accepted": 1,
+    "rejected": 7,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/9c6d18e9a0a169a03695974103256ad8a454bde3b47373e057c03c9444546c1d.jpg",
+      "caption": "FiG. 5. Effect of the chloride concentration on the pitting potential of pure aluminium and various Al-Cu alloys in deaerated NaCl solutions.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Ep is directly plotted against NaCl activity for five alloy or material series.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "Ep for each alloy or material series"
+      ],
+      "x_axis": {
+        "label": "M NaCl activity",
+        "unit": "",
+        "scale": "log"
+      },
+      "y_axis": {
+        "label": "Ep",
+        "unit": "V_nhe",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0008",
+      "image_path": "images/deaf51b66c21f583ea0ea5d717864843addc1c7e4630c00114fdb3b8e7f7064d.jpg",
+      "caption": "FiG. 2. Anodic polarization curve of $9 9. 9 9 \\% \\mathrm { A l }$ in deaerated 0-1M NaCl solution. Ep: potential at which pitting starts.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/5e479ce0dedbbe88893607ec28b05abda54e183d34b4e573b6dd602ad0a597d9.jpg",
+      "caption": "FIG. 3. Behaviour of 99.99%Al in deaerated 1M NaCl solution when the potential is switched from the passive range to the pitting range. The pitting potential was — 0·53 V(nhe).",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/d2a3bcdda632d4f700ebbd96dad653b4e0e8beafdcd0d18ef00ceb78e948d638.jpg",
+      "caption": "FiG. 4. Current-time curves for 99.99%Al in deaerated 1M NaCl solution at various potentials.",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0004",
+      "image_path": "images/2f677e3ad776043772af5c629018600fc24d17716e8e137f56c90665b0bdeccd.jpg",
+      "caption": "FiG. 6. Anodic polarization curve of aged $A l { - } 4 \\% C \\mathbf { u }$ in deaerated 1M NaCl solutions. Measurements made in steps of 10 mV/min. $E p _ { \\downarrow } \\colon$ pitting potential measured for Al-0·2%Cu. Epu: pitting potential of solubilized $\\Delta 1 - 4 \\% C u$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0011_item_0006",
+      "image_path": "images/fcd157a8f33e21850d24d23a851f15c3c1bfe52d4b93707a5ab13315e3dd43da.jpg",
+      "caption": "FiG. 12. Cathodic polarization curves in air-saturated 1M NaCl solution of pure aluminium, solubilized $\\mathbf { A l - 4 \\% C u },$, and intermetallic $\\mathbf { A l _ { \\ell } C u }.$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0012_item_0004",
+      "image_path": "images/c5f3947bc1b81e14c1fdfa72803dce8320e4e8778df74b14f05f1ef47fc95680.jpg",
+      "caption": "FiG. 14. Simplified potential-concentration diagram showing the type of attack suffered by aged $A l - \\overline { { 4 } } \\% C u$",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0013_item_0004",
+      "image_path": "images/6333503df0a88aa7665bb0c13c60126504964283b3aae53c65e608a4e9782973.jpg",
+      "caption": "FiG. 15. Current-potential relations for Al and Al-Cu in chloride solutions. $\\pmb { A _ { 1 } }$: anodic polarization of Al and $\\mathbf { A l - 0. 2 \\% C u }; A _ { 2 };$ anodic polarization of solubilized $A l A \\% C u$ and of $\\mathbf { A l _ { 8 } C u }; C _ { 1 } \\colon$ cathodic polarization of solubilized $\\mathbf { A l - 4 \\% C u }$ in absence of oxygen; $\\pmb { C _ { \\Im } } \\colon$ cathodic polarization of pure aluminium in air saturated solutions; $\\pmb { C } _ { \\pmb { \\mathfrak { s } } } \\colon$ cathodic polarization of solubilized $\\dot { \\mathbf { A l } } \\mathbf { - } \\pmb { 4 } \\% \\mathbf { C } \\mathbf { u }$ in air saturated solution; $\\pmb { { \\cal E } } _ { 1 }$: corrosion potential of $\\mathbf { A l - C u }$ in deaerated solution; $\\pmb { { \\cal E } } _ { 8 } ^ { \\prime }$: corrosion potential of aged $\\bf { \\delta } \\mathbf { A l - C u }$ in air saturated solution; $i _ { 1 }$: limiting current for the cathodic reaction, and dissolution current of thé grain boundaries of the aged Al-Cu alloy.",
+      "reason_code": "not_digitizable",
+      "reason": "This schematic labels pitting-potential levels but does not provide a digitizable pitting-potential series against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

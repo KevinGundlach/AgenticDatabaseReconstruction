@@ -1,0 +1,115 @@
+{
+  "schema_version": 2,
+  "paper_reference": "8",
+  "source_chart_manifest": "paper_8_charts.json",
+  "summary": {
+    "chart_count": 6,
+    "accepted": 3,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/7a426643d9a9f8cf77d8a1de2f25938f9c9c890192cccba246b868ee37af2335.jpg",
+      "caption": "FIGuRE 3. A comparison of pitting potentials for four types of austenitic stainless steels in 0.6 M chloride and bromide solutions at 70°C. Indicated on each bar is the range of potentials measured experimentally.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting-potential bars and experimental ranges are directly plotted for four steels in chloride and bromide solutions.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "pitting potential in NaCl",
+        "pitting potential in NaBr"
+      ],
+      "x_axis": {
+        "label": "Steel",
+        "unit": "",
+        "scale": "categorical"
+      },
+      "y_axis": {
+        "label": "Pitting Potential",
+        "unit": "V(SCE)",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0003_item_0005",
+      "image_path": "images/fb055dc4ffe8f9ef05d76e5e4d45d3b86377e34cfabb1ef8baea250ff3eb9754.jpg",
+      "caption": "FIGURE 4. Variations of transpassive and/or pitting potentials for stainless steels with temperature in 0.6 M chloride and bromide solutions.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The mixed-metric chart directly plots separable pitting-potential portions versus temperature; transpassive-only points are excluded from the target series.",
+      "confidence": 0.9,
+      "relevant_panels": [],
+      "target_series": [
+        "UNS N08904 in NaCl pitting-potential points above its critical temperature",
+        "UNS S31254 in NaBr pitting-potential points above its critical temperature",
+        "UNS N08904 in NaBr pitting-potential series"
+      ],
+      "x_axis": {
+        "label": "T",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Transpassive/Pitting Potential",
+        "unit": "V(SCE)",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/c5f6ca38fe4c1660b41bc51da07ab2cd861364cb68b93abd8f9d92a6a06db3c4.jpg",
+      "caption": "FIGuRE 5. Dependence of transpassive and/or pitting potential on [Br−]/([Br−] + [CI-]) ratio for UNS S31254 steel at 70°C with a fixed total halide concentration of 0.6 M.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential in mixed chloride-bromide solutions is directly plotted against the bromide fraction; the pure-chloride endpoint may be transpassive.",
+      "confidence": 0.92,
+      "relevant_panels": [],
+      "target_series": [
+        "UNS S31254 Heat 1 pitting potential in chloride-bromide mixtures"
+      ],
+      "x_axis": {
+        "label": "Br−/(Cl−+Br−)",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Transpassive/Pitting Potential",
+        "unit": "V(SCE)",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0015",
+      "image_path": "images/b214b5823a2cb20c192b3336cc0a35509a9920ecfedd611c1a8d8ab84a40b3b0.jpg",
+      "caption": "FIGURE 1. Anodic polarization curves for UNS S30100 steel in 0.6 M chloride and bromide solutions at 70°C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/0a7ae87ae474aeaef06aa41faa874153d13bf0aca385c7ce7aa6ae75c8af0c2b.jpg",
+      "caption": "FIGURE 2. Anodic polarization curves for UNS S31254 steel in 0.6 M chloride and bromide solutions at 70°C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/0d243a639af3362569cd5a425bf6e32d2ad1fd7f8cc0d2ab2d97772c930eca45.jpg",
+      "caption": "FIGURE 6. Anodic polarization curves for Heat 1 and 2 materials of UNS S31254 steel in 0.6 M sodium bromide at 70°C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

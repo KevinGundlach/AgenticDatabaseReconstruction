@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "paper_reference": "22",
+  "source_chart_manifest": "paper_22_charts.json",
+  "summary": {
+    "chart_count": 3,
+    "accepted": 0,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0007",
+      "image_path": "images/281e415bcba11fe77469998842cb69c0948085d8841d57876d6d5ab8d7db5c75.jpg",
+      "caption": "Fig. 1. Hardness of $\\mathsf { A l } _ { 0. 5 } { \\mathsf { C o C I } }$ FeNi alloy processed at various aging temperatures.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0002_item_0008",
+      "image_path": "images/2e1b89cc48edb41fb5f3d8b3fa2de2c3891940826499b2d3e6b96cd67fec609e.jpg",
+      "caption": "Fig. 2. XRD patterns of Al<sub>0.5</sub>CoCrFeNi alloy processed at various aging temperatures.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0006",
+      "image_path": "images/a2608bd184e33121fd3a161993a7e3dece65a6b51ec3453ab6869f5382d751ea.jpg",
+      "caption": "Fig. 5. Potentiodynamic curves of as-cast and aged Al<sub>0.5</sub>CoCrFeNi alloy specimens in 3.5% NaCl solution at $2 5 ~ ^ { \\circ } \\mathbb { C }.$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

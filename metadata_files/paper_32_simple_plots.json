@@ -1,0 +1,134 @@
+{
+  "schema_version": 2,
+  "paper_reference": "32",
+  "source_chart_manifest": "paper_32_charts.json",
+  "summary": {
+    "chart_count": 7,
+    "accepted": 4,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/9b606adc623e2bf8bf897038d264bb7d11b0842edabcdce390c6d966c2ae4153.jpg",
+      "caption": "Figure 5. \u0001Color online- Median pitting and repassivation potentials for $\\mathrm { A l _ { 9 0 } F e _ { 5 } G d _ { \\underline { { { z } } } } }$ and pure Al in deaerated 0.6 M NaCl. Error bars represent the 25th and 75th percentile of the data when expressed as the cumulative probability of obtaining the given pitting potential. Scan rate 0.1 mV/s.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Epit is directly plotted against nanocrystal size; the Erp series is ancillary and separable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "Epit"
+      ],
+      "x_axis": {
+        "label": "Nanocrystal Size",
+        "unit": "nm",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0004_item_0004",
+      "image_path": "images/b35caa1d84e79ffeeca29824d1dc231fd291f75f4661ca15838b85c0da107ab2.jpg",
+      "caption": "Figure 6. \u0001Color online- Median pitting and repassivation potentials for $\\mathrm { A l _ { 8 7 } N i _ { 7 } G d _ { 6 } }$ and pure Al in deaerated 0.6 M NaCl. Error bars represent the 25th and 75th percentile of the data. Scan rate 0.1 mV/s.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Epit is directly plotted against nanocrystal size; the Erp series is ancillary and separable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "Epit"
+      ],
+      "x_axis": {
+        "label": "Nanocrystal Size",
+        "unit": "nm",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0004_item_0005",
+      "image_path": "images/e3f145cd3244a1803351229cf4aa570473e327a62f4b5e221062355088e48028.jpg",
+      "caption": "Figure 7. \u0001Color online- Median pitting and repassivation potentials for $\\mathrm { A l _ { 9 0 } C o _ { 3 } C e _ { 7 } }$ and pure Al in deaerated 0.6 M NaCl. Error bars represent the 25th and 75th percentile of the data. Scan rate 0.1 mV/s.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Epit is directly plotted against nanocrystal size; the Erp series is ancillary and separable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "Epit"
+      ],
+      "x_axis": {
+        "label": "Nanocrystal Size",
+        "unit": "nm",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0004_item_0008",
+      "image_path": "images/63bc519566b0dfed9d7d5455e02942ed5ad596496057e2bbe02b1f52c86e521d.jpg",
+      "caption": "Figure 8. \u0001Color online- Median pitting and repassivation potentials for $\\mathrm { A l _ { 8 5 } F e _ { 7 } G d _ { 8 } }$ and pure Al in deaerated 0.6 M NaCl. Error bars represent the 25th and 75th percentile of the data. Scan rate 0.1 mV/s.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Epit is directly plotted for three categorical material conditions; the Erp series is ancillary and separable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "Epit"
+      ],
+      "x_axis": {
+        "label": "Material Condition",
+        "unit": "",
+        "scale": "categorical"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0009",
+      "image_path": "images/c60f81102735f1b365e42040300f59867d9d3dc06286f3e9d69e355a3f59d701.jpg",
+      "caption": "Figure 2. \u0001Color online- Anodic polarization scan on polycrystalline 99.999% Al and amorphous and amorphous-nanocrystalline $\\mathrm { A l } _ { 9 0 } \\mathrm { F e } _ { 5 } \\mathrm { G d }$ d in 0.6 M NaCl. The arrows show the pitting potential $\\dot { (} \\boldsymbol { E } _ { \\mathrm { p i t } }).$, the repassivation potential $(E _ { \\mathrm { r p } })$, the corrosion potential $(E _ { \\mathrm { c o r r } }).$, and the scan direction.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/2c474ee97af2ef3015eb11bd6bca56c907b6d07690108796582105124b8d9a2c.jpg",
+      "caption": "Figure 3. Anodic polarization scan on fully amorphous $\\mathrm { A l _ { 9 0 } ^ { \\circ } F e _ { 5 } G d _ { \\underline { { \\circ } } } }$ collected at 20 points/s. Inset: expanded view of a pit initiation event. Electrode area = 2 \u0001 $1 0 ^ { - 4 } \\mathrm { c m } ^ { 2 }.$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/faa66c8c7600df6edd582541343f86c79fd4e3d305f0a616e14dc824fdccd5f6.jpg",
+      "caption": "alloys such as stainless steels and aluminum alloys, pitting corrosion initiates at second phase particles that are chemically different from the surrounding alloy and often generate defects in the passive $\\mathrm { { f i m } } ^ { 1 6 }$ despite the presence of alloying elements that enhance passivity. Similarly, crystalline precipitates have been found to be detrimental to the corrosion resistance of some glassy alloy such as $\\mathrm { F e } _ { 7 0 } \\mathrm { C r } _ { 1 0 } \\mathrm { P } _ { 1 3 } \\mathrm { C } _ { 7 }$ and $\\mathrm { F e } _ { 3 2 } \\mathrm { N i } _ { 3 6 } \\mathrm { C r } _ { 1 4 } \\mathrm { P } _ { 1 2 } \\mathrm { B } _ { 6 }$ and $\\mathbf { N i } _ { 6 5 } \\mathbf { \\dot { C } r _ { 1 0 } T a _ { 5 } P _ { 1 6 } B _ { 4 } }$ and $\\mathrm { N i } _ { 5 5 } \\mathrm { C r } _ { 1 5 } \\mathrm { M o } _ { 1 0 } \\mathrm { P } _ { 1 6 } \\mathrm { B } _ { 4 }. ^ { 9 }$ However, the corrosion resistance of other glasses such as $\\mathrm { C r _ { 4 0 } Z r _ { 6 0 } }$ and $\\mathrm { C r _ { 3 3 } Z r _ { 6 7 }, ^ { 8 } F e _ { 7 3. 5 - x } S i _ { 1 3. 5 } B _ { 9 } N b _ { 3 } C u _ { 1 } C r _ { x }, ^ { 1 7 } }$ and $\\mathrm { F e } _ { 7 3. 5 } \\mathrm { S i } _ { 1 3. 5 } \\mathrm { B } _ { 9 } \\mathrm { N b } _ { 3 } \\mathrm { C u } _ { 1 }$ and $\\mathrm { \\bar { C } ^ { o } _ { 7 3. 5 } S i _ { 1 3. 5 } B _ { 9 } N b _ { 3 } C u _ { 1 } } ^ { 1 8 }$ appears to benefit from partial devitrification to form solute depleted nanocrystals in an amorphous matrix. Preliminary studies of the pitting of partially nanocrystalline Al-based glassy alloys $\\mathrm { A l _ { 9 0 } F e _ { 5 } G d _ { 5 } }$ and $\\mathrm { A l _ { 8 7 } N i _ { 8. 7 } Y _ { 4. 3 } } ^ { 1 2, 1 3 }$ indicated improvement in resistance to micrometer scale pit stabilization, slower pit growth in artificial pits, as well as easier repassivation of alloys compared to pure Al or the fully crystalline alloy when pits of \u000510 -m radius were examined. Assuming that the solute-lean nanocrystals behave similarly to the fully crystallized pure fcc Al, one notion is that improved resistance to pit initiation and stabilization attributed to beneficial solutes in solid solution might be completely lost at the nanocrystal sites. The evidence of elevated $E _ { \\mathrm { p i t } }$ and $E _ { \\mathrm { r p } }$ \u0001with respect to pure Al- despite the presence of nanocrystals over a range of sizes \u0001Fig. 5-8- suggests that Al-rich fcc nanocrystals either \u0001i- have similar susceptibility as seen in bulk fcc Al but lack the critical defect size required for pit stabilization, or \u0001ii- have different intrinsic susceptibilities to local Figure 4. Anodic polarization scan on amorphous-nanocrystalline $\\mathrm { A l _ { 9 0 } F e _ { 5 } G d _ { 5 } }$ with 14 nm nanocrystals collected at 20 points/s. Inset: Expanded view of a pit initiation event. Electrode area = 2 $\\times \\ 1 0 ^ { - 4 } \\ \\mathrm { c m } ^ { 2 }$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

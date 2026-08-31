@@ -1,0 +1,94 @@
+{
+  "schema_version": 2,
+  "paper_reference": "76",
+  "source_chart_manifest": "paper_76_charts.json",
+  "summary": {
+    "chart_count": 5,
+    "accepted": 2,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0002_item_0013",
+      "image_path": "images/2720371c84cba11103f204dbd2ffc890bae0e2dd3261609516a6c672d517f76a.jpg",
+      "caption": "FIGURE 2 — Effect of N content on the potentiokinetic potential of pit nucleation.",
+      "relevant_panels": [],
+      "target_series": [
+        "E_np in 0.1 N NaCl",
+        "E_np in 0.05 N NaCl",
+        "E_np in 0.01 N NaCl"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Potentiokinetic pit-nucleation potential E_np is directly plotted against nitrogen content for three chloride concentrations.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "% N",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_np",
+        "unit": "mV_H",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0003_item_0010",
+      "image_path": "images/b5f5be906983ed5913dedab5dbdd10f65af9eec509d59cf8d17f0b1210a14077.jpg",
+      "caption": "FIGURE 4 — Effect of N content in steel on potentiokinetic $\\varepsilon _ { n \\mathbf { p } } ^ { \\prime }$ and $\\theta _ { \\mathsf { n p } }$ values.",
+      "relevant_panels": [],
+      "target_series": [
+        "Potentiokinetic E'_np",
+        "E_np upper boundary",
+        "E_np lower boundary"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pit-nucleation potentials E_np and E'_np are directly plotted against nitrogen content.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "% N",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_np",
+        "unit": "mV_H",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0001",
+      "image_path": "images/c74e0e175990b560a924f83f07a6c4a857b760e9d664fa2cddb8f8018c2835d7.jpg",
+      "caption": "FIGURE 1 — Anodic polarization curves for several steels in 0.1N ${ \\sf H } _ { 2 } { \\sf S } { \\sf O } _ { 4 } + { \\sf 0 }.$ 1N NaCl.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/655e445ad42bcb3708855016d0113b9aa9f198d3840192c9242ea02f39e547d2.jpg",
+      "caption": "FIGURE 3 — Effect of potential on the induction time and pit number for 18Cr-5Nk-10Mn steel containing 0.07% N.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0003_item_0011",
+      "image_path": "images/8ce2e695eeb34ba9615da35bb1e78c79a7e663f971f192cee3bdd3cc069c6910.jpg",
+      "caption": "FIGURE 5 — Effect of potential on pit number.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

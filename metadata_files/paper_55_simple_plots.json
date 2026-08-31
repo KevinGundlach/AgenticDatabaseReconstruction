@@ -1,0 +1,119 @@
+{
+  "schema_version": 2,
+  "paper_reference": "55",
+  "source_chart_manifest": "paper_55_charts.json",
+  "summary": {
+    "chart_count": 9,
+    "accepted": 1,
+    "rejected": 8,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0011_item_0003",
+      "image_path": "images/592f9786c44c169fb76c44607802b0a776b3c167e1991fdb757a3bc19f96842f.jpg",
+      "caption": "Figure 8. Effect of $1 0 0 ^ { \\circ } \\mathrm { C }$ isothermal heat treatments on ${ \\mathrm { E } } _ { { \\mathrm { p i t } } }, { \\mathrm { E } } _ { { \\mathrm { r p } } },$ and OCP values for $\\mathrm { A l _ { 8 7 } C o _ { 7 } C e _ { 6 } }$ alloy when tested in deaerated 0.6 M NaCl after a one hour exposure to solution. Data is compared to fully crystalline $\\mathrm { A l _ { 8 7 } C o _ { 7 } C e _ { 6 } }$ alloy after $5 5 0 \\mathrm { { } ^ { \\circ } C }$ isothermal heat treatment.",
+      "relevant_panels": [],
+      "target_series": [
+        "Average E_pit following heat treatment",
+        "Crystalline E_pit"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "E_pit is directly plotted against 100 °C heat-treatment duration; the OCP and E_rp series are separable ancillary data.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Hours at 100°C",
+        "unit": "h",
+        "scale": "unknown"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0009_item_0003",
+      "image_path": "images/b4dab0ab1bc6db88b35a332ea3b2ab808f4d571e1601b188c4128c152152794a.jpg",
+      "caption": "",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0009_item_0004",
+      "image_path": "images/ad7e54b8caed53b1629c59cf93f62e190fbed2d3862847e2df0a4d75c17846dd.jpg",
+      "caption": "Figure 1. Al-Co-Ce alloy system map designating amorphous compositions developed by Unlu and $\\mathrm { I n o u e } ^ { 2 1 }$ for alloys produced with 52 m/s circumferential wheel speed, and with microstructure determined through X-ray diffraction, TEM bright field analysis, and TEM diffraction. Figure 2. X-ray diffraction patterns (Cu $\\mathrm { K } _ { \\mathfrak { a } }$ radiation at 40 kV and 35 mA) for the melt-spun $\\mathrm { A l _ { 8 7 } C o _ { 8. 7 } C e _ { 4. 3 } }$ alloy ribbon (52 m/s wheel speed) showing the amorphous microstructure of the as-quenched material, the amorphous + nanocrystalline microstructure of the 100 hour $1 0 0 \\mathrm { { } ^ { \\circ } C }$ treatment, and the crystalline microstructure which is developed after a nonisothermal $5 5 0 \\mathrm { { } ^ { \\circ } C }$ heat-treatment.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0010_item_0001",
+      "image_path": "images/54d6e35c73baac04dfc0dc908ada465ebff7e7a144cf0daf295e91909469161f.jpg",
+      "caption": "Figure 3. Open circuit potentials for amorphous Al-Co-Ce alloy and AA 2024 after one-hour exposure to 0.6 M NaCl solution with pH adjusted using 1 M HCl or 1 M NaOH as necessary.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports another electrochemical metric and does not directly plot pitting potential E_pit or breakdown potential E_b.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0010_item_0002",
+      "image_path": "images/1b80340dd6308ac3740e59a1b765ed1e7b32407855d618283c12cf5a2a998fe6.jpg",
+      "caption": "Figure 5. Potentiodynamic scans conducted on amorphous Al-Co-Ce alloy and 99.999% aluminum in deaerated 0.6 M NaCl solution (pH 6). Both working electrode areas were ${ \\sim } 1 0 ^ { - 4 } \\mathrm { c m } ^ { 2 }$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0010_item_0003",
+      "image_path": "images/6a6fe191a62639d5b787a42698e21145d38041fdb4f82254138df8b55aeea40d.jpg",
+      "caption": "Figure 4. Passive current densities for high purity $\\mathsf { A l } ^ { 2 7 }$ and amorphous alloys of the Al-Co-Ce system, including heat-treated nanocrystalline material, in solution adjusted to various pH values using concentrated HCl or 1 M NaOH as neccesary.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports another electrochemical metric and does not directly plot pitting potential E_pit or breakdown potential E_b.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0010_item_0004",
+      "image_path": "images/780159837e1df096909700f0eed9f7c1d1088a2f1513d1a10904b028f73454d8.jpg",
+      "caption": "Figure 6. Repassivation potential for as-spun Al-Co-Ce alloys with 0 to 8.7 atomic percent cobalt in deaerated 0.6 M NaCl solution (pH 6) expressed as a function of cobalt. Alloys with >1% Co are fully amorphous while those with 0-1% Co contain nanocrystals.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports another electrochemical metric and does not directly plot pitting potential E_pit or breakdown potential E_b.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0011_item_0001",
+      "image_path": "images/5c275a727318538269ba574aa5f0140c4cb4d04f83866492c0fa1a0e0a1e01a0.jpg",
+      "caption": "Figure 7. Open circuit potentials of as-spun Al-Co-Ce samples after one-hour exposure to deaerated 0.6 M NaCl solution (pH 6) expressed as a function of atomic percent cobalt. Alloys with greater than 1% Co are fully amorphous. Data compared to AA 2024-T3 in deaerated 0.6 M NaCl selected pH solutions.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports another electrochemical metric and does not directly plot pitting potential E_pit or breakdown potential E_b.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0011_item_0002",
+      "image_path": "images/ab223be284fb1c9a4e6e356b1bc117537fd58c3ec90f4e6974a67cfa85a3d75b.jpg",
+      "caption": "Figure 9. Potentiodynamic scans conducted on amorphous and fully crystalline (following $5 5 0 \\mathrm { { } ^ { \\circ } C }$ isothermal heat treatment) $\\mathrm { A l _ { 8 7 } C o _ { 7 } C e _ { 6 } }$ alloys in deaerated 0.6 M NaCl solution.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

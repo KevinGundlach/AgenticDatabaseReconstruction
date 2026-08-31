@@ -1,0 +1,468 @@
+{
+  "schema_version": 2,
+  "paper_reference": "37",
+  "source_chart_manifest": "paper_37_charts.json",
+  "summary": {
+    "chart_count": 40,
+    "accepted": 4,
+    "rejected": 36,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0011_item_0001",
+      "image_path": "images/e1ed6f4316b171eb9a9ba388c0cdc148e67b4995a3ca98280bdac6bea35cbacf.jpg",
+      "caption": "",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Final breakdown potential and pit-initiation potential are directly plotted against nitrogen content for alloy K at 40 °C.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "final breakdown potential, Eb (open symbols)",
+        "pit-initiation potential, Einit (solid symbols)"
+      ],
+      "x_axis": {
+        "label": "Nitrogen content",
+        "unit": "wt%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0011_item_0002",
+      "image_path": "images/095db99adbd2fad6d75b66fe0b5c21f1fbbf7779c7c6fa941f4726130d7e232e.jpg",
+      "caption": "",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Final breakdown potential and pit-initiation potential are directly plotted against nitrogen content for alloy K at 50 °C.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "final breakdown potential, Eb (open symbols)",
+        "pit-initiation potential, Einit (solid symbols)"
+      ],
+      "x_axis": {
+        "label": "Nitrogen content",
+        "unit": "wt%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0011_item_0003",
+      "image_path": "images/33aeeffc132a919b2edbf26b27b08f211c8f3ed9c216cddad30745bca249d25a.jpg",
+      "caption": "",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Final breakdown potential and pit-initiation potential are directly plotted against nitrogen content for alloy L at 75 °C.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "final breakdown potential, Eb (open symbols)",
+        "pit-initiation potential, Einit (solid symbols)"
+      ],
+      "x_axis": {
+        "label": "Nitrogen content",
+        "unit": "wt%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0011_item_0004",
+      "image_path": "images/30aa0d0788f64cfa9209cc5caa95db0cac5627146633219632d600fc11c75833.jpg",
+      "caption": "Fig[2[Pitting potential measurements at various temperatures showing the _nal breakdown potential $E _ { \\mathrm { { b } } }$ \"open points# and the potential $E _ { \\mathrm { i n i t } }$ at which the _rst repassivating pits were observed \"solid points#[",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Final breakdown potential and pit-initiation potential are directly plotted against nitrogen content for alloy L at 90 °C.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "final breakdown potential, Eb (open symbols)",
+        "pit-initiation potential, Einit (solid symbols)"
+      ],
+      "x_axis": {
+        "label": "Nitrogen content",
+        "unit": "wt%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0009_item_0001",
+      "image_path": "images/4bd24a7e230f344341dabe9ec77edba920b819921635fda5b1b6104a38da280f.jpg",
+      "caption": "Fig[0[Critical pitting temperature in 9[1 M NaCl at ¦599 mV SCE[MoÐN synergy is apparent from the steeper gradient for the L series with 3[4) Mo \"033>C:)N# compared to the Mo!free K series \"75>C:)N#[Error bars denote maximum and minimum values",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0012_item_0001",
+      "image_path": "images/4f85dbce9677c5668fb41596bf33f3ce87a2fd5a6ab4015808b70abd924f5595.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0012_item_0004",
+      "image_path": "images/611c698cd7c6a7e9e2fda11603f33dc983d526c97489e1aba80d32cb07d1954c.jpg",
+      "caption": "",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0012_item_0005",
+      "image_path": "images/87194618bebed9e5c17adadfed6b5711168b958663c3cd0cd55b98130596f9aa.jpg",
+      "caption": "Fig[4[Passive current densities measured in 9[4 M NaCl\\ $\\mathrm { p H } = 3 ~ \\mathrm { a t } ~ + 6 0 0 \\mathrm { m V }$ SCE and ¦049 mV SCE[Passive current densities are decreased by nitrogen alloying\\ and the gradient is slightly increased by molybdenum[Steel K0 exhibited an irregularly increasing current density at ¦599 mV SCE[",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0013_item_0001",
+      "image_path": "images/2a98ae915bcb2bb865de7bff784553dc81943d2810d0d447efd667b03d92af32.jpg",
+      "caption": "",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0013_item_0002",
+      "image_path": "images/7806c21e833b45ba5c9f15cdf3e70a4626553c5ce4f36df8bf083794501d779c.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0013_item_0003",
+      "image_path": "images/3254aa7d9e1cdeaaac2359becfb7186f572587fee3fa044fdfcda537d7ce0238.jpg",
+      "caption": "Fig[5[Current transients measured during passive current density measurements in 9[4 M NaCl\\ pH 2 at ¦049 mV SCE[\"a# CurrentÐtime trace after 29 min[\"b# Current noise after same time[\"c# Number of activations \"×49 nA#[",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0014_item_0001",
+      "image_path": "images/31cbf14ae9ee41a82585e7165a14589342aec62c2948b2e5806213e8a2f93a65.jpg",
+      "caption": "",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0014_item_0002",
+      "image_path": "images/199ecfca3434fb2c273190ec7f0e22751f89346d0836571fa776beab2530c022.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0014_item_0003",
+      "image_path": "images/734cbbbd9e52a02e421d6ef5985456981cd1a1d89554702cd965e9107549f862.jpg",
+      "caption": "Fig[6[\"a# Peak anodic current density in HCl at 09 mV:s The e}ect of nitrogen in decreasing the peak anodic current density is most pronounced at intermediate HCl concentrations[\"b# E}ect of potential scan reversal on polarisation curves[In 1 M HCl\\ passivation proceeds when the potential is decreased^ in 3 M HCl\\ the passivation process is reversed for both L0 and L2[",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0015_item_0001",
+      "image_path": "images/0506344069fe75390b8febe2ca58efddfc83576e11ea9db534dd6559c9b253b4.jpg",
+      "caption": "(a) Fig[7[Peak anodic current density for L0 and L2 in 3 M HCl at various potential scan rates and rotation speeds[{rot| denotes 3999 rpm",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0015_item_0002",
+      "image_path": "images/55194fc7c38e506ddefa5b4411a438547333994b4f3f73868e58ebea13f16eaa.jpg",
+      "caption": "",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0015_item_0003",
+      "image_path": "images/0627e1dcb30efa336a33eec9f1ddb079e19afbb7c408ebdbfef477f831aac201.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0015_item_0004",
+      "image_path": "images/e31fc889642d5c73ea7cf86cdfc1632423f4e6b8f140b1bd4d551b7eea996a4c.jpg",
+      "caption": "Fig[8[\"a# Peak anodic current densities\\ at a potential scan rate of 19 mV:min\\ in $1 \\mathrm { M H } _ { 2 } \\mathrm { S O } _ { 4 }$ with additions of 9[1Ð0 M HCl showing the variable e}ect of nitrogen alloying[\"b# and \"c# Polarisation curves in 0 M $\\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 } + 1 \\mathrm { M } \\mathrm { H C l }$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0003",
+      "image_path": "images/57e2f1cf201534d2aee5a037112e149128875f780a91be5acbfb9cb8b4d08159.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0004",
+      "image_path": "images/385cd350351de837014d37b333be5528f4fee747ae5b242729e2ebbf5c97e37c.jpg",
+      "caption": "(b)",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0005",
+      "image_path": "images/4b6a7cc97beb5508ef94b5503d89519c3821b0b9792dd4715ff56cdf1c69f710.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0006",
+      "image_path": "images/8d131deb1747f3057fc15104225a9f45cddaa7ebae51a34cb79059d9194d2f0c.jpg",
+      "caption": "(c)",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0007",
+      "image_path": "images/cb33645dd8a6dcdd14f4769b64bfacf9dffe6f01cbc7e4728d65574a319ae30e.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0008",
+      "image_path": "images/3fe720249ac63450e4b65c5fa74b72efb106ed0221689b82ee2b31d36e67e641.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0009",
+      "image_path": "images/b447eb68b00cc1d70ec7c634910dff87188612d2cb67aa13e40af106a093ab0d.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0010",
+      "image_path": "images/f11bde56d33478e5f2c04adcaab51b1c7385246748b44913ce9d902aeac4415f.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0011",
+      "image_path": "images/054450653ffe96e8fadff511f368ac358eb51205ab1ab08dd96868391a13f4db.jpg",
+      "caption": "Fig[09[EIS measurements in 0 M HCl[\"a# Quasi steady!state polarisation curves[\"b# Evaluated impedance parameters for K0 and K2[Circled points are negative\\ solid points are for K0 and open points for K2[\"c# Typical complex!plane plots showing experimental points and _tted curves[",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0001",
+      "image_path": "images/809e78b548cfb39bce92fa0dc28a34ede190395f8ac043b236082307955e77f1.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0002",
+      "image_path": "images/30ba24c83c79c4d43493b6a7e43371cc79a0b9fd81a11326659d7228b77cca60.jpg",
+      "caption": "(b)",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0003",
+      "image_path": "images/be78766779716ade0ed4a1ba955da64ee30a70b979f89b55f3a9f477ad0dd5cf.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0004",
+      "image_path": "images/1c8136a22d279cce2fd5fbe6e02257f87c89958e3b4990662eb849567488656b.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0005",
+      "image_path": "images/0f1d1aa96c8b6e02da6323c22f02c7ba0c91abe74e5f82468b29c4e512eccb6f.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0006",
+      "image_path": "images/d4ecd3f82a81fb12865e06387372a115bea0612d0bb8c4d4c2aa930f770c82dd.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0007",
+      "image_path": "images/e0f852949797cb84e8570b620ffc18d75216c6bbcc50c6a6bc6ef78a5e4cee7f.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0008",
+      "image_path": "images/8cc956151c91f4c58d6ef08cf046c36968f73fc508a4b4dc0777e56c78e4c570.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0009",
+      "image_path": "images/2e710418d31e5f6b04d601cf995c5c9379b1bbeafc6b36b9f761f6bb855c2af8.jpg",
+      "caption": "Fig[00[EIS measurements in 3 M HCl[\"a# Quasi steady!state polarisation curves[\"b# Evaluated impedance parameters for L0 and L2[Circled points are negative\\ solid points are for L0 and open points for L2[No values could be obtained at higher potentials due to large data scatter at high current densities[\"c# Typical complex!plane plots showing experimental points and _tted curves",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports an electrochemical metric other than directly plotted pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0018_item_0001",
+      "image_path": "images/9f77e4d75a63570e23d43ad34eb0e4c6862002421c63fe24096fc93d1bd58db1.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0018_item_0002",
+      "image_path": "images/2656121407b195a737d50ec158a2ddaab7b47f8811854926d72218e51856fda2.jpg",
+      "caption": "Fig[01[Pourbaix diagram ð63Ł for nitrogen showing potentialÐpH regions in which solution analyses were performed for K2 and proportion of the dissolved nitrogen \" from weight loss measurements# analysed as NH<sup>¦</sup><sub>3</sub> or NO<sup>−</sup><sub>1</sub>:NO<sup>−</sup><sub>2</sub> [Dissolution was by active corrosion in A\\ pitting corrosion in B and transpassive corrosion in C[",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0019_item_0001",
+      "image_path": "images/628cb543aeaa31ea4e1e8bd6051b98a743e880fb012c29e4b284680584be906c.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0019_item_0002",
+      "image_path": "images/71477db9518f5cf64f195336bc030d0b1ebf0c79a1b06b2cb32c9ac2b4c9b04f.jpg",
+      "caption": "Fig[02[Polarisation curves for K0 and L0 at 099 mV:s and 0999 rpm in synthetic pit solutions obtained by dissolving steels in 09 M HCl[Nitrogen in solution has no signi_cant e}ect\\ the presence of dissolved molybdenum reduced the corrosion potential",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

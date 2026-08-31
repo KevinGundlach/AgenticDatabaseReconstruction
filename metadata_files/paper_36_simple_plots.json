@@ -1,0 +1,88 @@
+{
+  "schema_version": 2,
+  "paper_reference": "36",
+  "source_chart_manifest": "paper_36_charts.json",
+  "summary": {
+    "chart_count": 6,
+    "accepted": 1,
+    "rejected": 5,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0002_item_0002",
+      "image_path": "images/20b09837d1c7a5761718df3e08a8dea7d3bbb18f2e083bbeb20fa0f958c4e63d.jpg",
+      "caption": "FIGURE 1 — Variations of the pitting potential in 7.0 x $1 0 ^ { - 4 } \\ M C 1$ solutions at (a) 24 C for Alloy 600 (•); Alloy 800 $(\\bullet - - \\bullet);$ AISI 304 SS (∆, ▲, + for repassivating pits, stable pitting and potentiostatically initiated pits respectively); (b) 80 C for Alloy 600 (• – ●); Alloy 800 (); AISI 304 SS ().",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Ep is directly plotted against thiosulfate concentration with distinct alloy and temperature series.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Ep for each alloy and temperature series"
+      ],
+      "x_axis": {
+        "label": "[S2O3^2-]",
+        "unit": "M",
+        "scale": "log"
+      },
+      "y_axis": {
+        "label": "Ep",
+        "unit": "mV Ag/AgCl",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/87848ade6975367b3c78be571e01c7f04ec49694369b86188c232f14cc95fd60.jpg",
+      "caption": "FIGURE 2 — Scratch current transients obtained for AISI 304 SS in $7. 0 \\times 1 0 ^ { - 4 }$ $\\mathbf { c } \\mathbf { l } ^ { - }$ and 8.0 x $1 0 ^ { - 5 } M S _ { 2 } O _ { 3 } { } ^ { = }$ at 24 C and various potentials. The arrows indicate the moment the scratches were made.",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/c81fec8a63e40ab2039038769849492f57b8dcf94eace8314850339d85a797c4.jpg",
+      "caption": "FIGURE 3 — Current-transient response for Alloy 600 in $7. 0 \\times 1 0 ^ { - 4 }$ M Cl~ and 9.0 x 10⁻7 M S2O₃= at 80 C (a) 50 mV; (b) 100 mV, one scratch; (c) 100 mV, five scratches. The insert shows a SEM micrograph of a covered pit observed in the scratch at 50 mV.",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0005",
+      "image_path": "images/d4947a87504d45e02925e0873e8f5b6437352b077225c80ea16ecd02a93ebed3.jpg",
+      "caption": "FIGURE 4 — Stepped potentiostatic polarization curves for Alloy 600 $(- \\longleftarrow);$ Alloy 800 $- \\longrightarrow;$ AISI 304 SS(—--)in $7. 0 \\times 1 0 ^ { - 4 }$ M $\\pmb { \\mathrm { c } } \\pmb { \\mathrm { l } } ^ { - }$ solutions at 80 C.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0002",
+      "image_path": "images/702045bf8034e947c7fa15be11cf9163a66c965294427e657963ae917614dc71.jpg",
+      "caption": "FIGURE 5 — Stepped potentiostatic polarization curves for Alloy 600 (); Alloy 800 $(- \\mathrm { ~ -- ~ });$ AISI 304 SS (—— —) in 7.0 x 104 M Cl and $8. 0 \\times 1 0 ^ { - 5 } \\mathrm { M } { \\mathbb S } _ { 2 } { { \\mathsf O } _ { 3 } } ^ { = } \\mathrm { a t }$ 80 C.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0006",
+      "image_path": "images/07773dde086e5793bceda838cd35605613fd59c3a923967c6b8426e37a4220d9.jpg",
+      "caption": "FIGURE 6 — Variations in the nickel content of AISI 304 SS, Alloy 800, and Alloy 600 with the ratios of the chloride:thiosulfate concentrations at the minimum pitting potential. The bar in the 24 C extends the data to the next highest ratio investigated for which no pitting was observed.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

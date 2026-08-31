@@ -1,0 +1,108 @@
+{
+  "schema_version": 2,
+  "paper_reference": "69",
+  "source_chart_manifest": "paper_69_charts.json",
+  "summary": {
+    "chart_count": 8,
+    "accepted": 1,
+    "rejected": 7,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0005_item_0006",
+      "image_path": "images/7e35bf84134cbf27a3f7add7df996e8bcc9ebaf015bfd1724d0d62cd899e1903.jpg",
+      "caption": "Fig. 6. The effect of the average Mo content in the alloy on the $\\pmb { \\varepsilon _ { \\mathrm { { b } } } }$ determined from a rapid increase in the current density during potentiodynamic polarization.",
+      "relevant_panels": [],
+      "target_series": [
+        "Breakdown potential E_b"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Breakdown potential E_b is directly plotted against molybdenum concentration with discrete markers.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Molybdenum Concentration",
+        "unit": "at.%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Breakdown Potential, E_b",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0001",
+      "image_path": "images/a51dad3d2edb431779a541b8a2e94cc3805814638959d096b1abf42eb263ef03.jpg",
+      "caption": "Fig. 1. Potentiodynamic polarization curves for Al and for Al with 6 weight percent Mo in solid solution in deaerated and air-saturated 0.1N KCl solutions at pH 8.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/b12f8c44d32cd2f8535483379b25605e1f1b878fd8c63ffcc00facb55b2835ba.jpg",
+      "caption": "Fig. 4. The functional dependence of potential on the time of exposure of the working electrode to the O.1N KCl electrolyte for pure Al and an Al-5.8 Mo alloy.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0005_item_0005",
+      "image_path": "images/0e1852d461151105ecf571e3ee52e332b939a05a8724cc055c9652879f91f8f5.jpg",
+      "caption": "${ \\bar { \\mathbf { F i g. } } }$ 5. The effect of the average Mo content in the alloy on the $\\pmb { \\varepsilon } _ { \\mathrm { C O R R } }.$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0005_item_0008",
+      "image_path": "images/f4e2a22785eff4dd991a4eeae010869a6534d56b339b7cf12af5a20f17e8873f.jpg",
+      "caption": "Fig. 7. The results of high-resolution XPS on the surface of an airformed passive film, a passive film formed after exposure to the electrolyte at $\\pmb { \\varepsilon } _ { \\mathrm { c o n s } },$ and a film at the breakdown potential, for both the Al 2p and Mo 3d peaks. The Al 2p state contains two peaks corresponding to the metallic (dashed) and the oxidized (dotted) states. On the other hand, Mo may contain up to four different valence states: metallic (dashed), $M o ^ { + 4 }$ (dotted), $M O ^ { + 5 }$ (long dashed), and $M O ^ { + 6 }$ (short dashdot). Each state of Mo contains two peaks due to the doublet of the valence state. The size and shape of the second peak is dependent upon the height and area of the first peak.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/a7efda44e085de7811d85684f8f691edb9efed9d4bf2e37ccc76ee669073cdd0.jpg",
+      "caption": "Fig. 8. XPS data showing the dependence of $\\pmb { \\cal E } _ { \\mathrm { C O R R } }$ on the ratio of the area under the metallic Mo peak to the area under the metallic Al peak. The behavior of $\\pmb { \\cal E } _ { \\mathrm { C O R R } }$ with increasing ${ M O } ^ { 0 }$ at the surface is similar to the bulk concentration shown in Fig. 5.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0006_item_0004",
+      "image_path": "images/e40576d36de9b2f15d50ffb9c40a3382d1378eb9d5c4f68c13017167160cd337.jpg",
+      "caption": "Fig. 9. XPS data showing the dependence of $\\pmb { \\cal E } _ { \\mathrm { C O R R } }$ on the ratio of the area under the oxidized Mo peak to the oxidized Al peak.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0006_item_0005",
+      "image_path": "images/938eb5c593be339bc003c13249017efea7808d25ed3cd9a2c6f726c37e52a546.jpg",
+      "caption": "Fig. 10. The increase in the film thickness correlated with an increase in the amount of $M o ^ { + 5 }$ and $M o ^ { + 6 }$ found in the passive film. These two states were not found in films less than 20Å thick.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

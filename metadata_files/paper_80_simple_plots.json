@@ -1,0 +1,130 @@
+{
+  "schema_version": 2,
+  "paper_reference": "80",
+  "source_chart_manifest": "paper_80_charts.json",
+  "summary": {
+    "chart_count": 6,
+    "accepted": 4,
+    "rejected": 2,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/962b642f171e961d5b8fc108b3b6fcdd62b2ce14cce8c212fa9a0b5657495436.jpg",
+      "caption": "Fig. 1. Pitting potentials for freshly deposited samples, $E _ { \\mathrm { p } },$ and aged samples $E _ { \\mathbf { p } } ^ { \\mathbf { a } }$ along with repassivation potentials, $\\mathbf { { { E } } _ { R } },$ for pure Al and AlNb alloys.",
+      "relevant_panels": [],
+      "target_series": [
+        "Fresh E_p",
+        "Aged E_p^a"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Fresh and aged pitting potentials are directly plotted against niobium concentration; repassivation potential is separable ancillary data.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Nb Concentration",
+        "unit": "at. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/711a155508031744ff92f66bc334684f8ba65be75313f8d4785d6e1e16d7aa01.jpg",
+      "caption": "Fig. 2. Pitting potentials for freshly deposited samples, $E _ { \\mathrm { p } },$ and aged samples, $E _ { \\mathbf { p } } ^ { \\mathbf { a } }$ along with repassivation potentials, $E _ { \\mathrm { { R } } },$ for pure Al and AlMo alloys.",
+      "relevant_panels": [],
+      "target_series": [
+        "Fresh E_p",
+        "Aged E_p^a"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Fresh and aged pitting potentials are directly plotted against molybdenum concentration; repassivation potential is separable ancillary data.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Mo Concentration",
+        "unit": "at. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/a6974eea2e725c9597bb0b0eabfb5ebec6d2e83630a086edcf44eda047d82824.jpg",
+      "caption": "Fig. 3. Pitting potentials for freshly deposited samples, $E _ { \\mathbf { p } },$ and aged samples, $E _ { \\mathbf { \\mathfrak { p } } } ^ { \\mathbf { a } }$ along with repassivation potentials, $E _ { \\mathrm { { R } } },$ for pure Al, AlV alloys, AlMn alloys, and AlW alloys.",
+      "relevant_panels": [],
+      "target_series": [
+        "Pure Al E_p and E_p^a",
+        "Al-V E_p and E_p^a",
+        "Al-Mn E_p and E_p^a",
+        "Al-W E_p and E_p^a"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Fresh and aged pitting potentials are directly plotted against solute concentration for Al-V, Al-Mn, and Al-W alloys.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Solute Concentration",
+        "unit": "at. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0006_item_0002",
+      "image_path": "images/6e600bf7432cada511935b9ffe954bfbedee6909b202cb9169b4a67ec8c97a5e.jpg",
+      "caption": "Fig. 4. Pitting potentials for freshly deposited samples, $E _ { \\mathrm { p } },$ and aged samples, $E _ { \\mathfrak { p } } ^ { \\mathrm { a } }$ along with repassivation potentials, $E _ { \\mathrm { { R } } },$ for pure Al and AlCr alloys.",
+      "relevant_panels": [],
+      "target_series": [
+        "Fresh E_p",
+        "Aged E_p^a"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Fresh and aged pitting potentials are directly plotted against chromium concentration; repassivation potential is separable ancillary data.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Cr Concentration",
+        "unit": "at. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0008_item_0004",
+      "image_path": "images/a0ba6ee6df4e44dbd0e5dd0ca6f7667905ead00113b09b2ce477f061d959047d.jpg",
+      "caption": "Fig. 5. Anodic pit current density as a function of growth potential for pure Al and AlNb alloys. The points on the abscissa represent the repassivation potentials. The arrows indicate the critical pit current densities for repassivation.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0009_item_0002",
+      "image_path": "images/63327fa971d62e970bf1c40dff3f82b00bf046d90bdff2f51a94aefcd8356ecc.jpg",
+      "caption": "Fig. 6. Anodic pit current density as a function of growth potential for pure Al and AlCr alloys.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

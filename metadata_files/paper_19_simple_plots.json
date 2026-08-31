@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "paper_reference": "19",
+  "source_chart_manifest": "paper_19_charts.json",
+  "summary": {
+    "chart_count": 2,
+    "accepted": 0,
+    "rejected": 2,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/e956d95ee3c420fb2b522fbcb4e559c1b5a0deb57fc2b1153a0719e39a8316a8.jpg",
+      "caption": "Fig. 2. XRD patterns of as-cast FeCoNiCrCu<sub>x</sub> alloys. Fig. 3. Micrographs of as-cast FeCoNiCrCu<sub>x</sub> alloys: (a) x = 0.5, and (b) x = 1.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The image is an X-ray diffraction pattern, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/af53b092ab69e0e8a37590d5b645ad9711eb02e99a02ee3b8e58c6e90fef456b.jpg",
+      "caption": "Fig. 5. Polarization curves for as-cast FeCoNiCrCu<sub>x</sub> alloys and 304L in 3.5% NaCl solution at $2 5 ^ { \\circ } \\mathrm { C }.$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

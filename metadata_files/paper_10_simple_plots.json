@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "paper_reference": "10",
+  "source_chart_manifest": "paper_10_charts.json",
+  "summary": {
+    "chart_count": 3,
+    "accepted": 0,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/0c21fcbfecb0972f8b27a6d54e305a4b88ecb6e2912162ca167f6edfe9d5b484.jpg",
+      "caption": "Fig. 1. Effect of varying Cr content on pitting current density of steel containing approx. 5% Ni, 3% Cu, 2.5% Mo and 0·15% N",
+      "reason_code": "current_density_only",
+      "reason": "Pitting current density, not pitting potential, is plotted against chromium content.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/99c0d4b796c93031d37537c6357ea25e7e8048eea23d8bc1fd09a0010b777819.jpg",
+      "caption": "Fig. 2. Effect of varying Ni content on pitting current density of steel containing approx. 25% Cr, 3% Cu and 2.5% Mo",
+      "reason_code": "current_density_only",
+      "reason": "Pitting current density, not pitting potential, is plotted against nickel content.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0003",
+      "image_path": "images/13cf6317e4a0607d87d0c8614132a811fc43db137c92fff72fb9036b313088fa.jpg",
+      "caption": "Fig. 3. Potentiostatic polarisation curves for alloys 5 and 6 in 3% NaCl (N2-purged) at 30°C; N content of alloy 5 is 0.15% and of alloy 6, 0.05%",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

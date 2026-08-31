@@ -1,0 +1,98 @@
+{
+  "schema_version": 2,
+  "paper_reference": "21",
+  "source_chart_manifest": "paper_21_charts.json",
+  "summary": {
+    "chart_count": 7,
+    "accepted": 1,
+    "rejected": 6,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0011",
+      "image_path": "images/afd5b9130f8c9fb65655f3a041e09fe802e7362a5dbb7f7e06c8cc4c9e2bb704.jpg",
+      "caption": "FIGURE 4 - Pitting potential of 20Cr-25Ni steel as a function of the $M _ { 0 } { \\ o \\mathsf { O } _ { 4 } } ^ { \\bar { 2 } - }$ concentration in 0.1M-NaCl at 50 C.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against molybdate concentration with discrete markers and a trace.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "20Cr-25Ni steel pitting potential"
+      ],
+      "x_axis": {
+        "label": "MoO4²−",
+        "unit": "mol/l",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential V",
+        "unit": "V vs. N.H.E.",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0001",
+      "image_path": "images/cea559cfe53777e5e77da5c84a9543a59f1d7a961c10e3769f5d786e36b1af0f.jpg",
+      "caption": "FIGURE 1 - Anodic polarization curves for pure Mo in 0.1M-NaCl and 0.1M-NaBr at 25 C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0002_item_0004",
+      "image_path": "images/a75cd9a57433ddeed6efd01ef6aa22398bfb3df9dbfce3b61abec936141d43b1.jpg",
+      "caption": "FIGURE 2 — Critical pitting temperature as a function of the Mo content of 20Cr-25Ni steels in 0.1M-NaCl.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/dd64961f5502b1dd8cc5bc62b9876a9968ee05c77ecc0b6d5f7a27eff7c96248.jpg",
+      "caption": "FIGURE 3 — Critical pitting temperature of 20Cr-25Ni steel as a function of the Mo ${ \\mathsf { O } _ { 4 } } ^ { 2 - }$ concentration in 0.1M-NaCl.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0012",
+      "image_path": "images/8c677332f9a186565252c7890c496314ae5e3139a1d3d657a67415f99804dc3a.jpg",
+      "caption": "FIGURE 5 - Effect of the ${ \\tt c }! ^ { - }$ concentration on the minimum concentration of $\\mathsf { M o o } _ { 4 } { } ^ { 2 - }$ ions which is necessary for pitting inhibition of 20Cr-25Ni steel at 25 C.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/14b045ee05250811b3942311353019919298c510648be43e6a3f37978a008eba.jpg",
+      "caption": "FIGURE 6 - Anodic polarization curves for 20Cr-25Ni-3Mo and 20Cr-25Ni-5Mo steels in a $0. 1 { \\mathsf { M } } { \\mathsf { - N a C l } } + 0. 1 1 { \\mathsf { M } } { \\mathsf { - N a } } _ { 2 } { \\mathsf { M o O } } _ { 4 }$ solution at 50 and 60 C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0005",
+      "image_path": "images/15ce7503b8c034b030001ea66493d972d48aee702a9d7f95b3ba81aa9fc304b6.jpg",
+      "caption": "FIGURE 7 — Anodic polarization curves for 20Cr-25Ni and 20Cr-25Ni-5Mo steels in 0.1M and 1M-NaBr at 25 C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

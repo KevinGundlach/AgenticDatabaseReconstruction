@@ -1,0 +1,128 @@
+{
+  "schema_version": 2,
+  "paper_reference": "20",
+  "source_chart_manifest": "paper_20_charts.json",
+  "summary": {
+    "chart_count": 10,
+    "accepted": 1,
+    "rejected": 9,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0018_item_0003",
+      "image_path": "images/3f995ee1fc5cbc177674da2ccd4fab44686d62a583b7f86bc8d4d837d6258725.jpg",
+      "caption": "Fig. 13. Comparisons of the corrosion potential, the pitting potential, and the corrosion rate of HEA versus the concentration of NaCl added to 1 N $\\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 }$ at room temperature $(\\sim 2 5 ^ { \\circ } \\mathrm { C })$",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The red-triangle pitting-potential series is directly plotted against added NaCl concentration and is separable from corrosion potential and corrosion rate.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Pitting potential, Epit"
+      ],
+      "x_axis": {
+        "label": "1N H2SO4 + X M NaCl",
+        "unit": "M NaCl",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0012_item_0001",
+      "image_path": "images/26008f87e04b51b2e5b2e7d36c361465f0040c48abbc332dfed652832eaa6abd.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The image is an X-ray diffraction pattern, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0012_item_0002",
+      "image_path": "images/bd911e2233b72c7c1f1408bb14d89c61e44ad84666df969d79551f5841f1ca49.jpg",
+      "caption": "Fig. 6. X-ray difraction patterns of the seven-component $\\mathrm { C u _ { 0. 5 } N i A l C o C r F e S i }$ alloy show that: (a) the dendritic phase is composed mainly of an amorphous structure with a little BCC structure, and (b) the interdendritic phase has an amorphous structure.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The image is an X-ray diffraction pattern, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0013_item_0001",
+      "image_path": "images/76ab681390990f95a92022a9ad46c88eca109f514ad010985b84945e2e1619a1.jpg",
+      "caption": "Fig. 7. DSC thermograms of HEA span from room temperature to $1 4 0 0 ^ { \\circ } \\mathrm { C }.$",
+      "reason_code": "not_pitting_potential",
+      "reason": "The image is a DSC thermogram, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0013_item_0002",
+      "image_path": "images/77be181297fa64e6a1b436f3896ffd61d93372a2d52c1f7d6401f27091e17015.jpg",
+      "caption": "Fig. 8. Comparisons of the anodic polarization curves for the HEA and 304S in deaerated 1 M NaCl solution at room temperature $(\\sim 2 5 ^ { \\circ } \\mathrm { C })$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0015_item_0004",
+      "image_path": "images/b38719312ead34c9507ff52fee41d59ea0459ba6a382760d8bcedf4d2d35321c.jpg",
+      "caption": "Fig. 9. Comparisons of the anodic polarization curves for the HEA and 304S in deaerated 1 N $\\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 }$ solution at room temperature $(\\sim 2 5 ^ { \\circ } \\mathrm { C })$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0016_item_0001",
+      "image_path": "images/e6f9f3072cfba1c58589e5e29b0a8460737f6c082d82f3869e1607beea39ee93.jpg",
+      "caption": "Fig. 10. Comparisons of the anodic polarization curves for the HEA and 304S in deaerated 0.1 N $\\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 }$ at room temperature $(\\sim 2 5 ^ { \\circ } \\mathrm { C })$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0001",
+      "image_path": "images/28b9fb4df064f1c4c385a8f817475b73ed2dc39b9cbe5aa3bd0be06dab596822.jpg",
+      "caption": "Fig. 11. Comparisons of the anodic polarization curves for the HEA and 304S in deaerated 0.1 M NaCl at room temperature $(\\sim 2 5 ^ { \\circ } \\mathrm { C })$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0017_item_0002",
+      "image_path": "images/504aafab1c69443772b4f3b9c419ef56a4509952a4e16f920e4878340d4cdda8.jpg",
+      "caption": "Fig. 12. Anodic polarization curves for HEA obtained in deaerated 1 N $\\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 } / \\mathrm { X }$ NaCl $\\left(\\mathbf { X } = 0 { - } 1 \\ \\mathbf { M } \\right)$ solutions at room temperature $(\\sim 2 5 ^ { \\circ } \\mathrm { C })$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0019_item_0006",
+      "image_path": "images/f6af9d4b011c74879fe5f666ff7440eac506d30d12a0c38b8275fb00a961c0e5.jpg",
+      "caption": "Fig. 14. Comparison of the cyclic polarization curves for the HEA and 304S tested in $1 \\mathrm { N } \\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 }$ at room temperature $(\\sim 2 5 ^ { \\circ } \\mathrm { C })$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

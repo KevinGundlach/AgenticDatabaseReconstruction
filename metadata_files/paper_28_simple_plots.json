@@ -1,0 +1,209 @@
+{
+  "schema_version": 2,
+  "paper_reference": "28",
+  "source_chart_manifest": "paper_28_charts.json",
+  "summary": {
+    "chart_count": 18,
+    "accepted": 1,
+    "rejected": 17,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0011_item_0001",
+      "image_path": "images/84e351e7ab85fcc57697713cc93733110afbe359ef122d235c49a23534a00e95.jpg",
+      "caption": "Fig. 11. Comparison of corrosion properties between HEAs and conventional alloys [60–66] in the 3.5 wt.% NaCl solution. The higher pitting potential $(E _ { \\mathrm { p } })$ and lower corrosion-current density $(I _ { \\mathrm { c o r r } })$ of Al CoCrFeNi HEAs indicate that the localized and general corrosion-resistant properties of the Al CoCrFeNi HEAs are comparable or even superior to that of conventional corrosion-resistant alloys.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is explicitly plotted on the horizontal axis with identifiable alloy-class markers against corrosion-current density.",
+      "confidence": 0.92,
+      "relevant_panels": [],
+      "target_series": [
+        "AlxCoCrFeNi HEA pitting potentials",
+        "conventional-alloy pitting potentials"
+      ],
+      "x_axis": {
+        "label": "Ep",
+        "unit": "V vs. SCE",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Icorr",
+        "unit": "μA/cm²",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0009",
+      "image_path": "images/06bb7d8f8b1cd060a0f4fec9a955764e67cd641448c5484dc8833d7f715fea96.jpg",
+      "caption": "Fig. 1. High-energy X-ray di<sup>f</sup>raction pattern of the Al CoCrFeNi $(x = 0. 3, 0. 5,$ and 0.7) alloys.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0006",
+      "image_path": "images/74217bc86f254a8f86ecfd1aa0dbf6abc68b4dbada18e86e7f3283f44afaf6ab.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0007",
+      "image_path": "images/4c00d1868506e47c552899d5df210c6128595ca8a746eacd4a6c3880bd4b3e8c.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0003",
+      "image_path": "images/26b2660a146d1d6ac76e8a21df53c28a29531650d645258012e17e7fe428d56e.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0004",
+      "image_path": "images/c478715dcf7a24e132f4790228d7b6c79ff00cfe9cc4125595a2f7e1f2c8b9d6.jpg",
+      "caption": "dAlo.sCoCrFeNi (as-forged)",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0008",
+      "image_path": "images/fe69838fc032b7eaddf8d075d92584c04ebdde611f43915391ce557177dde81c.jpg",
+      "caption": "fAlo.7CoCrFeNi (as-forged)",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0009",
+      "image_path": "images/dbf1ab35bc03bf7291ef5d0c7f3547cfddd7b67cdae261557ababa0add9786b0.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0010",
+      "image_path": "images/c0d05f544148629b6329f7e959f3b05fce932152238bf3ccc848f735e564ff0f.jpg",
+      "caption": "9 Alo.7CoCrFeNi (as-equilibrated)h Alo.7CoCrFeNi (as-equilibrated)",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0014",
+      "image_path": "images/259dc0a94f1090b40f39977c44e55bb45f434e7ade509f41f7330c41dffa8311.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0015",
+      "image_path": "images/1a95478ccbd4baeb49577520992b2941e3a004896249f584622ff396fa2fe819.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0016",
+      "image_path": "images/29425cc4ed61de54950f0ded792a4c03f66308f57c232fe07ecb281c7a6b6974.jpg",
+      "caption": "Fig. 6. The $V _ { \\mathrm { C P D } }$ maps and line pro<sup>fi</sup>les of the as-forged and as-equilibrated Al CoCrFeNi $(x = 0. 3$, 0.5, and 0.7) alloys. (a) and (b), for the as-forged and as-equilibrated Al CoCrFeNi. (c) and (d) are the $V _ { \\mathrm { C P D } }$ maps and line pro<sup>fi</sup>les of the as-forged Al CoCrFeNi at the phase boundary (c), and inside the disordered/ordered BCC (A1/B2) phases (d). (e), $V _ { \\mathrm { C P D } }$ map and line pro<sup>fi</sup>le for the as-equilibrated $\\begin{array} { r } { \\mathbf { A l } _ { 0. 5 } \\mathbf { C o C r F e N i }, } \\end{array}$, potential variation disappears in the BCC phase due to the dissolution of the A2 phase. (f), $V _ { \\mathrm { C P D } }$ map and line pro<sup>fi</sup>le for the as-forged $\\mathrm { A l } _ { 0. 7 }$ CoCrFeNi, the net-like A2 precipitates with a lower V distributed inside the bright B2 matrix. (g) and (h) are the $V _ { \\mathrm { C P D } }$ maps and line pro<sup>fi</sup>les of the as-equilibrated $\\mathrm { A l } _ { 0. }$ CoCrFeNi at the phase boundary (g), and inside A2/B2 phases (h).",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0009_item_0001",
+      "image_path": "images/f62d94b66d3a9916962d03a7da7a8074e8e3a7ca49306121238a2b38ea415ff9.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0009_item_0002",
+      "image_path": "images/70fce50eabc8fd70fc52bf55adc294907ecaee124b84d0cfbbe05edbb784ac6c.jpg",
+      "caption": "Fig. 7. Potentiodynamic polarization curves of the as-forged (a) and as-equilibrated (b) Al CoCrFeNi $(x = 0. 3, 0. 5,$ and 0.7) alloys, performed with the scan rate of 100 mV/min in the 3.5 wt.% NaCl solution at room temperature.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0010_item_0001",
+      "image_path": "images/14f63781a704a7cb6352e752dc3edb855282e269a81fc585360067d35f840d62.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0010_item_0002",
+      "image_path": "images/bdbf4c13f70a811a4c08f912375cebd6ab2319c300e6adf5a15e492cbbb0cefe.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0010_item_0003",
+      "image_path": "images/165f059cd86477ba8a653de28db3a85df4e5cd838144034d5a174678062b6830.jpg",
+      "caption": "Fig. 9. Equilibrium calculations of phase fractions as a function of temperature for the Al CoCrFeNi $(x = 0. 3, 0. 5,$ and 0.7) alloys. (a) $\\mathrm { { A l } _ { 0. 3 } { C o C r F e N i }, }$ (b) $\\mathrm { { A l } } _ { 0. \\varepsilon }$ CoCrFeNi, and (c) $_ { \\mathrm { A l } _ { 0. 7 } \\mathrm { C o C r F e N i } }$. The red-dash-lines are located at the temperature of 1250 °C.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0010_item_0007",
+      "image_path": "images/6f47675c6268410b421f25ca6ab349dc7e4562a832f0e3a009a7ca25d3b39d43.jpg",
+      "caption": "Fig. 10. Changing trends of work functions for A1 (disordered FCC), A2 (disordered BCC) and B2 (ordered BCC) phases, in $\\mathrm { A l } _ { 0. }$ CoCrFeNi (Al0.3), Al CoCrFeNi (Al0.5) and $\\mathrm { A l } _ { 0. 7 }$ CoCrFeNi (Al0.7) HEAs of as-forged (AF) and as-equilibrated (AE) conditions, as a function of Al content.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

@@ -1,0 +1,129 @@
+{
+  "schema_version": 2,
+  "paper_reference": "34",
+  "source_chart_manifest": "paper_34_charts.json",
+  "summary": {
+    "chart_count": 10,
+    "accepted": 1,
+    "rejected": 9,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0009_item_0001",
+      "image_path": "images/95fbfa04f77b0bef4a5720226612c9a30aace2a6d756e7fbbabea4784ad2753d.jpg",
+      "caption": "Fig. 4. Pitting potentials of type 316LN SS as a function of nitrogen content in 1 M KCl and 0.5 M HCl solutions at a scan rate of 0.2 mV/s.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against nitrogen content for two solution series.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "pitting potential in 1.0 M KCl",
+        "pitting potential in 0.5 M HCl"
+      ],
+      "x_axis": {
+        "label": "Nitrogen Content",
+        "unit": "wt%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E",
+        "unit": "mV_SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/fc8f149ea38c49f980024004496d58e6108214f26122f2201539abf0f6b7e182.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0002",
+      "image_path": "images/6d1c2ffbac5ae6646c885414f7e07685151332320d92d67e88ba0070676a5841.jpg",
+      "caption": "Fig. 1. Anodic ploarization curves of (a) type 316LN SS with various nitrogen contents and (b) 20 wt.% Mn-substituted type 316LN SS with 0.394 wt.% N, tested in 1 M KCl solution at a scan rate of 0.2 mV/s.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0001",
+      "image_path": "images/c5d2c89e2108cb4ce69cfcba7a7f5890283f86fb977084dd947fb0449cf273bf.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0002",
+      "image_path": "images/159e9f4f9a666a5fa808886d83d15161aaf42dfb5f1e7bcdf5b39b8217a8956c.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0003",
+      "image_path": "images/0ba6273804d8005a8a13a34b1f70860231a5838170773e6e45ed5481aa68ed35.jpg",
+      "caption": "Fig. 2. Current-potential traces illustrating the occurrence of anodic current transients in the passive regions of 20 wt.% Mn-substituted type 316LN SS with nitrogen contents of (a) 0.004 wt.%, (b) 0.314 wt.% and (c) 0.394 wt.%, tested in 0.1 M KCl at a scan rate of 0.2 mV/s. The arrows in the figures are located on the pitting potentials of the alloys.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/c077bc8bc024a1024733d8ae1e72909e5506a8693347e1423b49bec3e40bb35b.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/32adb3c72740ae589f4f54a478c8da83fecd178a72f01945ab8a6f99fb1536b6.jpg",
+      "caption": "Fig. 3. Anodic polarization curves of (a) type 316LN SS and (b) 20 wt.% Mn-substituted type 316LN SS with various nitrogen contents, tested in 0.5 M HCl solution at a scan rate of 0.2 mV/s.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0011_item_0002",
+      "image_path": "images/dcf5b61b3e430765007acf401cb59ce9ee9b6a62d349cc48ab11168ece951634.jpg",
+      "caption": "Fig. 7. (a) SEM image and (b) TEM/EDX spectrum of a sulfide inclusion, which is commonly found in 20 wt.% Mn-substituted type 316LN SS with 0.314 wt.% N.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0012_item_0002",
+      "image_path": "images/e599d92c1a4bb6811aa0090c3103221926ecfb37a3423b61eaddc61bebfca72d.jpg",
+      "caption": "Fig. 8. (a) SEM image and (b) TEM/EDX spectrum of an alumina inclusion, which is commonly found in 20 wt.% Mn-substituted type 316LN SS with 0.317 wt.% N.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

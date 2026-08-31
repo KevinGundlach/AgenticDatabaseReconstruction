@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "paper_reference": "72",
+  "source_chart_manifest": "paper_72_charts.json",
+  "summary": {
+    "chart_count": 3,
+    "accepted": 0,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/94bc6a218c4f5c170990a697c577e3e23d91874d0f293a8c375a4a76f82a6870.jpg",
+      "caption": "FIGURE 2 — Typical potentiodynamic anodic polarization curves for selected alloys in aerated 3.5% NaCl at 25 $\\begin{array} { r } { \\pmb { \\complement _ { 3 } } } \\end{array}$ sweep speed, 0.6 V/h.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/73cbd1849fc73224c1b1cdb436719a0cd6824159290e51ac2ed4a583c0606ec6.jpg",
+      "caption": "FIGURE 3 — Schematic representation of a cyclic potentiodynamic anodic polarization curve for SSs in halide media.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/2fc0beb1dd57846a045d40a890791ca1763f7e2ca7152af2d861a3bcc6f9cf05.jpg",
+      "caption": "FIGURE 4 — Correlation between the “difference potential\" and corrosion weight loss of stainless alloys exposed in seawater for 4.25 y.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

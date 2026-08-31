@@ -1,0 +1,207 @@
+{
+  "schema_version": 2,
+  "paper_reference": "38",
+  "source_chart_manifest": "paper_38_charts.json",
+  "summary": {
+    "chart_count": 15,
+    "accepted": 3,
+    "rejected": 12,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/d8817b494ee0199a504e16a366293783e941a2b017e7435ed799df02dc9c754f.jpg",
+      "caption": "FIGURE 6 — Effect of N content on pitting potential of 22Cr duplex SS.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against nitrogen content for two solution series.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "5% NaCl solution",
+        "5% NaCl solution + 0.01 atm H2S"
+      ],
+      "x_axis": {
+        "label": "N",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0006_item_0005",
+      "image_path": "images/522c1b87d9a9446afa59d3651de4b5eb0bea04798beaa612a76793e5a1682a8e.jpg",
+      "caption": "FIGURE 14 — Effect of heating temperature on the pitting potential in NaCl solution and corrosion rate in ${ \\bf H N O _ { 3 } }$ for 22Cr duplex SS (N = 0.137%, heated for 1 h).",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The upper panel directly plots pitting potential against heat-treatment temperature; the lower corrosion-rate panel is ancillary.",
+      "confidence": 0.99,
+      "relevant_panels": [
+        "upper panel"
+      ],
+      "target_series": [
+        "Pitting Potential (60 °C, 5% NaCl)"
+      ],
+      "x_axis": {
+        "label": "Temperature",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/a4c0becb20db3c4d5dab35c2feca3d8419b3738a746295264e184c93d09014c4.jpg",
+      "caption": "FIGURE 18 — Effect of N content on the pitting corrosion resistance of simulated HAZ of 22Cr duplex SSs.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The lower panel directly plots pitting potential against nitrogen content; the upper CPT panel is excluded.",
+      "confidence": 0.99,
+      "relevant_panels": [
+        "lower panel"
+      ],
+      "target_series": [
+        "Pitting Potential (60 °C, 5% NaCl)"
+      ],
+      "x_axis": {
+        "label": "N",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0002",
+      "image_path": "images/163ce6aee6a12ad6654999eaff74be27c49bbe16307f542189f14f6aed186d40.jpg",
+      "caption": "FIGURE 1 — Effect of N content on mechanical properties and ferrite content of 22 Cr duplex SS.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0002_item_0009",
+      "image_path": "images/8fdc79808b9930b736b321058f5e4d722edf747a9643c5bf1ef62e7853de5c65.jpg",
+      "caption": "FIGURE 2 — Heat pattern of simulated HAZ.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/7bd3f39003d1d515107da372c0cc1709b2cf976b71afeddb109381b7ea0f9fa7.jpg",
+      "caption": "FIGURE 5 — Microstructure observation of 22Cr duplex stainless steel.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0005",
+      "image_path": "images/3aefa8ec0151996d18c3a3d5df64926b50e5e053d13b026e3712bf6bb79b467e.jpg",
+      "caption": "FIGURE 7 — Effect of N content on critical pitting temperature of 22Cr duplex SS in $F e C l _ { 3 }$ solution.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/79383f62f22ec57266479c1fdcb5608f2eddf0aa0d2b7a869e7a24beff18678a.jpg",
+      "caption": "FIGURE 8 — Effect of N content on SCC susceptibility of 22Cr duplex SS (100 C, 20% NaCI, 1 atm ${ \\sf H } _ { 2 } { \\sf S },$ 45 kg/mm²).",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0005",
+      "image_path": "images/38b05b5d7b5ee8c64a9bb1c68bfa7eb1bdf6f6095fc1dbcaf66b21fbec5bb42d.jpg",
+      "caption": "FIGURE 9 — Strauss test results of 22Cr duplex SSs. (ASTM A262, Practice E); (0) No crack and (*) embrittlement.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0006",
+      "image_path": "images/9e1ea79fe6c69e14dad7289d21baa1f9ff277a62d3c6419979ebe418c36bbaf0.jpg",
+      "caption": "FIGURE 10 — Huey test results of heat treated 22Cr duplex SSs (ASTM A262, Practice C).",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0002",
+      "image_path": "images/893b4638f5df281613c1fd33ee71654fcaec12af29bf2781628c123a642a5332.jpg",
+      "caption": "FIGURE 13 — Effect of heating on the pitting potential of 22Cr duplex SSs (5% NaCI, 60 C).",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0001",
+      "image_path": "images/202aa61643c01d166792563cc34400484266d923f8e012cb7c3db6bff52c70c4.jpg",
+      "caption": "FIGURE 15 — Effect of peak temperature at heat cycle on SCC susceptibility of 22Cr duplex SS; $\\mathsf { N } = \\mathsf { 0 }. 1 \\mathsf { 3 } 7 \\%,$ 100 C, 20% NaCl + 1 atm $H _ { 2 } S.$",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0006",
+      "image_path": "images/c6e9973df7308683e74f06bbe599e686f70dc795869ca0141b9cfc8e92115ace.jpg",
+      "caption": "FIGURE 17 — Effect of N content on intergranular corrosion of simulated HAZ of 22Cr duplex SSs.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0008",
+      "image_path": "images/50a1ef31250ffffd50a3e460f490dd495c1b66467fe962ea620f080c311631d6.jpg",
+      "caption": "FIGURE 19 — Effect of N content on SCC susceptibility of simulated HAZ of 22Cr duplex SSs (100 C, 20% NaCl + 1 atm ${ \\sf H } _ { 2 } \\hat { \\sf s })$",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0009_item_0003",
+      "image_path": "images/f0e02e9badc59fd35be757758bd22d98e657a70e01b1e70aed3913842e0525fb.jpg",
+      "caption": "FIGURE 21 — EPMA analysis of ferrite and austenite phases of 22Cr duplex SSs (N = 0.047 to 0.238%).",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

@@ -1,0 +1,183 @@
+{
+  "schema_version": 2,
+  "paper_reference": "16",
+  "source_chart_manifest": "paper_16_charts.json",
+  "summary": {
+    "chart_count": 10,
+    "accepted": 5,
+    "rejected": 5,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/94082058f032828a88d02004f796778935fba5d5f7f48a955e9637a7eba8d90b.jpg",
+      "caption": "Fig.4 Effect of N content on pitting potential of simulated HAZ specimen in synthetic seawater at 353K",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against nitrogen content for simulated heat-affected-zone specimens.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "simulated HAZ specimen pitting potential"
+      ],
+      "x_axis": {
+        "label": "N",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting potential",
+        "unit": "V vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0006_item_0006",
+      "image_path": "images/8c26ab875e7aa8b7938b97911ea4f1c7a8b6e2f34fc119315b373591c23490e4.jpg",
+      "caption": "Fig.7 Effect of temperature on pitting potential in synthetic seawater",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against temperature for four duplex stainless steels.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "28Cr pitting potential",
+        "254 pitting potential",
+        "2942 pitting potential",
+        "329J2L pitting potential"
+      ],
+      "x_axis": {
+        "label": "Temperature",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting potential",
+        "unit": "V vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0007_item_0004",
+      "image_path": "images/ac9f08c0f6d29cf358a8e23ab7e369b263e084cc1235f9adf28f9b1e2b25105e.jpg",
+      "caption": "Fig.10 Effect of heating temperature on ferrite content and pitting potential of duplex SSs",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The lower panel directly plots pitting potential against maximum heating temperature for two steels.",
+      "confidence": 0.98,
+      "relevant_panels": [
+        "lower panel"
+      ],
+      "target_series": [
+        "28Cr pitting potential",
+        "329J2L pitting potential"
+      ],
+      "x_axis": {
+        "label": "Maximum heating temperature",
+        "unit": "K",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting potential",
+        "unit": "V vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0007_item_0005",
+      "image_path": "images/89aeeab0bae26a67545c5651de526361738896f5e1d8d24846a60494a649c560.jpg",
+      "caption": "Fig.11 Effect of welding condition on pitting potential of girth weldment",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against weld heat input.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "girth-weldment pitting potential"
+      ],
+      "x_axis": {
+        "label": "Weld heat input",
+        "unit": "kJ/cm",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting potential",
+        "unit": "V vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0008_item_0003",
+      "image_path": "images/d65066d06b50fe08be0e3eea6d6be554c25d3ba43c7182f3a3ac73c78632a76f.jpg",
+      "caption": "Fig.13 Pitting potential of tube-totube sheet weldment",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against calculated P.I. value for identifiable weld and filler conditions.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "girth-weld pitting potential",
+        "seal-weld pitting potential"
+      ],
+      "x_axis": {
+        "label": "Calculated P.I. value",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting potential",
+        "unit": "V vs SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0004_item_0011",
+      "image_path": "images/b0c9e45fffab4cab70eea3a17b4232fd0e836a287ac0eaf6d6ea7f371839c2fe.jpg",
+      "caption": "Fig.2 Thermal cycle applied to simulated HAZ specimen",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart shows a simulated heat-affected-zone thermal cycle, not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0012",
+      "image_path": "images/be40732eb106642f29bbdafb9b0cd03e3f80df9c96fed5baa529e2d866220e69.jpg",
+      "caption": "Fig.3 Effect of Ni and N content on HAZ toughness at 273K",
+      "reason_code": "not_pitting_potential",
+      "reason": "Impact toughness, not pitting potential, is plotted against nickel content.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0002",
+      "image_path": "images/c04cffb890312806d92809e3c3cab9bc9fda136b7d440dc2e303826a845255b2.jpg",
+      "caption": "Fig.5 Optimum Ni and N content range determined by HAZ performance",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart maps an optimum nickel/nitrogen design range using threshold annotations; pitting potential is not itself plotted.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0007",
+      "image_path": "images/f6ba9e6ba4649442397799fd5e0b5f6fad5040445cbb5483c1b3b97d9cc57260.jpg",
+      "caption": "Fig.8 Effect of temperature on crevice corrosion potential in synthetic seawater",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Crevice-corrosion potential, not pitting potential, is plotted against temperature.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0008",
+      "image_path": "images/9920a0e6ee4d974a53b3f0f6264bd57fc301cf9a97bcfe110e1684a3d72342cb.jpg",
+      "caption": "Fig.9 Effect of temperature and chloride concentration on crevice corrosion resistance at 0.4V for 48h",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart maps crevice-corrosion outcomes against temperature and chloride concentration, not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

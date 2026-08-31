@@ -1,0 +1,189 @@
+{
+  "schema_version": 2,
+  "paper_reference": "48",
+  "source_chart_manifest": "paper_48_charts.json",
+  "summary": {
+    "chart_count": 16,
+    "accepted": 1,
+    "rejected": 15,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0007",
+      "image_path": "images/e02126317b7676822a5695ed00b4173cc375ee7f0ee722eb73fe6ba0c2d239dd.jpg",
+      "caption": "FIGURE 2. $E _ { p }$ vsthe Cr+ 3xMo indexforferriticand austenitic SS in deaerated 3.5% NaCl solutions at ${ } ^ { 8 0 ^ { \\circ } C. }$",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Ep is directly plotted against the Cr + 3xMo index for separable ferritic and austenitic stainless-steel series.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "ferritic stainless-steel Ep",
+        "austenitic stainless-steel Ep"
+      ],
+      "x_axis": {
+        "label": "Cr + 3xMo",
+        "unit": "mass%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_p",
+        "unit": "V_Ag-AgCl",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/2db50477d61b1d7d6e63ac0a0a1ce8ab9c92b2744b6ced051887326d9936632e.jpg",
+      "caption": "FIGURE 1. Pittin<sub>g</sub> corrosion rate vs the Cr + 3xMo index for ferritic and austenitic SS exposed to 6% $F e C l _ { 3 } + { \\cal O }.$ 18% HCl at 60°C.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/8979e9296afac4eb3993f6d3b9929ca3e8ef3d2e400f1f27313891af115fa038.jpg",
+      "caption": "FIGURE 3. Crevice corrosion rate vs the $C r +$ 3xMo index for ferritic and austenitic SS exposed to 3% $F e C l _ { 3 }$ at $3 0 ^ { \\circ } C.$",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/2fa826602eed96e906db9905dc938d6d7cecb79017075e3ae0cec0b3bece4d0b.jpg",
+      "caption": "FIGURE 4. Corrosion rateandwei<sub>g</sub>htlossasafunction oftime in crevice corrosion test for ferritic and austenitic SS containing 26% Cr and 4% Mo exposed to 6% FeCl₃ + 0.18% HCl at 50° C.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0009",
+      "image_path": "images/4d01034b977f2f8b4b85f5224c6fb248c267eccff5d9292e2363c9cde9d3bef0.jpg",
+      "caption": "FIGURE 5. $E _ { c o r r }$ as a function oftime in crevice corrosion test for ferritic and austenitic SS exposed to 6% $F e C l _ { 3 }$ +0.18% HCl at 20° C and at 60° C.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0010",
+      "image_path": "images/ce9e04099707695e1410e081b3cd7b2ec64d3fffd99452334b319867da897cd8.jpg",
+      "caption": "FIGURE 6. General corrosion rate vs the Cr + 3xMo index for ferritic and austenitic SS exposed to boiling 10% $H _ { 2 } S O _ { 4 }$ solutions.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/c6689cdbd6b0ee3b8943ec19ef573cd4bc5e68e2d5ab21539e2b66e771b7e776.jpg",
+      "caption": "(a)",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0002",
+      "image_path": "images/5a29cf088a96de8fdd2c2c18a8e9e540ca86320a5730d2f158f0a2be98912e1f.jpg",
+      "caption": "(b) FIGURE 7. Effect of Cr on anodic <sub>p</sub>olarization behavior for: (a) ferritic and (b) austenitic SS containin<sub>g</sub> 18% to 26% Cr and constant 2% Mo in deaerated 5 M NaCl + HCl (pH 0.5) solutions at ${ } _ { 3 0 ^ { \\circ } C. }$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0003",
+      "image_path": "images/406afafc03d20cc9960f9dae14607dc092e64a662f9469850ec955002f2d77dd.jpg",
+      "caption": "(a)",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0004",
+      "image_path": "images/3d138ee2bb540a277f714b54283bf9671f0fcde5c0c380771b4134bd650116a5.jpg",
+      "caption": "(b) FIGURE 8. Effect of Cr on anodic <sub>p</sub>olarization behavior for: (a) ferritic and (b) austenitic SS containin<sub>g</sub> 18% to 26% Cr and no Mo in deaerated solutions: (a) 2 M NaCl + HCI (pH 1.0) and (b) 3 M NaCl + HCI (pH 0.5) at 30° C.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0001",
+      "image_path": "images/403932da568c9ec3e7741116197bec7774f5e29ec1b7a1b9a08f5d1410c4057b.jpg",
+      "caption": "(a)",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0002",
+      "image_path": "images/a2e6d1b8af0994e22637ef79de886c9691b6e03fc079e44b8df6fa5a85e8954d.jpg",
+      "caption": "(b) FIGURE 9. Effect of Mo on anodic <sub>p</sub>olarization behaviorfor: (a) ferritic and (b) austenitic SS containin<sub>g</sub> 26% Cr and 0% to 4% Mo in deaerated 5 M NaCl + HCl (pH 0) solutions at ${ 5 0 } ^ { \\circ } C.$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/56fe04aa9a031da88d7997c832ac7e13f62aab10f69f89f34f7f2ae56b39ca7a.jpg",
+      "caption": "(a)",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/9f53a70ce9f86f1ba9d14093ea7593c2b137a44ebde678357162e9883ff71df5.jpg",
+      "caption": "(b) FIGURE 10. Effect of Mo on anodic <sub>p</sub>olarization behavior for: (a) ferritic and (b) austenitic SS containin<sub>g</sub> 22% Cr and 0% to 2% Mo in deaerated solutions: (a) 2 M NaCl + HCl (pH 1.0) and (b) 3 M NaCl + HCl (pH 0.5) at 30° C.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0010_item_0001",
+      "image_path": "images/03dac5f1bae512fd90caa498c1ace89e059af8334495c981ea82d18cf1351c50.jpg",
+      "caption": "FIGURE 13. $E _ { R }$ vstheCr+3xMoindexforferriticandaustenitic SS in deaerated 3.5% NaCl solutions at $6 0 ^ { \\circ } C.$",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0010_item_0007",
+      "image_path": "images/d5240f895cc4ea11017687096e384b28d297f2c24822c2a3c5156dd6d5b65f23.jpg",
+      "caption": "FIGURE 14. Crevice corrosion rate vs concentration of FeCl for ferritic and austenitic SS containing 26%Cr and 2%Mo exposed to 1% to 6% $F e C l _ { 3 } + H C I$ (pH 1.25) at 30° C.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

@@ -1,0 +1,91 @@
+{
+  "schema_version": 2,
+  "paper_reference": "75",
+  "source_chart_manifest": "paper_75_charts.json",
+  "summary": {
+    "chart_count": 5,
+    "accepted": 2,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/02f682f588ac3f962860bed5d915a847ca66a949b98dedde47daeff10c24e8cf.jpg",
+      "caption": "Fig. 1. Pitting potentials for aluminum as a function of chloride ion activity.",
+      "relevant_panels": [],
+      "target_series": [
+        "Aluminum E_pit"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Aluminum pitting potential E_pit is directly plotted against chloride-ion activity.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Cl⁻ Activity",
+        "unit": "",
+        "scale": "log"
+      },
+      "y_axis": {
+        "label": "E_pit",
+        "unit": "V vs. S.C.E.",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0010_item_0001",
+      "image_path": "images/6b19ba1702f33c9b4d5ccb7bf0e9a35fbe799e244e2455a1fecb30a4411b2296.jpg",
+      "caption": "Fig. 3. Pitting potentials for aluminum as a function of pH in 0.1 and 1 M chloride solutions.",
+      "relevant_panels": [],
+      "target_series": [
+        "E_pit in 0.1 M Cl⁻",
+        "E_pit in 1 M Cl⁻"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Aluminum pitting potential E_pit is directly plotted against pH for two chloride concentrations.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "pH",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_pit",
+        "unit": "V vs. S.C.E.",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/e8f045736a4007eb103fa7e061d2436064352af1ede4218fb21ebd5eb08611f5.jpg",
+      "caption": "",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density and does not directly plot a pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/f57b06ed513d380866b0f36235c6c12d668618e038efbcf3276ad97075099b96.jpg",
+      "caption": "Fig. 2. Pitting current for aluminum in various chloride solutions (at the pitting potential in each case).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density and does not directly plot a pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0010_item_0002",
+      "image_path": "images/86da5fdfdf587835edb5f494654553628ab7b72d84f3290692b6134120300e33.jpg",
+      "caption": "Fig. 4. Anodic polarization curves for aluminum in 0.I M NaCl at three different pH values.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    }
+  ],
+  "needs_review": []
+}

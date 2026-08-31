@@ -1,0 +1,191 @@
+{
+  "schema_version": 2,
+  "paper_reference": "23",
+  "source_chart_manifest": "paper_23_charts.json",
+  "summary": {
+    "chart_count": 16,
+    "accepted": 1,
+    "rejected": 15,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0006_item_0005",
+      "image_path": "images/5ff9e90e41c4b929f77f2f7e0e3822b11b24e513f2c3ff45bdf43730e6a0a781.jpg",
+      "caption": "Fig. 10. Histogram of $E _ { \\mathrm { p i t } }$ for alloys C-x and SS 304 in solution of different Cl<sup>\u0004</sup> ion molarity (M).",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting-potential bars are directly plotted by alloy for four chloride molarities.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "0 M Cl− Epit",
+        "0.25 M Cl− Epit",
+        "0.50 M Cl− Epit",
+        "1.00 M Cl− Epit"
+      ],
+      "x_axis": {
+        "label": "Alloy",
+        "unit": "",
+        "scale": "categorical"
+      },
+      "y_axis": {
+        "label": "Epit",
+        "unit": "V vs. SHE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0016",
+      "image_path": "images/f321b6c0f0fcb05f528b5f748c0b020512e1b67464f22e7abbf05866c39efff8.jpg",
+      "caption": "Fig. 1. Polarization diagrams for alloys C-x and SS 304 at 25 -C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/d12f2d4d4fe3538da319aaf12050c37fa0496ee63fe3c5d62622d17ce751802d.jpg",
+      "caption": "Fig. 2. Diagram showing change in corrosion rate $(\\mathrm { g } \\mathrm { m } ^ { - 2 } \\mathrm { h } ^ { - 1 })$ in the 15-day-dipping and weight loss measurement for alloys C-x.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0006",
+      "image_path": "images/b57056179c5dace71296c6f1e4ebfb14dd8a836d8dd1be6102f7927a8a5beacd.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0008",
+      "image_path": "images/2a7b2e95ff1b97ef989c8f1061278551395617626b85ca37646622a68200f372.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0010",
+      "image_path": "images/f69959674e5d898d569eb7e62734268be9a8945bd37abb5ded02c0cff7908779.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0011",
+      "image_path": "images/f288f419477e4ee81591980f3c404426d6821b9be52460257b40d863e18ac80a.jpg",
+      "caption": "Fig. 3. Polarization diagrams for (a) C-0, (b) C-0.25, (c) C-0.50, and (d) C-1.00 at various temperatures.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/56a2d12eabb1f3e2eede08d3dd8411cf114ca77abab8c1d6515dcd9dc0753a8f.jpg",
+      "caption": "Table 4 Fig. 4. The Arrhenius plots for alloys C-x and SS 304 at 20– $. 6 5 ^ { \\circ } \\mathsf { C }.$",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0005",
+      "image_path": "images/f6c31bf1a39d423a4cc63604c74a2dfdf985fd37043090572fd9ce0322739d6c.jpg",
+      "caption": "The fits for A(x, T) and $E _ { a } (x)$ in $I _ { \\mathrm { c o r r } } (x, T) = A (x, T) \\exp (- E _ { \\mathrm { a } } (x) / R T).$ Fig. 5. The Nyquist plots for alloys C-x at $2 5 ^ { \\circ } \\mathrm { C }.$",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/8d70aa0c2bbf34a221ded6770c6d56ca9130c622456160c96158a9280c0d4cb6.jpg",
+      "caption": "Fig. 7. Impedance and relative thickness (1/Q) of oxide layer vs. Al content x plots",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0002",
+      "image_path": "images/604288f5e20c51ef51ddd29be3b385fd1268afaf29f87a8de272327a552c677f.jpg",
+      "caption": "Fig. 8. Impedance and $I _ { \\mathsf { p a s s } }$ of oxide layer vs. Al content x plots.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/226d47d5cf53823aea0fa19c3eb18e6a7dfd07d87c2785ccbdf7ab065077255c.jpg",
+      "caption": "Current density (A/cm²)",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0002",
+      "image_path": "images/b8ad6fe700425704d6376c3acbb3306d65b78eb3b61fab1f858768d210ae6bb7.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0003",
+      "image_path": "images/1654da5bce592019663e4b63444b42f58ab5c828dd09f1190d5d8dce3861c003.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0004",
+      "image_path": "images/ee5ed1df597e453c581528892bf1b6e0338eefadedd889de65dafb5c98e09974.jpg",
+      "caption": "Fig. 9. Polarization diagrams for (a) C-0, (b) C-0.25, (c) C-0.50, and (d) C-1.00 at 25 -C in chloride-containing sulfuric acid solution at various Cl<sup>\u0004</sup> molarity (M) values.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0003",
+      "image_path": "images/d00c1724ddfe4c6c75d87f13f4f57180b936847b3be75ff1d09fb7e80e5e9796.jpg",
+      "caption": "Fig. 13. Metallograph of alloy C-1.00. (a), before; (b) and (c), after immersion; and (d), EDS line-scan results of the location indicated in (c).",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

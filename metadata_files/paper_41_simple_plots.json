@@ -1,0 +1,194 @@
+{
+  "schema_version": 2,
+  "paper_reference": "41",
+  "source_chart_manifest": "paper_41_charts.json",
+  "summary": {
+    "chart_count": 14,
+    "accepted": 3,
+    "rejected": 11,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/f72276ed947411c078b9d2f046f173f55c4d42630355f7984e19619592291996.jpg",
+      "caption": "FIGURE 3. Pitting potentials for solution-treated CF alloys determined from the cyclic polarization test. Number above each scatter bar identifies the specific CF alloy.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against the alloy composition index with discrete points and scatter bars.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "pitting potential (27°C, 3 V/hr)"
+      ],
+      "x_axis": {
+        "label": "CR + MO + 20(C + N) in austenite phase",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "POTENTIAL",
+        "unit": "volts vs SHE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0006_item_0005",
+      "image_path": "images/df9de5fb3a88eabf595c411f3a9131baf4791d5746f3a2f90552922e1a6d7e1d.jpg",
+      "caption": "FIGuRE 12. Comparison of pitting potentials determined from the standard cyclic polarization test with pitting potentials determined from testing which limits the influence of the low potential loop in the scan procedure.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potentials from the standard and modified cyclic-polarization procedures are directly plotted against the alloy composition index.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "standard-procedure pitting potential",
+        "modified-test pitting potential omitting the Ec to -080 mV range"
+      ],
+      "x_axis": {
+        "label": "%CR + %MO + 20(%N + %C) in austenite phase",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "POTENTIAL",
+        "unit": "mV vs SHE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0008_item_0007",
+      "image_path": "images/0fab70116c5d738dcaea8f789b2dd216ce8f6bc17a4de5c97b4d56d82adbb97b.jpg",
+      "caption": "FIGURE 15. Pitting potentials of solution-treated CF alloys determined by cyclic polarization procedure modified such that no NaCi was present in solution during active dissolution.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potentials from the standard and NaCl-free anodic-loop procedures are directly plotted against the alloy composition index.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "standard-procedure pitting potential",
+        "NaCl-free anodic-loop pitting potential"
+      ],
+      "x_axis": {
+        "label": "%CR + %MO + 20(%N + %C) in austenite phase",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "POTENTIAL",
+        "unit": "mV vs SHE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0001",
+      "image_path": "images/3a4f72aa70ed36a302a25643201875f66f3ed34c5f6d03129d511b4a666867c9.jpg",
+      "caption": "FIGURE 1. Schematic diagram of the CPPT. The characteristic parameters that define the curve are: $E _ { c } = o p e n$ circuit potential; $i _ { c }$ = critical passivation CD; $\\bar { E } _ { i _ { c } } =$ potential corresponding to $i _ { c }; E _ { p i t } =$ pitting potential; $E _ { m a x } = \\beta$ potential at which scan direction is reversed $(I = 1 0 ^ { - 4 } A / c m ^ { 2 });$ and $\\bar { E } _ { r p }$ = repassivation potential.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/0ff5eb6d288eb0283d175e421fd140e1a9115ed4a81741636e2de36d8edb967f.jpg",
+      "caption": "FIGURE 4. CPPT curve for solution-treated CF-11 (low-nitrogen alloy).",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/b0cf0d5e157a70cdbeb0a393a78e68167c02af2d1dc045538dd06b79e16b13bb.jpg",
+      "caption": "FIGURE 5. CPPT curve for solution-treated CF-4 (high-nitrogen alloy).",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0006",
+      "image_path": "images/2c7262b68caee0dd0aab8cbfe58d68a1e1bcce106ad35043b0d89b3773f52aa3.jpg",
+      "caption": "FIGURE 6. Open circuit potentials of solution-treated CF alloys as a function of austenite nitrogen content. Number above each scatter bar identifies the specific CF alloy.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0007",
+      "image_path": "images/c96ae7e1a27363e71310d87994d8e05e6d0333bef270e959fe4973f7b2682693.jpg",
+      "caption": "FIGURE 7. Critical passivation CD of solution-treated CF alloys as a function of austenite nitrogen content.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0008",
+      "image_path": "images/95ed60f3d14afdd435a9b672db6f40a86a1944b4f560b43e5f585d62f64cc7da.jpg",
+      "caption": "FIGURE 8. Potential at which $i _ { c }$ occurs for solution-treated CF alloys as a function of austenite nitrogen content. Number above each scatter bar identifies the specific CF alloy.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/e19f0a1b38aa414446364de9eb656182d63fc88c9f9af90cff86d1e977c7b122.jpg",
+      "caption": "FIGURE 9. Schematic diagram indicating the contribution of two separate anodic loops (dotted curves) to the overall anodic loop (solid curve) for solution-treated CF-4 (high-nitrogen alloy).",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0002",
+      "image_path": "images/5dfb174e19e789c328562dba961089ce4dd2d3346bb3bb83b40ad2a97aa96ae3.jpg",
+      "caption": "FIGURE 10. Comparison of the relative positions of the active corrosion peaks for CF-11 (low nitrogen) and CF-4 (high nitrogen) with the polarization curves for pure iron and pure chromium.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0006",
+      "image_path": "images/3ecd14b1b8671a7a81615705e96502ac1c0d664f325e08ff607002342ea6b456.jpg",
+      "caption": "FIGURE 13. Representative polarization curve for test procedure in which the potential region corresponding to the low potential loop was omitted by very rapid scanning (~200 V/h).",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/0e50e847a7117a423b7c659ee984abacd10dc7c27e493c60223cfafec79b6b7b.jpg",
+      "caption": "FIGuRE 14. Accumulation of chromium in the passive film and near surface layers as a function of $C r _ { \\theta \\theta }$ for solution-treated CF alloys.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0009_item_0001",
+      "image_path": "images/38c9b067fdd759d7dd2116d812e722871d809cda2b6034d5a2d6c7e6e74f6643.jpg",
+      "caption": "FIGURE 16. Comparison of $\\pmb { \\varepsilon } _ { c }$ values in 1 N sulfuric acid with and without 0.5 M NaCl for solution-treated CF alloys.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

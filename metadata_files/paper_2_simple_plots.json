@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "paper_reference": "2",
+  "source_chart_manifest": "paper_2_charts.json",
+  "summary": {
+    "chart_count": 7,
+    "accepted": 1,
+    "rejected": 6,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0004_item_0012",
+      "image_path": "images/4db8eda3d350f7974cce8bb384436bb7d36a3751aae6aab1ac7824e058c57aa0.jpg",
+      "caption": "Fig. 7. Pitting potentials obtained from potentiodynamic polarization scans in argon-saturated 1.0M sodium chloride.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potentials are directly plotted against molybdenum content for separable alloy series.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "20% Cr-39% Ni pitting potential",
+        "17.6% Cr-13.6% Ni pitting potential",
+        "delta-ferrite pitting potentials"
+      ],
+      "x_axis": {
+        "label": "Molybdenum Content",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential",
+        "unit": "V versus SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0006",
+      "image_path": "images/edffc779f0d23a1fdcfd7ed6a0d8128a2f521abe7dba13c3518dea446c95d6bf.jpg",
+      "caption": "Fig. 1. Polarization curves obtained on masked and unmasked electrodes for the 17.6% Cr-13.6% Ni-2.45% Mo austenitic stainless steel in argon-saturated 0.1N hydrochloric acid. The potential was scanned from negative toward positive. The arrows indicate the potential at which the scanning rate was decreased from 600 to 60 mv/hr.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0002_item_0010",
+      "image_path": "images/69fc756f94c29bba12aa0c2c5541674a39fcab8140736ac24438026f6437b1a1.jpg",
+      "caption": "Fig. 2. Critical current densities obtained from potentiodynamic scans at 600 mv/hr in argon-saturated 0.1N hydrochloric acid on the 16.6% Cr-13.5% Ni steels.",
+      "reason_code": "current_density_only",
+      "reason": "Critical current density, not pitting potential, is plotted against molybdenum content.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0002_item_0011",
+      "image_path": "images/5920cfcde0bc7447d1c30a59e422c43d21a6edf957e9c88c2a64a36209054aef.jpg",
+      "caption": "Fig. 3. Critical current densities and primary passivation potentials obtained from potentiodynamic scans at 600 mv/hr in argonsaturated 0.1N hydrochloric acid on the 20% Cr-39% Ni steels.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots critical current density and primary passivation potential, not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0005",
+      "image_path": "images/62a9c8aaed66ece9b192017466c2c27c65aec67d64aaf23528cdb0c69772398e.jpg",
+      "caption": "Fig. 4. Polarization curve obtained for 17.6% Cr-13.6% Ni-1.99% Mo austenitic stainless steel in argon-saturated 0.1N hydrochloric acid. The scanning rate was 600 mv/hr from —0.3 to 0.1v; it was decreased to 60 mv/hr from 0.1v to the pitting potential.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0003",
+      "image_path": "images/49301b8d37aa8777f02a3e16a31349e3bf5123c56460e545d3e6cac938392807.jpg",
+      "caption": "Fig. 5. Anodic polarization curves obtained on a masked electrode for the 17.6% Cr-13.6% Ni-2.93% Mo austenitic stainless steel in argon-saturated 1.OM sodium chloride. The scanning rate was 2000 mv/hr in the positive direction.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0004",
+      "image_path": "images/6352955d8a6f91c26eba432621da71ecc00a6cc4ccfc801bce0b8b18d248addc.jpg",
+      "caption": "Fig. 6. Anodic polarization curves obtained on a masked electrode for the 17.6% Cr-13.6% Ni-2.93% Mo stainless steel in argonsaturated 1.OM sodium chloride. The scanning rate was 600 mv/hr up to 0.3v and thereafter, 20 mv/hr.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": 2,
+  "paper_reference": "81",
+  "source_chart_manifest": "paper_81_charts.json",
+  "summary": {
+    "chart_count": 2,
+    "accepted": 2,
+    "rejected": 0,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0002_item_0002",
+      "image_path": "images/fd1440b787fc68a51cd90d237d974157958e1fcba9737204bf8db8ea55088334.jpg",
+      "caption": "FiG. 1. Critical pitting potentials of $1 8 \\% \\mathbf { C r },$ 10%Ni, Re stainless steels in 0·1N NaCl.",
+      "relevant_panels": [],
+      "target_series": [
+        "Critical pitting potential at 0°C",
+        "Critical pitting potential at 25°C"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting potential is directly plotted against rhenium content at 0 and 25 °C.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Wt. Percent Rhenium",
+        "unit": "wt. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "Volts, Std. H₂ Scale",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/b5f34e958cbf10c126b9a54c01144b80455a81f6b60a6fd0880471eb82179078.jpg",
+      "caption": "FiG. 2. Critical pitting potentials of $1 8 \\% \\mathrm { { C r }, 1 0 \\% N i }$ Re stainless steels in0·1N NaBr.",
+      "relevant_panels": [],
+      "target_series": [
+        "Critical pitting potential at 0°C",
+        "Critical pitting potential at 25°C"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting potential is directly plotted against rhenium content at 0 and 25 °C.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Wt. Percent Rhenium",
+        "unit": "wt. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "Volts, Std. H₂ Scale",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [],
+  "needs_review": []
+}

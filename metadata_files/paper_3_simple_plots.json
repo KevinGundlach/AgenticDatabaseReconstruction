@@ -1,0 +1,158 @@
+{
+  "schema_version": 2,
+  "paper_reference": "3",
+  "source_chart_manifest": "paper_3_charts.json",
+  "summary": {
+    "chart_count": 8,
+    "accepted": 5,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0007",
+      "image_path": "images/b61e63444f799ef96abf8edce022c7f4f673cd022891894419b60fa5bbf95378.jpg",
+      "caption": "FIGURE 1 — Comparison of the critical pitting potentials of Fe-Cr-Mo alloys with several commercial alloys in deaerated synthetic seawater at 90 C, pH = 7.2 ± 0.2.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting potential is directly plotted against chromium-plus-molybdenum content.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Fe-Cr-Mo and commercial-alloy critical pitting potentials"
+      ],
+      "x_axis": {
+        "label": "(Cr + Mo) in Fe (Wt. %)",
+        "unit": "wt. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential, Ec^scr",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/6d889af1e2808019745a77659f901f23caeceed9df7b503c97a07c1a6b96252c.jpg",
+      "caption": "FIGURE 2 — Critical pitting potentials of levitation melted alloys in deaerated synthetic seawater of 90 C, pH = 7.2 ± 0.2.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting-potential measurements are directly plotted for categorical alloy compositions.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Ec^scan",
+        "Ec^scr",
+        "interpolated Ec^scan of Fe-Cr-Mo base"
+      ],
+      "x_axis": {
+        "label": "Fe-Cr-Mo Base Compositions (Wt. %)",
+        "unit": "wt. %",
+        "scale": "categorical"
+      },
+      "y_axis": {
+        "label": "Pitting Potential",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0004_item_0007",
+      "image_path": "images/b1c13c5c350d998045a321574196a41701aaf6c3e9003e425d96bf3726beb82d.jpg",
+      "caption": "FIGURE 3 - Critical pitting potentials of specimens prepared identically to those used in the desalination plant tests. Measurements made in deaerated synthetic seawater at ${ \\mathfrak { s o c } } _ { \\mathfrak { o } _ { \\mathfrak { o } } }$ $\\mathsf { p H } = 7. 2 \\pm 0. 2.$",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting potential is directly plotted against alloy identity for separable specimen conditions.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "critical pitting potential by specimen condition"
+      ],
+      "x_axis": {
+        "label": "Alloy Identity",
+        "unit": "",
+        "scale": "categorical"
+      },
+      "y_axis": {
+        "label": "Pitting Potential, Ec^scr",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0011_item_0001",
+      "image_path": "images/d93bdea5f1932ac4aeaa71f9eb64b870881cdb8b5d916f8d7f93f9711aaf24ab.jpg",
+      "caption": "FIGURE $2 1 \\mathrm { ~ \\: ~ } -$ Relationship between the critical pitting potentials $(E _ { \\mathbf { c } } ^ { \\mathsf { s c r } }$ measured in deaerated synthetic seawater at 90 $\\mathsf { C }, \\mathsf { p H } = 7. 2 \\pm 0. 2 1$ of $\\mathsf { F e - C r - M o }$ based alloys and their resistance to crevice attack after a 6 day exposure in oxygenated, 10% ferric chloride at 21 ± 1 C.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting potential is directly plotted against chromium-plus-molybdenum content, with crevice-attack regions as supporting annotations.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Fe-Cr-Mo and commercial-alloy critical pitting potentials"
+      ],
+      "x_axis": {
+        "label": "(Cr + Mo) in Fe (Wt. %)",
+        "unit": "wt. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential, Ec^scr",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0011_item_0006",
+      "image_path": "images/f4be46d7d18ab4a4adcf7a53e6352d320e1a53f21f3e4af0ed119c8f6aa357ae.jpg",
+      "caption": "FIGURE $\\quad 2 2 \\quad -$ Relationship between the critical pitting potentials $(E _ { c } ^ { ^ { \\texttt { s c r } } }$ measured in deaerated synthetic seawater at 90 $\\mathsf { C }, \\mathsf { p H } = 7. 2 \\pm 0. 2 1$ of Fe-Cr-Mo based alloys and their resistance to crevice attack after a 14 day 'exposure to synthetic seawater at 121 C and $\\sim { \\mathfrak { 6 0 } }$ ppm oxygen. The numbers associated with individual points indicate the weight losses expressed as gms x ${ \\displaystyle 1 0 ^ { - 4 } }$ after the 121 C exposure for samples with initial weights of~1 gm.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting potential is directly plotted against chromium-plus-molybdenum content, with exposure outcomes as annotations.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Fe-Cr-Mo and commercial-alloy critical pitting potentials"
+      ],
+      "x_axis": {
+        "label": "(Cr + Mo) in Fe (Wt. %)",
+        "unit": "wt. %",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential, Ec^scr",
+        "unit": "mV vs SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0004_item_0008",
+      "image_path": "images/55cef4a448a7294fc7f42783994e42ca47ab3ca83aa9e56c681e6809f56971fa.jpg",
+      "caption": "FIGURE 4 - Corrosion rates after Run 1 in desalination plant.",
+      "reason_code": "not_pitting_potential",
+      "reason": "Corrosion rate, not pitting potential, is plotted against alloy identity.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/dfb3d94fd74fef70a5c29e3e7fafd863274d70aa6902c9d91517ebc0aa2595d7.jpg",
+      "caption": "FIGURE 5 - Corrosion rates after Run 5 in desalination plant.",
+      "reason_code": "not_pitting_potential",
+      "reason": "Corrosion rate, not pitting potential, is plotted against alloy identity.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0005",
+      "image_path": "images/3d9a0830be8aa39f764781f4526b7334eaac2b70277af51678a1a953a140e58a.jpg",
+      "caption": "FIGURE 18 - Corrosion rates after 14 days autoclave exposure in synthetic seawater at 121 C, pH = 7.0, and dissolved oxygen level of 77 ppm.",
+      "reason_code": "not_pitting_potential",
+      "reason": "Corrosion rate, not pitting potential, is plotted against alloy identity.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

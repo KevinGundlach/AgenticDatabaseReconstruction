@@ -1,0 +1,123 @@
+{
+  "schema_version": 2,
+  "paper_reference": "7",
+  "source_chart_manifest": "paper_7_charts.json",
+  "summary": {
+    "chart_count": 7,
+    "accepted": 3,
+    "rejected": 4,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0002_item_0001",
+      "image_path": "images/99ec75e247fdc5360d77639f2ec646a5ab99f127442ca5d13a69cbf22bfbf7e1.jpg",
+      "caption": "Metal analysis Fig. 1. Critical pitting potentials of 99.99% Al in 0.1M NaCl as a function of temperature.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting potential is directly plotted against temperature.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "critical pitting potential Vc"
+      ],
+      "x_axis": {
+        "label": "Temperature",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Vc",
+        "unit": "Volts, S.H.E.",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0003_item_0012",
+      "image_path": "images/89d66c77ffce47cdf9ce1160ce00434a012b2e5bcc3bce7a4397275168672172.jpg",
+      "caption": "Fig. 5. Corrosion potentials of 99.99% Al in various activities of NaCI containing 5 ppm $\\mathbb { c } _ { \\pm } + \\mathrm { \\Delta } ^ { + }$ in comparison with critical pitting potentials determined by Kaesche.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The critical pitting-potential comparison series is directly plotted against chloride activity and is separable from the corrosion-potential series.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Kaesche's critical pitting potential results"
+      ],
+      "x_axis": {
+        "label": "Cl− Activity",
+        "unit": "",
+        "scale": "log"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "Volts, S.H.E.",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0003_item_0015",
+      "image_path": "images/42e850b08b509bd35128513358b017e37d3bd9a7d40684b0416f9e9d929f70a3.jpg",
+      "caption": "Fig. 6. Critical pitting potentials, determined potentiostatically, of AI in 0.005M NaCI with ${ \\mathsf { N a s S O } } _ { 4 }$ additions, and in 0.1M NaCl with $N a N O _ { 3 }$ additions, $2 5 \\circ _ { \\bf C }$",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Critical pitting potential is directly plotted against sulfate or nitrate activity.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "critical pitting potential with SO4²− additions",
+        "critical pitting potential with NO3− additions"
+      ],
+      "x_axis": {
+        "label": "Activity of SO4²− or NO3−",
+        "unit": "",
+        "scale": "log"
+      },
+      "y_axis": {
+        "label": "Critical Potential Vc",
+        "unit": "Volts, S.H.E.",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0009",
+      "image_path": "images/c6de513a692be1b769bc5c741112482c52612df4951978267cc99645d70fae2d.jpg",
+      "caption": "Fig. 2. Relation of minimum activities (or concentrations) of sodium nitrate or of sodium chromate required to inhibit pitting of 99.99% Al in aerated sodium chloride solutions.",
+      "reason_code": "not_pitting_potential",
+      "reason": "Minimum inhibitor activity is plotted against chloride activity; pitting potential is not plotted.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0002_item_0012",
+      "image_path": "images/b640d994939add1f1144931ccfe26ad36ab0431a5bf88d9c642d0cda135edde8.jpg",
+      "caption": "Fig. 3. Relation of minimum activities (or concentrations) of sodium acetate or sodium benzoate or sodium sulfate required to inhibit pitting of 99.99% Al in aerated sodium chloride solutions",
+      "reason_code": "not_pitting_potential",
+      "reason": "Minimum inhibitor activity is plotted against chloride activity; pitting potential is not plotted.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0011",
+      "image_path": "images/79786944b16f5f2257724c8a08cedd47b3ffed51652bf34490647a3d24a17fb1.jpg",
+      "caption": "Fig. 4. Change of corrosion potential with time on immersion of 99.99% Al in 0.1N NaCl plus 5 ppm $C u ^ { + + }, 2 5 ^ { \\circ } C.$ Critical potentials ${ \\pmb v } _ { \\mathbf { c } }$ and ${ \\pmb v } _ { \\textrm { c } } ^ { \\prime }$ are potentiostatic values.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Corrosion potential is plotted against immersion time; critical pitting potentials appear only as reference levels.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/6d77f47c57a24b84eae79ad2029b751b83e64a50011a484a0a187b8ebf699843.jpg",
+      "caption": "Fig. 7. Number of pits per specimen after immersing 99.4% Al in 0.005M NaCl with $N a _ { 2 } S O _ { 4 }$ additions, and in 0.1M NaCl with $N a N O _ { 3 }$ additions, 24 hr, $2 5 \\circ \\mathsf { C }$",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart plots inhibitor activity against pit count; pitting potential is not plotted.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

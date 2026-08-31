@@ -1,0 +1,80 @@
+{
+  "schema_version": 2,
+  "paper_reference": "47",
+  "source_chart_manifest": "paper_47_charts.json",
+  "summary": {
+    "chart_count": 4,
+    "accepted": 2,
+    "rejected": 2,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0005",
+      "image_path": "images/e527be05ca46c1b4e1f371121d2505ca9bae3ae6eb69c85348eb164b6ef458fd.jpg",
+      "caption": "Fig. 2—The effect of nitrogen additions upon the offset pitting potential of 18 pct Cr, 18 pct Mn stainless steels.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Offset pitting potential is directly plotted against nitrogen content with discrete markers.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "offset pitting potential"
+      ],
+      "x_axis": {
+        "label": "PERCENT NITROGEN",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "OFFSET PITTING POTENTIAL",
+        "unit": "VOLTS",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/50a12a6e4e69d0c14cfbbd1d716da554a64ea25149c2bde517848e89dd9f4ebb.jpg",
+      "caption": "Fig. 5—The effect of the austenite content on the offset pitting potential of 18 pct Cr, 18 pct Mn stainless steel.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Offset pitting potential is directly plotted against austenite content with discrete markers.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "offset pitting potential"
+      ],
+      "x_axis": {
+        "label": "PERCENT AUSTENITE",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "OFFSET PITTING POTENTIAL",
+        "unit": "VOLTS",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0004",
+      "image_path": "images/eb24f621d74c82683552c245c1095bc626eaad010ec4068871bad45732fe4945.jpg",
+      "caption": "Fig. 1-Anodic polarization data for 18 pct Cr, 18 pct Mn stainless steels of increasing nitrogen content. Offset pitting potential has been determined by the intersection of the anodic polarization data with the offset pitting amperage. 1* indicates data for Alloy 1 after thermal ferritization.",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0006",
+      "image_path": "images/b9021d5f57ce045868502a45b9193a6f15bc6ddf78072a131c3345c4abc49e5d.jpg",
+      "caption": "Fig. 3—The effect of nitrogen additions upon the relative amount of austenite observed in 18 pct Cr, 18 pct Mn stainless steels.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

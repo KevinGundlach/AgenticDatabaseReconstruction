@@ -1,0 +1,45 @@
+{
+  "schema_version": 2,
+  "paper_reference": "43",
+  "source_chart_manifest": "paper_43_charts.json",
+  "summary": {
+    "chart_count": 3,
+    "accepted": 0,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0007_item_0002",
+      "image_path": "images/4b55861f4bd7bf3a889102754822bbbcdc7860fe87db7250946e7e76f983b18d.jpg",
+      "caption": "Fig[6[Potentiokinetic polarization curve of 1913 T240 alloy in 0 M NaCl solution",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0013_item_0001",
+      "image_path": "images/d6e5f88e2ba7259d234a5eb00fb2ebb807c38d6616600fb30372b9384fce820b.jpg",
+      "caption": "Fig[02[Potentiokinetic polarization of alloy 1913 T240 from −899 mV:SCE to −549 mV:SCE\\ the potential was maintained at −549 mV:SCE for 49 mn[",
+      "reason_code": "current_density_only",
+      "reason": "The figure reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0013_item_0002",
+      "image_path": "images/d3acf4b6fc55d4da6999c8cfa02de11f3e8fdd7af44a58603a1cdcd6445f206a.jpg",
+      "caption": "Fig[03[Weight percent of Mg and Cu in Al CuMg particles] a*Before potentiokinetic polarization^ b* After potentiokinetic polarization to −589 mV:SCE in 0 M NaCl solution at pH 5^ c*After the same potentiokinetic polarization in 0 M NaCl solution at pH 1[",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

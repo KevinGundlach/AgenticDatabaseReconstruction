@@ -1,0 +1,186 @@
+{
+  "schema_version": 2,
+  "paper_reference": "52",
+  "source_chart_manifest": "paper_52_charts.json",
+  "summary": {
+    "chart_count": 12,
+    "accepted": 4,
+    "rejected": 8,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/e243e4d37b9ea953c1a2a6e10dd643c58a7684ea8fe4e04267ee50a9a035c5e8.jpg",
+      "caption": "FIGURE 3. E as a function of mol<sub>y</sub>bdenum concentration in ferritic SS (18% Cr to 19% Cr).",
+      "relevant_panels": [],
+      "target_series": [
+        "E_b"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Breakdown potential E_b is directly plotted against molybdenum concentration with discrete markers.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Molybdenum Concentration",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_b",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/1703be86ebe1e6f3665217af8d9f8c8a91cbf7478e00ee6f828f119c9f945f29.jpg",
+      "caption": "FIGURE 8. Effect of increasin<sub>g</sub> inclusion content on $E _ { b }$ in 3% NaCl at 300° C (deaerated).",
+      "relevant_panels": [],
+      "target_series": [
+        "E_b"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Breakdown potential E_b is directly plotted against inclusion density with discrete markers and error bars.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "No. of Inclusions",
+        "unit": "/mm²",
+        "scale": "log"
+      },
+      "y_axis": {
+        "label": "E_b",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0011_item_0007",
+      "image_path": "images/baeb90e17a3ea2706e057930166e5f7d554dcece6b2f28f14863ffa5bcaa3115.jpg",
+      "caption": "FIGURE 17. Summar<sub>y</sub> of $E _ { b }$ of <sub>p</sub>arent metal and welded <sub>p</sub>olished specimens as a function of variable PREN (PREN =%Cr + 2.5% Mo).",
+      "relevant_panels": [],
+      "target_series": [
+        "Base metal specimens E_b",
+        "Welded specimens E_b"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Breakdown potential E_b is directly plotted against PREN for base-metal and welded specimens.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "PREN (%Cr + 2.5% Mo)",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_b",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0012_item_0001",
+      "image_path": "images/1b0468d697236dfd33965c90db2cb6533a34851a4b9411d5c2ff360412df800d.jpg",
+      "caption": "FIGURE 18. Com<sub>p</sub>arisonofex<sub>p</sub>erimentalresultswiththosecalculated from the expression determined by Yazawa, et $a /. ^ { 2 5 }$",
+      "relevant_panels": [],
+      "target_series": [
+        "Experimental data E_b",
+        "Average calculated E_b"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Experimental and calculated breakdown potentials E_b are directly plotted against PREN.",
+      "confidence": 0.98,
+      "x_axis": {
+        "label": "PREN (%Cr + 2.5% Mo)",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_b",
+        "unit": "V_SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0007",
+      "image_path": "images/f94c23395f1ee92beed45d7e2b78e2d6947caead79c3949749686191170cc818.jpg",
+      "caption": "FIGURE 1. Effect of chromium addition on ferritic SS <sub>p</sub>olarization with and without molybdenum in 3% NaCl at 300°C (deaerated).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/8d4eb16aa7950a82c1a647ca6efe9325ab7b798aeeaf101ba32988b7d5228333.jpg",
+      "caption": "FIGURE 2. Effectof mol<sub>y</sub>bdenum addition on ferritic SS<sub>p</sub>olarization in 3% NaCl at 300°C (deaerated).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0005_item_0006",
+      "image_path": "images/354109791cad42cdc473b6c1fb16275a301e3c04db9cb2fc86c80e487fff4c2b.jpg",
+      "caption": "FIGURE 4. XPS de<sub>p</sub>th <sub>p</sub>rofile of a ferritic SS containin<sub>g</sub> 3% Mo.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/3f1be04a88dcf783d1927bcf8243a69f6357423aac94ee9db53a7c1d04f2200f.jpg",
+      "caption": "FIGURE 5. XPS de<sub>p</sub>th <sub>p</sub>rofile of a ferritic SS in the absence of molybdenum.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0010_item_0001",
+      "image_path": "images/4ca17f4d0ab9451f2984a86c1a05881252eac108819ab9348d5cbccfa2813d55.jpg",
+      "caption": "FIGURE 13. Polarization of niobium- titanium- and dual-stabilized (Nb + Ti) variants of type 444 SS in 3% NaCl (deaerated) in the aswelded state.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0010_item_0002",
+      "image_path": "images/e6677bec0b4189be1f0019796b6feae283d8a4812b491024f9c4eaf7402ac12b.jpg",
+      "caption": "FIGURE 14. Polarization of niobium- titanium- and dual-stabilized $(N b + T i)$ variants of type 444 SS in 3% NaCI (deaerated) in the pickled state. (Only the dual-stabilized material displayed passive behavior).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0010_item_0003",
+      "image_path": "images/78d86c26f300c4a4c1648d17243cc0eee3b3b78cf01d46e297540d5afe3a12cd.jpg",
+      "caption": "FIGURE 15. Polarization of niobium- titanium- and dual-stabilized $(N b + T i)$ variants of type 444 SS in 3% NaCI (deaerated) in the polished state.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0011_item_0006",
+      "image_path": "images/924cfaf72c13da8241b1bbefce1b99953e99080b1c4aafad5ed5ea99f208769b.jpg",
+      "caption": "FIGURE 16. Estimates for the PREN mol<sub>y</sub>bdenum e<sub>q</sub>uivalent weighting factor in intermediate-chromium ferritic SS",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

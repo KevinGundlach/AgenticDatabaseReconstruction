@@ -1,0 +1,100 @@
+{
+  "schema_version": 2,
+  "paper_reference": "49",
+  "source_chart_manifest": "paper_49_charts.json",
+  "summary": {
+    "chart_count": 6,
+    "accepted": 2,
+    "rejected": 4,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0012_item_0001",
+      "image_path": "images/fa8cb789afaca01441218f38838da6bd7c3c2b9b5b8e57f19b96de18ae57bf20.jpg",
+      "caption": "Fig. 5. Plots of pitting potential $E _ { \\mathrm { p i t } }$ vs log $[C 1 ^ { - }]$ for different steels in chloride containing aqueous solutions.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against log chloride concentration for multiple steel series.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "Epit for each steel series"
+      ],
+      "x_axis": {
+        "label": "Log Cl",
+        "unit": "ppm",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Epit",
+        "unit": "mV",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0012_item_0003",
+      "image_path": "images/169523ce5b17b6dbb7e914187d059db900ff7a1df4560f0cad7af063ccfa51e6.jpg",
+      "caption": "Fig. 6. Plots of PREN of different steels vs pitting potential in seawater.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential in seawater is directly plotted against PREN for multiple steels.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": [
+        "Epit in seawater"
+      ],
+      "x_axis": {
+        "label": "PREN",
+        "unit": "",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Epit",
+        "unit": "mV",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/872c1ad710873a65458b8a58ed0f9d6c13e5e65fbe83dd54729954e5ebeb4cdb.jpg",
+      "caption": "Fig. 1. Typical polarization resistance curves for different types of stainless steels in seawater at $5 0 ^ { \\circ } \\mathbf { C }.$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/28bf9c62305e29835825300936a49f67a954b5c92b67f4ce2b6921055b2af7e2.jpg",
+      "caption": "Fig. 2. Potentiodynamic polarization plots for different steels in seawater at $5 0 \\mathrm { ^ \\circ C C }.$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0010_item_0005",
+      "image_path": "images/5fbc73f23b924e7c469af567c0e0df6d43e63206194a31d54a1cd28f9a7e75c2.jpg",
+      "caption": "Fig. 3. Plots of active peak height (APH) vs pH for different steels in natural seawater and NaCl solution.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0014_item_0001",
+      "image_path": "images/7b660d9eded33f8e2207f76e1b0c8c988dd712c52e11f1982c2600aa665d0123.jpg",
+      "caption": "Fig. 7. Plot of PREN vs CCSpH for steel in natural seawater and NaCl solution.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The figure does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

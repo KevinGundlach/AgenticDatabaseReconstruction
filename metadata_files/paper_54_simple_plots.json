@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "paper_reference": "54",
+  "source_chart_manifest": "paper_54_charts.json",
+  "summary": {
+    "chart_count": 7,
+    "accepted": 0,
+    "rejected": 7,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/aac6e0e68b7ea6a1b4d0a7dc6248793d8b055ef3e905914d1ed014123cb3737f.jpg",
+      "caption": "FIGURE 1 — Anodic polarization curves for Alloy No. 30, Alloys C-276 and ${ \\mathfrak { a } },$ and Type 316 stainless steel in deaerated 1 N NaCl + 0.5 N HCI at 70 C.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0004_item_0006",
+      "image_path": "images/26e58ab83d0fb7d851ac238686c4465c41b4ad64acf63248400e3f5c2d0320ed.jpg",
+      "caption": "FIGURE 2 — Anodic polarization curves for Alloy No. 30 and Alloys C-276 and G in deaerated 2 N NaCI + 0.5 N HCl at 70 C.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/afa6e7c2d9449cda26dcba0331c678dd6dfad10699bb48fd5a0974437131c36a.jpg",
+      "caption": "FIGURE 4 — Polarization resistance diagram for Alloy No. 30 in deaerated 1 N NaCI + 0.5 N HCl at room temperature.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart reports another electrochemical metric and does not directly plot pitting potential E_pit or breakdown potential E_b.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0006_item_0006",
+      "image_path": "images/4860b5f2f27af57db9fa3154892a18a764c3634d96cc1b725ef6ce2c511ab608.jpg",
+      "caption": "FIGURE 5 — Cathodic polarization curve and Tafel slope for Alloy No. 30 in deaerated 1 N NaCl + 0.5 N HCI at room temperature.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0007_item_0004",
+      "image_path": "images/bfc7f47a162f8d041a7316bcfbcdfed0a964d0cea8067ad37e2a74bfa2de469c.jpg",
+      "caption": "FIGURE 8 — Effect of nitrogen on phase boundaries in Fe-Cr-Ni alloys.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0008_item_0005",
+      "image_path": "images/b4210f674829f6aec2daf7e62387d50365b2a00d0297a2ebde9e3a8151204eae.jpg",
+      "caption": "FIGURE 11 — Anodic polarization curves for AL-6X in deaerated 1 N NaCI + 0.5 N HCI at 50 $\\pmb { \\ c },$ with and without 0.1 N NaNO₃",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0009_item_0001",
+      "image_path": "images/52454100ec790abc12661354acaea29cbb5f46eeaa7a3f4b55697fbc430fc81c.jpg",
+      "caption": "FIGURE 12 — Anodic polarization curves for Sandvik alloy SAF 2205 in deaerated 1 N NaCl + 0.5 N HCl at 50 C, with and without 0.1 N NaNO₃.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    }
+  ],
+  "needs_review": []
+}

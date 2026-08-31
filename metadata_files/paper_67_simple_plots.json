@@ -1,0 +1,220 @@
+{
+  "schema_version": 2,
+  "paper_reference": "67",
+  "source_chart_manifest": "paper_67_charts.json",
+  "summary": {
+    "chart_count": 18,
+    "accepted": 2,
+    "rejected": 16,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/ec76bc948af080e1aeefe08a4c2bfaab2ebc1742b180295e21830b5f9f79969d.jpg",
+      "caption": "FIGURE 4. Effect of Cr content on $E _ { b }.$",
+      "relevant_panels": [],
+      "target_series": [
+        "E_b"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Breakdown potential E_b is directly plotted against chromium content with discrete markers.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Cr Content",
+        "unit": "at%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_b",
+        "unit": "mV_SHE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/35e16c9cd18b3d09f6d9e0c98c084f1afa6c42b58a2efa400d1b4c44ec8bbddb.jpg",
+      "caption": "FIGURE 7. Effect of Mo on $E _ { b }$ and $E _ { p }.$",
+      "relevant_panels": [],
+      "target_series": [
+        "E_b"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Breakdown potential E_b is directly plotted against molybdenum content; the E_p series is separable ancillary data.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Mo Content",
+        "unit": "at%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "mV_SHE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0004_item_0009",
+      "image_path": "images/66b4c9eca1fbf85b9b0948cfcab0bdd6c3dfd4ee6b510b8e99c2eba1eef74df6.jpg",
+      "caption": "FIGURE 2. C<sub>y</sub>clic anodic <sub>p</sub>olarization curves of <sub>p</sub>ure Fe Al and FA-61 in aerated 200 ppm CF (pH = 4).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0004_item_0010",
+      "image_path": "images/cc4c904ed97607e8fce512c982b0abcaac9d865991a23160b7e4869f98ab306e.jpg",
+      "caption": "FIGURE 3. C<sub>y</sub>clic anodic<sub>p</sub>olarization curves ofannealed (1 h at 859° C plus 7 days at 500° C) iron aluminides in aerated 200 ppm CF (pH = 4).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0005_item_0006",
+      "image_path": "images/6444f3640a2787d0690437e7415c1e7afd157b1a46ae2143925f23ec373e641d.jpg",
+      "caption": "FIGURE 5. EffectofMocontentonthec<sub>y</sub>clicanodic<sub>p</sub>olarization behavior of 2 at% Cr iron aluminides, FA-77 (Fe-28% Al-2% Cr), FA-86 (Fe-28% AI-2% Cr-1% Mo), and FA-85 (Fe-28% AI-2% Cr-2% Mo) in aerated 200 ppm CH $(p H = 4).$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0005_item_0007",
+      "image_path": "images/f1c3f9072498558ef9dea2fc60565a5059e5fb12a7481a5e570e9355628a9231.jpg",
+      "caption": "FIGURE 6. EffectofMocontentonthec<sub>y</sub>clicanodic<sub>p</sub>olarization behavior of 4 at% Cr iron aluminides, FA-138, FA139, and FA-140 in aerated 200 ppm CF $(p H = 4)$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0006_item_0007",
+      "image_path": "images/08da864f773e4ed23899971d2b5c1d74c186c15409e86b54ea2ffc3fd2f22a9f.jpg",
+      "caption": "FIGURE 8. C<sub>y</sub>clic anodic <sub>p</sub>olarization curves of 10% coldworked iron aluminides in aerated 200 ppm CH $(p H = 4)$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0007_item_0002",
+      "image_path": "images/748ad815cd469713ad0e0352230073113210d74f3618cb3f8fc1f332729c4b9e.jpg",
+      "caption": "FIGURE 12. Variation of $E _ { c o r r }$ with time in aerated 200 <sub>pp</sub>m Cl– (pH = 4).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0007_item_0005",
+      "image_path": "images/0b0a96fe2385a74d2ba0ef2127a36ff741f1448d390e00f02e6af75355f0677c.jpg",
+      "caption": "FIGURE 11. Effectofstructureonthec<sub>y</sub>clicanodic<sub>p</sub>olarization behavior in aerated 200 ppm CF (pH = 4).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/504328cb9a5a3d0e55bc94e05d3dccef6c995e6e04959acd5af05337c06c5ecb.jpg",
+      "caption": "(a)",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/998ddf058e10d75a4f6cdeeee66523dd9797443dc73d4ab214f9ffd0159ff829.jpg",
+      "caption": "(b)",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0008_item_0003",
+      "image_path": "images/0fea53937d97cb4c1a96ab3fbef808576a7a57ee69f5f303eba71e3b38a6f52f.jpg",
+      "caption": "(c)",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0008_item_0004",
+      "image_path": "images/c86e30b0c86055f36056cad49e4146600d2ebe639404aca859d5b4342408edf0.jpg",
+      "caption": "(d) FIGURE 13. XPSs<sub>p</sub>ectraof: $(a) F e 2 p _ { \\scriptscriptstyle 3 / 2 }, (b) A I 2 p,$ $(c) C r { 2 p } _ { 1 / 2 }$ and ${ \\cal { 2 } } p _ { 3 / 2 },$ and(d) $M o 3 d _ { 3 / 2 }$ and $3 d _ { 5 / 2 }$ <sub>p</sub>eaksmeasured on FA-139 immersed in 200 ppm $C F \\left(p H = 4 \\right)$ solution for 18 h.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0009_item_0001",
+      "image_path": "images/df84ae3d914cf5010907034d1c37646ffcbf065a1e84e3c0920a10ca80a2ecc6.jpg",
+      "caption": "FIGURE 14. Variation ofAl concentration on the surface with Mo content.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0009_item_0004",
+      "image_path": "images/9a2ef877d88c483975a5cedf0deace800571cc49530e9153c810f41e95bd6de2.jpg",
+      "caption": "FIGURE 15. Variation of Cl concentration on the surface with Mo content.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0009_item_0005",
+      "image_path": "images/81f713b93a035753eb539a4931b5fa78a734c2c12d580f745add08709a925793.jpg",
+      "caption": "FIGURE 16. Com<sub>p</sub>arison of c<sub>y</sub>clic anodic <sub>p</sub>olarization curves of FA-84 (Fe-28% Al-2% Cr-0.05% boron [B]) under crevice and noncrevice conditions in aerated 200 ppm CF (pH = 4).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0010_item_0001",
+      "image_path": "images/506ac8b5b635f60fb4fba5e96257e88dc07a91f1110864264e93a78f050093cb.jpg",
+      "caption": "FIGURE 17. Com<sub>p</sub>arison of c<sub>y</sub>clic anodic <sub>p</sub>olarization curves ofFAL-Mo (Fe-28% AI-5% Cr-1% Mo-0.04% B-0.08% zirconium [Zr]) under crevice and noncrevice conditions in aerated 200 ppm CF $(p H = 4)$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0010_item_0010",
+      "image_path": "images/b4c097e93c439236c12e392827cd13698f687ba4f82df44207c08834172302b8.jpg",
+      "caption": "FIGURE 18. Com<sub>p</sub>arison of c<sub>y</sub>clic anodic <sub>p</sub>olarization curves of type 304L SS under crevice and noncrevice conditions in aerated 200 ppm CF $\\left(p H = 4 \\right)$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    }
+  ],
+  "needs_review": []
+}

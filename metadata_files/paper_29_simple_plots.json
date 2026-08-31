@@ -1,0 +1,105 @@
+{
+  "schema_version": 2,
+  "paper_reference": "29",
+  "source_chart_manifest": "paper_29_charts.json",
+  "summary": {
+    "chart_count": 9,
+    "accepted": 0,
+    "rejected": 9,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/472974d63a17856f33ecd33e9ebd8604c38233d59ef0dcfce4ca91226f35063a.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0003",
+      "image_path": "images/67522f38717923588d964ca394c56cd4648f0e7da2be18f94a870ad684bb1d4a.jpg",
+      "caption": "Figure 1: Calculated equilibrium phase mole fraction versus temperature for (a) CoCrFeNi (A35) and (b) $\\mathrm { C o C r F e N i _ { 2 } M o _ { 0. 2 5 } }$ (A36) alloys using the bulk composition provided in Table 1 (only the elements Co, Cr, Fe, Ni, and Mo were included). (a) (b)",
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted quantity is not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0001",
+      "image_path": "images/dcc8bc6de5cf8c5a128c65c6317f5fad7783b37619ffd5ba24587452cde02800.jpg",
+      "caption": "Figure 6: Potentiodynamic polarization curves of HEAs A35 and A36 and commercial alloys C-276 and SS316 in 3.5 wt.% NaCl solution saturated at 25°C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0003",
+      "image_path": "images/2971db4df1d791bb9d02259c9c12c837364cc82742b669ff6448d3cf3c6ab601.jpg",
+      "caption": "(a)",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0004",
+      "image_path": "images/41c9a07ee3e202cb30bdda65e07b09cdb8b06b52920795cd797fb7562f96a8d3.jpg",
+      "caption": "(b) Figure 7: Cyclic anodic polarization curves of A35, A36, C-276, and SS316 alloys in 3.5 wt.% NaCl solution at $2 5 ^ { \\circ } \\mathrm { C }.$",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/725457e56cf4f346a20d6b005acd9bc5b3158e530b4e6a816cced16b8df4ec3a.jpg",
+      "caption": "",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/0f0ec94578eb1962bd5ea5858a267f7439bbc06663b5876356eb66d38af32b0f.jpg",
+      "caption": "(b)",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0003",
+      "image_path": "images/f8d37d39df86490757d1078b70b13fec8d141aa3d959bbf5ee90f865bff1f48e.jpg",
+      "caption": "(a) Figure 8: Nyquist plots of A35, A36, C-276, and SS316 alloys in 3.5 wt.% NaCl solution at 25°C. (a)",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "The chart plots a non-target electrochemical or critical-temperature metric rather than pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0004",
+      "image_path": "images/1b0956dc9bf416ba807790ae90b41df8d56dd9339989e5d8b8d6ee077b7695c8.jpg",
+      "caption": "(b) Figure 9: Equivalent electrical circuit (a) used for tting experimental data ofalloy SS316, while circuit (b) was used for A35, A36, and C-276 alloys. $R _ { s }$ is the resistance of the electrolyte solution, $R _ { p }$ is the oxide layer resistance, and CPE accounts for a nonideal capacitor.",
+      "reason_code": "non_plot_chart",
+      "reason": "The image is an equivalent-circuit schematic, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

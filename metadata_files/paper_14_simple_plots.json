@@ -1,0 +1,76 @@
+{
+  "schema_version": 2,
+  "paper_reference": "14",
+  "source_chart_manifest": "paper_14_charts.json",
+  "summary": {
+    "chart_count": 3,
+    "accepted": 2,
+    "rejected": 1,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0001_item_0010",
+      "image_path": "images/0e0c39cae0de7fd7dc2889859ba24568ac0ffa435f354525b72136b265634e6a.jpg",
+      "caption": "FIGURE 1 — Effect of Mo content and temperature on the potential required to initiate pitting based on the criterion of a rise in current density to 10 $\\mu _ { \\Delta } / c m ^ { 2 }$ in a series of 18% Cr, 20% Ni, 0.2%N stainless steels.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The potential required to initiate pitting is directly plotted against temperature for four molybdenum-bearing steels.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "pitting-initiation potential for 7580-1",
+        "pitting-initiation potential for 7580-2",
+        "pitting-initiation potential for 7580-3",
+        "pitting-initiation potential for 7580-4"
+      ],
+      "x_axis": {
+        "label": "TEMPERATURE",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "POTENTIAL for CD of 10 μA/cm²",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0002_item_0009",
+      "image_path": "images/5fb01ffd1c041cd16c1b185dea73239e3ee44f7002ff805db7d60edb32d20fcb.jpg",
+      "caption": "FIGURE 2 — Comparison of increasing potential runs (open symbols) and increasing temperæture $(\\eta _ { 5 0 0 })$ values for a series of 18% $\\mathbf { \\hat { e } } _ { \\pmb { \\imath } },$ 20% Ni, 0.2% N stainless steels.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Open-symbol increasing-potential runs directly plot pitting-initiation potential against temperature; T500 ranges are ancillary.",
+      "confidence": 0.96,
+      "relevant_panels": [],
+      "target_series": [
+        "increasing-potential pitting-initiation runs for 7580-1",
+        "increasing-potential pitting-initiation runs for 7580-2",
+        "increasing-potential pitting-initiation runs for 7580-3",
+        "increasing-potential pitting-initiation runs for 7580-4"
+      ],
+      "x_axis": {
+        "label": "TEMPERATURE",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "POTENTIAL for CD of 10 μA/cm²",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0008",
+      "image_path": "images/35e722bc218108b6d627590fb7f24e731fd6e023ec1d7e9bc13bae7212437e17.jpg",
+      "caption": "FIGURE 3 — Critical pitting temperature (CPT) as a function of molybdenum content for experimental and commercial stainless steeis.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Critical pitting temperature is plotted against molybdenum content; pitting potential is not present.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

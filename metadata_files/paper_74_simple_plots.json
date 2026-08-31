@@ -1,0 +1,164 @@
+{
+  "schema_version": 2,
+  "paper_reference": "74",
+  "source_chart_manifest": "paper_74_charts.json",
+  "summary": {
+    "chart_count": 11,
+    "accepted": 3,
+    "rejected": 8,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/9ee2cecd46472e9646f6e09a873b4b15f26ad5d43c6999f45b8c607530c1c913.jpg",
+      "caption": "Fig. 3. Dependence of $E _ { \\mathsf { m } \\ell }$ on weight per cent of molybdenum or tungsten for Fe 29Cr ferritie stainless steels in 4 M $\\mathbf { M } \\mathrm { g } \\mathrm { C l } _ { 3 }$ solution at 80 C.",
+      "relevant_panels": [],
+      "target_series": [
+        "Fe-29Cr-xMo E_pit",
+        "Fe-29Cr-yW E_pit"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential E_pit is directly plotted against molybdenum or tungsten content in weight percent.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Content of Mo or W",
+        "unit": "wt.%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_pit",
+        "unit": "mV_SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0007_item_0001",
+      "image_path": "images/2f227e8bcd5bdd7e32deb14d275d96b158bd64b57b0c2afaf0f8510dfdd53011.jpg",
+      "caption": "Fig. 4. Dependence of $E _ { \\mathfrak { p i t } }$ on atomic per cent of molybdenum or tungsten for Fe-29Cr ferritic stainless steels in 4 M $\\mathbf { M g C l } _ { 2 }$ solution at $8 0 ^ { \\circ } \\mathrm { C }.$",
+      "relevant_panels": [],
+      "target_series": [
+        "Fe-29Cr-xMo E_pit",
+        "Fe-29Cr-yW E_pit"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential E_pit is directly plotted against molybdenum or tungsten content in atomic percent.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Content of Mo or W",
+        "unit": "at.%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_pit",
+        "unit": "mV_SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/609e0fdbfbd38e15850587b7b7a060d825f0bba79fb8f000c2dd69117bea91be.jpg",
+      "caption": "Fig. 5. Dependence of Ep, on (Mo + W) at% for Fe 29Cr ferritic stainless steels in 4 M MgCl2 $t _ { \\mathfrak { p } _ { i \\parallel } }$ solution at 80 C.",
+      "relevant_panels": [],
+      "target_series": [
+        "Fe-29Cr-xMo-yW E_pit"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential E_pit is directly plotted against combined molybdenum-plus-tungsten content.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "Content of (Mo+W)",
+        "unit": "at.%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_pit",
+        "unit": "mV_SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/0ea215c784b8c8424813a172e945877b552c2a4851f29ae38311d2d938d0943e.jpg",
+      "caption": "Fig. 1. Anodic polarization curves for Fe 29Cr ferritic stainless steels containing 0 to 4 wt% of molybdenum in 4 M MgCl, solution at 80 C.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/2e010a60fc55d6af3ebe7d2a9307ae18dc43cf3ca8162995364a900383a37aa0.jpg",
+      "caption": "Fig. 2. Anodic polarization curves for Fe-29Cr ferritic stainless steels containing 0 to 8 wt% of tungsten in 4 M $\\mathbf { M } \\mathbf { g } \\mathbf { C } \\mathbf { l } _ { 2 }$ solution at $8 0 ^ { \\circ } \\mathrm { C }.$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0009_item_0001",
+      "image_path": "images/52c65f9c6d84395f9c471748512cfd503f7afb5b7df83a1a71e4260cf282d396.jpg",
+      "caption": "Fig. 6. Anodic polarization curves for Fe-29Cr ferritic stainless steels containing 0 to 4 wt% of molybdenum in 20% $\\mathbf { H } _ { 2 } \\mathbf { S } \\mathbf { O } _ { 4 }$ solution at $3 0 \\mathrm { { ^ { \\circ } C } }$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0010_item_0001",
+      "image_path": "images/961257b5c2090479a9af7ed47e5779efc6747756028c692d9631408f89e57ed3.jpg",
+      "caption": "Fig. 7. Anodic polarization curves for Fe 29Cr ferritie stainless steels containing 0 to 8 wt% of tungsten in 20% H2SO4 solution at 30 C.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0012_item_0003",
+      "image_path": "images/24e14500365945885d6c148b98f1c98b5d1aadffe83c19987df6dd6a0707bb9b.jpg",
+      "caption": "Fig. 9. Influence of molybdenum or tungsten content on $E _ { \\mathfrak { p p } }$ for Fe-29Cr ferritic stainless steels in 20% H2SO4 solution at 30 C.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0013_item_0001",
+      "image_path": "images/94a84b8dce245d9fc59ce15eeb2a1c3cf733df6a757c62e2d9f6a8159a97dc96.jpg",
+      "caption": "Fig. 10. $E _ { \\mathfrak { p p } }$ as a function of molybdenum or tungsten content for Fe-29Cr ferritic stainless steels in $2 0 \\% \\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 }$ solution at 30C.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0014_item_0001",
+      "image_path": "images/84e1a54bc14761fd01f6dd3da432f1cf3fcd22722a5bf343b13173a27bb7c15d.jpg",
+      "caption": "Fig. 11. Influence of molybdenum or tungsten content on l for Fe-29Cr ferritic stainless steels in $\\underline { {? } } () { } _ { \\mathrm { ~ 0 ~ } } ^ { \\prime } \\mathsf { H } \\mathrm {, S O } _ { \\downarrow }$ solution at 30 C.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0015_item_0001",
+      "image_path": "images/5d6654a418c7d443c3d1086ed2e814e524ecf2f7036edb4ee3723e60026031f2.jpg",
+      "caption": "Fig. 12. $I _ { \\mathrm { c } }$ as a function of molybdenum or tungsten content for Fe–29Cr ferritic stainless steels in 20% $\\mathrm { H _ { 2 } S O _ { 4 } }$ solution at $3 0 \\mathrm { \\ddot { C } }.$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

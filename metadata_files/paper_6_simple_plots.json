@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "paper_reference": "6",
+  "source_chart_manifest": "paper_6_charts.json",
+  "summary": {
+    "chart_count": 3,
+    "accepted": 2,
+    "rejected": 1,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/24fa8b14a290c50d0ede87959306c0547f9865f2c88baf288546f52dfc16cbb6.jpg",
+      "caption": "Fig. 2. Pitting potentials obtained from potentiodynamic polarization scans at 200 mV/hr in nitrogen-saturated 1.0M NaCl.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against molybdenum content at four temperatures.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "pitting potential at 1°C",
+        "pitting potential at 25°C",
+        "pitting potential at 45°C",
+        "pitting potential at 70°C"
+      ],
+      "x_axis": {
+        "label": "Molybdenum Content",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential",
+        "unit": "Volt versus SCE",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/db78da07a46206ac67926920635da368037c2e07de4ae1f1879b0e67c15fc842.jpg",
+      "caption": "Fig. 4. Pitting potentials obtained from potentiodynamic polarization scans at 200 mV/hr in nitrogen-saturated 1.0M NoBr.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pitting potential is directly plotted against molybdenum content at three temperatures.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "pitting potential at 1°C",
+        "pitting potential at 25°C",
+        "pitting potential at 45°C"
+      ],
+      "x_axis": {
+        "label": "Molybdenum Content",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Pitting Potential",
+        "unit": "Volt versus SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0012",
+      "image_path": "images/8d59613e68dc0dfc1836849330c39116197ff6d7867c6d5ec293758b4a6588e4.jpg",
+      "caption": "Fig. 1. Polarization curve obtained on scanning a masked electrode of alloy 4354D (3.5% Mo at 200 mV/hr in nitrogen-saturated 1.0M NaCl at 70°C).",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

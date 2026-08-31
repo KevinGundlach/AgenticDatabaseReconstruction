@@ -1,0 +1,139 @@
+{
+  "schema_version": 2,
+  "paper_reference": "4",
+  "source_chart_manifest": "paper_4_charts.json",
+  "summary": {
+    "chart_count": 11,
+    "accepted": 1,
+    "rejected": 10,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0007",
+      "image_path": "images/ac49e4ce4ba1deb1b3909162b869d59d32316507ba12c9d08c3dc6cbbf5cfaf2.jpg",
+      "caption": "FIGURE 4 — Passivation breakdown potentials; (+) Alloy 625, 0.1% NaCI, (∆) Alloy 625, 20% NaCI, () Alloy C-276, 20% NaCl, (o) Alloy C-276, 1% NaCl, and (X) Alloy C-276, 0.1% NaCl.",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Passivation breakdown potential is directly plotted against temperature for separable alloy and NaCl-concentration series.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Alloy 625 passivation breakdown potential",
+        "Alloy C-276 passivation breakdown potential"
+      ],
+      "x_axis": {
+        "label": "t",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Eb (SHE(T))",
+        "unit": "V",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0002",
+      "image_path": "images/31d97db425ed25a668249eb008fc95d8cd09031a1d6afbfd8a0707ac8c193497.jpg",
+      "caption": "FIGURE 1 — The nature of the localized corrosion obtained by cyclic polarization with Alloy C-276.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart maps localized-corrosion outcomes against temperature and NaCl concentration, not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0002_item_0003",
+      "image_path": "images/1cf65c69a8936f5a071b0f85cf7f3f16a1c242439375652ec85bbe62d8f5e23d.jpg",
+      "caption": "FIGURE 2 — The nature of the localized corrosion obtained by cyclic polarization with Alloy 625.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart maps localized-corrosion outcomes against temperature and NaCl concentration, not pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/176bcaf29bd8b0ef3f833c64f1f7219ba55efdca9762f5a00b503606f36ff2de.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/78875ae1ff998187613c46f6903379fdd88b63b6eecd7d3eda1ac401be56be4c.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0003",
+      "image_path": "images/51004a0b268cb3fd9a415b7be5afd671b12ead65a67aef3511bb7f49172af8e8.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0004",
+      "image_path": "images/3d2ea41fcb75b532df846a7c0e14cf359f2b3ff722228319898b97bee0db7a82.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0005",
+      "image_path": "images/d6b23105e1b6309a8906f24207f59d7bcc01d095cceba9a342f703e072a27211.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0006",
+      "image_path": "images/9e6d75db74b693152c97dcf1633dc3ff1e444f2cd9bdc2536e0f501fd68b97c0.jpg",
+      "caption": "FIGURE 3 — Cyclic polarization scans.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/20b81d24c4453f48365f973f0b2d6e25aaef3cefd7a4bf648cab46b930ca11d3.jpg",
+      "caption": "FIGURE 6 — Effect of temperature and chloride concentration on the crevice corrosion of Alloy C-276. The number beside each data point is the exposure time in days; (•) crevice corrosion with obvious metal loss, (o) no corrosion, and (- - - - -) tentative crevice temperature envelope.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart maps crevice-corrosion outcomes against temperature and NaCl concentration, not breakdown potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0007",
+      "image_path": "images/a7b44e87eeb95eb908f9950415a4cbcacf96931046b6fc18681454e430438c4f.jpg",
+      "caption": "FIGURE 7 — Effect of temperature and chloride concentration on the crevice corrosion of Alloy 625; the number beside each data point is the exposure time in days; (•) crevice corrosion with obvious metal loss, (o) no corrosion, and (- - - - -) tentative crevice temperature envelope.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart maps crevice-corrosion outcomes against temperature and NaCl concentration, not breakdown potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

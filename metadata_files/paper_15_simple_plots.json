@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "paper_reference": "15",
+  "source_chart_manifest": "paper_15_charts.json",
+  "summary": {
+    "chart_count": 6,
+    "accepted": 0,
+    "rejected": 6,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0001_item_0009",
+      "image_path": "images/323c02f0b363f5f1cfaec736d79a38baac1cecde00438e73392e15170dd3e613.jpg",
+      "caption": "FIGURE 1 — Pitting temperature range of 317L austenitic stainless steel tested in chloride solutions of different oxidizing power (potential) for 24 and 66 hours. Dashed portion of the curve is based on potentiodynamic polariza-1 tion data.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart shows go/no-go pitting temperature ranges at solution oxidizing potentials, not measured pitting potential values.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/001e684896096a4c8803c0df1fb3af5c86e19d876030996c07d82668fbbc56c0.jpg",
+      "caption": "FIGURE 2 – Critical pitting temperature of 304 and 317L stainless steels as a function of $F e C l _ { 3 }$ concentration in 24 and 66 hour tests.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Critical pitting temperature is plotted against ferric-chloride concentration; pitting potential is not present.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0006",
+      "image_path": "images/0713f71229a807ddff4b1d7d93ed044a73e7cf9b3a9b2ccff217eca775746cf9.jpg",
+      "caption": "FIGURE 3 — Critical pitting temperature as a function of molybdenum content for an average family of 18% Cr, low $\\mathbf { C r },$ nitrogen, experimental and commercial stainless steels which are representative of steels made by present commercial practice. Unbracketed numbers refer to alloys listed in Table 1. Bracketed numbers refer to data cited in the literature.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Critical pitting temperature is plotted against molybdenum content; pitting potential is not present.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/a8f3e75495ddac2ca99af856b469044066563de5081ff6bdda7ac5301ddb1340.jpg",
+      "caption": "FIGURE 4 – Critical pitting temperature as a function of molybdenum content for a family of 18% Cr, 0.2% nitrogen austenitic stainless steels. The numbers refer to alloys listed in Table 1.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Critical pitting temperature is plotted against molybdenum content; pitting potential is not present.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0011",
+      "image_path": "images/30e3ad3b1716913481fe8b6840c35a442da88d81171509aa7605eef54a0a4aee.jpg",
+      "caption": "FIGURE 5 - Critical pitting temperature as a function of molybdenum content for three families of austenitic stainless steels showing the effect of increasing Si content. The numbers refer to alloys listed in Table 1. Alloys 24, 25, and 26 contain alloyed Cu but fall in the same families as other similar steels which do not contain Cu.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Critical pitting temperature is plotted against molybdenum content; pitting potential is not present.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/14c057c2b9c08da72dc124603f9c1f2a423b40f953372d85d6824f307ef13f9e.jpg",
+      "caption": "FIGURE 6 — Critical pitting temperature as a function of molybdenum content for a family of low (<0.5%) Mn stainless steels which exhibit superior pit initiation resistance. The numbers refer to alloys listed in Table 1.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Critical pitting temperature is plotted against molybdenum content; pitting potential is not present.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

@@ -1,0 +1,138 @@
+{
+  "schema_version": 2,
+  "paper_reference": "17",
+  "source_chart_manifest": "paper_17_charts.json",
+  "summary": {
+    "chart_count": 11,
+    "accepted": 1,
+    "rejected": 10,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0005_item_0004",
+      "image_path": "images/121502afe6316c290bf95f6d1b8420845a4c3abd5d70667095c56b23487a31da.jpg",
+      "caption": "1 Summary of HEA corrosion potential $(E _ { \\mathsf { c o r r } }$ in $\\mathfrak { m v } _ { \\mathtt { s c E } })$ and pitting potential $(E _ { \\mathsf { p i t } }$ in $\\mathfrak { m v } _ { \\mathtt { s c E } })$ in quiescent 0?6 M NaCl at 258C; CoCrFeNi (SPS*) was held at 10008C for 5 min, while CoCrFeNi (SPS^) was firstly held at 5008C for 5 min and then sintered at 10008C for another 5 min; $E _ { \\mathsf { c o r r } }$ and $\\pmb { E } _ { \\mathsf { p i t } }$ data of steels and aluminium alloys are obtained from previous studies<sup>24,38–39</sup>",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Open-circle pitting potentials are directly plotted by alloy/material category and are separable from corrosion potentials.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "Epit"
+      ],
+      "x_axis": {
+        "label": "Alloy/material category",
+        "unit": "",
+        "scale": "categorical"
+      },
+      "y_axis": {
+        "label": "E",
+        "unit": "mV SCE",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/f9bab29daaab2ae8b57d0ebe27bcb3b85903002bedb40049986380115aaebf4a.jpg",
+      "caption": "",
+      "reason_code": "non_plot_chart",
+      "reason": "The image is a micrograph, not a plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0002",
+      "image_path": "images/8829b272cdb5dda3c821daab9bc23b6721fd8c1ca5bc2f661fd6a6934e9337c9.jpg",
+      "caption": "",
+      "reason_code": "non_plot_chart",
+      "reason": "The image is a micrograph, not a plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0003",
+      "image_path": "images/a85ae139e61fa6ac782ec600ceb7da90140776a56383e682888c1a41c685da06.jpg",
+      "caption": "",
+      "reason_code": "non_plot_chart",
+      "reason": "The image is a micrograph, not a plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0005",
+      "image_path": "images/09f23e9ac4ad51479cd76d80bff433049379ab1562fa1ed5843c297e6b695e29.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0006",
+      "image_path": "images/7a5a3398146fb76f15aece2b08342a787239a73168ce69a42794cbe7a856dbc5.jpg",
+      "caption": "(c) (g) 2 a polarisation curves for as cast AlCoCrCuFe, $(\\mathsf { T i A l }) _ { 0 \\cdot 7 } \\mathsf { V } _ { 0 \\cdot 1 5 } \\mathsf { F e } _ { 0 \\cdot 1 } \\mathsf { N i } _ { 0 \\cdot 0 5 }$ and AlTiVCrSi in 0?6 M NaCl at 258C; b BSE image of AlCoCrCuFe at low magnification; c BSE image of AlCoCrCuFe at higher magnification; d BSE image of $(\\mathsf { T i A l }) _ { 0 \\cdot 7 } \\mathsf { V } _ { 0 \\cdot 1 5 }.$ $\\mathsf { F e } _ { 0 \\cdot 1 } \\mathsf { N i } _ { 0 \\cdot 0 5 }$ at low magnification; e BSE image of $(\\mathsf { T i A l }) _ { 0 \\cdot 7 } \\mathsf { V } _ { 0 \\cdot 1 5 } \\mathsf { F e } _ { 0 \\cdot 1 } \\mathsf { N i } _ { 0 \\cdot 0 5 }$ at higher magnification; fBSE image of AlTiVCrSi at low magnification; g BSE image of AlTiVCrSi at higher magnification",
+      "reason_code": "non_plot_chart",
+      "reason": "The image is a micrograph, not a plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0006",
+      "image_path": "images/65440920531e3227df2fb543cff8d9173d67cefc6466a7ec05d28192daa8e0cc.jpg",
+      "caption": "3 XRD pattern for as cast AlCoCrFeCu",
+      "reason_code": "not_pitting_potential",
+      "reason": "The image is an X-ray diffraction pattern, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0001",
+      "image_path": "images/4c9a69ef4d931935d20c013d93f15861bf47e24ee0e75f65e29c8c564155b3ce.jpg",
+      "caption": "",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0010",
+      "image_path": "images/a1f49da10e6cae597e8149220f93eea82b47937325287f368629737e74d37cfc.jpg",
+      "caption": "5 XRD pattern for a as cast CoCrFeNi (AM) and b as cast CoCrFeNi (SPS^)",
+      "reason_code": "not_pitting_potential",
+      "reason": "The image is an X-ray diffraction pattern, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0012",
+      "image_path": "images/0b6f09e12d7ac41b2820e70288736e765f9c98fe0365a65e9180747bc28cb7ff.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The image is an X-ray diffraction pattern, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/f6c3b01b27cc14591c2c6a77de4449aaa729d3adab820bd2dbfe686a31bc0a01.jpg",
+      "caption": "",
+      "reason_code": "not_pitting_potential",
+      "reason": "The image is an X-ray diffraction pattern, not a pitting-potential plot.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

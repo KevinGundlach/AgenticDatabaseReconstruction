@@ -81,11 +81,8 @@ def find_figures(input_path : Path):
 
     files = os.listdir(input_path)
 
-    try:
-        (content_list_file,) = [f for f in files 
-                                if f.endswith('_content_list_v2.json')]
-    except ValueError:
-        raise ValueError("There must exist exactly one '_content_list_v2.json' file.")
+    content_list_file = [f for f in files 
+                         if f.endswith('_content_list_v2.json')][0]
 
     content_list_file = input_path / content_list_file 
 
@@ -113,18 +110,13 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
 
 def main(argv: list[str] | None = None):
     args = _parse_args(argv)
-    input_path = args.input_path
-    output_file = args.output_file
+    input_path = args.input_path.resolve()
+    output_file = args.output_file.resolve()
 
     figures = find_figures(input_path)
-    
-    metadata_file = {
-        'input_path': str(input_path),
-        'figures': figures
-    }
 
     with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(metadata_file, f, indent=4)
+        json.dump(figures, f, indent=4)
 
 if __name__ == "__main__":
     main() 

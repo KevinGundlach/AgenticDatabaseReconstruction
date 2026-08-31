@@ -1,0 +1,68 @@
+{
+  "schema_version": 2,
+  "paper_reference": "12",
+  "source_chart_manifest": "paper_12_charts.json",
+  "summary": {
+    "chart_count": 4,
+    "accepted": 1,
+    "rejected": 3,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/3a09e5edbb64a92ee571b1c8993c9bd814358c8868bf598c17e85024f0a96b50.jpg",
+      "caption": "Figure 3—Effect of alloying elements on the breakdown potential (E) of 18Cr-14Ni steel in 0.1N NaCl. Temperature, 25 C",
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Breakdown potential is directly plotted against supplementary alloying-element content with separable element series.",
+      "confidence": 0.98,
+      "relevant_panels": [],
+      "target_series": [
+        "breakdown potential for each supplementary alloying-element series"
+      ],
+      "x_axis": {
+        "label": "Supplementary Alloying Element",
+        "unit": "% wt",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Breakdown Potential",
+        "unit": "Volts",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0005",
+      "image_path": "images/1292b3f57673f072d3dc65395854efce025529db734975adf7ba9736f50131b2.jpg",
+      "caption": "Figure 1—Effect of alloying elements on the rate of corrosion of 18Cr-14Ni steel in 0.5N FeCl3. The test lasted 68 hours at room temperature.",
+      "reason_code": "not_pitting_potential",
+      "reason": "Corrosion rate, not pitting or breakdown potential, is plotted against alloying-element content.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0001",
+      "image_path": "images/34b77942e69116331f386a494e19b13971363c136701606ef3e42c4d4fa511d4.jpg",
+      "caption": "Figure 7—Anodic polarization curves of quenched 18Cr-14Ni steels alloyed with Mo, Si, V or Re in 0.1N HCI. Temperature, 20 C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0005",
+      "image_path": "images/dac84c0f3f37826995fc22b1df8922874a0dbbf37934a36d06a617a07587af7a.jpg",
+      "caption": "Figure 8—Anodic polarization curves of annealed 18Cr-14Ni steels alloyed with Mo, Si, V or Re in 0.1N HCI. Temperature, 20 C.",
+      "reason_code": "polarization_curve",
+      "reason": "Potential is plotted against current density, so pitting potential would have to be inferred from a polarization curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

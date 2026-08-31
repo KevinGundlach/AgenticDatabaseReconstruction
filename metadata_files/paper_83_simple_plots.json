@@ -1,0 +1,179 @@
+{
+  "schema_version": 2,
+  "paper_reference": "83",
+  "source_chart_manifest": "paper_83_charts.json",
+  "summary": {
+    "chart_count": 11,
+    "accepted": 4,
+    "rejected": 7,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0004_item_0003",
+      "image_path": "images/b8d736b09cc2c9b495fdb6ea810216cae6e1f0d6cb7fb2de7e6e02d22da85ae6.jpg",
+      "caption": "FIGURE 6 Z curves of austenitic stainless steels",
+      "relevant_panels": [],
+      "target_series": [
+        "316L pitting potential",
+        "317L pitting potential",
+        "904L pitting potential",
+        "254SMO pitting potential"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The Z curves directly plot the pitting-potential branches against temperature; transpassive and repassivation branches are separable ancillary data.",
+      "confidence": 0.94,
+      "x_axis": {
+        "label": "Temperature",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0004_item_0007",
+      "image_path": "images/7f3993fc724265469066abf7f5e6344fd362a2c7fc2ae775ebab1eded2809fd2.jpg",
+      "caption": "FIGURE 7 Z curves of 904L with different scanning rate",
+      "relevant_panels": [],
+      "target_series": [
+        "904L pitting potential at 30 mV/min",
+        "904L pitting potential at 10 mV/min"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The Z curves directly plot 904L pitting-potential branches against temperature for two potential scan rates.",
+      "confidence": 0.94,
+      "x_axis": {
+        "label": "Temperature",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0005_item_0005",
+      "image_path": "images/e9ed661de13c80e2a63deea857f2892880028a6e5f14ce268f5ec7429a5f921b.jpg",
+      "caption": "FIGURE 8 Z curves of 254SMO in 1 M and 3 M NaCl",
+      "relevant_panels": [],
+      "target_series": [
+        "254SMO pitting potential in 3 M NaCl",
+        "254SMO pitting potential in 1 M NaCl"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The Z curves directly plot 254SMO pitting-potential branches against temperature for two chloride concentrations.",
+      "confidence": 0.94,
+      "x_axis": {
+        "label": "Temperature",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V",
+        "scale": "linear"
+      }
+    },
+    {
+      "chart_id": "page_0006_item_0006",
+      "image_path": "images/4cae0a944c78b228baba26dde712a373bebdd6ef8a5ad3acc4473ef2d75ba38e.jpg",
+      "caption": "FIGURE 10 Potentiostatic CPT of 904L under different applied potential",
+      "relevant_panels": [],
+      "target_series": [
+        "904L potentiodynamic pitting-potential branch"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "The potentiodynamic Z-curve boundary directly plots the 904L pitting-potential branch against temperature; potentiostatic CPT markers are ancillary.",
+      "confidence": 0.9,
+      "x_axis": {
+        "label": "Temperature",
+        "unit": "°C",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "Potential",
+        "unit": "V",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/4b4c38d11fefd517e7cf75693484297549fbea49173680ed1371e0e071a3314c.jpg",
+      "caption": "FIGURE 2 Schematic diagram of potentiostatic CPT measurement",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart reports critical pitting temperature or a CPT relationship, not pitting potential as the plotted target variable.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0003_item_0003",
+      "image_path": "images/4d3bf684860da86b206de506176e3878d565bae5fef232c2962496cab4113846.jpg",
+      "caption": "FIGURE 4 Typical cyclic polarization curves of 317L at different temperatures",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0003_item_0006",
+      "image_path": "images/f4172506ad43a8c2e491a55472ebaf0cc85832411e4873c15653a0e6e5a985d3.jpg",
+      "caption": "FIGURE 3 Typical polarization curves of 316L at different temperatures",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0005_item_0010",
+      "image_path": "images/23497ca72017534fa771f9ef01d80dfeb943a494645cfa77628b541653ba62e5.jpg",
+      "caption": "FIGURE 9 Potentiostatic CPT of 254SMO after 10 min heat treatment at different temperatures",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart reports critical pitting temperature or a CPT relationship, not pitting potential as the plotted target variable.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0006_item_0013",
+      "image_path": "images/8a3ac657e288d6360d6086824f576dc8126e69cca45a264fca93246cd1dfc9f3.jpg",
+      "caption": "FIGURE 11 Current density in 500 s potentiostatic polarization test of 904L under different potential",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density and does not directly plot a pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0008_item_0001",
+      "image_path": "images/77a6d32d4b27d0e07f5f25c7cc51fe4ead04306b887455912c9237915c350598.jpg",
+      "caption": "FIGURE 14 Linear regression between PRE calculated by Eqs. (1)–(3) and CPT",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart reports critical pitting temperature or a CPT relationship, not pitting potential as the plotted target variable.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/b0af90be9c721001a602810c2429cf1122b7ac0c6a9458eb027abcade3d0635d.jpg",
+      "caption": "FIGURE 15 Linear regression between PREN with different nitrogen factors and CPT",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart reports critical pitting temperature or a CPT relationship, not pitting potential as the plotted target variable.",
+      "confidence": 0.99
+    }
+  ],
+  "needs_review": []
+}

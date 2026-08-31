@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "paper_reference": "66",
+  "source_chart_manifest": "paper_66_charts.json",
+  "summary": {
+    "chart_count": 5,
+    "accepted": 1,
+    "rejected": 4,
+    "needs_review": 0
+  },
+  "simple_plots": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/ee21b48ae40ff1ace447a8d4dac6c7578e5a3a8d069807c3e757f5a4c41ec24e.jpg",
+      "caption": "FIGURE 5 - Effect of Mn content on potential of pit nucleation.",
+      "relevant_panels": [],
+      "target_series": [
+        "Forged E_np in 0.1 N NaCl",
+        "Forged E_np in 0.05 N NaCl",
+        "Forged E_np in 0.01 N NaCl",
+        "Quenched E_np in 0.1 N NaCl",
+        "Quenched E_np in 0.05 N NaCl",
+        "Quenched E_np in 0.01 N NaCl"
+      ],
+      "reason_code": "direct_pitting_potential_plot",
+      "reason": "Pit-nucleation potential E_np is directly plotted against manganese content for three chloride concentrations and two material conditions.",
+      "confidence": 0.99,
+      "x_axis": {
+        "label": "% Mn",
+        "unit": "%",
+        "scale": "linear"
+      },
+      "y_axis": {
+        "label": "E_np",
+        "unit": "mV_H",
+        "scale": "linear"
+      }
+    }
+  ],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0001",
+      "image_path": "images/e52191b1345af7e540e661108aec6727963d6bfdd1858ffd151bad71740d40c0.jpg",
+      "caption": "FIGURE 1 - Effect of heat treatment on the anodic polarization curves of 18 Cr-5 Ni-10 Mn steel.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0002_item_0002",
+      "image_path": "images/6fad3cf7860c42cf7bece5ce6d2d91961169c33220d2024eca2fe8a693327523.jpg",
+      "caption": "FIGURE 2 - Anodic polarization curves of 18Cr-5Ni steels with different additions of Mn.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0002_item_0009",
+      "image_path": "images/3a1b3484ba5be993b661a20bf558bf455090f8037a086b8e09a85c5c187b0683.jpg",
+      "caption": "FIGURE 3 — Effect of Mn content on critical passivation potential.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0002_item_0010",
+      "image_path": "images/1ea7aba036c4c983e05200f65d5fe7561b7daee17acd291c75a6267ea73d71d0.jpg",
+      "caption": "FIGURE 4 - Effect of Mn content on current density in passive state.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

@@ -1,0 +1,85 @@
+{
+  "schema_version": 2,
+  "paper_reference": "33",
+  "source_chart_manifest": "paper_33_charts.json",
+  "summary": {
+    "chart_count": 7,
+    "accepted": 0,
+    "rejected": 7,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/e9fe7ec1cf2df816d4b680770dddbc5fa6feca2dff2f07cc064e5934770d0e4e.jpg",
+      "caption": "Fig. 1. Potentiodynamic curves for the three alloys in 0.5 M $\\mathrm { H } _ { 2 } \\mathrm { S O } _ { 4 } (1 \\mathrm { m V } \\mathrm { s } ^ { - 1 })$",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0004",
+      "image_path": "images/a1798defcab37ddf5d5ea73a4691db95ed034851ef7abb25b7e1850a3842000a.jpg",
+      "caption": "Fig. 2. Potentiostatic curves for the three alloys in 0.5 M $\\mathrm { H _ { 2 } S O _ { 4 } }$ (at 650 mV(SHE)).",
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density rather than directly plotting pitting potential.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0004_item_0001",
+      "image_path": "images/0ce38c07db01ec76723c56170a72b4a7aa6061e22bcc7bf227b8a577e09627aa.jpg",
+      "caption": "Fig. 3. Potentiodynamic curves for 304L and 304LN stainless steels in 1 M $\\mathbf { H } _ { 2 } \\mathbf { S } \\mathbf { O } _ { 4 }$ at $6 0 \\mathrm { { ^ \\circ C } }$ (0.25 mV s−1).",
+      "reason_code": "polarization_curve",
+      "reason": "This is a potential-current polarization curve; pitting potential would have to be inferred from the curve.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/71f077dafa111828ed74f0ad212d7b4c6c49d9b7bb5ad20bb4077f3091c10ef5.jpg",
+      "caption": "Fig. 4. XPS spectra recorded at a take-off angle of 90° (the curve fitting of the N 1s spectra is reported in Fig. 5).",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0006_item_0001",
+      "image_path": "images/acda33b86109b034609414cc3c18a492947f0428048b0b823bbb0e0590d4ff63.jpg",
+      "caption": "Fig. 5. Curve fitting of the N 1s spectra of: (a) the 304-type alloy, (b) the Fe-–18Cr-10Ni (ultra-pure) alloy and (c) the Fe-17Cr-13Ni–0.15N alloy. (cps) counts per second; (θ) takeoff angle of the electrons.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0007_item_0001",
+      "image_path": "images/c7414a8163e47ae0eb656c0291caa536d77ca1db9f8e2031315d21b7ca57cfb6.jpg",
+      "caption": "Fig. 6. XPS sputter depth profile for the passive film formed at 650 mV(SHE) (30 min) on the Fe-17Cr-13Ni-0.15N alloy.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0009_item_0001",
+      "image_path": "images/cd45e8c0b1608a9d55d96e50c22bd55fa2dbc3a494ee848c65595ed5f7758064.jpg",
+      "caption": "Fig. 7. The recorded intensities of $O ^ { 2 ^ { - } }$, OH\", N(1), N(2) and N(3) signals versus time of polarization for the Fe-17Cr-13Ni–0.15N alloy.",
+      "reason_code": "not_pitting_potential",
+      "reason": "The chart does not directly plot pitting or breakdown potential against an independent variable.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}

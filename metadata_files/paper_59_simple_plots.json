@@ -1,0 +1,75 @@
+{
+  "schema_version": 2,
+  "paper_reference": "59",
+  "source_chart_manifest": "paper_59_charts.json",
+  "summary": {
+    "chart_count": 6,
+    "accepted": 0,
+    "rejected": 6,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/8326f5fdee72cc4bc4435eec60dc1e2606b2cd6808be39e200c605d71a82f8bd.jpg",
+      "caption": "Fig.3 Polarisation Curves of Fe24Cr and Fe24Cr11Mo in Electrolytes A and B",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit E_pit series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0004_item_0002",
+      "image_path": "images/c5d4867778c76d09bef6cb1793f871217cc0ed4875c057679e5628ec09f59e37.jpg",
+      "caption": "Fig.4 SIMS Depth Profile of 18O on Fe24Cr Alloy Polarised at Potentials CÀ and PH in Électrolyte (A)",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0005_item_0002",
+      "image_path": "images/e73210750a350d8d7ab929ee711ecc3672218e9cf7188dc528b6ec8e54fcc5e7.jpg",
+      "caption": "Fig. 5 SIMS Intensity Ratio $1 8 0 / ~ 1 6 0 ~ + ~ 1 8 0$ for Fe24Cr Polarised in Electrolyte (A) at Potentials CA and PH",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0006_item_0003",
+      "image_path": "images/23a455867a733a4a4cfdde0c32fbec85ba9008d9483a4cda9ce04d97bdd4cbae.jpg",
+      "caption": "Fig.6 Apparent Film Thickness Calculated from Cr 2p3/2 XPS Peaks",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0007_item_0002",
+      "image_path": "images/7862ed845d785ad4fc5ba140a7d51e4f850109d1bbeead1f59426cdc8b7c0e3c.jpg",
+      "caption": "Fig. 7 AES Depth Profile of CI Peak on Fe24Cr Alloy Polarised at CA, PL and PH",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0008_item_0002",
+      "image_path": "images/08ea05e7d1c2bcd99344a0571110440a3dddc3880f2b5b7dc600a9d32158cc13.jpg",
+      "caption": "Fig.8 Normalised SIMS Cl Profiles measured on Fe24Cr and Fe24Cr11Mo polarised at CA, PL, and PH.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    }
+  ],
+  "needs_review": []
+}

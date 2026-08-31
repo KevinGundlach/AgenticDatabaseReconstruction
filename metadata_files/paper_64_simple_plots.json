@@ -1,0 +1,65 @@
+{
+  "schema_version": 2,
+  "paper_reference": "64",
+  "source_chart_manifest": "paper_64_charts.json",
+  "summary": {
+    "chart_count": 5,
+    "accepted": 0,
+    "rejected": 5,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/ea4f3fe7af343e29d0f20023b6d87a082cc948aae44b0eba9a118cdc964dc9c9.jpg",
+      "caption": "Fig. 1. Rutherford Backscattering spectrum obtained from a sample of UNS S30100 stecl implanted with 50 keV molybdenum ions to a dose of 5 x $1 0 ^ { l \\bar { 6 } } / \\mathrm { c m } ^ { 2 }$",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0003_item_0002",
+      "image_path": "images/6db127bb493954983aa14094e28d9f4cc41ed77cc12b2e7bd399c6905317a977.jpg",
+      "caption": "Fig. 2. Distribution of molybdenum within the implanted alloy, comparing the same dose for different implanting energies.",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "not_pitting_potential",
+      "reason": "The plotted variables do not include an explicit pitting-potential or breakdown-potential series.",
+      "confidence": 0.98
+    },
+    {
+      "chart_id": "page_0005_item_0001",
+      "image_path": "images/1da2dcda6dcc4d6eb3556dc71e9297197a11a0956918c9300fd9c6af8abec7c0.jpg",
+      "caption": "Fig. 3. Potentiostatically-controlled anodic polarization characteristics of an unimplanted control sample and implanted alloy sample #10 (Table 2).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "polarization_curve",
+      "reason": "This is a polarization curve; obtaining E_pit would require interpreting the curve rather than digitizing an explicit pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0005_item_0002",
+      "image_path": "images/a1bdde121b1f936496539bd04a3becfb594484f4df587030601f228885e57295.jpg",
+      "caption": "Fig. 4. Current density as a function of time, before and after the addition of chloride ions, for a control sample and implanted alloy sample #9 (Table 2).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "current_density_only",
+      "reason": "The chart reports current or current density and does not directly plot a pitting-potential series.",
+      "confidence": 0.99
+    },
+    {
+      "chart_id": "page_0007_item_0004",
+      "image_path": "images/d8f85a9bdf8932bb0e8cdc3a146ac453ef4be2304dd4a536d2304fcfdba08b42.jpg",
+      "caption": "Fig. 8. Optical micrograph of sample half-implanted with krypton and anodically polarized identically to the sample of Fig. 5(a).",
+      "relevant_panels": [],
+      "target_series": [],
+      "reason_code": "non_plot_chart",
+      "reason": "The image is a micrograph rather than a chart of pitting potential.",
+      "confidence": 0.99
+    }
+  ],
+  "needs_review": []
+}

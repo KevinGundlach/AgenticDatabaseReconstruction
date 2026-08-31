@@ -1,0 +1,35 @@
+{
+  "schema_version": 2,
+  "paper_reference": "13",
+  "source_chart_manifest": "paper_13_charts.json",
+  "summary": {
+    "chart_count": 2,
+    "accepted": 0,
+    "rejected": 2,
+    "needs_review": 0
+  },
+  "simple_plots": [],
+  "rejected_charts": [
+    {
+      "chart_id": "page_0002_item_0001",
+      "image_path": "images/baa8a704b13cc1c462c34323fe93397b0d5fa5bd5b113db008d5d47791a70a0e.jpg",
+      "caption": "FIGURE 1 - Crevice corrosion temperature (CCT) and critical pitting temperature (CPT) as a function of molybdenum content for several austenitic stainless steels. The numbers associated with the CCT data refer to alloys listed in Table 1, while the numbers on the CPT data denote the pitting families listed in the same table.",
+      "reason_code": "other_electrochemical_metric",
+      "reason": "Critical pitting and crevice temperatures are plotted; pitting potential is not present.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    },
+    {
+      "chart_id": "page_0003_item_0001",
+      "image_path": "images/3858dbc63c94d251e0eb9a3e304f41ed3950d97d93590dd52f1576d8d245b216.jpg",
+      "caption": "FIGURE 2 — Corrosion rate as a function of molybdenum content for austenitic stainless steels exposed to nitrogenated concentrated (37.5%) HCl for 4 hours.",
+      "reason_code": "not_pitting_potential",
+      "reason": "Corrosion rate, not pitting potential, is plotted against molybdenum content.",
+      "confidence": 0.99,
+      "relevant_panels": [],
+      "target_series": []
+    }
+  ],
+  "needs_review": []
+}
