@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Any
 
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 PAPER_DIR_RE = re.compile(r"^paper_(\d+)$", re.IGNORECASE)
 FILE_REF_RE = re.compile(r"^(\d+)_")
 SPACE_RE = re.compile(r"\s+")
@@ -166,13 +166,13 @@ def build_catalog_skeleton(input_path: Path) -> dict[str, Any]:
         raise CatalogSkeletonError(f"paper folder does not exist: {paper_dir}")
 
     content_list = _find_exactly_one(paper_dir, "*_content_list_v2.json")
-    source_pdf = _find_exactly_one(paper_dir, "*_origin.pdf")
+    source_markdown = _find_exactly_one(paper_dir, "*.md")
     paper_reference = _paper_reference(paper_dir, content_list)
-    pdf_match = FILE_REF_RE.match(source_pdf.name)
-    if pdf_match and int(pdf_match.group(1)) != int(paper_reference):
+    markdown_match = FILE_REF_RE.match(source_markdown.name)
+    if markdown_match and int(markdown_match.group(1)) != int(paper_reference):
         raise CatalogSkeletonError(
             "paper reference mismatch: "
-            f"catalog={paper_reference}, source PDF={pdf_match.group(1)}"
+            f"catalog={paper_reference}, source Markdown={markdown_match.group(1)}"
         )
     pages = _load_pages(content_list)
 
@@ -189,7 +189,7 @@ def build_catalog_skeleton(input_path: Path) -> dict[str, Any]:
         "paper_reference": paper_reference,
         "input_path": str(paper_dir),
         "source_content_list": str(content_list),
-        "source_pdf": str(source_pdf),
+        "source_markdown": str(source_markdown),
         "figures": figures,
     }
 

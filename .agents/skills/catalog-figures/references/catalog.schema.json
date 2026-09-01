@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "title": "Cataloged chart and table variables",
+  "title": "Cataloged chart and table variables v2",
   "type": "object",
   "additionalProperties": false,
   "required": [
@@ -8,12 +8,12 @@
     "paper_reference",
     "input_path",
     "source_content_list",
-    "source_pdf",
+    "source_markdown",
     "figures"
   ],
   "properties": {
     "schema_version": {
-      "const": 1
+      "const": 2
     },
     "paper_reference": {
       "type": "string",
@@ -25,7 +25,7 @@
     "source_content_list": {
       "$ref": "#/$defs/nonEmptyString"
     },
-    "source_pdf": {
+    "source_markdown": {
       "$ref": "#/$defs/nonEmptyString"
     },
     "figures": {
@@ -74,16 +74,17 @@
       "additionalProperties": false,
       "required": [
         "source_label",
-        "canonical_name",
+        "interpreted_name",
         "data_type",
         "unit",
-        "role"
+        "interpretation_source",
+        "interpretation_evidence"
       ],
       "properties": {
         "source_label": {
           "$ref": "#/$defs/nullableNonEmptyString"
         },
-        "canonical_name": {
+        "interpreted_name": {
           "oneOf": [
             {
               "type": "string",
@@ -110,11 +111,15 @@
             "null"
           ]
         },
-        "role": {
+        "interpretation_source": {
           "enum": [
-            "condition",
-            "measured"
+            "visual",
+            "markdown",
+            "unresolved"
           ]
+        },
+        "interpretation_evidence": {
+          "$ref": "#/$defs/nullableNonEmptyString"
         },
         "uncertainty": {
           "$ref": "#/$defs/uncertainty"
@@ -123,14 +128,91 @@
       "allOf": [
         {
           "if": {
+            "properties": {
+              "interpretation_source": {
+                "const": "visual"
+              }
+            },
             "required": [
-              "uncertainty"
+              "interpretation_source"
             ]
           },
           "then": {
             "properties": {
-              "role": {
-                "const": "measured"
+              "interpreted_name": {
+                "type": "string"
+              },
+              "interpretation_evidence": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "interpretation_source": {
+                "const": "markdown"
+              }
+            },
+            "required": [
+              "interpretation_source"
+            ]
+          },
+          "then": {
+            "properties": {
+              "interpreted_name": {
+                "type": "string"
+              },
+              "interpretation_evidence": {
+                "$ref": "#/$defs/nonEmptyString"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "interpretation_source": {
+                "const": "unresolved"
+              }
+            },
+            "required": [
+              "interpretation_source"
+            ]
+          },
+          "then": {
+            "properties": {
+              "source_label": {
+                "$ref": "#/$defs/nonEmptyString"
+              },
+              "interpreted_name": {
+                "type": "null"
+              },
+              "interpretation_evidence": {
+                "type": "null"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "source_label": {
+                "type": "null"
+              }
+            },
+            "required": [
+              "source_label"
+            ]
+          },
+          "then": {
+            "properties": {
+              "interpreted_name": {
+                "type": "string"
+              },
+              "interpretation_source": {
+                "const": "visual"
               }
             }
           }
@@ -235,13 +317,32 @@
                     },
                     {
                       "properties": {
-                        "canonical_name": {
+                        "interpreted_name": {
                           "type": "string"
                         }
                       }
                     }
                   ]
                 }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "needs_review"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "notes": {
+                "minItems": 1
               }
             }
           }

@@ -1,76 +1,96 @@
 ---
 name: catalog-figures
-description: Catalog every MinerU chart and table in one paper by identifying the plot-specific Tidy Data variables needed for later tabularization. Use for semantic figure inventory and variable mapping; do not use to extract data values.
+description: Catalog the data fields visibly represented in every MinerU chart and table from one paper, using targeted Markdown only to interpret visible labels. Use before tabularization; do not extract values or add contextual conditions.
 ---
 
 # Catalog Figures
 
-Create one complete, source-traceable catalog of the variables represented in
-every MinerU chart and table from a paper. Catalog variable definitions only;
-leave all category levels, constants, plotted points, and table cells for a
-later tabularization skill.
+Create a source-traceable inventory of the data fields visibly represented in
+every MinerU chart and table from one paper. The image determines which fields
+exist. The MinerU Markdown may only resolve the meaning of a field already
+evidenced by the image.
 
 ## Workflow
 
-1. Accept one `mineru_output/paper_<reference>` folder. Build the catalog
+Run every command from the project root. Keep uv's cache inside the writable
+workspace so Codex does not use its normally inaccessible user cache.
+
+1. Accept one `mineru_output/paper_<reference>` folder and read
+   [catalog.schema.json](references/catalog.schema.json). Build the schema-v2
    skeleton without overwriting existing work:
 
    ```powershell
-   uv run <skill-dir>/scripts/identify_figures.py --input_path <paper-folder>
+   uv --cache-dir .uv-cache run --frozen <skill-dir>/scripts/identify_figures.py --input_path <paper-folder>
    ```
 
    The folder must contain exactly one `*_content_list_v2.json` and one
-   `*_origin.pdf`.
-2. Read [catalog.schema.json](references/catalog.schema.json). Read the entire
-   source PDF before cataloging, focusing on terminology, abbreviations, units,
-   and experimental design. Do not save a paper summary or collections of
-   nearby paragraphs.
-3. Inspect every chart and table image directly. Use the PDF to resolve meaning
-   and to add conditions only when their application to that figure is clear.
+   Markdown file. Do not open, parse, or extract text from a PDF.
+2. Inspect every chart and table image directly. For each image, make one
+   provisional list containing only fields visibly evidenced by axis labels,
+   row or column headers, legend titles or unmistakable untitled groupings,
+   panel titles, or repeated labeled data annotations. Preserve printed labels
+   and units exactly.
+3. Collect the visible labels whose meanings are unclear. Search the source
+   Markdown for those exact labels and read only the shortest relevant
+   passages. Markdown may expand or disambiguate an existing visible field; it
+   must not introduce a field, unit, value, or condition. Copy the shortest
+   exact supporting excerpt into `interpretation_evidence` when Markdown
+   determines `interpreted_name`.
 4. Replace every skeleton entry's null status. Split a multipanel chart into
    separate entries that retain the same `source_figure_id` and provenance.
    Use its printed panel label, or `panel_1`, `panel_2`, and so on in reading
    order when labels are absent. Give each panel a `catalog_id` such as
    `<source_figure_id>__panel_a` or `<source_figure_id>__panel_1`.
-5. Map each variable to `vocabularies/variables.json`. Reuse an entry only when
-   its definition matches. Add a concise, source-independent entry when a clear
-   concept is genuinely new; never add paper aliases or units to the global
-   vocabulary and never broaden an existing definition to force a match.
-6. Validate the completed catalog:
+5. Fill the catalog once, using concise notes only for unresolved or structural
+   ambiguity. Do not read or update any global variable vocabulary.
+6. Validate the completed catalog and fix only reported errors:
 
    ```powershell
-   uv run <skill-dir>/scripts/validate_catalog.py `
-     --input <paper-folder>/paper_<reference>_figures.json `
-     --vocabulary <project-root>/vocabularies/variables.json
+   uv --cache-dir .uv-cache run --frozen <skill-dir>/scripts/validate_catalog.py `
+     --input <paper-folder>/paper_<reference>_figures.json
    ```
 
 Do not claim completion when validation fails.
 
-## Identifying variables
+## What counts as a variable
 
-Imagine the future tidy table for the figure. Include a concept when it would
-need a column because it varies across observations, series, rows, or columns;
-or because it is a scientifically meaningful condition needed to interpret the
-observations and can vary in comparable figures, even if constant here.
+A variable is a data field visibly represented by the chart or table: a
+property, measurement, identifier, or grouping for which the visual assigns
+values or categories to observations, series, rows, or columns.
 
-- Classify each variable only as `condition` or `measured`.
-- Preserve the exact printed variable label when one exists. Use null when the
-  variable is clear but has no explicit label.
-- Preserve the figure-specific unit. Use `""` for a genuinely unitless
-  variable and null when the unit is unstated or unknown. Never infer a unit.
-- Treat element quantities as separate canonical variables: for example,
-  `Mo wt%` maps to `molybdenum` with unit `wt%`, while `Cr wt%` maps to
-  `chromium` with the same local unit.
-- Attach an uncertainty descriptor to a measured variable when the figure
-  reports error bars or an interval. Preserve the stated meaning; use
-  `unspecified` when the source does not define it.
-- When meaning remains ambiguous after reading the paper, retain the raw label,
-  set `canonical_name` to null, mark the entry `needs_review`, and continue.
+- Include a labeled axis, row or column header, legend dimension, panel
+  dimension, or repeated labeled quantity. A table column remains a variable
+  even when all visible cells happen to contain the same value.
+- An untitled grouping may use `source_label: null` only when its visible
+  entries make its meaning unambiguous. Otherwise mark the figure
+  `needs_review`, explain the ambiguity, and do not invent a field.
+- `interpreted_name` is a lower-snake-case, paper-local interpretation, not a
+  global canonical name. Use `interpretation_source: visual` when the image
+  itself makes the meaning clear, `markdown` when an exact Markdown excerpt is
+  needed, and `unresolved` when a printed label remains ambiguous.
+- Preserve the visually printed unit. Use `""` for a genuinely unitless field
+  and null when the visual does not state a unit. Never take a unit from the
+  caption or prose.
+- Attach uncertainty only when error bars or an interval are visible. Preserve
+  its stated meaning; use `unspecified` when the visual does not define it.
 
-Axes, secondary-axis placement, marker and line styles, color, tick ranges, and
-legend placement are presentation encodings, not scientific variables. They
-may help interpret a figure but must not appear in the catalog. Do not record
-variable values, category levels, constants, data points, or table cells.
+Do not record individual values, category levels, constants, plotted points,
+table cells, colors, marker or line styles, tick ranges, or legend placement.
+Captions are provenance. They may resolve an existing visual label, but they
+must never create a variable or add a condition that applies uniformly to the
+figure.
+
+Examples:
+
+- A visible `Epit` axis is a variable. If the Markdown explicitly identifies
+  it as pitting potential, record `interpreted_name: pitting_potential`,
+  `interpretation_source: markdown`, and the shortest exact defining excerpt.
+- A legend headed `Solution` is a `test_solution` field. `1.0 M NaCl` is a
+  category value for later extraction, not another variable.
+- If `1.0 M NaCl` appears only in the caption and applies to every point, omit
+  it. A later context-enrichment stage may attach it to extracted observations.
+- A visible `Temperature (°C)` table column is a variable even when every row
+  displays the same temperature.
 
 Use `not_data_figure` only for an obvious MinerU false detection. Account for
-every source block at least once.
+every MinerU chart and table block at least once.
