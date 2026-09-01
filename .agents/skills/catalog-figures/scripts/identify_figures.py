@@ -1,16 +1,32 @@
-"""Identify all charts and tables from the MinerU content_list_v2.json file."""
+#!/usr/bin/env python3
+"""Create a provenance skeleton for every MinerU chart and table in one paper."""
+
+from __future__ import annotations
 
 import argparse
-import os 
-import json 
-import re 
-from typing import Any 
+import json
+import re
+import sys
 from pathlib import Path
+from typing import Any
 
+
+SCHEMA_VERSION = 1
+PAPER_DIR_RE = re.compile(r"^paper_(\d+)$", re.IGNORECASE)
+FILE_REF_RE = re.compile(r"^(\d+)_")
 SPACE_RE = re.compile(r"\s+")
+SPACE_BEFORE_PUNCTUATION_RE = re.compile(r"\s+([,.;:!?%)\]])")
+SPACE_AFTER_OPEN_RE = re.compile(r"([(\[])\s+")
+
+
+class CatalogSkeletonError(ValueError):
+    """Raised when a MinerU paper folder violates the input contract."""
+
 
 def _normalize_text(text: str) -> str:
-    return SPACE_RE.sub(" ", text).strip()
+    text = SPACE_RE.sub(" ", text).strip()
+    text = SPACE_BEFORE_PUNCTUATION_RE.sub(r"\1", text)
+    return SPACE_AFTER_OPEN_RE.sub(r"\1", text)
 
 
 def _join_text(parts: list[str]) -> str:
@@ -18,7 +34,7 @@ def _join_text(parts: list[str]) -> str:
 
 
 def flatten_text(value: Any) -> str:
-    """Flatten MinerU span structures without traversing unrelated metadata."""
+    """Flatten MinerU text and equation fragments without walking metadata."""
     if value is None:
         return ""
     if isinstance(value, str):
@@ -47,6 +63,8 @@ def flatten_text(value: Any) -> str:
         "list_items",
         "math_content",
         "page_number_content",
+        "chart_caption",
+        "chart_footnote",
         "table_caption",
         "table_footnote",
     ):
@@ -57,66 +75,171 @@ def flatten_text(value: Any) -> str:
     return ""
 
 
-def get_figure_metadata(block):
+def _find_exactly_one(paper_dir: Path, pattern: str) -> Path:
+    matches = sorted(paper_dir.glob(pattern))
+    if len(matches) != 1:
+        raise CatalogSkeletonError(
+            f"expected exactly one {pattern} in {paper_dir}, found {len(matches)}"
+        )
+    return matches[0].resolve()
 
-    image_path = block['content']['image_source']['path']
 
-    if block['type'] == 'chart':
-        caption = flatten_text(block['content']['chart_caption'])
-    elif block['type'] == 'table':
-        caption = flatten_text(block['content']['table_caption'])
-    else:
-        raise ValueError('Block does not represent a tabularizable figure.')
+def _paper_reference(paper_dir: Path, content_list: Path) -> str:
+    folder_match = PAPER_DIR_RE.fullmatch(paper_dir.name)
+    file_match = FILE_REF_RE.match(content_list.name)
+    folder_ref = folder_match.group(1) if folder_match else None
+    file_ref = file_match.group(1) if file_match else None
+    if folder_ref and file_ref and int(folder_ref) != int(file_ref):
+        raise CatalogSkeletonError(
+            f"paper reference mismatch: folder={folder_ref}, file={file_ref}"
+        )
+    reference = folder_ref or file_ref
+    if reference is None:
+        raise CatalogSkeletonError(
+            "cannot determine paper reference; use paper_<number> or a numbered content-list file"
+        )
+    return str(int(reference))
 
-    metadata = {
-        'type': block['type'],
-        'caption': caption,
-        'image_path': image_path
+
+def _load_pages(content_list: Path) -> list[list[dict[str, Any]]]:
+    try:
+        raw = json.loads(content_list.read_text(encoding="utf-8"))
+    except (OSError, UnicodeError, json.JSONDecodeError) as exc:
+        raise CatalogSkeletonError(f"cannot read {content_list}: {exc}") from exc
+
+    if not isinstance(raw, list):
+        raise CatalogSkeletonError("content_list_v2 root must be an array")
+    if not raw:
+        return []
+    if all(isinstance(item, dict) for item in raw):
+        raw = [raw]
+    if not all(isinstance(page, list) for page in raw):
+        raise CatalogSkeletonError("content_list_v2 must contain page arrays")
+
+    pages: list[list[dict[str, Any]]] = []
+    for page_number, page in enumerate(raw, start=1):
+        if not all(isinstance(block, dict) for block in page):
+            raise CatalogSkeletonError(
+                f"page {page_number} contains a non-object block"
+            )
+        pages.append(page)
+    return pages
+
+
+def _image_path(content: dict[str, Any]) -> str | None:
+    source = content.get("image_source")
+    raw_path = source.get("path") if isinstance(source, dict) else None
+    if not isinstance(raw_path, str) or not raw_path.strip():
+        return None
+    return raw_path.strip().replace("\\", "/")
+
+
+def _figure_entry(
+    block: dict[str, Any], page_number: int, item_index: int
+) -> dict[str, Any]:
+    figure_type = block.get("type")
+    if figure_type not in {"chart", "table"}:
+        raise CatalogSkeletonError("block is not a chart or table")
+    content = block.get("content")
+    content = content if isinstance(content, dict) else {}
+    caption_key = "chart_caption" if figure_type == "chart" else "table_caption"
+    source_figure_id = f"page_{page_number:04d}_item_{item_index:04d}"
+    return {
+        "catalog_id": source_figure_id,
+        "source_figure_id": source_figure_id,
+        "panel_label": None,
+        "type": figure_type,
+        "page_number": page_number,
+        "item_index": item_index,
+        "image_path": _image_path(content),
+        "caption": flatten_text(content.get(caption_key)),
+        "status": None,
+        "variables": [],
+        "notes": [],
     }
 
-    return metadata
+
+def build_catalog_skeleton(input_path: Path) -> dict[str, Any]:
+    """Build the incomplete catalog that an agent will semantically fill."""
+    paper_dir = input_path.resolve()
+    if not paper_dir.is_dir():
+        raise CatalogSkeletonError(f"paper folder does not exist: {paper_dir}")
+
+    content_list = _find_exactly_one(paper_dir, "*_content_list_v2.json")
+    source_pdf = _find_exactly_one(paper_dir, "*_origin.pdf")
+    paper_reference = _paper_reference(paper_dir, content_list)
+    pdf_match = FILE_REF_RE.match(source_pdf.name)
+    if pdf_match and int(pdf_match.group(1)) != int(paper_reference):
+        raise CatalogSkeletonError(
+            "paper reference mismatch: "
+            f"catalog={paper_reference}, source PDF={pdf_match.group(1)}"
+        )
+    pages = _load_pages(content_list)
+
+    figures: list[dict[str, Any]] = []
+    for page_number, page in enumerate(pages, start=1):
+        for zero_based_index, block in enumerate(page):
+            if block.get("type") in {"chart", "table"}:
+                figures.append(
+                    _figure_entry(block, page_number, zero_based_index + 1)
+                )
+
+    return {
+        "schema_version": SCHEMA_VERSION,
+        "paper_reference": paper_reference,
+        "input_path": str(paper_dir),
+        "source_content_list": str(content_list),
+        "source_pdf": str(source_pdf),
+        "figures": figures,
+    }
 
 
-def find_figures(input_path : Path):
+def find_figures(input_path: Path) -> list[dict[str, Any]]:
+    """Return chart/table skeleton entries for compatibility with callers."""
+    return build_catalog_skeleton(input_path)["figures"]
 
-    files = os.listdir(input_path)
-
-    content_list_file = [f for f in files 
-                         if f.endswith('_content_list_v2.json')][0]
-
-    content_list_file = input_path / content_list_file 
-
-    with open(content_list_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    figures = [] 
-
-    for page_number, page in enumerate(data, start=1):
-        for block in page:
-
-            if block['type'] in ['chart', 'table']:
-                metadata = get_figure_metadata(block)
-                metadata['page_number'] = page_number 
-                figures.append(metadata)
-
-    return figures 
 
 def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input_path", type=Path, required=True)
-    parser.add_argument("--output_file", type=Path, required=True)
+    parser.add_argument("--output_file", type=Path)
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+        help="replace an existing output file explicitly",
+    )
     return parser.parse_args(argv)
 
 
-def main(argv: list[str] | None = None):
+def main(argv: list[str] | None = None) -> int:
     args = _parse_args(argv)
-    input_path = args.input_path.resolve()
-    output_file = args.output_file.resolve()
+    try:
+        catalog = build_catalog_skeleton(args.input_path)
+        output_file = args.output_file
+        if output_file is None:
+            output_file = args.input_path / (
+                f"paper_{catalog['paper_reference']}_figures.json"
+            )
+        output_file = output_file.resolve()
+        if output_file.exists() and not args.overwrite:
+            raise CatalogSkeletonError(
+                f"output already exists: {output_file}; preserve it or rerun with --overwrite"
+            )
+        output_file.parent.mkdir(parents=True, exist_ok=True)
+        output_file.write_text(
+            json.dumps(catalog, indent=2, ensure_ascii=False) + "\n",
+            encoding="utf-8",
+        )
+    except (CatalogSkeletonError, OSError) as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 1
 
-    figures = find_figures(input_path)
+    print(
+        f"Wrote {len(catalog['figures'])} chart/table skeleton entries to "
+        f"{output_file}"
+    )
+    return 0
 
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(figures, f, indent=4)
 
 if __name__ == "__main__":
-    main() 
+    raise SystemExit(main())

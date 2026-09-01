@@ -1,0 +1,271 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Cataloged chart and table variables",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "paper_reference",
+    "input_path",
+    "source_content_list",
+    "source_pdf",
+    "figures"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "paper_reference": {
+      "type": "string",
+      "pattern": "^[0-9]+$"
+    },
+    "input_path": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "source_content_list": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "source_pdf": {
+      "$ref": "#/$defs/nonEmptyString"
+    },
+    "figures": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/figure"
+      }
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nullableNonEmptyString": {
+      "oneOf": [
+        {
+          "$ref": "#/$defs/nonEmptyString"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "uncertainty": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "kind",
+        "meaning"
+      ],
+      "properties": {
+        "kind": {
+          "enum": [
+            "error_bar",
+            "interval"
+          ]
+        },
+        "meaning": {
+          "$ref": "#/$defs/nonEmptyString"
+        }
+      }
+    },
+    "variable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_label",
+        "canonical_name",
+        "data_type",
+        "unit",
+        "role"
+      ],
+      "properties": {
+        "source_label": {
+          "$ref": "#/$defs/nullableNonEmptyString"
+        },
+        "canonical_name": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "data_type": {
+          "enum": [
+            "numeric",
+            "categorical",
+            "text",
+            "boolean",
+            "datetime",
+            "unknown"
+          ]
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "role": {
+          "enum": [
+            "condition",
+            "measured"
+          ]
+        },
+        "uncertainty": {
+          "$ref": "#/$defs/uncertainty"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "required": [
+              "uncertainty"
+            ]
+          },
+          "then": {
+            "properties": {
+              "role": {
+                "const": "measured"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "figure": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "catalog_id",
+        "source_figure_id",
+        "panel_label",
+        "type",
+        "page_number",
+        "item_index",
+        "image_path",
+        "caption",
+        "status",
+        "variables",
+        "notes"
+      ],
+      "properties": {
+        "catalog_id": {
+          "type": "string",
+          "pattern": "^page_[0-9]{4}_item_[0-9]{4}(?:__panel_[a-z0-9_]+)?$"
+        },
+        "source_figure_id": {
+          "type": "string",
+          "pattern": "^page_[0-9]{4}_item_[0-9]{4}$"
+        },
+        "panel_label": {
+          "$ref": "#/$defs/nullableNonEmptyString"
+        },
+        "type": {
+          "enum": [
+            "chart",
+            "table"
+          ]
+        },
+        "page_number": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "item_index": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "image_path": {
+          "oneOf": [
+            {
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "caption": {
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "cataloged",
+            "needs_review",
+            "not_data_figure"
+          ]
+        },
+        "variables": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/variable"
+          }
+        },
+        "notes": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/nonEmptyString"
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "cataloged"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variables": {
+                "minItems": 1,
+                "items": {
+                  "allOf": [
+                    {
+                      "$ref": "#/$defs/variable"
+                    },
+                    {
+                      "properties": {
+                        "canonical_name": {
+                          "type": "string"
+                        }
+                      }
+                    }
+                  ]
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "not_data_figure"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "variables": {
+                "maxItems": 0
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}
