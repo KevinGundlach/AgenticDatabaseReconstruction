@@ -1,0 +1,131 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:agentic-database-reconstruction:figure-extractions:v1",
+  "title": "Discrete chart and table extractions",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "source_catalog", "extractions"],
+  "properties": {
+    "schema_version": {"const": 1},
+    "source_catalog": {"$ref": "#/$defs/nonEmptyString"},
+    "extractions": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/extraction"}
+    }
+  },
+  "$defs": {
+    "nonEmptyString": {
+      "type": "string",
+      "minLength": 1
+    },
+    "layoutPosition": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["variable_index", "component"],
+      "properties": {
+        "variable_index": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "component": {
+          "enum": [
+            "value",
+            "lower_bound",
+            "upper_bound",
+            "lower_inclusive",
+            "upper_inclusive"
+          ]
+        }
+      }
+    },
+    "rowValue": {
+      "type": ["number", "string", "boolean", "null"]
+    },
+    "row": {
+      "type": "array",
+      "items": {"$ref": "#/$defs/rowValue"}
+    },
+    "extraction": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["catalog_id", "status", "layout", "rows", "notes"],
+      "properties": {
+        "catalog_id": {"$ref": "#/$defs/nonEmptyString"},
+        "status": {
+          "enum": [
+            "unprocessed",
+            "complete",
+            "partial",
+            "no_discrete_values",
+            "needs_review",
+            "not_data_figure"
+          ]
+        },
+        "layout": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/layoutPosition"}
+        },
+        "rows": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/row"}
+        },
+        "notes": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/nonEmptyString"}
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {"status": {"const": "complete"}},
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {"rows": {"minItems": 1}}
+          }
+        },
+        {
+          "if": {
+            "properties": {"status": {"const": "partial"}},
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "rows": {"minItems": 1},
+              "notes": {"minItems": 1}
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {"status": {"const": "needs_review"}},
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {
+              "rows": {"maxItems": 0},
+              "notes": {"minItems": 1}
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "enum": [
+                  "unprocessed",
+                  "no_discrete_values",
+                  "not_data_figure"
+                ]
+              }
+            },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": {"rows": {"maxItems": 0}}
+          }
+        }
+      ]
+    }
+  }
+}
