@@ -47,8 +47,9 @@ def variable(
 class CatalogScriptTests(unittest.TestCase):
     def setUp(self) -> None:
         self.temp_dir = tempfile.TemporaryDirectory()
-        self.paper_dir = Path(self.temp_dir.name) / "paper_99"
-        self.paper_dir.mkdir()
+        self.project_root = Path(self.temp_dir.name)
+        self.paper_dir = self.project_root / "mineru_output" / "paper_99"
+        self.paper_dir.mkdir(parents=True)
         pages = [
             [
                 {"type": "paragraph", "content": {"paragraph_content": "Text"}},
@@ -86,8 +87,11 @@ class CatalogScriptTests(unittest.TestCase):
     def tearDown(self) -> None:
         self.temp_dir.cleanup()
 
+    def _build_skeleton(self) -> dict[str, object]:
+        return build_catalog_skeleton(self.paper_dir, self.project_root)
+
     def _completed_catalog(self) -> dict[str, object]:
-        catalog = build_catalog_skeleton(self.paper_dir)
+        catalog = self._build_skeleton()
         chart = catalog["figures"][0]
         chart["status"] = "cataloged"
         chart["variables"] = [
@@ -115,13 +119,21 @@ class CatalogScriptTests(unittest.TestCase):
     def _write_and_validate(self, catalog: dict[str, object]) -> int:
         path = Path(self.temp_dir.name) / "catalog.json"
         path.write_text(json.dumps(catalog), encoding="utf-8")
-        return validate(path, SCHEMA)
+        return validate(path, SCHEMA, self.project_root)
 
     def test_skeleton_has_stable_provenance_and_requires_review(self) -> None:
-        catalog = build_catalog_skeleton(self.paper_dir)
+        catalog = self._build_skeleton()
         self.assertEqual(catalog["schema_version"], 2)
         self.assertEqual(catalog["paper_reference"], "99")
-        self.assertTrue(catalog["source_markdown"].endswith("99_demo.md"))
+        self.assertEqual(catalog["input_path"], "mineru_output/paper_99")
+        self.assertEqual(
+            catalog["source_content_list"],
+            "mineru_output/paper_99/99_demo_content_list_v2.json",
+        )
+        self.assertEqual(
+            catalog["source_markdown"],
+            "mineru_output/paper_99/99_demo.md",
+        )
         self.assertNotIn("source_pdf", catalog)
         self.assertEqual(
             [entry["source_figure_id"] for entry in catalog["figures"]],
@@ -133,17 +145,22 @@ class CatalogScriptTests(unittest.TestCase):
     def test_exactly_one_content_list_and_markdown_are_required(self) -> None:
         (self.paper_dir / "duplicate.md").write_text("duplicate", encoding="utf-8")
         with self.assertRaisesRegex(CatalogSkeletonError, "expected exactly one"):
-            build_catalog_skeleton(self.paper_dir)
+            self._build_skeleton()
         (self.paper_dir / "duplicate.md").unlink()
         (self.paper_dir / "99_demo.md").unlink()
         with self.assertRaisesRegex(CatalogSkeletonError, "found 0"):
-            build_catalog_skeleton(self.paper_dir)
+            self._build_skeleton()
         (self.paper_dir / "99_demo.md").write_text("restored", encoding="utf-8")
         (self.paper_dir / "99_duplicate_content_list_v2.json").write_text(
             "[]", encoding="utf-8"
         )
         with self.assertRaisesRegex(CatalogSkeletonError, "found 2"):
-            build_catalog_skeleton(self.paper_dir)
+            self._build_skeleton()
+
+    def test_input_must_be_inside_project_root(self) -> None:
+        outside = self.project_root.parent / "paper_99"
+        with self.assertRaisesRegex(CatalogSkeletonError, "inside the project root"):
+            build_catalog_skeleton(outside, self.project_root)
 
     def test_existing_output_is_not_silently_overwritten(self) -> None:
         output = Path(self.temp_dir.name) / "paper_99_figures.json"
@@ -152,6 +169,8 @@ class CatalogScriptTests(unittest.TestCase):
             str(self.paper_dir),
             "--output_file",
             str(output),
+            "--project-root",
+            str(self.project_root),
         ]
         self.assertEqual(identify_main(arguments), 0)
         original = output.read_bytes()
@@ -160,6 +179,27 @@ class CatalogScriptTests(unittest.TestCase):
 
     def test_complete_catalog_with_ambiguity_and_uncertainty_validates(self) -> None:
         self.assertEqual(self._write_and_validate(self._completed_catalog()), 2)
+
+    def test_absolute_or_windows_style_provenance_path_fails(self) -> None:
+        catalog = self._completed_catalog()
+        catalog["input_path"] = str(self.paper_dir.resolve())
+        with self.assertRaisesRegex(
+            CatalogValidationError, "relative to the project root"
+        ):
+            self._write_and_validate(catalog)
+
+        catalog = self._completed_catalog()
+        catalog["source_markdown"] = "mineru_output\\paper_99\\99_demo.md"
+        with self.assertRaisesRegex(CatalogValidationError, "POSIX-style"):
+            self._write_and_validate(catalog)
+
+    def test_mineru_caption_must_remain_verbatim(self) -> None:
+        catalog = self._completed_catalog()
+        catalog["figures"][0]["caption"] = "Fig. 1. Ep versus pH."
+        with self.assertRaisesRegex(
+            CatalogValidationError, "preserve the generated MinerU caption verbatim"
+        ):
+            self._write_and_validate(catalog)
 
     def test_panel_split_and_cross_figure_units_validate(self) -> None:
         catalog = self._completed_catalog()

@@ -7,12 +7,16 @@ import argparse
 import json
 import sys
 from collections import defaultdict
-from pathlib import Path
+from pathlib import Path, PurePosixPath, PureWindowsPath
 from typing import Any
 
 from jsonschema import Draft202012Validator
 
-from identify_figures import CatalogSkeletonError, build_catalog_skeleton
+from identify_figures import (
+    CatalogSkeletonError,
+    build_catalog_skeleton,
+    resolve_project_path,
+)
 
 
 FORBIDDEN_FIELDS = {
@@ -96,15 +100,31 @@ def _find_forbidden_fields(value: Any, path: str = "$") -> list[str]:
     return found
 
 
-def _validate_catalog_semantics(catalog: dict[str, Any]) -> None:
+def _validate_catalog_semantics(
+    catalog: dict[str, Any], project_root: Path
+) -> None:
     forbidden = _find_forbidden_fields(catalog)
     if forbidden:
         raise CatalogValidationError(
             f"catalog contains forbidden data or presentation field: {forbidden[0]}"
         )
 
+    for field in ("input_path", "source_content_list", "source_markdown"):
+        stored_path = catalog[field]
+        if (
+            PurePosixPath(stored_path).is_absolute()
+            or PureWindowsPath(stored_path).is_absolute()
+            or "\\" in stored_path
+            or ".." in PurePosixPath(stored_path).parts
+        ):
+            raise CatalogValidationError(
+                f"{field} must be a POSIX-style path relative to the project root"
+            )
+
     try:
-        expected = build_catalog_skeleton(Path(catalog["input_path"]))
+        expected = build_catalog_skeleton(
+            Path(catalog["input_path"]), project_root
+        )
     except (CatalogSkeletonError, OSError) as exc:
         raise CatalogValidationError(f"cannot rebuild source inventory: {exc}") from exc
 
@@ -122,12 +142,15 @@ def _validate_catalog_semantics(catalog: dict[str, Any]) -> None:
     }
     entries_by_source: dict[str, list[dict[str, Any]]] = defaultdict(list)
     catalog_ids: set[str] = set()
-    markdown_path = Path(catalog["source_markdown"])
+    stored_markdown_path = catalog["source_markdown"]
     try:
+        markdown_path = resolve_project_path(
+            Path(stored_markdown_path), project_root
+        )
         markdown_text = markdown_path.read_text(encoding="utf-8")
-    except (OSError, UnicodeError) as exc:
+    except (CatalogSkeletonError, OSError, UnicodeError) as exc:
         raise CatalogValidationError(
-            f"cannot read source Markdown {markdown_path}: {exc}"
+            f"cannot read source Markdown {stored_markdown_path}: {exc}"
         ) from exc
 
     for position, entry in enumerate(catalog["figures"]):
@@ -145,8 +168,13 @@ def _validate_catalog_semantics(catalog: dict[str, Any]) -> None:
             )
         for field in PROVENANCE_FIELDS:
             if entry[field] != source[field]:
+                suffix = (
+                    "; preserve the generated MinerU caption verbatim"
+                    if field == "caption"
+                    else ""
+                )
                 raise CatalogValidationError(
-                    f"{location}.{field} differs from the MinerU inventory"
+                    f"{location}.{field} differs from the MinerU inventory{suffix}"
                 )
         if not catalog_id.startswith(source_id):
             raise CatalogValidationError(
@@ -224,13 +252,20 @@ def _validate_catalog_semantics(catalog: dict[str, Any]) -> None:
                 )
 
 
-def validate(catalog_path: Path, schema_path: Path) -> int:
+def validate(
+    catalog_path: Path,
+    schema_path: Path,
+    project_root: Path | None = None,
+) -> int:
     catalog = _load_json(catalog_path)
     schema = _load_json(schema_path)
     _validate_schema(catalog, schema)
     if not isinstance(catalog, dict):
         raise CatalogValidationError("catalog root must be an object")
-    _validate_catalog_semantics(catalog)
+    root = (project_root or Path.cwd()).resolve()
+    if not root.is_dir():
+        raise CatalogValidationError(f"project root does not exist: {root}")
+    _validate_catalog_semantics(catalog, root)
     return len(catalog["figures"])
 
 
@@ -238,13 +273,23 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input", required=True, type=Path)
     parser.add_argument("--schema", type=Path, default=_default_schema())
+    parser.add_argument(
+        "--project-root",
+        type=Path,
+        default=Path.cwd(),
+        help="base directory for resolving project-relative paths (default: cwd)",
+    )
     return parser.parse_args(argv)
 
 
 def main(argv: list[str] | None = None) -> int:
     args = _parse_args(argv)
     try:
-        entry_count = validate(args.input.resolve(), args.schema.resolve())
+        entry_count = validate(
+            args.input.resolve(),
+            args.schema.resolve(),
+            args.project_root.resolve(),
+        )
     except CatalogValidationError as exc:
         print(f"error: {exc}", file=sys.stderr)
         return 1

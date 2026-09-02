@@ -24,7 +24,9 @@ workspace so Codex does not use its normally inaccessible user cache.
    ```
 
    The folder must contain exactly one `*_content_list_v2.json` and one
-   Markdown file. Do not open, parse, or extract text from a PDF.
+   Markdown file. The skeleton records `input_path`, `source_content_list`, and
+   `source_markdown` as POSIX-style paths relative to the project root. Do not
+   open, parse, or extract text from a PDF.
 2. Inspect every chart and table image directly. For each image, make one
    provisional list containing only fields visibly evidenced by axis labels,
    row or column headers, legend titles or unmistakable untitled groupings,
@@ -36,8 +38,12 @@ workspace so Codex does not use its normally inaccessible user cache.
    must not introduce a field, unit, value, or condition. Copy the shortest
    exact supporting excerpt into `interpretation_evidence` when Markdown
    determines `interpreted_name`.
-4. Replace every skeleton entry's null status. Split a multipanel chart into
-   separate entries that retain the same `source_figure_id` and provenance.
+4. Treat the skeleton's root provenance and each entry's `source_figure_id`,
+   `type`, `page_number`, `item_index`, `image_path`, and `caption` as
+   immutable. In particular, preserve each MinerU-generated caption verbatim;
+   do not retype, normalize, repair, or reconstruct it. Replace every skeleton
+   entry's null status. Split a multipanel chart into separate entries that
+   retain the same `source_figure_id` and provenance.
    Use its printed panel label, or `panel_1`, `panel_2`, and so on in reading
    order when labels are absent. Give each panel a `catalog_id` such as
    `<source_figure_id>__panel_a` or `<source_figure_id>__panel_1`.

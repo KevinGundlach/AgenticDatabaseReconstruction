@@ -23,6 +23,31 @@ class CatalogSkeletonError(ValueError):
     """Raised when a MinerU paper folder violates the input contract."""
 
 
+def _resolve_project_root(project_root: Path | None) -> Path:
+    root = (project_root or Path.cwd()).resolve()
+    if not root.is_dir():
+        raise CatalogSkeletonError(f"project root does not exist: {root}")
+    return root
+
+
+def resolve_project_path(path: Path, project_root: Path) -> Path:
+    """Resolve a path inside project_root and reject paths that escape it."""
+    root = project_root.resolve()
+    candidate = path if path.is_absolute() else root / path
+    resolved = candidate.resolve()
+    try:
+        resolved.relative_to(root)
+    except ValueError as exc:
+        raise CatalogSkeletonError(
+            f"path must be inside the project root {root}: {resolved}"
+        ) from exc
+    return resolved
+
+
+def _project_relative(path: Path, project_root: Path) -> str:
+    return path.resolve().relative_to(project_root.resolve()).as_posix()
+
+
 def _normalize_text(text: str) -> str:
     text = SPACE_RE.sub(" ", text).strip()
     text = SPACE_BEFORE_PUNCTUATION_RE.sub(r"\1", text)
@@ -159,9 +184,12 @@ def _figure_entry(
     }
 
 
-def build_catalog_skeleton(input_path: Path) -> dict[str, Any]:
+def build_catalog_skeleton(
+    input_path: Path, project_root: Path | None = None
+) -> dict[str, Any]:
     """Build the incomplete catalog that an agent will semantically fill."""
-    paper_dir = input_path.resolve()
+    root = _resolve_project_root(project_root)
+    paper_dir = resolve_project_path(input_path, root)
     if not paper_dir.is_dir():
         raise CatalogSkeletonError(f"paper folder does not exist: {paper_dir}")
 
@@ -187,22 +215,30 @@ def build_catalog_skeleton(input_path: Path) -> dict[str, Any]:
     return {
         "schema_version": SCHEMA_VERSION,
         "paper_reference": paper_reference,
-        "input_path": str(paper_dir),
-        "source_content_list": str(content_list),
-        "source_markdown": str(source_markdown),
+        "input_path": _project_relative(paper_dir, root),
+        "source_content_list": _project_relative(content_list, root),
+        "source_markdown": _project_relative(source_markdown, root),
         "figures": figures,
     }
 
 
-def find_figures(input_path: Path) -> list[dict[str, Any]]:
+def find_figures(
+    input_path: Path, project_root: Path | None = None
+) -> list[dict[str, Any]]:
     """Return chart/table skeleton entries for compatibility with callers."""
-    return build_catalog_skeleton(input_path)["figures"]
+    return build_catalog_skeleton(input_path, project_root)["figures"]
 
 
 def _parse_args(argv: list[str] | None) -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--input_path", type=Path, required=True)
     parser.add_argument("--output_file", type=Path)
+    parser.add_argument(
+        "--project-root",
+        type=Path,
+        default=Path.cwd(),
+        help="base directory for serialized project-relative paths (default: cwd)",
+    )
     parser.add_argument(
         "--overwrite",
         action="store_true",
@@ -214,10 +250,11 @@ def _parse_args(argv: list[str] | None) -> argparse.Namespace:
 def main(argv: list[str] | None = None) -> int:
     args = _parse_args(argv)
     try:
-        catalog = build_catalog_skeleton(args.input_path)
+        project_root = _resolve_project_root(args.project_root)
+        catalog = build_catalog_skeleton(args.input_path, project_root)
         output_file = args.output_file
         if output_file is None:
-            output_file = args.input_path / (
+            output_file = project_root / Path(catalog["input_path"]) / (
                 f"paper_{catalog['paper_reference']}_figures.json"
             )
         output_file = output_file.resolve()
