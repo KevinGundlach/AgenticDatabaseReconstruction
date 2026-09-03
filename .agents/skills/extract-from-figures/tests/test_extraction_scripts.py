@@ -19,6 +19,7 @@ from validate_extraction import (  # noqa: E402
     ExtractionValidationError,
     validate,
 )
+from upgrade_extraction import upgrade  # noqa: E402
 
 
 SCHEMA = SKILL_DIR / "references" / "extraction.schema.json"
@@ -134,13 +135,17 @@ class ExtractionScriptTests(unittest.TestCase):
 
     def test_preparation_has_complete_coverage_and_default_layouts(self) -> None:
         extraction = build_extraction_skeleton(self.paper_dir, self.project_root)
-        self.assertEqual(extraction["schema_version"], 1)
+        self.assertEqual(extraction["schema_version"], 2)
         self.assertEqual(
             extraction["source_catalog"],
             "mineru_output/paper_99/paper_99_figures.json",
         )
         self.assertEqual(len(extraction["extractions"]), 5)
         self.assertEqual(extraction["extractions"][0]["status"], "unprocessed")
+        self.assertEqual(
+            extraction["extractions"][0]["variables"],
+            self.catalog["figures"][0]["variables"],
+        )
         self.assertEqual(
             extraction["extractions"][0]["layout"],
             [
@@ -168,7 +173,7 @@ class ExtractionScriptTests(unittest.TestCase):
         self.assertEqual(prepare_main(arguments), 1)
         self.assertEqual(output.read_bytes(), original)
 
-    def test_paper_49_table_3_ranges_and_table_5_long_rows_validate(self) -> None:
+    def test_ranges_and_hierarchical_long_rows_validate(self) -> None:
         statuses = self._write_and_validate(self._completed_extraction())
         self.assertEqual(statuses["complete"], 3)
         self.assertEqual(statuses["needs_review"], 1)
@@ -186,17 +191,42 @@ class ExtractionScriptTests(unittest.TestCase):
         chart["rows"] = [[250.0, 240.0, 260.0, "316L"]]
         self._write_and_validate(extraction)
 
-    def test_paper_9_figure_3_markerless_chart_has_no_discrete_values(self) -> None:
+    def test_markerless_chart_has_no_discrete_values(self) -> None:
         extraction = self._completed_extraction()
         chart = extraction["extractions"][0]
         chart["status"] = "no_discrete_values"
         chart["rows"] = []
         self._write_and_validate(extraction)
 
-    def test_paper_9_figure_9_discrete_rows_validate(self) -> None:
+    def test_discrete_rows_validate(self) -> None:
         extraction = self._completed_extraction()
         self.assertEqual(extraction["extractions"][0]["rows"], [[250.0, "316L"]])
         self._write_and_validate(extraction)
+
+    def test_copied_variables_must_match_catalog(self) -> None:
+        extraction = self._completed_extraction()
+        extraction["extractions"][0]["variables"][0]["unit"] = "V"
+        with self.assertRaisesRegex(ExtractionValidationError, "exactly match"):
+            self._write_and_validate(extraction)
+
+    def test_v1_upgrade_adds_variables_without_changing_rows(self) -> None:
+        extraction = self._completed_extraction()
+        expected_rows = copy.deepcopy(extraction["extractions"][0]["rows"])
+        extraction["schema_version"] = 1
+        for entry in extraction["extractions"]:
+            del entry["variables"]
+        input_path = self.project_root / "legacy_extraction.json"
+        input_path.write_text(json.dumps(extraction), encoding="utf-8")
+
+        upgraded = upgrade(input_path, self.project_root)
+
+        self.assertEqual(upgraded["schema_version"], 2)
+        self.assertEqual(upgraded["extractions"][0]["rows"], expected_rows)
+        self.assertEqual(
+            upgraded["extractions"][0]["variables"],
+            self.catalog["figures"][0]["variables"],
+        )
+        self._write_and_validate(upgraded)
 
     def test_wrong_row_width_fails(self) -> None:
         extraction = self._completed_extraction()

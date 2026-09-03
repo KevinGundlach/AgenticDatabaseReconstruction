@@ -6,9 +6,9 @@ description: Extract discrete plotted points, bars, annotations, and table value
 # Extract From Figures
 
 Turn one completed `paper_<reference>_figures.json` catalog into compact,
-queryable rows. The catalog remains the sole source of variable definitions and
-provenance; the extraction file contains only catalog references, storage
-layout, extracted values, statuses, and concise exception notes.
+queryable rows. Each extraction entry copies the matching catalog's variable
+definitions so the artifact is self-describing. The source catalog remains the
+authority for those definitions and provenance.
 
 ## Workflow
 
@@ -30,7 +30,8 @@ Run commands from the project root and keep uv's cache inside the workspace.
    matching panel only when the catalog entry names a panel.
 4. Replace `unprocessed` with a final status, adjust the layout when a logical
    variable needs multiple value components, and fill the rows. Preserve the
-   skeleton's `source_catalog`, entry order, and `catalog_id` values.
+   skeleton's `source_catalog`, entry order, `catalog_id`, and copied `variables`
+   exactly.
 5. Validate the completed paper artifact and fix reported errors:
 
    ```powershell
@@ -40,6 +41,16 @@ Run commands from the project root and keep uv's cache inside the workspace.
 
 Do not claim completion when validation fails or any entry remains
 `unprocessed`.
+
+For an existing schema-v1 artifact created by an earlier version of this skill,
+preserve its extracted rows while adding the copied variables:
+
+```powershell
+uv --cache-dir .uv-cache run --frozen <skill-dir>/scripts/upgrade_extraction.py `
+  --input <extraction.json> --output <extraction.json> --overwrite
+```
+
+Validate the upgraded artifact immediately afterward.
 
 ## Native Vision Only
 
@@ -67,16 +78,6 @@ conditions absent from the image.
   queryable. A table organized by alloy, parameter, and solution therefore has
   one row per alloy-parameter-solution value.
 
-Apply these established decisions when the cited papers are processed:
-
-- Paper 9 Figure 3: `no_discrete_values`; its markerless potentiodynamic
-  polarization traces are not rows.
-- Paper 9 Figure 9: extract the visibly plotted discrete points as rows.
-- Paper 49 Table 3: represent two-sided and one-sided pH ranges with bound
-  components.
-- Paper 49 Table 5: emit long-form logical observations over alloy, parameter,
-  test solution, parameter value, and PREN, repeating merged labels.
-
 Read categorical and text values as printed. Store numeric values as JSON
 numbers in the original catalog unit, using only visually defensible precision.
 Use `null` for blank cells, dash placeholders, and unreadable positions. A
@@ -85,8 +86,10 @@ use `partial` when information was actually omitted or could not be read.
 
 ## Layout and Ranges
 
-Each layout position contains a zero-based `variable_index` into the matching
-catalog entry plus one component. Row values follow layout order.
+Each layout position contains a zero-based `variable_index` into the extraction
+entry's copied `variables` array plus one component. Row values follow layout
+order. The copied variables are ordinary catalog variable objects; do not alter
+them to represent storage components.
 
 - Ordinary scalar: `value`.
 - Two-sided or one-sided numeric range: `lower_bound`, `upper_bound`,

@@ -6,7 +6,7 @@
   "additionalProperties": false,
   "required": ["schema_version", "source_catalog", "extractions"],
   "properties": {
-    "schema_version": {"const": 1},
+    "schema_version": {"const": 2},
     "source_catalog": {"$ref": "#/$defs/nonEmptyString"},
     "extractions": {
       "type": "array",
@@ -45,10 +45,56 @@
       "type": "array",
       "items": {"$ref": "#/$defs/rowValue"}
     },
+    "variable": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "source_label",
+        "interpreted_name",
+        "data_type",
+        "unit",
+        "interpretation_source",
+        "interpretation_evidence"
+      ],
+      "properties": {
+        "source_label": {"type": ["string", "null"]},
+        "interpreted_name": {
+          "oneOf": [
+            {
+              "type": "string",
+              "pattern": "^[a-z][a-z0-9]*(?:_[a-z0-9]+)*$"
+            },
+            {"type": "null"}
+          ]
+        },
+        "data_type": {
+          "enum": [
+            "numeric",
+            "categorical",
+            "text",
+            "boolean",
+            "datetime",
+            "unknown"
+          ]
+        },
+        "unit": {"type": ["string", "null"]},
+        "interpretation_source": {
+          "enum": ["visual", "markdown", "unresolved"]
+        },
+        "interpretation_evidence": {"type": ["string", "null"]}
+      }
+    },
     "extraction": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["catalog_id", "status", "layout", "rows", "notes"],
+      "required": [
+        "catalog_id",
+        "status",
+        "variables",
+        "layout",
+        "rows",
+        "notes"
+      ],
       "properties": {
         "catalog_id": {"$ref": "#/$defs/nonEmptyString"},
         "status": {
@@ -60,6 +106,10 @@
             "needs_review",
             "not_data_figure"
           ]
+        },
+        "variables": {
+          "type": "array",
+          "items": {"$ref": "#/$defs/variable"}
         },
         "layout": {
           "type": "array",

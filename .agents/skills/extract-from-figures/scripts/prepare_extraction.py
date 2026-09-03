@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import json
 import re
 import sys
@@ -11,7 +12,7 @@ from pathlib import Path
 from typing import Any
 
 
-SCHEMA_VERSION = 1
+SCHEMA_VERSION = 2
 PAPER_DIR_RE = re.compile(r"^paper_(\d+)$", re.IGNORECASE)
 
 
@@ -135,6 +136,7 @@ def build_extraction_skeleton(
             {
                 "catalog_id": figure["catalog_id"],
                 "status": status,
+                "variables": copy.deepcopy(figure["variables"]),
                 "layout": layout,
                 "rows": [],
                 "notes": notes,
@@ -201,4 +203,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

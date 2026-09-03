@@ -145,9 +145,9 @@ def _validate_status(
 
 
 def _validate_layout(
-    entry: dict[str, Any], figure: dict[str, Any], location: str
+    entry: dict[str, Any], location: str
 ) -> dict[int, dict[str, int]]:
-    variables = figure["variables"]
+    variables = entry["variables"]
     positions_by_variable: dict[int, dict[str, int]] = defaultdict(dict)
     seen: set[tuple[int, str]] = set()
 
@@ -195,11 +195,10 @@ def _validate_layout(
 
 def _validate_rows(
     entry: dict[str, Any],
-    figure: dict[str, Any],
     positions_by_variable: dict[int, dict[str, int]],
     location: str,
 ) -> None:
-    variables = figure["variables"]
+    variables = entry["variables"]
     layout = entry["layout"]
     for row_index, row in enumerate(entry["rows"]):
         row_location = f"{location}.rows[{row_index}]"
@@ -303,9 +302,13 @@ def _validate_semantics(extraction: dict[str, Any], project_root: Path) -> Count
     statuses: Counter[str] = Counter()
     for index, (entry, figure) in enumerate(zip(entries, figures, strict=True)):
         location = f"extractions[{index}]"
+        if entry["variables"] != figure["variables"]:
+            raise ExtractionValidationError(
+                f"{location}.variables must exactly match the source catalog entry"
+            )
         _validate_status(entry, figure, location)
-        positions = _validate_layout(entry, figure, location)
-        _validate_rows(entry, figure, positions, location)
+        positions = _validate_layout(entry, location)
+        _validate_rows(entry, positions, location)
         statuses[entry["status"]] += 1
     return statuses
 
@@ -359,4 +362,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
