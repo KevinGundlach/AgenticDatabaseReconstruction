@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:agentic-database-reconstruction:series-extraction:v1",
+  "title": "PDF series extraction",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["paper_name", "reference_number", "series"],
+  "properties": {
+    "paper_name": {"type": "string", "pattern": "^[^/\\\\]+[.][pP][dD][fF]$"},
+    "reference_number": {"type": "integer", "minimum": 0},
+    "series": {"type": "array", "items": {"$ref": "#/$defs/series"}}
+  },
+  "$comment": "The Python validator additionally checks finite numbers, filename/reference agreement, unique column names, row widths, ordered bounds, and central values within bounds.",
+  "$defs": {
+    "nonblank": {"type": "string", "pattern": "\\S"},
+    "column": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name"],
+      "properties": {
+        "name": {"$ref": "#/$defs/nonblank"},
+        "default_unit": {"$ref": "#/$defs/nonblank"},
+        "default_error_bar_type": {"$ref": "#/$defs/nonblank"}
+      }
+    },
+    "numericCell": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "value": {"type": "number"},
+        "min": {"type": "number"},
+        "max": {"type": "number"},
+        "unit": {"$ref": "#/$defs/nonblank"},
+        "plus_minus": {"type": "number", "minimum": 0},
+        "plus_minus_unit": {"$ref": "#/$defs/nonblank"},
+        "error_bar_type": {"$ref": "#/$defs/nonblank"}
+      },
+      "anyOf": [{"required": ["value"]}, {"required": ["min"]}, {"required": ["max"]}],
+      "dependentRequired": {"plus_minus": ["value"], "plus_minus_unit": ["plus_minus"]},
+      "allOf": [
+        {
+          "if": {"required": ["plus_minus"]},
+          "then": {"not": {"anyOf": [{"required": ["min"]}, {"required": ["max"]}]}}
+        }
+      ]
+    },
+    "cell": {
+      "anyOf": [
+        {"type": ["string", "number", "null"]},
+        {"$ref": "#/$defs/numericCell"}
+      ]
+    },
+    "series": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["source", "method", "status", "columns", "rows", "notes"],
+      "properties": {
+        "source": {"$ref": "#/$defs/nonblank"},
+        "method": {"enum": ["transcribed", "digitized"]},
+        "status": {"enum": ["complete", "partial", "none"]},
+        "columns": {"type": "array", "items": {"$ref": "#/$defs/column"}},
+        "rows": {"type": "array", "items": {"type": "array", "items": {"$ref": "#/$defs/cell"}}},
+        "notes": {"type": "string"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"status": {"enum": ["complete", "partial"]}}, "required": ["status"]},
+          "then": {"properties": {"columns": {"minItems": 1}, "rows": {"minItems": 1}}}
+        },
+        {
+          "if": {"properties": {"status": {"const": "none"}}, "required": ["status"]},
+          "then": {"properties": {"rows": {"maxItems": 0}}}
+        },
+        {
+          "if": {"properties": {"status": {"enum": ["partial", "none"]}}, "required": ["status"]},
+          "then": {"properties": {"notes": {"$ref": "#/$defs/nonblank"}}}
+        }
+      ]
+    }
+  }
+}
