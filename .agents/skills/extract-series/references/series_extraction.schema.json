@@ -33,7 +33,8 @@
         "unit": {"$ref": "#/$defs/nonblank"},
         "plus_minus": {"type": "number", "minimum": 0},
         "plus_minus_unit": {"$ref": "#/$defs/nonblank"},
-        "error_bar_type": {"$ref": "#/$defs/nonblank"}
+        "error_bar_type": {"$ref": "#/$defs/nonblank"},
+        "label": {"$ref": "#/$defs/nonblank"}
       },
       "anyOf": [{"required": ["value"]}, {"required": ["min"]}, {"required": ["max"]}],
       "dependentRequired": {"plus_minus": ["value"], "plus_minus_unit": ["plus_minus"]},
@@ -60,7 +61,7 @@
         "status": {"enum": ["complete", "partial", "none"]},
         "columns": {"type": "array", "items": {"$ref": "#/$defs/column"}},
         "rows": {"type": "array", "items": {"type": "array", "items": {"$ref": "#/$defs/cell"}}},
-        "notes": {"type": "string"}
+        "notes": {"type": "string", "description": "Empty unless explaining partial/none status or an extraction anomaly or unclear edge case requiring attention; not a caption or contextual metadata field."}
       },
       "allOf": [
         {

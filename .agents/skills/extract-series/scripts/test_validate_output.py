@@ -18,7 +18,7 @@ def fixture(cell=300):
             "source": "Figure 3(a), alloy B", "method": "digitized", "status": "complete",
             "columns": [{"name": "pH"}, {"name": "Epit", "default_unit": "mV (SCE)",
                                                 "default_error_bar_type": "confidence_interval_95"}],
-            "rows": [[2, cell]], "notes": "Caption defines the error bars."
+            "rows": [[2, cell]], "notes": ""
         }]
     }
 
@@ -36,6 +36,9 @@ class ContractTests(unittest.TestCase):
                  {"value": 120, "unit": "ppm"}, {"min": 300}, {"max": 300},
                  {"min": 290, "max": 310}, {"value": 300, "min": 290, "max": 310},
                  {"value": 300, "plus_minus": 10},
+                 {"value": 0.92, "label": "Chromates Only"},
+                 {"min": 300, "label": ">300"},
+                 {"value": 300, "min": 290, "max": 310, "label": "estimated"},
                  {"value": 300, "plus_minus": 5, "plus_minus_unit": "%", "error_bar_type": "unknown"},
                  {"value": 300, "plus_minus": 0, "error_bar_type": "confidence_interval_99"}]
         for cell in cells:
@@ -54,12 +57,19 @@ class ContractTests(unittest.TestCase):
                  {"value": 300, "plus_minus": 10, "max": 310},
                  {"value": 300, "plus_minus_unit": "%"},
                  {"value": 300, "unit": None}, {"value": 300, "error_bar_type": " "},
+                 {"label": "Chromates Only"}, {"value": 300, "label": ""},
+                 {"value": 300, "label": " "}, {"value": 300, "label": None},
+                 {"value": 300, "label": 1},
                  {"value": 300, "extra": 1}, float("inf"), float("nan")]
         for cell in cells:
             with self.subTest(cell=cell):
                 self.assertTrue(self.errors(fixture(cell)))
 
     def test_statuses_and_empty_paper(self):
+        complete = fixture()
+        self.assertFalse(self.errors(complete))
+        complete["series"][0]["notes"] = "Plot and prose disagree on this value."
+        self.assertFalse(self.errors(complete))
         doc = fixture(None)
         series = doc["series"][0]
         series["status"] = "partial"

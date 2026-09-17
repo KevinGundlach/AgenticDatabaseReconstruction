@@ -4,13 +4,15 @@
 
 Root properties are `paper_name` (filename including extension, no directory), `reference_number` (nonnegative integer), and `series` (array). Match the filename's leading number when present; otherwise use the user-supplied reference. One document represents one paper. No version, type declarations, or point-level provenance fields are added.
 
-Every series has `source`, `method`, `status`, `columns`, `rows`, and `notes`. For example, `source` can be `Figure 3(b), open circles, alloy B`. Include a PDF page number there when needed to locate unnamed/ambiguous sources. Use different source descriptions for different panels/series.
+Every series has `source`, `method`, `status`, `columns`, `rows`, and `notes`. For example, `source` can be `Figure 3(b), open circles, alloy B`. Include a PDF page number there when needed to locate unnamed/ambiguous sources. Use different source descriptions for different panels/series. Keep `source` a concise locator, not a caption or contextual metadata container.
+
+Set `notes` to `""` unless explaining a `partial`/`none` status or flagging an extraction anomaly or unclear edge case requiring attention. Identify the affected source/row and issue. A `complete` series may still need such a warning, for example when the plot and prose disagree. Do not add captions, routine extraction details, contextual metadata, or summaries of successful checks. Preserve a clear point annotation in `label` rather than repeating it in notes.
 
 Columns contain `name` and optionally `default_unit` and `default_error_bar_type`. Names must be nonblank and distinct within a series. All rows have exactly the same length as `columns`; order supplies the mapping. Defaults live only on columns, never on series. Preserve compound unit labels such as `mV (SCE)` without splitting out a reference-electrode field.
 
 ## Cells
 
-A cell is a string, finite number, null, or numeric object. Booleans and nested arrays are not cells. Strings preserve text, categorical labels, `Bal.`, or unusual notation. No categorical/text/unidentified discriminator is needed. Use ordinary numbers whenever no bounds, error bars, or overrides are needed.
+A cell is a string, finite number, null, or numeric object. Booleans and nested arrays are not cells. Strings preserve text, categorical labels, `Bal.`, or unusual notation. No categorical/text/unidentified discriminator is needed. Use ordinary numbers whenever no bounds, error bars, overrides, or point annotations are needed.
 
 Numeric objects allow only:
 
@@ -22,23 +24,26 @@ Numeric objects allow only:
 | `plus_minus` | Nonnegative symmetric offset, requiring numeric `value` |
 | `plus_minus_unit` | Unit for the offset, requiring `plus_minus` |
 | `error_bar_type` | Override of the column's error-bar interpretation |
+| `label` | Nonblank source annotation attached to this numeric cell or plotted point |
 
 All object properties are optional individually, but at least one of `value`, `min`, or `max` is required. When present, those fields are numbers, never strings or null. An entire cell may be null. Omit absent optional fields rather than setting them to null.
 
-Do not combine `plus_minus` with either bound. Require `min <= max` when both exist and require a central value to lie within any supplied bounds. A unit-only or interpretation-only object is invalid. Inclusive/exclusive fields are not used: retain `>300` as a string or preserve the original qualifier in notes when encoding a one-sided bound.
+Do not combine `plus_minus` with either bound. Require `min <= max` when both exist and require a central value to lie within any supplied bounds. A unit-only, interpretation-only, or label-only object is invalid. Inclusive/exclusive fields are not used: retain `>300` as a string or encode `{"min": 300, "label": ">300"}` to preserve the source qualifier.
+
+Use `label` for special annotations attached to individual points, preserving the visible wording rather than generating a scientific interpretation. For example, `{"value": 0.92, "label": "Chromates Only"}` retains both the coordinate and its qualification. Attach a point-wide annotation once to the measured/dependent-value cell; attach a coordinate-specific annotation to that coordinate's cell. Do not copy series legends, captions, or surrounding contextual prose into labels. An annotation does not establish that the point represents the same physical event as unannotated points. If its attachment or reading remains ambiguous, explain that in notes and use `partial` when information remains unresolved. A numeric object still requires a numeric `value`, `min`, or `max`; when no numeric content is recoverable, use null with explanatory notes rather than inventing a number to carry a label.
 
 ## Units and uncertainty
 
 - A cell `unit` overrides its column `default_unit`; with neither, the unit is unspecified. All three of `value`, `min`, and `max` use this effective unit.
 - `plus_minus_unit` inherits the effective value unit unless explicitly present. An explicit `%` means relative percentage uncertainty, not percentage points. Thus `20 +/- 2 wt.%` uses `unit: "wt.%"` and no offset-unit override; `20 wt.% +/- 2% relative` uses `plus_minus_unit: "%"`. Preserve ambiguous notation as text rather than guessing.
 - Cell `error_bar_type` overrides the column default; with neither, interpretation is unknown. Explicit `unknown` overrides a known default. There is no further cascade.
-- Use categorical strings, not a separate confidence-level property. Initial labels: `stdev`, `stderr`, `minmax`, `confidence_interval_95`, `confidence_interval_90`, `unknown`. Other source-supported labels are permitted, e.g. `stdev_2`, `confidence_interval_99`, `tolerance`. Explain unusual categories once in notes. The schema intentionally accepts nonblank strings rather than imposing a closed enum.
-- `stdev` means one standard deviation. Preserve stated multipliers and confidence levels. Do not infer meaning from the shape or symmetry of the bars. Locate the explanation in captions, footnotes, or paper text and cite that location in notes when consequential.
+- Use categorical strings, not a separate confidence-level property. Initial categories: `stdev`, `stderr`, `minmax`, `confidence_interval_95`, `confidence_interval_90`, `unknown`. Other source-supported categories are permitted, e.g. `stdev_2`, `confidence_interval_99`, `tolerance`. Explain a category in notes only if an extraction ambiguity requires attention. The schema intentionally accepts nonblank strings rather than imposing a closed enum.
+- `stdev` means one standard deviation. Preserve stated multipliers and confidence levels. Do not infer meaning from the shape or symmetry of the bars. Locate the explanation in captions, footnotes, or paper text to select the category; do not copy that context into notes unless an extraction issue needs explanation.
 - Bounds are observed sample extrema only for a source-supported `minmax` interpretation. Otherwise they describe the stated interval. Error bars do not represent digitization confidence. If bounds have different units that cannot fit one cell faithfully, retain the original expression as text and explain.
 
 ## Methods and statuses
 
-`transcribed` means numbers are explicitly printed, including numerical annotations on a plot. `digitized` means coordinates or endpoints are visually estimated. Reading printed labels does not make a digitized series mixed. If central values are printed but endpoints are digitized, choose `digitized` and explain once in notes.
+`transcribed` means numbers are explicitly printed, including numerical annotations on a plot. `digitized` means coordinates or endpoints are visually estimated. Reading printed labels does not make a digitized series mixed. If central values are printed but endpoints are digitized, choose `digitized`; this alone does not require a note.
 
 | Status | Required content |
 | --- | --- |
@@ -67,7 +72,7 @@ Emit `none` only for a source actually identified and inspected. A paper with no
         {"name": "Fe", "default_unit": "wt.%"}
       ],
       "rows": [["A", 18, "Bal."], ["B", {"value": 120, "unit": "ppm"}, "Bal."]],
-      "notes": "Bal. is preserved as reported; no balance percentages calculated."
+      "notes": ""
     },
     {
       "source": "Figure 3(a), alloy A, circles",
@@ -82,7 +87,7 @@ Emit `none` only for a source actually identified and inspected. A paper with no
         [4, {"value": 350, "min": 325, "max": 375}],
         [6, null]
       ],
-      "notes": "Caption defines bars as 95% confidence intervals. The result at pH 6 is obscured."
+      "notes": "The result at pH 6 is obscured."
     }
   ]
 }
