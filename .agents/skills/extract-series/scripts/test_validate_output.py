@@ -16,7 +16,7 @@ def fixture(cell=300):
         "paper_name": "80_example.pdf", "reference_number": 80,
         "series": [{
             "source": "Figure 3(a), alloy B", "method": "digitized", "status": "complete",
-            "columns": [{"name": "pH"}, {"name": "Epit", "default_unit": "mV (SCE)",
+            "columns": [{"name": "pH", "is_target": False}, {"name": "Epit", "is_target": True, "default_unit": "mV (SCE)",
                                                 "default_error_bar_type": "confidence_interval_95"}],
             "rows": [[2, cell]], "notes": ""
         }]
@@ -47,6 +47,34 @@ class ContractTests(unittest.TestCase):
                 original = copy.deepcopy(doc)
                 self.assertEqual([], self.errors(doc))
                 self.assertEqual(original, doc)
+
+    def test_target_flags_required_and_boolean(self):
+        for index in (0, 1):
+            doc = fixture()
+            del doc["series"][0]["columns"][index]["is_target"]
+            self.assertTrue(self.errors(doc))
+            for invalid in (None, 0, 1, "true", "false", [], {}):
+                with self.subTest(index=index, invalid=invalid):
+                    doc = fixture()
+                    doc["series"][0]["columns"][index]["is_target"] = invalid
+                    self.assertTrue(self.errors(doc))
+
+    def test_multiple_targets_and_supporting_series(self):
+        doc = fixture()
+        series = doc["series"][0]
+        series["columns"] = [
+            {"name": "E_c^scan", "is_target": True},
+            {"name": "E_c^scr", "is_target": True},
+        ]
+        series["rows"] = [[300, 250]]
+        self.assertFalse(self.errors(doc))
+        series.update(source="Table 1, composition", method="transcribed")
+        series["columns"] = [
+            {"name": "Cr", "is_target": False},
+            {"name": "Fe", "is_target": False},
+        ]
+        series["rows"] = [[18, "Bal."]]
+        self.assertFalse(self.errors(doc))
 
     def test_invalid_cells(self):
         cells = [True, [], {}, {"unit": "ppm"}, {"value": "300"}, {"value": None},

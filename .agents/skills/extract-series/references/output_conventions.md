@@ -8,7 +8,17 @@ Every series has `source`, `method`, `status`, `columns`, `rows`, and `notes`. F
 
 Set `notes` to `""` unless explaining a `partial`/`none` status or flagging an extraction anomaly or unclear edge case requiring attention. Identify the affected source/row and issue. A `complete` series may still need such a warning, for example when the plot and prose disagree. Do not add captions, routine extraction details, contextual metadata, or summaries of successful checks. Preserve a clear point annotation in `label` rather than repeating it in notes.
 
-Columns contain `name` and optionally `default_unit` and `default_error_bar_type`. Names must be nonblank and distinct within a series. All rows have exactly the same length as `columns`; order supplies the mapping. Defaults live only on columns, never on series. Preserve compound unit labels such as `mV (SCE)` without splitting out a reference-electrode field.
+Columns contain required `name` and boolean `is_target`, and optionally `default_unit` and `default_error_bar_type`. Names must be nonblank and distinct within a series. All rows have exactly the same length as `columns`; order supplies the mapping. Defaults live only on columns, never on series. Preserve compound unit labels such as `mV (SCE)` without splitting out a reference-electrode field.
+
+## Target identification
+
+Set `is_target: true` on every column representing pitting potential, as established by the visible labels and the paper's definitions. This includes equivalent notation such as `Epit`, `Ep`, or `E_c^scr` when the paper identifies it as pitting potential; do not classify by column name or voltage units alone. Corrosion potential, repassivation/protection potential, and applied test potential are not pitting-potential targets.
+
+Multiple target columns are allowed: for example, separately reported scan and scratch pitting potentials are both targets. Mark all other columns `false`, including identifiers, composition, temperature, and other coordinates. Supporting composition tables have all columns `false`; do not require exactly one target per series. The flag describes the column's quantity, not whether each cell is usable for training: missing values, bounds, annotations, and source-reported interpolated values retain their existing representation and qualification.
+
+If the paper does not resolve whether a column represents pitting potential, set `is_target: false` provisionally, mark the series `partial` (or `none` when no rows are recoverable), and explain the unresolved column in `notes`. Do not silently treat an ambiguous potential as a confirmed target.
+
+The validator enforces the required boolean, not the scientific classification. Existing extraction files without `is_target` must have their columns reviewed and annotated before they pass the updated schema.
 
 ## Cells
 
@@ -67,9 +77,9 @@ Emit `none` only for a source actually identified and inspected. A paper with no
       "method": "transcribed",
       "status": "complete",
       "columns": [
-        {"name": "Sample"},
-        {"name": "Cr", "default_unit": "wt.%"},
-        {"name": "Fe", "default_unit": "wt.%"}
+        {"name": "Sample", "is_target": false},
+        {"name": "Cr", "is_target": false, "default_unit": "wt.%"},
+        {"name": "Fe", "is_target": false, "default_unit": "wt.%"}
       ],
       "rows": [["A", 18, "Bal."], ["B", {"value": 120, "unit": "ppm"}, "Bal."]],
       "notes": ""
@@ -79,8 +89,8 @@ Emit `none` only for a source actually identified and inspected. A paper with no
       "method": "digitized",
       "status": "partial",
       "columns": [
-        {"name": "pH"},
-        {"name": "Epit", "default_unit": "mV (SCE)", "default_error_bar_type": "confidence_interval_95"}
+        {"name": "pH", "is_target": false},
+        {"name": "Epit", "is_target": true, "default_unit": "mV (SCE)", "default_error_bar_type": "confidence_interval_95"}
       ],
       "rows": [
         [2, {"value": 300, "min": 280, "max": 320}],

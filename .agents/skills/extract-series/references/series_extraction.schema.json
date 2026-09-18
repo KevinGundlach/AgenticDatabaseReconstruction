@@ -16,9 +16,10 @@
     "column": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["name"],
+      "required": ["name", "is_target"],
       "properties": {
         "name": {"$ref": "#/$defs/nonblank"},
+        "is_target": {"type": "boolean", "description": "True when this column represents pitting potential; false for all other columns."},
         "default_unit": {"$ref": "#/$defs/nonblank"},
         "default_error_bar_type": {"$ref": "#/$defs/nonblank"}
       }
