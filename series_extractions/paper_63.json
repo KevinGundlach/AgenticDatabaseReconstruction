@@ -1,0 +1,77 @@
+{
+  "paper_name": "63_Lu, Y. C., C. R. Clayton, and A. R. Brooks. Corrosion science 29.7 (1989)_ 863-880.pdf",
+  "reference_number": 63,
+  "series": [
+    {
+      "source": "Table 2 (PDF page 5)",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Solution",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV (SCE)"
+        },
+        {
+          "name": "Epp",
+          "is_target": false,
+          "default_unit": "mV (SCE)"
+        },
+        {
+          "name": "Icrit",
+          "is_target": false,
+          "default_unit": "µA cm^-2"
+        },
+        {
+          "name": "Ipassive",
+          "is_target": false,
+          "default_unit": "µA cm^-2"
+        },
+        {
+          "name": "Etrans",
+          "is_target": false,
+          "default_unit": "mV (SCE)"
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "mV (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          "0.3 M NaCl (pH 5.4)",
+          -792,
+          -705,
+          6.4,
+          3.7,
+          "—",
+          -50
+        ],
+        [
+          "0.3 M NaCl (pH 9.0)",
+          -843,
+          -775,
+          7.2,
+          3.3,
+          "—",
+          525
+        ],
+        [
+          "0.3 M NaCl + 0.16 M Na2MoO4 (pH 9.0)",
+          -863,
+          "—",
+          5.7,
+          2.3,
+          838,
+          "—"
+        ]
+      ],
+      "notes": ""
+    }
+  ]
+}

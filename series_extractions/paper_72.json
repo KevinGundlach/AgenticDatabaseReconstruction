@@ -1,0 +1,227 @@
+{
+  "paper_name": "72_Wilde, B. E. Corrosion 42.3 (1986)_ 147-151.pdf",
+  "reference_number": 72,
+  "series": [
+    {
+      "source": "Table 2 (PDF page 2)",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Alloy designation",
+          "is_target": false
+        },
+        {
+          "name": "Silicon content",
+          "is_target": false,
+          "default_unit": "wt%"
+        },
+        {
+          "name": "δ-Ferrite content",
+          "is_target": false,
+          "default_unit": "%"
+        },
+        {
+          "name": "Ec",
+          "is_target": true,
+          "default_unit": "V_SCE"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          1.01,
+          "<1.0",
+          0.22
+        ],
+        [
+          2,
+          1.95,
+          "<1.0",
+          0.275
+        ],
+        [
+          3,
+          2.85,
+          1.7,
+          0.31
+        ],
+        [
+          4,
+          3.73,
+          7.5,
+          0.37
+        ],
+        [
+          5,
+          4.45,
+          17,
+          0.99
+        ],
+        [
+          "AISI 304",
+          0.41,
+          0,
+          0.065
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Table 3 (PDF page 4)",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Alloy designation",
+          "is_target": false
+        },
+        {
+          "name": "Silicon content",
+          "is_target": false,
+          "default_unit": "wt%"
+        },
+        {
+          "name": "δ-Ferrite content",
+          "is_target": false,
+          "default_unit": "%"
+        },
+        {
+          "name": "Ec",
+          "is_target": true,
+          "default_unit": "V_SCE"
+        },
+        {
+          "name": "Ep",
+          "is_target": false,
+          "default_unit": "V_SCE"
+        },
+        {
+          "name": "Ec − Ep",
+          "is_target": false,
+          "default_unit": "V"
+        }
+      ],
+      "rows": [
+        [
+          1,
+          1.01,
+          "<1.0",
+          0.22,
+          -0.03,
+          0.25
+        ],
+        [
+          2,
+          1.95,
+          "<1.0",
+          0.275,
+          -0.01,
+          0.285
+        ],
+        [
+          3,
+          2.85,
+          1.7,
+          0.31,
+          0.1,
+          0.21
+        ],
+        [
+          4,
+          3.73,
+          7.5,
+          0.37,
+          "—",
+          "—"
+        ],
+        [
+          5,
+          4.45,
+          17,
+          0.99,
+          0.03,
+          0.96
+        ],
+        [
+          "AISI 304",
+          0.41,
+          0,
+          0.065,
+          -0.11,
+          0.175
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 4, open circles",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Weight loss",
+          "is_target": false,
+          "default_unit": "mg/cm²"
+        },
+        {
+          "name": "Ec − Ep",
+          "is_target": false,
+          "default_unit": "mV"
+        }
+      ],
+      "rows": [
+        [
+          0,
+          {
+            "value": 0,
+            "label": "HASTELLOY C"
+          }
+        ],
+        [
+          9.2,
+          {
+            "value": 80,
+            "label": "316"
+          }
+        ],
+        [
+          11.1,
+          {
+            "value": 110,
+            "label": "304"
+          }
+        ],
+        [
+          17.2,
+          {
+            "value": 140,
+            "label": "446"
+          }
+        ],
+        [
+          18.7,
+          {
+            "value": 160,
+            "label": "430"
+          }
+        ],
+        [
+          26.2,
+          {
+            "value": 190,
+            "label": "USS 100"
+          }
+        ],
+        [
+          27.6,
+          {
+            "value": 220,
+            "label": "410"
+          }
+        ]
+      ],
+      "notes": ""
+    }
+  ]
+}

@@ -1,0 +1,311 @@
+{
+  "paper_name": "67_Kim, J. G., and R. A. Buchanan. Corrosion 50.9 (1994)_ 658-668.pdf",
+  "reference_number": 67,
+  "series": [
+    {
+      "source": "Table 3 (PDF page 5)",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Material",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ep",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ep − Ecorr",
+          "is_target": false,
+          "default_unit": "mV"
+        }
+      ],
+      "rows": [
+        [
+          "2% Cr",
+          -50,
+          420,
+          -250,
+          -200
+        ],
+        [
+          "2% Cr-1% Mo",
+          20,
+          450,
+          30,
+          10
+        ],
+        [
+          "2% Cr-2% Mo",
+          130,
+          500,
+          150,
+          20
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Table 4 (PDF page 5)",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Material",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ep",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ep − Ecorr",
+          "is_target": false,
+          "default_unit": "mV"
+        }
+      ],
+      "rows": [
+        [
+          "4% Cr-0.5% Mo",
+          70,
+          480,
+          -150,
+          -220
+        ],
+        [
+          "4% Cr-1.0% Mo",
+          50,
+          540,
+          20,
+          -30
+        ],
+        [
+          "4% Cr-2.0% Mo",
+          160,
+          580,
+          250,
+          90
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 4, open triangles",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Cr Content",
+          "is_target": false,
+          "default_unit": "at%"
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "mV_SHE"
+        }
+      ],
+      "rows": [
+        [
+          0,
+          330
+        ],
+        [
+          2,
+          420
+        ],
+        [
+          4,
+          520
+        ],
+        [
+          6,
+          620
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 7, Eb, open triangles",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Mo Content",
+          "is_target": false,
+          "default_unit": "at%"
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "mV_SHE"
+        }
+      ],
+      "rows": [
+        [
+          0,
+          480
+        ],
+        [
+          0.5,
+          480
+        ],
+        [
+          1,
+          540
+        ],
+        [
+          2,
+          560
+        ]
+      ],
+      "notes": "Figure 7 shows Eb about 560 mV at 2 at% Mo, versus 580 mV in Table 4. Its 0 at% Mo point is about 480 mV, versus about 520 mV at 4 at% Cr in Figure 4."
+    },
+    {
+      "source": "Figure 7, Ep, open circles",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Mo Content",
+          "is_target": false,
+          "default_unit": "at%"
+        },
+        {
+          "name": "Ep",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        }
+      ],
+      "rows": [
+        [
+          0,
+          -310
+        ],
+        [
+          0.5,
+          -140
+        ],
+        [
+          1,
+          40
+        ],
+        [
+          2,
+          260
+        ]
+      ],
+      "notes": "Figure 7 plots Ep approximately -140, 40, and 260 mV at 0.5, 1, and 2 at% Mo; Table 4 prints -150, 20, and 250 mV. Values retained separately."
+    },
+    {
+      "source": "Table 7 (PDF page 10)",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Material",
+          "is_target": false
+        },
+        {
+          "name": "Eb, crevice",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Eb, noncrevice",
+          "is_target": true,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ep, crevice",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ep, noncrevice",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ecorr, crevice",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ecorr, noncrevice",
+          "is_target": false,
+          "default_unit": "mV_SHE"
+        },
+        {
+          "name": "Ep − Ecorr, crevice",
+          "is_target": false,
+          "default_unit": "mV"
+        },
+        {
+          "name": "Ep − Ecorr, noncrevice",
+          "is_target": false,
+          "default_unit": "mV"
+        }
+      ],
+      "rows": [
+        [
+          "FA-84",
+          420,
+          420,
+          -289,
+          -115,
+          20,
+          -70,
+          -309,
+          -45
+        ],
+        [
+          "FAL-Mo",
+          460,
+          540,
+          30,
+          139,
+          15,
+          80,
+          15,
+          59
+        ],
+        [
+          "Type 304L SS",
+          600,
+          620,
+          214,
+          240,
+          214,
+          200,
+          0,
+          40
+        ]
+      ],
+      "notes": ""
+    }
+  ]
+}

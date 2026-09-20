@@ -1,0 +1,115 @@
+{
+  "paper_name": "46_B. E. Wilde , E. Williams , J. Electrochem. Soc. 117 (1970)_ p. 775.pdf",
+  "reference_number": 46,
+  "series": [
+    {
+      "source": "Table II",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Gas",
+          "is_target": false
+        },
+        {
+          "name": "Ec, Type 430 stainless steel",
+          "is_target": true,
+          "default_unit": "V SCE"
+        },
+        {
+          "name": "Ec, Type 304 stainless steel",
+          "is_target": true,
+          "default_unit": "V SCE"
+        }
+      ],
+      "rows": [
+        [
+          "Hydrogen",
+          -0.185,
+          -0.05
+        ],
+        [
+          "Nitrogen",
+          -0.13,
+          -0.02
+        ],
+        [
+          "Argon",
+          -0.1,
+          0.05
+        ],
+        [
+          "Oxygen",
+          -0.035,
+          0.065
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Table III",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Alloy designation",
+          "is_target": false
+        },
+        {
+          "name": "Ec (in 1M NaCl + N2)",
+          "is_target": true,
+          "default_unit": "V SCE"
+        },
+        {
+          "name": "Corrosion potential during test, maximum",
+          "is_target": false,
+          "default_unit": "V SCE"
+        },
+        {
+          "name": "Corrosion potential during test, minimum",
+          "is_target": false,
+          "default_unit": "V SCE"
+        }
+      ],
+      "rows": [
+        [
+          "Type 430 stainless steel",
+          -0.13,
+          0.23,
+          -0.31
+        ],
+        [
+          "Type 304 stainless steel",
+          -0.02,
+          0.28,
+          -0.14
+        ],
+        [
+          "Type 316 stainless steel",
+          0.1,
+          0.385,
+          0.09
+        ],
+        [
+          "Carpenter 20 Cb",
+          0.5,
+          0.52,
+          0.12
+        ],
+        [
+          "Incoloy 825",
+          0.525,
+          0.53,
+          0.18
+        ],
+        [
+          "Hastelloy C",
+          ">0.900",
+          0.53,
+          0.53
+        ]
+      ],
+      "notes": ""
+    }
+  ]
+}

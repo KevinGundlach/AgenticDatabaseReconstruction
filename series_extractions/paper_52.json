@@ -1,0 +1,405 @@
+{
+  "paper_name": "52_J. E. Dowling, Y. H. Kim, S. K. Ahn, Y. D. Lee, Corrosion 55 (1999)_ p. 187.pdf",
+  "reference_number": 52,
+  "series": [
+    {
+      "source": "Table 2 (PDF p. 3)",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Heat",
+          "is_target": false
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        },
+        {
+          "name": "OCP",
+          "is_target": false,
+          "default_unit": "V (SCE)"
+        },
+        {
+          "name": "Er",
+          "is_target": false,
+          "default_unit": "V (SCE)"
+        },
+        {
+          "name": "Icorr",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        }
+      ],
+      "rows": [
+        [
+          "F18-2Nb",
+          0.439,
+          -0.281,
+          0.196,
+          8.12e-08
+        ],
+        [
+          "F19-0Nb",
+          0.31,
+          -0.184,
+          -0.128,
+          8.4e-09
+        ],
+        [
+          "F19-1Nb",
+          0.366,
+          -0.184,
+          0.253,
+          9.3e-09
+        ],
+        [
+          "F19-3Nb",
+          0.543,
+          -0.17,
+          0.113,
+          1.93e-08
+        ],
+        [
+          "F22-1Nb",
+          0.465,
+          -0.203,
+          0.222,
+          1.01e-08
+        ],
+        [
+          "F24-0Nb",
+          0.438,
+          -0.156,
+          0.225,
+          1.23e-08
+        ],
+        [
+          "F19-2Nb",
+          0.437,
+          -0.28,
+          0.193,
+          4.17e-08
+        ],
+        [
+          "F19-2CuNb",
+          0.451,
+          -0.171,
+          0.067,
+          8.1e-09
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 3 (PDF p. 4)",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Molybdenum Concentration",
+          "is_target": false,
+          "default_unit": "%"
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          0,
+          0.31
+        ],
+        [
+          1,
+          0.367
+        ],
+        [
+          2,
+          0.437
+        ],
+        [
+          3,
+          0.542
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 8 (PDF p. 8)",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "No. of Inclusions",
+          "is_target": false,
+          "default_unit": "/mm²"
+        },
+        {
+          "name": "Al",
+          "is_target": false,
+          "default_unit": "ppm"
+        },
+        {
+          "name": "n",
+          "is_target": false
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          19,
+          1350,
+          5,
+          {
+            "value": 0.5,
+            "min": 0.42,
+            "max": 0.58
+          }
+        ],
+        [
+          65,
+          56,
+          3,
+          {
+            "value": 0.45,
+            "min": 0.414,
+            "max": 0.485
+          }
+        ],
+        [
+          165,
+          0,
+          5,
+          {
+            "value": 0.407,
+            "min": 0.342,
+            "max": 0.471
+          }
+        ],
+        [
+          420,
+          0,
+          5,
+          {
+            "value": 0.358,
+            "min": 0.305,
+            "max": 0.41
+          }
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 17, base metal specimens (PDF p. 11)",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "PREN (%Cr + 2.5% Mo)",
+          "is_target": false
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          19.2,
+          0.31
+        ],
+        [
+          21.3,
+          0.365
+        ],
+        [
+          23.1,
+          0.44
+        ],
+        [
+          24.1,
+          0.45
+        ],
+        [
+          24.4,
+          0.465
+        ],
+        [
+          26.6,
+          0.545
+        ]
+      ],
+      "notes": "The captioned n = 8 exceeds the six distinguishable filled-marker centers. Base-metal points near PREN 24 overlap each other and open welded markers; obscured replicates are not invented."
+    },
+    {
+      "source": "Figure 17, welded specimens (PDF p. 11)",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "PREN (%Cr + 2.5% Mo)",
+          "is_target": false
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          19.2,
+          0.283
+        ],
+        [
+          21.3,
+          0.247
+        ],
+        [
+          23.1,
+          0.36
+        ],
+        [
+          24.0,
+          0.405
+        ],
+        [
+          24.0,
+          0.333
+        ],
+        [
+          24.1,
+          0.24
+        ],
+        [
+          24.0,
+          0.438
+        ],
+        [
+          24.1,
+          0.431
+        ],
+        [
+          26.6,
+          0.413
+        ]
+      ],
+      "notes": "Overlapping open circles near PREN 24 and Eb 0.43–0.44 V limit exact coordinates and replicate counts. Distinguishable centers are retained."
+    },
+    {
+      "source": "Figure 18, experimental data (PDF p. 12)",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "PREN (%Cr + 2.5% Mo)",
+          "is_target": false
+        },
+        {
+          "name": "Eb",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          19.2,
+          0.31
+        ],
+        [
+          21.3,
+          0.368
+        ],
+        [
+          23.1,
+          0.438
+        ],
+        [
+          24.0,
+          0.437
+        ],
+        [
+          24.1,
+          0.451
+        ],
+        [
+          24.4,
+          0.465
+        ],
+        [
+          26.6,
+          0.545
+        ],
+        [
+          28.3,
+          0.625
+        ]
+      ],
+      "notes": "Closely spaced open circles near PREN 24 have approximate coordinates and assignments."
+    },
+    {
+      "source": "Figure 18, calculated values, filled circles (PDF p. 12)",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "PREN (%Cr + 2.5% Mo)",
+          "is_target": false
+        },
+        {
+          "name": "Calculated Eb",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          19.2,
+          0.1
+        ],
+        [
+          21.3,
+          0.29
+        ],
+        [
+          23.1,
+          0.52
+        ],
+        [
+          24.0,
+          0.22
+        ],
+        [
+          24.1,
+          0.52
+        ],
+        [
+          24.1,
+          0.53
+        ],
+        [
+          24.4,
+          0.39
+        ],
+        [
+          26.6,
+          0.77
+        ],
+        [
+          28.2,
+          0.67
+        ]
+      ],
+      "notes": "Two nearly coincident filled centers near PREN 24 and 0.52–0.53 V are only approximately separable. The dotted calculated envelope and continuous average line are not discrete uncertainty bars and were not sampled."
+    }
+  ]
+}

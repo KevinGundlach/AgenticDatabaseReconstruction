@@ -1,0 +1,253 @@
+{
+  "paper_name": "55_M.E. Goldman, N. Ünlü, G.J. Shiflet, J.R. Scully, Electrochemical and Solid-State Letters, 8 (2005) B1-B5.pdf",
+  "reference_number": 55,
+  "series": [
+    {
+      "source": "Table 2 (PDF p. 9)",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Material",
+          "is_target": false
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        },
+        {
+          "name": "Erp",
+          "is_target": false,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          "Pure Aluminum (polycrystalline)",
+          {
+            "value": -0.701,
+            "plus_minus": 0.016
+          },
+          {
+            "value": -0.736,
+            "plus_minus": 0.001
+          }
+        ],
+        [
+          "Al90Co7Ce3 (amorphous)",
+          {
+            "value": -0.214,
+            "plus_minus": 0.02
+          },
+          {
+            "value": -0.307,
+            "plus_minus": 0.008
+          }
+        ],
+        [
+          "Al87Co8.7Ce4.3 (amorphous)",
+          {
+            "value": -0.218,
+            "plus_minus": 0.028
+          },
+          {
+            "value": -0.346,
+            "plus_minus": 0.017
+          }
+        ],
+        [
+          "Al87Co7Ce6 (amorphous)",
+          {
+            "value": -0.252,
+            "plus_minus": 0.026
+          },
+          {
+            "value": -0.317,
+            "plus_minus": 0.016
+          }
+        ],
+        [
+          "Al87Co7Ce6 (fully crystalline)",
+          {
+            "value": -0.674,
+            "plus_minus": 0.055
+          },
+          {
+            "value": -0.742,
+            "plus_minus": 0.015
+          }
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 8, average Epit (PDF p. 11)",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Hours at 100°C",
+          "is_target": false,
+          "default_unit": "h"
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          0,
+          {
+            "value": -0.252,
+            "min": -0.276,
+            "max": -0.229
+          }
+        ],
+        [
+          1,
+          {
+            "value": -0.248,
+            "min": -0.267,
+            "max": -0.23
+          }
+        ],
+        [
+          10,
+          {
+            "value": -0.213,
+            "min": -0.252,
+            "max": -0.173
+          }
+        ],
+        [
+          100,
+          {
+            "value": -0.115,
+            "min": -0.195,
+            "max": -0.03
+          }
+        ],
+        [
+          1000,
+          {
+            "value": -0.166,
+            "min": -0.29,
+            "max": -0.043
+          }
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 8, average OCP (PDF p. 11)",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Hours at 100°C",
+          "is_target": false,
+          "default_unit": "h"
+        },
+        {
+          "name": "OCP",
+          "is_target": false,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          0,
+          {
+            "value": -0.77,
+            "min": -0.905,
+            "max": -0.64
+          }
+        ],
+        [
+          1,
+          {
+            "value": -0.675,
+            "min": -0.765,
+            "max": -0.586
+          }
+        ],
+        [
+          10,
+          {
+            "value": -0.732,
+            "min": -0.8,
+            "max": -0.665
+          }
+        ],
+        [
+          100,
+          {
+            "value": -0.694,
+            "min": -0.759,
+            "max": -0.628
+          }
+        ],
+        [
+          1000,
+          {
+            "value": -0.825,
+            "min": -0.9,
+            "max": -0.752
+          }
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 8, average Erp (PDF p. 11)",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Hours at 100°C",
+          "is_target": false,
+          "default_unit": "h"
+        },
+        {
+          "name": "Erp",
+          "is_target": false,
+          "default_unit": "V (SCE)"
+        }
+      ],
+      "rows": [
+        [
+          0,
+          {
+            "value": -0.32,
+            "min": -0.34,
+            "max": -0.3
+          }
+        ],
+        [
+          1,
+          -0.32
+        ],
+        [
+          10,
+          -0.31
+        ],
+        [
+          100,
+          {
+            "value": -0.302,
+            "min": -0.322,
+            "max": -0.282
+          }
+        ],
+        [
+          1000,
+          -0.338
+        ]
+      ],
+      "notes": "At 1, 10 and 1000 h, interval endpoints cannot be separated reliably from the square markers; central values are retained."
+    }
+  ]
+}
