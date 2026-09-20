@@ -1,0 +1,304 @@
+{
+  "paper_name": "26_C.P. Lee, C.C. Chang, Y.Y. Chen, J.W. Yeh, and H.C. Shih. Corrosion Science, 50 (2008) 2053-2060.pdf",
+  "reference_number": 26,
+  "series": [
+    {
+      "source": "Table 3, CrFe1.5MnNi0.5, chloride-free",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Solution",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "icorr",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "ipass",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "Epit",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "ΔE",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        }
+      ],
+      "rows": [
+        [
+          "0.5 M H2SO4",
+          -221,
+          0.000686,
+          3.14e-05,
+          1172,
+          1218
+        ]
+      ],
+      "notes": "The chloride-free Epit label accompanies transpassive breakdown discussed in Section 3.1; retained as a non-target companion."
+    },
+    {
+      "source": "Table 3, CrFe1.5MnNi0.5, 0.10 M NaCl",
+      "method": "transcribed",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Solution",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "icorr",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "ipass",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "Epit",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "ΔE",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        }
+      ],
+      "rows": [
+        [
+          "0.5 M H2SO4 + 0.10 M NaCl",
+          -242,
+          0.00206,
+          7.09e-05,
+          1180,
+          1150
+        ]
+      ],
+      "notes": "The high Epit value is near the transpassive region. The paper does not unambiguously separate pitting from transpassive breakdown for this row; is_target is provisionally false."
+    },
+    {
+      "source": "Table 3, CrFe1.5MnNi0.5, 0.25–0.50 M NaCl",
+      "method": "transcribed",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Solution",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "icorr",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "ipass",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "Epit",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "ΔE",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        }
+      ],
+      "rows": [
+        [
+          "0.5 M H2SO4 + 0.25 M NaCl",
+          -238,
+          0.0046,
+          0.00475,
+          589,
+          495
+        ],
+        [
+          "0.5 M H2SO4 + 0.50 M NaCl",
+          -240,
+          0.00975,
+          0.00578,
+          475,
+          352
+        ]
+      ],
+      "notes": "Section 3.4 describes pits and calls these Epit values pitting potentials, while Section 3.2 and the conclusions state that the Al-free alloy is not susceptible to localized corrosion. The conflicting interpretation remains unresolved; is_target is provisionally false."
+    },
+    {
+      "source": "Table 3, Al0.3CrFe1.5MnNi0.5, chloride-free",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Solution",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "icorr",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "ipass",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "Epit",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "ΔE",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        }
+      ],
+      "rows": [
+        [
+          "0.5 M H2SO4",
+          -194,
+          0.00239,
+          7.39e-05,
+          1164,
+          1176
+        ]
+      ],
+      "notes": "The chloride-free Epit label accompanies transpassive breakdown discussed in Section 3.1; retained as a non-target companion."
+    },
+    {
+      "source": "Table 3, Al0.3CrFe1.5MnNi0.5, 0.10 M NaCl",
+      "method": "transcribed",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Solution",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "icorr",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "ipass",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "Epit",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "ΔE",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        }
+      ],
+      "rows": [
+        [
+          "0.5 M H2SO4 + 0.10 M NaCl",
+          -219,
+          0.00248,
+          0.000121,
+          1156,
+          1127
+        ]
+      ],
+      "notes": "The high Epit value is near the transpassive region. The paper does not unambiguously separate pitting from transpassive breakdown for this row; is_target is provisionally false."
+    },
+    {
+      "source": "Table 3, Al0.3CrFe1.5MnNi0.5, 0.25–0.50 M NaCl",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Solution",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "icorr",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "ipass",
+          "is_target": false,
+          "default_unit": "A/cm²"
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "mV SHE"
+        },
+        {
+          "name": "ΔE",
+          "is_target": false,
+          "default_unit": "mV SHE"
+        }
+      ],
+      "rows": [
+        [
+          "0.5 M H2SO4 + 0.25 M NaCl",
+          -231,
+          0.00605,
+          0.00178,
+          250,
+          "–ᵃ"
+        ],
+        [
+          "0.5 M H2SO4 + 0.50 M NaCl",
+          -250,
+          0.0104,
+          0.0395,
+          257,
+          "–ᵃ"
+        ]
+      ],
+      "notes": ""
+    }
+  ]
+}

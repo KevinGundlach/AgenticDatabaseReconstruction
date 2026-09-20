@@ -1,0 +1,205 @@
+{
+  "paper_name": "23_Yih-Farn Kao, Tsung-Dar Lee, Swe-Kai Chen, and Yee-Shyi Chang. Corrosion Science, 52 (2010), 1026-1034.pdf",
+  "reference_number": 23,
+  "series": [
+    {
+      "source": "Figure 10, 0 M Cl⁻ bars",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Alloy",
+          "is_target": false
+        },
+        {
+          "name": "Epit",
+          "is_target": false,
+          "default_unit": "V vs. SHE"
+        }
+      ],
+      "rows": [
+        [
+          "C-0",
+          1.11
+        ],
+        [
+          "C-0.25",
+          1.1
+        ],
+        [
+          "C-0.50",
+          1.12
+        ],
+        [
+          "C-1.00",
+          1.12
+        ],
+        [
+          "304SS",
+          1.12
+        ]
+      ],
+      "notes": "The chloride-free bars are labeled Epit, but the paper describes transpassive behavior in sulfuric acid; these are retained as non-target companion values."
+    },
+    {
+      "source": "Figure 10, C-0, chloride-containing bars",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Cl⁻",
+          "is_target": false,
+          "default_unit": "M"
+        },
+        {
+          "name": "Epit",
+          "is_target": false,
+          "default_unit": "V vs. SHE"
+        }
+      ],
+      "rows": [
+        [
+          0.25,
+          1.12
+        ],
+        [
+          0.5,
+          1.11
+        ],
+        [
+          1,
+          1.13
+        ]
+      ],
+      "notes": "Section 3.4 identifies C-0 passive-layer deterioration as oxygen evolution, despite the Epit axis label; is_target is false."
+    },
+    {
+      "source": "Figure 10, C-0.25, chloride-containing bars",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Cl⁻",
+          "is_target": false,
+          "default_unit": "M"
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "V vs. SHE"
+        }
+      ],
+      "rows": [
+        [
+          0.25,
+          1.12
+        ],
+        [
+          0.5,
+          0.44
+        ],
+        [
+          1,
+          0.24
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 10, C-0.50, chloride-containing bars",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Cl⁻",
+          "is_target": false,
+          "default_unit": "M"
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "V vs. SHE"
+        }
+      ],
+      "rows": [
+        [
+          0.25,
+          0.57
+        ],
+        [
+          0.5,
+          0.46
+        ],
+        [
+          1,
+          0.32
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 10, C-1.00, chloride-containing bars",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Cl⁻",
+          "is_target": false,
+          "default_unit": "M"
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "V vs. SHE"
+        }
+      ],
+      "rows": [
+        [
+          0.25,
+          0.4
+        ],
+        [
+          0.5,
+          0.33
+        ],
+        [
+          1,
+          0.24
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 10, 304SS, chloride-containing bars",
+      "method": "digitized",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Cl⁻",
+          "is_target": false,
+          "default_unit": "M"
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "V vs. SHE"
+        }
+      ],
+      "rows": [
+        [
+          0.25,
+          1.16
+        ],
+        [
+          0.5,
+          0.55
+        ],
+        [
+          1,
+          0.25
+        ]
+      ],
+      "notes": ""
+    }
+  ]
+}

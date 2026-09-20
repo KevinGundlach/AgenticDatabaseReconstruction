@@ -1,0 +1,327 @@
+{
+  "paper_name": "28_Shi, Y., et al. (2018). Corrosion Science 133_ 120-131.pdf",
+  "reference_number": 28,
+  "series": [
+    {
+      "source": "Table 3",
+      "method": "transcribed",
+      "status": "complete",
+      "columns": [
+        {
+          "name": "Alloy",
+          "is_target": false
+        },
+        {
+          "name": "Condition",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV SCE",
+          "default_error_bar_type": "stdev"
+        },
+        {
+          "name": "Icorr",
+          "is_target": false,
+          "default_unit": "µA/cm²",
+          "default_error_bar_type": "stdev"
+        },
+        {
+          "name": "Ep",
+          "is_target": true,
+          "default_unit": "mV SCE",
+          "default_error_bar_type": "stdev"
+        },
+        {
+          "name": "Ipass",
+          "is_target": false,
+          "default_unit": "µA/cm²",
+          "default_error_bar_type": "stdev"
+        }
+      ],
+      "rows": [
+        [
+          "Al0.3CoCrFeNi",
+          "As-forged",
+          {
+            "value": -189,
+            "plus_minus": 10
+          },
+          {
+            "value": 0.0632,
+            "plus_minus": 0.0275
+          },
+          {
+            "value": 522,
+            "plus_minus": 18
+          },
+          {
+            "value": 1.43,
+            "plus_minus": 0.12
+          }
+        ],
+        [
+          "Al0.5CoCrFeNi",
+          "As-forged",
+          {
+            "value": -261,
+            "plus_minus": 8
+          },
+          {
+            "value": 0.187,
+            "plus_minus": 0.046
+          },
+          {
+            "value": 316,
+            "plus_minus": 32
+          },
+          {
+            "value": 2.13,
+            "plus_minus": 0.34
+          }
+        ],
+        [
+          "Al0.7CoCrFeNi",
+          "As-forged",
+          {
+            "value": -292,
+            "plus_minus": 8
+          },
+          {
+            "value": 0.392,
+            "plus_minus": 0.054
+          },
+          {
+            "value": 118,
+            "plus_minus": 12
+          },
+          {
+            "value": 3.76,
+            "plus_minus": 0.24
+          }
+        ],
+        [
+          "Al0.3CoCrFeNi",
+          "As-equilibrated",
+          {
+            "value": -180,
+            "plus_minus": 12
+          },
+          {
+            "value": 0.0289,
+            "plus_minus": 0.0066
+          },
+          {
+            "value": 808,
+            "plus_minus": 16
+          },
+          {
+            "value": 0.81,
+            "plus_minus": 0.09
+          }
+        ],
+        [
+          "Al0.5CoCrFeNi",
+          "As-equilibrated",
+          {
+            "value": -228,
+            "plus_minus": 11
+          },
+          {
+            "value": 0.0714,
+            "plus_minus": 0.0286
+          },
+          {
+            "value": 496,
+            "plus_minus": 38
+          },
+          {
+            "value": 1.24,
+            "plus_minus": 0.12
+          }
+        ],
+        [
+          "Al0.7CoCrFeNi",
+          "As-equilibrated",
+          {
+            "value": -258,
+            "plus_minus": 8
+          },
+          {
+            "value": 0.267,
+            "plus_minus": 0.052
+          },
+          {
+            "value": 256,
+            "plus_minus": 10
+          },
+          {
+            "value": 2.03,
+            "plus_minus": 0.28
+          }
+        ]
+      ],
+      "notes": ""
+    },
+    {
+      "source": "Figure 11, AlxCoCrFeNi HEAs",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Ep",
+          "is_target": true,
+          "default_unit": "V vs. SCE"
+        },
+        {
+          "name": "Icorr",
+          "is_target": false,
+          "default_unit": "µA/cm²"
+        }
+      ],
+      "rows": [
+        [
+          0.06,
+          0.44
+        ],
+        [
+          0.82,
+          0.03
+        ]
+      ],
+      "notes": "Dense hatching and overlapping symbols obscure several markers and prevent reliable coordinates and a total count. Only two isolated marker locations are retained. The left marker is approximately 0.06 V and 0.44 µA/cm², which does not match a Table 3 row; plot and table values are retained independently."
+    },
+    {
+      "source": "Figure 11, Stainless steels",
+      "method": "digitized",
+      "status": "none",
+      "columns": [
+        {
+          "name": "Ep",
+          "is_target": true,
+          "default_unit": "V vs. SCE"
+        },
+        {
+          "name": "Icorr",
+          "is_target": false,
+          "default_unit": "µA/cm²"
+        }
+      ],
+      "rows": [],
+      "notes": "Red circles cannot be reliably separated from the hatched red region outline and annotation arrow; no defensible discrete coordinates recovered."
+    },
+    {
+      "source": "Figure 11, Al-alloys",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Ep",
+          "is_target": true,
+          "default_unit": "V vs. SCE"
+        },
+        {
+          "name": "Icorr",
+          "is_target": false,
+          "default_unit": "µA/cm²"
+        }
+      ],
+      "rows": [
+        [
+          -0.69,
+          0.47
+        ]
+      ],
+      "notes": "Dense hatching and overlapping symbols obscure some markers and prevent a reliable total count. Only clearly distinguishable marker locations are retained; shaded regions and connecting outlines were not sampled."
+    },
+    {
+      "source": "Figure 11, Ti-alloys",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Ep",
+          "is_target": true,
+          "default_unit": "V vs. SCE"
+        },
+        {
+          "name": "Icorr",
+          "is_target": false,
+          "default_unit": "µA/cm²"
+        }
+      ],
+      "rows": [
+        [
+          -0.19,
+          2.25
+        ],
+        [
+          0.28,
+          1.93
+        ],
+        [
+          -0.19,
+          0.08
+        ],
+        [
+          -0.06,
+          0.07
+        ]
+      ],
+      "notes": "Dense hatching and overlapping symbols obscure some markers and prevent a reliable total count. Only clearly distinguishable marker locations are retained; shaded regions and connecting outlines were not sampled."
+    },
+    {
+      "source": "Figure 11, Cu-alloys",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Ep",
+          "is_target": true,
+          "default_unit": "V vs. SCE"
+        },
+        {
+          "name": "Icorr",
+          "is_target": false,
+          "default_unit": "µA/cm²"
+        }
+      ],
+      "rows": [
+        [
+          -0.1,
+          1.23
+        ]
+      ],
+      "notes": "Dense hatching and overlapping symbols obscure some markers and prevent a reliable total count. Only clearly distinguishable marker locations are retained; shaded regions and connecting outlines were not sampled."
+    },
+    {
+      "source": "Figure 11, Ni-alloys",
+      "method": "digitized",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Ep",
+          "is_target": true,
+          "default_unit": "V vs. SCE"
+        },
+        {
+          "name": "Icorr",
+          "is_target": false,
+          "default_unit": "µA/cm²"
+        }
+      ],
+      "rows": [
+        [
+          0.05,
+          0.04
+        ],
+        [
+          0.9,
+          0.09
+        ]
+      ],
+      "notes": "Only two distinguishable cyan left-triangle markers are retained. Hatching and overlap obscure the other possible markers and prevent a reliable total count."
+    }
+  ]
+}

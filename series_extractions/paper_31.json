@@ -1,0 +1,95 @@
+{
+  "paper_name": "31_G. P. Halada , D. Kim , C.R. Clayton , Corrosion 52 (1996)_ p. 36.pdf",
+  "reference_number": 31,
+  "series": [
+    {
+      "source": "Table 3",
+      "method": "transcribed",
+      "status": "partial",
+      "columns": [
+        {
+          "name": "Sample",
+          "is_target": false
+        },
+        {
+          "name": "Ecorr",
+          "is_target": false,
+          "default_unit": "mV SCE"
+        },
+        {
+          "name": "Epp",
+          "is_target": false,
+          "default_unit": "mV SCE"
+        },
+        {
+          "name": "Epit",
+          "is_target": true,
+          "default_unit": "mV SCE"
+        },
+        {
+          "name": "Etr",
+          "is_target": false,
+          "default_unit": "mV SCE"
+        },
+        {
+          "name": "icrit",
+          "is_target": false,
+          "default_unit": "αA/cm²"
+        },
+        {
+          "name": "ipass",
+          "is_target": false,
+          "default_unit": "αA/cm²"
+        }
+      ],
+      "rows": [
+        [
+          "Fe-20% Cr-20% Ni",
+          -356,
+          -196,
+          239,
+          "–",
+          80.4,
+          4.2
+        ],
+        [
+          "Fe-20% Cr-20% Ni-6% Mo",
+          -326,
+          -195,
+          "–",
+          849,
+          30.0,
+          5.0
+        ],
+        [
+          "Fe-20% Cr-20% Ni-6% Mo-0.2% N",
+          -314,
+          "–",
+          "–",
+          849,
+          "–",
+          4.5
+        ],
+        [
+          "MoNi4",
+          -308,
+          -282,
+          "–",
+          -135,
+          35.0,
+          28.0
+        ],
+        [
+          "MoNi4, nitrided",
+          -280,
+          "–",
+          "–",
+          -108,
+          "–",
+          12.0
+        ]
+      ],
+      "notes": "The rendered current-unit glyph in the table footnote appears as α rather than µ; preserved provisionally as αA/cm² pending verification of the source font. Table 3 gives icrit=30.0 for the 6% Mo steel, whereas nearby prose gives 30.3."
+    }
+  ]
+}
