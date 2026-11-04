@@ -1,0 +1,4339 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "71_Truman, J. E., M. J. Coleman, and K. R. Pirt. British corrosion journal 12.4 (1977)_ 236-238.pdf",
+  "reference_number": 71,
+  "experiments": [
+    {
+      "alloy": {
+        "preparation": "Steel 1. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.84,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.38,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.15,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.036,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -65,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 1; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 1. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.84,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.38,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.15,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.036,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -90,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 1; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 2. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.22,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.3,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -25,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 2; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 2. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.22,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.3,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -15,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 2; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 3. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.035,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.38,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.95,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.031,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -40,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 3; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 3. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.035,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.38,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.95,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.031,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -30,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 3; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 4. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.155,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -15,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 4; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 4. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.155,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -60,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 4; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 5. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.33,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.98,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.27,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 65,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 5; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 5. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.33,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.98,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.27,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -20,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 5; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 6. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.66,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.54,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.29,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 50,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 6; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 6. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.66,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.54,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.29,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 20,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 6; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 7. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.34,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.98,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.034,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 20,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 7; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 7. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.34,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.98,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.034,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 10,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 7; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 8. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.92,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.149,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 85,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 8; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 8. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.92,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.149,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 40,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 8; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 9. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.94,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.291,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 80,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 9; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 9. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.94,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.291,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 95,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 9; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 10. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.53,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.58,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 95,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 10; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 10. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.53,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.58,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 70,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 10; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 11. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.28,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.58,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -30,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 11; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 11. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.28,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.58,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -60,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 11; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 12. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.33,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.46,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.27,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.39,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 50,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 12; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 12. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.33,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.46,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.27,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.39,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 80,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 12; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 13. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -10,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 13; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 13. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -10,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 13; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 14. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.15,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.155,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 35,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 14; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 14. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.15,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.155,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": -70,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 14; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 15. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.95,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.412,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 200,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 15; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 15. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.95,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.412,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 65,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 15; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 16. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.067,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 125,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 16; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 16. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.067,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 40,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 16; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 17. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.84,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.159,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 170,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 17; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 17. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.84,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.159,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 150,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 17; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 18. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.022,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.35,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.35,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.39,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 920,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 18; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 18. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.022,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.35,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.35,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.39,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 130,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 18; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials.",
+      "failure_notes": ""
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 19. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.75,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.95,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.455,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 940,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 19; plain specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials. Table I gives N = 0.455 wt%, while Table II gives 0.435 wt% for this steel; Table I composition retained.",
+      "failure_notes": "Nitrogen composition conflict for steel 19: Table I reports 0.455 wt% and Table II reports 0.435 wt%; unresolved."
+    },
+    {
+      "alloy": {
+        "preparation": "Steel 19. 5 kg atmospheric-pressure induction-furnace melt using Japanese iron, nickel pellets, electrolytic chromium, ferro-molybdenum, refined manganese, and high-nitrogen ferro-chromium. Cast ingots hot rolled to 20 mm diameter bars; heat treated at 1100 degC for 30 min and cooled in still air. Surface ground to 120 grit. A 2.5 mm section round neoprene ring was fastened firmly around the cylindrical specimen to form a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.75,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.95,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.455,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution of 0.6 M sodium chloride and 0.1 M sodium bicarbonate.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "5 cm2 exposed. Standard saturated calomel reference electrode. Pretreatment for 5 min at -1.5 V; potential increased rapidly to -0.5 V, then at 1 V in 50 min.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical pitting potential taken at an anodic current density of 10^-5 A/cm2."
+      },
+      "pitting_potential": {
+        "value": 905,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Steel 19; crevice specimen; Table II breakdown potential identified as critical pitting potential in the methods. The authors note intermittent attack at the coating/specimen junction and possible low values/scatter for resistant materials. Table I gives N = 0.455 wt%, while Table II gives 0.435 wt% for this steel; Table I composition retained.",
+      "failure_notes": "Nitrogen composition conflict for steel 19: Table I reports 0.455 wt% and Table II reports 0.435 wt%; unresolved."
+    }
+  ]
+}

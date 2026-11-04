@@ -1,0 +1,2500 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "9_W. M. Carroll, E. E. Lynskey, Corros. Sci. 36 (1994)_ p. 1667.pdf",
+  "reference_number": 9,
+  "inputs": {
+    "pdf": {
+      "filename": "9_W. M. Carroll, E. E. Lynskey, Corros. Sci. 36 (1994)_ p. 1667.pdf",
+      "sha256": "138ccaccf73d67a201e0cb67bc1f85c693189dcce21b1fdcc19e79a70b86c6ba"
+    },
+    "csv": {
+      "filename": "pitting_potential_9.csv",
+      "sha256": "6db97ef385ec38a9fef7c6e5990372b3f22026996652607e197b8c4256acb7f5"
+    },
+    "registry": {
+      "filename": "paper_9.json",
+      "sha256": "7d2d0a68549da9390700a3d03f6524081b381655ba8c7528316bddfec0850181"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    10,
+    11
+  ],
+  "coverage_notes": "Assessed all 120 supplied complete observations and all 39 original CRA rows. Visually inspected every registered primary/secondary anchor, captions, the methods, and the Fig. 9 discussion. No access limitation. The remaining paper sections were not needed for this input-scoped alignment. No registry edits, new observations, unannotated curve thresholds or external experimental sources were used.",
+  "shared_qualifications": [
+    "Q1 — Figure 9 (PDF p. 8), explained on p. 10, uses definite pitting potentials where evident and otherwise the potential at 10 µA cm−2 anodic current. The paper does not identify affected markers. All 39 links retain this qualification; none is independently certified as either a proxy or an unequivocal pitting threshold. The qualification is not an extraction failure or a reason to discard a recoverable identity.",
+    "Q2 — Fe, Ni and Mo are named elemental wire samples; analytical purity is not specified. The source describes Ni80Cr20 as 80% Ni:20% Cr (p. 10) without stating mass/atomic basis. CRA stores 100 wt% single metals and 80/20 wt% Ni/Cr. These are material-identity associations, not independent purity or composition-basis certification; no atomic-mass conversion was performed.",
+    "Q3 — Methods (PDF pp. 2-3) describe wire-loop samples and results averaging at least three identical experiments. Figure 9's plotted values remain approximate; the original CRA Avg strings and blank Min/Max are preserved, without supplying an uncertainty or individual replicates. All potentials use SCE, so no electrode offset is needed. The source scan rate 60 mV/min divided by 60 s/min is 1 mV/s, consistent with the original CRA cell '1'; this general procedure is contextual and not an extra identity discriminator.",
+    "Q4 — Of Figure 9's 40 registered condition points, only Ni/1.0 M NaBr/pH 5 (obs_104) has no CSV counterpart. Other unmatched supplied observations concern 316L, 316, 302, Cr metal or cited type-304 outcomes under their own conditions; they were assessed rather than excluded by origin. No unlinked CRA rows remain in this registry scope. Matching does not establish which source presentation the original curators used."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316L outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_038",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_039",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_040",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 302 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_041",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 302 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_042",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 302 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_043",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 302 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_044",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 302 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_045",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 302 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_046",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_047",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_048",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_049",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_050",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_051",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_052",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_053",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_054",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_055",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_056",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_057",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_058",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_059",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_060",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_061",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_062",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_063",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_064",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_065",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_066",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_067",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_068",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_069",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_070",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_071",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_072",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_073",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_074",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_075",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_076",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 316 outcome; the supplied CRA rows identify only Fe, Ni, Mo and Ni80Cr20. Material identity does not agree, even where a potential or electrolyte happens to be similar."
+    },
+    {
+      "observation_id": "obs_077",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 517,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "230.52",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=3",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 3 (Fig. 9 marker coordinate)",
+              "cra_value": "3.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈230 mV (SCE)",
+              "cra_value": "230.52",
+              "comparison": "Registered graphical reading minus CRA Avg = -0.52 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_078",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 518,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "332.48",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=4",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 4 (Fig. 9 marker coordinate)",
+              "cra_value": "4.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈330 mV (SCE)",
+              "cra_value": "332.48",
+              "comparison": "Registered graphical reading minus CRA Avg = -2.48 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_079",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 519,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "342.67",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=5",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 5 (Fig. 9 marker coordinate)",
+              "cra_value": "5.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈340 mV (SCE)",
+              "cra_value": "342.67",
+              "comparison": "Registered graphical reading minus CRA Avg = -2.67 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_080",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 520,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "370.4",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=7",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 7 (Fig. 9 marker coordinate)",
+              "cra_value": "7.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈380 mV (SCE)",
+              "cra_value": "370.4",
+              "comparison": "Registered graphical reading minus CRA Avg = 9.6 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_081",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 521,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "361.39",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=9",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 9 (Fig. 9 marker coordinate)",
+              "cra_value": "9.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈370 mV (SCE)",
+              "cra_value": "361.39",
+              "comparison": "Registered graphical reading minus CRA Avg = 8.61 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_082",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 522,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "179.14",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=3",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 3 (Fig. 9 marker coordinate)",
+              "cra_value": "3.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈180 mV (SCE)",
+              "cra_value": "179.14",
+              "comparison": "Registered graphical reading minus CRA Avg = 0.86 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_083",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 523,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "273.73",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=4",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 4 (Fig. 9 marker coordinate)",
+              "cra_value": "4.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈270 mV (SCE)",
+              "cra_value": "273.73",
+              "comparison": "Registered graphical reading minus CRA Avg = -3.73 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_084",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 524,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "309.66",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=5",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 5 (Fig. 9 marker coordinate)",
+              "cra_value": "5.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈310 mV (SCE)",
+              "cra_value": "309.66",
+              "comparison": "Registered graphical reading minus CRA Avg = 0.34 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_085",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 525,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "315.35",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=7",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 7 (Fig. 9 marker coordinate)",
+              "cra_value": "7.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈320 mV (SCE)",
+              "cra_value": "315.35",
+              "comparison": "Registered graphical reading minus CRA Avg = 4.65 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_086",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 526,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "324.7",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni80Cr20 wire; text states 80% Ni (PDF p. 10); percentage basis not specified",
+              "cra_value": "80.0",
+              "comparison": "Named composition agrees numerically with CRA 80 wt% Ni; basis is unverified, and no at%/wt% conversion is inferred."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ni80Cr20 wire; text states 20% Cr (PDF p. 10); percentage basis not specified",
+              "cra_value": "20.0",
+              "comparison": "Same named Ni-Cr composition; CRA stores 20 wt% Cr. Basis limitation Q2 remains."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=9",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 9 (Fig. 9 marker coordinate)",
+              "cra_value": "9.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈330 mV (SCE)",
+              "cra_value": "324.7",
+              "comparison": "Registered graphical reading minus CRA Avg = 5.3 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it. Q2: the source does not identify the percentage basis."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_087",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 507,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-22.71",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=3",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 3 (Fig. 9 marker coordinate)",
+              "cra_value": "3.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-20 mV (SCE)",
+              "cra_value": "-22.71",
+              "comparison": "Registered graphical reading minus CRA Avg = 2.71 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_088",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 508,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-56.54",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=4",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 4 (Fig. 9 marker coordinate)",
+              "cra_value": "4.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-55 mV (SCE)",
+              "cra_value": "-56.54",
+              "comparison": "Registered graphical reading minus CRA Avg = 1.54 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_089",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 509,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-50.04",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=5",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 5 (Fig. 9 marker coordinate)",
+              "cra_value": "5.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-55 mV (SCE)",
+              "cra_value": "-50.04",
+              "comparison": "Registered graphical reading minus CRA Avg = -4.96 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_090",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 510,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-106.71",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=7",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 7 (Fig. 9 marker coordinate)",
+              "cra_value": "7.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-105 mV (SCE)",
+              "cra_value": "-106.71",
+              "comparison": "Registered graphical reading minus CRA Avg = 1.71 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_091",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 511,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-119.33",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=9",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 9 (Fig. 9 marker coordinate)",
+              "cra_value": "9.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-110 mV (SCE)",
+              "cra_value": "-119.33",
+              "comparison": "Registered graphical reading minus CRA Avg = 9.33 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_092",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 512,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "21.33",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=3",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 3 (Fig. 9 marker coordinate)",
+              "cra_value": "3.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈15 mV (SCE)",
+              "cra_value": "21.33",
+              "comparison": "Registered graphical reading minus CRA Avg = -6.33 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_093",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 513,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-45.55",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=4",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 4 (Fig. 9 marker coordinate)",
+              "cra_value": "4.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-50 mV (SCE)",
+              "cra_value": "-45.55",
+              "comparison": "Registered graphical reading minus CRA Avg = -4.45 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_094",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 514,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-53.73",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=5",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 5 (Fig. 9 marker coordinate)",
+              "cra_value": "5.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-50 mV (SCE)",
+              "cra_value": "-53.73",
+              "comparison": "Registered graphical reading minus CRA Avg = 3.73 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_095",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 515,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-91",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=7",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 7 (Fig. 9 marker coordinate)",
+              "cra_value": "7.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-95 mV (SCE)",
+              "cra_value": "-91",
+              "comparison": "Registered graphical reading minus CRA Avg = -4 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_096",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 516,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-103",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Mo wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Mo as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=9",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 9 (Fig. 9 marker coordinate)",
+              "cra_value": "9.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-100 mV (SCE)",
+              "cra_value": "-103",
+              "comparison": "Registered graphical reading minus CRA Avg = 3 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_097",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 498,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-272.26",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=3",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 3 (Fig. 9 marker coordinate)",
+              "cra_value": "3.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-270 mV (SCE)",
+              "cra_value": "-272.26",
+              "comparison": "Registered graphical reading minus CRA Avg = 2.26 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_098",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 499,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-140.94",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=4",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 4 (Fig. 9 marker coordinate)",
+              "cra_value": "4.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-150 mV (SCE)",
+              "cra_value": "-140.94",
+              "comparison": "Registered graphical reading minus CRA Avg = -9.06 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_099",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 500,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-145.43",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=5",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 5 (Fig. 9 marker coordinate)",
+              "cra_value": "5.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-150 mV (SCE)",
+              "cra_value": "-145.43",
+              "comparison": "Registered graphical reading minus CRA Avg = -4.57 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_100",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 501,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-47.98",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=7",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 7 (Fig. 9 marker coordinate)",
+              "cra_value": "7.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-45 mV (SCE)",
+              "cra_value": "-47.98",
+              "comparison": "Registered graphical reading minus CRA Avg = 2.98 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_101",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 502,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-9.26",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=9",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 9 (Fig. 9 marker coordinate)",
+              "cra_value": "9.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈0 mV (SCE)",
+              "cra_value": "-9.26",
+              "comparison": "Registered graphical reading minus CRA Avg = 9.26 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_102",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 503,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-231.91",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=3",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 3 (Fig. 9 marker coordinate)",
+              "cra_value": "3.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-220 mV (SCE)",
+              "cra_value": "-231.91",
+              "comparison": "Registered graphical reading minus CRA Avg = 11.91 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_103",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 504,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-100.57",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=4",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 4 (Fig. 9 marker coordinate)",
+              "cra_value": "4.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-100 mV (SCE)",
+              "cra_value": "-100.57",
+              "comparison": "Registered graphical reading minus CRA Avg = 0.57 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_104",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig. 9 Ni wire in 1.0 M NaBr at pH 5 has no supplied CRA row; pH 4 and 7 records are different conditions."
+    },
+    {
+      "observation_id": "obs_105",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 505,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "18.09",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=7",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 7 (Fig. 9 marker coordinate)",
+              "cra_value": "7.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈20 mV (SCE)",
+              "cra_value": "18.09",
+              "comparison": "Registered graphical reading minus CRA Avg = 1.91 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_106",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 506,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "86.15",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Ni wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Ni as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=9",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 9 (Fig. 9 marker coordinate)",
+              "cra_value": "9.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈100 mV (SCE)",
+              "cra_value": "86.15",
+              "comparison": "Registered graphical reading minus CRA Avg = 13.85 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_107",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 488,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-661.26",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=3",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 3 (Fig. 9 marker coordinate)",
+              "cra_value": "3.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-650 mV (SCE)",
+              "cra_value": "-661.26",
+              "comparison": "Registered graphical reading minus CRA Avg = 11.26 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_108",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 489,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-526.29",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=4",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 4 (Fig. 9 marker coordinate)",
+              "cra_value": "4.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-520 mV (SCE)",
+              "cra_value": "-526.29",
+              "comparison": "Registered graphical reading minus CRA Avg = 6.29 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_109",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 490,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-472.07",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=5",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 5 (Fig. 9 marker coordinate)",
+              "cra_value": "5.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-460 mV (SCE)",
+              "cra_value": "-472.07",
+              "comparison": "Registered graphical reading minus CRA Avg = 12.07 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_110",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 491,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-458.98",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=7",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 7 (Fig. 9 marker coordinate)",
+              "cra_value": "7.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-450 mV (SCE)",
+              "cra_value": "-458.98",
+              "comparison": "Registered graphical reading minus CRA Avg = 8.98 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_111",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 492,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-460.67",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaCl (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaCl PH=9",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 9 (Fig. 9 marker coordinate)",
+              "cra_value": "9.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-440 mV (SCE)",
+              "cra_value": "-460.67",
+              "comparison": "Registered graphical reading minus CRA Avg = 20.67 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_112",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 493,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-701.63",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=3",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 3 (Fig. 9 marker coordinate)",
+              "cra_value": "3.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-700 mV (SCE)",
+              "cra_value": "-701.63",
+              "comparison": "Registered graphical reading minus CRA Avg = 1.63 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_113",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 494,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-427.19",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=4",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 4 (Fig. 9 marker coordinate)",
+              "cra_value": "4.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-420 mV (SCE)",
+              "cra_value": "-427.19",
+              "comparison": "Registered graphical reading minus CRA Avg = 7.19 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_114",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 495,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-405.98",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=5",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 5 (Fig. 9 marker coordinate)",
+              "cra_value": "5.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-400 mV (SCE)",
+              "cra_value": "-405.98",
+              "comparison": "Registered graphical reading minus CRA Avg = 5.98 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_115",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 496,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-396.6",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=7",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 7 (Fig. 9 marker coordinate)",
+              "cra_value": "7.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-390 mV (SCE)",
+              "cra_value": "-396.6",
+              "comparison": "Registered graphical reading minus CRA Avg = 6.6 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_116",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 497,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-361.57",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Fe wire (Fig. 9; PDF p. 10); analytical purity not stated",
+              "cra_value": "100.0",
+              "comparison": "Same elemental material. CRA encodes Fe as 100 wt%; source purity is not certified."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0 M NaBr (Fig. 9 caption, PDF p. 8)",
+              "cra_value": "1.0M NaBr PH=9",
+              "comparison": "Same salt and stated molar concentration; no concentration conversion needed."
+            },
+            {
+              "field": "pH",
+              "paper_value": "pH 9 (Fig. 9 marker coordinate)",
+              "cra_value": "9.0",
+              "comparison": "Same pH and series position."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Fig. 9 plotted potential ≈-350 mV (SCE)",
+              "cra_value": "-361.57",
+              "comparison": "Registered graphical reading minus CRA Avg = 11.57 mV; compatible with the coarse 200-mV-tick plot and approximate marker reading. CRA decimal precision is not established by the figure. Both use SCE (methods, PDF p. 3); Q1 preserves the unresolved current-criterion qualification."
+            }
+          ],
+          "notes": "Material/series, salt, 1.0 M concentration and pH independently identify this Fig. 9 counterpart. Q1: individual pitting-threshold versus 10-µA/cm²-criterion status is unspecified by the source; the identity link does not resolve it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_117",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Flat Cr-metal outcome in 1.0 M halide at pH 2.5 (PDF p. 10); no Cr-metal/pH-2.5 counterpart in this CSV."
+    },
+    {
+      "observation_id": "obs_118",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Flat Cr-metal outcome in 1.0 M halide at pH 2.5 (PDF p. 10); no Cr-metal/pH-2.5 counterpart in this CSV."
+    },
+    {
+      "observation_id": "obs_119",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Cited type-304, 50-µm-wire result at pH 0.7 (PDF pp. 10-11); no matching material/condition in this CSV. The cited central value and subgroup lower bound were both assessed without changing their origin."
+    },
+    {
+      "observation_id": "obs_120",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Cited type-304, 50-µm-wire result at pH 0.7 (PDF pp. 10-11); no matching material/condition in this CSV. The cited central value and subgroup lower bound were both assessed without changing their origin."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

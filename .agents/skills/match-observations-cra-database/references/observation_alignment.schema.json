@@ -1,0 +1,397 @@
+{
+  "$comment": "Use strict JSON: reject duplicate keys, NaN and Infinity. All fields are required. The bundled validator also checks input fingerprints, IDs/order, source cell strings, location indices and the unlinked-row complement. Scientific fidelity is not validated.",
+  "$defs": {
+    "CRALink": {
+      "additionalProperties": false,
+      "properties": {
+        "citrine_no": {
+          "description": "Original positive No. identifier, never CSV line position.",
+          "minimum": 1,
+          "title": "Citrine No",
+          "type": "integer"
+        },
+        "location_indices": {
+          "description": "Zero-based indices into the supplied observation's locations used to support this link.",
+          "items": {
+            "minimum": 0,
+            "type": "integer"
+          },
+          "minItems": 1,
+          "title": "Location Indices",
+          "type": "array",
+          "uniqueItems": true
+        },
+        "cra_potential": {
+          "$ref": "#/$defs/CRAPotential"
+        },
+        "potential_agreement": {
+          "description": "Numerical agreement, separately from the decision to link identities.",
+          "enum": [
+            "exact",
+            "within_precision",
+            "discrepant",
+            "not_comparable"
+          ],
+          "title": "Potential Agreement",
+          "type": "string"
+        },
+        "evidence": {
+          "description": "Only decisive paired values, including non-potential association evidence.",
+          "items": {
+            "$ref": "#/$defs/ComparisonEvidence"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        },
+        "notes": {
+          "description": "Identity rationale, limitations and any shared-row, repeated-presentation or summary-member relationship.",
+          "pattern": "\\S",
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "citrine_no",
+        "location_indices",
+        "cra_potential",
+        "potential_agreement",
+        "evidence",
+        "notes"
+      ],
+      "title": "CRALink",
+      "type": "object"
+    },
+    "CRAPotential": {
+      "additionalProperties": false,
+      "properties": {
+        "avg": {
+          "description": "Exact Avg Epit mV (SCE) cell string, including missing markers or qualitative text.",
+          "title": "Avg",
+          "type": "string"
+        },
+        "min": {
+          "description": "Exact Min Epit mV (SCE) cell string.",
+          "title": "Min",
+          "type": "string"
+        },
+        "max": {
+          "description": "Exact Max Epit mV (SCE) cell string.",
+          "title": "Max",
+          "type": "string"
+        }
+      },
+      "required": [
+        "avg",
+        "min",
+        "max"
+      ],
+      "title": "CRAPotential",
+      "type": "object"
+    },
+    "ComparisonEvidence": {
+      "additionalProperties": false,
+      "properties": {
+        "field": {
+          "description": "Exact CSV column header for this comparison, e.g. Nb or Avg Epit mV (SCE).",
+          "pattern": "\\S",
+          "title": "Field",
+          "type": "string"
+        },
+        "paper_value": {
+          "description": "Paper value and original units/meaning; explicitly state unavailable information.",
+          "pattern": "\\S",
+          "title": "Paper Value",
+          "type": "string"
+        },
+        "cra_value": {
+          "description": "Exact original CSV cell string for field; may be empty.",
+          "title": "Cra Value",
+          "type": "string"
+        },
+        "comparison": {
+          "description": "Association, agreement or discrepancy; show conversion arithmetic and assumptions when used.",
+          "pattern": "\\S",
+          "title": "Comparison",
+          "type": "string"
+        }
+      },
+      "required": [
+        "field",
+        "paper_value",
+        "cra_value",
+        "comparison"
+      ],
+      "title": "ComparisonEvidence",
+      "type": "object"
+    },
+    "InputFile": {
+      "additionalProperties": false,
+      "properties": {
+        "filename": {
+          "description": "Input basename, without directories.",
+          "pattern": "^[^/\\\\]+$",
+          "title": "Filename",
+          "type": "string"
+        },
+        "sha256": {
+          "description": "SHA-256 of the original file bytes, before decoding.",
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "filename",
+        "sha256"
+      ],
+      "title": "InputFile",
+      "type": "object"
+    },
+    "InputFiles": {
+      "additionalProperties": false,
+      "properties": {
+        "pdf": {
+          "$ref": "#/$defs/InputFile"
+        },
+        "csv": {
+          "$ref": "#/$defs/InputFile"
+        },
+        "registry": {
+          "$ref": "#/$defs/InputFile"
+        }
+      },
+      "required": [
+        "pdf",
+        "csv",
+        "registry"
+      ],
+      "title": "InputFiles",
+      "type": "object"
+    },
+    "ObservationMatch": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "matched"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "matches": {
+                "minItems": 1
+              },
+              "candidates": {}
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "ambiguous"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "matches": {
+                "maxItems": 0
+              },
+              "candidates": {
+                "minItems": 1
+              },
+              "notes": {
+                "pattern": "\\S"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "unmatched"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "matches": {
+                "maxItems": 0
+              },
+              "candidates": {
+                "maxItems": 0
+              },
+              "notes": {
+                "pattern": "\\S"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": {
+                "const": "not_assessed"
+              }
+            },
+            "required": [
+              "status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "matches": {
+                "maxItems": 0
+              },
+              "candidates": {
+                "maxItems": 0
+              },
+              "notes": {
+                "pattern": "\\S"
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "observation_id": {
+          "pattern": "^obs_[0-9]{3,}$",
+          "title": "Observation Id",
+          "type": "string"
+        },
+        "status": {
+          "enum": [
+            "matched",
+            "ambiguous",
+            "unmatched",
+            "not_assessed"
+          ],
+          "title": "Status",
+          "type": "string"
+        },
+        "matches": {
+          "description": "Supported assignments; many-to-many links are allowed.",
+          "items": {
+            "$ref": "#/$defs/CRALink"
+          },
+          "title": "Matches",
+          "type": "array"
+        },
+        "candidates": {
+          "description": "Unresolved alternatives, excluded from default joins.",
+          "items": {
+            "$ref": "#/$defs/CRALink"
+          },
+          "title": "Candidates",
+          "type": "array"
+        },
+        "notes": {
+          "description": "Concise explanation; nonblank unless status is matched.",
+          "title": "Notes",
+          "type": "string"
+        }
+      },
+      "required": [
+        "observation_id",
+        "status",
+        "matches",
+        "candidates",
+        "notes"
+      ],
+      "title": "ObservationMatch",
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "paper_name": {
+      "pattern": "^[^/\\\\]+\\.[pP][dD][fF]$",
+      "title": "Paper Name",
+      "type": "string"
+    },
+    "reference_number": {
+      "minimum": 1,
+      "title": "Reference Number",
+      "type": "integer"
+    },
+    "inputs": {
+      "$ref": "#/$defs/InputFiles"
+    },
+    "inspected_pdf_pages": {
+      "description": "One-based supplied-PDF pages actually viewed, not merely rendered or text-searched.",
+      "items": {
+        "minimum": 1,
+        "type": "integer"
+      },
+      "title": "Inspected Pdf Pages",
+      "type": "array",
+      "uniqueItems": true
+    },
+    "coverage_notes": {
+      "description": "Input-scoped coverage and access limitations, including actual errors; empty if unnecessary.",
+      "title": "Coverage Notes",
+      "type": "string"
+    },
+    "shared_qualifications": {
+      "description": "Concise shared scientific/conversion/duplicate notes; [] if none.",
+      "items": {
+        "pattern": "\\S",
+        "type": "string"
+      },
+      "title": "Shared Qualifications",
+      "type": "array"
+    },
+    "observations": {
+      "description": "Exactly one entry per supplied registry observation, in the same order.",
+      "items": {
+        "$ref": "#/$defs/ObservationMatch"
+      },
+      "title": "Observations",
+      "type": "array"
+    },
+    "unlinked_citrine_nos": {
+      "description": "CSV No. identifiers without a supported link, in CSV order; candidate-only rows remain unlinked.",
+      "items": {
+        "minimum": 1,
+        "type": "integer"
+      },
+      "title": "Unlinked Citrine Nos",
+      "type": "array",
+      "uniqueItems": true
+    }
+  },
+  "required": [
+    "schema_version",
+    "paper_name",
+    "reference_number",
+    "inputs",
+    "inspected_pdf_pages",
+    "coverage_notes",
+    "shared_qualifications",
+    "observations",
+    "unlinked_citrine_nos"
+  ],
+  "title": "Observation-to-CRA alignment",
+  "type": "object"
+}

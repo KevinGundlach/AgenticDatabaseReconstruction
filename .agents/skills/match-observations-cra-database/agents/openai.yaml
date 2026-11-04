@@ -1,0 +1,4 @@
+interface:
+  display_name: "Match Observations to CRA Database"
+  short_description: "Align registered observations with Citrine row IDs"
+  default_prompt: "Use $match-observations-cra-database to match the supplied observation registry to this paper-specific CRA CSV, verifying the PDF and preserving ambiguous alternatives."

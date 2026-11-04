@@ -1,0 +1,211 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "9001_invented_corrosion_study.pdf",
+  "reference_number": 9001,
+  "inputs": {
+    "pdf": {
+      "filename": "9001_invented_corrosion_study.pdf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "csv": {
+      "filename": "example_cra.csv",
+      "sha256": "e7469e6c9e20a4313344f492748837c8c082d5e0c29e12fd199446aa0adbb729"
+    },
+    "registry": {
+      "filename": "example_registry.json",
+      "sha256": "7025cf84e1afbd320814fd5233be7e127d2b2d5a182c0509617e1ca94f55b956"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "Invented illustration only; no real paper was inspected. The PDF fingerprint is a placeholder. Matching scope is the supplied subset, not a full-paper census.",
+  "shared_qualifications": [
+    "obs_007 and obs_008 may be repeated presentations; keep both supported links without asserting independent runs.",
+    "For obs_008, the source criterion is scientifically qualified even though registry recovery is complete."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 91001,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "0.30 +/- 0.01 V (SCE)",
+              "cra_value": "300",
+              "comparison": "0.30 × 1000 = 300 mV (SCE); uncertainty 0.01 × 1000 = 10 mV, not used as a matching tolerance."
+            },
+            {
+              "field": "Nb",
+              "paper_value": "0.005 mass fraction",
+              "cra_value": "0.5",
+              "comparison": "0.005 × 100 = 0.5 wt%; exact agreement."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "298.15 K",
+              "cra_value": "25",
+              "comparison": "298.15 - 273.15 = 25 °C; exact agreement."
+            }
+          ],
+          "notes": "Alloy A and conditions identify the counterpart. CRA 91001 is shared with obs_008, a possibly repeated presentation, not an independent benchmark row."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 91001,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "310 mV (SCE)",
+              "cra_value": "300",
+              "comparison": "310 - 300 = +10 mV; source presentations disagree, without an invented correction."
+            },
+            {
+              "field": "Nb",
+              "paper_value": "0.5 wt%",
+              "cra_value": "0.5",
+              "comparison": "Same reported composition; Alloy A and conditions in Figure 2 caption identify the counterpart."
+            }
+          ],
+          "notes": "Supported condition identity despite discrepant potential. Possibly repeats obs_007; shared CRA 91001 does not establish run identity. Preserve source criterion uncertainty."
+        }
+      ],
+      "candidates": [],
+      "notes": "Scientific criterion uncertainty is retained, not treated as extraction failure."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 91002,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "NA",
+            "max": "NA"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Alloy B",
+              "cra_value": "Alloy B",
+              "comparison": "Sample label agrees but the unreadable legend prevents selecting the procedure; potential unrecovered."
+            }
+          ],
+          "notes": "Candidate only: cannot distinguish this limiting-potential procedure from the alternative."
+        },
+        {
+          "citrine_no": 91003,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "Transpassive",
+            "min": "NA",
+            "max": "NA"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Alloy B",
+              "cra_value": "Alloy B; alternative procedure",
+              "comparison": "Alloy B is compatible, but the exact procedure and outcome cannot be recovered; Transpassive is not a number."
+            }
+          ],
+          "notes": "Candidate only: qualitative target and missing legend do not establish outcome identity."
+        }
+      ],
+      "notes": "Partial recovery leaves two procedure/outcome alternatives unresolved."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 91002,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "NA",
+            "max": "NA"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Epit > 0.8 V (SCE)",
+              "cra_value": ">800",
+              "comparison": "Lower bound 0.8 × 1000 = 800 mV (SCE); preserve > rather than claiming pitting at 800 mV."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic holds until steady state",
+              "cra_value": "Potentiostatic polarization",
+              "comparison": "Source text names this procedure; steady state is not a numerical sweep rate."
+            }
+          ],
+          "notes": "Explicit text and Alloy B conditions identify the limiting result, separately from the transpassive alternative."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supplied CRA row identifies Alloy Z under these conditions."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "not_assessed",
+      "matches": [],
+      "candidates": [],
+      "notes": "Legend and coordinates are unreadable; no useful automatic association can be recovered."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    91003,
+    91004
+  ]
+}

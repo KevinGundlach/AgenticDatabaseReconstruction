@@ -1,0 +1,116 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "example.pdf",
+  "reference_number": null,
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {"value": 300, "unit": "mV (SCE)"},
+      "sample_label": "Alloy B",
+      "association_notes": "The caption explicitly identifies Figure 3(b) as a plot of the Table 2 results.",
+      "result_note": "",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 5,
+          "printed_page": "105",
+          "table_label": "Table 2",
+          "row_label": "Alloy B",
+          "column_label": "Pitting potential / mV (SCE)",
+          "conditions": [
+            {"name": "Nb content", "value": {"value": 0.5, "unit": "wt%"}}
+          ],
+          "reading_method": "transcribed",
+          "pitting_potential": {"value": 300, "unit": "mV (SCE)"}
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "104",
+          "figure_label": "Fig. 3",
+          "panel_label": "(b)",
+          "series_label": "Open circles - Alloy B",
+          "coordinates": [
+            {"name": "Nb content", "value": {"value": 0.5, "unit": "wt%"}}
+          ],
+          "reading_method": "digitized",
+          "pitting_potential": {"value": 0.30, "unit": "V (SCE)"}
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_002",
+      "result_type": "reported_experimental",
+      "extraction_status": "partial",
+      "pitting_potential": null,
+      "sample_label": "Alloy C",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "The pitting-potential number in the Results passage is illegible after enlargement.",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 6,
+          "printed_page": "106",
+          "section_heading": "Results",
+          "text_anchor": "The pitting potential of Alloy C was",
+          "reading_method": "transcribed",
+          "pitting_potential": null
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_003",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {"value": 280, "unit": "mV (SCE)"},
+      "sample_label": "Alloy D",
+      "association_notes": "",
+      "result_note": "The paper uses definite pitting potentials where identifiable and the potential at 10 microA/cm^2 otherwise, but does not identify the criterion used for this marker.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 7,
+          "printed_page": "107",
+          "figure_label": "Fig. 4",
+          "panel_label": "",
+          "series_label": "Alloy D - filled squares",
+          "coordinates": [{"name": "pH", "value": {"value": 7}}],
+          "reading_method": "digitized",
+          "pitting_potential": {"value": 280, "unit": "mV (SCE)"}
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_004",
+      "result_type": "unclear",
+      "extraction_status": "failed",
+      "pitting_potential": null,
+      "sample_label": "",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "The numerical result and sample/condition labels in Table 3 row 9 remain illegible after enlargement. The cell is locatable, but neither a usable value nor identifying context could be recovered.",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 8,
+          "printed_page": "108",
+          "table_label": "Table 3",
+          "row_label": "Row 9",
+          "column_label": "E_p (mV)",
+          "conditions": [],
+          "reading_method": "transcribed",
+          "pitting_potential": null
+        }
+      ]
+    }
+  ]
+}

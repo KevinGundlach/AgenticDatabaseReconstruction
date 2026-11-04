@@ -1,0 +1,577 @@
+{
+  "$comment": "Use \"\" for unavailable text, [] for empty collections, and null for unavailable measurements or condition values. Neither implies zero or explicit absence. Use a strict JSON parser rejecting duplicate keys, NaN, and Infinity. Pydantic additionally validates bounds, primary-location consistency, and unique observation IDs.",
+  "$defs": {
+    "Measurement": {
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "properties": {
+            "value": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "value"
+          ]
+        },
+        {
+          "properties": {
+            "min": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "min"
+          ]
+        },
+        {
+          "properties": {
+            "max": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "max"
+          ]
+        }
+      ],
+      "description": "Reported central value or bounds, preserving original units.",
+      "if": {
+        "properties": {
+          "plus_minus": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "plus_minus"
+        ]
+      },
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Reported single or central value; null or omitted if unavailable.",
+          "title": "Value"
+        },
+        "min": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Reported lower endpoint or bound; null or omitted if unavailable.",
+          "title": "Min"
+        },
+        "max": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Reported upper endpoint or bound; null or omitted if unavailable.",
+          "title": "Max"
+        },
+        "unit": {
+          "default": "",
+          "description": "Original reported unit. Include the stated electrode reference for potentials, e.g. 'mV (SCE)' or 'V (Ag/AgCl, saturated KCl)'. Use an empty string or omit for dimensionless quantities or unavailable units. Do not infer units or electrode details.",
+          "title": "Unit",
+          "type": "string"
+        },
+        "plus_minus": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Reported symmetric uncertainty in the same unit as value; requires a numerical value. Do not infer from bounds or substitute relative percent uncertainty. Null or omitted if unavailable.",
+          "title": "Plus Minus"
+        }
+      },
+      "then": {
+        "properties": {
+          "value": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "value"
+        ]
+      },
+      "title": "Measurement",
+      "type": "object"
+    },
+    "NamedValue": {
+      "additionalProperties": false,
+      "description": "A condition or coordinate used to identify a particular outcome.",
+      "properties": {
+        "name": {
+          "description": "Paper's label for this coordinate or condition, e.g. Nb content, pH, or test method.",
+          "title": "Name",
+          "type": "string"
+        },
+        "value": {
+          "anyOf": [
+            {
+              "type": "string"
+            },
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported text/categorical value, a measurement for a numerical value (including dimensionless numbers), or null if unreadable/unavailable. Preserve original terminology and units.",
+          "title": "Value"
+        }
+      },
+      "required": [
+        "name",
+        "value"
+      ],
+      "title": "NamedValue",
+      "type": "object"
+    },
+    "Observation": {
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "extraction_status": {
+                "const": "complete"
+              }
+            },
+            "required": [
+              "extraction_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "pitting_potential": {
+                "not": {
+                  "type": "null"
+                }
+              },
+              "failure_notes": {
+                "const": ""
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "extraction_status": {
+                "enum": [
+                  "partial",
+                  "failed"
+                ]
+              }
+            },
+            "required": [
+              "extraction_status"
+            ]
+          },
+          "then": {
+            "properties": {
+              "failure_notes": {
+                "pattern": "\\S"
+              }
+            }
+          }
+        }
+      ],
+      "properties": {
+        "observation_id": {
+          "description": "Registry-scoped bookkeeping identifier, e.g. obs_001; preserve during later edits and enrichment.",
+          "pattern": "^obs_[0-9]{3,}$",
+          "title": "Observation Id",
+          "type": "string"
+        },
+        "result_type": {
+          "description": "Origin of the potential selected from primary_location: reported_experimental for the authors' experiments (including routine summaries), interpolated or calculated when explicitly derived, cited when attributed to another source, reference_value when explicitly standard/conventional, or unclear when origin is not established. Digitization is a reading method, not interpolation. Scientific uncertainty alone does not change a known experimental origin.",
+          "enum": [
+            "reported_experimental",
+            "interpolated",
+            "calculated",
+            "cited",
+            "reference_value",
+            "unclear"
+          ],
+          "title": "Result Type",
+          "type": "string"
+        },
+        "extraction_status": {
+          "description": "complete: recovered as far as the paper supplies, with a non-null potential and empty failure_notes; partial: a recovery problem remains but useful input survives; failed: recovery is insufficient for automatic downstream processing. partial/failed require nonblank failure_notes. Default routing continues complete/partial and retains failed for review; it does not certify scientific validity or benchmark suitability.",
+          "enum": [
+            "complete",
+            "partial",
+            "failed"
+          ],
+          "title": "Extraction Status",
+          "type": "string"
+        },
+        "pitting_potential": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Exact copy of the primary location's measurement, without conversion or averaging; null when that reading is null."
+        },
+        "sample_label": {
+          "description": "Author-supplied sample/alloy identifier; empty string if unavailable. Do not invent one.",
+          "title": "Sample Label",
+          "type": "string"
+        },
+        "association_notes": {
+          "description": "Brief paper-derived clue linking this outcome to its experimental context; empty string if unnecessary. Not a full methods summary.",
+          "title": "Association Notes",
+          "type": "string"
+        },
+        "result_note": {
+          "description": "Scientific qualifications, provenance or measurement-criterion uncertainty, source disagreements, and unresolved duplicate relationships. Include statistical meanings, inequalities, or reported no-pitting limits when relevant. Empty string if unnecessary.",
+          "title": "Result Note",
+          "type": "string"
+        },
+        "failure_notes": {
+          "description": "Information the extractor could not recover despite the paper appearing to provide it, e.g. illegible digits or unreadable legend assignments. Empty for complete observations; nonblank for partial/failed. Source omissions, scientific uncertainty, and source conflicts belong in result_note and do not alone make extraction incomplete.",
+          "title": "Failure Notes",
+          "type": "string"
+        },
+        "primary_location": {
+          "description": "Zero-based index of the preferred reading in locations.",
+          "minimum": 0,
+          "title": "Primary Location",
+          "type": "integer"
+        },
+        "locations": {
+          "description": "Specific paper locations reporting this same outcome; retain each location's original reading and units.",
+          "items": {
+            "discriminator": {
+              "mapping": {
+                "plot": "#/$defs/PlotLocation",
+                "table": "#/$defs/TableLocation",
+                "text": "#/$defs/TextLocation"
+              },
+              "propertyName": "kind"
+            },
+            "oneOf": [
+              {
+                "$ref": "#/$defs/TableLocation"
+              },
+              {
+                "$ref": "#/$defs/PlotLocation"
+              },
+              {
+                "$ref": "#/$defs/TextLocation"
+              }
+            ]
+          },
+          "minItems": 1,
+          "title": "Locations",
+          "type": "array"
+        }
+      },
+      "required": [
+        "observation_id",
+        "result_type",
+        "extraction_status",
+        "pitting_potential",
+        "sample_label",
+        "association_notes",
+        "result_note",
+        "failure_notes",
+        "primary_location",
+        "locations"
+      ],
+      "title": "Observation",
+      "type": "object"
+    },
+    "PlotLocation": {
+      "additionalProperties": false,
+      "properties": {
+        "pdf_page": {
+          "description": "One-based page number in the supplied PDF, not the printed page number.",
+          "minimum": 1,
+          "title": "Pdf Page",
+          "type": "integer"
+        },
+        "printed_page": {
+          "description": "Printed page label, including prefixes if present; empty string if unavailable.",
+          "title": "Printed Page",
+          "type": "string"
+        },
+        "reading_method": {
+          "description": "Transcribed for printed numerical values; digitized when a numerical value or endpoint is read graphically.",
+          "enum": [
+            "transcribed",
+            "digitized"
+          ],
+          "title": "Reading Method",
+          "type": "string"
+        },
+        "pitting_potential": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Pitting outcome as read at this location, in its original units/reference. Null if no numerical value or bound can be recovered. Never insert a converted value."
+        },
+        "kind": {
+          "const": "plot",
+          "title": "Kind",
+          "type": "string"
+        },
+        "figure_label": {
+          "description": "Printed figure identifier; empty string if absent or unreadable.",
+          "title": "Figure Label",
+          "type": "string"
+        },
+        "panel_label": {
+          "description": "Panel label such as (b); empty string for an unlabeled or single-panel figure.",
+          "title": "Panel Label",
+          "type": "string"
+        },
+        "series_label": {
+          "description": "Legend/series label and distinguishing symbol, e.g. Alloy B, open circles; empty string if unavailable.",
+          "title": "Series Label",
+          "type": "string"
+        },
+        "coordinates": {
+          "description": "Independent-variable coordinates identifying the point, in original units; [] if none can be recovered.",
+          "items": {
+            "$ref": "#/$defs/NamedValue"
+          },
+          "title": "Coordinates",
+          "type": "array"
+        }
+      },
+      "required": [
+        "pdf_page",
+        "printed_page",
+        "reading_method",
+        "pitting_potential",
+        "kind",
+        "figure_label",
+        "panel_label",
+        "series_label",
+        "coordinates"
+      ],
+      "title": "PlotLocation",
+      "type": "object"
+    },
+    "TableLocation": {
+      "additionalProperties": false,
+      "properties": {
+        "pdf_page": {
+          "description": "One-based page number in the supplied PDF, not the printed page number.",
+          "minimum": 1,
+          "title": "Pdf Page",
+          "type": "integer"
+        },
+        "printed_page": {
+          "description": "Printed page label, including prefixes if present; empty string if unavailable.",
+          "title": "Printed Page",
+          "type": "string"
+        },
+        "reading_method": {
+          "description": "Transcribed for printed numerical values; digitized when a numerical value or endpoint is read graphically.",
+          "enum": [
+            "transcribed",
+            "digitized"
+          ],
+          "title": "Reading Method",
+          "type": "string"
+        },
+        "pitting_potential": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Pitting outcome as read at this location, in its original units/reference. Null if no numerical value or bound can be recovered. Never insert a converted value."
+        },
+        "kind": {
+          "const": "table",
+          "title": "Kind",
+          "type": "string"
+        },
+        "table_label": {
+          "description": "Printed table identifier; empty string if absent or unreadable.",
+          "title": "Table Label",
+          "type": "string"
+        },
+        "row_label": {
+          "description": "Row/sample label or concise distinguishing row description; empty string if unavailable.",
+          "title": "Row Label",
+          "type": "string"
+        },
+        "column_label": {
+          "description": "Full result-column label, including scoped headers, units, and method distinction when stated.",
+          "title": "Column Label",
+          "type": "string"
+        },
+        "conditions": {
+          "description": "Additional reported conditions needed to identify the cell; [] if none extracted.",
+          "items": {
+            "$ref": "#/$defs/NamedValue"
+          },
+          "title": "Conditions",
+          "type": "array"
+        }
+      },
+      "required": [
+        "pdf_page",
+        "printed_page",
+        "reading_method",
+        "pitting_potential",
+        "kind",
+        "table_label",
+        "row_label",
+        "column_label",
+        "conditions"
+      ],
+      "title": "TableLocation",
+      "type": "object"
+    },
+    "TextLocation": {
+      "additionalProperties": false,
+      "properties": {
+        "pdf_page": {
+          "description": "One-based page number in the supplied PDF, not the printed page number.",
+          "minimum": 1,
+          "title": "Pdf Page",
+          "type": "integer"
+        },
+        "printed_page": {
+          "description": "Printed page label, including prefixes if present; empty string if unavailable.",
+          "title": "Printed Page",
+          "type": "string"
+        },
+        "reading_method": {
+          "description": "Transcribed for printed numerical values; digitized when a numerical value or endpoint is read graphically.",
+          "enum": [
+            "transcribed",
+            "digitized"
+          ],
+          "title": "Reading Method",
+          "type": "string"
+        },
+        "pitting_potential": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Pitting outcome as read at this location, in its original units/reference. Null if no numerical value or bound can be recovered. Never insert a converted value."
+        },
+        "kind": {
+          "const": "text",
+          "title": "Kind",
+          "type": "string"
+        },
+        "section_heading": {
+          "description": "Section heading containing the outcome; empty string if absent or unreadable.",
+          "title": "Section Heading",
+          "type": "string"
+        },
+        "text_anchor": {
+          "description": "Short exact identifying quotation, sufficient to find the passage; empty string if unreadable.",
+          "title": "Text Anchor",
+          "type": "string"
+        }
+      },
+      "required": [
+        "pdf_page",
+        "printed_page",
+        "reading_method",
+        "pitting_potential",
+        "kind",
+        "section_heading",
+        "text_anchor"
+      ],
+      "title": "TextLocation",
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "description": "Condition-specific numerical outcomes and paper-derived anchors from one paper.",
+  "properties": {
+    "schema_version": {
+      "const": "1.1",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "paper_name": {
+      "description": "Filename of the supplied paper PDF, including extension and excluding directory.",
+      "pattern": "^[^/\\\\]+\\.[pP][dD][fF]$",
+      "title": "Paper Name",
+      "type": "string"
+    },
+    "reference_number": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Supplied literature reference or leading positive filename number; null if unavailable.",
+      "title": "Reference Number"
+    },
+    "observations": {
+      "description": "One record per identifiable, condition-specific numerical pitting-related value or bound, including incomplete recovery of such occurrences. Consolidate only supported equivalent presentations; broad screening ranges and purely qualitative statements belong in the report.",
+      "items": {
+        "$ref": "#/$defs/Observation"
+      },
+      "title": "Observations",
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "paper_name",
+    "reference_number",
+    "observations"
+  ],
+  "title": "Paper observation registry",
+  "type": "object"
+}

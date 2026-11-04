@@ -1,130 +1,133 @@
-"""Identify all charts and tables from the MinerU content_list_v2.json file."""
-
-import argparse
+import utils.postgres as pg 
 import os 
 import json 
+import pandas as pd 
 import re 
-from typing import Any 
-from pathlib import Path
+from utils.traversal import fill_measurement_objects
 
-SPACE_RE = re.compile(r"\s+")
-
-def _normalize_text(text: str) -> str:
-    return SPACE_RE.sub(" ", text).strip()
-
-
-def _join_text(parts: list[str]) -> str:
-    return _normalize_text(" ".join(part for part in parts if part.strip()))
-
-
-def flatten_text(value: Any) -> str:
-    """Flatten MinerU span structures without traversing unrelated metadata."""
-    if value is None:
-        return ""
-    if isinstance(value, str):
-        return _normalize_text(value)
-    if isinstance(value, (int, float)) and not isinstance(value, bool):
-        return str(value)
-    if isinstance(value, list):
-        return _join_text([flatten_text(item) for item in value])
-    if not isinstance(value, dict):
-        return ""
-
-    node_type = value.get("type")
-    content = value.get("content")
-    if node_type == "text" and isinstance(content, str):
-        return _normalize_text(content)
-    if node_type in {"equation_inline", "equation_interline"} and isinstance(
-        content, str
-    ):
-        equation = _normalize_text(content)
-        return f"${equation}$" if equation else ""
-
-    for key in (
-        "paragraph_content",
-        "title_content",
-        "item_content",
-        "list_items",
-        "math_content",
-        "page_number_content",
-        "table_caption",
-        "table_footnote",
-    ):
-        if key in value:
-            return flatten_text(value[key])
-    if isinstance(content, (str, list, dict)):
-        return flatten_text(content)
-    return ""
-
-
-def get_figure_metadata(block):
-
-    image_path = block['content']['image_source']['path']
-
-    if block['type'] == 'chart':
-        caption = flatten_text(block['content']['chart_caption'])
-    elif block['type'] == 'table':
-        caption = flatten_text(block['content']['table_caption'])
-    else:
-        raise ValueError('Block does not represent a tabularizable figure.')
-
-    metadata = {
-        'type': block['type'],
-        'caption': caption,
-        'image_path': image_path
-    }
-
-    return metadata
-
-
-def find_figures(input_path : Path):
-
-    files = os.listdir(input_path)
-
-    try:
-        (content_list_file,) = [f for f in files 
-                                if f.endswith('_content_list_v2.json')]
-    except ValueError:
-        raise ValueError("There must exist exactly one '_content_list_v2.json' file.")
-
-    content_list_file = input_path / content_list_file 
-
-    with open(content_list_file, 'r', encoding='utf-8') as f:
-        data = json.load(f)
-
-    figures = [] 
-
-    for page_number, page in enumerate(data, start=1):
-        for block in page:
-
-            if block['type'] in ['chart', 'table']:
-                metadata = get_figure_metadata(block)
-                metadata['page_number'] = page_number 
-                figures.append(metadata)
-
-    return figures 
-
-def _parse_args(argv: list[str] | None) -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--input_path", type=Path, required=True)
-    parser.add_argument("--output_file", type=Path, required=True)
-    return parser.parse_args(argv)
-
-
-def main(argv: list[str] | None = None):
-    args = _parse_args(argv)
-    input_path = args.input_path
-    output_file = args.output_file
-
-    figures = find_figures(input_path)
+def load_pitting_potential_csv():
     
-    metadata_file = {
-        'input_path': str(input_path),
-        'figures': figures
+    df = pd.read_csv(
+        "citrine_database/pitting_potential_complete.csv",
+        encoding="utf-8",
+        keep_default_na=False,
+        na_values=["", "NA"],
+    )
+
+    pitting_potential_dataset = (
+        df.astype(object)
+        .where(df.notna(), None)
+        .to_dict(orient="records")
+    )
+
+    return pitting_potential_dataset
+
+
+def load_json_files(folder, filter=None):
+
+    if filter is None:
+        filter = lambda x: True
+
+    json_files = [
+        os.path.join(folder, f) 
+        for f in os.listdir(folder) 
+        if f.endswith('.json') and filter(f)]
+
+    objects = []
+
+    for fname in json_files:
+        with open(fname, 'r', encoding='utf-8') as f:
+            obj = json.load(f)
+            objects.append(obj)
+
+    return objects 
+
+
+def import_data():
+
+    pitting_potential_dataset = load_pitting_potential_csv()
+    
+    observation_registry = load_json_files('observation_registry', lambda f: f.startswith('paper_9'))
+    observation_matches = load_json_files('observation_matches', lambda f: f.startswith('paper_9'))
+
+    measurement_paths = [
+        ".observations.locations.conditions.value",
+        ".observations.locations.coordinates.value"
+    ]
+
+    fill_measurement_objects(observation_registry, measurement_paths)
+    
+    datasets = {
+        "citrine": pitting_potential_dataset,
+        "observation_registry": observation_registry,
+        "observation_matches": observation_matches,
     }
 
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(metadata_file, f, indent=4)
+    pg.recreate_and_insert_many(datasets, "agenticdb")
+
+
+def identify_missing_papers():
+
+    existing_papers = os.listdir('papers')
+
+    for i in range(len(existing_papers)):
+        existing_papers[i] = int(re.match(r"(\d+)_.*", existing_papers[i]).group(1))
+    
+    existing_papers = set(existing_papers)
+    citrine_papers = set(row['Reference'] for row in load_pitting_potential_csv())
+    all_papers = set(range(1, 86))
+    missing_papers = all_papers.difference(existing_papers)
+    missing_citrine_papers = citrine_papers.difference(existing_papers)
+
+    print(missing_papers)
+    print(missing_citrine_papers)
+
+
+def count_records_by_reference():
+    
+    dataset = load_pitting_potential_csv() 
+    records_by_reference = {}
+    
+    for row in dataset:
+
+        if row['Reference'] not in records_by_reference:
+            records_by_reference[row['Reference']] = 0
+
+        records_by_reference[row['Reference']] += 1
+
+    reference_count_list = list(records_by_reference.items())
+    count_reference_list = [(c,r) for (r,c) in reference_count_list]
+    count_reference_list.sort(reverse=True)
+    print(count_reference_list)
+
+
+def split_pitting_potential_csv():
+
+    dataset = load_pitting_potential_csv()
+
+    dataset_by_reference = {}
+
+    for row in dataset:
+
+        ref = row['Reference']
+        
+        if ref not in dataset_by_reference:
+            dataset_by_reference[ref] = []
+
+        dataset_by_reference[ref].append(row)
+
+    references = sorted(dataset_by_reference)
+
+    for ref in references:
+        subset = dataset_by_reference[ref]
+        subset = pd.DataFrame(subset)
+        subset.to_csv(f'citrine_database\\by_reference\\pitting_potential_{ref}.csv', index=False)
+
+
+def main():
+    import_data()
 
 if __name__ == "__main__":
-    main() 
+    main()
+    print("Done!")
+

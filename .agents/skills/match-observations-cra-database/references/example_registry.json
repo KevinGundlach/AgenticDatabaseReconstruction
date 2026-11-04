@@ -1,0 +1,226 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "9001_invented_corrosion_study.pdf",
+  "reference_number": 9001,
+  "observations": [
+    {
+      "observation_id": "obs_007",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "value": 0.3,
+        "unit": "V (SCE)",
+        "plus_minus": 0.01
+      },
+      "sample_label": "Alloy A",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 1,
+          "printed_page": "101",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "value": 0.3,
+            "unit": "V (SCE)",
+            "plus_minus": 0.01
+          },
+          "table_label": "Table 1",
+          "row_label": "Alloy A",
+          "column_label": "Epit (V SCE)",
+          "conditions": [
+            {
+              "name": "Temperature",
+              "value": {
+                "value": 298.15,
+                "unit": "K"
+              }
+            },
+            {
+              "name": "Nb mass fraction",
+              "value": {
+                "value": 0.005
+              }
+            }
+          ]
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "102",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "value": 301,
+            "unit": "mV (SCE)"
+          },
+          "figure_label": "Figure 1",
+          "panel_label": "",
+          "series_label": "Alloy A, circles",
+          "coordinates": [
+            {
+              "name": "Nb mass fraction",
+              "value": {
+                "value": 0.005
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_008",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "value": 310,
+        "unit": "mV (SCE)"
+      },
+      "sample_label": "Alloy A",
+      "association_notes": "",
+      "result_note": "The source leaves the affected current-criterion points unidentified. This presentation may repeat obs_007; run identity is not established.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "102",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "value": 310,
+            "unit": "mV (SCE)"
+          },
+          "figure_label": "Figure 2",
+          "panel_label": "",
+          "series_label": "Alloy A, squares",
+          "coordinates": [
+            {
+              "name": "Nb",
+              "value": {
+                "value": 0.5,
+                "unit": "wt%"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_011",
+      "result_type": "reported_experimental",
+      "extraction_status": "partial",
+      "pitting_potential": null,
+      "sample_label": "Alloy B",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "Legend is unreadable; potential and exact procedure cannot be recovered.",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "103",
+          "reading_method": "digitized",
+          "pitting_potential": null,
+          "figure_label": "Figure 3",
+          "panel_label": "(b)",
+          "series_label": "",
+          "coordinates": [
+            {
+              "name": "Temperature",
+              "value": {
+                "value": 50,
+                "unit": "°C"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_015",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "min": 0.8,
+        "unit": "V (SCE)"
+      },
+      "sample_label": "Alloy B",
+      "association_notes": "",
+      "result_note": "Reported lower bound Epit > 0.8 V (SCE), not a pitting event at the limit.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 3,
+          "printed_page": "103",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "min": 0.8,
+            "unit": "V (SCE)"
+          },
+          "section_heading": "Results",
+          "text_anchor": "Alloy B remained free of pits beyond 0.8 V"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_023",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "value": 250,
+        "unit": "mV (SCE)"
+      },
+      "sample_label": "Alloy Z",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 4,
+          "printed_page": "104",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "value": 250,
+            "unit": "mV (SCE)"
+          },
+          "table_label": "Table 2",
+          "row_label": "Alloy Z",
+          "column_label": "Epit (mV SCE)",
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_030",
+      "result_type": "reported_experimental",
+      "extraction_status": "failed",
+      "pitting_potential": null,
+      "sample_label": "",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "Legend and coordinates are unreadable; no useful automatic association can be recovered.",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 5,
+          "printed_page": "105",
+          "reading_method": "digitized",
+          "pitting_potential": null,
+          "figure_label": "Figure 4",
+          "panel_label": "",
+          "series_label": "",
+          "coordinates": []
+        }
+      ]
+    }
+  ]
+}
