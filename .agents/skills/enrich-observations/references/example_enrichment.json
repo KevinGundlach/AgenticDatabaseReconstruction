@@ -1,0 +1,326 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "9002_invented_enrichment.pdf",
+  "reference_number": 9002,
+  "experiments": [
+    {
+      "alloy": {
+        "preparation": "Solution treated at 1050 °C for 1 h, water quenched, then polished to 1200 grit.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Reported austenitic matrix.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 298,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with nitrogen for 30 min before testing.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "ph": {
+          "value": 7.2,
+          "plus_minus": 0.1
+        },
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Scanned at 0.1 mV/s up to 200 mV, then at 0.5 mV/s; scope established for Alloy A.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sustained anodic-current increase; a current criterion was substituted where a definite threshold was absent, without identifying individual affected results."
+      },
+      "pitting_potential": {
+        "value": 0.31,
+        "min": 0.29,
+        "max": 0.33,
+        "unit": "V (SCE)",
+        "plus_minus": 0.01
+      },
+      "result_note": "Reported mean with error-bar endpoints; the source leaves individual current-criterion substitutions unidentified. Figure 1 gives a different reading for this condition.",
+      "failure_notes": "",
+      "observation_id": "obs_003"
+    },
+    {
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Seawater, as named by the authors; no recipe supplied.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Applied successive 20 mV steps, holding each for 60 s.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 60,
+          "unit": "s"
+        },
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "min": 800,
+        "unit": "mV (SCE)",
+        "value": null
+      },
+      "result_note": "Epit > 800 mV (SCE) is a lower bound, not a pitting event at 800 mV.",
+      "failure_notes": "",
+      "observation_id": "obs_009"
+    },
+    {
+      "alloy": {
+        "preparation": "",
+        "composition": [],
+        "microstructure": "",
+        "material_class": ""
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with nitrogen for 30 min before testing.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Only the explicitly shared medium and temperature could be associated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": null,
+      "result_note": "",
+      "failure_notes": "The marker is identifiable, but potential digits and the alloy legend are unreadable.",
+      "observation_id": "obs_012"
+    },
+    {
+      "alloy": {
+        "preparation": "Solution treated at 1050 °C for 1 h, water quenched, then polished to 1200 grit.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Reported austenitic matrix.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 298,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with nitrogen for 30 min before testing.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "ph": {
+          "value": 7.2,
+          "plus_minus": 0.1
+        },
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Scanned at 0.1 mV/s up to 200 mV, then at 0.5 mV/s; scope established for Alloy A.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sustained anodic-current increase; a current criterion was substituted where a definite threshold was absent, without identifying individual affected results."
+      },
+      "pitting_potential": {
+        "value": 345,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "Table 2 identifies the triangle sample as Alloy C; the previous contextual code-reading problem was resolved.",
+      "failure_notes": "",
+      "observation_id": "obs_018"
+    },
+    {
+      "alloy": {
+        "preparation": "Solution treated at 1050 °C for 1 h, water quenched, then polished to 1200 grit.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Reported austenitic matrix.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 298,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with nitrogen for 30 min before testing.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "mol/L"
+            }
+          }
+        ],
+        "ph": {
+          "value": 7.2,
+          "plus_minus": 0.1
+        },
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Scanned at 0.1 mV/s up to 200 mV, then at 0.5 mV/s; scope established for Alloy A.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sustained anodic-current increase; a current criterion was substituted where a definite threshold was absent, without identifying individual affected results."
+      },
+      "pitting_potential": {
+        "value": 310,
+        "unit": "mV (SCE)"
+      },
+      "result_note": "This may repeat obs_003, but correspondence of individual runs is not established.",
+      "failure_notes": "",
+      "observation_id": "obs_030"
+    }
+  ],
+  "inputs": {
+    "pdf": {
+      "filename": "9002_invented_enrichment.pdf",
+      "sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+    },
+    "registry": {
+      "filename": "example_registry.json",
+      "sha256": "e5a3d4daeff2916bd6ac72e8aa418945b5ddfd8bd62375ddbc00a2e351d20bfb"
+    }
+  }
+}

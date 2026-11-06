@@ -1,0 +1,503 @@
+{
+  "$comment": "Use \"\" for unavailable text, [] for collections, and null for unavailable measurements. All fields except measurement subfields are required. Reject duplicate keys, NaN and Infinity. The bundled validator also checks exact input fingerprints, eligible-ID coverage/order, and unchanged raw pitting_potential objects, including omitted fields. Validation does not certify scientific fidelity or visual coverage.",
+  "$defs": {
+    "Alloy": {
+      "additionalProperties": false,
+      "properties": {
+        "preparation": {
+          "description": "Reported manufacturing, thermal treatment, mechanical processing, and specimen surface preparation applicable to the tested material. Preserve ordering and conditions in prose. Use an empty string if unavailable; retain explicit statements such as 'No heat treatment was applied'.",
+          "title": "Preparation",
+          "type": "string"
+        },
+        "composition": {
+          "description": "Reported composition of the tested alloy. Include explicitly reported elements only. Use [] if no composition is extracted; this does not imply a pure material.",
+          "items": {
+            "$ref": "#/$defs/AlloyComponent"
+          },
+          "title": "Composition",
+          "type": "array"
+        },
+        "microstructure": {
+          "description": "Reported microstructure in the tested condition, including phases, grain size, precipitates, and inclusions when stated. Do not substitute general explanations or post-corrosion morphology. Use an empty string if unavailable.",
+          "title": "Microstructure",
+          "type": "string"
+        },
+        "material_class": {
+          "description": "Citrine-style category under the project's classification rules. Use an empty string if unresolved. Other is a positive classification, not a missing-value marker.",
+          "enum": [
+            "",
+            "Fe Alloy",
+            "Al Alloy",
+            "HEA",
+            "NiCrMo Alloy",
+            "Other"
+          ],
+          "title": "Material Class",
+          "type": "string"
+        }
+      },
+      "required": [
+        "preparation",
+        "composition",
+        "microstructure",
+        "material_class"
+      ],
+      "title": "Alloy",
+      "type": "object"
+    },
+    "AlloyComponent": {
+      "additionalProperties": false,
+      "properties": {
+        "element_symbol": {
+          "description": "Reported chemical element symbol, e.g. Fe, Cr, or Ni.",
+          "title": "Element Symbol",
+          "type": "string"
+        },
+        "amount": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "const": "balance",
+              "type": "string"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported amount with its original basis, e.g. wt% or at%. Use 'balance' only when explicitly reported. Use null if unavailable; do not substitute zero.",
+          "title": "Amount"
+        }
+      },
+      "required": [
+        "element_symbol",
+        "amount"
+      ],
+      "title": "AlloyComponent",
+      "type": "object"
+    },
+    "EnrichedExperiment": {
+      "additionalProperties": false,
+      "properties": {
+        "alloy": {
+          "$ref": "#/$defs/Alloy"
+        },
+        "test_temperature": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported electrolyte temperature during testing; null if unavailable. Do not substitute preparation temperature or assume a number for 'room temperature'. Retain unresolved wording in procedure_description."
+        },
+        "test_solution": {
+          "$ref": "#/$defs/TestSolution"
+        },
+        "test_method": {
+          "$ref": "#/$defs/TestMethod"
+        },
+        "pitting_potential": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported pitting potential in original units including the reported reference electrode. Use null if no numerical result can be represented. Do not substitute corrosion potential, repassivation potential, or non-pitting breakdown. Preserve unsupported inequality/statistical distinctions in result_note."
+        },
+        "result_note": {
+          "description": "Brief clarification, e.g. no pitting observed, a strict inequality, experimental limit, statistical meaning, or conflicting values. Use an empty string if unnecessary.",
+          "title": "Result Note",
+          "type": "string"
+        },
+        "failure_notes": {
+          "description": "Extraction failures that make this row unreliable or incomplete, e.g. a pitting potential cannot be linked to its alloy, an ambiguous condition assignment, or an unreadable reported value. Identify the affected field and unresolved problem. Use an empty string normally. Ordinary unreported information is not a failure; scientific qualifications belong in result_note.",
+          "title": "Failure Notes",
+          "type": "string"
+        },
+        "observation_id": {
+          "description": "Unchanged registry-scoped ID; not an author-supplied experiment identifier.",
+          "pattern": "^obs_[0-9]{3,}$",
+          "title": "Observation Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "alloy",
+        "test_temperature",
+        "test_solution",
+        "test_method",
+        "pitting_potential",
+        "result_note",
+        "failure_notes",
+        "observation_id"
+      ],
+      "title": "EnrichedExperiment",
+      "type": "object"
+    },
+    "InputFile": {
+      "additionalProperties": false,
+      "properties": {
+        "filename": {
+          "description": "Input basename, without directories.",
+          "pattern": "^[^/\\\\]+$",
+          "title": "Filename",
+          "type": "string"
+        },
+        "sha256": {
+          "description": "SHA-256 of the exact original file bytes.",
+          "pattern": "^[0-9a-f]{64}$",
+          "title": "Sha256",
+          "type": "string"
+        }
+      },
+      "required": [
+        "filename",
+        "sha256"
+      ],
+      "title": "InputFile",
+      "type": "object"
+    },
+    "InputFiles": {
+      "additionalProperties": false,
+      "properties": {
+        "pdf": {
+          "$ref": "#/$defs/InputFile"
+        },
+        "registry": {
+          "$ref": "#/$defs/InputFile"
+        }
+      },
+      "required": [
+        "pdf",
+        "registry"
+      ],
+      "title": "InputFiles",
+      "type": "object"
+    },
+    "Measurement": {
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "properties": {
+            "value": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "value"
+          ]
+        },
+        {
+          "properties": {
+            "min": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "min"
+          ]
+        },
+        {
+          "properties": {
+            "max": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "max"
+          ]
+        }
+      ],
+      "description": "Reported value or bounds, optionally with units and symmetric uncertainty.",
+      "if": {
+        "properties": {
+          "plus_minus": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "plus_minus"
+        ]
+      },
+      "properties": {
+        "value": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Single or central reported value; null or omitted if unavailable.",
+          "title": "Value"
+        },
+        "min": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Reported lower endpoint or lower bound; null or omitted if unavailable.",
+          "title": "Min"
+        },
+        "max": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Reported upper endpoint or upper bound; null or omitted if unavailable.",
+          "title": "Max"
+        },
+        "unit": {
+          "default": "",
+          "description": "Original reported unit, e.g. wt%, at%, mol/L, or degC. Include the reported electrode reference for potentials, e.g. 'mV (SCE)' or 'V (Ag/AgCl, saturated KCl)'. Use an empty string or omit for dimensionless quantities or unavailable units. Do not infer units or electrode details.",
+          "title": "Unit",
+          "type": "string"
+        },
+        "plus_minus": {
+          "anyOf": [
+            {
+              "minimum": 0,
+              "type": "number"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "default": null,
+          "description": "Magnitude of reported symmetric uncertainty, in the same unit as value. Requires a numerical value. Do not infer from minima and maxima. Null or omitted if unavailable.",
+          "title": "Plus Minus"
+        }
+      },
+      "then": {
+        "properties": {
+          "value": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "value"
+        ]
+      },
+      "title": "Measurement",
+      "type": "object"
+    },
+    "SolutionComponent": {
+      "additionalProperties": false,
+      "properties": {
+        "solute": {
+          "description": "Reported solute name or formula, e.g. NaCl or H2SO4.",
+          "title": "Solute",
+          "type": "string"
+        },
+        "amount": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported solute amount or concentration with original units. Preserve distinctions such as mol/L, mol/kg, wt%, and volume percent. Use null if unavailable."
+        }
+      },
+      "required": [
+        "solute",
+        "amount"
+      ],
+      "title": "SolutionComponent",
+      "type": "object"
+    },
+    "TestMethod": {
+      "additionalProperties": false,
+      "properties": {
+        "test_types": {
+          "description": "Applicable method labels, e.g. potentiodynamic polarization, potentiostatic polarization, or cyclic polarization. Several may apply. Use [] if unavailable; describe their order in procedure_description.",
+          "items": {
+            "type": "string"
+          },
+          "title": "Test Types",
+          "type": "array"
+        },
+        "procedure_description": {
+          "description": "Reported testing sequence and conditions relevant to this outcome, including pretreatment, stabilization, potential ranges, changing scan rates, holds, and reversals. Use an empty string if unavailable.",
+          "title": "Procedure Description",
+          "type": "string"
+        },
+        "scan_rate": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "One reported scan rate adequately describing the scan relevant to this result. For multiple rates across protocol segments, use null and describe the schedule in procedure_description. 'Steady state' is not a numerical scan rate."
+        },
+        "potential_step": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported potential increment for stepped testing, e.g. 20 mV; not a scan rate. Use null if unavailable, inapplicable, or not adequately represented by one value."
+        },
+        "step_hold_duration": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported duration of each potential step. Use null if unavailable or inapplicable. Describe varying schedules in procedure_description rather than forcing one duration."
+        },
+        "pitting_criterion": {
+          "description": "Reported criterion for identifying pitting, e.g. a current-density threshold, sustained current increase, or visual confirmation. Use an empty string if unavailable.",
+          "title": "Pitting Criterion",
+          "type": "string"
+        }
+      },
+      "required": [
+        "test_types",
+        "procedure_description",
+        "scan_rate",
+        "potential_step",
+        "step_hold_duration",
+        "pitting_criterion"
+      ],
+      "title": "TestMethod",
+      "type": "object"
+    },
+    "TestSolution": {
+      "additionalProperties": false,
+      "properties": {
+        "preparation": {
+          "description": "Reported solution preparation and conditioning, including mixing, gas identity, deaeration/aeration duration, pH adjustment, and whether gas flow continued during testing. Deaeration is not itself a solute. Use an empty string if unavailable.",
+          "title": "Preparation",
+          "type": "string"
+        },
+        "solvent": {
+          "description": "Reported solvent or solvent mixture. Use an empty string if unavailable; do not assume water.",
+          "title": "Solvent",
+          "type": "string"
+        },
+        "composition": {
+          "description": "Reported solutes and their amounts. Use [] if unavailable; this does not establish that no solutes were present.",
+          "items": {
+            "$ref": "#/$defs/SolutionComponent"
+          },
+          "title": "Composition",
+          "type": "array"
+        },
+        "ph": {
+          "anyOf": [
+            {
+              "type": "number"
+            },
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Reported pH as a number or a measurement object for a range or uncertainty. Use null if unavailable. Do not calculate missing pH or restrict it to 0-14.",
+          "title": "Ph"
+        },
+        "chloride_concentration": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/Measurement"
+            },
+            {
+              "type": "null"
+            }
+          ],
+          "description": "Explicitly reported chloride-ion concentration, including values calculated and then reported by the authors. Use null if unavailable. Do not calculate from salt composition during extraction or substitute typical seawater values."
+        }
+      },
+      "required": [
+        "preparation",
+        "solvent",
+        "composition",
+        "ph",
+        "chloride_concentration"
+      ],
+      "title": "TestSolution",
+      "type": "object"
+    }
+  },
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "schema_version": {
+      "const": "1.0",
+      "description": "Version of this extraction format.",
+      "title": "Schema Version",
+      "type": "string"
+    },
+    "paper_name": {
+      "description": "Filename of the paper processed.",
+      "title": "Paper Name",
+      "type": "string"
+    },
+    "reference_number": {
+      "anyOf": [
+        {
+          "minimum": 1,
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "Reference number of the paper.",
+      "title": "Reference Number"
+    },
+    "experiments": {
+      "description": "Exactly one record for each supplied complete or partial registry observation, in input order. Skip failed observations; preserve separate IDs even for possible duplicates. Copy each anchored pitting_potential unchanged. [] means no eligible supplied IDs.",
+      "items": {
+        "$ref": "#/$defs/EnrichedExperiment"
+      },
+      "title": "Experiments",
+      "type": "array"
+    },
+    "inputs": {
+      "$ref": "#/$defs/InputFiles"
+    }
+  },
+  "required": [
+    "schema_version",
+    "paper_name",
+    "reference_number",
+    "experiments",
+    "inputs"
+  ],
+  "title": "Registry-anchored observation enrichment",
+  "type": "object"
+}

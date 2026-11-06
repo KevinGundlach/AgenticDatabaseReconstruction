@@ -1,0 +1,4 @@
+interface:
+  display_name: "Enrich Observations"
+  short_description: "Extract experiment context for registered observations"
+  default_prompt: "Use $enrich-observations in a fresh paper-only context to enrich the supplied PDF and observation registry, preserving observation IDs and anchored potentials."

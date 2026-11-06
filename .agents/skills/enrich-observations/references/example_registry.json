@@ -1,0 +1,218 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "9002_invented_enrichment.pdf",
+  "reference_number": 9002,
+  "observations": [
+    {
+      "observation_id": "obs_003",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "value": 0.31,
+        "min": 0.29,
+        "max": 0.33,
+        "unit": "V (SCE)",
+        "plus_minus": 0.01
+      },
+      "sample_label": "Alloy A",
+      "association_notes": "",
+      "result_note": "Reported mean with error-bar endpoints; the source leaves individual current-criterion substitutions unidentified. Figure 1 gives a different reading for this condition.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 2,
+          "printed_page": "102",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "value": 0.31,
+            "min": 0.29,
+            "max": 0.33,
+            "unit": "V (SCE)",
+            "plus_minus": 0.01
+          },
+          "table_label": "Table 1",
+          "row_label": "A",
+          "column_label": "Epit (V SCE)",
+          "conditions": [
+            {
+              "name": "Temperature",
+              "value": {
+                "value": 298,
+                "unit": "K"
+              }
+            }
+          ]
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "103",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "value": 0.33,
+            "unit": "V (SCE)"
+          },
+          "figure_label": "Figure 1",
+          "panel_label": "",
+          "series_label": "A, circles",
+          "coordinates": [
+            {
+              "name": "Mo",
+              "value": {
+                "value": 2,
+                "unit": "wt%"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_009",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "min": 800,
+        "unit": "mV (SCE)",
+        "value": null
+      },
+      "sample_label": "Alloy B",
+      "association_notes": "",
+      "result_note": "Epit > 800 mV (SCE) is a lower bound, not a pitting event at 800 mV.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "104",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "min": 800,
+            "unit": "mV (SCE)",
+            "value": null
+          },
+          "section_heading": "Results",
+          "text_anchor": "No pitting was detected beyond 800 mV"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_012",
+      "result_type": "reported_experimental",
+      "extraction_status": "partial",
+      "pitting_potential": null,
+      "sample_label": "",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "The marker is identifiable, but potential digits and the alloy legend are unreadable.",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "103",
+          "reading_method": "digitized",
+          "pitting_potential": null,
+          "figure_label": "Figure 2",
+          "panel_label": "(b)",
+          "series_label": "",
+          "coordinates": [
+            {
+              "name": "pH",
+              "value": {
+                "value": 7
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_018",
+      "result_type": "reported_experimental",
+      "extraction_status": "partial",
+      "pitting_potential": {
+        "value": 345,
+        "unit": "mV (SCE)"
+      },
+      "sample_label": "C?",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "The legend sample code could not be recovered during registration.",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "103",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "value": 345,
+            "unit": "mV (SCE)"
+          },
+          "figure_label": "Figure 2",
+          "panel_label": "(a)",
+          "series_label": "triangle",
+          "coordinates": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_024",
+      "result_type": "reported_experimental",
+      "extraction_status": "failed",
+      "pitting_potential": null,
+      "sample_label": "",
+      "association_notes": "",
+      "result_note": "",
+      "failure_notes": "Legend and coordinates cannot be recovered sufficiently for automatic processing.",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 5,
+          "printed_page": "105",
+          "reading_method": "digitized",
+          "pitting_potential": null,
+          "figure_label": "Figure 3",
+          "panel_label": "",
+          "series_label": "",
+          "coordinates": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_030",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "value": 310,
+        "unit": "mV (SCE)"
+      },
+      "sample_label": "Alloy A",
+      "association_notes": "",
+      "result_note": "This may repeat obs_003, but correspondence of individual runs is not established.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 5,
+          "printed_page": "105",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "value": 310,
+            "unit": "mV (SCE)"
+          },
+          "figure_label": "Figure 4",
+          "panel_label": "",
+          "series_label": "A, square",
+          "coordinates": []
+        }
+      ]
+    }
+  ]
+}
