@@ -1,0 +1,477 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "20_Y.Y. Chen, T. Duval, U.D. Hung, J.W. Yeh, H.C. Shih. Corrosion Science, 47 (2005), 2257-2279.pdf",
+  "reference_number": 20,
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.58
+      },
+      "sample_label": "HEA",
+      "association_notes": "Deaerated NaCl, room temperature (~25°C).",
+      "result_note": "Explicit pitting potential. The paper reports three tests per condition, but does not supply individual replicate potentials or uncertainties here.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 14,
+          "printed_page": "2270",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.58
+          },
+          "table_label": "Table 3",
+          "row_label": "Epit (V SCE)",
+          "column_label": "HEA: NaCl concentration 0.1 M",
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_002",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.25
+      },
+      "sample_label": "HEA",
+      "association_notes": "Deaerated NaCl, room temperature (~25°C).",
+      "result_note": "Explicit pitting potential. The paper reports three tests per condition, but does not supply individual replicate potentials or uncertainties here. Source conflict: Table 3 and associated text give -0.25 V(SCE), while Table 5 prints -0.49 V(SCE) for the same HEA 1M NaCl condition. Both are retained, with the dedicated Epit Table 3 reading primary; no reference conversion or correction is inferred.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 14,
+          "printed_page": "2270",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.25
+          },
+          "table_label": "Table 3",
+          "row_label": "Epit (V SCE)",
+          "column_label": "HEA: NaCl concentration 1 M",
+          "conditions": []
+        },
+        {
+          "kind": "text",
+          "pdf_page": 14,
+          "printed_page": "2270",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.25
+          },
+          "section_heading": "3.3. Anodic polarization curves",
+          "text_anchor": "the pitting potential (Epit) for HEA"
+        },
+        {
+          "kind": "table",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.49
+          },
+          "table_label": "Table 5",
+          "row_label": "1 M NaCl",
+          "column_label": "Epit or Eb (V SCE)",
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_003",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.46
+      },
+      "sample_label": "304S",
+      "association_notes": "Deaerated NaCl, room temperature (~25°C).",
+      "result_note": "Explicit pitting potential. The paper reports three tests per condition, but does not supply individual replicate potentials or uncertainties here.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 14,
+          "printed_page": "2270",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.46
+          },
+          "table_label": "Table 3",
+          "row_label": "Epit (V SCE)",
+          "column_label": "304S: NaCl concentration 0.1 M",
+          "conditions": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_004",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.17
+      },
+      "sample_label": "304S",
+      "association_notes": "Deaerated NaCl, room temperature (~25°C).",
+      "result_note": "Explicit pitting potential. The paper reports three tests per condition, but does not supply individual replicate potentials or uncertainties here.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 14,
+          "printed_page": "2270",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.17
+          },
+          "table_label": "Table 3",
+          "row_label": "Epit (V SCE)",
+          "column_label": "304S: NaCl concentration 1 M",
+          "conditions": []
+        },
+        {
+          "kind": "text",
+          "pdf_page": 14,
+          "printed_page": "2270",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.17
+          },
+          "section_heading": "3.3. Anodic polarization curves",
+          "text_anchor": "304S (0.17 V)"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_005",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.28
+      },
+      "sample_label": "HEA",
+      "association_notes": "Deaerated electrolyte, room temperature (~25°C).",
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.28
+          },
+          "table_label": "Table 5",
+          "row_label": "1 N H2SO4 + 1 M NaCl",
+          "column_label": "Epit or Eb (V SCE)",
+          "conditions": []
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.28
+          },
+          "figure_label": "Fig. 13",
+          "panel_label": "",
+          "series_label": "Pitting potential, Epit; red triangles",
+          "coordinates": [
+            {
+              "name": "NaCl added to 1 N H2SO4",
+              "value": {
+                "unit": "M",
+                "value": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_006",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.23
+      },
+      "sample_label": "HEA",
+      "association_notes": "Deaerated electrolyte, room temperature (~25°C).",
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.23
+          },
+          "table_label": "Table 5",
+          "row_label": "1 N H2SO4 + 0.6 M NaCl",
+          "column_label": "Epit or Eb (V SCE)",
+          "conditions": []
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.23
+          },
+          "figure_label": "Fig. 13",
+          "panel_label": "",
+          "series_label": "Pitting potential, Epit; red triangles",
+          "coordinates": [
+            {
+              "name": "NaCl added to 1 N H2SO4",
+              "value": {
+                "unit": "M",
+                "value": 0.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_007",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.21
+      },
+      "sample_label": "HEA",
+      "association_notes": "Deaerated electrolyte, room temperature (~25°C).",
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.21
+          },
+          "table_label": "Table 5",
+          "row_label": "1 N H2SO4 + 0.5 M NaCl",
+          "column_label": "Epit or Eb (V SCE)",
+          "conditions": []
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.21
+          },
+          "figure_label": "Fig. 13",
+          "panel_label": "",
+          "series_label": "Pitting potential, Epit; red triangles",
+          "coordinates": [
+            {
+              "name": "NaCl added to 1 N H2SO4",
+              "value": {
+                "unit": "M",
+                "value": 0.5
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_008",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.215
+      },
+      "sample_label": "HEA",
+      "association_notes": "Deaerated electrolyte, room temperature (~25°C).",
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.215
+          },
+          "table_label": "Table 5",
+          "row_label": "1 N H2SO4 + 0.4 M NaCl",
+          "column_label": "Epit or Eb (V SCE)",
+          "conditions": []
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.21
+          },
+          "figure_label": "Fig. 13",
+          "panel_label": "",
+          "series_label": "Pitting potential, Epit; red triangles",
+          "coordinates": [
+            {
+              "name": "NaCl added to 1 N H2SO4",
+              "value": {
+                "unit": "M",
+                "value": 0.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_009",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.24
+      },
+      "sample_label": "HEA",
+      "association_notes": "Deaerated electrolyte, room temperature (~25°C).",
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.24
+          },
+          "table_label": "Table 5",
+          "row_label": "1 N H2SO4 + 0.1 M NaCl",
+          "column_label": "Epit or Eb (V SCE)",
+          "conditions": []
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.24
+          },
+          "figure_label": "Fig. 13",
+          "panel_label": "",
+          "series_label": "Pitting potential, Epit; red triangles",
+          "coordinates": [
+            {
+              "name": "NaCl added to 1 N H2SO4",
+              "value": {
+                "unit": "M",
+                "value": 0.1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_010",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.22
+      },
+      "sample_label": "HEA",
+      "association_notes": "Deaerated electrolyte, room temperature (~25°C).",
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.22
+          },
+          "table_label": "Table 5",
+          "row_label": "1 N H2SO4 + 0.01 M NaCl",
+          "column_label": "Epit or Eb (V SCE)",
+          "conditions": []
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 18,
+          "printed_page": "2274",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": -0.22
+          },
+          "figure_label": "Fig. 13",
+          "panel_label": "",
+          "series_label": "Pitting potential, Epit; red triangles",
+          "coordinates": [
+            {
+              "name": "NaCl added to 1 N H2SO4",
+              "value": {
+                "unit": "M",
+                "value": 0.01
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

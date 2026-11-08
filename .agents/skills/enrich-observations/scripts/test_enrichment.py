@@ -23,7 +23,6 @@ from enrichment_io import (
 )
 from observation_enrichment import ObservationEnrichment
 from observation_registry import ObservationRegistry
-from paper_extraction import PaperExtraction
 
 
 SKILL = Path(__file__).resolve().parents[1]
@@ -84,7 +83,6 @@ class EnrichmentTests(unittest.TestCase):
     def test_bundled_models_and_schemas_agree(self):
         for model, name in [
             (ObservationRegistry, "observation_registry.schema.json"),
-            (PaperExtraction, "paper_extraction.schema.json"),
             (ObservationEnrichment, "observation_enrichment.schema.json"),
         ]:
             schema = checked_schema(model, name)
@@ -93,27 +91,17 @@ class EnrichmentTests(unittest.TestCase):
         validate_model(load_json(REFERENCES / "example_enrichment.json"), ObservationEnrichment, "observation_enrichment.schema.json")
         self.validate()
 
-    def test_extraction_schema_parity_except_agreed_bookkeeping(self):
-        base = PaperExtraction.model_json_schema()
-        enriched = ObservationEnrichment.model_json_schema()
-        for name, definition in base["$defs"].items():
-            if name != "Experiment":
-                self.assertEqual(definition, enriched["$defs"][name], name)
-        old_experiment = base["$defs"]["Experiment"]
-        new_experiment = enriched["$defs"]["EnrichedExperiment"]
-        self.assertEqual(set(new_experiment["properties"]), set(old_experiment["properties"]) | {"observation_id"})
-        self.assertEqual(set(new_experiment["required"]), set(old_experiment["required"]) | {"observation_id"})
-        for name, definition in old_experiment["properties"].items():
-            self.assertEqual(definition, new_experiment["properties"][name], name)
-        self.assertEqual(set(enriched["properties"]), set(base["properties"]) | {"inputs"})
-        self.assertEqual(set(enriched["required"]), set(base["required"]) | {"inputs"})
-        for name in ("schema_version", "paper_name", "reference_number"):
-            self.assertEqual(base["properties"][name], enriched["properties"][name])
-        pruned = self.enrichment()
-        del pruned["inputs"]
-        for row in pruned["experiments"]:
-            del row["observation_id"]
-        PaperExtraction.model_validate(pruned)
+    def test_schema_and_serialized_field_order_match_bundled_contract(self):
+        schema = load_json(REFERENCES / "observation_enrichment.schema.json")
+        self.assertEqual(schema, ObservationEnrichment.model_json_schema())
+        model = ObservationEnrichment.model_validate(self.enrichment())
+        for exclude_unset in (False, True):
+            with self.subTest(exclude_unset=exclude_unset):
+                serialized = model.model_dump(mode="json", exclude_unset=exclude_unset)
+                Draft202012Validator(schema).validate(serialized)
+                self.assertEqual(list(serialized), list(schema["properties"]))
+                for row in serialized["experiments"]:
+                    self.assertEqual(list(row), list(schema["$defs"]["EnrichedExperiment"]["properties"]))
 
     def test_full_input_routes_complete_partial_and_failed(self):
         prepared = self.prepared()
@@ -467,7 +455,7 @@ class EnrichmentTests(unittest.TestCase):
         self.assertEqual(response.returncode, 2)
         self.assertIn("Setup failure", response.stderr)
         folder = self.copy_skill()
-        for name in ("paper_extraction.schema.json", "observation_registry.schema.json", "observation_enrichment.schema.json"):
+        for name in ("observation_registry.schema.json", "observation_enrichment.schema.json"):
             resource = folder / "references" / name
             original = resource.read_bytes()
             resource.write_text('{}', encoding="utf-8")

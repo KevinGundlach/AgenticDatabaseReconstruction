@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "24_Y.L.Chou, J.W.Yeh, and H.C. Shih. Corrosion Science, 52 (2010),2571-2581.pdf",
+  "reference_number": 24,
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 338
+      },
+      "sample_label": "Mo0",
+      "association_notes": "Co1.5CrFeNi1.5Ti0.5Mo0; Fig. 5(a) and Sections 3.3–3.4 associate this breakdown with positive hysteresis and observed pits.",
+      "result_note": "Reported breakdown potential associated with pitting in the Mo-free specimen. The lower Eprot and Erp are separate protection/repassivation quantities, not duplicate pitting potentials.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 7,
+          "printed_page": "2577",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "mV (SHE)",
+            "value": 338
+          },
+          "table_label": "Table 6",
+          "row_label": "Mo0",
+          "column_label": "Eb (mV_SHE)",
+          "conditions": [
+            {
+              "name": "solution",
+              "value": "deaerated 1 M NaCl"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

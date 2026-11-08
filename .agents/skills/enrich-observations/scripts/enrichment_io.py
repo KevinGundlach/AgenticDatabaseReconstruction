@@ -15,7 +15,6 @@ from pydantic import ValidationError
 
 from observation_enrichment import InputFile, InputFiles, ObservationEnrichment
 from observation_registry import ObservationRegistry
-from paper_extraction import PaperExtraction
 
 
 REFERENCES = Path(__file__).resolve().parents[1] / "references"
@@ -145,8 +144,6 @@ def prepare_inputs(pdf: Path, registry_path: Path):
     registry_bytes = read_bytes(registry_path)
     document = parse_json(registry_bytes, str(registry_path))
     registry = validate_model(document, ObservationRegistry, "observation_registry.schema.json")
-    # Check the copied base schema as well as the two active input/output schemas.
-    checked_schema(PaperExtraction, "paper_extraction.schema.json")
     references = []
     if registry.reference_number is not None:
         references.append(("registry reference_number", registry.reference_number))

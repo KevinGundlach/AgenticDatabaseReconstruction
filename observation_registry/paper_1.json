@@ -1,0 +1,2061 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "1_J. Horvath, H. H. Uhlig, J. Electrochem. Soc. 115 (1968)_ p. 791.pdf",
+  "reference_number": 1,
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "result_type": "cited",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V",
+        "value": -0.45
+      },
+      "sample_label": "Al",
+      "association_notes": "",
+      "result_note": "Table footnote: estimated from data for various chloride concentrations.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 1,
+          "printed_page": "791",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V",
+            "value": -0.45
+          },
+          "table_label": "Table I",
+          "row_label": "Al",
+          "column_label": "Critical potential, v",
+          "conditions": [
+            {
+              "name": "NaCl",
+              "value": {
+                "unit": "N",
+                "value": 0.1
+              }
+            },
+            {
+              "name": "Temperature",
+              "value": {
+                "unit": "°C",
+                "value": 25
+              }
+            },
+            {
+              "name": "Reference",
+              "value": "(3)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_002",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V",
+        "value": 0.28
+      },
+      "sample_label": "Ni",
+      "association_notes": "Table I present-data Ni corresponds to the 0% Cr steady-state endpoint in Fig. 2.",
+      "result_note": "Table footnote: estimated from data for various chloride concentrations.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 1,
+          "printed_page": "791",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V",
+            "value": 0.28
+          },
+          "table_label": "Table I",
+          "row_label": "Ni",
+          "column_label": "Critical potential, v",
+          "conditions": [
+            {
+              "name": "NaCl",
+              "value": {
+                "unit": "N",
+                "value": 0.1
+              }
+            },
+            {
+              "name": "Temperature",
+              "value": {
+                "unit": "°C",
+                "value": 25
+              }
+            },
+            {
+              "name": "Reference",
+              "value": "Present data"
+            }
+          ]
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.28
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc steady state; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_003",
+      "result_type": "cited",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V",
+        "value": 0.26
+      },
+      "sample_label": "18-8",
+      "association_notes": "",
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Characteristic of one commercial composition; the paper says pure alloys usually give higher values.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 1,
+          "printed_page": "791",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V",
+            "value": 0.26
+          },
+          "table_label": "Table I",
+          "row_label": "18-8",
+          "column_label": "Critical potential, v",
+          "conditions": [
+            {
+              "name": "NaCl",
+              "value": {
+                "unit": "N",
+                "value": 0.1
+              }
+            },
+            {
+              "name": "Temperature",
+              "value": {
+                "unit": "°C",
+                "value": 25
+              }
+            },
+            {
+              "name": "Reference",
+              "value": "(2)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_004",
+      "result_type": "cited",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V",
+        "value": 0.46
+      },
+      "sample_label": "Zr",
+      "association_notes": "",
+      "result_note": "Table footnote: estimated from data for various chloride concentrations.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 1,
+          "printed_page": "791",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V",
+            "value": 0.46
+          },
+          "table_label": "Table I",
+          "row_label": "Zr",
+          "column_label": "Critical potential, v",
+          "conditions": [
+            {
+              "name": "NaCl",
+              "value": {
+                "unit": "N",
+                "value": 0.1
+              }
+            },
+            {
+              "name": "Temperature",
+              "value": {
+                "unit": "°C",
+                "value": 25
+              }
+            },
+            {
+              "name": "Reference",
+              "value": "(1)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_005",
+      "result_type": "cited",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V",
+        "min": 1.0
+      },
+      "sample_label": "Cr",
+      "association_notes": "",
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Strict inequality >1.0 V.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 1,
+          "printed_page": "791",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V",
+            "min": 1.0
+          },
+          "table_label": "Table I",
+          "row_label": "Cr",
+          "column_label": "Critical potential, v",
+          "conditions": [
+            {
+              "name": "NaCl",
+              "value": {
+                "unit": "N",
+                "value": 0.1
+              }
+            },
+            {
+              "name": "Temperature",
+              "value": {
+                "unit": "°C",
+                "value": 25
+              }
+            },
+            {
+              "name": "Reference",
+              "value": "(4)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_006",
+      "result_type": "cited",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V",
+        "min": 1.0
+      },
+      "sample_label": "Ti",
+      "association_notes": "",
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Strict inequality >1.0 V.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "table",
+          "pdf_page": 1,
+          "printed_page": "791",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V",
+            "min": 1.0
+          },
+          "table_label": "Table I",
+          "row_label": "Ti",
+          "column_label": "Critical potential, v",
+          "conditions": [
+            {
+              "name": "NaCl",
+              "value": {
+                "unit": "N",
+                "value": 0.1
+              }
+            },
+            {
+              "name": "Temperature",
+              "value": {
+                "unit": "°C",
+                "value": 25
+              }
+            },
+            {
+              "name": "Reference",
+              "value": "(5, 6)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_007",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.2
+      },
+      "sample_label": "Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C; steady-state Vc.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.2
+          },
+          "figure_label": "Fig. 1",
+          "panel_label": "",
+          "series_label": "Cr-Fe; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 12
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_008",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.24
+      },
+      "sample_label": "Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C; steady-state Vc.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.24
+          },
+          "figure_label": "Fig. 1",
+          "panel_label": "",
+          "series_label": "Cr-Fe; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 22.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_009",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.59
+      },
+      "sample_label": "Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C; steady-state Vc.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.59
+          },
+          "figure_label": "Fig. 1",
+          "panel_label": "",
+          "series_label": "Cr-Fe; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 29.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_010",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.89
+      },
+      "sample_label": "Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C; steady-state Vc.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.89
+          },
+          "figure_label": "Fig. 1",
+          "panel_label": "",
+          "series_label": "Cr-Fe; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 38.9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_011",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.92
+      },
+      "sample_label": "Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C; steady-state Vc.",
+      "result_note": "Approximate graphical reading. Some pitting was observed at 48.8% Cr; the higher 57.8% Cr chromates-only transition is excluded.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.92
+          },
+          "figure_label": "Fig. 1",
+          "panel_label": "",
+          "series_label": "Cr-Fe; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 48.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_012",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.28
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.28
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc steady state; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 1.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_013",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.37
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.37
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc steady state; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 11.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_014",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.56
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.56
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc steady state; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_015",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.73
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.73
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc steady state; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 18.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_016",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.78
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.78
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc steady state; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 25.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_017",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.79
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.79
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc steady state; open circles",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 29.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_018",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.3
+      },
+      "sample_label": "Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 2,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.3
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc prime; filled symbols, 50 mV / 5 min",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "793",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.3
+          },
+          "figure_label": "Fig. 3",
+          "panel_label": "",
+          "series_label": "Ni; Vc prime pitting annotation",
+          "coordinates": []
+        },
+        {
+          "kind": "text",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "v",
+            "value": 0.3
+          },
+          "section_heading": "Results — Binary alloys",
+          "text_anchor": "Pure nickel exhibits a normal critical potential"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_019",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.3
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.3
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc prime; filled symbols, 50 mV / 5 min",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 1.8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_020",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.3
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.3
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc prime; filled symbols, 50 mV / 5 min",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 5.2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_021",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.39
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.39
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc prime; filled symbols, 50 mV / 5 min",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 11.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_022",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.6
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.6
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc prime; filled symbols, 50 mV / 5 min",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 15
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_023",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.76
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.76
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc prime; filled symbols, 50 mV / 5 min",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 18.3
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_024",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.8
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.8
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc prime; filled symbols, 50 mV / 5 min",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 25.6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_025",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.8
+      },
+      "sample_label": "Cr-Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.8
+          },
+          "figure_label": "Fig. 2",
+          "panel_label": "",
+          "series_label": "Vc prime; filled symbols, 50 mV / 5 min",
+          "coordinates": [
+            {
+              "name": "Chromium",
+              "value": {
+                "unit": "wt.%",
+                "value": 29.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_026",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.2
+      },
+      "sample_label": "3.2% Mo-Ni",
+      "association_notes": "Text discusses Fig. 3 in 0.1N NaCl, 25°C.",
+      "result_note": "Text says Vc prime is lowered to about 0.2 v.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 2,
+          "printed_page": "792",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "v",
+            "value": 0.2
+          },
+          "section_heading": "Results — Binary alloys",
+          "text_anchor": "Addition of 3.2%"
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "793",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.2
+          },
+          "figure_label": "Fig. 3",
+          "panel_label": "",
+          "series_label": "3.2% Mo; Vc prime pitting annotation",
+          "coordinates": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_027",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.3
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Explicitly annotated non-steady-state critical potential; distinct from steady-state results.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "793",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.3
+          },
+          "figure_label": "Fig. 4",
+          "panel_label": "",
+          "series_label": "Vc prime; pitting annotation",
+          "coordinates": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_028",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.28
+      },
+      "sample_label": "15% Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading. The low-Ni point may be the Mo-free ternary condition also shown in Fig. 6; run identity is not established, so it remains separate. Unresolved repeated-presentation group (low-Ni / Mo-free ternary): obs_028, obs_033; no independence or run identity is asserted.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "793",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.28
+          },
+          "figure_label": "Fig. 5",
+          "panel_label": "",
+          "series_label": "Open circles; Vc",
+          "coordinates": [
+            {
+              "name": "Nickel",
+              "value": {
+                "unit": "wt.%",
+                "value": 14
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_029",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.28
+      },
+      "sample_label": "15% Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "793",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.28
+          },
+          "figure_label": "Fig. 5",
+          "panel_label": "",
+          "series_label": "Open circles; Vc",
+          "coordinates": [
+            {
+              "name": "Nickel",
+              "value": {
+                "unit": "wt.%",
+                "value": 20
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_030",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.34
+      },
+      "sample_label": "15% Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "793",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.34
+          },
+          "figure_label": "Fig. 5",
+          "panel_label": "",
+          "series_label": "Open circles; Vc",
+          "coordinates": [
+            {
+              "name": "Nickel",
+              "value": {
+                "unit": "wt.%",
+                "value": 40
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_031",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.35
+      },
+      "sample_label": "15% Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "793",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.35
+          },
+          "figure_label": "Fig. 5",
+          "panel_label": "",
+          "series_label": "Open circles; Vc",
+          "coordinates": [
+            {
+              "name": "Nickel",
+              "value": {
+                "unit": "wt.%",
+                "value": 50
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_032",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.38
+      },
+      "sample_label": "15% Cr-Fe",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 3,
+          "printed_page": "793",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.38
+          },
+          "figure_label": "Fig. 5",
+          "panel_label": "",
+          "series_label": "Open circles; Vc",
+          "coordinates": [
+            {
+              "name": "Nickel",
+              "value": {
+                "unit": "wt.%",
+                "value": 60
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_033",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.28
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential. May correspond to the low-Ni Fig. 5 point; no run identity is asserted. Unresolved repeated-presentation group (low-Ni / Mo-free ternary): obs_028, obs_033; no independence or run identity is asserted.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.28
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_034",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.3
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.3
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0.43
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_035",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.34
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.34
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0.94
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_036",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.4
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.4
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 1.43
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_037",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.53
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.53
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 1.9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_038",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.72
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.72
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 2.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_039",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.78
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Text explicitly gives 0.78v; Fig. 6 reads approximately 0.80 V (H2 scale). The text reading is primary.",
+      "failure_notes": "",
+      "primary_location": 1,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.8
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "0°C; filled circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "v",
+            "value": 0.78
+          },
+          "section_heading": "Cr-Fe-Ni Stainless Steels",
+          "text_anchor": "At 0°C, however, Vc shifts"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_040",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.5
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.5
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "0°C; filled circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0.43
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_041",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.42
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.42
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "0°C; filled circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0.94
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_042",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.38
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.38
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "0°C; filled circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 1.43
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_043",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.32
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaCl.",
+      "result_note": "Approximate graphical reading; steady-state critical potential.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.32
+          },
+          "figure_label": "Fig. 6",
+          "panel_label": "",
+          "series_label": "0°C; filled circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 1.9
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_044",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.39
+      },
+      "sample_label": "15% Cr, 13% Ni, 1.43% Mo",
+      "association_notes": "0.1N NaCl, 25°C.",
+      "result_note": "Annotated non-steady-state critical potential, distinct from steady-state Fig. 6.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.39
+          },
+          "figure_label": "Fig. 7",
+          "panel_label": "",
+          "series_label": "Vc prime; pitting annotation",
+          "coordinates": []
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_045",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.6
+      },
+      "sample_label": "2.4% Mo",
+      "association_notes": "15% Cr, 13% Ni stainless steel; 0.1N NaCl at 0°C discussed immediately before this passage.",
+      "result_note": "Approximate imposed potential approaching 0.6v at which pitting can be induced; the authors say no definite critical potential is observed for this condition. This is a qualified pitting outcome, not a definite Vc.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "v",
+            "value": 0.6
+          },
+          "section_heading": "Cr-Fe-Ni Stainless Steels",
+          "text_anchor": "Pitting can be induced, however, if the alloy"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_046",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.54
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaBr.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 1,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.54
+          },
+          "figure_label": "Fig. 8",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0
+              }
+            }
+          ]
+        },
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "v",
+            "value": 0.54
+          },
+          "section_heading": "Cr-Fe-Ni Stainless Steels",
+          "text_anchor": "The value of Vc (0.54v)"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_047",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.53
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaBr.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.53
+          },
+          "figure_label": "Fig. 8",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0.43
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_048",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.51
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaBr.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.51
+          },
+          "figure_label": "Fig. 8",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 1.43
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_049",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.47
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaBr.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.47
+          },
+          "figure_label": "Fig. 8",
+          "panel_label": "",
+          "series_label": "25°C; open circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 2.4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_050",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.42
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaBr.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.42
+          },
+          "figure_label": "Fig. 8",
+          "panel_label": "",
+          "series_label": "0°C; filled circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_051",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.31
+      },
+      "sample_label": "15% Cr, 13% Ni",
+      "association_notes": "0.1N NaBr.",
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "794",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (H2 scale)",
+            "value": 0.31
+          },
+          "figure_label": "Fig. 8",
+          "panel_label": "",
+          "series_label": "0°C; filled circles",
+          "coordinates": [
+            {
+              "name": "Molybdenum",
+              "value": {
+                "unit": "wt.%",
+                "value": 0.43
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

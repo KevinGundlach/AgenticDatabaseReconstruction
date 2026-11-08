@@ -1,6 +1,10 @@
 import json 
 import os
 from pathlib import Path 
+import models.observation_enrichment as reg
+from pydantic import TypeAdapter
+from typing import Literal, Tuple
+
 
 def save_matched_observations(paper_reference_number):
 
@@ -28,12 +32,27 @@ def save_matched_observations(paper_reference_number):
 
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(registry, f, indent=2)
-            
+
+
+def load_extraction(json_file) -> reg.ObservationEnrichment:
+
+    with open(f"enrich-observations\\{json_file}", encoding="utf-8") as f:
+        content = f.read()
+
+    adapter = TypeAdapter(reg.ObservationEnrichment)
+    extraction : reg.ObservationEnrichment = adapter.validate_json(content)
+
+    return extraction
+
+
 
 def main():
-    save_matched_observations(3)
-    save_matched_observations(9)
-    save_matched_observations(49)
+
+    paper_49_extraction = load_extraction('paper_49_matched_only.json')
+    paper_3_extraction = load_extraction('paper_3_matched_only.json')
+    paper_9_extraction = load_extraction('paper_9_matched_only.json')
+
+
 
 if __name__ == "__main__":
     main()

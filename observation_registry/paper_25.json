@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "25_Hong-lei Wang, Tai-Xiu Gao, Jia-zheng Niu, Pei-jian Shi, Jing Xu, and Yan Wang. International Journal of Minerals, Metallury, and Materials, 23 (1) (2016), 77-82.pdf",
+  "reference_number": 25,
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": -0.56
+      },
+      "sample_label": "FeSiBAlNi — SPS at 520°C",
+      "association_notes": "Seawater-solution specimen identified in Section 3.4.",
+      "result_note": "The explicit text Epit is selected as primary. Fig. 5 places the labeled Epit guide near −0.68 V, which conflicts with the printed −0.56 V. Both readings are retained without resolving the source discrepancy. The 1080°C curve is described as anodic dissolution without a passive plateau and supplies no Epit.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "80",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (Ag/AgCl)",
+            "value": -0.56
+          },
+          "section_heading": "3.4. Corrosion resistance of the as-sintered FeSiBAlNi HEA",
+          "text_anchor": "and −0.56 V vs. Ag/AgCl,"
+        },
+        {
+          "kind": "plot",
+          "pdf_page": 4,
+          "printed_page": "80",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (Ag/AgCl)",
+            "value": -0.68
+          },
+          "figure_label": "Fig. 5",
+          "panel_label": "",
+          "series_label": "520°C; dashed black curve, labeled Epit vertical guide",
+          "coordinates": [
+            {
+              "name": "SPS temperature",
+              "value": {
+                "unit": "°C",
+                "value": 520
+              }
+            },
+            {
+              "name": "annotation",
+              "value": "Epit"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

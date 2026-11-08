@@ -1,8 +1,8 @@
 # Anchored enrichment conventions
 
-## Relationship to the copied extraction format
+## Data format and models
 
-The local `paper_extraction.py`, `paper_extraction.schema.json` and `extraction_conventions.md` are frozen copies of the current extraction format. Keep their scientific fields and missing-value rules. The active enrichment format adds only required `observation_id` to each experiment and required root `inputs`. Its independent schema version is `"1.0"` and its list remains `experiments`.
+The local `observation_enrichment.py` directly defines the output models, using a shared strict-validation base and nested models for measurements, alloy, solution, procedure and input files. Its generated schema must equal the bundled `observation_enrichment.schema.json`. The data-field conventions retain the established scientific fields and missing-value rules. Each experiment includes required `observation_id`, and the root includes required `inputs`. The schema version remains `"1.0"` and the list remains `experiments`.
 
 These anchored rules override the copied conventions wherever the older workflow calls for discovering all outcomes, excluding cited results by default, reading a new potential, deduplicating, or omitting unrecovered outcomes. Enrich every supplied `complete`/`partial` observation, regardless of origin, exactly once and in order. Skip `failed` inputs and report their IDs. No `experiment_id`, outcome discovery, deduplication or new origin/status/provenance fields are introduced. Classification and source-location details remain available through the immutable registry.
 

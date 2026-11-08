@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "29_A.A. Rodriguez, J.H. Tylczak, M.C. Gao, P.D. Jablonski, M. Detrois, M. Ziomek-Moroz, J.A. Hawk, Advances in Materials Science and Engineering, 2018 (2018) 11.pdf",
+  "reference_number": 29,
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.32
+      },
+      "sample_label": "A35",
+      "association_notes": "CoCrFeNi2 in the potentiodynamic test series, 3.5 wt.% NaCl at 25°C.",
+      "result_note": "The paper associates Ebre with metastable pit initiation in A35. Text, Table 2 and conclusions repeat this outcome. The source also prints 0.56 V versus SHE for the same result; its original alternative reading is retained without a conversion performed here.",
+      "failure_notes": "",
+      "primary_location": 3,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.32
+          },
+          "section_heading": "3.2. Electrochemical Testing",
+          "text_anchor": "breakdown potential of 0.32 V"
+        },
+        {
+          "kind": "text",
+          "pdf_page": 5,
+          "printed_page": "5",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.32
+          },
+          "section_heading": "3.2. Electrochemical Testing",
+          "text_anchor": "and its breakdown potential"
+        },
+        {
+          "kind": "text",
+          "pdf_page": 5,
+          "printed_page": "5",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SHE)",
+            "value": 0.56
+          },
+          "section_heading": "3.2. Electrochemical Testing",
+          "text_anchor": "(0.56 V versus SHE)."
+        },
+        {
+          "kind": "table",
+          "pdf_page": 7,
+          "printed_page": "7",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.32
+          },
+          "table_label": "Table 2",
+          "row_label": "A35",
+          "column_label": "Ebre (V versus SCE)",
+          "conditions": []
+        },
+        {
+          "kind": "text",
+          "pdf_page": 9,
+          "printed_page": "9",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.32
+          },
+          "section_heading": "4. Conclusions",
+          "text_anchor": "Ebre of 0.32 V versus SCE"
+        },
+        {
+          "kind": "text",
+          "pdf_page": 9,
+          "printed_page": "9",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SHE)",
+            "value": 0.56
+          },
+          "section_heading": "4. Conclusions",
+          "text_anchor": "(0.56 V versus SHE)."
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_002",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.27
+      },
+      "sample_label": "SS316",
+      "association_notes": "Table 2 commercial stainless-steel comparator in 3.5 wt.% NaCl at 25°C.",
+      "result_note": "The paper associates this breakdown with pitting; the abstract calls the comparator stainless steel 316L, while the figure/table label is SS316.",
+      "failure_notes": "",
+      "primary_location": 1,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "4",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.27
+          },
+          "section_heading": "3.2. Electrochemical Testing",
+          "text_anchor": "(0.27 V versus SCE)"
+        },
+        {
+          "kind": "table",
+          "pdf_page": 7,
+          "printed_page": "7",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.27
+          },
+          "table_label": "Table 2",
+          "row_label": "SS316",
+          "column_label": "Ebre (V versus SCE)",
+          "conditions": []
+        }
+      ]
+    }
+  ]
+}

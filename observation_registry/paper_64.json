@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "64_Ives, M. B., et al. Corrosion science 31 (1990)_ 367-376.pdf",
+  "reference_number": 64,
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 500
+      },
+      "sample_label": "UNS S30100 control",
+      "association_notes": "Fig. 4 pit-initiation test: control sample; chloride added to 0.1 M sodium sulphate to make 0.6 M NaCl.",
+      "result_note": "Pit initiation after chloride addition during a 500 mV hold supports an upper limit, not a measured threshold at 500 mV. Control breaks down within one minute; implanted sample only a little later. This is separate from the scanned sample #10.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "370",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "mV (SCE)",
+            "max": 500
+          },
+          "section_heading": "Electrochemical Tests",
+          "text_anchor": "also exhibits breakdown"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_002",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 500
+      },
+      "sample_label": "UNS S30100 sample #9",
+      "association_notes": "Fig. 4 pit-initiation test: 140 keV Mo-implanted sample #9; chloride added to 0.1 M sodium sulphate to make 0.6 M NaCl.",
+      "result_note": "Pit initiation after chloride addition during a 500 mV hold supports an upper limit, not a measured threshold at 500 mV. Control breaks down within one minute; implanted sample only a little later. This is separate from the scanned sample #10.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "370",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "mV (SCE)",
+            "max": 500
+          },
+          "section_heading": "Electrochemical Tests",
+          "text_anchor": "also exhibits breakdown"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_003",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.45
+      },
+      "sample_label": "UNS S30100",
+      "association_notes": "Control / sample #10 (140 keV, retained Mo dose 5.55 × 10¹⁶ cm⁻²).",
+      "result_note": "Approximate reading of the explicitly Ec-labeled transition. The text identifies this as the apparent critical pitting potential and emphasizes poor reproducibility; no additional thresholds are traced from continuous curves.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 5,
+          "printed_page": "371",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.45
+          },
+          "figure_label": "Fig. 3",
+          "panel_label": "",
+          "series_label": "UNS S30100 ss control; thin curve; Ec annotation",
+          "coordinates": [
+            {
+              "name": "Solution",
+              "value": "0.1 M Na2SO4 + 0.6 M NaCl; deaerated with N2"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_004",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.38
+      },
+      "sample_label": "UNS S30100",
+      "association_notes": "Control / sample #10 (140 keV, retained Mo dose 5.55 × 10¹⁶ cm⁻²).",
+      "result_note": "Approximate reading of the explicitly Ec-labeled transition. The text identifies this as the apparent critical pitting potential and emphasizes poor reproducibility; no additional thresholds are traced from continuous curves.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "plot",
+          "pdf_page": 5,
+          "printed_page": "371",
+          "reading_method": "digitized",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.38
+          },
+          "figure_label": "Fig. 3",
+          "panel_label": "",
+          "series_label": "Mo ion-implanted UNS S30100 ss; thick curve; Ec annotation",
+          "coordinates": [
+            {
+              "name": "Solution",
+              "value": "0.1 M Na2SO4 + 0.6 M NaCl; deaerated with N2"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

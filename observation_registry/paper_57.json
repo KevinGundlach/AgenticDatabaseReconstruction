@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.1",
+  "paper_name": "57_Sugimoto, K., and Y. Sawada. Corrosion Science 17.5 (1977)_ 425-445.pdf",
+  "reference_number": 57,
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.85
+      },
+      "sample_label": "20Cr–25Ni–5Mo",
+      "association_notes": "1 N HCl, 25°C, deaerated.",
+      "result_note": "No pitting up to the onset of transpassive dissolution, ca. +0.85 V. Lower bound only; the transpassive event is not labeled as pitting.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 3,
+          "printed_page": "427",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "min": 0.85
+          },
+          "section_heading": "Anodic polarization curves",
+          "text_anchor": "pitting does not occur"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_002",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.85
+      },
+      "sample_label": "Pure Cr",
+      "association_notes": "1 N HCl, 25°C, deaerated.",
+      "result_note": "Maintained passivity up to +0.85 V before transpassive dissolution; no pitting. Lower bound only.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 4,
+          "printed_page": "428",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "min": 0.85
+          },
+          "section_heading": "Anodic polarization curves",
+          "text_anchor": "Pure Cr did not show pitting"
+        }
+      ]
+    },
+    {
+      "observation_id": "obs_003",
+      "result_type": "reported_experimental",
+      "extraction_status": "complete",
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.4
+      },
+      "sample_label": "17Cr–25Ni–5Mo",
+      "association_notes": "1 N HCl, 25°C, deaerated; Figure 6 series 4.",
+      "result_note": "Text explicitly reports pitting above +0.40 V; retained as the stated approximate onset. No thresholds were inferred from other continuous curves.",
+      "failure_notes": "",
+      "primary_location": 0,
+      "locations": [
+        {
+          "kind": "text",
+          "pdf_page": 7,
+          "printed_page": "431",
+          "reading_method": "transcribed",
+          "pitting_potential": {
+            "unit": "V (SCE)",
+            "value": 0.4
+          },
+          "section_heading": "Anodic polarization curves",
+          "text_anchor": "susceptible to pitting above"
+        }
+      ]
+    }
+  ]
+}
