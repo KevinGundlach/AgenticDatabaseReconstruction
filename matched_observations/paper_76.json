@@ -1,0 +1,807 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "76_Janik-Czachor, E. Lunarska, Z. Szklarska-Smialowska, Corrosion 31 (1975)_ p. 349.pdf",
+  "reference_number": 76,
+  "inputs": {
+    "pdf": {
+      "filename": "76_Janik-Czachor, E. Lunarska, Z. Szklarska-Smialowska, Corrosion 31 (1975)_ p. 349.pdf",
+      "sha256": "eec72d00f5c989acd5fd2acfd75410e5c9f7f4b4a0f49af9754017f36c18f7bd"
+    },
+    "csv": {
+      "filename": "pitting_potential_76.csv",
+      "sha256": "c1211294af33dfe8fe61aa8ac2ce36ca6c0f1be49a99061c08fa198719145085"
+    },
+    "registry": {
+      "filename": "paper_76.json",
+      "sha256": "72798561471ad1746d2ca7345020f7e168ab47159267ba6a21a3b7ee5dee7e66"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "",
+  "shared_qualifications": [
+    "C1: conditional 25°C saturated-KCl SCE comparison E(mV,SCE)=E(mV,NHE)−241. Corrtest specifies SCE +0.241 V versus NHE at 25°C: https://www.corrtestinstruments.com/en/02437.html . NHE is treated as the hydrogen reference named by the paper. CRA does not specify the physical reference electrode temperature/filling; numerical agreement is conditional on this standard SCE convention, not an offset fitted to targets.",
+    "PDF p.2 Figure 1 scan 50 mV/30 s =1.6666667 mV/s, compatible with CRA 1.66. The separate 2 V/h passivation measurements on pp.1–2 are a different protocol. All Figure 2 results at 25°C (p.3); quenched 1120°C/water samples.",
+    "Figure 2 E′np and limiting induction-time E_np are distinct. No-pitting limits, imposed-potential bounds and Table 2 inequalities are not substituted for scan thresholds. Numerical pH 1 in CRA is not an independently stated paper value.",
+    "Obs_005: primary Figure 2 ≈690 mV NHE differs from explicitly annotated Figure 1 ≈650. C1 gives ≈449 versus ≈409 mV SCE; CRA No.276=453.808704961359. Identity is supported, but the secondary source reading is discrepant. Obs_007/009/010 retain less pronounced Figure 2/Figure 4 graphical differences.",
+    "Filename cites p.349; visually verified supplied title/authors and actual printed pp.394–397. All registry anchors refer to this supplied PDF."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 274,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "108.473988826067",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.07 wt% N",
+              "cra_value": "0.07",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.1 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 350}",
+              "cra_value": "108.473988826067",
+              "comparison": "C1, conditional standard SCE at 25°C: 350−241=109 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 273,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "260.305643839282",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.12 wt% N",
+              "cra_value": "0.12",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.1 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 500}",
+              "cra_value": "260.305643839282",
+              "comparison": "C1, conditional standard SCE at 25°C: 500−241=259 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 272,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "245.4784383",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.17 wt% N",
+              "cra_value": "0.17",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.1 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 490}",
+              "cra_value": "245.4784383",
+              "comparison": "C1, conditional standard SCE at 25°C: 490−241=249 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 275,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "342.952594426415",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.25 wt% N",
+              "cra_value": "0.25",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.1 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 580}",
+              "cra_value": "342.952594426415",
+              "comparison": "C1, conditional standard SCE at 25°C: 580−241=339 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 276,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "453.808704961359",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.35 wt% N",
+              "cra_value": "0.35",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.1 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 690}",
+              "cra_value": "453.808704961359",
+              "comparison": "C1, conditional standard SCE at 25°C: 690−241=449 mV SCE; 650−241=409 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Primary reading agrees within graphical precision; Figure 1 secondary reading conflicts and is retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 279,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "336.984242748653",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.07 wt% N",
+              "cra_value": "0.07",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.05 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 580}",
+              "cra_value": "336.984242748653",
+              "comparison": "C1, conditional standard SCE at 25°C: 580−241=339 mV SCE; 580−241=339 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 278,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "410.531464320363",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.12 wt% N",
+              "cra_value": "0.12",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.05 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 650}",
+              "cra_value": "410.531464320363",
+              "comparison": "C1, conditional standard SCE at 25°C: 650−241=409 mV SCE; 630−241=389 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 277,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "454.477802683081",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.17 wt% N",
+              "cra_value": "0.17",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.05 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 700}",
+              "cra_value": "454.477802683081",
+              "comparison": "C1, conditional standard SCE at 25°C: 700−241=459 mV SCE; 700−241=459 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 280,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "698.859054564918",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.25 wt% N",
+              "cra_value": "0.25",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.05 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 940}",
+              "cra_value": "698.859054564918",
+              "comparison": "C1, conditional standard SCE at 25°C: 940−241=699 mV SCE; 960−241=719 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 281,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "685.691211401424",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.35 wt% N",
+              "cra_value": "0.35",
+              "comparison": "Table 1 analysis and Figure 2 nitrogen coordinate identify the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 + 0.05 N NaCl",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Matches the named electrolyte; no unsupported conversion of acid normality to molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "PDF p.3 states temperature of all preceding results."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV per 30 s",
+              "cra_value": "1.66",
+              "comparison": "50/30=1.6666667 mV/s; Figure 1 scan, not the 2 V/h passivation test."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "water quenched after 1 h at 1120°C",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. The steels were tested in the as-received and quenched after 1 hour of heaing in air at 1120oC",
+              "comparison": "Figure 2 explicitly identifies quenched specimens, PDF pp.1–2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (NHE)\", \"value\": 930}",
+              "cra_value": "685.691211401424",
+              "comparison": "C1, conditional standard SCE at 25°C: 930−241=689 mV SCE; 940−241=699 mV SCE. Keep primary and secondary readings distinct."
+            }
+          ],
+          "notes": "Figure 2 scan E′np, nitrogen content and chloride series identify this CRA counterpart independently of the reference conversion. Agreement is conditional on C1; graphical precision does not support CRA decimal precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

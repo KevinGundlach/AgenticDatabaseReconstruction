@@ -1,0 +1,1200 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "66_E. Lunarska, Z. Szklarska-Smialowska, M. Jamk' Czachor, Corrosion 31 (1975)_ p. 231.pdf",
+  "reference_number": 66,
+  "inputs": {
+    "pdf": {
+      "filename": "66_E. Lunarska, Z. Szklarska-Smialowska, M. Jamk' Czachor, Corrosion 31 (1975)_ p. 231.pdf",
+      "sha256": "bcd3b2991180f4492bd466e0fc28a42049f3dbe49f642929b10036d3114205b4"
+    },
+    "csv": {
+      "filename": "pitting_potential_66.csv",
+      "sha256": "d2dc332f44d2a0d5274daa4b8de29bc8da6a9188387998f6564f6ac67f82271c"
+    },
+    "registry": {
+      "filename": "paper_66.json",
+      "sha256": "a63205a01c8eea6f43a77855574dde8e28e42fe7e042baaf1413a1223102673a"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3
+  ],
+  "coverage_notes": "Every supplied observation and CRA row was considered. Every registered anchor page, including secondary locations, was actually viewed. Context pages and enlarged source plots were consulted where needed. This is alignment of the exact supplied registry, not a full-paper census or proof of the presentation selected by the original curators. Inputs are unchanged.",
+  "shared_qualifications": [
+    "Fig.5 (PDF p.3), enlarged to resolve the clustered Mn points, separates forged open symbols from1050 C water-quenched filled symbols. CRA heat text specifies quenching; supported assignments use only quenched0.1/0.05 N NaCl outcomes. Overlapping forged markers remain separate observations, not shared assignments to quench records.",
+    "C1: source plots use mV_H (hydrogen-reference scale). A conditional25 C saturated-KCl comparison is E_mV(SCE)=E_mV(H)-241, using Corrtest SCE=+0.241 V versus NHE at25 C (https://www.corrtestinstruments.com/en/02437.html). The paper does not establish the reference calibration/temperature needed to reproduce the CRA scale exactly. Calculations are illustrative and not fitted to CRA; definitive potential_agreement is not_comparable. Independent composition, quench state and electrolyte identify the proposed rows.",
+    "C2: source polarization is stepped50 mV per30 s, giving nominal50/30=1.666667 mV/s, not proof of a continuous sweep (PDF p.1). C3: for the explicitly identified monovalent NaCl, N=mol/L chloride; acid normality does not add chloride. No pH is calculated from H2SO4 normality.",
+    "Source tests are25 C in0.1 N H2SO4 with0.01/0.05/0.1 N NaCl (PDF p.1). The0.01 N upward arrows mean no pitting to approximately1150 mV_H, not measured pitting. No0.01 N CRA row is supplied.",
+    "Table1 carbon for10% Mn is n.d., not source zero; CRA stores0.0. Mixed austenite/ferrite or martensite/ferrite phases are described in the source; CRA delta-ferrite is not treated as a complete phase census. Source p.2 says most experiments used1 h at1050 C before quenching; the Fig.5 quenched legend does not independently resolve every duration in the broad CRA heat text.",
+    "Poppler returned success but reported illegal characters in an ASCIIHex stream on PDF pp.2-3. The relevant text, Fig.5 symbols/axes and Table1 were actually viewed and legible; no registered anchor was blocked."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 282,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "505.825783972125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "0.03 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "0.03",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.2 wt% Cr, Table1",
+              "cra_value": "17.2",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.51 wt% Ni, Table1",
+              "cra_value": "5.51",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.066 wt% N, Table1",
+              "cra_value": "0.066",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.1 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 N NaCl, hence 0.1 mol/L chloride",
+              "cra_value": "0.1",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 750}",
+              "cra_value": "505.825783972125",
+              "comparison": "C1 conditional illustration: 750-241=509 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 288,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "852.86411149825",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "0.03 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "0.03",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.2 wt% Cr, Table1",
+              "cra_value": "17.2",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.51 wt% Ni, Table1",
+              "cra_value": "5.51",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.066 wt% N, Table1",
+              "cra_value": "0.066",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.05 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.05 N NaCl, hence 0.05 mol/L chloride",
+              "cra_value": "0.05",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 1100}",
+              "cra_value": "852.86411149825",
+              "comparison": "C1 conditional illustration: 1100-241=859 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 283,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-144.348432055749",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "5.7 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "5.7",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.4 wt% Cr, Table1",
+              "cra_value": "17.4",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.47 wt% Ni, Table1",
+              "cra_value": "5.47",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.061 wt% N, Table1",
+              "cra_value": "0.061",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.1 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 N NaCl, hence 0.1 mol/L chloride",
+              "cra_value": "0.1",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 100}",
+              "cra_value": "-144.348432055749",
+              "comparison": "C1 conditional illustration: 100-241=-141 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 289,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "700.250871080139",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "5.7 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "5.7",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.4 wt% Cr, Table1",
+              "cra_value": "17.4",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.47 wt% Ni, Table1",
+              "cra_value": "5.47",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.061 wt% N, Table1",
+              "cra_value": "0.061",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.05 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.05 N NaCl, hence 0.05 mol/L chloride",
+              "cra_value": "0.05",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 950}",
+              "cra_value": "700.250871080139",
+              "comparison": "C1 conditional illustration: 950-241=709 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 284,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-175.707317073171",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "9.6 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "9.6",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt% Cr, Table1",
+              "cra_value": "17.6",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.52 wt% Ni, Table1",
+              "cra_value": "5.52",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.049 wt% N, Table1",
+              "cra_value": "0.049",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.1 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 N NaCl, hence 0.1 mol/L chloride",
+              "cra_value": "0.1",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 70}",
+              "cra_value": "-175.707317073171",
+              "comparison": "C1 conditional illustration: 70-241=-171 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 290,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "252.864111498257",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "9.6 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "9.6",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt% Cr, Table1",
+              "cra_value": "17.6",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.52 wt% Ni, Table1",
+              "cra_value": "5.52",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.049 wt% N, Table1",
+              "cra_value": "0.049",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.05 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.05 N NaCl, hence 0.05 mol/L chloride",
+              "cra_value": "0.05",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 500}",
+              "cra_value": "252.864111498257",
+              "comparison": "C1 conditional illustration: 500-241=259 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 285,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-144.348432055749",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "10 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "10.0",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.5 wt% Cr, Table1",
+              "cra_value": "17.5",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.69 wt% Ni, Table1",
+              "cra_value": "5.69",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.019 wt% N, Table1",
+              "cra_value": "0.019",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.1 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 N NaCl, hence 0.1 mol/L chloride",
+              "cra_value": "0.1",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 100}",
+              "cra_value": "-144.348432055749",
+              "comparison": "C1 conditional illustration: 100-241=-141 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 291,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "252.864111498257",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "10 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "10.0",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.5 wt% Cr, Table1",
+              "cra_value": "17.5",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.69 wt% Ni, Table1",
+              "cra_value": "5.69",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.019 wt% N, Table1",
+              "cra_value": "0.019",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.05 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.05 N NaCl, hence 0.05 mol/L chloride",
+              "cra_value": "0.05",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 500}",
+              "cra_value": "252.864111498257",
+              "comparison": "C1 conditional illustration: 500-241=259 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 286,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-144.348432055749",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "11.7 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "11.7",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt% Cr, Table1",
+              "cra_value": "17.6",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.48 wt% Ni, Table1",
+              "cra_value": "5.48",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.065 wt% N, Table1",
+              "cra_value": "0.065",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.1 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 N NaCl, hence 0.1 mol/L chloride",
+              "cra_value": "0.1",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 100}",
+              "cra_value": "-144.348432055749",
+              "comparison": "C1 conditional illustration: 100-241=-141 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 292,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "254.954703832752",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "11.7 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "11.7",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt% Cr, Table1",
+              "cra_value": "17.6",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.48 wt% Ni, Table1",
+              "cra_value": "5.48",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.065 wt% N, Table1",
+              "cra_value": "0.065",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.05 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.05 N NaCl, hence 0.05 mol/L chloride",
+              "cra_value": "0.05",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 500}",
+              "cra_value": "254.954703832752",
+              "comparison": "C1 conditional illustration: 500-241=259 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 287,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-167.344947735192",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "15.1 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "15.1",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt% Cr, Table1",
+              "cra_value": "17.6",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.44 wt% Ni, Table1",
+              "cra_value": "5.44",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.086 wt% N, Table1",
+              "cra_value": "0.086",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.1 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.1N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 N NaCl, hence 0.1 mol/L chloride",
+              "cra_value": "0.1",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 75}",
+              "cra_value": "-167.344947735192",
+              "comparison": "C1 conditional illustration: 75-241=-166 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 open symbols are the as-received forged condition. Supplied CRA heat metadata specifies quenching; coincident or nearby quenched potentials do not establish a forged counterpart. The separate state is preserved."
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 293,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "250.773519163763",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "15.1 wt% Mn, Table1/Fig.5, PDF pp.1,3",
+              "cra_value": "15.1",
+              "comparison": "Independent alloy selector; nearby9.6 and10.0% Mn remain distinct."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt% Cr, Table1",
+              "cra_value": "17.6",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.44 wt% Ni, Table1",
+              "cra_value": "5.44",
+              "comparison": "Independent source analysis."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.086 wt% N, Table1",
+              "cra_value": "0.086",
+              "comparison": "Independent source analysis, without filling unknown carbon."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 N H2SO4 +0.05 N NaCl, filled Fig.5 symbols",
+              "cra_value": "0.1 N H2SO4, 0.05N NaCl",
+              "comparison": "Same acid/salt condition; C3 gives NaCl chloride molarity."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.05 N NaCl, hence 0.05 mol/L chloride",
+              "cra_value": "0.05",
+              "comparison": "C3: one chloride equivalent per mole of NaCl; H2SO4 contains no chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "Same independently stated test temperature."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1050 C then water quench, filled Fig.5 symbols; most tests1 h perPDF p.2",
+              "cra_value": "Steels used for this study were kindly supplied by the Institute of Iron Metallurgy in Gliwice, Poland. They were in the form of hot forged rods, 18 mm in diameter. Quenching in water occurered after either (1) heating 1h in air at 1050C, (2) heating 0.5h in air at 1050C",
+              "comparison": "Quenched source state agrees with CRA quench description; forged state is not substituted."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps per30 s, PDF p.1",
+              "cra_value": "1.66",
+              "comparison": "C2: nominal1.666667 mV/s; source is stepped."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV_H\", \"value\": 500}",
+              "cra_value": "250.773519163763",
+              "comparison": "C1 conditional illustration: 500-241=259 mV(SCE) at25 C saturated-KCl convention. Source hydrogen-scale reading remains unchanged; reference details prevent definitive numerical agreement, so not_comparable."
+            }
+          ],
+          "notes": "Table1 chemistry/Mn coordinate, chloride concentration and the filled quenched Fig.5 series independently identify this counterpart. Conditional reference conversion is not used to select a heat state or fit a target."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These upward-arrow outcomes are no-pitting lower bounds at approximately1150 mV_H in0.01 N NaCl. All supplied CRA rows instead use0.1 or0.05 N NaCl; no counterpart is supplied and the arrow is not converted to an observed onset."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

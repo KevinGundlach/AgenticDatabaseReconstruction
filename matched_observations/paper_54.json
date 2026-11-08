@@ -1,0 +1,2298 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "54_R. Bandy, D. van Rooyen, Corrosion 39 (1983)_ p. 227.pdf",
+  "reference_number": 54,
+  "inputs": {
+    "pdf": {
+      "filename": "54_R. Bandy, D. van Rooyen, Corrosion 39 (1983)_ p. 227.pdf",
+      "sha256": "e046947b531e836480875273c46f4f259ec0a7505ac40fbf80b08572446bea92"
+    },
+    "csv": {
+      "filename": "pitting_potential_54.csv",
+      "sha256": "f0b68352fba966767cf124d9102badbedf1a648e59406663b83b383da17cceaa"
+    },
+    "registry": {
+      "filename": "paper_54.json",
+      "sha256": "4636a8f0fb992b110207d29e96cf8071194ae56d70db5c3e6cd235212f386472"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was reviewed. Every registered anchor page, including secondary locations, was actually viewed. This is alignment of the exact supplied registry, not a full-paper census or proof of the source presentation used by the original curators. All inputs are unchanged.",
+  "shared_qualifications": [
+    "Critical pitting Ec is explicitly the rapid anodic-current rise associated with breakdown and actively growing pits (PDF p.3). All potentials here use SCE; no reference offset is applied.",
+    "C1: explicitly identified monovalent NaCl and HCl each supply one chloride equivalent per mole. Thus 1 N NaCl gives 1 mol/L chloride; 1 N NaCl +0.5 N HCl gives 1.5 mol/L chloride. This species-specific relation is not a generic normality conversion and does not infer pH.",
+    "C2: the neutral 30 C scan is 20 mV/min =20/60=0.333333 mV/s. The more aggressive acid tests instead use 6 mV/min =0.1 mV/s (PDF p.2), conflicting with CRA 0.3333 for Nos.246-252. Source Table 3 footnote specifies acid conditions 50 C, pH0.69. Neutral-solution pH7.0 is not independently established in the inspected source.",
+    "CRA245 has CL- [M]=1.5 for its neutral 1 N NaCl result; the source implies 1 mol/L, retained as a conflict. Table 1 estimates (~) and upper limits (<) are not exact composition values; in particular approximate nickel contents are preserved below. Missing Mn for alloy27 is not treated as zero.",
+    "obs_021 retains the no-breakdown limit 708 mV in Table 2 and 908 mV in its Table 3 repetition. Neither is replaced by an observed threshold. Table 3 parenthesized values are current densities, not potentials. The separate Figure 1 bounds/onset at 70 C are not the 50 C acid condition."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 223,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "29",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 1: 0.088 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.088",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.01 wt% Mo, Table 1",
+              "cra_value": "1.01",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "~6 wt% Ni, Table 1",
+              "cra_value": "6.0",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 29}",
+              "cra_value": "29",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 1; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 224,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "93",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 2: 0.063 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.063",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.98 wt% Mo, Table 1",
+              "cra_value": "1.98",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "~6 wt% Ni, Table 1",
+              "cra_value": "6.0",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 93}",
+              "cra_value": "93",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 2; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 225,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "317",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 3: 0.216 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.216",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.02 wt% Mo, Table 1",
+              "cra_value": "1.02",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6.50 wt% Ni, Table 1",
+              "cra_value": "6.5",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 317}",
+              "cra_value": "317",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 3; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 226,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "267",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 4: 0.228 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.228",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.01 wt% Mo, Table 1",
+              "cra_value": "1.01",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6.10 wt% Ni, Table 1",
+              "cra_value": "6.1",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 267}",
+              "cra_value": "267",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 4; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 227,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "325",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 5: 0.189 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.189",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.09 wt% Mo, Table 1",
+              "cra_value": "2.09",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "~6 wt% Ni, Table 1",
+              "cra_value": "6.0",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 325}",
+              "cra_value": "325",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 5; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 228,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "405",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 6: 0.318 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.318",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.02 wt% Mo, Table 1",
+              "cra_value": "1.02",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6.47 wt% Ni, Table 1",
+              "cra_value": "6.47",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 405}",
+              "cra_value": "405",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 6; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 229,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "404",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 7: 0.268 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.268",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.13 wt% Mo, Table 1",
+              "cra_value": "2.13",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6.18 wt% Ni, Table 1",
+              "cra_value": "6.18",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 404}",
+              "cra_value": "404",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 7; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Source specimen8 contains 0.348 wt% N, 2.08 wt% Mo, 6.11 wt% Ni and 0.94 wt% V (Table 1); none of the supplied CRA rows has this composition. Do not substitute the nearby specimen9 record."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 230,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "105",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 9: 0.043 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.043",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.01 wt% Mo, Table 1",
+              "cra_value": "2.01",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "15.83 wt% Ni, Table 1",
+              "cra_value": "15.83",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 105}",
+              "cra_value": "105",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 9; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 231,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "112",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 10: 0.039 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.039",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.02 wt% Mo, Table 1",
+              "cra_value": "4.02",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.53 wt% Ni, Table 1",
+              "cra_value": "14.53",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 112}",
+              "cra_value": "112",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 10; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 232,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "198",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 11: 0.06 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.06",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.51 wt% Mo, Table 1",
+              "cra_value": "2.51",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "26.42 wt% Ni, Table 1",
+              "cra_value": "26.42",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 198}",
+              "cra_value": "198",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 11; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 233,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "163",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 12: 0.268 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.268",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.1 wt% Mo, Table 1",
+              "cra_value": "2.1",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6.00 wt% Ni, Table 1",
+              "cra_value": "6.0",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 163}",
+              "cra_value": "163",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 12; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 234,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "398",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 13: 0.31 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.31",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.84 wt% Mo, Table 1",
+              "cra_value": "3.84",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "15.78 wt% Ni, Table 1",
+              "cra_value": "15.78",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 398}",
+              "cra_value": "398",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 13; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 235,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "16",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 14: 0.235 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.235",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.16 wt% Mo, Table 1",
+              "cra_value": "2.16",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.90 wt% Ni, Table 1",
+              "cra_value": "14.9",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 16}",
+              "cra_value": "16",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 14; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 236,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "249",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 15: 0.244 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.244",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.48 wt% Mo, Table 1",
+              "cra_value": "1.48",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "15.03 wt% Ni, Table 1",
+              "cra_value": "15.03",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 249}",
+              "cra_value": "249",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 15; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 237,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "605",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 16: 0.371 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.371",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.72 wt% Mo, Table 1",
+              "cra_value": "3.72",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "15.08 wt% Ni, Table 1",
+              "cra_value": "15.08",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 605}",
+              "cra_value": "605",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 16; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 238,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "456",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 17: 0.061 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.061",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "5.72 wt% Mo, Table 1",
+              "cra_value": "5.72",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "24.68 wt% Ni, Table 1",
+              "cra_value": "24.68",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 456}",
+              "cra_value": "456",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 17; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 239,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "2",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 18: 0.304 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.304",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.85 wt% Mo, Table 1",
+              "cra_value": "1.85",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.67 wt% Ni, Table 1",
+              "cra_value": "14.67",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 2}",
+              "cra_value": "2",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 18; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 240,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-32",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 19: 0.306 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.306",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.56 wt% Mo, Table 1",
+              "cra_value": "3.56",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "15.92 wt% Ni, Table 1",
+              "cra_value": "15.92",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": -32}",
+              "cra_value": "-32",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 19; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 241,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "52",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 20: 0.25 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.25",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.18 wt% Mo, Table 1",
+              "cra_value": "2.18",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "24.46 wt% Ni, Table 1",
+              "cra_value": "24.46",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 52}",
+              "cra_value": "52",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 20; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This is specimen21 in neutral 1 N NaCl at 30 C, with unresolved Table 2/3 no-breakdown limits 708/908 mV. CRA251 represents the same chemistry in acid at 50 C and a measured145 mV outcome, so it is a different condition."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 242,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "74",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 22: 0.349 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.349",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.3 wt% Mo, Table 1",
+              "cra_value": "2.3",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25.21 wt% Ni, Table 1",
+              "cra_value": "25.21",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 74}",
+              "cra_value": "74",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 22; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 243,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "165",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 23: 0.339 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.339",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.75 wt% Mo, Table 1",
+              "cra_value": "6.75",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "26.13 wt% Ni, Table 1",
+              "cra_value": "26.13",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 165}",
+              "cra_value": "165",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 23; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 244,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-8",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 24: 0.396 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.396",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.42 wt% Mo, Table 1",
+              "cra_value": "6.42",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "26.65 wt% Ni, Table 1",
+              "cra_value": "26.65",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": -8}",
+              "cra_value": "-8",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 24; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 245,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "268",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 25: 0.338 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.338",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.39 wt% Mo, Table 1",
+              "cra_value": "1.39",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "5.90 wt% Ni, Table 1",
+              "cra_value": "5.9",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl",
+              "cra_value": "Deaerated 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30 C, Table 2 heading",
+              "cra_value": "30.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min (neutral tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 20/60=0.333333 mV/s, compatible with CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 268}",
+              "cra_value": "268",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 N NaCl, hence 1 mol/L chloride by C1",
+              "cra_value": "1.5",
+              "comparison": "Source/CRA conflict: CRA1.5 is not supported by the neutral solution."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 25; the Table 2 neutral 30 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 246,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-185",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 12: 0.268 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.268",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.1 wt% Mo, Table 1",
+              "cra_value": "2.1",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6.00 wt% Ni, Table 1",
+              "cra_value": "6.0",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl +0.5 N HCl",
+              "cra_value": "0.5 NH CI + 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "50 C, Table 3 footnote",
+              "cra_value": "50.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "6 mV/min (acid tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 6/60=0.1 mV/s, a CRA conflict."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": -185}",
+              "cra_value": "-185",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.69, Table 3 acid condition",
+              "cra_value": "0.69",
+              "comparison": "Same explicit source-reported pH."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 12; the Table 3 acid 50 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 247,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-155",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 13: 0.31 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.31",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.84 wt% Mo, Table 1",
+              "cra_value": "3.84",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "15.78 wt% Ni, Table 1",
+              "cra_value": "15.78",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl +0.5 N HCl",
+              "cra_value": "0.5 NH CI + 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "50 C, Table 3 footnote",
+              "cra_value": "50.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "6 mV/min (acid tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 6/60=0.1 mV/s, a CRA conflict."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": -155}",
+              "cra_value": "-155",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.69, Table 3 acid condition",
+              "cra_value": "0.69",
+              "comparison": "Same explicit source-reported pH."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 13; the Table 3 acid 50 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 248,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-152",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 15: 0.244 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.244",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.48 wt% Mo, Table 1",
+              "cra_value": "1.48",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "15.03 wt% Ni, Table 1",
+              "cra_value": "15.03",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl +0.5 N HCl",
+              "cra_value": "0.5 NH CI + 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "50 C, Table 3 footnote",
+              "cra_value": "50.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "6 mV/min (acid tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 6/60=0.1 mV/s, a CRA conflict."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": -152}",
+              "cra_value": "-152",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.69, Table 3 acid condition",
+              "cra_value": "0.69",
+              "comparison": "Same explicit source-reported pH."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 15; the Table 3 acid 50 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 249,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-88",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 16: 0.371 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.371",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.72 wt% Mo, Table 1",
+              "cra_value": "3.72",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "15.08 wt% Ni, Table 1",
+              "cra_value": "15.08",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl +0.5 N HCl",
+              "cra_value": "0.5 NH CI + 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "50 C, Table 3 footnote",
+              "cra_value": "50.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "6 mV/min (acid tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 6/60=0.1 mV/s, a CRA conflict."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": -88}",
+              "cra_value": "-88",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.69, Table 3 acid condition",
+              "cra_value": "0.69",
+              "comparison": "Same explicit source-reported pH."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 16; the Table 3 acid 50 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 250,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "149",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 17: 0.061 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.061",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "5.72 wt% Mo, Table 1",
+              "cra_value": "5.72",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "24.68 wt% Ni, Table 1",
+              "cra_value": "24.68",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl +0.5 N HCl",
+              "cra_value": "0.5 NH CI + 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "50 C, Table 3 footnote",
+              "cra_value": "50.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "6 mV/min (acid tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 6/60=0.1 mV/s, a CRA conflict."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 149}",
+              "cra_value": "149",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.69, Table 3 acid condition",
+              "cra_value": "0.69",
+              "comparison": "Same explicit source-reported pH."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 17; the Table 3 acid 50 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_038",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 251,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "145",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 21: 0.255 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.255",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "5 wt% Mo, Table 1",
+              "cra_value": "5.0",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25.92 wt% Ni, Table 1",
+              "cra_value": "25.92",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl +0.5 N HCl",
+              "cra_value": "0.5 NH CI + 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "50 C, Table 3 footnote",
+              "cra_value": "50.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "6 mV/min (acid tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 6/60=0.1 mV/s, a CRA conflict."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 145}",
+              "cra_value": "145",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.69, Table 3 acid condition",
+              "cra_value": "0.69",
+              "comparison": "Same explicit source-reported pH."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 21; the Table 3 acid 50 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_039",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_040",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_041",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 252,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "281",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Specimen 27: 0.39 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.39",
+              "comparison": "Independent source specimen analysis; no row-position identity is assumed."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.11 wt% Mo, Table 1",
+              "cra_value": "6.11",
+              "comparison": "Independent source analysis distinguishes alloys with similar nitrogen contents."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25.90 wt% Ni, Table 1",
+              "cra_value": "25.9",
+              "comparison": "Approximate values retain their source ~ qualifier."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 1 N NaCl +0.5 N HCl",
+              "cra_value": "0.5 NH CI + 1 N NaCI",
+              "comparison": "Same named medium/condition column; C1 gives chloride molarity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "50 C, Table 3 footnote",
+              "cra_value": "50.0",
+              "comparison": "Independent source temperature selects the condition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "6 mV/min (acid tests), PDF p.2",
+              "cra_value": "0.3333",
+              "comparison": "C2: 6/60=0.1 mV/s, a CRA conflict."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.C.E.)\", \"value\": 281}",
+              "cra_value": "281",
+              "comparison": "Source and CRA are mV versus SCE; exact printed critical-pitting value agrees. Secondary registered neutral repetitions, where present, retain their roles. No current-density parentheses are used as Epit."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.69, Table 3 acid condition",
+              "cra_value": "0.69",
+              "comparison": "Same explicit source-reported pH."
+            }
+          ],
+          "notes": "Table 1 identifies specimen 27; the Table 3 acid 50 C column independently identifies the outcome. Numeric agreement is separate from the disclosed CRA procedural/concentration conflicts."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_042",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_043",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_044",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_045",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_046",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_047",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_048",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This no-breakdown bound concerns an unrepresented experimental alloy and/or a different neutral/acid condition. In particular CRA252 is the acid specimen27 threshold281 mV, not its neutral908 mV bound. The bound is not converted into an observed onset."
+    },
+    {
+      "observation_id": "obs_049",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_050",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_051",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_052",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_053",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_054",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_055",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_056",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_057",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_058",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_059",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_060",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_061",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_062",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_063",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_064",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These named commercial alloys or titanium specimens have no corresponding material in the supplied CRA rows, which cover selected experimental Table 1 alloys. No result is assigned by a coincident potential."
+    },
+    {
+      "observation_id": "obs_065",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These Figure 1/text outcomes are for alloy30, C-276 or alloyG in the distinct 70 C acid experiment (PDF pp.3-4); no such material/condition counterpart is supplied. Water-electrolysis rise around0.9 V is not treated as pitting."
+    },
+    {
+      "observation_id": "obs_066",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These Figure 1/text outcomes are for alloy30, C-276 or alloyG in the distinct 70 C acid experiment (PDF pp.3-4); no such material/condition counterpart is supplied. Water-electrolysis rise around0.9 V is not treated as pitting."
+    },
+    {
+      "observation_id": "obs_067",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These Figure 1/text outcomes are for alloy30, C-276 or alloyG in the distinct 70 C acid experiment (PDF pp.3-4); no such material/condition counterpart is supplied. Water-electrolysis rise around0.9 V is not treated as pitting."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

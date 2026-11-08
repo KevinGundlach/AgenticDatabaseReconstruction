@@ -1,0 +1,379 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "57_Sugimoto, K., and Y. Sawada. Corrosion Science 17.5 (1977)_ 425-445.pdf",
+  "reference_number": 57,
+  "inputs": {
+    "pdf": {
+      "filename": "57_Sugimoto, K., and Y. Sawada. Corrosion Science 17.5 (1977)_ 425-445.pdf",
+      "sha256": "0399e468d74430cafd4ae00c91b9ca764343df8b890b7fe7c7864235a9c22762"
+    },
+    "csv": {
+      "filename": "pitting_potential_57.csv",
+      "sha256": "d92578589fe0c49f705b30fa17ac593740d7588acb6b483746b2c40ebfbf5e06"
+    },
+    "registry": {
+      "filename": "paper_57.json",
+      "sha256": "1e0992b2d30339a776fb4c8b7e3544e06b182d6a139d397eeb50d57afb29537c"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    9
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was reviewed. Every registered anchor page, including secondary locations, was actually viewed. This is alignment of the exact supplied registry, not a full-paper census or proof of the source presentation used by the original curators. All inputs are unchanged.",
+  "shared_qualifications": [
+    "C1: V(SCE)*1000=mV(SCE), with no reference offset. The source5Mo and pure-Cr results explicitly show no pitting up to transpassive dissolution at approximately+0.85 V. A censored pitting lower limit is not an observed pitting onset or a numerical conversion of transpassivity.",
+    "C2: source potential increments are25 mV with a1 min dwell (PDF p.3), giving a nominal25/60=0.416667 mV/s; CRA0.417 is not proof of a continuous sweep. Source1 N HCl is deaerated,25 C, pH0.02, versus CRA pH0.0. The inspected source uses heat treatment1050 C/2 h and water quenching (PDF p.2); CRA heat cells are blank.",
+    "The source20Cr-25Ni-5Mo formula is nominal; Table I analysis is Cr19.96/Ni25.66/Mo5.06 wt%. CRA179 uses that analysis, while183/201 use nominalCr20/Ni25/Mo5. These are retained as alternative representations, not automatically collapsed as duplicate runs. Their numerical850/880 targets do not establish counterpart identity for the registered no-pitting bound.",
+    "Only the source explicitly stated17Cr-25Ni-5Mo pitting onset above approximately0.40 V is supported as a numerical threshold counterpart. Other unregistered continuous curves were not converted into new observations."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 179,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "850",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Nominal20 wt% Cr; Table I measured19.96 wt%, PDF p.2",
+              "cra_value": "19.96",
+              "comparison": "Analytical versus nominal source representation is explicit."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal25 wt% Ni; measured25.66 wt%",
+              "cra_value": "25.66",
+              "comparison": "Independent alloy identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Nominal5 wt% Mo; measured5.06 wt%",
+              "cra_value": "5.06",
+              "comparison": "Independent alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated1 N HCl",
+              "cra_value": "1N HCl",
+              "comparison": "Same named medium and gas."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit test temperature."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.02, PDF p.3",
+              "cra_value": "0.0",
+              "comparison": "Source/CRA pH difference is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "25 mV steps,1 min holds",
+              "cra_value": "0.417",
+              "comparison": "C2: nominal25/60=0.416667 mV/s; stepped procedure."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.85}",
+              "cra_value": "850",
+              "comparison": "C1: no-pitting lower limit about0.85 V(SCE)=850 mV(SCE), retained as a bound. The numerical CRA target cannot be presumed to have this censored role or to represent pitting rather than transpassivity."
+            }
+          ],
+          "notes": "Candidate by independently established5Mo alloy/medium/temperature. The source explicitly attributes the limiting event to transpassive dissolution, while CRA supplies a numerical Epit target without this qualification. Outcome counterpart identity remains unresolved; all analytical/nominal alternatives are retained."
+        },
+        {
+          "citrine_no": 183,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "850",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Nominal20 wt% Cr; Table I measured19.96 wt%, PDF p.2",
+              "cra_value": "20.0",
+              "comparison": "Analytical versus nominal source representation is explicit."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal25 wt% Ni; measured25.66 wt%",
+              "cra_value": "25.0",
+              "comparison": "Independent alloy identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Nominal5 wt% Mo; measured5.06 wt%",
+              "cra_value": "5.0",
+              "comparison": "Independent alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated1 N HCl",
+              "cra_value": "1N HCl",
+              "comparison": "Same named medium and gas."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit test temperature."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.02, PDF p.3",
+              "cra_value": "0.0",
+              "comparison": "Source/CRA pH difference is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "25 mV steps,1 min holds",
+              "cra_value": "0.417",
+              "comparison": "C2: nominal25/60=0.416667 mV/s; stepped procedure."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.85}",
+              "cra_value": "850",
+              "comparison": "C1: no-pitting lower limit about0.85 V(SCE)=850 mV(SCE), retained as a bound. The numerical CRA target cannot be presumed to have this censored role or to represent pitting rather than transpassivity."
+            }
+          ],
+          "notes": "Candidate by independently established5Mo alloy/medium/temperature. The source explicitly attributes the limiting event to transpassive dissolution, while CRA supplies a numerical Epit target without this qualification. Outcome counterpart identity remains unresolved; all analytical/nominal alternatives are retained."
+        },
+        {
+          "citrine_no": 201,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "880",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Nominal20 wt% Cr; Table I measured19.96 wt%, PDF p.2",
+              "cra_value": "20.0",
+              "comparison": "Analytical versus nominal source representation is explicit."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal25 wt% Ni; measured25.66 wt%",
+              "cra_value": "25.0",
+              "comparison": "Independent alloy identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Nominal5 wt% Mo; measured5.06 wt%",
+              "cra_value": "5.0",
+              "comparison": "Independent alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated1 N HCl",
+              "cra_value": "1N HCl",
+              "comparison": "Same named medium and gas."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit test temperature."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.02, PDF p.3",
+              "cra_value": "0.0",
+              "comparison": "Source/CRA pH difference is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "25 mV steps,1 min holds",
+              "cra_value": "0.417",
+              "comparison": "C2: nominal25/60=0.416667 mV/s; stepped procedure."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.85}",
+              "cra_value": "880",
+              "comparison": "C1: no-pitting lower limit about0.85 V(SCE)=850 mV(SCE), retained as a bound. The numerical CRA target cannot be presumed to have this censored role or to represent pitting rather than transpassivity."
+            }
+          ],
+          "notes": "Candidate by independently established5Mo alloy/medium/temperature. The source explicitly attributes the limiting event to transpassive dissolution, while CRA supplies a numerical Epit target without this qualification. Outcome counterpart identity remains unresolved; all analytical/nominal alternatives are retained."
+        }
+      ],
+      "notes": "Candidate by independently established5Mo alloy/medium/temperature. The source explicitly attributes the limiting event to transpassive dissolution, while CRA supplies a numerical Epit target without this qualification. Outcome counterpart identity remains unresolved; all analytical/nominal alternatives are retained."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 180,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "830",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Pure chromium, PDF p.4",
+              "cra_value": "100.0",
+              "comparison": "Nominal pure-element identity independently selects CRA180."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated1 N HCl",
+              "cra_value": "1N HCl",
+              "comparison": "Same named medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "25 mV steps with1 min dwell",
+              "cra_value": "0.417",
+              "comparison": "C2: nominal0.416667 mV/s, not a continuous scan."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.85}",
+              "cra_value": "830",
+              "comparison": "C1: source no-pitting limit approximately0.85 V(SCE)=850 mV(SCE) precedes transpassivity. CRA830 mV is not an established comparable pitting onset; neither bound nor target is repaired."
+            }
+          ],
+          "notes": "Candidate180 has the independent pure-Cr/medium identity, but its numerical target may represent a transpassive feature rather than the registered censored no-pitting outcome; the supplied evidence does not establish equivalent outcome identity."
+        }
+      ],
+      "notes": "Candidate180 has the independent pure-Cr/medium identity, but its numerical target may represent a transpassive feature rather than the registered censored no-pitting outcome; the supplied evidence does not establish equivalent outcome identity."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 200,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "400",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17 wt% Cr in17Cr-25Ni-5Mo, PDF p.7; Fig.6 series4 onp.9",
+              "cra_value": "17.0",
+              "comparison": "Independent stated source formula and series identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25 wt% Ni",
+              "cra_value": "25.0",
+              "comparison": "Independent nominal source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "5 wt% Mo",
+              "cra_value": "5.0",
+              "comparison": "Independent nominal source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated1 N HCl",
+              "cra_value": "1N HCl",
+              "comparison": "Same named medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "25 mV steps,1 min holds",
+              "cra_value": "0.417",
+              "comparison": "C2: nominal25/60=0.416667 mV/s; compare CRA rounding."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.4}",
+              "cra_value": "400",
+              "comparison": "C1: approximate0.40 V(SCE)*1000=400 mV(SCE). This is the explicitly stated approximate onset above0.40 V, not a mean inferred from a continuous curve."
+            }
+          ],
+          "notes": "Text explicitly identifies pitting above approximately0.40 V for17Cr-25Ni-5Mo; source formula/series, medium and temperature identifyCRA200 independently (PDF pp.3,7,9)."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": [
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    201
+  ]
+}

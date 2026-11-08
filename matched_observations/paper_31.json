@@ -1,0 +1,103 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "31_G. P. Halada , D. Kim , C.R. Clayton , Corrosion 52 (1996)_ p. 36.pdf",
+  "reference_number": 31,
+  "inputs": {
+    "pdf": {
+      "filename": "31_G. P. Halada , D. Kim , C.R. Clayton , Corrosion 52 (1996)_ p. 36.pdf",
+      "sha256": "f0f6bcd234bcb1ceeac3d5d8b7d09d08e62c1eb2f48dbc4cb8abc772a3ceaa81"
+    },
+    "csv": {
+      "filename": "pitting_potential_31.csv",
+      "sha256": "25d0fdf2c956df7265cae0bed384b33a187fae2094c2a45a00bcc6236ac73d6a"
+    },
+    "registry": {
+      "filename": "paper_31.json",
+      "sha256": "24b3692e58f0aec85c14b9a0f7664850575295e6ce390b9f3c8e7f34c897b6b6"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    3,
+    5
+  ],
+  "coverage_notes": "Rendered a short-named, byte-identical PDF copy after verifying its SHA-256 against the original. Input fingerprints refer to original supplied bytes. Only listed PDF pages were actually viewed. One registry entry and one CRA record considered. Table 3 and Fig.1 caption on PDF p.5, Table 1/procedure on p.3 and heat treatment on p.2 visually inspected. Poppler issued missing display-font warnings for Symbol and ArialNarrow variants; the decisive table numbers and captions were visually legible.",
+  "shared_qualifications": [
+    "Table 3 explicitly distinguishes Epit from transpassive Etr. No new Epit is inferred for its blank cells.",
+    "Table 1 reports Fe 59.58 wt.% for the Mo-free alloy, whereas CRA Fe is 59.3898 wt.%; this context discrepancy is retained. The directly matching Cr/Ni/Mo/N analysis and experiment identify the counterpart."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 152,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "239",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 Mo-free Fe-20Cr-20Ni alloy: 20.12 wt.% Cr",
+              "cra_value": "20.12",
+              "comparison": "Direct source wt.% agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 Mo-free Fe-20Cr-20Ni alloy: 20.18 wt.% Ni",
+              "cra_value": "20.18",
+              "comparison": "Direct source wt.% agrees."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 Mo-free Fe-20Cr-20Ni alloy: 0.01 wt.% Mo",
+              "cra_value": "0.01",
+              "comparison": "Direct source wt.% agrees."
+            },
+            {
+              "field": "N",
+              "paper_value": "Table 1 Mo-free Fe-20Cr-20Ni alloy: 0.011 wt.% N",
+              "cra_value": "0.011",
+              "comparison": "Direct source wt.% agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M HCl + 0.4 M NaCl; Ar deaerated at least 2 h",
+              "cra_value": "0.1 M HCl + 0.4 M NaCl",
+              "comparison": "Exact electrolyte and gas preparation; p.3 methods and Fig.1 caption."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1100 C for 3 h, water quenched; polished to 0.25 micrometre diamond finish",
+              "cra_value": "0.25 um diamond finish, annealed at 1100C for 3h and water quenched",
+              "comparison": "Matches processing on PDF p.2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 239}",
+              "cra_value": "239",
+              "comparison": "Table 3 Epit=239 mV(SCE), exactly CRA 239; same electrode scale."
+            }
+          ],
+          "notes": "Mo-free high-Ni alloy chemistry plus the chloride mixture and sweep identify the Table 3 Epit counterpart (PDF pp.2-3,5). The Fe-analysis discrepancy is retained without modifying either input."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

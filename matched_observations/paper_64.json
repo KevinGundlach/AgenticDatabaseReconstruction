@@ -1,0 +1,168 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "64_Ives, M. B., et al. Corrosion science 31 (1990)_ 367-376.pdf",
+  "reference_number": 64,
+  "inputs": {
+    "pdf": {
+      "filename": "64_Ives, M. B., et al. Corrosion science 31 (1990)_ 367-376.pdf",
+      "sha256": "77931c0354be92f1af14e693efb969af8f0e0a85c7f9d7900c1d836baccfa720"
+    },
+    "csv": {
+      "filename": "pitting_potential_64.csv",
+      "sha256": "72c472a63eb800a8099d68bcd967729991b856a52a88dd3289769b729af1f003"
+    },
+    "registry": {
+      "filename": "paper_64.json",
+      "sha256": "76710fc17c06fe1a9c50c786b7d8bcba01b66aa9665e6edd3317726fc1093d31"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "coverage_notes": "Every supplied observation and CRA row was considered. Every registered anchor page, including secondary locations, was actually viewed. Context pages and enlarged source plots were consulted where needed. This is alignment of the exact supplied registry, not a full-paper census or proof of the presentation selected by the original curators. Inputs are unchanged.",
+  "shared_qualifications": [
+    "Source Table1 independently identifies the annealed UNS S30100 substrate (PDF p.2). Table2 distinguishes implanted sample9 (140 keV,3.10*10^16 retained Mo ions/cm2) from sample10 (140 keV,5.55*10^16), PDF p.4. Implant dose is not converted to a bulk Mo wt%.",
+    "Fig.3 labels apparent critical pitting Ec on the forward polarization characteristics; the authors emphasize its poor reproducibility and no consistent beneficial Ec shift (PDF pp.4-5). The labeled transitions were visually enlarged; no extra onset was traced from unannotated curves.",
+    "The500 mV(SCE) chloride-addition holds (control and sample9) produce only upper limits on pitting threshold. They are distinct from the scanned control/sample10 outcomes represented by the two CRA rows. V(SCE)*1000=mV(SCE), without a reference offset.",
+    "CRA25 C and any numerical scan rate are not independently supplied by the inspected source electrochemical passages. The text specifies room-temperature implantation, which is not automatically the test temperature."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This control result is an upper limit from a500 mV(SCE) hold with chloride added after30 min (PDF pp.4-5). CRA566 is identified with the separate scanned Ec transition; the hold endpoint is not that measured threshold."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "This upper limit is from the chloride-addition hold on sample9 (3.10*10^16 Mo ions/cm2), not the scanned sample10 dose5.55*10^16 represented by CRA567. Both specimen and protocol differ; no counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 566,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "449",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.0 wt% Cr, Table1, PDF p.2",
+              "cra_value": "17.0",
+              "comparison": "Independent substrate analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.1 wt% Ni, Table1",
+              "cra_value": "8.1",
+              "comparison": "Independent substrate analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.17 wt% bulk Mo, Table1",
+              "cra_value": "0.17",
+              "comparison": "Substrate composition, not the near-surface implant concentration."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M Na2SO4 +0.6 M NaCl, Fig.3, N2 de-aerated",
+              "cra_value": "0.1M Na2SO4 + 0.6M NaCl",
+              "comparison": "Same independently labeled electrolyte and gas."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Annealed UNS S30100; unimplanted control, Fig.3",
+              "cra_value": "annealed UNS S30100 austenitic stainless steel",
+              "comparison": "Source substrate state and implant condition identify the counterpart; sample9 has a different dose."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.45}",
+              "cra_value": "449",
+              "comparison": "V(SCE)*1000=mV(SCE): approximately450 mV from the explicitly Ec-labeled transition, compatible with CRA graphical precision. This is not the500 mV hold endpoint."
+            }
+          ],
+          "notes": "Independent substrate composition, electrolyte and control versus sample10 implant identity select the Fig.3 counterpart (PDF pp.2,4-5). Apparent Ec and its reproducibility qualification are preserved."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 567,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "379",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.0 wt% Cr, Table1, PDF p.2",
+              "cra_value": "17.0",
+              "comparison": "Independent substrate analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.1 wt% Ni, Table1",
+              "cra_value": "8.1",
+              "comparison": "Independent substrate analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.17 wt% bulk Mo, Table1",
+              "cra_value": "0.17",
+              "comparison": "Substrate composition, not the near-surface implant concentration."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M Na2SO4 +0.6 M NaCl, Fig.3, N2 de-aerated",
+              "cra_value": "0.1M Na2SO4 + 0.6M NaCl",
+              "comparison": "Same independently labeled electrolyte and gas."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Annealed UNS S30100; sample10,140 keV,5.55*10^16 retained Mo ions/cm2, Table2/Fig.3",
+              "cra_value": "annealed UNS S30100 austenitic stainless steel, ion implanted with Mo implanted\n with 5.55*1016 molybdenum ions/cm2 ",
+              "comparison": "Source substrate state and implant condition identify the counterpart; sample9 has a different dose."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.38}",
+              "cra_value": "379",
+              "comparison": "V(SCE)*1000=mV(SCE): approximately380 mV from the explicitly Ec-labeled transition, compatible with CRA graphical precision. This is not the500 mV hold endpoint."
+            }
+          ],
+          "notes": "Independent substrate composition, electrolyte and control versus sample10 implant identity select the Fig.3 counterpart (PDF pp.2,4-5). Apparent Ec and its reproducibility qualification are preserved."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

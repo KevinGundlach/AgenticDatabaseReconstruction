@@ -1,0 +1,998 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "41_S. J. Pawel, E. E. Stansbury, C. D. Lundin , Corrosion 45 (1989)_ p. 125.pdf",
+  "reference_number": 41,
+  "inputs": {
+    "pdf": {
+      "filename": "41_S. J. Pawel, E. E. Stansbury, C. D. Lundin , Corrosion 45 (1989)_ p. 125.pdf",
+      "sha256": "1eb29d57434aa6fd81ceb693937e2d0cdbec7b947266bc6cdc3a0f2e25037fe9"
+    },
+    "csv": {
+      "filename": "pitting_potential_41.csv",
+      "sha256": "46d6cb19d6410efbef6c831b87d57a74e2d29c6f0c37dccb21c0f322e61d1f9b"
+    },
+    "registry": {
+      "filename": "paper_41.json",
+      "sha256": "9ca4e9f3c56d40c94e318461497e34bf4be586b551775648d0938c178a2e4455"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was considered. All registered anchor pages were visually inspected, including secondary locations. This is registry-scoped identity alignment, not a full-paper census or proof of the original curator's chosen presentation. Inputs are unchanged.",
+  "shared_qualifications": [
+    "C1 (conditional reference conversion only): Corrtest specifies saturated-KCl SCE = +0.241 V versus NHE at 25 C (https://www.corrtestinstruments.com/en/02437.html). The illustrative comparison is E_mV(SCE,25 C) = 1000*E_V(SHE) - 241, or E_mV(SHE) - 241. Apply the offset separately to both scatter endpoints. The paper reports SHE and a 27 C test bath, without establishing the CRA reference-cell temperature/calibration. Therefore links are not_comparable for a definitive potential comparison; the 25 C calculations are conditional and no offset was fitted to CRA.",
+    "Figure 3 (PDF p.3) means are based on at least three determinations; bars are total scatter, not standard deviations. Figures 12 and 15 repeat the standard-procedure bars. Table 2 Epit values (PDF p.7) are possible repeated standard-condition presentations, not identified replicate means or proven identical runs. obs_001/016 through obs_006/021 share CRA rows on this basis; do not double count them.",
+    "C2: 3 V/hour * 1000/3600 = 0.833333 mV/s, consistent with CRA 0.833. The standard solution is N2-deaerated 1 N H2SO4 + 0.5 M NaCl at 27 C. Source bulk pH is near 0.5 (PDF p.3), versus CRA 0.0; it is not inferred from acid normality.",
+    "Table 1 Ferrite Numbers are not established wt% phase fractions; CRA microstructure percentages are not used as exact composition evidence. Modified rapid-scan and chloride-free-loop results remain distinct from the standard test."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 142,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "547.7",
+            "min": "523.25",
+            "max": "581.33"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-11: 20.8 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.8",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "11.7 wt% Ni, Table 1",
+              "cra_value": "11.7",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.025 wt% N, Table 1",
+              "cra_value": "0.025",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": 0.795, \"min\": 0.77, \"max\": 0.825}",
+              "cra_value": "547.7",
+              "comparison": "C1: conditional 25 C illustration 0.795*1000-241 = 554 mV(SCE); definitive reference conversion remains unresolved."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "0.77 V(SHE), total-scatter min endpoint",
+              "cra_value": "523.25",
+              "comparison": "C1 conditional endpoint: 0.77*1000-241 = 529 mV(SCE), not a statistical uncertainty."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "0.825 V(SHE), total-scatter max endpoint",
+              "cra_value": "581.33",
+              "comparison": "C1 conditional endpoint: 0.825*1000-241 = 584 mV(SCE), not a statistical uncertainty."
+            }
+          ],
+          "notes": "CF-11 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Figure 3 mean/scatter and its registered standard-procedure repetitions support the summary row; a separate Table 2 presentation also shares this row, without proven common-run identity."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 143,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "562.99",
+            "min": "534.6",
+            "max": "605.78"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-12: 20.9 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.9",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.5 wt% Ni, Table 1",
+              "cra_value": "10.5",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.054 wt% N, Table 1",
+              "cra_value": "0.054",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": 0.81, \"min\": 0.78, \"max\": 0.85}",
+              "cra_value": "562.99",
+              "comparison": "C1: conditional 25 C illustration 0.81*1000-241 = 569 mV(SCE); definitive reference conversion remains unresolved."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "0.78 V(SHE), total-scatter min endpoint",
+              "cra_value": "534.6",
+              "comparison": "C1 conditional endpoint: 0.78*1000-241 = 539 mV(SCE), not a statistical uncertainty."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "0.85 V(SHE), total-scatter max endpoint",
+              "cra_value": "605.78",
+              "comparison": "C1 conditional endpoint: 0.85*1000-241 = 609 mV(SCE), not a statistical uncertainty."
+            }
+          ],
+          "notes": "CF-12 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Figure 3 mean/scatter and its registered standard-procedure repetitions support the summary row; a separate Table 2 presentation also shares this row, without proven common-run identity."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 144,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "625",
+            "min": "601.41",
+            "max": "663.42"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-13: 20.8 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.8",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "9.2 wt% Ni, Table 1",
+              "cra_value": "9.2",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.082 wt% N, Table 1",
+              "cra_value": "0.082",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": 0.87, \"min\": 0.845, \"max\": 0.91}",
+              "cra_value": "625",
+              "comparison": "C1: conditional 25 C illustration 0.87*1000-241 = 629 mV(SCE); definitive reference conversion remains unresolved."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "0.845 V(SHE), total-scatter min endpoint",
+              "cra_value": "601.41",
+              "comparison": "C1 conditional endpoint: 0.845*1000-241 = 604 mV(SCE), not a statistical uncertainty."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "0.91 V(SHE), total-scatter max endpoint",
+              "cra_value": "663.42",
+              "comparison": "C1 conditional endpoint: 0.91*1000-241 = 669 mV(SCE), not a statistical uncertainty."
+            }
+          ],
+          "notes": "CF-13 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Figure 3 mean/scatter and its registered standard-procedure repetitions support the summary row; a separate Table 2 presentation also shares this row, without proven common-run identity."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 145,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "682.64",
+            "min": "667.35",
+            "max": "697.92"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-14: 21.0 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "21.0",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.0 wt% Ni, Table 1",
+              "cra_value": "8.0",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.098 wt% N, Table 1",
+              "cra_value": "0.098",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": 0.93, \"min\": 0.915, \"max\": 0.945}",
+              "cra_value": "682.64",
+              "comparison": "C1: conditional 25 C illustration 0.93*1000-241 = 689 mV(SCE); definitive reference conversion remains unresolved."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "0.915 V(SHE), total-scatter min endpoint",
+              "cra_value": "667.35",
+              "comparison": "C1 conditional endpoint: 0.915*1000-241 = 674 mV(SCE), not a statistical uncertainty."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "0.945 V(SHE), total-scatter max endpoint",
+              "cra_value": "697.92",
+              "comparison": "C1 conditional endpoint: 0.945*1000-241 = 704 mV(SCE), not a statistical uncertainty."
+            }
+          ],
+          "notes": "CF-14 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Figure 3 mean/scatter and its registered standard-procedure repetitions support the summary row; a separate Table 2 presentation also shares this row, without proven common-run identity."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 146,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "726.74",
+            "min": "711.9",
+            "max": "742.03"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-3: 20.6 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.6",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.4 wt% Ni, Table 1",
+              "cra_value": "7.4",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.17 wt% N, Table 1",
+              "cra_value": "0.17",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": 0.97, \"min\": 0.955, \"max\": 0.985}",
+              "cra_value": "726.74",
+              "comparison": "C1: conditional 25 C illustration 0.97*1000-241 = 729 mV(SCE); definitive reference conversion remains unresolved."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "0.955 V(SHE), total-scatter min endpoint",
+              "cra_value": "711.9",
+              "comparison": "C1 conditional endpoint: 0.955*1000-241 = 714 mV(SCE), not a statistical uncertainty."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "0.985 V(SHE), total-scatter max endpoint",
+              "cra_value": "742.03",
+              "comparison": "C1 conditional endpoint: 0.985*1000-241 = 744 mV(SCE), not a statistical uncertainty."
+            }
+          ],
+          "notes": "CF-3 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Figure 3 mean/scatter and its registered standard-procedure repetitions support the summary row; a separate Table 2 presentation also shares this row, without proven common-run identity."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 147,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "765.17",
+            "min": "738.97",
+            "max": "805.78"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-4: 20.5 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.5",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.2 wt% Ni, Table 1",
+              "cra_value": "7.2",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.17 wt% N, Table 1",
+              "cra_value": "0.17",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": 1.01, \"min\": 0.985, \"max\": 1.05}",
+              "cra_value": "765.17",
+              "comparison": "C1: conditional 25 C illustration 1.01*1000-241 = 769 mV(SCE); definitive reference conversion remains unresolved."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "0.985 V(SHE), total-scatter min endpoint",
+              "cra_value": "738.97",
+              "comparison": "C1 conditional endpoint: 0.985*1000-241 = 744 mV(SCE), not a statistical uncertainty."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "1.05 V(SHE), total-scatter max endpoint",
+              "cra_value": "805.78",
+              "comparison": "C1 conditional endpoint: 1.05*1000-241 = 809 mV(SCE), not a statistical uncertainty."
+            }
+          ],
+          "notes": "CF-4 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Figure 3 mean/scatter and its registered standard-procedure repetitions support the summary row; a separate Table 2 presentation also shares this row, without proven common-run identity."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 CF-1/CF-2 have about 17% Cr and are additional alloys, distinct from all six supplied CRA compositions (PDF p.7); no counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 CF-1/CF-2 have about 17% Cr and are additional alloys, distinct from all six supplied CRA compositions (PDF p.7); no counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 142,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "547.7",
+            "min": "523.25",
+            "max": "581.33"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-11: 20.8 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.8",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "11.7 wt% Ni, Table 1",
+              "cra_value": "11.7",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.025 wt% N, Table 1",
+              "cra_value": "0.025",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 795}",
+              "cra_value": "547.7",
+              "comparison": "C1: conditional 25 C illustration 795*1-241 = 554 mV(SCE). Reference calibration/temperature is unresolved, so definitive potential agreement is not_comparable. The Table 2 Epit is not asserted to be a mean."
+            }
+          ],
+          "notes": "CF-11 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Table 2 Epit (PDF p.7) accompanies AAS results for the same alloy/standard medium and shares the row with its Figure 3 summary as a possible repeated presentation; exact run and aggregation role are unstated. Source table/plot differences remain unchanged."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 143,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "562.99",
+            "min": "534.6",
+            "max": "605.78"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-12: 20.9 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.9",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.5 wt% Ni, Table 1",
+              "cra_value": "10.5",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.054 wt% N, Table 1",
+              "cra_value": "0.054",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 810}",
+              "cra_value": "562.99",
+              "comparison": "C1: conditional 25 C illustration 810*1-241 = 569 mV(SCE). Reference calibration/temperature is unresolved, so definitive potential agreement is not_comparable. The Table 2 Epit is not asserted to be a mean."
+            }
+          ],
+          "notes": "CF-12 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Table 2 Epit (PDF p.7) accompanies AAS results for the same alloy/standard medium and shares the row with its Figure 3 summary as a possible repeated presentation; exact run and aggregation role are unstated. Source table/plot differences remain unchanged."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 144,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "625",
+            "min": "601.41",
+            "max": "663.42"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-13: 20.8 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.8",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "9.2 wt% Ni, Table 1",
+              "cra_value": "9.2",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.082 wt% N, Table 1",
+              "cra_value": "0.082",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 860}",
+              "cra_value": "625",
+              "comparison": "C1: conditional 25 C illustration 860*1-241 = 619 mV(SCE). Reference calibration/temperature is unresolved, so definitive potential agreement is not_comparable. The Table 2 Epit is not asserted to be a mean."
+            }
+          ],
+          "notes": "CF-13 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Table 2 Epit (PDF p.7) accompanies AAS results for the same alloy/standard medium and shares the row with its Figure 3 summary as a possible repeated presentation; exact run and aggregation role are unstated. Source table/plot differences remain unchanged."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 145,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "682.64",
+            "min": "667.35",
+            "max": "697.92"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-14: 21.0 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "21.0",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.0 wt% Ni, Table 1",
+              "cra_value": "8.0",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.098 wt% N, Table 1",
+              "cra_value": "0.098",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 920}",
+              "cra_value": "682.64",
+              "comparison": "C1: conditional 25 C illustration 920*1-241 = 679 mV(SCE). Reference calibration/temperature is unresolved, so definitive potential agreement is not_comparable. The Table 2 Epit is not asserted to be a mean."
+            }
+          ],
+          "notes": "CF-14 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Table 2 Epit (PDF p.7) accompanies AAS results for the same alloy/standard medium and shares the row with its Figure 3 summary as a possible repeated presentation; exact run and aggregation role are unstated. Source table/plot differences remain unchanged."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 146,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "726.74",
+            "min": "711.9",
+            "max": "742.03"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-3: 20.6 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.6",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.4 wt% Ni, Table 1",
+              "cra_value": "7.4",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.17 wt% N, Table 1",
+              "cra_value": "0.17",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 960}",
+              "cra_value": "726.74",
+              "comparison": "C1: conditional 25 C illustration 960*1-241 = 719 mV(SCE). Reference calibration/temperature is unresolved, so definitive potential agreement is not_comparable. The Table 2 Epit is not asserted to be a mean."
+            }
+          ],
+          "notes": "CF-3 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Table 2 Epit (PDF p.7) accompanies AAS results for the same alloy/standard medium and shares the row with its Figure 3 summary as a possible repeated presentation; exact run and aggregation role are unstated. Source table/plot differences remain unchanged."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 147,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "765.17",
+            "min": "738.97",
+            "max": "805.78"
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "CF-4: 20.5 wt% Cr, Table 1, PDF p.3",
+              "cra_value": "20.5",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.2 wt% Ni, Table 1",
+              "cra_value": "7.2",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.17 wt% N, Table 1",
+              "cra_value": "0.17",
+              "comparison": "Independent bulk alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated 1 N H2SO4 + 0.5 M NaCl",
+              "cra_value": "Deaerated (nitrogen purge) 1 N H2SO4 + 0.5 M NaCl",
+              "comparison": "Same ingredients, concentration labels and gas; acid normality is not converted into chloride."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "27 C",
+              "cra_value": "27.0",
+              "comparison": "Same test-bath temperature; this does not establish reference-electrode temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 V/hour, standard cyclic polarization",
+              "cra_value": "0.833",
+              "comparison": "C2: 3*1000/3600 = 0.833333 mV/s; compare with original CRA cell."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 1010}",
+              "cra_value": "765.17",
+              "comparison": "C1: conditional 25 C illustration 1010*1-241 = 769 mV(SCE). Reference calibration/temperature is unresolved, so definitive potential agreement is not_comparable. The Table 2 Epit is not asserted to be a mean."
+            }
+          ],
+          "notes": "CF-4 is independently identified by Table 1 chemistry, standard solution and scan context (PDF pp.2-3). Table 2 Epit (PDF p.7) accompanies AAS results for the same alloy/standard medium and shares the row with its Figure 3 summary as a possible repeated presentation; exact run and aggregation role are unstated. Source table/plot differences remain unchanged."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

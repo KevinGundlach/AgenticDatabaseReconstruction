@@ -1,0 +1,466 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "22_Chun-Ming Lin and Hsien-Lung Tsai. Intermetallics, 19 (2011), 288-294.pdf",
+  "reference_number": 22,
+  "inputs": {
+    "pdf": {
+      "filename": "22_Chun-Ming Lin and Hsien-Lung Tsai. Intermetallics, 19 (2011), 288-294.pdf",
+      "sha256": "233bf7e0b227e9a43cae6fb3c54345e5e30eabf8e08e19835a7fda88e8cc927e"
+    },
+    "csv": {
+      "filename": "pitting_potential_22.csv",
+      "sha256": "074c45c3cd99dd23ef42992b37f4fb6154a5c52b60204c50217e5046845b2b45"
+    },
+    "registry": {
+      "filename": "paper_22.json",
+      "sha256": "f937b1a43c1a5d46a52e224d64c986025861f107cf7a03c3a3a1739a70be0a28"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    6
+  ],
+  "coverage_notes": "All seven supplied observations and six CSV records considered. Registered Table 4 on PDF p.6 and material/method context on pp.1-2 visually inspected. Registry and CSV unchanged.",
+  "shared_qualifications": [
+    "C1: Nominal atomic/molar coefficients are converted only for chemistry comparison: wt.%_i = 100*n_i*M_i / sum(n_j*M_j), over the complete stated formula. CIAAW abridged standard atomic weights 2024: Al 26.982, Co 58.933, Cr 51.996, Fe 55.845, Ni 58.693, Si 28.085, B 10.81 (https://ciaaw.org/abridged-atomic-weights.htm). Calculated nominal wt.% is not a measured analysis.",
+    "Table 4 calls these Epit values; p.293 also discusses intercrystalline, crevice and selective corrosion. The physical qualification does not exclude the registered outcomes.",
+    "obs_006/obs_007: Table 4 assigns 0.14 V to 800 C and 0.18 V to 950 C. CRA 591 (800 C) contains 180 mV and CRA 590 (950 C) contains 140 mV. Supported links follow the independently specified aging temperatures; targets appear transposed."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 4 304L comparator (0.48 V) has no counterpart: all six CRA records describe the Al0.5CoCrFeNi alloy."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 586,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "130",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Al=0.5",
+              "cra_value": "5.6",
+              "comparison": "C1: 100*0.5*26.982/238.958000 = 5.6458 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Co=1",
+              "cra_value": "24.7",
+              "comparison": "C1: 100*1*58.933/238.958000 = 24.6625 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "24.6",
+              "comparison": "C1: 100*1*58.693/238.958000 = 24.5621 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "As-cast",
+              "cra_value": "as-cast",
+              "comparison": "Same distinct as-cast/aging condition; p.289 methods and Table 4 p.293."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl (Table 4)",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Same stated salt solution; no chloride molarity inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C (Table 4 caption)",
+              "cra_value": "25.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s (p.289)",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.13}",
+              "cra_value": "130",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Alloy chemistry, medium and specific heat treatment identify the Table 4 counterpart (PDF pp.1-2,6). SCE scale follows the methods on p.289. Table Epit agrees after V-to-mV scaling."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 587,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "180",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Al=0.5",
+              "cra_value": "5.6",
+              "comparison": "C1: 100*0.5*26.982/238.958000 = 5.6458 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Co=1",
+              "cra_value": "24.7",
+              "comparison": "C1: 100*1*58.933/238.958000 = 24.6625 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "24.6",
+              "comparison": "C1: 100*1*58.693/238.958000 = 24.5621 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged in Ar for 24 h at 350 C, then water quenched",
+              "cra_value": "Aged in Ar for 24 hrs @ 350C",
+              "comparison": "Same distinct as-cast/aging condition; p.289 methods and Table 4 p.293."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl (Table 4)",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Same stated salt solution; no chloride molarity inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C (Table 4 caption)",
+              "cra_value": "25.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s (p.289)",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.18}",
+              "cra_value": "180",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Alloy chemistry, medium and specific heat treatment identify the Table 4 counterpart (PDF pp.1-2,6). SCE scale follows the methods on p.289. Table Epit agrees after V-to-mV scaling."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 588,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "280",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Al=0.5",
+              "cra_value": "5.6",
+              "comparison": "C1: 100*0.5*26.982/238.958000 = 5.6458 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Co=1",
+              "cra_value": "24.7",
+              "comparison": "C1: 100*1*58.933/238.958000 = 24.6625 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "24.6",
+              "comparison": "C1: 100*1*58.693/238.958000 = 24.5621 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged in Ar for 24 h at 500 C, then water quenched",
+              "cra_value": "Aged in Ar for 24 hrs @ 500C",
+              "comparison": "Same distinct as-cast/aging condition; p.289 methods and Table 4 p.293."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl (Table 4)",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Same stated salt solution; no chloride molarity inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C (Table 4 caption)",
+              "cra_value": "25.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s (p.289)",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.28}",
+              "cra_value": "280",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Alloy chemistry, medium and specific heat treatment identify the Table 4 counterpart (PDF pp.1-2,6). SCE scale follows the methods on p.289. Table Epit agrees after V-to-mV scaling."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 589,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "710",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Al=0.5",
+              "cra_value": "5.6",
+              "comparison": "C1: 100*0.5*26.982/238.958000 = 5.6458 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Co=1",
+              "cra_value": "24.7",
+              "comparison": "C1: 100*1*58.933/238.958000 = 24.6625 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "24.6",
+              "comparison": "C1: 100*1*58.693/238.958000 = 24.5621 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged in Ar for 24 h at 650 C, then water quenched",
+              "cra_value": "Aged in Ar for 24 hrs @ 650C",
+              "comparison": "Same distinct as-cast/aging condition; p.289 methods and Table 4 p.293."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl (Table 4)",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Same stated salt solution; no chloride molarity inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C (Table 4 caption)",
+              "cra_value": "25.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s (p.289)",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.71}",
+              "cra_value": "710",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Alloy chemistry, medium and specific heat treatment identify the Table 4 counterpart (PDF pp.1-2,6). SCE scale follows the methods on p.289. Table Epit agrees after V-to-mV scaling."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 591,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "180",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Al=0.5",
+              "cra_value": "5.6",
+              "comparison": "C1: 100*0.5*26.982/238.958000 = 5.6458 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Co=1",
+              "cra_value": "24.7",
+              "comparison": "C1: 100*1*58.933/238.958000 = 24.6625 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "24.6",
+              "comparison": "C1: 100*1*58.693/238.958000 = 24.5621 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged in Ar for 24 h at 800 C, then water quenched",
+              "cra_value": "Aged in Ar for 24 hrs @ 800C",
+              "comparison": "Same distinct as-cast/aging condition; p.289 methods and Table 4 p.293."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl (Table 4)",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Same stated salt solution; no chloride molarity inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C (Table 4 caption)",
+              "cra_value": "25.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s (p.289)",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.14}",
+              "cra_value": "180",
+              "comparison": "Table 4: 0.14 V(SCE)*1000 = 140 mV(SCE), versus CRA 591=180 mV: +40 mV discrepancy."
+            }
+          ],
+          "notes": "Alloy chemistry, medium and specific heat treatment identify the Table 4 counterpart (PDF pp.1-2,6). SCE scale follows the methods on p.289. Aging-temperature identity retained despite apparently transposed CRA potentials."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 590,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "140",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Al=0.5",
+              "cra_value": "5.6",
+              "comparison": "C1: 100*0.5*26.982/238.958000 = 5.6458 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Co=1",
+              "cra_value": "24.7",
+              "comparison": "C1: 100*1*58.933/238.958000 = 24.6625 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "24.6",
+              "comparison": "C1: 100*1*58.693/238.958000 = 24.5621 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged in Ar for 24 h at 950 C, then water quenched",
+              "cra_value": "Aged in Ar for 24 hrs @ 950C",
+              "comparison": "Same distinct as-cast/aging condition; p.289 methods and Table 4 p.293."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl (Table 4)",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Same stated salt solution; no chloride molarity inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C (Table 4 caption)",
+              "cra_value": "25.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s (p.289)",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.18}",
+              "cra_value": "140",
+              "comparison": "Table 4: 0.18 V(SCE)*1000 = 180 mV(SCE), versus CRA 590=140 mV: -40 mV discrepancy."
+            }
+          ],
+          "notes": "Alloy chemistry, medium and specific heat treatment identify the Table 4 counterpart (PDF pp.1-2,6). SCE scale follows the methods on p.289. Aging-temperature identity retained despite apparently transposed CRA potentials."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

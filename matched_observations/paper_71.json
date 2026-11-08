@@ -1,0 +1,2726 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "71_Truman, J. E., M. J. Coleman, and K. R. Pirt. British corrosion journal 12.4 (1977)_ 236-238.pdf",
+  "reference_number": 71,
+  "inputs": {
+    "pdf": {
+      "filename": "71_Truman, J. E., M. J. Coleman, and K. R. Pirt. British corrosion journal 12.4 (1977)_ 236-238.pdf",
+      "sha256": "30c1df1a51294bfb769ae26a1f43a037e48a84fb5c0440e9a3df79ffee4331bc"
+    },
+    "csv": {
+      "filename": "pitting_potential_71.csv",
+      "sha256": "c9ed4271d0508f01f9aaa1d16652ce7f3c331e6661160a1c60bd3ef2203cf93b"
+    },
+    "registry": {
+      "filename": "paper_71.json",
+      "sha256": "a130faa2015f0b90bf5c5995d8f886e6f17e4f70324cd43e8e286106e72cc835"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "Poppler returned font-substitution diagnostics for Symbol/ArialNarrow-family fonts; the rendered registered anchors and contextual passages were actually viewed and remained legible.",
+  "shared_qualifications": [
+    "PDF p.3 Table II separates plain and neoprene-ring crevice tests. Only the plain series is identifiable in CRA: Nos.253–271 explicitly name the plain column; Nos.69–87 reproduce the same complete plain series. Two CRA IDs linked to one observation represent duplicate database presentations, not two independent paper experiments.",
+    "PDF p.2: aerated 0.6 M NaCl + 0.1 M NaHCO3; 120-grit finish, 5 cm², SCE, 5 min at −1.5 V then rapid rise to −0.5 V and 1 V per 50 min. C1: 1000/(50×60)=0.333333333 mV/s. Breakdown criterion 10^−5 A/cm². Authors caution about coating-edge initiation and scatter for plain specimens.",
+    "Paper does not give numerical pH for these tests or securely specify electrochemical test temperature. CRA pH 7.68/8.3 and the first series temperature 25°C are not paper-verified identity evidence.",
+    "Steel 6: Table I Cr=16.66 wt%; CRA No.74 says 16.86, while No.258 says 16.66. Steel 19: Table I N=.455 wt% versus Table II .435 wt%; Nos.87/271 use .455. Retain source and CRA conflicts; potential agreement remains exact."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 69,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-65",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 1, Table I: 17.38 wt%",
+              "cra_value": "17.38",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.15 wt%",
+              "cra_value": "20.15",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.02 wt%",
+              "cra_value": "0.02",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.036 wt% in Table I",
+              "cra_value": "0.036",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -65}",
+              "cra_value": "-65",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 1, plain specimen. Duplicate CRA presentation paired with No.253; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 253,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-65",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 1, Table I: 17.38 wt%",
+              "cra_value": "17.38",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.15 wt%",
+              "cra_value": "20.15",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.02 wt%",
+              "cra_value": "0.02",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.036 wt% in Table I",
+              "cra_value": "0.036",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -65}",
+              "cra_value": "-65",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 1, plain specimen. Duplicate CRA presentation paired with No.69; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 70,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-25",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 2, Table I: 17.68 wt%",
+              "cra_value": "17.68",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.43 wt%",
+              "cra_value": "20.43",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.08 wt%",
+              "cra_value": "0.08",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.300 wt% in Table I",
+              "cra_value": "0.3",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -25}",
+              "cra_value": "-25",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 2, plain specimen. Duplicate CRA presentation paired with No.254; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        },
+        {
+          "citrine_no": 254,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-25",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 2, Table I: 17.68 wt%",
+              "cra_value": "17.68",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.43 wt%",
+              "cra_value": "20.43",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.08 wt%",
+              "cra_value": "0.08",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.300 wt% in Table I",
+              "cra_value": "0.3",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -25}",
+              "cra_value": "-25",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 2, plain specimen. Duplicate CRA presentation paired with No.70; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 71,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-40",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 3, Table I: 17.95 wt%",
+              "cra_value": "17.95",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.90 wt%",
+              "cra_value": "19.9",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.03 wt%",
+              "cra_value": "1.03",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.031 wt% in Table I",
+              "cra_value": "0.031",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -40}",
+              "cra_value": "-40",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 3, plain specimen. Duplicate CRA presentation paired with No.255; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 255,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-40",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 3, Table I: 17.95 wt%",
+              "cra_value": "17.95",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.90 wt%",
+              "cra_value": "19.9",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.03 wt%",
+              "cra_value": "1.03",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.031 wt% in Table I",
+              "cra_value": "0.031",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -40}",
+              "cra_value": "-40",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 3, plain specimen. Duplicate CRA presentation paired with No.71; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 72,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-15",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 4, Table I: 16.42 wt%",
+              "cra_value": "16.42",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.90 wt%",
+              "cra_value": "19.9",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.03 wt%",
+              "cra_value": "1.03",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.155 wt% in Table I",
+              "cra_value": "0.155",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -15}",
+              "cra_value": "-15",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 4, plain specimen. Duplicate CRA presentation paired with No.256; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 256,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-15",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 4, Table I: 16.42 wt%",
+              "cra_value": "16.42",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.90 wt%",
+              "cra_value": "19.9",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.03 wt%",
+              "cra_value": "1.03",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.155 wt% in Table I",
+              "cra_value": "0.155",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -15}",
+              "cra_value": "-15",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 4, plain specimen. Duplicate CRA presentation paired with No.72; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 73,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "65",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 5, Table I: 16.86 wt%",
+              "cra_value": "16.86",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.98 wt%",
+              "cra_value": "19.98",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.03 wt%",
+              "cra_value": "1.03",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.270 wt% in Table I",
+              "cra_value": "0.27",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 65}",
+              "cra_value": "65",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 5, plain specimen. Duplicate CRA presentation paired with No.257; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 257,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "65",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 5, Table I: 16.86 wt%",
+              "cra_value": "16.86",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.98 wt%",
+              "cra_value": "19.98",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.03 wt%",
+              "cra_value": "1.03",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.270 wt% in Table I",
+              "cra_value": "0.27",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 65}",
+              "cra_value": "65",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 5, plain specimen. Duplicate CRA presentation paired with No.73; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 74,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "50",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 6, Table I: 16.66 wt%",
+              "cra_value": "16.86",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.54 wt%",
+              "cra_value": "20.54",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.01 wt%",
+              "cra_value": "1.01",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.290 wt% in Table I",
+              "cra_value": "0.29",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 50}",
+              "cra_value": "50",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 6, plain specimen. Duplicate CRA presentation paired with No.258; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        },
+        {
+          "citrine_no": 258,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "50",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 6, Table I: 16.66 wt%",
+              "cra_value": "16.66",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.54 wt%",
+              "cra_value": "20.54",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.01 wt%",
+              "cra_value": "1.01",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.290 wt% in Table I",
+              "cra_value": "0.29",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 50}",
+              "cra_value": "50",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 6, plain specimen. Duplicate CRA presentation paired with No.74; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 75,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "20",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 7, Table I: 16.34 wt%",
+              "cra_value": "16.34",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.16 wt%",
+              "cra_value": "19.16",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.98 wt%",
+              "cra_value": "2.98",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.034 wt% in Table I",
+              "cra_value": "0.034",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 20}",
+              "cra_value": "20",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 7, plain specimen. Duplicate CRA presentation paired with No.259; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 259,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "20",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 7, Table I: 16.34 wt%",
+              "cra_value": "16.34",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.16 wt%",
+              "cra_value": "19.16",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.98 wt%",
+              "cra_value": "2.98",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.034 wt% in Table I",
+              "cra_value": "0.034",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 20}",
+              "cra_value": "20",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 7, plain specimen. Duplicate CRA presentation paired with No.75; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 76,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "85",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 8, Table I: 16.70 wt%",
+              "cra_value": "16.7",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.65 wt%",
+              "cra_value": "19.65",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.92 wt%",
+              "cra_value": "2.92",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.149 wt% in Table I",
+              "cra_value": "0.149",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 85}",
+              "cra_value": "85",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 8, plain specimen. Duplicate CRA presentation paired with No.260; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 260,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "85",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 8, Table I: 16.70 wt%",
+              "cra_value": "16.7",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.65 wt%",
+              "cra_value": "19.65",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.92 wt%",
+              "cra_value": "2.92",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.149 wt% in Table I",
+              "cra_value": "0.149",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 85}",
+              "cra_value": "85",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 8, plain specimen. Duplicate CRA presentation paired with No.76; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 77,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "80",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 9, Table I: 16.80 wt%",
+              "cra_value": "16.8",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.05 wt%",
+              "cra_value": "20.05",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.94 wt%",
+              "cra_value": "2.94",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.291 wt% in Table I",
+              "cra_value": "0.291",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 80}",
+              "cra_value": "80",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 9, plain specimen. Duplicate CRA presentation paired with No.261; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 261,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "80",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 9, Table I: 16.80 wt%",
+              "cra_value": "16.8",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.05 wt%",
+              "cra_value": "20.05",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.94 wt%",
+              "cra_value": "2.94",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.291 wt% in Table I",
+              "cra_value": "0.291",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 80}",
+              "cra_value": "80",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 9, plain specimen. Duplicate CRA presentation paired with No.77; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 78,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "95",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 10, Table I: 16.58 wt%",
+              "cra_value": "16.58",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.29 wt%",
+              "cra_value": "20.29",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.72 wt%",
+              "cra_value": "2.72",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.310 wt% in Table I",
+              "cra_value": "0.31",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 95}",
+              "cra_value": "95",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 10, plain specimen. Duplicate CRA presentation paired with No.262; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        },
+        {
+          "citrine_no": 262,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "95",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 10, Table I: 16.58 wt%",
+              "cra_value": "16.58",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.29 wt%",
+              "cra_value": "20.29",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.72 wt%",
+              "cra_value": "2.72",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.310 wt% in Table I",
+              "cra_value": "0.31",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 95}",
+              "cra_value": "95",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 10, plain specimen. Duplicate CRA presentation paired with No.78; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 79,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-30",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 11, Table I: 22.58 wt%",
+              "cra_value": "22.58",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.88 wt%",
+              "cra_value": "19.88",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.05 wt%",
+              "cra_value": "0.05",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.054 wt% in Table I",
+              "cra_value": "0.054",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -30}",
+              "cra_value": "-30",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 11, plain specimen. Duplicate CRA presentation paired with No.263; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 263,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-30",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 11, Table I: 22.58 wt%",
+              "cra_value": "22.58",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.88 wt%",
+              "cra_value": "19.88",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.05 wt%",
+              "cra_value": "0.05",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.054 wt% in Table I",
+              "cra_value": "0.054",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -30}",
+              "cra_value": "-30",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 11, plain specimen. Duplicate CRA presentation paired with No.79; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 80,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "50",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 12, Table I: 22.46 wt%",
+              "cra_value": "22.46",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.27 wt%",
+              "cra_value": "20.27",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.10 wt%",
+              "cra_value": "0.1",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.390 wt% in Table I",
+              "cra_value": "0.39",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 50}",
+              "cra_value": "50",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 12, plain specimen. Duplicate CRA presentation paired with No.264; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        },
+        {
+          "citrine_no": 264,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "50",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 12, Table I: 22.46 wt%",
+              "cra_value": "22.46",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.27 wt%",
+              "cra_value": "20.27",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.10 wt%",
+              "cra_value": "0.1",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.390 wt% in Table I",
+              "cra_value": "0.39",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 50}",
+              "cra_value": "50",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 12, plain specimen. Duplicate CRA presentation paired with No.80; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 81,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-10",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 13, Table I: 22.13 wt%",
+              "cra_value": "22.13",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.30 wt%",
+              "cra_value": "20.3",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.99 wt%",
+              "cra_value": "0.99",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.054 wt% in Table I",
+              "cra_value": "0.054",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -10}",
+              "cra_value": "-10",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 13, plain specimen. Duplicate CRA presentation paired with No.265; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 265,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-10",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 13, Table I: 22.13 wt%",
+              "cra_value": "22.13",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.30 wt%",
+              "cra_value": "20.3",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.99 wt%",
+              "cra_value": "0.99",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.054 wt% in Table I",
+              "cra_value": "0.054",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -10}",
+              "cra_value": "-10",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 13, plain specimen. Duplicate CRA presentation paired with No.81; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 82,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "35",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 14, Table I: 22.52 wt%",
+              "cra_value": "22.52",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.85 wt%",
+              "cra_value": "19.85",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.07 wt%",
+              "cra_value": "1.07",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.155 wt% in Table I",
+              "cra_value": "0.155",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 35}",
+              "cra_value": "35",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 14, plain specimen. Duplicate CRA presentation paired with No.266; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 266,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "35",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 14, Table I: 22.52 wt%",
+              "cra_value": "22.52",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.85 wt%",
+              "cra_value": "19.85",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.07 wt%",
+              "cra_value": "1.07",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.155 wt% in Table I",
+              "cra_value": "0.155",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 35}",
+              "cra_value": "35",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 14, plain specimen. Duplicate CRA presentation paired with No.82; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 83,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "200",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 15, Table I: 22.72 wt%",
+              "cra_value": "22.72",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.95 wt%",
+              "cra_value": "19.95",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.02 wt%",
+              "cra_value": "1.02",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.412 wt% in Table I",
+              "cra_value": "0.412",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 200}",
+              "cra_value": "200",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 15, plain specimen. Duplicate CRA presentation paired with No.267; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        },
+        {
+          "citrine_no": 267,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "200",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 15, Table I: 22.72 wt%",
+              "cra_value": "22.72",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.95 wt%",
+              "cra_value": "19.95",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.02 wt%",
+              "cra_value": "1.02",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.412 wt% in Table I",
+              "cra_value": "0.412",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 200}",
+              "cra_value": "200",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 15, plain specimen. Duplicate CRA presentation paired with No.83; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 84,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 16, Table I: 22.41 wt%",
+              "cra_value": "22.41",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.96 wt%",
+              "cra_value": "19.96",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.64 wt%",
+              "cra_value": "2.64",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.067 wt% in Table I",
+              "cra_value": "0.067",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 125}",
+              "cra_value": "125",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 16, plain specimen. Duplicate CRA presentation paired with No.268; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 268,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 16, Table I: 22.41 wt%",
+              "cra_value": "22.41",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.96 wt%",
+              "cra_value": "19.96",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.64 wt%",
+              "cra_value": "2.64",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.067 wt% in Table I",
+              "cra_value": "0.067",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 125}",
+              "cra_value": "125",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 16, plain specimen. Duplicate CRA presentation paired with No.84; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 85,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "170",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 17, Table I: 22.84 wt%",
+              "cra_value": "22.84",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.05 wt%",
+              "cra_value": "20.05",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.85 wt%",
+              "cra_value": "2.85",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.159 wt% in Table I",
+              "cra_value": "0.159",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 170}",
+              "cra_value": "170",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 17, plain specimen. Duplicate CRA presentation paired with No.269; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 269,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "170",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 17, Table I: 22.84 wt%",
+              "cra_value": "22.84",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.05 wt%",
+              "cra_value": "20.05",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.85 wt%",
+              "cra_value": "2.85",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.159 wt% in Table I",
+              "cra_value": "0.159",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 170}",
+              "cra_value": "170",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 17, plain specimen. Duplicate CRA presentation paired with No.85; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 86,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "920",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 18, Table I: 22.35 wt%",
+              "cra_value": "22.35",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.39 wt%",
+              "cra_value": "20.39",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.73 wt%",
+              "cra_value": "2.73",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.310 wt% in Table I",
+              "cra_value": "0.31",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 920}",
+              "cra_value": "920",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 18, plain specimen. Duplicate CRA presentation paired with No.270; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        },
+        {
+          "citrine_no": 270,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "920",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 18, Table I: 22.35 wt%",
+              "cra_value": "22.35",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "20.39 wt%",
+              "cra_value": "20.39",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.73 wt%",
+              "cra_value": "2.73",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.310 wt% in Table I",
+              "cra_value": "0.31",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 920}",
+              "cra_value": "920",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 18, plain specimen. Duplicate CRA presentation paired with No.86; no extra experiment inferred. PDF p.4 summary repeats this registered value."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 87,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "940",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 19, Table I: 22.52 wt%",
+              "cra_value": "22.52",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.95 wt%",
+              "cra_value": "19.95",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.96 wt%",
+              "cra_value": "2.96",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.455 wt% in Table I; .435 wt% in Table II",
+              "cra_value": "0.455",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6M NaCl + 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333333333333333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "The specimen surface was ground to a 120 grit finish and 5 cm2 was exposed to the corrodent.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 940}",
+              "cra_value": "940",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 19, plain specimen. Duplicate CRA presentation paired with No.271; no extra experiment inferred."
+        },
+        {
+          "citrine_no": 271,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "940",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Steel 19, Table I: 22.52 wt%",
+              "cra_value": "22.52",
+              "comparison": "Independent steel analysis; Cr discrepancy for No.74 retained."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "19.95 wt%",
+              "cra_value": "19.95",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.96 wt%",
+              "cra_value": "2.96",
+              "comparison": "Table I steel identity."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.455 wt% in Table I; .435 wt% in Table II",
+              "cra_value": "0.455",
+              "comparison": "Table I identity; both source N readings retained for steel 19."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl + 0.1 M NaHCO3, aerated",
+              "cra_value": "0.6 M NaCl and 0.1M NaHCO3",
+              "comparison": "Same electrolyte, PDF p.2."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 V per 50 min",
+              "cra_value": "0.333",
+              "comparison": "C1: 1000/(50×60)=0.333333333 mV/s; compatible CRA rounding."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table II plain breakdown column, without the intentionally fitted neoprene crevice ring",
+              "cra_value": "Pitting corrosion data is collected from plain breakdown potential in table II.",
+              "comparison": "Second CRA series explicitly names the plain column; first series duplicates all nineteen plain values and analyses."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 940}",
+              "cra_value": "940",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "PDF p.3 Tables I–II, steel 19, plain specimen. Duplicate CRA presentation paired with No.87; no extra experiment inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_038",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II crevice specimen: no defensible counterpart among the supplied CRA plain-specimen records. Numerical coincidences with plain tests do not establish identity."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

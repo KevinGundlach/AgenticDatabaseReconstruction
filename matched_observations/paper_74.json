@@ -1,0 +1,825 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "74_Ahn, M. K., Hyuk-Sang Kwon, and HyuckMo Lee. Corrosion science 40.2-3 (1998)_ 307-322.pdf",
+  "reference_number": 74,
+  "inputs": {
+    "pdf": {
+      "filename": "74_Ahn, M. K., Hyuk-Sang Kwon, and HyuckMo Lee. Corrosion science 40.2-3 (1998)_ 307-322.pdf",
+      "sha256": "497ad47dedba1dcc9ac7874168c45efbbd48d6673f11f8a042a60ae8db858436"
+    },
+    "csv": {
+      "filename": "pitting_potential_74.csv",
+      "sha256": "3d5fef5cb1238a76c8e5603535f3c5ef186d563e31c6ef14378f51d4d715f233"
+    },
+    "registry": {
+      "filename": "paper_74.json",
+      "sha256": "4eda08b03d1c6e5a2221d1a535ed1b4eb3e028fa7f969226ede225078a40caf2"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8
+  ],
+  "coverage_notes": "",
+  "shared_qualifications": [
+    "PDF p.3: three or four polarization tests per alloy; pitting criterion 10 µA/cm² after breakdown, SCE, 0.5 mV/s, deaerated 4 M MgCl2 at 80°C. Table 1 on p.2 gives analytical wt% values. No replicate mean is manufactured from Figs.3–4.",
+    "Figs.3 and 4 are repeated presentations on wt% and at% axes. Obs_021 retains the source discrepancy −300 versus −200 mV. Figure 5 is a separate composition-level presentation without established aggregation/run identity.",
+    "No.559 lies between the two 1W readings; No.564 lies between the two high 2Mo readings. These remain candidate-only. Other assignments use alloy analysis, test context, and an individually distinguishable plotted potential.",
+    "Table 1 base alloy C appears .0010 wt%, while CRA No.558 says .0012. This unused field is not silently corrected."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 558,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-560",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.93 wt%",
+              "cra_value": "28.93",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.012 wt%",
+              "cra_value": "0.012",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "0.011 wt%",
+              "cra_value": "0.011",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -560}",
+              "cra_value": "-560",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; this potential is individually distinguishable among the visible repeats, within graphical resolution. No mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 563,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-161",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.97 wt%",
+              "cra_value": "28.97",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.04 wt%",
+              "cra_value": "1.04",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "0.01 wt%",
+              "cra_value": "0.01",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -160}",
+              "cra_value": "-161",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; this potential is individually distinguishable among the visible repeats, within graphical resolution. No mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 564,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "8",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "29.06 wt%",
+              "cra_value": "29.06",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.07 wt%",
+              "cra_value": "2.07",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "0.01 wt%",
+              "cra_value": "0.01",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 0}",
+              "cra_value": "8",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; the CRA potential is compatible with more than one nearby registered replicate, so no run is selected."
+        }
+      ],
+      "notes": "Heat and conditions identify the series; the CRA potential is compatible with more than one nearby registered replicate, so no run is selected."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 564,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "8",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "29.06 wt%",
+              "cra_value": "29.06",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.07 wt%",
+              "cra_value": "2.07",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "0.01 wt%",
+              "cra_value": "0.01",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 20}",
+              "cra_value": "8",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; the CRA potential is compatible with more than one nearby registered replicate, so no run is selected."
+        }
+      ],
+      "notes": "Heat and conditions identify the series; the CRA potential is compatible with more than one nearby registered replicate, so no run is selected."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 565,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "344",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "29.10 wt%",
+              "cra_value": "29.1",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.19 wt%",
+              "cra_value": "4.19",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "0.011 wt%",
+              "cra_value": "0.011",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 350}",
+              "cra_value": "344",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; this potential is individually distinguishable among the visible repeats, within graphical resolution. No mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 559,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.89 wt%",
+              "cra_value": "28.89",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.011 wt%",
+              "cra_value": "0.011",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "1.08 wt%",
+              "cra_value": "1.08",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -510}",
+              "cra_value": "-500",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; the CRA potential is compatible with more than one nearby registered replicate, so no run is selected."
+        }
+      ],
+      "notes": "Heat and conditions identify the series; the CRA potential is compatible with more than one nearby registered replicate, so no run is selected."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 559,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.89 wt%",
+              "cra_value": "28.89",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.011 wt%",
+              "cra_value": "0.011",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "1.08 wt%",
+              "cra_value": "1.08",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -490}",
+              "cra_value": "-500",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; the CRA potential is compatible with more than one nearby registered replicate, so no run is selected."
+        }
+      ],
+      "notes": "Heat and conditions identify the series; the CRA potential is compatible with more than one nearby registered replicate, so no run is selected."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 560,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-480",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.88 wt%",
+              "cra_value": "28.88",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.011 wt%",
+              "cra_value": "0.011",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "2.08 wt%",
+              "cra_value": "2.08",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -480}",
+              "cra_value": "-480",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; this potential is individually distinguishable among the visible repeats, within graphical resolution. No mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 561,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-11",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.85 wt%",
+              "cra_value": "28.85",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.01 wt%",
+              "cra_value": "0.01",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "4.1 wt%",
+              "cra_value": "4.1",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 0}",
+              "cra_value": "-11",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; this potential is individually distinguishable among the visible repeats, within graphical resolution. No mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 562,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "199",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.78 wt%",
+              "cra_value": "28.78",
+              "comparison": "Table 1 analytical heat identity."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.01 wt%",
+              "cra_value": "0.01",
+              "comparison": "Distinguishes Mo and W series."
+            },
+            {
+              "field": "W",
+              "paper_value": "8.17 wt%",
+              "cra_value": "8.17",
+              "comparison": "Independent heat analysis."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 4 M MgCl2",
+              "cra_value": "4M MgCl2",
+              "comparison": "PDF p.3 and Figs.3–4."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "80°C",
+              "cra_value": "80.0",
+              "comparison": "Same pitting experiment."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.5 mV/s",
+              "cra_value": "0.5",
+              "comparison": "Same scan experiment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 200}",
+              "cra_value": "199",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Heat and conditions identify the series; this potential is individually distinguishable among the visible repeats, within graphical resolution. No mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this distinct registered replicate/composition-level result in the eight supplied CRA rows; shared chemistry alone does not establish run or aggregate identity."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    559,
+    564
+  ]
+}

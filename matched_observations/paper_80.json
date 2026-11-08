@@ -1,0 +1,3851 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "80_G.S. Frankel, R.C. Newman, C.V. Jahnes, M.A. Russak, J Electrochem Soc, 140 (1993) 2192-2197.pdf",
+  "reference_number": 80,
+  "inputs": {
+    "pdf": {
+      "filename": "80_G.S. Frankel, R.C. Newman, C.V. Jahnes, M.A. Russak, J Electrochem Soc, 140 (1993) 2192-2197.pdf",
+      "sha256": "1dd47af1f047640446da7c8517e1f3f749cb3c7654acd04132840cc923830ef1"
+    },
+    "csv": {
+      "filename": "pitting_potential_80.csv",
+      "sha256": "36c2acebf13f8d55c998781ff695037c7988a078eebd0e0df1bca3fb72b5391d"
+    },
+    "registry": {
+      "filename": "paper_80.json",
+      "sha256": "9cc6a8a91e1afb53b18d5f4f5938598070a25ed5dcf4de2e22ce263d05aa4668"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9
+  ],
+  "coverage_notes": "Poppler returned font-substitution diagnostics for Symbol/ArialNarrow-family fonts; the rendered registered anchors and contextual passages were actually viewed and remained legible.",
+  "shared_qualifications": [
+    "C1: same mV(SCE) scale throughout; no electrode offset. C2 for explicitly binary Al–X: wt%X=100*x*M_X/[x*M_X+(100−x)*26.982], with x in at.%; inversely CRA-derived at%X=100*(w_X/M_X)/(w_X/M_X+w_Al/26.982). Atomic weights Al26.982, Nb92.906, Mo95.95, Cr51.996, W183.84 from CIAAW https://ciaaw.org/abridged-atomic-weights.htm . CRA-derived atomic percentages are calculations from supplied cells, not independent paper analyses. Both original cells are retained.",
+    "PDF pp.2–3: sputter-deposited binary thin films, stagnant air-exposed .1 M NaCl, SCE; current tests scan 1 mV/s to a stable pit then step down for growth/repassivation. Earlier reference-3 fresh measurements used pH10 and .2 mV/s. Current solution numerical pH and test temperature are not stated; CRA pH7 and 25°C are unverified. CRA pH10 is not reliable evidence of aging state: its values often resemble aged rather than earlier fresh results.",
+    "Fresh, aged and repassivation symbols are distinct. Fresh Nb points are cited experimental averages; Mo fresh present-versus-cited origin is unresolved; fresh Cr includes cited and newly deposited points. These classifications are preserved. Air aging is not a heat-treatment anneal. No aggregate is manufactured from scattered aged points or the CRA Avg header.",
+    "CRA Nos.743/744 have negative targets (−750/−875) near the magnitudes of positive aged Nb results. This suggests possible sign errors but does not establish identity or authorize correction; affected assignments remain candidates. Nb No.746 may instead resemble an unregistered repassivation value, so no supported pitting link is forced.",
+    "CRA converted compositions often differ from registered graphical coordinates: e.g. Nb≈5/15/26 versus source4.3/15.5/26.6 at.%, Mo≈5 versus6, Cr≈5 versus6 and ≈38 versus39.5. These differences are disclosed in paired evidence. Clearer composition conflicts retain candidates rather than silently replacing source coordinates.",
+    "Candidates involving nearby fresh/aged values, possible sign errors or growth-curve endpoints are alternatives only. Multiple IDs/observations in a candidate group do not imply duplicate runs or a database mean. Supported matches alone are suitable for default joins.",
+    "PDF p.9 explicitly identifies highest potential on each downward-stepping growth curve as its pitting/start potential. Figures 5–6 can repeat Figure 1/4 populations but do not establish individual aging/run identities; candidate links retain that limitation. The cited Al–5.2 at.% W >800 mV bound (obs_030) remains separate from the present −60 mV result (obs_040)."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 745,
+          "location_indices": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "cra_potential": {
+            "avg": "-690",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure Al",
+              "cra_value": "100.0",
+              "comparison": "Independent material identity; CRA idealizes as 100 wt% Al."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh pure Al baseline repeated in Figs.1–4",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -690}",
+              "cra_value": "-690",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.4 explicitly states fresh pure Al −690 mV SCE. Repeated registered locations are one baseline presentation, not additional experiments."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 741,
+          "location_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "cra_potential": {
+            "avg": "-500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure Al",
+              "cra_value": "100.0",
+              "comparison": "Independent material identity; CRA idealizes as 100 wt% Al."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged pure Al",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -520}",
+              "cra_value": "-500",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "−500 mV CRA lies between the two visible aged baseline points (≈−520/−470); no aggregation or run identity is given."
+        }
+      ],
+      "notes": "−500 mV CRA lies between the two visible aged baseline points (≈−520/−470); no aggregation or run identity is given."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 741,
+          "location_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "cra_potential": {
+            "avg": "-500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure Al",
+              "cra_value": "100.0",
+              "comparison": "Independent material identity; CRA idealizes as 100 wt% Al."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged pure Al",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -470}",
+              "cra_value": "-500",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved aged baseline alternatives; no mean is inferred from the CRA−500 value."
+        }
+      ],
+      "notes": "Same unresolved aged baseline alternatives; no mean is inferred from the CRA−500 value."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 742,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 4.3 at.% Nb",
+              "cra_value": "15.34",
+              "comparison": "C2 using Al balance 95.7 at.%: paper ≈13.398 wt%. Dataset-derived from original Nb and Al cells gives ≈4.999 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 95.7 at.%",
+              "cra_value": "84.66",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -180}",
+              "cra_value": "-125",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈5 at.% and pH10 support the earlier fresh condition, but −125 differs from ≈−180 and the common scan metadata conflict. An aged point has the same source potential, preventing a unique assignment."
+        },
+        {
+          "citrine_no": 746,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 4.3 at.% Nb",
+              "cra_value": "15.34",
+              "comparison": "C2 using Al balance 95.7 at.%: paper ≈13.398 wt%. Dataset-derived from original Nb and Al cells gives ≈4.999 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 95.7 at.%",
+              "cra_value": "84.66",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -180}",
+              "cra_value": "-300",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Composition supports a possible counterpart, but CRA−300 is substantially below ≈−180 and may reflect a different quantity; no repassivation-to-pitting substitution is made."
+        }
+      ],
+      "notes": "Composition supports a possible counterpart, but CRA−300 is substantially below ≈−180 and may reflect a different quantity; no repassivation-to-pitting substitution is made."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 747,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 15.5 at.% Nb",
+              "cra_value": "37.8",
+              "comparison": "C2 using Al balance 84.5 at.%: paper ≈38.711 wt%. Dataset-derived from original Nb and Al cells gives ≈15.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 84.5 at.%",
+              "cra_value": "62.2",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle, Fig.1",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 320}",
+              "cra_value": "300",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈320 versus CRA300 mV; ≈15 at.% CRA is compatible with the ≈15.5 plotted coordinate. Earlier fresh protocol differs from common CRA metadata."
+        }
+      ],
+      "candidates": [
+        {
+          "citrine_no": 743,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-750",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 15.5 at.% Nb",
+              "cra_value": "37.8",
+              "comparison": "C2 using Al balance 84.5 at.%: paper ≈38.711 wt%. Dataset-derived from original Nb and Al cells gives ≈15.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 84.5 at.%",
+              "cra_value": "62.2",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 320}",
+              "cra_value": "-750",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "pH10 suggests the earlier fresh protocol but CRA−750 contradicts ≈320; the positive aged750 point supplies another alternative. Do not infer a sign correction."
+        }
+      ],
+      "notes": "pH10 suggests the earlier fresh protocol but CRA−750 contradicts ≈320; the positive aged750 point supplies another alternative. Do not infer a sign correction."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 748,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "600",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle, Fig.1",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 640}",
+              "cra_value": "600",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈640 versus CRA600 mV; rounded CRA≈26 at.% and the specific fresh triangle distinguish this from the much higher aged points."
+        }
+      ],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 640}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Earlier-protocol pH10 is compatible with fresh series, while CRA−875 conflicts with the fresh≈640 and resembles the magnitude of an aged point. No unique counterpart."
+        }
+      ],
+      "notes": "Earlier-protocol pH10 is compatible with fresh series, while CRA−875 conflicts with the fresh≈640 and resembles the magnitude of an aged point. No unique counterpart."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 749,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "650",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 35 at.% Nb",
+              "cra_value": "64.96",
+              "comparison": "C2 using Al balance 65 at.%: paper ≈64.962 wt%. Dataset-derived from original Nb and Al cells gives ≈34.998 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 65 at.%",
+              "cra_value": "35.04",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle, Fig.1",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 690}",
+              "cra_value": "650",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈690 versus CRA650 mV; ≈35 at.% and unique fresh point identify the counterpart at coarse graph precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 742,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 4.3 at.% Nb",
+              "cra_value": "15.34",
+              "comparison": "C2 using Al balance 95.7 at.%: paper ≈13.398 wt%. Dataset-derived from original Nb and Al cells gives ≈4.999 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 95.7 at.%",
+              "cra_value": "84.66",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; lower aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -180}",
+              "cra_value": "-125",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same composition as fresh triangle; CRA−125 cannot establish which state or repeated point was selected, and pH10 resembles the earlier protocol."
+        }
+      ],
+      "notes": "Same composition as fresh triangle; CRA−125 cannot establish which state or repeated point was selected, and pH10 resembles the earlier protocol."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 742,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 4.3 at.% Nb",
+              "cra_value": "15.34",
+              "comparison": "C2 using Al balance 95.7 at.%: paper ≈13.398 wt%. Dataset-derived from original Nb and Al cells gives ≈4.999 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 95.7 at.%",
+              "cra_value": "84.66",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; upper aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 100}",
+              "cra_value": "-125",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same aged population as the lower point; CRA may represent a different point or unsupported summary. No run/mean assignment is justified."
+        }
+      ],
+      "notes": "Same aged population as the lower point; CRA may represent a different point or unsupported summary. No run/mean assignment is justified."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 743,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-750",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 15.5 at.% Nb",
+              "cra_value": "37.8",
+              "comparison": "C2 using Al balance 84.5 at.%: paper ≈38.711 wt%. Dataset-derived from original Nb and Al cells gives ≈15.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 84.5 at.%",
+              "cra_value": "62.2",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 750}",
+              "cra_value": "-750",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA−750 has the opposite sign to the aged≈+750 reading; composition is compatible but aging metadata are absent/conflicting. Possible sign error remains unconfirmed."
+        }
+      ],
+      "notes": "CRA−750 has the opposite sign to the aged≈+750 reading; composition is compatible but aging metadata are absent/conflicting. Possible sign error remains unconfirmed."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 900}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Four separate aged readings at this composition remain alternatives; CRA−875 has the wrong sign and does not establish a particular replicate."
+        }
+      ],
+      "notes": "Four separate aged readings at this composition remain alternatives; CRA−875 has the wrong sign and does not establish a particular replicate."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1050}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved composition/aged-population candidate; no sign repair or replicate selection."
+        }
+      ],
+      "notes": "Same unresolved composition/aged-population candidate; no sign repair or replicate selection."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1130}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved composition/aged-population candidate; no sign repair or replicate selection."
+        }
+      ],
+      "notes": "Same unresolved composition/aged-population candidate; no sign repair or replicate selection."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1450}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved composition/aged-population candidate; no sign repair or replicate selection."
+        }
+      ],
+      "notes": "Same unresolved composition/aged-population candidate; no sign repair or replicate selection."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 750,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "0",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 6 at.% Mo",
+              "cra_value": "15.77",
+              "comparison": "C2 using Al balance 94 at.%: paper ≈18.499 wt%. Dataset-derived from original Mo and Al cells gives ≈5.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 94 at.%",
+              "cra_value": "84.23",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle; origin unclear",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 0}",
+              "cra_value": "0",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈5 at.% versus registered≈6; target0 agrees but fresh and aged near-baseline points and protocol differences prevent unique identity."
+        },
+        {
+          "citrine_no": 757,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "0",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 6 at.% Mo",
+              "cra_value": "15.77",
+              "comparison": "C2 using Al balance 94 at.%: paper ≈18.499 wt%. Dataset-derived from original Mo and Al cells gives ≈5.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 94 at.%",
+              "cra_value": "84.23",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle; origin unclear",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 0}",
+              "cra_value": "0",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Duplicate composition/target at another CRA pH; no assignment to fresh versus aged point is established."
+        }
+      ],
+      "notes": "Duplicate composition/target at another CRA pH; no assignment to fresh versus aged point is established."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 758,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "250",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 10 at.% Mo",
+              "cra_value": "28.32",
+              "comparison": "C2 using Al balance 90 at.%: paper ≈28.322 wt%. Dataset-derived from original Mo and Al cells gives ≈9.999 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 90 at.%",
+              "cra_value": "71.68",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle, Fig.2; individual origin unclear",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 280}",
+              "cra_value": "250",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈280 versus CRA250 mV at 10 at.% Mo; the aged reading near100 is separate."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 759,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "525",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 17 at.% Mo",
+              "cra_value": "41.27",
+              "comparison": "C2 using Al balance 83 at.%: paper ≈42.141 wt%. Dataset-derived from original Mo and Al cells gives ≈16.500 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 83 at.%",
+              "cra_value": "58.73",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle; origin unclear",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 520}",
+              "cra_value": "525",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈16.5 at.% and525 mV are compatible with both fresh≈520 and aged≈550; age/run is not encoded."
+        }
+      ],
+      "notes": "CRA≈16.5 at.% and525 mV are compatible with both fresh≈520 and aged≈550; age/run is not encoded."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 755,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "900",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 28.5 at.% Mo",
+              "cra_value": "59.23",
+              "comparison": "C2 using Al balance 71.5 at.%: paper ≈58.634 wt%. Dataset-derived from original Mo and Al cells gives ≈29.004 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 71.5 at.%",
+              "cra_value": "40.77",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle; origin unclear",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 900}",
+              "cra_value": "900",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈29 at.% and900 mV also lie in a cluster of distinct fresh/aged points with uncertain composition and provenance."
+        },
+        {
+          "citrine_no": 761,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "900",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 28.5 at.% Mo",
+              "cra_value": "59.23",
+              "comparison": "C2 using Al balance 71.5 at.%: paper ≈58.634 wt%. Dataset-derived from original Mo and Al cells gives ≈29.004 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 71.5 at.%",
+              "cra_value": "40.77",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle; origin unclear",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 900}",
+              "cra_value": "900",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same composition/target as No.755 at a different recorded pH; no duplicate-run identity established."
+        },
+        {
+          "citrine_no": 760,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "925",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 28.5 at.% Mo",
+              "cra_value": "57.43",
+              "comparison": "C2 using Al balance 71.5 at.%: paper ≈58.634 wt%. Dataset-derived from original Mo and Al cells gives ≈27.503 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 71.5 at.%",
+              "cra_value": "42.57",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle; origin unclear",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 900}",
+              "cra_value": "925",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈27.5 at.%925 versus source≈28.5 at.%900; composition and crowded fresh/aged cluster prevent firm assignment."
+        }
+      ],
+      "notes": "CRA≈27.5 at.%925 versus source≈28.5 at.%900; composition and crowded fresh/aged cluster prevent firm assignment."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 755,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "900",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 29.5 at.% Mo",
+              "cra_value": "59.23",
+              "comparison": "C2 using Al balance 70.5 at.%: paper ≈59.807 wt%. Dataset-derived from original Mo and Al cells gives ≈29.004 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 70.5 at.%",
+              "cra_value": "40.77",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle; origin unclear",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 830}",
+              "cra_value": "900",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈29 at.% cannot uniquely distinguish the neighboring28.5/29.5 fresh points;900 differs from≈830. No source coordinate is replaced."
+        },
+        {
+          "citrine_no": 761,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "900",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 29.5 at.% Mo",
+              "cra_value": "59.23",
+              "comparison": "C2 using Al balance 70.5 at.%: paper ≈59.807 wt%. Dataset-derived from original Mo and Al cells gives ≈29.004 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 70.5 at.%",
+              "cra_value": "40.77",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh triangle; origin unclear",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 830}",
+              "cra_value": "900",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved composition/provenance alternatives as No.755."
+        }
+      ],
+      "notes": "Same unresolved composition/provenance alternatives as No.755."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 762,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "975",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 44 at.% Mo",
+              "cra_value": "72.03",
+              "comparison": "C2 using Al balance 56 at.%: paper ≈73.643 wt%. Dataset-derived from original Mo and Al cells gives ≈42.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 56 at.%",
+              "cra_value": "27.97",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; fresh rightmost triangle; origin unclear",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 900}",
+              "cra_value": "975",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈42 at.%975 differs from registered44 at.%900; unique high-solute neighborhood supports a candidate but both composition and target discrepancies prevent assignment."
+        }
+      ],
+      "notes": "CRA≈42 at.%975 differs from registered44 at.%900; unique high-solute neighborhood supports a candidate but both composition and target discrepancies prevent assignment."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 750,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "0",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 6 at.% Mo",
+              "cra_value": "15.77",
+              "comparison": "C2 using Al balance 94 at.%: paper ≈18.499 wt%. Dataset-derived from original Mo and Al cells gives ≈5.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 94 at.%",
+              "cra_value": "84.23",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 20}",
+              "cra_value": "0",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Aged≈20 and fresh≈0 are close at graph resolution; CRA0 and its pH10 do not establish a unique state. Composition5 versus6 at.% is retained."
+        },
+        {
+          "citrine_no": 757,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "0",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 6 at.% Mo",
+              "cra_value": "15.77",
+              "comparison": "C2 using Al balance 94 at.%: paper ≈18.499 wt%. Dataset-derived from original Mo and Al cells gives ≈5.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 94 at.%",
+              "cra_value": "84.23",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 20}",
+              "cra_value": "0",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved near-baseline fresh/aged alternatives, with another CRA pH representation."
+        }
+      ],
+      "notes": "Same unresolved near-baseline fresh/aged alternatives, with another CRA pH representation."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 751,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "100",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 10 at.% Mo",
+              "cra_value": "28.32",
+              "comparison": "C2 using Al balance 90 at.%: paper ≈28.322 wt%. Dataset-derived from original Mo and Al cells gives ≈9.999 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 90 at.%",
+              "cra_value": "71.68",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle, Fig.2",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 100}",
+              "cra_value": "100",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "The specific aged anomalous nominal10 at.% point is ≈100 mV, equal to CRA; source warns its composition may have been mismeasured. Do not relabel it."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 752,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "400",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 15.5 at.% Mo",
+              "cra_value": "38.56",
+              "comparison": "C2 using Al balance 84.5 at.%: paper ≈39.478 wt%. Dataset-derived from original Mo and Al cells gives ≈15.001 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 84.5 at.%",
+              "cra_value": "61.44",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 450}",
+              "cra_value": "400",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈15 at.% identifies the neighborhood, but400 versus≈450 mV and the nearby repassivation symbol leave quantity/point identity unresolved."
+        }
+      ],
+      "notes": "CRA≈15 at.% identifies the neighborhood, but400 versus≈450 mV and the nearby repassivation symbol leave quantity/point identity unresolved."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 759,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "525",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 17 at.% Mo",
+              "cra_value": "41.27",
+              "comparison": "C2 using Al balance 83 at.%: paper ≈42.141 wt%. Dataset-derived from original Mo and Al cells gives ≈16.500 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 83 at.%",
+              "cra_value": "58.73",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 550}",
+              "cra_value": "525",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved17 at.% fresh/aged alternatives; do not choose the nearest potential as a unique experiment."
+        }
+      ],
+      "notes": "Same unresolved17 at.% fresh/aged alternatives; do not choose the nearest potential as a unique experiment."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 753,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "600",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 18.5 at.% Mo",
+              "cra_value": "44.67",
+              "comparison": "C2 using Al balance 81.5 at.%: paper ≈44.666 wt%. Dataset-derived from original Mo and Al cells gives ≈18.502 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 81.5 at.%",
+              "cra_value": "55.33",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle, Fig.2",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 620}",
+              "cra_value": "600",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈620 versus CRA600 mV; ≈18.5 at.% is compositionally distinct from nearby plotted points."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 754,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "775",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 26.6 at.% Mo",
+              "cra_value": "55.55",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈56.307 wt%. Dataset-derived from original Mo and Al cells gives ≈26.004 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "44.45",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle, Fig.2",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 800}",
+              "cra_value": "775",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈800 versus CRA775 mV; ≈26 at.% CRA is close to this lower-Mo aged point, distinct from the fresh/aged cluster around29 at.%."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 755,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "900",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 28.5 at.% Mo",
+              "cra_value": "59.23",
+              "comparison": "C2 using Al balance 71.5 at.%: paper ≈58.634 wt%. Dataset-derived from original Mo and Al cells gives ≈29.004 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 71.5 at.%",
+              "cra_value": "40.77",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 860}",
+              "cra_value": "900",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈29 at.%900 could refer to a fresh point or the nearby aged≈860 result; no state-specific assignment."
+        },
+        {
+          "citrine_no": 761,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "900",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 28.5 at.% Mo",
+              "cra_value": "59.23",
+              "comparison": "C2 using Al balance 71.5 at.%: paper ≈58.634 wt%. Dataset-derived from original Mo and Al cells gives ≈29.004 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 71.5 at.%",
+              "cra_value": "40.77",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 860}",
+              "cra_value": "900",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved fresh/aged alternatives; repeated CRA values are not proof of a separate experiment."
+        }
+      ],
+      "notes": "Same unresolved fresh/aged alternatives; repeated CRA values are not proof of a separate experiment."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 756,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "975",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "Binary Al–Mo: registered 32 at.% Mo",
+              "cra_value": "62.06",
+              "comparison": "C2 using Al balance 68 at.%: paper ≈62.595 wt%. Dataset-derived from original Mo and Al cells gives ≈31.506 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 68 at.%",
+              "cra_value": "37.94",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; aged circle, Fig.2",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 980}",
+              "cra_value": "975",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈980 versus CRA975 mV; CRA≈31.5 at.% agrees with this rightmost aged point at plot precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Cited Al–5.2 at.% W strict >800 mV bound is a different result from current −60 mV No.773. Do not replace cited provenance or convert that lower bound into the current measurement."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The registry specifies Al–V or Al–Mn. Supplied CRA rows contain no matching V/Mn alloy population; other-solute numerical coincidences are insufficient."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The registry specifies Al–V or Al–Mn. Supplied CRA rows contain no matching V/Mn alloy population; other-solute numerical coincidences are insufficient."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The registry specifies Al–V or Al–Mn. Supplied CRA rows contain no matching V/Mn alloy population; other-solute numerical coincidences are insufficient."
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The registry specifies Al–V or Al–Mn. Supplied CRA rows contain no matching V/Mn alloy population; other-solute numerical coincidences are insufficient."
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The registry specifies Al–V or Al–Mn. Supplied CRA rows contain no matching V/Mn alloy population; other-solute numerical coincidences are insufficient."
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The registry specifies Al–V or Al–Mn. Supplied CRA rows contain no matching V/Mn alloy population; other-solute numerical coincidences are insufficient."
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The registry specifies Al–V or Al–Mn. Supplied CRA rows contain no matching V/Mn alloy population; other-solute numerical coincidences are insufficient."
+    },
+    {
+      "observation_id": "obs_038",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Distinct ≈3 at.% W readings; the only supplied W row is ≈5.235 at.% W (No.773), so its −60 mV result is not a counterpart."
+    },
+    {
+      "observation_id": "obs_039",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Distinct ≈3 at.% W readings; the only supplied W row is ≈5.235 at.% W (No.773), so its −60 mV result is not a counterpart."
+    },
+    {
+      "observation_id": "obs_040",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 773,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-60",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "W",
+              "paper_value": "Binary Al–W: registered 5.2 at.% W",
+              "cra_value": "27.21",
+              "comparison": "C2 using Al balance 94.8 at.%: paper ≈27.206 wt%. Dataset-derived from original W and Al cells gives ≈5.235 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 94.8 at.%",
+              "cra_value": "72.29",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; current fresh W test; Fig.3 and p.5 text",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -60}",
+              "cra_value": "-60",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Explicit present −60 mV SCE and binary W content identify No.773. CRA Al+W sum is99.5 wt%; inverse C2 normalizes the two original cells and gives≈5.235 at.%, not a silent correction."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_041",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 766,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-150",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 6 at.% Cr",
+              "cra_value": "9.21",
+              "comparison": "C2 using Al balance 94 at.%: paper ≈10.953 wt%. Dataset-derived from original Cr and Al cells gives ≈5.001 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 94 at.%",
+              "cra_value": "90.79",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; new fresh triangle",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -180}",
+              "cra_value": "-150",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Potential≈−180 versus−150 is near graph precision, but CRA≈5 at.% differs from registered6 and provenance is mixed; retain a candidate."
+        }
+      ],
+      "notes": "Potential≈−180 versus−150 is near graph precision, but CRA≈5 at.% differs from registered6 and provenance is mixed; retain a candidate."
+    },
+    {
+      "observation_id": "obs_042",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 768,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 9.5 at.% Cr",
+              "cra_value": "17.64",
+              "comparison": "C2 using Al balance 90.5 at.%: paper ≈16.825 wt%. Dataset-derived from original Cr and Al cells gives ≈10.003 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 90.5 at.%",
+              "cra_value": "82.36",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle, Fig.4",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -120}",
+              "cra_value": "-125",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈−120 versus CRA−125 mV; CRA≈10 at.% is compatible with this approximate9.5 coordinate."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_043",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 767,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 15.5 at.% Cr",
+              "cra_value": "26.12",
+              "comparison": "C2 using Al balance 84.5 at.%: paper ≈26.117 wt%. Dataset-derived from original Cr and Al cells gives ≈15.502 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 84.5 at.%",
+              "cra_value": "73.88",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle, Fig.4",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -130}",
+              "cra_value": "-125",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈−130 versus CRA−125 mV at ≈15.5 at.% Cr; composition separates it from the nearby-potential10 at.% point."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_044",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_045",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_046",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 769,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-100",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 26.6 at.% Cr",
+              "cra_value": "39.74",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈41.120 wt%. Dataset-derived from original Cr and Al cells gives ≈25.496 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "60.26",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle, Fig.4",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -80}",
+              "cra_value": "-100",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈−80 versus CRA−100 mV; the CRA≈25.5 at.% composition is closest to this distinct fresh high-Cr branch. Graphical coordinate difference is retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_047",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 770,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "0",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 35 at.% Cr",
+              "cra_value": "50.37",
+              "comparison": "C2 using Al balance 65 at.%: paper ≈50.924 wt%. Dataset-derived from original Cr and Al cells gives ≈34.498 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 65 at.%",
+              "cra_value": "49.63",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle, Fig.4",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 20}",
+              "cra_value": "0",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source ≈20 versus CRA0 mV; ≈34.5 at.% CRA and the fresh branch identify this result at coarse plot precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_048",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 771,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "425",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 39.5 at.% Cr",
+              "cra_value": "54.15",
+              "comparison": "C2 using Al balance 60.5 at.%: paper ≈55.716 wt%. Dataset-derived from original Cr and Al cells gives ≈37.998 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 60.5 at.%",
+              "cra_value": "45.85",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 450}",
+              "cra_value": "425",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Potential≈450 versus425 is compatible, but CRA≈38 versus39.5 at.% leaves the precise composition counterpart unresolved."
+        }
+      ],
+      "notes": "Potential≈450 versus425 is compatible, but CRA≈38 versus39.5 at.% leaves the precise composition counterpart unresolved."
+    },
+    {
+      "observation_id": "obs_049",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 772,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1000",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 45 at.% Cr",
+              "cra_value": "60.71",
+              "comparison": "C2 using Al balance 55 at.%: paper ≈61.190 wt%. Dataset-derived from original Cr and Al cells gives ≈44.501 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 55 at.%",
+              "cra_value": "39.29",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; cited fresh triangle, Fig.4",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1000}",
+              "cra_value": "1000",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source≈1000 mV equals CRA1000; ≈44.5 at.% CRA identifies the rightmost fresh triangle within plot precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_050",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 763,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "0",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 2.8 at.% Cr",
+              "cra_value": "4.71",
+              "comparison": "C2 using Al balance 97.2 at.%: paper ≈5.259 wt%. Dataset-derived from original Cr and Al cells gives ≈2.501 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 97.2 at.%",
+              "cra_value": "95.29",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; lower aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -150}",
+              "cra_value": "0",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "CRA≈2.5 at.%0 cannot identify the −150 versus+50 aged replicate or a summary; no mean is manufactured."
+        }
+      ],
+      "notes": "CRA≈2.5 at.%0 cannot identify the −150 versus+50 aged replicate or a summary; no mean is manufactured."
+    },
+    {
+      "observation_id": "obs_051",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 763,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "0",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 2.8 at.% Cr",
+              "cra_value": "4.71",
+              "comparison": "C2 using Al balance 97.2 at.%: paper ≈5.259 wt%. Dataset-derived from original Cr and Al cells gives ≈2.501 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 97.2 at.%",
+              "cra_value": "95.29",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; upper aged circle",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 50}",
+              "cra_value": "0",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Same unresolved low-Cr aged pair;0 differs from≈+50 and does not establish a distinct run."
+        }
+      ],
+      "notes": "Same unresolved low-Cr aged pair;0 differs from≈+50 and does not establish a distinct run."
+    },
+    {
+      "observation_id": "obs_052",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_053",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_054",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 764,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 12.2 at.% Cr",
+              "cra_value": "20.03",
+              "comparison": "C2 using Al balance 87.8 at.%: paper ≈21.121 wt%. Dataset-derived from original Cr and Al cells gives ≈11.502 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 87.8 at.%",
+              "cra_value": "79.97",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; highest aged circle at this composition, Fig.4",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 340}",
+              "cra_value": "300",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source≈340 versus CRA300 mV; CRA≈11.5 at.% and high aged point distinguish this reading from the100/−180 mV repeats. No mean of those points is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_055",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_056",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_057",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_058",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 765,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 30.3 at.% Cr",
+              "cra_value": "45.23",
+              "comparison": "C2 using Al balance 69.7 at.%: paper ≈45.585 wt%. Dataset-derived from original Cr and Al cells gives ≈29.998 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 69.7 at.%",
+              "cra_value": "54.77",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; high aged circle at this composition, Fig.4",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 530}",
+              "cra_value": "500",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "Source≈530 versus CRA500 mV; CRA≈30 at.% and positive aged point distinguish it from the separate−300 mV aged result."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_059",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 742,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-125",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 4.3 at.% Nb",
+              "cra_value": "15.34",
+              "comparison": "C2 using Al balance 95.7 at.%: paper ≈13.398 wt%. Dataset-derived from original Nb and Al cells gives ≈4.999 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 95.7 at.%",
+              "cra_value": "84.66",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 100}",
+              "cra_value": "-125",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        },
+        {
+          "citrine_no": 746,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 4.3 at.% Nb",
+              "cra_value": "15.34",
+              "comparison": "C2 using Al balance 95.7 at.%: paper ≈13.398 wt%. Dataset-derived from original Nb and Al cells gives ≈4.999 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 95.7 at.%",
+              "cra_value": "84.66",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 100}",
+              "cra_value": "-300",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_060",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 747,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 15.5 at.% Nb",
+              "cra_value": "37.8",
+              "comparison": "C2 using Al balance 84.5 at.%: paper ≈38.711 wt%. Dataset-derived from original Nb and Al cells gives ≈15.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 84.5 at.%",
+              "cra_value": "62.2",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 360}",
+              "cra_value": "300",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_061",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 747,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 15.5 at.% Nb",
+              "cra_value": "37.8",
+              "comparison": "C2 using Al balance 84.5 at.%: paper ≈38.711 wt%. Dataset-derived from original Nb and Al cells gives ≈15.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 84.5 at.%",
+              "cra_value": "62.2",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 400}",
+              "cra_value": "300",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_062",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 900}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        },
+        {
+          "citrine_no": 748,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "600",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 900}",
+              "cra_value": "600",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_063",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1050}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        },
+        {
+          "citrine_no": 748,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "600",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1050}",
+              "cra_value": "600",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_064",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1130}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        },
+        {
+          "citrine_no": 748,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "600",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1130}",
+              "cra_value": "600",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_065",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 744,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-875",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1450}",
+              "cra_value": "-875",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        },
+        {
+          "citrine_no": 748,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "600",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Binary Al–Nb: registered 26.6 at.% Nb",
+              "cra_value": "54.75",
+              "comparison": "C2 using Al balance 73.4 at.%: paper ≈55.513 wt%. Dataset-derived from original Nb and Al cells gives ≈26.002 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 73.4 at.%",
+              "cra_value": "45.25",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "7.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1450}",
+              "cra_value": "600",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_066",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 763,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "0",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 2.8 at.% Cr",
+              "cra_value": "4.71",
+              "comparison": "C2 using Al balance 97.2 at.%: paper ≈5.259 wt%. Dataset-derived from original Cr and Al cells gives ≈2.501 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 97.2 at.%",
+              "cra_value": "95.29",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -160}",
+              "cra_value": "0",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_067",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 764,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 12.2 at.% Cr",
+              "cra_value": "20.03",
+              "comparison": "C2 using Al balance 87.8 at.%: paper ≈21.121 wt%. Dataset-derived from original Cr and Al cells gives ≈11.502 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 87.8 at.%",
+              "cra_value": "79.97",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 80}",
+              "cra_value": "300",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    },
+    {
+      "observation_id": "obs_068",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No defensible counterpart for this particular registered composition/result among the supplied CRA records. A different fresh/aged reading, composition or repassivation value is not substituted."
+    },
+    {
+      "observation_id": "obs_069",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 765,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Binary Al–Cr: registered 30.3 at.% Cr",
+              "cra_value": "45.23",
+              "comparison": "C2 using Al balance 69.7 at.%: paper ≈45.585 wt%. Dataset-derived from original Cr and Al cells gives ≈29.998 at.%; retain graphical/CRA composition difference."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Binary Al balance: 69.7 at.%",
+              "cra_value": "54.77",
+              "comparison": "Balance is from the paper binary description, not supplied by CRA. Both original weight cells enter the stated inverse C2 calculation."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl; growth-curve pitting/start endpoint; aging state not specified",
+              "cra_value": "0.1M NaCl pH 10",
+              "comparison": "Same named electrolyte and sputtered-film experiment, PDF pp.2–3; fresh/aged selectors remain distinct."
+            },
+            {
+              "field": "pH",
+              "paper_value": "earlier fresh reference-3 protocol: pH10; current tests: no numerical pH stated",
+              "cra_value": "10.0",
+              "comparison": "CRA pH7 is unverified; pH10 can denote the earlier protocol but does not establish aging/run identity when other fields conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s in current protocol; .2 mV/s in earlier reference-3 protocol",
+              "cra_value": "1",
+              "comparison": "Retain protocol differences; do not infer that the CRA common 1 mV/s describes every cited point."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -310}",
+              "cra_value": "500",
+              "comparison": "C1: same mV(SCE) scale, original sign retained. Agreement concerns the registered pitting/start result; no repassivation value or manufactured mean is substituted."
+            }
+          ],
+          "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+        }
+      ],
+      "notes": "PDF p.9 establishes highest growth-curve potential as pitting/start potential. Binary composition supports this possible counterpart, but aging/run identity is unassigned and the CRA target differs; Figs.1/4 provide other distinct presentations. No repeated-run or sign correction is asserted."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    741,
+    742,
+    743,
+    744,
+    746,
+    750,
+    752,
+    755,
+    757,
+    759,
+    760,
+    761,
+    762,
+    763,
+    766,
+    771
+  ]
+}

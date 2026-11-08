@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "63_Lu, Y. C., C. R. Clayton, and A. R. Brooks. Corrosion science 29.7 (1989)_ 863-880.pdf",
+  "reference_number": 63,
+  "inputs": {
+    "pdf": {
+      "filename": "63_Lu, Y. C., C. R. Clayton, and A. R. Brooks. Corrosion science 29.7 (1989)_ 863-880.pdf",
+      "sha256": "c64a93bb7f1a23aa6ec0982c1bd31385ca3174f28d39dd77fa1e52f44fb5b419"
+    },
+    "csv": {
+      "filename": "pitting_potential_63.csv",
+      "sha256": "4938b39d26bbd856a489dd7b1b592b5e82d88287127fb428baf9a1dfb42e778b"
+    },
+    "registry": {
+      "filename": "paper_63.json",
+      "sha256": "cdbab9235bb8bf9e7506ed56d05e3fd771a571eb195ecb6199a038bd0436138a"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    5
+  ],
+  "coverage_notes": "Every supplied observation and CRA row was considered. Every registered anchor page, including secondary locations, was actually viewed. Context pages and enlarged source plots were consulted where needed. This is alignment of the exact supplied registry, not a full-paper census or proof of the presentation selected by the original curators. Inputs are unchanged.",
+  "shared_qualifications": [
+    "Table 2 (PDF p.5) labels its solutions aerated, whereas the experimental method uses argon de-aeration and an argon-purged glove box (PDF pp.2-3); this source conflict is retained. It does not remove the independent alloy, electrolyte and pH identities.",
+    "Table 1 gives Cr19.2/Ni9.0 wt%, but C<0.05, N<0.002 and S<0.025 wt% (PDF p.3). CRA stores those limit numbers as exact cells and calculates a precise Fe value; neither the limits nor source Fe balance are asserted to be exact measured compositions here.",
+    "All source potentials are versus SCE. The anodic sweep is1 mV/s after cathodic polarization at-1.150 V(SCE) for15 min (PDF p.3). Source temperature is not independently established as a numerical25 C in these passages. The pH9 NaOH-adjusted NaCl condition is distinct from the Na2MoO4-added solution, whose table entry is transpassive rather than one of these Epit values."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 209,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-50",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "19.2 wt% Cr, Table1, PDF p.3",
+              "cra_value": "19.2",
+              "comparison": "Independent measured alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "9.0 wt% Ni, Table1",
+              "cra_value": "9.0",
+              "comparison": "Independent measured alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.3 M NaCl, pH5.4; aerated in Table2, de-aerated with argon in methods",
+              "cra_value": " deaerated 0.3M NaCl (pH 5.4)",
+              "comparison": "Same salt/pH condition; the source atmosphere contradiction and original CRA de-aerated label are retained."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.4, Table2",
+              "cra_value": "5.4",
+              "comparison": "Same source-reported pH; pH9 NaOH adjustment is not molybdate addition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s, PDF p.3",
+              "cra_value": "1",
+              "comparison": "Same actual anodic sweep rate."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Cathodic pretreatment-1.150 V(SCE),15 min; then anodic sweep, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before athe test, specimens were cathodically polarized at - 1.150 V(SCE) for 15 min to reduce the polish-formed film.",
+              "comparison": "Same independently specified pretreatment/procedure."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -50}",
+              "cra_value": "-50",
+              "comparison": "Both source and CRA are mV(SCE); the printed Table2 Epit agrees exactly. Adjacent Ecorr, primary-passivation and transpassive columns are different quantities."
+            }
+          ],
+          "notes": "Table1 alloy analysis and Table2 electrolyte/pH column identify the counterpart independently of potential equality (PDF pp.3,5). The unresolved source atmosphere conflict remains attached."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 210,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "525",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "19.2 wt% Cr, Table1, PDF p.3",
+              "cra_value": "19.2",
+              "comparison": "Independent measured alloy identity."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "9.0 wt% Ni, Table1",
+              "cra_value": "9.0",
+              "comparison": "Independent measured alloy identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.3 M NaCl, pH9; aerated in Table2, de-aerated with argon in methods",
+              "cra_value": "deaerated 0.3M NaCl (pH 9.0)",
+              "comparison": "Same salt/pH condition; the source atmosphere contradiction and original CRA de-aerated label are retained."
+            },
+            {
+              "field": "pH",
+              "paper_value": "9, Table2",
+              "cra_value": "9.0",
+              "comparison": "Same source-reported pH; pH9 NaOH adjustment is not molybdate addition."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s, PDF p.3",
+              "cra_value": "1",
+              "comparison": "Same actual anodic sweep rate."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Cathodic pretreatment-1.150 V(SCE),15 min; then anodic sweep, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before athe test, specimens were cathodically polarized at - 1.150 V(SCE) for 15 min to reduce the polish-formed film.",
+              "comparison": "Same independently specified pretreatment/procedure."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 525}",
+              "cra_value": "525",
+              "comparison": "Both source and CRA are mV(SCE); the printed Table2 Epit agrees exactly. Adjacent Ecorr, primary-passivation and transpassive columns are different quantities."
+            }
+          ],
+          "notes": "Table1 alloy analysis and Table2 electrolyte/pH column identify the counterpart independently of potential equality (PDF pp.3,5). The unresolved source atmosphere conflict remains attached."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

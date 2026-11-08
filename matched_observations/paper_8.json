@@ -1,0 +1,1143 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "8_R. Guo, M. B. Ives, Corrosion 46 {1990)_ p. 125.pdf",
+  "reference_number": 8,
+  "inputs": {
+    "pdf": {
+      "filename": "8_R. Guo, M. B. Ives, Corrosion 46 {1990)_ p. 125.pdf",
+      "sha256": "f47dd93b90f12ddbbee8592917d3b181756cb1b3fc0e3201c500c0b440fc602d"
+    },
+    "csv": {
+      "filename": "pitting_potential_8.csv",
+      "sha256": "cbc654a3f5fadfdae7687df00f3333646028d9d8aaba6fc1f7edee29435ce3ac"
+    },
+    "registry": {
+      "filename": "paper_8.json",
+      "sha256": "52c2acc09a1d6c0595a6cfb363d922788b7902a336e3eaa866295906d63046e4"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "All supplied anchors (Figs.3-5 on PDF pp.3-4) and materials/compositions/solution/method on p.2 were visually inspected; p.1 title also viewed. No additional pitting values were inferred from continuous curves.",
+  "shared_qualifications": [
+    "C8: V vs SCE x 1000 = mV vs SCE, no reference-electrode offset. Source sweep 600 mV/h /3600 = 0.166667 mV/s, compatible with CRA 0.167.",
+    "Figure 3 bars are experiment ranges, not source-reported means. CSV Avg targets are retained as central values without manufacturing a source mean. The seven supplied registered bar outcomes correspond to seven rows; CRA 471 (S31254 chloride, about 1.0 V) has no supplied registry observation and remains unlinked.",
+    "The paper describes Fig.4/5 outcomes as transpassive and/or pitting potentials, with incomplete pointwise separation at the transition. Identity alignment does not certify every registered value as a pitting threshold. The clearly nonpitting S31254 chloride condition was not added to the registry.",
+    "Fig.3 S31254 bar does not label an individual heat. The results text identifies the associated Fig.2 example as Heat 2, consistent with CRA 475, but bar-wide heat membership is not explicit. Fig.4 S31254 and Fig.5 are Heat 1; CRA 475 Comments specifies Heat 2. Their pure-bromide endpoints remain candidate-only rather than silently conflating heats.",
+    "Shared CRA 470/474 links relate a Fig.3 range to individual Fig.4 70 C readings. They do not assert that the figures repeat the same runs. obs_010 approximately 660 mV exceeds CRA 470 Max 640 mV; the independently identified counterpart is retained with discrepant potential agreement."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 468,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "63",
+            "min": "43.0",
+            "max": "90.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S30100",
+              "cra_value": "UNS S30100, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17 wt.%",
+              "cra_value": "17.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.3 wt.%",
+              "cra_value": "8.3",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.19 wt.%",
+              "cra_value": "0.19",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.04, \"max\": 0.09}",
+              "cra_value": "63",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Registered Fig.3 result is a source range; CRA central value is not asserted to be a source-reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 472,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "273",
+            "min": "245.0",
+            "max": "290.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S30100",
+              "cra_value": "UNS S30100, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17 wt.%",
+              "cra_value": "17.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.3 wt.%",
+              "cra_value": "8.3",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.19 wt.%",
+              "cra_value": "0.19",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.25, \"max\": 0.3}",
+              "cra_value": "273",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Registered Fig.3 result is a source range; CRA central value is not asserted to be a source-reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 469,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "168",
+            "min": "138.0",
+            "max": "200.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S31600",
+              "cra_value": "UNS S31600, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.2 wt.%",
+              "cra_value": "17.2",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.5 wt.%",
+              "cra_value": "10.5",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2 wt.%",
+              "cra_value": "2.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.14, \"max\": 0.2}",
+              "cra_value": "168",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Registered Fig.3 result is a source range; CRA central value is not asserted to be a source-reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 473,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "330",
+            "min": "306.0",
+            "max": "350.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S31600",
+              "cra_value": "UNS S31600, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.2 wt.%",
+              "cra_value": "17.2",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.5 wt.%",
+              "cra_value": "10.5",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2 wt.%",
+              "cra_value": "2.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.3, \"max\": 0.35}",
+              "cra_value": "330",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Registered Fig.3 result is a source range; CRA central value is not asserted to be a source-reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 470,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "620",
+            "min": "587.0",
+            "max": "640.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS N08904",
+              "cra_value": "UNS N08904, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.%",
+              "cra_value": "20.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25 wt.%",
+              "cra_value": "25.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.5 wt.%",
+              "cra_value": "4.5",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.59, \"max\": 0.65}",
+              "cra_value": "620",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Registered Fig.3 result is a source range; CRA central value is not asserted to be a source-reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 474,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "476",
+            "min": "456.0",
+            "max": "500.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS N08904",
+              "cra_value": "UNS N08904, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.%",
+              "cra_value": "20.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25 wt.%",
+              "cra_value": "25.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.5 wt.%",
+              "cra_value": "4.5",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.46, \"max\": 0.5}",
+              "cra_value": "476",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Registered Fig.3 result is a source range; CRA central value is not asserted to be a source-reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 475,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "620",
+            "min": "573.0",
+            "max": "660.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S31254; Fig.3 heat unspecified; associated Fig.2 example is Heat 2",
+              "cra_value": "UNS S31254 Heat 2, Test solutions were deaerated by nitrogen, Two heats of\nUNS S31254 materials were tested because Heat 1 material was\nfound to contain a significant quantity of titanium-rich inclusions,\nand was thus metallographically less clean than Heat 2 material. Nominal values for all in composition.",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.%",
+              "cra_value": "20.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "18 wt.%",
+              "cra_value": "18.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.1 wt.%",
+              "cra_value": "6.1",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"min\": 0.58, \"max\": 0.67}",
+              "cra_value": "620",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Registered Fig.3 result is a source range; CRA central value is not asserted to be a source-reported mean. Fig.3 heat unspecified; associated Fig.2 example identifies Heat 2. Bar-wide heat membership remains a source omission."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 470,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "620",
+            "min": "587.0",
+            "max": "640.0"
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS N08904",
+              "cra_value": "UNS N08904, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.%",
+              "cra_value": "20.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25 wt.%",
+              "cra_value": "25.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.5 wt.%",
+              "cra_value": "4.5",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.66}",
+              "cra_value": "640.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Shared row is a possible individual member/repeated presentation of the Fig.3 condition summary; individual run identity is unresolved and no mean is inferred. Registered 0.66 V = 660 mV is above original CRA Max 640 mV; source and target are not silently reconciled."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 470,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "620",
+            "min": "587.0",
+            "max": "640.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS N08904",
+              "cra_value": "UNS N08904, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.%",
+              "cra_value": "20.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25 wt.%",
+              "cra_value": "25.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.5 wt.%",
+              "cra_value": "4.5",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.6}",
+              "cra_value": "620",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Shared row is a possible individual member/repeated presentation of the Fig.3 condition summary; individual run identity is unresolved and no mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 475,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "620",
+            "min": "573.0",
+            "max": "660.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S31254 Heat 1",
+              "cra_value": "UNS S31254 Heat 2, Test solutions were deaerated by nitrogen, Two heats of\nUNS S31254 materials were tested because Heat 1 material was\nfound to contain a significant quantity of titanium-rich inclusions,\nand was thus metallographically less clean than Heat 2 material. Nominal values for all in composition.",
+              "comparison": "Source Results text/Fig.5 identifies Heat 1; CRA explicitly says Heat 2. This heat conflict prevents supported assignment."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.1 wt.% nominal",
+              "cra_value": "6.1",
+              "comparison": "Both heats share nominal chemistry; this does not distinguish their titanium-rich inclusion populations."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr (pure-bromide endpoint)",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Same nominal medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Same solution temperature."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.63}",
+              "cra_value": "620",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
+        }
+      ],
+      "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 475,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "620",
+            "min": "573.0",
+            "max": "660.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S31254 Heat 1",
+              "cra_value": "UNS S31254 Heat 2, Test solutions were deaerated by nitrogen, Two heats of\nUNS S31254 materials were tested because Heat 1 material was\nfound to contain a significant quantity of titanium-rich inclusions,\nand was thus metallographically less clean than Heat 2 material. Nominal values for all in composition.",
+              "comparison": "Source Results text/Fig.5 identifies Heat 1; CRA explicitly says Heat 2. This heat conflict prevents supported assignment."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.1 wt.% nominal",
+              "cra_value": "6.1",
+              "comparison": "Both heats share nominal chemistry; this does not distinguish their titanium-rich inclusion populations."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr (pure-bromide endpoint)",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Same nominal medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Same solution temperature."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.57}",
+              "cra_value": "620",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
+        }
+      ],
+      "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 474,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "476",
+            "min": "456.0",
+            "max": "500.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS N08904",
+              "cra_value": "UNS N08904, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.%",
+              "cra_value": "20.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25 wt.%",
+              "cra_value": "25.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.5 wt.%",
+              "cra_value": "4.5",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.5}",
+              "cra_value": "476",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Shared row is a possible individual member/repeated presentation of the Fig.3 condition summary; individual run identity is unresolved and no mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 474,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "476",
+            "min": "456.0",
+            "max": "500.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS N08904",
+              "cra_value": "UNS N08904, Test solutions were deaerated by nitrogen",
+              "comparison": "Source steel identifier agrees; S31254 heat membership of the complete bar remains qualified."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.%",
+              "cra_value": "20.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25 wt.%",
+              "cra_value": "25.0",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.5 wt.%",
+              "cra_value": "4.5",
+              "comparison": "Table 1 source composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Pure-halide medium; nitrogen deaeration from methods."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Figure caption/coordinate agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/h",
+              "cra_value": "0.167",
+              "comparison": "C8: 600/3600=0.166667 mV/s, rounded to 0.167."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.46}",
+              "cra_value": "476",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Steel identity/composition, pure-halide solution, 70 C and procedure identify the source counterpart. Shared row is a possible individual member/repeated presentation of the Fig.3 condition summary; individual run identity is unresolved and no mean is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 475,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "620",
+            "min": "573.0",
+            "max": "660.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S31254 Heat 1",
+              "cra_value": "UNS S31254 Heat 2, Test solutions were deaerated by nitrogen, Two heats of\nUNS S31254 materials were tested because Heat 1 material was\nfound to contain a significant quantity of titanium-rich inclusions,\nand was thus metallographically less clean than Heat 2 material. Nominal values for all in composition.",
+              "comparison": "Source Results text/Fig.5 identifies Heat 1; CRA explicitly says Heat 2. This heat conflict prevents supported assignment."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.1 wt.% nominal",
+              "cra_value": "6.1",
+              "comparison": "Both heats share nominal chemistry; this does not distinguish their titanium-rich inclusion populations."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr (pure-bromide endpoint)",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Same nominal medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Same solution temperature."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.63}",
+              "cra_value": "620",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
+        }
+      ],
+      "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 475,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "620",
+            "min": "573.0",
+            "max": "660.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "UNS S31254 Heat 1",
+              "cra_value": "UNS S31254 Heat 2, Test solutions were deaerated by nitrogen, Two heats of\nUNS S31254 materials were tested because Heat 1 material was\nfound to contain a significant quantity of titanium-rich inclusions,\nand was thus metallographically less clean than Heat 2 material. Nominal values for all in composition.",
+              "comparison": "Source Results text/Fig.5 identifies Heat 1; CRA explicitly says Heat 2. This heat conflict prevents supported assignment."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.1 wt.% nominal",
+              "cra_value": "6.1",
+              "comparison": "Both heats share nominal chemistry; this does not distinguish their titanium-rich inclusion populations."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6M NaBr (pure-bromide endpoint)",
+              "cra_value": "0.6M NaBr",
+              "comparison": "Same nominal medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Same solution temperature."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.59}",
+              "cra_value": "620",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
+        }
+      ],
+      "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    471
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "35_I. Olefjord, L. Wegrelius, Corros. Sci. 38 (1996)_ p. 1203.pdf",
+  "reference_number": 35,
+  "inputs": {
+    "pdf": {
+      "filename": "35_I. Olefjord, L. Wegrelius, Corros. Sci. 38 (1996)_ p. 1203.pdf",
+      "sha256": "624af2158a0a9c8267c0a395563ee65611ece2fba1ac7517bf4b1915aee328a0"
+    },
+    "csv": {
+      "filename": "pitting_potential_35.csv",
+      "sha256": "2ebdd1b2e8242d47e8bdadaae40d9cde457e31db77ce1536042ef2e9a8fd44b4"
+    },
+    "registry": {
+      "filename": "paper_35.json",
+      "sha256": "89cf266dbed6c61a8b45178fbb1be383ece91baab44d52a4bc8d68dab9b45daf"
+    }
+  },
+  "inspected_pdf_pages": [
+    3,
+    11,
+    16
+  ],
+  "coverage_notes": "Rendered a short-named, byte-identical PDF copy after verifying its SHA-256 against the original. Input fingerprints refer to original supplied bytes. Only listed PDF pages were actually viewed. Both supplied observations and both CSV rows considered. Primary and secondary anchors on PDF pp.3,11,16 visually inspected. The 841.509 mV CSV targets are not used to invent unregistered scan thresholds.",
+  "shared_qualifications": [
+    "The +500 mV potentiostatic outcome is an at-or-below upper bound at 65 C, not an exact scan-derived Epit. The cited room-temperature Mo-free result is assessed without excluding its provenance category."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Low-N Mo-bearing steel at 65 C, +500 mV potentiostatic exposure: active pits propagate after an induction period, giving Epit <=500 mV. CRA 305 instead specifies the 22 C, 1 mV/s scan with central target 841.509 mV; same alloy/solution alone does not establish the same outcome. Both source presentations (PDF pp.3,11) considered."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Cited Fe-20Cr-20Ni Mo-free comparison (~500 mV at room temperature, PDF p.16) has no supplied material counterpart: both CRA records contain approximately 6 wt.% Mo. No exclusion solely because the result is cited."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    305,
+    306
+  ]
+}

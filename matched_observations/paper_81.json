@@ -1,0 +1,814 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "81_H. Boehni, H. H. Uhlig, Corros. Sci. 9 (1969)_ p. 353.pdf",
+  "reference_number": 81,
+  "inputs": {
+    "pdf": {
+      "filename": "81_H. Boehni, H. H. Uhlig, Corros. Sci. 9 (1969)_ p. 353.pdf",
+      "sha256": "34cfdcdc87ac6b91a1ed36bec80b25bb67d50cc5e0cec1178ae71b8946e54887"
+    },
+    "csv": {
+      "filename": "pitting_potential_81.csv",
+      "sha256": "d581c9b254189128c1dd6e5106cefd46b82927d15215efc9c46e46093075f1c0"
+    },
+    "registry": {
+      "filename": "paper_81.json",
+      "sha256": "ba1b3575cc333456b5ad5ad60f39afa2e62f3fd96559d5dac11b1a29bd1d719d"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3
+  ],
+  "coverage_notes": "",
+  "shared_qualifications": [
+    "C1: conditional room-temperature saturated-KCl SCE comparisons. ALS/BAS lists +0.244 V versus SHE for saturated-KCl calomel and discusses 25°C reference operation (https://www.als-japan.com/2137.html); Corrtest lists +0.241 V versus NHE at25°C (https://www.corrtestinstruments.com/en/02437.html). C1a subtracts244 mV; C1b subtracts241 mV. Both are shown as alternative published comparison conventions, not paper uncertainty or constants fitted to CRA. Paper/CRA do not establish the physical calomel reference temperature/calibration. Numerical agreement is conditional on these25°C conventions; test-solution temperature is not assumed to be reference-electrode temperature. Identity uses alloy and test context independently.",
+    "PDF p.2 Table1 gives three distinct Cr/Ni/Re analyses. CRA Nos.212/215/218/221 and213/216/219/222 set Re=0.0 despite paper .84/1.84 wt% Re; corresponding CRA Fe balances omit Re as well. Unique Cr/Ni pairs and electrolyte/temperature series identify counterparts independently. These composition errors are preserved, not repaired.",
+    "PDF p.2 procedure: initial15 min at least noble passive potential, then50 mV steps every5 min, followed by12–15 h single-potential steady-state runs. Endpoint is least noble potential with non-increasing current and no visible pits. CRA .16666 mV/s equals50/(5×60) as an average step rate; it is not a continuous sweep or the final long-duration protocol.",
+    "Source reports general reproducibility ±10–15 mV, not point-specific uncertainties. Registered Fig.2 readings are approximate; the visible0°C markers appear roughly5 mV below some registered values. Original registry readings remain unchanged. No numerical pH is supplied; CRA7.0 is unverified."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 211,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "507.012145748987",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.1: 17.6 wt% Cr",
+              "cra_value": "17.6",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.3 wt% Ni",
+              "cra_value": "10.3",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "0 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "0°C",
+              "cra_value": "0.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaCl",
+              "cra_value": " 0.1N NaCl ",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.75}",
+              "cra_value": "507.012145748987",
+              "comparison": "C1 conditional comparison: source 750 mV on hydrogen scale; C1a 750−244=506 mV SCE; C1b 750−241=509 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.1, electrolyte and 0°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 212,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "458.42914979757",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.2: 17.4 wt% Cr",
+              "cra_value": "17.4",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.2 wt% Ni",
+              "cra_value": "10.2",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "0.84 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "0°C",
+              "cra_value": "0.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaCl",
+              "cra_value": " 0.1N NaCl ",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.705}",
+              "cra_value": "458.42914979757",
+              "comparison": "C1 conditional comparison: source 705 mV on hydrogen scale; C1a 705−244=461 mV SCE; C1b 705−241=464 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.2, electrolyte and 0°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred. Paper Re content contradicts CRA0.0."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 213,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "431.708502024291",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.3: 17.8 wt% Cr",
+              "cra_value": "17.8",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.0 wt% Ni",
+              "cra_value": "10.0",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "1.84 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "0°C",
+              "cra_value": "0.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaCl",
+              "cra_value": " 0.1N NaCl ",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.675}",
+              "cra_value": "431.708502024291",
+              "comparison": "C1 conditional comparison: source 675 mV on hydrogen scale; C1a 675−244=431 mV SCE; C1b 675−241=434 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.3, electrolyte and 0°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred. Paper Re content contradicts CRA0.0."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 214,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "112.275303643724",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.1: 17.6 wt% Cr",
+              "cra_value": "17.6",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.3 wt% Ni",
+              "cra_value": "10.3",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "0 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaCl",
+              "cra_value": " 0.1N NaCl ",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.355}",
+              "cra_value": "112.275303643724",
+              "comparison": "C1 conditional comparison: source 355 mV on hydrogen scale; C1a 355−244=111 mV SCE; C1b 355−241=114 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.1, electrolyte and 25°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 215,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "132.923076923076",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.2: 17.4 wt% Cr",
+              "cra_value": "17.4",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.2 wt% Ni",
+              "cra_value": "10.2",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "0.84 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaCl",
+              "cra_value": " 0.1N NaCl ",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.375}",
+              "cra_value": "132.923076923076",
+              "comparison": "C1 conditional comparison: source 375 mV on hydrogen scale; C1a 375−244=131 mV SCE; C1b 375−241=134 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.2, electrolyte and 25°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred. Paper Re content contradicts CRA0.0."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 216,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "340.615384615384",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.3: 17.8 wt% Cr",
+              "cra_value": "17.8",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.0 wt% Ni",
+              "cra_value": "10.0",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "1.84 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaCl",
+              "cra_value": " 0.1N NaCl ",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.585}",
+              "cra_value": "340.615384615384",
+              "comparison": "C1 conditional comparison: source 585 mV on hydrogen scale; C1a 585−244=341 mV SCE; C1b 585−241=344 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.3, electrolyte and 25°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred. Paper Re content contradicts CRA0.0."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 217,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "297.241083264945",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.1: 17.6 wt% Cr",
+              "cra_value": "17.6",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.3 wt% Ni",
+              "cra_value": "10.3",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "0 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaBr",
+              "cra_value": "0.1N NaBr",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.545}",
+              "cra_value": "297.241083264945",
+              "comparison": "C1 conditional comparison: source 545 mV on hydrogen scale; C1a 545−244=301 mV SCE; C1b 545−241=304 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.1, electrolyte and 25°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 218,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "306.823811628053",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.2: 17.4 wt% Cr",
+              "cra_value": "17.4",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.2 wt% Ni",
+              "cra_value": "10.2",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "0.84 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaBr",
+              "cra_value": "0.1N NaBr",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.555}",
+              "cra_value": "306.823811628053",
+              "comparison": "C1 conditional comparison: source 555 mV on hydrogen scale; C1a 555−244=311 mV SCE; C1b 555−241=314 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.2, electrolyte and 25°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred. Paper Re content contradicts CRA0.0."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 219,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "386.780885045135",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.3: 17.8 wt% Cr",
+              "cra_value": "17.8",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.0 wt% Ni",
+              "cra_value": "10.0",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "1.84 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25°C",
+              "cra_value": "25.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaBr",
+              "cra_value": "0.1N NaBr",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.63}",
+              "cra_value": "386.780885045135",
+              "comparison": "C1 conditional comparison: source 630 mV on hydrogen scale; C1a 630−244=386 mV SCE; C1b 630−241=389 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.3, electrolyte and 25°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred. Paper Re content contradicts CRA0.0."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 220,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "212.221198156682",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.1: 17.6 wt% Cr",
+              "cra_value": "17.6",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.3 wt% Ni",
+              "cra_value": "10.3",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "0 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "0°C",
+              "cra_value": "0.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaBr",
+              "cra_value": "0.1N NaBr",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.46}",
+              "cra_value": "212.221198156682",
+              "comparison": "C1 conditional comparison: source 460 mV on hydrogen scale; C1a 460−244=216 mV SCE; C1b 460−241=219 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.1, electrolyte and 0°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 221,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "190.568524714348",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.2: 17.4 wt% Cr",
+              "cra_value": "17.4",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.2 wt% Ni",
+              "cra_value": "10.2",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "0.84 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "0°C",
+              "cra_value": "0.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaBr",
+              "cra_value": "0.1N NaBr",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.435}",
+              "cra_value": "190.568524714348",
+              "comparison": "C1 conditional comparison: source 435 mV on hydrogen scale; C1a 435−244=191 mV SCE; C1b 435−241=194 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.2, electrolyte and 0°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred. Paper Re content contradicts CRA0.0."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 222,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "189.305978157944",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Alloy No.3: 17.8 wt% Cr",
+              "cra_value": "17.8",
+              "comparison": "Table1 analytical alloy identity, PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "10.0 wt% Ni",
+              "cra_value": "10.0",
+              "comparison": "Independent analytical pair distinguishes the three alloys."
+            },
+            {
+              "field": "Re",
+              "paper_value": "1.84 wt% Re",
+              "cra_value": "0.0",
+              "comparison": "Agrees for the Re-free alloy; nonzero paper Re conflicts with CRA0.0 for alloys2/3. No correction is made."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "0°C",
+              "cra_value": "0.0",
+              "comparison": "Registered figure series label."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-saturated 0.1 N NaBr",
+              "cra_value": "0.1N NaBr",
+              "comparison": "Fig.1 chloride versus Fig.2 bromide; do not equate bromide with chloride."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "50 mV steps every5 min, then12–15 h single-potential runs",
+              "cra_value": "0.16666",
+              "comparison": "50/(5×60)=0.1666667 mV/s is only an average step progression; the method is potentiostatic."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (Std. H2 scale)\", \"value\": 0.43}",
+              "cra_value": "189.305978157944",
+              "comparison": "C1 conditional comparison: source 430 mV on hydrogen scale; C1a 430−244=186 mV SCE; C1b 430−241=189 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Table1 alloy No.3, electrolyte and 0°C series identify this counterpart. Potential comparison agrees at graphical precision under C1; no actual reference temperature is inferred. Paper Re content contradicts CRA0.0."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

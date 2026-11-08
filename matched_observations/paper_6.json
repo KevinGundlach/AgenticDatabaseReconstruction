@@ -1,0 +1,2054 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "6_A. P. Bond, Electrochem. Soc. 120 (1973)_ p. 603.pdf",
+  "reference_number": 6,
+  "inputs": {
+    "pdf": {
+      "filename": "6_A. P. Bond, Electrochem. Soc. 120 (1973)_ p. 603.pdf",
+      "sha256": "94b7eaabcaabd53e90a1919318154ee60542f00381992dba7a103b3402d109ea"
+    },
+    "csv": {
+      "filename": "pitting_potential_6.csv",
+      "sha256": "403fdd24779397044fb548483f22a191b6adba6733d1944acb90c4602068e113"
+    },
+    "registry": {
+      "filename": "paper_6.json",
+      "sha256": "5d498061af2c347ce1f4b7caa25fb8b439794ba57656184cff3624f1564c52c1"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "All registered anchors on PDF pp.2-4 and composition/method text on p.2 were visually inspected; p.1 title/abstract also viewed. Poppler font warnings did not obstruct the readable source pages.",
+  "shared_qualifications": [
+    "C6: mV/hr / 3600 = mV/s: 200 -> 0.0555556 and 2000 -> 0.555556. All source potentials are vs saturated calomel, so V x 1000 gives mV without a reference offset.",
+    "CRA 458-460 Comments incorrectly say Table VI (which is corrosion-rate data); the corresponding potentials are Table IV for Ti-stabilized heat 4073A. Source Table I lists Cr 18.15, Mo 1.97, Ni 0.11, Mn 0.34 wt.%, and Table IV Ti 0.47 wt.%; CRA lists Cr 16.45, Mn 0.034 and Ti 0.0. Identity is supported by the distinctive Mo heat and the matched 815/925/1035 C treatment/result series; composition conflicts remain explicit.",
+    "Shared CRA 458 and 460 summarize several individual Table IV determinations, not source-reported averages. CRA Avg values 300 and 540 are compatible central summaries, while Min 270 and 500 are the source minima. Individual replicates are not required to equal the central target; no new observation or source mean is manufactured.",
+    "CRA 461-467 are ranges/summaries of the registered Mo-free 4354A graphical determinations. Every shared link is an individual member of that condition group; graphical resolution, rather than CSV decimal precision, governs agreement. CRA 465 collapses approximately 325-335 mV to 330/330.",
+    "Method p.2 reports microscopy after each run and accepts distinct pits away from masked edges despite possible simultaneous crevice corrosion; this qualification does not automatically exclude source outcomes."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 461,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "250.0",
+            "max": "270.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "1 C",
+              "cra_value": "1.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.27}",
+              "cra_value": "270.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 461,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "250.0",
+            "max": "270.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "1 C",
+              "cra_value": "1.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.25}",
+              "cra_value": "250.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 462,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "20.0",
+            "max": "70.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.07}",
+              "cra_value": "70.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 462,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "20.0",
+            "max": "70.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.025}",
+              "cra_value": "20.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 463,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "-40.0",
+            "max": "20.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.02}",
+              "cra_value": "20.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 463,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "-40.0",
+            "max": "20.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": -0.04}",
+              "cra_value": "-40.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 464,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "-170.0",
+            "max": "-160.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": -0.155}",
+              "cra_value": "-160.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 464,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "-170.0",
+            "max": "-160.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "70 C",
+              "cra_value": "70.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": -0.165}",
+              "cra_value": "-170.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_038",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_039",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_040",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_041",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_042",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_043",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_044",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_045",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_046",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 458,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "270.0",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "1.97 wt.% heat 4073A, Table I",
+              "cra_value": "1.97",
+              "comparison": "Exact distinctive Mo heat."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.11 wt.%",
+              "cra_value": "0.11",
+              "comparison": "Table I alloy context agrees."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.15 wt.%",
+              "cra_value": "16.45",
+              "comparison": "Conflicts with original CRA 16.45; not silently corrected."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "0.34 wt.%",
+              "cra_value": "0.034",
+              "comparison": "Conflicts with original CRA 0.034."
+            },
+            {
+              "field": "Ti",
+              "paper_value": "0.47 wt.%",
+              "cra_value": "0.0",
+              "comparison": "Table IV explicitly Ti-stabilized; conflicts with CRA 0.0."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Table IV caption."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Table IV temperature agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Water quenched from 815 C",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Exact Table IV treatment distinguishes these three records."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "2000 mV/hr",
+              "cra_value": "0.556",
+              "comparison": "C6: 2000/3600=0.555556 mV/s, compatible with 0.556."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table IV pitting potentials; Table VI contains corrosion rates",
+              "cra_value": "Data was extracted fromTable VI",
+              "comparison": "CRA source-table citation is inconsistent with the paper."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.27}",
+              "cra_value": "300",
+              "comparison": "270 mV vs SCE is one of the Table IV individual determinations for this treatment. CRA Avg is a central summary, not a measurement each replicate must equal; populated Min is the source minimum. No source mean is asserted."
+            }
+          ],
+          "notes": "Table IV 4073A treatment series establishes identity independently of the erroneous Cr/Mn/Ti cells and CRA Table VI citation. Shared CRA 458/460 links are individual members of the treatment summary, not repeated copies of a reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_047",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 458,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "270.0",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "1.97 wt.% heat 4073A, Table I",
+              "cra_value": "1.97",
+              "comparison": "Exact distinctive Mo heat."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.11 wt.%",
+              "cra_value": "0.11",
+              "comparison": "Table I alloy context agrees."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.15 wt.%",
+              "cra_value": "16.45",
+              "comparison": "Conflicts with original CRA 16.45; not silently corrected."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "0.34 wt.%",
+              "cra_value": "0.034",
+              "comparison": "Conflicts with original CRA 0.034."
+            },
+            {
+              "field": "Ti",
+              "paper_value": "0.47 wt.%",
+              "cra_value": "0.0",
+              "comparison": "Table IV explicitly Ti-stabilized; conflicts with CRA 0.0."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Table IV caption."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Table IV temperature agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Water quenched from 815 C",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Exact Table IV treatment distinguishes these three records."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "2000 mV/hr",
+              "cra_value": "0.556",
+              "comparison": "C6: 2000/3600=0.555556 mV/s, compatible with 0.556."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table IV pitting potentials; Table VI contains corrosion rates",
+              "cra_value": "Data was extracted fromTable VI",
+              "comparison": "CRA source-table citation is inconsistent with the paper."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.35}",
+              "cra_value": "300",
+              "comparison": "350 mV vs SCE is one of the Table IV individual determinations for this treatment. CRA Avg is a central summary, not a measurement each replicate must equal; populated Min is the source minimum. No source mean is asserted."
+            }
+          ],
+          "notes": "Table IV 4073A treatment series establishes identity independently of the erroneous Cr/Mn/Ti cells and CRA Table VI citation. Shared CRA 458/460 links are individual members of the treatment summary, not repeated copies of a reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_048",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 458,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "270.0",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "1.97 wt.% heat 4073A, Table I",
+              "cra_value": "1.97",
+              "comparison": "Exact distinctive Mo heat."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.11 wt.%",
+              "cra_value": "0.11",
+              "comparison": "Table I alloy context agrees."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.15 wt.%",
+              "cra_value": "16.45",
+              "comparison": "Conflicts with original CRA 16.45; not silently corrected."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "0.34 wt.%",
+              "cra_value": "0.034",
+              "comparison": "Conflicts with original CRA 0.034."
+            },
+            {
+              "field": "Ti",
+              "paper_value": "0.47 wt.%",
+              "cra_value": "0.0",
+              "comparison": "Table IV explicitly Ti-stabilized; conflicts with CRA 0.0."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Table IV caption."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Table IV temperature agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Water quenched from 815 C",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Exact Table IV treatment distinguishes these three records."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "2000 mV/hr",
+              "cra_value": "0.556",
+              "comparison": "C6: 2000/3600=0.555556 mV/s, compatible with 0.556."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table IV pitting potentials; Table VI contains corrosion rates",
+              "cra_value": "Data was extracted fromTable VI",
+              "comparison": "CRA source-table citation is inconsistent with the paper."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.29}",
+              "cra_value": "300",
+              "comparison": "290 mV vs SCE is one of the Table IV individual determinations for this treatment. CRA Avg is a central summary, not a measurement each replicate must equal; populated Min is the source minimum. No source mean is asserted."
+            }
+          ],
+          "notes": "Table IV 4073A treatment series establishes identity independently of the erroneous Cr/Mn/Ti cells and CRA Table VI citation. Shared CRA 458/460 links are individual members of the treatment summary, not repeated copies of a reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_049",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 459,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "1.97 wt.% heat 4073A, Table I",
+              "cra_value": "1.97",
+              "comparison": "Exact distinctive Mo heat."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.11 wt.%",
+              "cra_value": "0.11",
+              "comparison": "Table I alloy context agrees."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.15 wt.%",
+              "cra_value": "16.45",
+              "comparison": "Conflicts with original CRA 16.45; not silently corrected."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "0.34 wt.%",
+              "cra_value": "0.034",
+              "comparison": "Conflicts with original CRA 0.034."
+            },
+            {
+              "field": "Ti",
+              "paper_value": "0.47 wt.%",
+              "cra_value": "0.0",
+              "comparison": "Table IV explicitly Ti-stabilized; conflicts with CRA 0.0."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Table IV caption."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Table IV temperature agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Water quenched from 925 C",
+              "cra_value": "925C annealed then water quenched",
+              "comparison": "Exact Table IV treatment distinguishes these three records."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "2000 mV/hr",
+              "cra_value": "0.556",
+              "comparison": "C6: 2000/3600=0.555556 mV/s, compatible with 0.556."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table IV pitting potentials; Table VI contains corrosion rates",
+              "cra_value": "Data was extracted fromTable VI",
+              "comparison": "CRA source-table citation is inconsistent with the paper."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.3}",
+              "cra_value": "300",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table IV 4073A treatment series establishes identity independently of the erroneous Cr/Mn/Ti cells and CRA Table VI citation. Shared CRA 458/460 links are individual members of the treatment summary, not repeated copies of a reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_050",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 460,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "540",
+            "min": "500.0",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "1.97 wt.% heat 4073A, Table I",
+              "cra_value": "1.97",
+              "comparison": "Exact distinctive Mo heat."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.11 wt.%",
+              "cra_value": "0.11",
+              "comparison": "Table I alloy context agrees."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.15 wt.%",
+              "cra_value": "16.45",
+              "comparison": "Conflicts with original CRA 16.45; not silently corrected."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "0.34 wt.%",
+              "cra_value": "0.034",
+              "comparison": "Conflicts with original CRA 0.034."
+            },
+            {
+              "field": "Ti",
+              "paper_value": "0.47 wt.%",
+              "cra_value": "0.0",
+              "comparison": "Table IV explicitly Ti-stabilized; conflicts with CRA 0.0."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Table IV caption."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Table IV temperature agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Water quenched from 1035 C",
+              "cra_value": "1035C annealed then water quenched",
+              "comparison": "Exact Table IV treatment distinguishes these three records."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "2000 mV/hr",
+              "cra_value": "0.556",
+              "comparison": "C6: 2000/3600=0.555556 mV/s, compatible with 0.556."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table IV pitting potentials; Table VI contains corrosion rates",
+              "cra_value": "Data was extracted fromTable VI",
+              "comparison": "CRA source-table citation is inconsistent with the paper."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.53}",
+              "cra_value": "540",
+              "comparison": "530 mV vs SCE is one of the Table IV individual determinations for this treatment. CRA Avg is a central summary, not a measurement each replicate must equal; populated Min is the source minimum. No source mean is asserted."
+            }
+          ],
+          "notes": "Table IV 4073A treatment series establishes identity independently of the erroneous Cr/Mn/Ti cells and CRA Table VI citation. Shared CRA 458/460 links are individual members of the treatment summary, not repeated copies of a reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_051",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 460,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "540",
+            "min": "500.0",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "1.97 wt.% heat 4073A, Table I",
+              "cra_value": "1.97",
+              "comparison": "Exact distinctive Mo heat."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.11 wt.%",
+              "cra_value": "0.11",
+              "comparison": "Table I alloy context agrees."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.15 wt.%",
+              "cra_value": "16.45",
+              "comparison": "Conflicts with original CRA 16.45; not silently corrected."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "0.34 wt.%",
+              "cra_value": "0.034",
+              "comparison": "Conflicts with original CRA 0.034."
+            },
+            {
+              "field": "Ti",
+              "paper_value": "0.47 wt.%",
+              "cra_value": "0.0",
+              "comparison": "Table IV explicitly Ti-stabilized; conflicts with CRA 0.0."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Table IV caption."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Table IV temperature agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Water quenched from 1035 C",
+              "cra_value": "1035C annealed then water quenched",
+              "comparison": "Exact Table IV treatment distinguishes these three records."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "2000 mV/hr",
+              "cra_value": "0.556",
+              "comparison": "C6: 2000/3600=0.555556 mV/s, compatible with 0.556."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table IV pitting potentials; Table VI contains corrosion rates",
+              "cra_value": "Data was extracted fromTable VI",
+              "comparison": "CRA source-table citation is inconsistent with the paper."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.59}",
+              "cra_value": "540",
+              "comparison": "590 mV vs SCE is one of the Table IV individual determinations for this treatment. CRA Avg is a central summary, not a measurement each replicate must equal; populated Min is the source minimum. No source mean is asserted."
+            }
+          ],
+          "notes": "Table IV 4073A treatment series establishes identity independently of the erroneous Cr/Mn/Ti cells and CRA Table VI citation. Shared CRA 458/460 links are individual members of the treatment summary, not repeated copies of a reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_052",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 460,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "540",
+            "min": "500.0",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "1.97 wt.% heat 4073A, Table I",
+              "cra_value": "1.97",
+              "comparison": "Exact distinctive Mo heat."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.11 wt.%",
+              "cra_value": "0.11",
+              "comparison": "Table I alloy context agrees."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.15 wt.%",
+              "cra_value": "16.45",
+              "comparison": "Conflicts with original CRA 16.45; not silently corrected."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "0.34 wt.%",
+              "cra_value": "0.034",
+              "comparison": "Conflicts with original CRA 0.034."
+            },
+            {
+              "field": "Ti",
+              "paper_value": "0.47 wt.%",
+              "cra_value": "0.0",
+              "comparison": "Table IV explicitly Ti-stabilized; conflicts with CRA 0.0."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1M NaCl",
+              "cra_value": "1M NaCl",
+              "comparison": "Table IV caption."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Table IV temperature agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Water quenched from 1035 C",
+              "cra_value": "1035C annealed then water quenched",
+              "comparison": "Exact Table IV treatment distinguishes these three records."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "2000 mV/hr",
+              "cra_value": "0.556",
+              "comparison": "C6: 2000/3600=0.555556 mV/s, compatible with 0.556."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "Table IV pitting potentials; Table VI contains corrosion rates",
+              "cra_value": "Data was extracted fromTable VI",
+              "comparison": "CRA source-table citation is inconsistent with the paper."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.5}",
+              "cra_value": "540",
+              "comparison": "500 mV vs SCE is one of the Table IV individual determinations for this treatment. CRA Avg is a central summary, not a measurement each replicate must equal; populated Min is the source minimum. No source mean is asserted."
+            }
+          ],
+          "notes": "Table IV 4073A treatment series establishes identity independently of the erroneous Cr/Mn/Ti cells and CRA Table VI citation. Shared CRA 458/460 links are individual members of the treatment summary, not repeated copies of a reported mean."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_053",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 465,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "330.0",
+            "max": "330.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaBr",
+              "cra_value": "1M NaBr",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "1 C",
+              "cra_value": "1.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.335}",
+              "cra_value": "330.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_054",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 465,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "330.0",
+            "max": "330.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaBr",
+              "cra_value": "1M NaBr",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "1 C",
+              "cra_value": "1.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.325}",
+              "cra_value": "330.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_055",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_056",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_057",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_058",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_059",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_060",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_061",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_062",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_063",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 466,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "230.0",
+            "max": "250.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaBr",
+              "cra_value": "1M NaBr",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.25}",
+              "cra_value": "250.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_064",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 466,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "230.0",
+            "max": "250.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaBr",
+              "cra_value": "1M NaBr",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.235}",
+              "cra_value": "230.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_065",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_066",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_067",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_068",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_069",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_070",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_071",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_072",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 467,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "95.0",
+            "max": "170.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaBr",
+              "cra_value": "1M NaBr",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.17}",
+              "cra_value": "170.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_073",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 467,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "95.0",
+            "max": "170.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaBr",
+              "cra_value": "1M NaBr",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.1}",
+              "cra_value": "95.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_074",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 467,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "95.0",
+            "max": "170.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.61 wt.% (4354A, Table I)",
+              "cra_value": "17.61",
+              "comparison": "Exact Mo-free series composition."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.035 wt.% (4354A)",
+              "cra_value": "0.035",
+              "comparison": "Distinguishes the Mo-free heat from the other plotted alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "nitrogen-saturated 1.0M NaBr",
+              "cra_value": "1M NaBr",
+              "comparison": "Same source electrolyte and gas condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "45 C",
+              "cra_value": "45.0",
+              "comparison": "Registered temperature series agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1 h at 815 C, water quenched",
+              "cra_value": "815C annealed then water quenched",
+              "comparison": "Method p.2; agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "200 mV/hr",
+              "cra_value": "0.0556",
+              "comparison": "C6: 200/3600=0.0555556 mV/s, agreeing with 0.0556."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"VOLT VERSUS SCE\", \"value\": 0.095}",
+              "cra_value": "95.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "4354A heat, solution, temperature series and 815 C anneal identify the Fig.2/4 counterpart. Shared row is a range/summary member, not duplicate run identity or a source average; plotted scatter and rounded CSV endpoints are retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_075",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_076",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_077",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_078",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_079",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_080",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_081",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    },
+    {
+      "observation_id": "obs_082",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding alloy/temperature/solution/heat-treatment result in the supplied 10-row CSV; other Mo-bearing Fig.2/4 outcomes and Table II/III conditions remain unlinked."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

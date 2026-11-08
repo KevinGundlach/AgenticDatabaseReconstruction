@@ -1,0 +1,511 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "58_Mischler, S., et al. Corrosion science 32.9 (1991)_ 925-944.pdf",
+  "reference_number": 58,
+  "inputs": {
+    "pdf": {
+      "filename": "58_Mischler, S., et al. Corrosion science 32.9 (1991)_ 925-944.pdf",
+      "sha256": "8021eada0b9db6ad0be05371595a2e582bb70ad0d0fb32e19d719b78241c9f34"
+    },
+    "csv": {
+      "filename": "pitting_potential_58.csv",
+      "sha256": "c6bbf0e58340c1d2494938d8614ae2fc85b891ce8422d1b6b1c5ad537fab2b72"
+    },
+    "registry": {
+      "filename": "paper_58.json",
+      "sha256": "1eaa463e61d52597ce8ce02ff98cce33777850e6f23f8a24c0a99d6a7dcbd538"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    6
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was reviewed. Every registered anchor page, including secondary locations, was actually viewed. This is alignment of the exact supplied registry, not a full-paper census or proof of the source presentation used by the original curators. All inputs are unchanged.",
+  "shared_qualifications": [
+    "Source Table 1 analyses (PDF p.2) independently identifyFe-24Cr andFe-24Cr-11Mo. All experiments are at65 C, not CRA25 C. Source polarization curves use potential steps with current read after400 s; PL/PH surface-analysis exposures are one-hour holds at200/500 mV versus normal hydrogen electrode.",
+    "All eight supplied observations are no-pitting lower limits from the explicit interpretation of the Fig.3 current-time transients (PDF p.6). The imposed PL/PH endpoints are not measured onsets. Candidate rows share material/electrolyte, but their numerical CRA Epit values have no established identity with these hold bounds.",
+    "The source normal-hydrogen reference and CRA SCE reference require electrode calibration/temperature for a definitive offset. No offset is fitted to CRA and no numerical comparison is claimed. More fundamentally, converting units would not make a no-pitting hold endpoint an observed threshold.",
+    "Source Fe-Cr may exhibit pitting in electrolyteB during the separate polarization experiment, yet the source explicitly excludes pitting at the registered PL/PH holds. Those distinct statements are both retained; no new threshold is extracted from an unannotated continuous curve."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 202,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "497",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "24.3 wt% Cr, Table1, PDF p.2",
+              "cra_value": "24.3",
+              "comparison": "Independent source alloy analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.063 wt% Mo, Table1",
+              "cra_value": "0.063",
+              "comparison": "Distinguishes the two source alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-deaerated electrolyteA: 0.1 M H2SO4 +0.4 M Na2SO4",
+              "cra_value": "0.1M H2SO4 + 0.4 M Na2SO4",
+              "comparison": "Same named ingredients/concentrations; no pH is inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C, all experiments, PDF p.2",
+              "cra_value": "25.0",
+              "comparison": "Conflict with original CRA25 C."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "PL/PH one-hour potentiostatic hold following cathodic pretreatment; separate curve points held400 s, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization",
+              "comparison": "Source registered protocol differs from the CRA potentiodynamic label; no observed onset is supplied by this hold."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (normal hydrogen electrode)\", \"min\": 200}",
+              "cra_value": "497",
+              "comparison": "Original bound remains in mV versus normal hydrogen electrode. Reference conditions and target quantity are not established as comparable; no fitted offset or pitting-onset substitution."
+            }
+          ],
+          "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+        }
+      ],
+      "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 202,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "497",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "24.3 wt% Cr, Table1, PDF p.2",
+              "cra_value": "24.3",
+              "comparison": "Independent source alloy analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.063 wt% Mo, Table1",
+              "cra_value": "0.063",
+              "comparison": "Distinguishes the two source alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-deaerated electrolyteA: 0.1 M H2SO4 +0.4 M Na2SO4",
+              "cra_value": "0.1M H2SO4 + 0.4 M Na2SO4",
+              "comparison": "Same named ingredients/concentrations; no pH is inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C, all experiments, PDF p.2",
+              "cra_value": "25.0",
+              "comparison": "Conflict with original CRA25 C."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "PL/PH one-hour potentiostatic hold following cathodic pretreatment; separate curve points held400 s, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization",
+              "comparison": "Source registered protocol differs from the CRA potentiodynamic label; no observed onset is supplied by this hold."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (normal hydrogen electrode)\", \"min\": 500}",
+              "cra_value": "497",
+              "comparison": "Original bound remains in mV versus normal hydrogen electrode. Reference conditions and target quantity are not established as comparable; no fitted offset or pitting-onset substitution."
+            }
+          ],
+          "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+        }
+      ],
+      "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 204,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1056",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "24.3 wt% Cr, Table1, PDF p.2",
+              "cra_value": "24.3",
+              "comparison": "Independent source alloy analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.063 wt% Mo, Table1",
+              "cra_value": "0.063",
+              "comparison": "Distinguishes the two source alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-deaerated electrolyteB: 0.1 M H2SO4 +0.4 M Na2SO4 +0.12 M NaCl",
+              "cra_value": "0.1M H2SO4 + 0.4M Na2SO4 + 0.12M NaCl",
+              "comparison": "Same named ingredients/concentrations; no pH is inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C, all experiments, PDF p.2",
+              "cra_value": "25.0",
+              "comparison": "Conflict with original CRA25 C."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "PL/PH one-hour potentiostatic hold following cathodic pretreatment; separate curve points held400 s, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization",
+              "comparison": "Source registered protocol differs from the CRA potentiodynamic label; no observed onset is supplied by this hold."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (normal hydrogen electrode)\", \"min\": 200}",
+              "cra_value": "1056",
+              "comparison": "Original bound remains in mV versus normal hydrogen electrode. Reference conditions and target quantity are not established as comparable; no fitted offset or pitting-onset substitution."
+            }
+          ],
+          "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+        }
+      ],
+      "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 204,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1056",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "24.3 wt% Cr, Table1, PDF p.2",
+              "cra_value": "24.3",
+              "comparison": "Independent source alloy analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.063 wt% Mo, Table1",
+              "cra_value": "0.063",
+              "comparison": "Distinguishes the two source alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-deaerated electrolyteB: 0.1 M H2SO4 +0.4 M Na2SO4 +0.12 M NaCl",
+              "cra_value": "0.1M H2SO4 + 0.4M Na2SO4 + 0.12M NaCl",
+              "comparison": "Same named ingredients/concentrations; no pH is inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C, all experiments, PDF p.2",
+              "cra_value": "25.0",
+              "comparison": "Conflict with original CRA25 C."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "PL/PH one-hour potentiostatic hold following cathodic pretreatment; separate curve points held400 s, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization",
+              "comparison": "Source registered protocol differs from the CRA potentiodynamic label; no observed onset is supplied by this hold."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (normal hydrogen electrode)\", \"min\": 500}",
+              "cra_value": "1056",
+              "comparison": "Original bound remains in mV versus normal hydrogen electrode. Reference conditions and target quantity are not established as comparable; no fitted offset or pitting-onset substitution."
+            }
+          ],
+          "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+        }
+      ],
+      "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 203,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "895",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "24.3 wt% Cr, Table1, PDF p.2",
+              "cra_value": "24.3",
+              "comparison": "Independent source alloy analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "10.9 wt% Mo, Table1",
+              "cra_value": "10.9",
+              "comparison": "Distinguishes the two source alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-deaerated electrolyteA: 0.1 M H2SO4 +0.4 M Na2SO4",
+              "cra_value": "0.1M H2SO4 + 0.4 M Na2SO4",
+              "comparison": "Same named ingredients/concentrations; no pH is inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C, all experiments, PDF p.2",
+              "cra_value": "25.0",
+              "comparison": "Conflict with original CRA25 C."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "PL/PH one-hour potentiostatic hold following cathodic pretreatment; separate curve points held400 s, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization",
+              "comparison": "Source registered protocol differs from the CRA potentiodynamic label; no observed onset is supplied by this hold."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (normal hydrogen electrode)\", \"min\": 200}",
+              "cra_value": "895",
+              "comparison": "Original bound remains in mV versus normal hydrogen electrode. Reference conditions and target quantity are not established as comparable; no fitted offset or pitting-onset substitution."
+            }
+          ],
+          "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+        }
+      ],
+      "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 203,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "895",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "24.3 wt% Cr, Table1, PDF p.2",
+              "cra_value": "24.3",
+              "comparison": "Independent source alloy analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "10.9 wt% Mo, Table1",
+              "cra_value": "10.9",
+              "comparison": "Distinguishes the two source alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-deaerated electrolyteA: 0.1 M H2SO4 +0.4 M Na2SO4",
+              "cra_value": "0.1M H2SO4 + 0.4 M Na2SO4",
+              "comparison": "Same named ingredients/concentrations; no pH is inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C, all experiments, PDF p.2",
+              "cra_value": "25.0",
+              "comparison": "Conflict with original CRA25 C."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "PL/PH one-hour potentiostatic hold following cathodic pretreatment; separate curve points held400 s, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization",
+              "comparison": "Source registered protocol differs from the CRA potentiodynamic label; no observed onset is supplied by this hold."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (normal hydrogen electrode)\", \"min\": 500}",
+              "cra_value": "895",
+              "comparison": "Original bound remains in mV versus normal hydrogen electrode. Reference conditions and target quantity are not established as comparable; no fitted offset or pitting-onset substitution."
+            }
+          ],
+          "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+        }
+      ],
+      "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 205,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "856",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "24.3 wt% Cr, Table1, PDF p.2",
+              "cra_value": "24.3",
+              "comparison": "Independent source alloy analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "10.9 wt% Mo, Table1",
+              "cra_value": "10.9",
+              "comparison": "Distinguishes the two source alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-deaerated electrolyteB: 0.1 M H2SO4 +0.4 M Na2SO4 +0.12 M NaCl",
+              "cra_value": "0.1M H2SO4 + 0.4M Na2SO4 + 0.12M NaCl",
+              "comparison": "Same named ingredients/concentrations; no pH is inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C, all experiments, PDF p.2",
+              "cra_value": "25.0",
+              "comparison": "Conflict with original CRA25 C."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "PL/PH one-hour potentiostatic hold following cathodic pretreatment; separate curve points held400 s, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization",
+              "comparison": "Source registered protocol differs from the CRA potentiodynamic label; no observed onset is supplied by this hold."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (normal hydrogen electrode)\", \"min\": 200}",
+              "cra_value": "856",
+              "comparison": "Original bound remains in mV versus normal hydrogen electrode. Reference conditions and target quantity are not established as comparable; no fitted offset or pitting-onset substitution."
+            }
+          ],
+          "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+        }
+      ],
+      "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 205,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "856",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "24.3 wt% Cr, Table1, PDF p.2",
+              "cra_value": "24.3",
+              "comparison": "Independent source alloy analysis."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "10.9 wt% Mo, Table1",
+              "cra_value": "10.9",
+              "comparison": "Distinguishes the two source alloys."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-deaerated electrolyteB: 0.1 M H2SO4 +0.4 M Na2SO4 +0.12 M NaCl",
+              "cra_value": "0.1M H2SO4 + 0.4M Na2SO4 + 0.12M NaCl",
+              "comparison": "Same named ingredients/concentrations; no pH is inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C, all experiments, PDF p.2",
+              "cra_value": "25.0",
+              "comparison": "Conflict with original CRA25 C."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "PL/PH one-hour potentiostatic hold following cathodic pretreatment; separate curve points held400 s, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization",
+              "comparison": "Source registered protocol differs from the CRA potentiodynamic label; no observed onset is supplied by this hold."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (normal hydrogen electrode)\", \"min\": 500}",
+              "cra_value": "856",
+              "comparison": "Original bound remains in mV versus normal hydrogen electrode. Reference conditions and target quantity are not established as comparable; no fitted offset or pitting-onset substitution."
+            }
+          ],
+          "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+        }
+      ],
+      "notes": "Candidate-only by source alloy chemistry and electrolyte. The temperature/protocol conflicts and lack of paper-supported identity between a no-pitting hold bound and the numerical CRA target prevent a supported assignment."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    202,
+    203,
+    204,
+    205
+  ]
+}

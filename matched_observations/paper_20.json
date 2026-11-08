@@ -1,0 +1,264 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "20_Y.Y. Chen, T. Duval, U.D. Hung, J.W. Yeh, H.C. Shih. Corrosion Science, 47 (2005), 2257-2279.pdf",
+  "reference_number": 20,
+  "inputs": {
+    "pdf": {
+      "filename": "20_Y.Y. Chen, T. Duval, U.D. Hung, J.W. Yeh, H.C. Shih. Corrosion Science, 47 (2005), 2257-2279.pdf",
+      "sha256": "db965268794ac14faa21c0cced0b7d41a06c0bfc0d6c44e9aa6ffab23968b86f"
+    },
+    "csv": {
+      "filename": "pitting_potential_20.csv",
+      "sha256": "d27defef7fcfe001f8496c65960e76f9fdc82fd36353538ba5f279c42aca821f"
+    },
+    "registry": {
+      "filename": "paper_20.json",
+      "sha256": "220dd31eff0f557130cf935d720f9f423d38d28b196dc6a9370ddf4c7c1c87db"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    6,
+    14,
+    18
+  ],
+  "coverage_notes": "Visually inspected all registered locations on PDF pp.14 and18, including both conflicting obs_002 presentations and the full Fig.13 pitting series. Table1 material composition p.3, sample preparation p.4 and test method/reference p.6 were viewed, along with title/context pp.1-2. Inputs and primary/secondary readings were preserved.",
+  "shared_qualifications": [
+    "C20: Registered source potentials are already V on the SCE scale, so multiply by1000 to compare with CRA mV(SCE); no reference offset is applied.",
+    "Source conflict for obs_002: dedicated Table 3 and associated text (PDF p.14) give HEA/1M NaCl Epit -0.25 V(SCE), whereas Table 5 p.18 gives -0.49 V(SCE) for the same nominal condition. Both are retained; the source labels both SCE, so the 240 mV difference is not repaired by inventing an electrode conversion. CRA 585 agrees with the primary Table 3 reading but not the secondary Table 5 reading.",
+    "Method p.6 reports nitrogen deaeration, a1 mV/s sweep and three tests per condition. The tables do not supply individual replicate potentials or a statistical uncertainty for these outcomes; no replicates or means are manufactured.",
+    "For1M NaCl the method explicitly reports pH7.4, conflicting with CRA585 pH7.0. The0.1M pH is not explicitly supplied in the inspected passages; CRA584 pH7.0 is not treated as an independent source value.",
+    "Source Table 1 bulk composition is wt.%. Paper abstract/microstructure description calls the HEA almost amorphous with little BCC; the CSV description BCC with some amorphous structure reverses that emphasis. The original field remains unchanged and is not used to claim a verified phase fraction.",
+    "The registered sulfate-plus-chloride entries are explicitly pitting outcomes, but have no counterpart in the NaCl-only CSV. Their similar potentials do not make them equivalent to the1M NaCl result. Registered304S comparator observations also remain separate."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 584,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "580",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "16.65 wt.%",
+              "cra_value": "16.65",
+              "comparison": "Table1 ICP-AES bulk HEA composition, p.3."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "18.79 wt.%",
+              "cra_value": "18.79",
+              "comparison": "Table1 bulk HEA composition."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "10.17 wt.%",
+              "cra_value": "10.17",
+              "comparison": "Table1 bulk HEA composition."
+            },
+            {
+              "field": "Al",
+              "paper_value": "8.63 wt.%",
+              "cra_value": "8.63",
+              "comparison": "Table1 bulk HEA composition; distinguishes HEA from304S."
+            },
+            {
+              "field": "Si",
+              "paper_value": "8.99 wt.%",
+              "cra_value": "8.99",
+              "comparison": "Table1 bulk HEA composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 0.1 M NaCl",
+              "cra_value": "Deaerated 0.1M NaCl",
+              "comparison": "Table3 medium and nitrogen-purge method p.6."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "room temperature, approximately25 C",
+              "cra_value": "25.0",
+              "comparison": "Table3 caption."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Method p.6."
+            },
+            {
+              "field": "pH",
+              "paper_value": "0.1M NaCl pH not explicitly stated",
+              "cra_value": "7.0",
+              "comparison": "Original CRA7.0 is retained but not independently verified."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.58}",
+              "cra_value": "580",
+              "comparison": "Primary Table3 +0.58 V x1000=+580 mV vs SCE; exact original Avg."
+            }
+          ],
+          "notes": "HEA bulk chemistry, NaCl concentration, deaeration and dedicated Table3 column establish counterpart identity."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 585,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "-250",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "16.65 wt.%",
+              "cra_value": "16.65",
+              "comparison": "Table1 ICP-AES bulk HEA composition, p.3."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "18.79 wt.%",
+              "cra_value": "18.79",
+              "comparison": "Table1 bulk HEA composition."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "10.17 wt.%",
+              "cra_value": "10.17",
+              "comparison": "Table1 bulk HEA composition."
+            },
+            {
+              "field": "Al",
+              "paper_value": "8.63 wt.%",
+              "cra_value": "8.63",
+              "comparison": "Table1 bulk HEA composition; distinguishes HEA from304S."
+            },
+            {
+              "field": "Si",
+              "paper_value": "8.99 wt.%",
+              "cra_value": "8.99",
+              "comparison": "Table1 bulk HEA composition."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "deaerated 1 M NaCl",
+              "cra_value": "Deaerated 1 M NaCl ",
+              "comparison": "Table3 medium and nitrogen-purge method p.6."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "room temperature, approximately25 C",
+              "cra_value": "25.0",
+              "comparison": "Table3 caption."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Method p.6."
+            },
+            {
+              "field": "pH",
+              "paper_value": "7.4 for1M NaCl",
+              "cra_value": "7.0",
+              "comparison": "Source1M value conflicts with CRA7.0."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.25}",
+              "cra_value": "-250",
+              "comparison": "Primary Table3/text -0.25 V x1000=-250 mV equals CRA; secondary Table5 -0.49 V x1000=-490 mV differs by-240 mV from CRA. Both source locations are SCE; no offset is used to remove the conflict."
+            }
+          ],
+          "notes": "HEA bulk chemistry, NaCl concentration, deaeration and dedicated Table3 column establish counterpart identity. Supported despite the source -0.25/-0.49 V contradiction and source pH7.4 versus CSV7.0. Agreement is discrepant when all registered locations are considered; primary reading is unchanged."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered304S comparator is a different material from the HEA composition in both supplied CSV rows; no304S counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered304S comparator is a different material from the HEA composition in both supplied CSV rows; no304S counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

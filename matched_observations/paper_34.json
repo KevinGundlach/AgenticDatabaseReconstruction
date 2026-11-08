@@ -1,0 +1,622 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "34_Y. S. Lim,]. S. Kim, 5.]. Ahn, H. S. Kwon, Y. Katada, Corros. Sci. 43 (2001)_p. 53.pdf",
+  "reference_number": 34,
+  "inputs": {
+    "pdf": {
+      "filename": "34_Y. S. Lim,]. S. Kim, 5.]. Ahn, H. S. Kwon, Y. Katada, Corros. Sci. 43 (2001)_p. 53.pdf",
+      "sha256": "d9a4b9d71d7563dcf4318f0e3b57e9af847120b584a69c913363c0f165aa5ad4"
+    },
+    "csv": {
+      "filename": "pitting_potential_34.csv",
+      "sha256": "4f56d9620bc012dcc4bb913cc5d8907f683f6bae6107753b07625ee615b52d51"
+    },
+    "registry": {
+      "filename": "paper_34.json",
+      "sha256": "329a27159cdf2547a8cbfe230f1d2ebf949a6655f570f84b3767d07a5d27ba7d"
+    }
+  },
+  "inspected_pdf_pages": [
+    3,
+    4,
+    7,
+    9
+  ],
+  "coverage_notes": "Rendered a short-named, byte-identical PDF copy after verifying its SHA-256 against the original. Input fingerprints refer to original supplied bytes. Only listed PDF pages were actually viewed. All 11 registry entries and nine CRA rows considered. Registered Fig.2 (PDF p.7), Fig.4 (p.9), methods (p.3) and Table 1 compositions (p.4) visually inspected.",
+  "shared_qualifications": [
+    "PDF p.3 specifies room-temperature tests, not a numerical 25 C; CRA temperature is not substituted as a source fact.",
+    "The M3 Fig.2 example is in 0.1 M KCl, while CRA 300 says 1 M KCl. Its representative arrow is also not established as the population result underlying CRA 440 mV. This remains candidate-only."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "M1/M2 20 wt.% Mn-substituted alloy has no chemically matching supplied CRA record; the only Mn-rich CSV row is M3 with 0.394 wt.% N. The explicit arrows were assessed, not inferred from transients."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "M1/M2 20 wt.% Mn-substituted alloy has no chemically matching supplied CRA record; the only Mn-rich CSV row is M3 with 0.394 wt.% N. The explicit arrows were assessed, not inferred from transients."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 300,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "440",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "M3: 0.394 wt.% N",
+              "cra_value": "0.394",
+              "comparison": "Exact Table 1 N selector."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "M3: 20.00 wt.% Mn",
+              "cra_value": "20.0",
+              "comparison": "Exact Mn-rich alloy selector."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Fig.2(c): 0.1 M KCl",
+              "cra_value": "1 M KCl",
+              "comparison": "Disagrees with CRA 1 M KCl; no correction guessed."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Same scan rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Individual Fig.2(c) Epit arrow approximately 480 mV(SCE)",
+              "cra_value": "440",
+              "comparison": "CRA central value 440 mV differs by -40 mV; a representative scan is not established as the database central summary."
+            }
+          ],
+          "notes": "Candidate: M3 chemistry is independently identifiable (Table 1, PDF p.4), but source/CSV electrolyte conflict and unresolved individual-versus-summary identity prevent assignment. Registered arrow on p.7 retained."
+        }
+      ],
+      "notes": "Candidate: M3 chemistry is independently identifiable (Table 1, PDF p.4), but source/CSV electrolyte conflict and unresolved individual-versus-summary identity prevent assignment. Registered arrow on p.7 retained."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 296,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "477.72686359545",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 L1: 0.002 wt.% N",
+              "cra_value": "0.002",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 L1: 16.64 wt.% Cr",
+              "cra_value": "16.64",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 L1: 14.23 wt.% Ni",
+              "cra_value": "14.23",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 L1: 2.25 wt.% Mo",
+              "cra_value": "2.25",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M KCl",
+              "cra_value": "1 M KCl",
+              "comparison": "Exact Fig.4 series; distinguishes neutral and acid experiments."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Exact sweep rate, PDF p.3 and Fig.4 caption."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate marker 480 mV(SCE)",
+              "cra_value": "477.72686359545",
+              "comparison": "Same SCE scale; CRA 477.72686359545 mV, difference CRA minus registered value = -2.273 mV. Compatible with manual plot reading; CSV digitization decimals do not establish physical precision."
+            }
+          ],
+          "notes": "L1 Table 1 chemistry and Fig.4 electrolyte identify the counterpart (PDF pp.3-4,9), independently of the approximate potential. Numerical comparison retains the registry reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 301,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "203.354880942639",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 L1: 0.002 wt.% N",
+              "cra_value": "0.002",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 L1: 16.64 wt.% Cr",
+              "cra_value": "16.64",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 L1: 14.23 wt.% Ni",
+              "cra_value": "14.23",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 L1: 2.25 wt.% Mo",
+              "cra_value": "2.25",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.5 M HCl",
+              "cra_value": "0.5 M HCl",
+              "comparison": "Exact Fig.4 series; distinguishes neutral and acid experiments."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Exact sweep rate, PDF p.3 and Fig.4 caption."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate marker 220 mV(SCE)",
+              "cra_value": "203.354880942639",
+              "comparison": "Same SCE scale; CRA 203.354880942639 mV, difference CRA minus registered value = -16.645 mV. The ~17 mV difference is retained as a discrepancy, not silently corrected."
+            }
+          ],
+          "notes": "L1 Table 1 chemistry and Fig.4 electrolyte identify the counterpart (PDF pp.3-4,9), independently of the approximate potential. Numerical comparison retains the registry reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 297,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "673.938302921201",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 L2: 0.058 wt.% N",
+              "cra_value": "0.058",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 L2: 16.56 wt.% Cr",
+              "cra_value": "16.56",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 L2: 14.26 wt.% Ni",
+              "cra_value": "14.26",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 L2: 2.27 wt.% Mo",
+              "cra_value": "2.27",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M KCl",
+              "cra_value": "1 M KCl",
+              "comparison": "Exact Fig.4 series; distinguishes neutral and acid experiments."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Exact sweep rate, PDF p.3 and Fig.4 caption."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate marker 675 mV(SCE)",
+              "cra_value": "673.938302921201",
+              "comparison": "Same SCE scale; CRA 673.938302921201 mV, difference CRA minus registered value = -1.062 mV. Compatible with manual plot reading; CSV digitization decimals do not establish physical precision."
+            }
+          ],
+          "notes": "L2 Table 1 chemistry and Fig.4 electrolyte identify the counterpart (PDF pp.3-4,9), independently of the approximate potential. Numerical comparison retains the registry reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 302,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "254.095409540954",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 L2: 0.058 wt.% N",
+              "cra_value": "0.058",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 L2: 16.56 wt.% Cr",
+              "cra_value": "16.56",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 L2: 14.26 wt.% Ni",
+              "cra_value": "14.26",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 L2: 2.27 wt.% Mo",
+              "cra_value": "2.27",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.5 M HCl",
+              "cra_value": "0.5 M HCl",
+              "comparison": "Exact Fig.4 series; distinguishes neutral and acid experiments."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Exact sweep rate, PDF p.3 and Fig.4 caption."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate marker 260 mV(SCE)",
+              "cra_value": "254.095409540954",
+              "comparison": "Same SCE scale; CRA 254.095409540954 mV, difference CRA minus registered value = -5.905 mV. Compatible with manual plot reading; CSV digitization decimals do not establish physical precision."
+            }
+          ],
+          "notes": "L2 Table 1 chemistry and Fig.4 electrolyte identify the counterpart (PDF pp.3-4,9), independently of the approximate potential. Numerical comparison retains the registry reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 298,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "936.281809999181",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 L3: 0.116 wt.% N",
+              "cra_value": "0.116",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 L3: 16.4 wt.% Cr",
+              "cra_value": "16.4",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 L3: 14.1 wt.% Ni",
+              "cra_value": "14.1",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 L3: 2.23 wt.% Mo",
+              "cra_value": "2.23",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M KCl",
+              "cra_value": "1 M KCl",
+              "comparison": "Exact Fig.4 series; distinguishes neutral and acid experiments."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Exact sweep rate, PDF p.3 and Fig.4 caption."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate marker 940 mV(SCE)",
+              "cra_value": "936.281809999181",
+              "comparison": "Same SCE scale; CRA 936.281809999181 mV, difference CRA minus registered value = -3.718 mV. Compatible with manual plot reading; CSV digitization decimals do not establish physical precision."
+            }
+          ],
+          "notes": "L3 Table 1 chemistry and Fig.4 electrolyte identify the counterpart (PDF pp.3-4,9), independently of the approximate potential. Numerical comparison retains the registry reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 303,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "304.876851321495",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 L3: 0.116 wt.% N",
+              "cra_value": "0.116",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 L3: 16.4 wt.% Cr",
+              "cra_value": "16.4",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 L3: 14.1 wt.% Ni",
+              "cra_value": "14.1",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 L3: 2.23 wt.% Mo",
+              "cra_value": "2.23",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.5 M HCl",
+              "cra_value": "0.5 M HCl",
+              "comparison": "Exact Fig.4 series; distinguishes neutral and acid experiments."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Exact sweep rate, PDF p.3 and Fig.4 caption."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate marker 310 mV(SCE)",
+              "cra_value": "304.876851321495",
+              "comparison": "Same SCE scale; CRA 304.876851321495 mV, difference CRA minus registered value = -5.123 mV. Compatible with manual plot reading; CSV digitization decimals do not establish physical precision."
+            }
+          ],
+          "notes": "L3 Table 1 chemistry and Fig.4 electrolyte identify the counterpart (PDF pp.3-4,9), independently of the approximate potential. Numerical comparison retains the registry reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 299,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1168.83233777923",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 L4: 0.171 wt.% N",
+              "cra_value": "0.171",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 L4: 16.36 wt.% Cr",
+              "cra_value": "16.36",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 L4: 14.08 wt.% Ni",
+              "cra_value": "14.08",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 L4: 2.29 wt.% Mo",
+              "cra_value": "2.29",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M KCl",
+              "cra_value": "1 M KCl",
+              "comparison": "Exact Fig.4 series; distinguishes neutral and acid experiments."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Exact sweep rate, PDF p.3 and Fig.4 caption."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate marker 1170 mV(SCE)",
+              "cra_value": "1168.83233777923",
+              "comparison": "Same SCE scale; CRA 1168.83233777923 mV, difference CRA minus registered value = -1.168 mV. Compatible with manual plot reading; CSV digitization decimals do not establish physical precision."
+            }
+          ],
+          "notes": "L4 Table 1 chemistry and Fig.4 electrolyte identify the counterpart (PDF pp.3-4,9), independently of the approximate potential. Numerical comparison retains the registry reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 304,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "345.683659275018",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 L4: 0.171 wt.% N",
+              "cra_value": "0.171",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 L4: 16.36 wt.% Cr",
+              "cra_value": "16.36",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 L4: 14.08 wt.% Ni",
+              "cra_value": "14.08",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 L4: 2.29 wt.% Mo",
+              "cra_value": "2.29",
+              "comparison": "Direct source mass-percent analysis agrees; independently identifies the L-series alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.5 M HCl",
+              "cra_value": "0.5 M HCl",
+              "comparison": "Exact Fig.4 series; distinguishes neutral and acid experiments."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s",
+              "cra_value": "0.2",
+              "comparison": "Exact sweep rate, PDF p.3 and Fig.4 caption."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate marker 350 mV(SCE)",
+              "cra_value": "345.683659275018",
+              "comparison": "Same SCE scale; CRA 345.683659275018 mV, difference CRA minus registered value = -4.316 mV. Compatible with manual plot reading; CSV digitization decimals do not establish physical precision."
+            }
+          ],
+          "notes": "L4 Table 1 chemistry and Fig.4 electrolyte identify the counterpart (PDF pp.3-4,9), independently of the approximate potential. Numerical comparison retains the registry reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": [
+    300
+  ]
+}

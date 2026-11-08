@@ -1,0 +1,1049 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "16_S. Azuma et al. , in Proceedings of the International Conference on Stainless Steels, Iron and Steel Institute of Japan, Tokyo, p. 133, 1991.pdf",
+  "reference_number": 16,
+  "inputs": {
+    "pdf": {
+      "filename": "16_S. Azuma et al. , in Proceedings of the International Conference on Stainless Steels, Iron and Steel Institute of Japan, Tokyo, p. 133, 1991.pdf",
+      "sha256": "820a43a172e4230523bf87758a33300b6fbf6664432075dcc083382c09bd0214"
+    },
+    "csv": {
+      "filename": "pitting_potential_16.csv",
+      "sha256": "0c97af0e618aae4b91dd041a10af9fca8875724f470fbf537b6295ed853e9bd6"
+    },
+    "registry": {
+      "filename": "paper_16.json",
+      "sha256": "cdb502feb2b7645a0fcd4e0ab19803454ba7f87cc59207504beb3fe448a903bb"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "coverage_notes": "All registered anchors on PDF pp.5-8 were visually viewed along with material/method text and Table 2. PDF pp.1-2 are library cover sheets; p.3 title confirms the paper identity. No crevice-corrosion potentials were substituted for pitting results.",
+  "shared_qualifications": [
+    "C16: K -273.15 gives C. The source uses rounded engineering pairs: 333 K about 60 C, 353 K about 80 C and 373 K about 100 C (exact arithmetic 59.85,79.85,99.85). Source sweep 20 mV/min /60=0.333333 mV/s, compatible with CRA 0.3333. V vs SCE x1000 gives mV vs SCE; no reference offset is needed.",
+    "Figure 7 upward arrows at 1.0 V are registered lower testing limits. CRA encodes these as numerical Avg values 1000-1020 mV. Their material/temperature identities are supported, but the source bound does not establish those exact central values; potential_agreement is not_comparable for those links.",
+    "Table 2 (PDF p.5) distinguishes 28Cr, 2942, 254 and 329J2L base metals. Figure 4 simulated HAZ specimens, Figure 10 ten-second heat treatments, and Figures 11/13 weldments are different conditions, not repetitions of the base-metal temperature series.",
+    "The paper names synthetic seawater but does not provide enough recipe information in the inspected passages to independently establish CRA CL- 0.546 M. The original CSV comments explicitly call chloride concentration estimated; that estimate is not used as independent paper evidence.",
+    "obs_033 Fig.13 is a base-metal comparison point but its specific test temperature/run correspondence to Fig.7 is not established. Same grade and nearby potentials alone do not support a link. Registered weld-presentation ambiguities and the 12 versus 13.5 kJ/cm source difference are retained without consolidating observations."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 4 is simulated HAZ after a 1648 K peak thermal cycle, with individual Ni contents unresolved. The CSV represents Table 2 base metals in Figure 7; no HAZ counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 4 is simulated HAZ after a 1648 K peak thermal cycle, with individual Ni contents unresolved. The CSV represents Table 2 base metals in Figure 7; no HAZ counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 4 is simulated HAZ after a 1648 K peak thermal cycle, with individual Ni contents unresolved. The CSV represents Table 2 base metals in Figure 7; no HAZ counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 4 is simulated HAZ after a 1648 K peak thermal cycle, with individual Ni contents unresolved. The CSV represents Table 2 base metals in Figure 7; no HAZ counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 4 is simulated HAZ after a 1648 K peak thermal cycle, with individual Ni contents unresolved. The CSV represents Table 2 base metals in Figure 7; no HAZ counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 4 is simulated HAZ after a 1648 K peak thermal cycle, with individual Ni contents unresolved. The CSV represents Table 2 base metals in Figure 7; no HAZ counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 4 is simulated HAZ after a 1648 K peak thermal cycle, with individual Ni contents unresolved. The CSV represents Table 2 base metals in Figure 7; no HAZ counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 4 is simulated HAZ after a 1648 K peak thermal cycle, with individual Ni contents unresolved. The CSV represents Table 2 base metals in Figure 7; no HAZ counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 476,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1010",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "27.3 wt.% (28Cr)",
+              "cra_value": "27.3",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.3 wt.%",
+              "cra_value": "7.3",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.8 wt.%",
+              "cra_value": "3.8",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.31 wt.%",
+              "cra_value": "0.31",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "333 K",
+              "cra_value": "60.0",
+              "comparison": "C16: 333-273.15=59.85 C, corresponding to the source rounded 60 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"min\": 1.0}",
+              "cra_value": "1010",
+              "comparison": "1.0 V lower testing limit x1000=1000 mV vs SCE. Original numerical CRA Avg at/just above the arrow is retained, but a censored source limit cannot establish an exact observed pitting value."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. The source is a lower limit, not the exact central number encoded by CRA."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 477,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1020",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "27.3 wt.% (28Cr)",
+              "cra_value": "27.3",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.3 wt.%",
+              "cra_value": "7.3",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.8 wt.%",
+              "cra_value": "3.8",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.31 wt.%",
+              "cra_value": "0.31",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "353 K",
+              "cra_value": "80.0",
+              "comparison": "C16: 353-273.15=79.85 C, corresponding to the source rounded 80 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"min\": 1.0}",
+              "cra_value": "1020",
+              "comparison": "1.0 V lower testing limit x1000=1000 mV vs SCE. Original numerical CRA Avg at/just above the arrow is retained, but a censored source limit cannot establish an exact observed pitting value."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. The source is a lower limit, not the exact central number encoded by CRA."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 478,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "850",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "27.3 wt.% (28Cr)",
+              "cra_value": "27.3",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.3 wt.%",
+              "cra_value": "7.3",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.8 wt.%",
+              "cra_value": "3.8",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.31 wt.%",
+              "cra_value": "0.31",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "373 K",
+              "cra_value": "100.0",
+              "comparison": "C16: 373-273.15=99.85 C, corresponding to the source rounded 100 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"value\": 0.83}",
+              "cra_value": "850",
+              "comparison": "0.83 V x1000=830 mV vs SCE; compatible with marker/axis resolution of Figure 7."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. Approximate graphical reading and original target precision are kept separate."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 482,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1000",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "19.8 wt.% (254)",
+              "cra_value": "19.8",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "18.6 wt.%",
+              "cra_value": "18.6",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.4 wt.%",
+              "cra_value": "6.4",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.2 wt.%",
+              "cra_value": "0.2",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "333 K",
+              "cra_value": "60.0",
+              "comparison": "C16: 333-273.15=59.85 C, corresponding to the source rounded 60 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"min\": 1.0}",
+              "cra_value": "1000",
+              "comparison": "1.0 V lower testing limit x1000=1000 mV vs SCE. Original numerical CRA Avg at/just above the arrow is retained, but a censored source limit cannot establish an exact observed pitting value."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. The source is a lower limit, not the exact central number encoded by CRA."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 483,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1010",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "19.8 wt.% (254)",
+              "cra_value": "19.8",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "18.6 wt.%",
+              "cra_value": "18.6",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.4 wt.%",
+              "cra_value": "6.4",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.2 wt.%",
+              "cra_value": "0.2",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "353 K",
+              "cra_value": "80.0",
+              "comparison": "C16: 353-273.15=79.85 C, corresponding to the source rounded 80 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"min\": 1.0}",
+              "cra_value": "1010",
+              "comparison": "1.0 V lower testing limit x1000=1000 mV vs SCE. Original numerical CRA Avg at/just above the arrow is retained, but a censored source limit cannot establish an exact observed pitting value."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. The source is a lower limit, not the exact central number encoded by CRA."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 484,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "782",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "19.8 wt.% (254)",
+              "cra_value": "19.8",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "18.6 wt.%",
+              "cra_value": "18.6",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "6.4 wt.%",
+              "cra_value": "6.4",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.2 wt.%",
+              "cra_value": "0.2",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "373 K",
+              "cra_value": "100.0",
+              "comparison": "C16: 373-273.15=99.85 C, corresponding to the source rounded 100 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"value\": 0.78}",
+              "cra_value": "782",
+              "comparison": "0.78 V x1000=780 mV vs SCE; compatible with marker/axis resolution of Figure 7."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. Approximate graphical reading and original target precision are kept separate."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 479,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1010",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.4 wt.% (2942)",
+              "cra_value": "28.4",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "2.6 wt.%",
+              "cra_value": "2.6",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.2 wt.%",
+              "cra_value": "4.2",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "333 K",
+              "cra_value": "60.0",
+              "comparison": "C16: 333-273.15=59.85 C, corresponding to the source rounded 60 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"min\": 1.0}",
+              "cra_value": "1010",
+              "comparison": "1.0 V lower testing limit x1000=1000 mV vs SCE. Original numerical CRA Avg at/just above the arrow is retained, but a censored source limit cannot establish an exact observed pitting value."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. The source is a lower limit, not the exact central number encoded by CRA."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 480,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1010",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.4 wt.% (2942)",
+              "cra_value": "28.4",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "2.6 wt.%",
+              "cra_value": "2.6",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.2 wt.%",
+              "cra_value": "4.2",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "353 K",
+              "cra_value": "80.0",
+              "comparison": "C16: 353-273.15=79.85 C, corresponding to the source rounded 80 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"min\": 1.0}",
+              "cra_value": "1010",
+              "comparison": "1.0 V lower testing limit x1000=1000 mV vs SCE. Original numerical CRA Avg at/just above the arrow is retained, but a censored source limit cannot establish an exact observed pitting value."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. The source is a lower limit, not the exact central number encoded by CRA."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 481,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "493",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "28.4 wt.% (2942)",
+              "cra_value": "28.4",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "2.6 wt.%",
+              "cra_value": "2.6",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.2 wt.%",
+              "cra_value": "4.2",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "373 K",
+              "cra_value": "100.0",
+              "comparison": "C16: 373-273.15=99.85 C, corresponding to the source rounded 100 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"value\": 0.5}",
+              "cra_value": "493",
+              "comparison": "0.5 V x1000=500 mV vs SCE; compatible with marker/axis resolution of Figure 7."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. Approximate graphical reading and original target precision are kept separate."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 485,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "1010",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "25.2 wt.% (329J2L)",
+              "cra_value": "25.2",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.1 wt.%",
+              "cra_value": "7.1",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.0 wt.%",
+              "cra_value": "3.0",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.14 wt.%",
+              "cra_value": "0.14",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "333 K",
+              "cra_value": "60.0",
+              "comparison": "C16: 333-273.15=59.85 C, corresponding to the source rounded 60 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"min\": 1.0}",
+              "cra_value": "1010",
+              "comparison": "1.0 V lower testing limit x1000=1000 mV vs SCE. Original numerical CRA Avg at/just above the arrow is retained, but a censored source limit cannot establish an exact observed pitting value."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. The source is a lower limit, not the exact central number encoded by CRA."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 486,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "330",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "25.2 wt.% (329J2L)",
+              "cra_value": "25.2",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.1 wt.%",
+              "cra_value": "7.1",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.0 wt.%",
+              "cra_value": "3.0",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.14 wt.%",
+              "cra_value": "0.14",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "353 K",
+              "cra_value": "80.0",
+              "comparison": "C16: 353-273.15=79.85 C, corresponding to the source rounded 80 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"value\": 0.32}",
+              "cra_value": "330",
+              "comparison": "0.32 V x1000=320 mV vs SCE; compatible with marker/axis resolution of Figure 7."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. Approximate graphical reading and original target precision are kept separate."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 487,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "240",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "25.2 wt.% (329J2L)",
+              "cra_value": "25.2",
+              "comparison": "Table 2 base material composition, PDF p.5."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "7.1 wt.%",
+              "cra_value": "7.1",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.0 wt.%",
+              "cra_value": "3.0",
+              "comparison": "Same Table 2 material."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.14 wt.%",
+              "cra_value": "0.14",
+              "comparison": "Table 2 nitrogen content distinguishes the base metals."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "synthetic seawater",
+              "cra_value": "synthetic sea water",
+              "comparison": "Figure 7 caption and methods p.5."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "373 K",
+              "cra_value": "100.0",
+              "comparison": "C16: 373-273.15=99.85 C, corresponding to the source rounded 100 C convention."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.3333",
+              "comparison": "C16: 20/60=0.333333 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs SCE\", \"value\": 0.23}",
+              "cra_value": "240",
+              "comparison": "0.23 V x1000=230 mV vs SCE; compatible with marker/axis resolution of Figure 7."
+            }
+          ],
+          "notes": "Figure 7 base-metal label, Table 2 chemistry, synthetic-seawater medium and temperature identify this counterpart. Approximate graphical reading and original target precision are kept separate."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 10 results follow a distinct ten-second high-temperature treatment; no corresponding treatment-specific record occurs in the supplied base-metal CSV."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 10 results follow a distinct ten-second high-temperature treatment; no corresponding treatment-specific record occurs in the supplied base-metal CSV."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 10 results follow a distinct ten-second high-temperature treatment; no corresponding treatment-specific record occurs in the supplied base-metal CSV."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 10 results follow a distinct ten-second high-temperature treatment; no corresponding treatment-specific record occurs in the supplied base-metal CSV."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 10 results follow a distinct ten-second high-temperature treatment; no corresponding treatment-specific record occurs in the supplied base-metal CSV."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 10 results follow a distinct ten-second high-temperature treatment; no corresponding treatment-specific record occurs in the supplied base-metal CSV."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 10 results follow a distinct ten-second high-temperature treatment; no corresponding treatment-specific record occurs in the supplied base-metal CSV."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 10 results follow a distinct ten-second high-temperature treatment; no corresponding treatment-specific record occurs in the supplied base-metal CSV."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 11/text girth-weld results depend on weld heat input; no welded record is supplied. Source 12 versus plotted 13.5 kJ/cm ambiguity is retained without asserting repeated-run identity."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 11/text girth-weld results depend on weld heat input; no welded record is supplied. Source 12 versus plotted 13.5 kJ/cm ambiguity is retained without asserting repeated-run identity."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 11/text girth-weld results depend on weld heat input; no welded record is supplied. Source 12 versus plotted 13.5 kJ/cm ambiguity is retained without asserting repeated-run identity."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 11/text girth-weld results depend on weld heat input; no welded record is supplied. Source 12 versus plotted 13.5 kJ/cm ambiguity is retained without asserting repeated-run identity."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 13 base-metal 329J2L point has no explicitly established temperature/run correspondence to the Figure 7 CRA entries. Same grade alone is insufficient to assign it to 60, 80 or 100 C."
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 13 girth/seal-weld observations are distinct from all supplied base-metal rows; no weld-specific counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 13 girth/seal-weld observations are distinct from all supplied base-metal rows; no weld-specific counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 13 girth/seal-weld observations are distinct from all supplied base-metal rows; no weld-specific counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Figure 13 girth/seal-weld observations are distinct from all supplied base-metal rows; no weld-specific counterpart is supplied."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

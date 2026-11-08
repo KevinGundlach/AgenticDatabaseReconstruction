@@ -1,0 +1,700 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "17_Y. Qiu, M.A. Gibson, H.L. Fraser & N. Birbilis.  Materials Science and Technology, 31_10 (2015), 1235-1243.pdf",
+  "reference_number": 17,
+  "inputs": {
+    "pdf": {
+      "filename": "17_Y. Qiu, M.A. Gibson, H.L. Fraser & N. Birbilis.  Materials Science and Technology, 31_10 (2015), 1235-1243.pdf",
+      "sha256": "f06c7b43408d5861fb44bab63e48057621bf0217f34e8a200e6afdcb9339d712"
+    },
+    "csv": {
+      "filename": "pitting_potential_17.csv",
+      "sha256": "8ec4fbafa995b8de354d020bacb45383697b0ee826949637ef02dd7e67da085b"
+    },
+    "registry": {
+      "filename": "paper_17.json",
+      "sha256": "e94f88b7b7baf7491d4061d31583149bee2e4f1cde98abcadf521f2df5200389"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "coverage_notes": "Viewed every registered location on PDF pp.4-7, methods on p.3 and title/context pp.1-2. All Figure 1 category/processing labels and Tables 1/3 values were actually viewed; no thresholds were inferred from continuous polarization curves.",
+  "shared_qualifications": [
+    "All pitting potentials and printed uncertainties in Tables 1/3 are already mV vs SCE. CRA Min/Max equal central minus/plus the printed uncertainty; the source does not identify that uncertainty as SD, SE or an experimental range. Its statistical meaning is not invented.",
+    "C17: nominal atomic ratios are compared to CRA wt.% using w_i=100 n_i M_i / sum(n_j M_j). Atomic masses (CIAAW abridged 2024, https://ciaaw.org/abridged-atomic-weights.htm): Al26.982, Si28.085, Ti47.867, V50.942, Cr51.996, Fe55.845, Co58.933, Ni58.693, Cu63.546. These are conversion constants only, not external experimental evidence.",
+    "C17 uses the printed formula subscripts as relative atomic coefficients, including the outer coefficient for each element inside parentheses: (TiAl)0.7V0.15Fe0.1Ni0.05 -> Ti0.7 Al0.7 V0.15 Fe0.1 Ni0.05; Ti0.3(CoCrFeNi)0.7 -> Ti0.3 Co0.7 Cr0.7 Fe0.7 Ni0.7. Group interpretation is explicitly conditional because no bulk analytical composition is supplied. It is not silently reinterpreted as 70 or 30 at.% of a combined group. Identity is additionally supported by the named table result, electrolyte, method and printed uncertainty.",
+    "The CSV integer compositions are only approximate nominal chemistry and need not equal a measured bulk analysis. AlCoCrCuFe has all atomic coefficients1; AlTiVCrSi all1; CoCrFeNiAl0.9 has Co/Cr/Fe/Ni1 and Al0.9; CoCrFeNi all1. Do not copy the Ti-rich phase-A EDS values in Table 4 as bulk alloy composition.",
+    "AlCoCrCuFe processing conflict is in the source: Fig.1 labels SPS, while Fig.2/text call the selected sample as cast. The consolidated registry/Table 1 result is retained with that unresolved qualification. CoCrFeNi SPS* and SPS^ schedules are distinct; CRA 579 identifies the Table 3 SPS^ result, not the separate -28 mV SPS* presentation."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 578,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "164",
+            "min": "135.0",
+            "max": "193.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Co",
+              "paper_value": "CoCrFeNiAl0.9 (AM): nominal relative atomic coefficient Co=1",
+              "cra_value": "24.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1,\"Al\":0.9}; mass sum=249.7508; Co wt.%=100 x 1 x 58.933 /249.7508=23.5967. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "CoCrFeNiAl0.9 (AM): nominal relative atomic coefficient Cr=1",
+              "cra_value": "21.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1,\"Al\":0.9}; mass sum=249.7508; Cr wt.%=100 x 1 x 51.996 /249.7508=20.8192. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "CoCrFeNiAl0.9 (AM): nominal relative atomic coefficient Fe=1",
+              "cra_value": "22.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1,\"Al\":0.9}; mass sum=249.7508; Fe wt.%=100 x 1 x 55.845 /249.7508=22.3603. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "CoCrFeNiAl0.9 (AM): nominal relative atomic coefficient Ni=1",
+              "cra_value": "24.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1,\"Al\":0.9}; mass sum=249.7508; Ni wt.%=100 x 1 x 58.693 /249.7508=23.5006. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Al",
+              "paper_value": "CoCrFeNiAl0.9 (AM): nominal relative atomic coefficient Al=0.9",
+              "cra_value": "9.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1,\"Al\":0.9}; mass sum=249.7508; Al wt.%=100 x 0.9 x 26.982 /249.7508=9.72321. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "quiescent 0.6 M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Methods p.3 and Tables 1/3."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source experiment temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s; OCP stabilized for 30 min",
+              "cra_value": "1",
+              "comparison": "Method p.3 agrees."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 164, \"plus_minus\": 29}",
+              "cra_value": "164",
+              "comparison": "Source table central value is already mV vs SCE; original Avg agrees. Printed plus/minus is preserved without declaring its statistical type."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "164 - 29 = 135 mV vs SCE",
+              "cra_value": "135.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the minimum of individual experiments."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "164 + 29 = 193 mV vs SCE",
+              "cra_value": "193.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the maximum of individual experiments."
+            }
+          ],
+          "notes": "Named Table 1 or Table 3 alloy, original central/uncertainty pair, nominal chemical context C17 and common test conditions establish this counterpart independently of a potential coincidence. Grouped-formula composition interpretation remains conditional where applicable."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 575,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-130",
+            "min": "-135.0",
+            "max": "-125.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "AlCoCrCuFe (SPS): nominal relative atomic coefficient Al=1",
+              "cra_value": "10.5",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Co\":1,\"Cr\":1,\"Cu\":1,\"Fe\":1}; mass sum=257.302; Al wt.%=100 x 1 x 26.982 /257.302=10.4865. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Co",
+              "paper_value": "AlCoCrCuFe (SPS): nominal relative atomic coefficient Co=1",
+              "cra_value": "22.9",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Co\":1,\"Cr\":1,\"Cu\":1,\"Fe\":1}; mass sum=257.302; Co wt.%=100 x 1 x 58.933 /257.302=22.9042. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "AlCoCrCuFe (SPS): nominal relative atomic coefficient Cr=1",
+              "cra_value": "20.2",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Co\":1,\"Cr\":1,\"Cu\":1,\"Fe\":1}; mass sum=257.302; Cr wt.%=100 x 1 x 51.996 /257.302=20.2082. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "AlCoCrCuFe (SPS): nominal relative atomic coefficient Cu=1",
+              "cra_value": "24.7",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Co\":1,\"Cr\":1,\"Cu\":1,\"Fe\":1}; mass sum=257.302; Cu wt.%=100 x 1 x 63.546 /257.302=24.697. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "AlCoCrCuFe (SPS): nominal relative atomic coefficient Fe=1",
+              "cra_value": "21.7",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Co\":1,\"Cr\":1,\"Cu\":1,\"Fe\":1}; mass sum=257.302; Fe wt.%=100 x 1 x 55.845 /257.302=21.7041. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "quiescent 0.6 M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Methods p.3 and Tables 1/3."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source experiment temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s; OCP stabilized for 30 min",
+              "cra_value": "1",
+              "comparison": "Method p.3 agrees."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -130, \"plus_minus\": 5}",
+              "cra_value": "-130",
+              "comparison": "Source table central value is already mV vs SCE; original Avg agrees. Printed plus/minus is preserved without declaring its statistical type."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "-130 - 5 = -135 mV vs SCE",
+              "cra_value": "-135.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the minimum of individual experiments."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "-130 + 5 = -125 mV vs SCE",
+              "cra_value": "-125.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the maximum of individual experiments."
+            }
+          ],
+          "notes": "Named Table 1 or Table 3 alloy, original central/uncertainty pair, nominal chemical context C17 and common test conditions establish this counterpart independently of a potential coincidence. Grouped-formula composition interpretation remains conditional where applicable. Source SPS versus as-cast processing-label conflict is retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "CoCrFeNi SPS* (-28 mV) is a distinct single-hold processing condition. CRA 579 matches the Table 3 SPS^ (-8 +/-59 mV) two-stage specimen; no corresponding SPS* target is supplied."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 580,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "1040",
+            "min": "1027.0",
+            "max": "1053.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Ti",
+              "paper_value": "Ti0.3(CoCrFeNi)0.7 (AM): nominal relative atomic coefficient Ti=0.3",
+              "cra_value": "8.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.3,\"Co\":0.7,\"Cr\":0.7,\"Fe\":0.7,\"Ni\":0.7}; mass sum=172.187; Ti wt.%=100 x 0.3 x 47.867 /172.187=8.33983. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Ti0.3(CoCrFeNi)0.7 (AM): nominal relative atomic coefficient Co=0.7",
+              "cra_value": "24.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.3,\"Co\":0.7,\"Cr\":0.7,\"Fe\":0.7,\"Ni\":0.7}; mass sum=172.187; Co wt.%=100 x 0.7 x 58.933 /172.187=23.9583. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Ti0.3(CoCrFeNi)0.7 (AM): nominal relative atomic coefficient Cr=0.7",
+              "cra_value": "21.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.3,\"Co\":0.7,\"Cr\":0.7,\"Fe\":0.7,\"Ni\":0.7}; mass sum=172.187; Cr wt.%=100 x 0.7 x 51.996 /172.187=21.1382. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Ti0.3(CoCrFeNi)0.7 (AM): nominal relative atomic coefficient Fe=0.7",
+              "cra_value": "23.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.3,\"Co\":0.7,\"Cr\":0.7,\"Fe\":0.7,\"Ni\":0.7}; mass sum=172.187; Fe wt.%=100 x 0.7 x 55.845 /172.187=22.7029. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Ti0.3(CoCrFeNi)0.7 (AM): nominal relative atomic coefficient Ni=0.7",
+              "cra_value": "24.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.3,\"Co\":0.7,\"Cr\":0.7,\"Fe\":0.7,\"Ni\":0.7}; mass sum=172.187; Ni wt.%=100 x 0.7 x 58.693 /172.187=23.8607. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "quiescent 0.6 M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Methods p.3 and Tables 1/3."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source experiment temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s; OCP stabilized for 30 min",
+              "cra_value": "1",
+              "comparison": "Method p.3 agrees."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 1040, \"plus_minus\": 13}",
+              "cra_value": "1040",
+              "comparison": "Source table central value is already mV vs SCE; original Avg agrees. Printed plus/minus is preserved without declaring its statistical type."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "1040 - 13 = 1027 mV vs SCE",
+              "cra_value": "1027.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the minimum of individual experiments."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "1040 + 13 = 1053 mV vs SCE",
+              "cra_value": "1053.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the maximum of individual experiments."
+            }
+          ],
+          "notes": "Named Table 1 or Table 3 alloy, original central/uncertainty pair, nominal chemical context C17 and common test conditions establish this counterpart independently of a potential coincidence. Grouped-formula composition interpretation remains conditional where applicable."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 579,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "-8",
+            "min": "-67.0",
+            "max": "51.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Co",
+              "paper_value": "CoCrFeNi (SPS^): nominal relative atomic coefficient Co=1",
+              "cra_value": "26.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1}; mass sum=225.467; Co wt.%=100 x 1 x 58.933 /225.467=26.1382. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "CoCrFeNi (SPS^): nominal relative atomic coefficient Cr=1",
+              "cra_value": "23.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1}; mass sum=225.467; Cr wt.%=100 x 1 x 51.996 /225.467=23.0615. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "CoCrFeNi (SPS^): nominal relative atomic coefficient Fe=1",
+              "cra_value": "25.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1}; mass sum=225.467; Fe wt.%=100 x 1 x 55.845 /225.467=24.7686. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "CoCrFeNi (SPS^): nominal relative atomic coefficient Ni=1",
+              "cra_value": "26.0",
+              "comparison": "C17: complete coefficients {\"Co\":1,\"Cr\":1,\"Fe\":1,\"Ni\":1}; mass sum=225.467; Ni wt.%=100 x 1 x 58.693 /225.467=26.0317. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "quiescent 0.6 M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Methods p.3 and Tables 1/3."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source experiment temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s; OCP stabilized for 30 min",
+              "cra_value": "1",
+              "comparison": "Method p.3 agrees."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -8, \"plus_minus\": 59}",
+              "cra_value": "-8",
+              "comparison": "Source table central value is already mV vs SCE; original Avg agrees. Printed plus/minus is preserved without declaring its statistical type."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "SPS^ specimen: FCC plus Cr-rich sigma phase (PDF pp.6-7)",
+              "cra_value": "FCC and Intermetallic Compound rich in Cr",
+              "comparison": "Matches the original CRA FCC and Cr-rich intermetallic description; distinguishes this specimen from the single-FCC AM comparison."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "-8 - 59 = -67 mV vs SCE",
+              "cra_value": "-67.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the minimum of individual experiments."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "-8 + 59 = 51 mV vs SCE",
+              "cra_value": "51.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the maximum of individual experiments."
+            }
+          ],
+          "notes": "Named Table 1 or Table 3 alloy, original central/uncertainty pair, nominal chemical context C17 and common test conditions establish this counterpart independently of a potential coincidence. Grouped-formula composition interpretation remains conditional where applicable. This is the SPS^ two-stage sintering specimen; SPS* is a distinct registered result."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 576,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "263",
+            "min": "253.0",
+            "max": "273.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Ti",
+              "paper_value": "(TiAl)0.7V0.15Fe0.1Ni0.05: nominal relative atomic coefficient Ti=0.7",
+              "cra_value": "49.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.7,\"Al\":0.7,\"V\":0.15,\"Fe\":0.1,\"Ni\":0.05}; mass sum=68.55475; Ti wt.%=100 x 0.7 x 47.867 /68.55475=48.8761. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Al",
+              "paper_value": "(TiAl)0.7V0.15Fe0.1Ni0.05: nominal relative atomic coefficient Al=0.7",
+              "cra_value": "28.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.7,\"Al\":0.7,\"V\":0.15,\"Fe\":0.1,\"Ni\":0.05}; mass sum=68.55475; Al wt.%=100 x 0.7 x 26.982 /68.55475=27.5508. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "V",
+              "paper_value": "(TiAl)0.7V0.15Fe0.1Ni0.05: nominal relative atomic coefficient V=0.15",
+              "cra_value": "11.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.7,\"Al\":0.7,\"V\":0.15,\"Fe\":0.1,\"Ni\":0.05}; mass sum=68.55475; V wt.%=100 x 0.15 x 50.942 /68.55475=11.1463. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "(TiAl)0.7V0.15Fe0.1Ni0.05: nominal relative atomic coefficient Fe=0.1",
+              "cra_value": "8.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.7,\"Al\":0.7,\"V\":0.15,\"Fe\":0.1,\"Ni\":0.05}; mass sum=68.55475; Fe wt.%=100 x 0.1 x 55.845 /68.55475=8.14604. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "(TiAl)0.7V0.15Fe0.1Ni0.05: nominal relative atomic coefficient Ni=0.05",
+              "cra_value": "4.0",
+              "comparison": "C17: complete coefficients {\"Ti\":0.7,\"Al\":0.7,\"V\":0.15,\"Fe\":0.1,\"Ni\":0.05}; mass sum=68.55475; Ni wt.%=100 x 0.05 x 58.693 /68.55475=4.28074. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "quiescent 0.6 M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Methods p.3 and Tables 1/3."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source experiment temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s; OCP stabilized for 30 min",
+              "cra_value": "1",
+              "comparison": "Method p.3 agrees."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 263, \"plus_minus\": 10}",
+              "cra_value": "263",
+              "comparison": "Source table central value is already mV vs SCE; original Avg agrees. Printed plus/minus is preserved without declaring its statistical type."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "263 - 10 = 253 mV vs SCE",
+              "cra_value": "253.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the minimum of individual experiments."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "263 + 10 = 273 mV vs SCE",
+              "cra_value": "273.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the maximum of individual experiments."
+            }
+          ],
+          "notes": "Named Table 1 or Table 3 alloy, original central/uncertainty pair, nominal chemical context C17 and common test conditions establish this counterpart independently of a potential coincidence. Grouped-formula composition interpretation remains conditional where applicable."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 577,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "11",
+            "min": "1.0",
+            "max": "21.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "AlTiVCrSi (AM): nominal relative atomic coefficient Al=1",
+              "cra_value": "13.0",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Ti\":1,\"V\":1,\"Cr\":1,\"Si\":1}; mass sum=205.872; Al wt.%=100 x 1 x 26.982 /205.872=13.1062. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Ti",
+              "paper_value": "AlTiVCrSi (AM): nominal relative atomic coefficient Ti=1",
+              "cra_value": "23.0",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Ti\":1,\"V\":1,\"Cr\":1,\"Si\":1}; mass sum=205.872; Ti wt.%=100 x 1 x 47.867 /205.872=23.2509. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "V",
+              "paper_value": "AlTiVCrSi (AM): nominal relative atomic coefficient V=1",
+              "cra_value": "25.0",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Ti\":1,\"V\":1,\"Cr\":1,\"Si\":1}; mass sum=205.872; V wt.%=100 x 1 x 50.942 /205.872=24.7445. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "AlTiVCrSi (AM): nominal relative atomic coefficient Cr=1",
+              "cra_value": "25.0",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Ti\":1,\"V\":1,\"Cr\":1,\"Si\":1}; mass sum=205.872; Cr wt.%=100 x 1 x 51.996 /205.872=25.2565. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Si",
+              "paper_value": "AlTiVCrSi (AM): nominal relative atomic coefficient Si=1",
+              "cra_value": "14.0",
+              "comparison": "C17: complete coefficients {\"Al\":1,\"Ti\":1,\"V\":1,\"Cr\":1,\"Si\":1}; mass sum=205.872; Si wt.%=100 x 1 x 28.085 /205.872=13.642. Compare with the original coarse CSV wt.% cell; no measured bulk assay is claimed."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "quiescent 0.6 M NaCl",
+              "cra_value": "0.6M NaCl",
+              "comparison": "Methods p.3 and Tables 1/3."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source experiment temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s; OCP stabilized for 30 min",
+              "cra_value": "1",
+              "comparison": "Method p.3 agrees."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 11, \"plus_minus\": 10}",
+              "cra_value": "11",
+              "comparison": "Source table central value is already mV vs SCE; original Avg agrees. Printed plus/minus is preserved without declaring its statistical type."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "11 - 10 = 1 mV vs SCE",
+              "cra_value": "1.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the minimum of individual experiments."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "11 + 10 = 21 mV vs SCE",
+              "cra_value": "21.0",
+              "comparison": "Exact arithmetic endpoint of the printed uncertainty; not claimed as the maximum of individual experiments."
+            }
+          ],
+          "notes": "Named Table 1 or Table 3 alloy, original central/uncertainty pair, nominal chemical context C17 and common test conditions establish this counterpart independently of a potential coincidence. Grouped-formula composition interpretation remains conditional where applicable."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No counterpart for this particular alloy/processing or comparative category in the supplied six Table 1/Table 3 CRA rows."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

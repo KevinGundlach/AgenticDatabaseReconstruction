@@ -1,0 +1,796 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "75_McCafferty, E. Corrosion Science 37.3 (1995)_ 481-492.pdf",
+  "reference_number": 75,
+  "inputs": {
+    "pdf": {
+      "filename": "75_McCafferty, E. Corrosion Science 37.3 (1995)_ 481-492.pdf",
+      "sha256": "000f6680b0f2bf3da4c7e9107c794fddfad5b43dbbd4c6bfdad3a3c993ab8eef"
+    },
+    "csv": {
+      "filename": "pitting_potential_75.csv",
+      "sha256": "544b2e61f9fd9b1871fab06e173fea0ab8948a931d381657547eeaeda57c130f"
+    },
+    "registry": {
+      "filename": "paper_75.json",
+      "sha256": "39f0eda76a7834016f524cb41511de3c9bed226f097c56b9af197e5904bec457"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    6,
+    8,
+    9,
+    10
+  ],
+  "coverage_notes": "",
+  "shared_qualifications": [
+    "C1: V(SCE)×1000=mV(SCE), with no electrode offset. PDF p.6: pure aluminium foil, 24 h immersion in deaerated solutions, potentiostatic determination. The concentration series does not supply a numerical pH, so CRA pH 7 is not treated as measured paper context.",
+    "Figure 1 and Table 1 repeat four numerical results; additional Figure 1 markers remain distinct. Figure 3 is a buffer-pH series (p.9); equal potentials across series do not establish the same experiment. Experimental temperature 25°C is not independently stated in the inspected contextual passages.",
+    "Figure 3 pH readings 8.15/9.45 are graphical coordinates, compatible with CRA 8.1/9.4. Obs_016 retains graphical pH≈10.2 despite text saying no pitting-potential measurements above pH 10."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 728,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-605",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.01 M chloride",
+              "cra_value": "0.01",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "not printed numerically for concentration series",
+              "cra_value": "7.0",
+              "comparison": "CRA pH 7 unverified for concentration series."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.605}",
+              "cra_value": "-605",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 729,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-685",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M chloride",
+              "cra_value": "0.1",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "not printed numerically for concentration series",
+              "cra_value": "7.0",
+              "comparison": "CRA pH 7 unverified for concentration series."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.685}",
+              "cra_value": "-685",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 730,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-730",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.5 M chloride",
+              "cra_value": "0.5",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "not printed numerically for concentration series",
+              "cra_value": "7.0",
+              "comparison": "CRA pH 7 unverified for concentration series."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.73}",
+              "cra_value": "-730",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 730,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-730",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.5 M chloride",
+              "cra_value": "0.5",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "not printed numerically for concentration series",
+              "cra_value": "7.0",
+              "comparison": "CRA pH 7 unverified for concentration series."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.725}",
+              "cra_value": "-730",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Additional .5 M marker lies 5 mV from the CRA tabulated −730 mV result; possible counterpart only, not an asserted repeat of the Table 1 experiment."
+        }
+      ],
+      "notes": "Additional .5 M marker lies 5 mV from the CRA tabulated −730 mV result; possible counterpart only, not an asserted repeat of the Table 1 experiment."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Additional −760/−745 mV replicate is distinct from the CRA-selected value in its series. Equal potential in a different-pH or unspecified-pH series is insufficient to link runs."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 731,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-745",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 M chloride",
+              "cra_value": "1.0",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "not printed numerically for concentration series",
+              "cra_value": "7.0",
+              "comparison": "CRA pH 7 unverified for concentration series."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.745}",
+              "cra_value": "-745",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 732,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-680",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M chloride",
+              "cra_value": "0.1",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈4",
+              "cra_value": "4.0",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.68}",
+              "cra_value": "-680",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 733,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-685",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M chloride",
+              "cra_value": "0.1",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈5.8",
+              "cra_value": "5.8",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.685}",
+              "cra_value": "-685",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 734,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-675",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M chloride",
+              "cra_value": "0.1",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈8.15",
+              "cra_value": "8.1",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.675}",
+              "cra_value": "-675",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 735,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-650",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M chloride",
+              "cra_value": "0.1",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈9",
+              "cra_value": "9.0",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.65}",
+              "cra_value": "-650",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 736,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-600",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M chloride",
+              "cra_value": "0.1",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈9.45",
+              "cra_value": "9.4",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.6}",
+              "cra_value": "-600",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 737,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-770",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 M chloride",
+              "cra_value": "1.0",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈4",
+              "cra_value": "4.0",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.77}",
+              "cra_value": "-770",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 738,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-760",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 M chloride",
+              "cra_value": "1.0",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈5.8",
+              "cra_value": "5.8",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.76}",
+              "cra_value": "-760",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Additional −760/−745 mV replicate is distinct from the CRA-selected value in its series. Equal potential in a different-pH or unspecified-pH series is insufficient to link runs."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 739,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-760",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 M chloride",
+              "cra_value": "1.0",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈8.15",
+              "cra_value": "8.1",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.76}",
+              "cra_value": "-760",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 740,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-720",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "pure aluminium foil",
+              "cra_value": "100.0",
+              "comparison": "Material identity; CRA 100 wt% is idealized pure Al."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 M chloride",
+              "cra_value": "1.0",
+              "comparison": "Concentration, not activity; Table 1/Figures 1 and 3."
+            },
+            {
+              "field": "pH",
+              "paper_value": "graphical pH≈10.2",
+              "cra_value": "10.2",
+              "comparison": "Same pH-series coordinate within plotting precision."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "potentiostatic determination after 24 h in deaerated solutions (concentration series); buffer pH series described separately",
+              "cra_value": "Potentiostatic Polarization for 24 hrs in deaerated Cl- solution",
+              "comparison": "PDF pp.6 and 9; no sweep rate inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.72}",
+              "cra_value": "-720",
+              "comparison": "Same SCE scale; source mV compared directly with original CRA target."
+            }
+          ],
+          "notes": "Pure Al, chloride concentration and the specific table entry or buffer-pH marker identify this result; no cross-series duplicate run is asserted."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

@@ -1,0 +1,317 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "40_L. F. Garfias-Mesias， J. M. Sykes , C. D. S. Tuck, Corros. Sci. 38 (1996)_ p.1319.pdf",
+  "reference_number": 40,
+  "inputs": {
+    "pdf": {
+      "filename": "40_L. F. Garfias-Mesias， J. M. Sykes , C. D. S. Tuck, Corros. Sci. 38 (1996)_ p.1319.pdf",
+      "sha256": "d3d9f9debf2904919bfb1fc85ed2bbfb4fffe7f77cfa2e5dca8ab2072039af27"
+    },
+    "csv": {
+      "filename": "pitting_potential_40.csv",
+      "sha256": "ff068ee4db8f69f38435704a082145e40744e1ffeecc5decc4539843edd8dbb1"
+    },
+    "registry": {
+      "filename": "paper_40.json",
+      "sha256": "e0c0ae6bfd747a0430fae71bfaa75972865e4c64571e50b066ead757dbd907d9"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    3,
+    5,
+    6
+  ],
+  "coverage_notes": "Rendered short-named, byte-identical PDF copy verified against the original SHA-256. Fingerprints refer to original input bytes. All four supplied entries and four CSV records considered. Registered text (PDF p.5), composition and annealing methods (p.2), test criterion (p.3) and Fig.3/context (p.6) visually inspected.",
+  "shared_qualifications": [
+    "The endpoint is current density exceeding 50 microA/cm2 at 1 mV/s, with the saturated calomel electrode at the same 65 C solution temperature (PDF p.3). No room-temperature reference correction is applied.",
+    "PDF p.6 reports pitting initiating in ferrite or on the ferrite side of the ferrite/austenite boundary for all four samples. No independent phase-specific numerical endpoint is created."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 138,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "322",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 UNS S32550: 25.92 wt.% Cr",
+              "cra_value": "25.92",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1: 5.9 wt.% Ni",
+              "cra_value": "5.9",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1: 3.19 wt.% Mo",
+              "cra_value": "3.19",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution annealed at 1020 C for 2 h, water quenched",
+              "cra_value": "annealled at 1020C for 2h, then water quenched",
+              "comparison": "Exact distinctive treatment; excludes the separate 5 h/oil-quench experiment."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl",
+              "cra_value": "3.5 wt.% NaCl",
+              "comparison": "Same stated NaCl test solution; no density/molarity conversion inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C",
+              "cra_value": "65.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 322}",
+              "cra_value": "322",
+              "comparison": "Explicit text value in mV(SCE) agrees exactly; source uses SCE at 65 C, so no scale offset."
+            }
+          ],
+          "notes": "UNS S32550 chemistry and the distinct 2 h annealing/water-quench condition identify the text counterpart (PDF pp.2-3,5). Qualified current-criterion endpoint and ferrite initiation retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 139,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "255",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 UNS S32550: 25.92 wt.% Cr",
+              "cra_value": "25.92",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1: 5.9 wt.% Ni",
+              "cra_value": "5.9",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1: 3.19 wt.% Mo",
+              "cra_value": "3.19",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution annealed at 1060 C for 2 h, water quenched",
+              "cra_value": "annealled at 1060C for 2h, then water quenched",
+              "comparison": "Exact distinctive treatment; excludes the separate 5 h/oil-quench experiment."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl",
+              "cra_value": "3.5 wt.% NaCl",
+              "comparison": "Same stated NaCl test solution; no density/molarity conversion inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C",
+              "cra_value": "65.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 255}",
+              "cra_value": "255",
+              "comparison": "Explicit text value in mV(SCE) agrees exactly; source uses SCE at 65 C, so no scale offset."
+            }
+          ],
+          "notes": "UNS S32550 chemistry and the distinct 2 h annealing/water-quench condition identify the text counterpart (PDF pp.2-3,5). Qualified current-criterion endpoint and ferrite initiation retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 140,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "209",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 UNS S32550: 25.92 wt.% Cr",
+              "cra_value": "25.92",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1: 5.9 wt.% Ni",
+              "cra_value": "5.9",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1: 3.19 wt.% Mo",
+              "cra_value": "3.19",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution annealed at 1100 C for 2 h, water quenched",
+              "cra_value": "annealled at 1100C for 2h, then water quenched",
+              "comparison": "Exact distinctive treatment; excludes the separate 5 h/oil-quench experiment."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl",
+              "cra_value": "3.5 wt.% NaCl",
+              "comparison": "Same stated NaCl test solution; no density/molarity conversion inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C",
+              "cra_value": "65.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 209}",
+              "cra_value": "209",
+              "comparison": "Explicit text value in mV(SCE) agrees exactly; source uses SCE at 65 C, so no scale offset."
+            }
+          ],
+          "notes": "UNS S32550 chemistry and the distinct 2 h annealing/water-quench condition identify the text counterpart (PDF pp.2-3,5). Qualified current-criterion endpoint and ferrite initiation retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 141,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "176",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 UNS S32550: 25.92 wt.% Cr",
+              "cra_value": "25.92",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1: 5.9 wt.% Ni",
+              "cra_value": "5.9",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1: 3.19 wt.% Mo",
+              "cra_value": "3.19",
+              "comparison": "Direct composition agrees."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution annealed at 1140 C for 2 h, water quenched",
+              "cra_value": "annealled at 1140C for 2h, then water quenched",
+              "comparison": "Exact distinctive treatment; excludes the separate 5 h/oil-quench experiment."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5% NaCl",
+              "cra_value": "3.5 wt.% NaCl",
+              "comparison": "Same stated NaCl test solution; no density/molarity conversion inferred."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C",
+              "cra_value": "65.0",
+              "comparison": "Exact temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 176}",
+              "cra_value": "176",
+              "comparison": "Explicit text value in mV(SCE) agrees exactly; source uses SCE at 65 C, so no scale offset."
+            }
+          ],
+          "notes": "UNS S32550 chemistry and the distinct 2 h annealing/water-quench condition identify the text counterpart (PDF pp.2-3,5). Qualified current-criterion endpoint and ferrite initiation retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

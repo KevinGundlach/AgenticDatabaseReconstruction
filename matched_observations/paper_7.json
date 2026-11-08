@@ -1,0 +1,1046 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "7_H. Bohni, H. H. Uhlig, J. Electrochem Soc. 116 (1969)_ p. 906.pdf",
+  "reference_number": 7,
+  "inputs": {
+    "pdf": {
+      "filename": "7_H. Bohni, H. H. Uhlig, J. Electrochem Soc. 116 (1969)_ p. 906.pdf",
+      "sha256": "ca82b01e0cfece79edb2d1edec94a995079d006e258ae2aab2630d9b2e2a37e1"
+    },
+    "csv": {
+      "filename": "pitting_potential_7.csv",
+      "sha256": "8a1246d11c67cd82b0f64a4c0169ca88310d5056cc53fb599a467218b20fcdfc"
+    },
+    "registry": {
+      "filename": "paper_7.json",
+      "sha256": "cc3ea3f6b8d668eac8b7b5643e610c5c1e72a124b39c4d60af07689999c0b3b9"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "All supplied anchors on PDF pp.1-4 were viewed, including complete Table I and metal analyses, Figs.1-6 and anodizing discussion. Rendered labels remained readable despite Poppler font warnings.",
+  "shared_qualifications": [
+    "C7: The paper itself supplies the rounded reference equivalence -0.80 V vs SCE = -0.56 V vs SHE (PDF p.1). Accordingly use E(mV vs SCE) = 1000 E(V vs SHE) - 240 for a source-calibrated comparison at the precision of those rounded values. No target-fitting offset is used. Reference temperature is unstated; 0-40 C are experimental-solution temperatures, not assumed reference-electrode temperatures. The source reports steady-state reproducibility better than +/-15 mV.",
+    "All CRA 803-814 targets agree within source/reference rounding and graphical precision, rather than at their excessive decimal precision. obs_004 primary Table I -0.41 V and secondary Fig.1 approximately -0.40 V are both preserved; obs_001 similarly retains text/table -0.40 and plot about -0.405 V.",
+    "The paper uses 50 mV potential increments separated by 5 min, followed by at least 12 h holds for steady Vc. CRA Scan Rate 0.167 must not be taken as a continuous sweep rate merely because 50/300 has that numerical value.",
+    "CRA 810 solution cell 0.1 M NaCIO4 is preserved verbatim; paper Table I is NaClO4 (perchlorate), not NaCl. Its CRA CL- [M] value 0.1 is inconsistent with chloride species and is not used as evidence of free chloride.",
+    "obs_011/CRA 811 retains cited Bond et al. provenance from Table I; source-reported/cited outcomes are not excluded. Fig.5 present corrosion-potential proxies and Kaesche critical-potential points retain their distinct origin/meaning and are not equated to supplied standard steady-state records."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 805,
+          "location_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "cra_potential": {
+            "avg": "-649.399448136235",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaCl",
+              "cra_value": "0.1 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.4}",
+              "cra_value": "-649.399448136235",
+              "comparison": "C7: -0.4 x 1000 - 240 = -640.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 803,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-646.418077620128",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaCl",
+              "cra_value": "0.1 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "0 C",
+              "cra_value": "0.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.41}",
+              "cra_value": "-646.418077620128",
+              "comparison": "C7: -0.41 x 1000 - 240 = -650.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7. Primary Table I -0.41 V and secondary Fig.1 approximately -0.40 V are retained; CRA lies within their source/plot precision."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 804,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-644.58288569236",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaCl",
+              "cra_value": "0.1 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "15 C",
+              "cra_value": "15.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.4}",
+              "cra_value": "-644.58288569236",
+              "comparison": "C7: -0.4 x 1000 - 240 = -640.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 806,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-653.007788136561",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaCl",
+              "cra_value": "0.1 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "32 C",
+              "cra_value": "32.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.41}",
+              "cra_value": "-653.007788136561",
+              "comparison": "C7: -0.41 x 1000 - 240 = -650.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 807,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-666.86969157673",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaCl",
+              "cra_value": "0.1 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "40 C",
+              "cra_value": "40.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.425}",
+              "cra_value": "-666.86969157673",
+              "comparison": "C7: -0.425 x 1000 - 240 = -665.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 808,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-534",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaBr",
+              "cra_value": "0.1 M NaBr",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.29}",
+              "cra_value": "-534",
+              "comparison": "C7: -0.29 x 1000 - 240 = -530.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 809,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-564",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaBr",
+              "cra_value": "0.1 M NaBr",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "0 C",
+              "cra_value": "0.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.32}",
+              "cra_value": "-564",
+              "comparison": "C7: -0.32 x 1000 - 240 = -560.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 810,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-244",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaClO4",
+              "cra_value": "0.1 M NaCIO4 ",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": 0}",
+              "cra_value": "-244",
+              "comparison": "C7: 0 x 1000 - 240 = -240 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "NaClO4 perchlorate electrolyte; no chloride concentration of 0.1 M is reported",
+              "cra_value": "0.1",
+              "comparison": "CRA 0.1 conflates perchlorate salt concentration with chloride; not an identity criterion."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 811,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-744",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.99%",
+              "cra_value": "99.99",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.5M NaCl",
+              "cra_value": "0.5 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.5}",
+              "cra_value": "-744",
+              "comparison": "C7: -0.5 x 1000 - 240 = -740.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7. This is the cited Bond et al. result, not a new experiment of the authors."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 812,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-654",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.4%",
+              "cra_value": "99.4",
+              "comparison": "Purity from Table I/caption identifies source material."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaCl",
+              "cra_value": "0.1 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.41}",
+              "cra_value": "-654",
+              "comparison": "C7: -0.41 x 1000 - 240 = -650.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 813,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-694",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mn",
+              "paper_value": "1.3 wt.%",
+              "cra_value": "1.3",
+              "comparison": "Table I metal analysis identifies Mn-Al alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaCl",
+              "cra_value": "0.1 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.45}",
+              "cra_value": "-694",
+              "comparison": "C7: -0.45 x 1000 - 240 = -690.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 814,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-684",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mg",
+              "paper_value": "2.43 wt.% (label 2.4% Mg-Al)",
+              "cra_value": "2.43",
+              "comparison": "Table I metal analysis identifies Mg-Al alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1M NaCl",
+              "cra_value": "0.1 M NaCl",
+              "comparison": "Table I or Fig.1 electrolyte agrees; original CRA NaCIO4 spelling is retained where applicable."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Temperature series or Table I column agrees."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic steps followed by long holds for steady-state Vc",
+              "cra_value": "Potentiostatic Polarization. For most of the measurements, Al electrodes were employed measuring 1.5 cm long and 0.4 cm in diameter. One end of each electrode was drilled and tapped, allowing a threaded member attached to a nickel wire to hold the electrode firmly against a glass tube separated by a water-tight Teflon gasket. Only the electrode surface, totally immersed, Teflon, and glass made contact with the electrolyte. Specimens were polished to 3/0 emery paper followed by pickling in 2N NaOH at 80~ for 5 min and then washing in distilled water.",
+              "comparison": "Source p.1 distinguishes steady Vc from approximate Vc-prime; no continuous sweep is inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SHE)\", \"value\": -0.44}",
+              "cra_value": "-684",
+              "comparison": "C7: -0.44 x 1000 - 240 = -680.0 mV vs SCE, using paper p.1 rounded equivalence. Compatible within source +/-15 mV reproducibility and/or plot precision; original readings remain unchanged."
+            }
+          ],
+          "notes": "Counterpart identified by alloy/purity, electrolyte, temperature and steady-state source anchor; reference comparison uses source-supplied rounded C7."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_038",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_039",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_040",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_041",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_042",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_043",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_044",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_045",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_046",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_047",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_048",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_049",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_050",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_051",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_052",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_053",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_054",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_055",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_056",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_057",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_058",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_059",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_060",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_061",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_062",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_063",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    },
+    {
+      "observation_id": "obs_064",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

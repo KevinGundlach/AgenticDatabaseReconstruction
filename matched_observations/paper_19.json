@@ -1,0 +1,271 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "19_Yu-Jui Hsu, Wen-Chi Chiang, and Jiann-Kuo Wu. Materials Chemistry and Physics,92 (2005) , 112-117.pdf",
+  "reference_number": 19,
+  "inputs": {
+    "pdf": {
+      "filename": "19_Yu-Jui Hsu, Wen-Chi Chiang, and Jiann-Kuo Wu. Materials Chemistry and Physics,92 (2005) , 112-117.pdf",
+      "sha256": "11f6c7ef4b144bba8eb2fc87dcdbdcb4f9f692c639c6d0f03beaaa2749b5ff41"
+    },
+    "csv": {
+      "filename": "pitting_potential_19.csv",
+      "sha256": "461c81931fb28a8927f4a906095af0331b2649e78319efc138bf6f3654d900dd"
+    },
+    "registry": {
+      "filename": "paper_19.json",
+      "sha256": "2f53c40dc73b844b00150249201b2d72fe8e9deb4b172c2ea431d0bab56512de"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    5
+  ],
+  "coverage_notes": "Visually viewed the supplied Table 5 anchors and associated discussion on PDF p.5, Table 1 bulk EDX composition and polarization methods p.2, and title/material-preparation p.1. No threshold was inferred from the continuous Fig.5 curves.",
+  "shared_qualifications": [
+    "C19: Table 5 V vs SCE x1000 gives mV vs SCE, with no reference-electrode offset. Table 1 is explicitly EDX alloy composition in wt.%, so no atomic-to-mass conversion is applied.",
+    "The source explicitly labels these values pitting potentials. For Cu-containing alloys, however, the paper describes preferential attack of Cu-rich/Cr-depleted interdendrites and galvanic coupling with the dendrites. This physical qualification is retained without excluding the known identities.",
+    "The source specifies aerated 3.5% NaCl at25 C, while the CSV gives an additional chloride molarity0.6128 and pH7. The inspected source does not independently establish that molarity or pH, so neither is inferred from a generic percent solution or used as identity evidence."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 581,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "310",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "24.58 wt.%",
+              "cra_value": "24.58",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "25.12 wt.%",
+              "cra_value": "25.12",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25.92 wt.%",
+              "cra_value": "25.92",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Co",
+              "paper_value": "24.9 wt.%",
+              "cra_value": "24.9",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "No Cu addition; Table 1 Cu dash",
+              "cra_value": "0.0",
+              "comparison": "Cu-containing heats are distinct; source dash is not an independently measured zero."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "aerated 3.5% NaCl",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Method p.2 and Table 5 caption agree with percent NaCl medium; aeration detail remains source context."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source table/method temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Source potentiodynamic procedure p.2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.31}",
+              "cra_value": "310",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Named Table 5 HEA row, measured Table 1 bulk wt.% composition and common test conditions identify the counterpart; Epit is explicitly tabulated. The 304L comparator is a separate observation and is not substituted for this HEA."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 582,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "90",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "20.47 wt.%",
+              "cra_value": "20.47",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "16.48 wt.%",
+              "cra_value": "16.48",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "25.48 wt.%",
+              "cra_value": "25.48",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Co",
+              "paper_value": "23.99 wt.%",
+              "cra_value": "23.99",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "13.49 wt.%",
+              "cra_value": "13.49",
+              "comparison": "Cu-containing heats are distinct; source dash is not an independently measured zero."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "aerated 3.5% NaCl",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Method p.2 and Table 5 caption agree with percent NaCl medium; aeration detail remains source context."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source table/method temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Source potentiodynamic procedure p.2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.09}",
+              "cra_value": "90",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Named Table 5 HEA row, measured Table 1 bulk wt.% composition and common test conditions identify the counterpart; Epit is explicitly tabulated. Localized interdendritic galvanic-attack qualification is retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 583,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "80",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "18.78 wt.%",
+              "cra_value": "18.78",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "16.25 wt.%",
+              "cra_value": "16.25",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "21.78 wt.%",
+              "cra_value": "21.78",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Co",
+              "paper_value": "21.5 wt.%",
+              "cra_value": "21.5",
+              "comparison": "Table 1 EDX alloy composition."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "21.69 wt.%",
+              "cra_value": "21.69",
+              "comparison": "Cu-containing heats are distinct; source dash is not an independently measured zero."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "aerated 3.5% NaCl",
+              "cra_value": "3.5% NaCl",
+              "comparison": "Method p.2 and Table 5 caption agree with percent NaCl medium; aeration detail remains source context."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Source table/method temperature."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Source potentiodynamic procedure p.2."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.08}",
+              "cra_value": "80",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Named Table 5 HEA row, measured Table 1 bulk wt.% composition and common test conditions identify the counterpart; Epit is explicitly tabulated. Localized interdendritic galvanic-attack qualification is retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No corresponding record for the registered 304L comparator is supplied in this three-row HEA CSV."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

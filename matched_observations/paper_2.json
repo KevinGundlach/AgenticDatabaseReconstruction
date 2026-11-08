@@ -1,0 +1,1360 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "2_A. P. Bond, E. A. Lizlovs, J. Electrochem. Soc. 115 (1968)_ p. 1130.pdf",
+  "reference_number": 2,
+  "inputs": {
+    "pdf": {
+      "filename": "2_A. P. Bond, E. A. Lizlovs, J. Electrochem. Soc. 115 (1968)_ p. 1130.pdf",
+      "sha256": "8f28f4233c1d05cee7f4aa28529e8099c219ec0777d351eddcfe7db292586f93"
+    },
+    "csv": {
+      "filename": "pitting_potential_2.csv",
+      "sha256": "bb6f3b7390685fadaad90ff5f697f0824552ba7d7d0ef96193723214b1ff7e4e"
+    },
+    "registry": {
+      "filename": "paper_2.json",
+      "sha256": "3a1e358c4586b996dc8ee9d0093bd4191b0c61680564afd5ee561bda7faeffe1"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "Visually inspected all supplied anchors (PDF pp.3-4), composition Table I (p.1), and method/reference/temperature text (p.2). Poppler missing-font warnings did not prevent reading the viewed evidence.",
+  "shared_qualifications": [
+    "Table I (PDF p.1) contains NA composition cells for intermediate heats; the footnote says not analyzed but within the series. CRA 389,390,393-395 omit Cr/Ni and calculate a near-pure-Fe balance inconsistent with the stainless-steel series. Their identity is supported by the exact Mo heat, Table III series order and acid condition, not by the erroneous Fe balance.",
+    "C2: scan rates in mV/hr divided by 3600 give mV/s: 2000 -> 0.555556; 600 -> 0.166667; 60 -> 0.0166667; 20 -> 0.00555556. CRA 403 lists 0.0167 although its independently identified 655 mV Table IV result uses 20 mV/hr. Preserve this source/CSV method conflict.",
+    "Table III NP means no pitting up to 0.8 V vs SCE. CSV >800 is retained as a qualitative/bound target, not a measured threshold or exact strict-inequality agreement.",
+    "CRA 402 is a 495-525 mV summary of the two standard 600-then-60 mV/hr Table IV runs. obs_018/019 are its individual endpoints, not two copies of an aggregate. Fig.7 obs_034/035 are possible repeated presentations but remain candidate-only because individual run identity is unstated."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 388,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "640",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "19.97",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "39 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "39.09",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.025 wt.% in Table I",
+              "cra_value": "0.025",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"value\": 0.64}",
+              "cra_value": "640",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 389,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "39 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.97 wt.% in Table I",
+              "cra_value": "0.97",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. Missing Cr/Ni and inconsistent Fe balance in CRA are source-field omissions/conflicts; they do not redefine the Table III heat. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 390,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "20 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "39 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.03 wt.% in Table I",
+              "cra_value": "3.03",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. Missing Cr/Ni and inconsistent Fe balance in CRA are source-field omissions/conflicts; they do not redefine the Table III heat. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 391,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "20.01 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "20.01",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "39.13 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "39.13",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.85 wt.% in Table I",
+              "cra_value": "4.85",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 392,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "390",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.67 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "17.67",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "13.57 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "13.57",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "1.99 wt.% in Table I",
+              "cra_value": "1.99",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"value\": 0.39}",
+              "cra_value": "390",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 393,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "18 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.45 wt.% in Table I",
+              "cra_value": "2.45",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. Missing Cr/Ni and inconsistent Fe balance in CRA are source-field omissions/conflicts; they do not redefine the Table III heat. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 394,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "18 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.93 wt.% in Table I",
+              "cra_value": "2.93",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. Missing Cr/Ni and inconsistent Fe balance in CRA are source-field omissions/conflicts; they do not redefine the Table III heat. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 395,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "18 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.37 wt.% in Table I",
+              "cra_value": "3.37",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. Missing Cr/Ni and inconsistent Fe balance in CRA are source-field omissions/conflicts; they do not redefine the Table III heat. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 396,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "17.6",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "13.56 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "13.5",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.89 wt.% in Table I",
+              "cra_value": "3.89",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 397,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.86 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "17.86",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "16.13 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "16.13",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "0.067 wt.% in Table I",
+              "cra_value": "0.067",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 398,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "18.01 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "18.01",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "16.25 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "16.25",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.48 wt.% in Table I",
+              "cra_value": "2.48",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 399,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": ">800",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "18.07 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "18.07",
+              "comparison": "Paired alloy series; NA source analyses remain unavailable rather than inferred as zero."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "16.17 wt.% (Table I analyzed or Table III nominal series)",
+              "cra_value": "16.17",
+              "comparison": "Distinguishes high-nickel, low-nickel and high-purity series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "4.99 wt.% in Table I",
+              "cra_value": "4.99",
+              "comparison": "Exact heat composition links nominal Table III label to CRA row."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 0.1N HCl",
+              "cra_value": " deaerated  0.1N HCl",
+              "comparison": "Same deaerated acid medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "24 +/- 1 C",
+              "cra_value": "24.0",
+              "comparison": "Method temperature agrees."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr then 60 mV/hr near pitting",
+              "cra_value": "0.167",
+              "comparison": "C2: initial 600/3600=0.166667 mV/s agrees with 0.167; the reduced terminal rate is not separately encoded in this CRA row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"min\": 0.8}",
+              "cra_value": ">800",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Table III outcome identified by series and Table I Mo heat in the same electrolyte. NP testing bound is compatible with the original >800 target; strictness of that target is not established by the source."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Transient initiation of pits that immediately repassivate is distinct from the stable-growth targets in the supplied Table IV CRA rows; no counterpart for this registered result definition."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 400,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "430",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt.%",
+              "cra_value": "17.6",
+              "comparison": "Table IV alloy agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "13.5 wt.%",
+              "cra_value": "13.6",
+              "comparison": "Table IV rounds the series differently from CSV 13.6; Table I heat is the same low-Ni series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.93 wt.%",
+              "cra_value": "2.93",
+              "comparison": "Exact Table IV heat."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0M sodium chloride, argon saturated",
+              "cra_value": "deaerated 1M NaCl",
+              "comparison": "Same electrolyte (method p.2)."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "2000 mV/hr terminal sweep",
+              "cra_value": "0.556",
+              "comparison": "C2: 2000/3600=0.55555556 mV/s; compatible with rounded CSV rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"value\": 0.43}",
+              "cra_value": "430",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Stable pit-growth Table IV result identified independently by alloy, electrolyte and row-specific sweep procedure."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Transient initiation of pits that immediately repassivate is distinct from the stable-growth targets in the supplied Table IV CRA rows; no counterpart for this registered result definition."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 401,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "470",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt.%",
+              "cra_value": "17.6",
+              "comparison": "Table IV alloy agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "13.5 wt.%",
+              "cra_value": "13.6",
+              "comparison": "Table IV rounds the series differently from CSV 13.6; Table I heat is the same low-Ni series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.93 wt.%",
+              "cra_value": "2.93",
+              "comparison": "Exact Table IV heat."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0M sodium chloride, argon saturated",
+              "cra_value": "deaerated 1M NaCl",
+              "comparison": "Same electrolyte (method p.2)."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "600 mV/hr terminal sweep",
+              "cra_value": "0.167",
+              "comparison": "C2: 600/3600=0.16666667 mV/s; compatible with rounded CSV rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"value\": 0.47}",
+              "cra_value": "470",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Stable pit-growth Table IV result identified independently by alloy, electrolyte and row-specific sweep procedure."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Transient initiation of pits that immediately repassivate is distinct from the stable-growth targets in the supplied Table IV CRA rows; no counterpart for this registered result definition."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 402,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "495.0",
+            "max": "525.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt.%",
+              "cra_value": "17.6",
+              "comparison": "Table IV alloy agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "13.5 wt.%",
+              "cra_value": "13.6",
+              "comparison": "Table IV rounds the series differently from CSV 13.6; Table I heat is the same low-Ni series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.93 wt.%",
+              "cra_value": "2.93",
+              "comparison": "Exact Table IV heat."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0M sodium chloride, argon saturated",
+              "cra_value": "deaerated 1M NaCl",
+              "comparison": "Same electrolyte (method p.2)."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "60 mV/hr terminal sweep",
+              "cra_value": "0.0167",
+              "comparison": "C2: 60/3600=0.016666667 mV/s; compatible with rounded CSV rate."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"value\": 0.525}",
+              "cra_value": "525.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Stable pit-growth Table IV result identified independently by alloy, electrolyte and row-specific sweep procedure. Shared CRA 402 range: this observation is an individual reported endpoint/run, not an average; run independence from the possible Fig.7 repetitions is unresolved."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 402,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "495.0",
+            "max": "525.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt.%",
+              "cra_value": "17.6",
+              "comparison": "Table IV alloy agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "13.5 wt.%",
+              "cra_value": "13.6",
+              "comparison": "Table IV rounds the series differently from CSV 13.6; Table I heat is the same low-Ni series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.93 wt.%",
+              "cra_value": "2.93",
+              "comparison": "Exact Table IV heat."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0M sodium chloride, argon saturated",
+              "cra_value": "deaerated 1M NaCl",
+              "comparison": "Same electrolyte (method p.2)."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "60 mV/hr terminal sweep",
+              "cra_value": "0.0167",
+              "comparison": "C2: 60/3600=0.016666667 mV/s; compatible with rounded CSV rate."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"value\": 0.495}",
+              "cra_value": "495.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Stable pit-growth Table IV result identified independently by alloy, electrolyte and row-specific sweep procedure. Shared CRA 402 range: this observation is an individual reported endpoint/run, not an average; run independence from the possible Fig.7 repetitions is unresolved."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Transient initiation of pits that immediately repassivate is distinct from the stable-growth targets in the supplied Table IV CRA rows; no counterpart for this registered result definition."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 403,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "655",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "17.6 wt.%",
+              "cra_value": "17.6",
+              "comparison": "Table IV alloy agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "13.5 wt.%",
+              "cra_value": "13.6",
+              "comparison": "Table IV rounds the series differently from CSV 13.6; Table I heat is the same low-Ni series."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2.93 wt.%",
+              "cra_value": "2.93",
+              "comparison": "Exact Table IV heat."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1.0M sodium chloride, argon saturated",
+              "cra_value": "deaerated 1M NaCl",
+              "comparison": "Same electrolyte (method p.2)."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/hr terminal sweep",
+              "cra_value": "0.0167",
+              "comparison": "C2: 20/3600=0.0055555556 mV/s; CRA rate conflicts with the actual 20 mV/hr row."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"v vs. SCE\", \"value\": 0.655}",
+              "cra_value": "655",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Stable pit-growth Table IV result identified independently by alloy, electrolyte and row-specific sweep procedure. CRA 403 terminal scan rate conflicts (0.0167 vs 0.00555556 mV/s); the 655 mV value and row identity remain supported."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 402,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "495.0",
+            "max": "525.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "2.93 wt.%",
+              "cra_value": "2.93",
+              "comparison": "Same low-nickel heat."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 1.0M NaCl",
+              "cra_value": "deaerated 1M NaCl",
+              "comparison": "Same medium."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs. SCE\", \"value\": 0.49}",
+              "cra_value": "495.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Fig.7 point is compatible with an endpoint of CRA 402 and may repeat Table IV; the paper does not explicitly identify the individual run. Retained as a candidate, without treating proximity as proof."
+        }
+      ],
+      "notes": "Fig.7 point is compatible with an endpoint of CRA 402 and may repeat Table IV; the paper does not explicitly identify the individual run. Retained as a candidate, without treating proximity as proof."
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 402,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "",
+            "min": "495.0",
+            "max": "525.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "2.93 wt.%",
+              "cra_value": "2.93",
+              "comparison": "Same low-nickel heat."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "argon-saturated 1.0M NaCl",
+              "cra_value": "deaerated 1M NaCl",
+              "comparison": "Same medium."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V vs. SCE\", \"value\": 0.52}",
+              "cra_value": "525.0",
+              "comparison": "Original source reading; V values are multiplied by 1000 to compare with mV, with no electrode offset where both scales are SCE. Bounds and individual range members retain their roles; no mean is calculated."
+            }
+          ],
+          "notes": "Fig.7 point is compatible with an endpoint of CRA 402 and may repeat Table IV; the paper does not explicitly identify the individual run. Retained as a candidate, without treating proximity as proof."
+        }
+      ],
+      "notes": "Fig.7 point is compatible with an endpoint of CRA 402 and may repeat Table IV; the paper does not explicitly identify the individual run. Retained as a candidate, without treating proximity as proof."
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_038",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_039",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_040",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_041",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_042",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    },
+    {
+      "observation_id": "obs_043",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No supported counterpart in the supplied CSV: the registered 1M NaCl alloy/result condition is not represented by the acid-series rows or the specific Table IV stable-growth rows."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

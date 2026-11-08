@@ -1,0 +1,217 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "27_Shang, X., et al. (2018). Science China Technological Sciences 61(2)_ 189-196.pdf",
+  "reference_number": 27,
+  "inputs": {
+    "pdf": {
+      "filename": "27_Shang, X., et al. (2018). Science China Technological Sciences 61(2)_ 189-196.pdf",
+      "sha256": "c7764305683e4cf379908e61a22eba52a6cfab102ef4170a77c9b37a37651c13"
+    },
+    "csv": {
+      "filename": "pitting_potential_27.csv",
+      "sha256": "151af5ccda8a1a217abb74ce1973b2cef0f2997b6e0bd996f3fb4fc6597cd85b"
+    },
+    "registry": {
+      "filename": "paper_27.json",
+      "sha256": "2eb258058675b422ec843c7efecaf4c71f8af628b29ae3dba048bc99859d3038"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    3,
+    5
+  ],
+  "coverage_notes": "All eight supplied observations and both CSV records considered. All registered anchors on PDF pp.3,5 and alloy/procedure/reference context on p.2 visually inspected.",
+  "shared_qualifications": [
+    "C1: Nominal atomic/molar coefficients are converted only for chemistry comparison: wt.%_i = 100*n_i*M_i / sum(n_j*M_j), over the complete stated formula. CIAAW abridged standard atomic weights 2024: Al 26.982, Co 58.933, Cr 51.996, Fe 55.845, Ni 58.693, Si 28.085, B 10.81 (https://ciaaw.org/abridged-atomic-weights.htm). Calculated nominal wt.% is not a measured analysis.",
+    "C2: PDF p.2 uses saturated-KCl SCE in NaCl, but Ag/AgCl (3.5 M KCl) in HCl. Conditional 25 C comparison for HCl: E_mV(SCE)=E_mV(Ag/AgCl)+205-241=E_mV(Ag/AgCl)-36. HORIBA gives Ag/AgCl 3.5 M KCl +0.205 V vs SHE at 25 C (https://www.horiba.com/twn/water-quality/support/electrochemistry/the-basis-of-ph/electrical-potential-of-reference-electrode/); Corrtest gives saturated-KCl SCE +0.241 V vs NHE at 25 C (https://www.corrtestinstruments.com/en/02437.html). Source tests are at room temperature; reference temperature is unspecified. Thus 246 mV vs Ag/AgCl would be 210 mV vs SCE under that convention, not CRA 246 mV(SCE). Other reasonable reference constants do not justify a zero offset.",
+    "Eb is the paper's breakdown/new-pit endpoint, with transpassive behavior also discussed. PDF p.5 says general corrosion predominates for NiCoCr/NiCoCrFe and few pits are seen; retain this qualification."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered pure-Ni/binary/ternary comparator has no counterpart: both CSV rows specify the equiatomic four-component NiCoCrFe alloy. The cited pure-Ni value (obs_008) and secondary Ni presentations were considered."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered pure-Ni/binary/ternary comparator has no counterpart: both CSV rows specify the equiatomic four-component NiCoCrFe alloy. The cited pure-Ni value (obs_008) and secondary Ni presentations were considered."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered pure-Ni/binary/ternary comparator has no counterpart: both CSV rows specify the equiatomic four-component NiCoCrFe alloy. The cited pure-Ni value (obs_008) and secondary Ni presentations were considered."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered pure-Ni/binary/ternary comparator has no counterpart: both CSV rows specify the equiatomic four-component NiCoCrFe alloy. The cited pure-Ni value (obs_008) and secondary Ni presentations were considered."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 595,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "805",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Nominal equiatomic NiCoCrFe; atomic/molar coefficient Ni=1",
+              "cra_value": "26.0",
+              "comparison": "C1: 100*1*58.693/225.467000 = 26.0317 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal equiatomic NiCoCrFe; atomic/molar coefficient Co=1",
+              "cra_value": "26.0",
+              "comparison": "C1: 100*1*58.933/225.467000 = 26.1382 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Nominal equiatomic NiCoCrFe; atomic/molar coefficient Cr=1",
+              "cra_value": "23.0",
+              "comparison": "C1: 100*1*51.996/225.467000 = 23.0615 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal equiatomic NiCoCrFe; atomic/molar coefficient Fe=1",
+              "cra_value": "25.0",
+              "comparison": "C1: 100*1*55.845/225.467000 = 24.7686 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M NaCl",
+              "cra_value": "0.1M NaCl",
+              "comparison": "Exact medium distinguishes the two experiments (PDF p.2 and Tables 1/2)."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M chloride in stated 0.1 M NaCl / HCl solution",
+              "cra_value": "0.1",
+              "comparison": "One chloride per formula unit; matches 0.1 M."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate (PDF p.2)."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE, saturated KCl)\", \"value\": 805}",
+              "cra_value": "805",
+              "comparison": "Table 1 Eb=805 mV relative to saturated-KCl SCE (p.2 methods); exact CRA 805 mV(SCE)."
+            }
+          ],
+          "notes": "Four-component equiatomic chemistry and specific electrolyte identify the Table 1 counterpart independently (PDF pp.2,3,5). Same SCE scale and endpoint."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered pure-Ni/binary/ternary comparator has no counterpart: both CSV rows specify the equiatomic four-component NiCoCrFe alloy. The cited pure-Ni value (obs_008) and secondary Ni presentations were considered."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 596,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "246",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Ni",
+              "paper_value": "Nominal equiatomic NiCoCrFe; atomic/molar coefficient Ni=1",
+              "cra_value": "26.0",
+              "comparison": "C1: 100*1*58.693/225.467000 = 26.0317 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal equiatomic NiCoCrFe; atomic/molar coefficient Co=1",
+              "cra_value": "26.0",
+              "comparison": "C1: 100*1*58.933/225.467000 = 26.1382 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Nominal equiatomic NiCoCrFe; atomic/molar coefficient Cr=1",
+              "cra_value": "23.0",
+              "comparison": "C1: 100*1*51.996/225.467000 = 23.0615 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal equiatomic NiCoCrFe; atomic/molar coefficient Fe=1",
+              "cra_value": "25.0",
+              "comparison": "C1: 100*1*55.845/225.467000 = 24.7686 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1 M HCl",
+              "cra_value": "0.1M HCl",
+              "comparison": "Exact medium distinguishes the two experiments (PDF p.2 and Tables 1/2)."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M chloride in stated 0.1 M NaCl / HCl solution",
+              "cra_value": "0.1",
+              "comparison": "One chloride per formula unit; matches 0.1 M."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate (PDF p.2)."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Table 2 Eb=246 mV relative to Ag/AgCl (3.5 M KCl)",
+              "cra_value": "246",
+              "comparison": "C2: conditional 25 C conversion is 246+205-241=210 mV(SCE), 36 mV below CRA 246 mV(SCE). Raw number equality does not imply electrode-scale agreement."
+            }
+          ],
+          "notes": "Four-component equiatomic chemistry and specific electrolyte identify the Table 2 counterpart independently (PDF pp.2,3,5). CRA appears to retain the raw Ag/AgCl number under an SCE header; the reference conflict is retained, with conversion conditional on stated 25 C constants."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered pure-Ni/binary/ternary comparator has no counterpart: both CSV rows specify the equiatomic four-component NiCoCrFe alloy. The cited pure-Ni value (obs_008) and secondary Ni presentations were considered."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

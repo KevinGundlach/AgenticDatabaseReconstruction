@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "43_V. Guillaumin, G. Mankowski, Corrosion Science, 41 (1998) 421-438.pdf",
+  "reference_number": 43,
+  "inputs": {
+    "pdf": {
+      "filename": "43_V. Guillaumin, G. Mankowski, Corrosion Science, 41 (1998) 421-438.pdf",
+      "sha256": "1ed2544830a5680ffea23a1df0afa043e8e6fc18d84bf5a41ae8073746766a94"
+    },
+    "csv": {
+      "filename": "pitting_potential_43.csv",
+      "sha256": "5baba4d7fea3cc48748110900bf06f324f642331b669c2238d325c1424f8628f"
+    },
+    "registry": {
+      "filename": "paper_43.json",
+      "sha256": "c3b7b1016407e9f99c5869cb1521abdb9d35707f76e2f0b885708794df47b499"
+    }
+  },
+  "inspected_pdf_pages": [
+    6,
+    7,
+    15,
+    17
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was considered. All registered anchor pages were visually inspected, including secondary locations. This is registry-scoped identity alignment, not a full-paper census or proof of the original curator's chosen presentation. Inputs are unchanged.",
+  "shared_qualifications": [
+    "The roughly 100 mV difference is not repaired as a transcription or reference-electrode error: the paper distinguishes S-phase dissolution from matrix pitting. Only the supplied matrix-pitting ID is assessed."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The registered matrix-pitting event Eb2 is about -620 mV(SCE), whereas sole CRA No.802 is -720 mV(SCE). PDF p.6 explicitly associates -720 (Eb1) with selective dissolution/dealloying of S-phase Al2CuMg; matrix pitting/intergranular attack begins at Eb2, confirmed by Fig.7, p.15 discussion and p.17 conclusion. Same alloy/medium cannot establish counterpart identity for these different outcomes; No.802 stays unlinked. No new Eb1 observation is created."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    802
+  ]
+}

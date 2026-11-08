@@ -1,0 +1,243 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "26_C.P. Lee, C.C. Chang, Y.Y. Chen, J.W. Yeh, and H.C. Shih. Corrosion Science, 50 (2008) 2053-2060.pdf",
+  "reference_number": 26,
+  "inputs": {
+    "pdf": {
+      "filename": "26_C.P. Lee, C.C. Chang, Y.Y. Chen, J.W. Yeh, and H.C. Shih. Corrosion Science, 50 (2008) 2053-2060.pdf",
+      "sha256": "a564bfd98b7676c5111c826957fe3f8ebd767de2562115c801ac7a9981efdf44"
+    },
+    "csv": {
+      "filename": "pitting_potential_26.csv",
+      "sha256": "3977ca8e76c87cdcb4cb85ccdf5d5880709d48394e46cb1be26010eae72cc0cb"
+    },
+    "registry": {
+      "filename": "paper_26.json",
+      "sha256": "430c3bf520622edcfdc8a2557f6672023011af2f967b1c513cef502aca4bb372"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    3,
+    4,
+    6
+  ],
+  "coverage_notes": "All ten supplied observations and both CSV records considered. Every registered anchor on PDF pp.3,4,6 and composition/reference/procedure context on p.2 visually inspected. No unregistered thresholds extracted.",
+  "shared_qualifications": [
+    "C2: Source methods (PDF p.2) used Ag/AgCl (3 M KCl), E=0.208 V vs SHE, and explicitly report all results on SHE. Convert the already reported SHE numbers, without applying 0.208 V again: E_mV(SCE)=E_mV(SHE)-241, conditional on a 25 C saturated-KCl SCE convention. Corrtest CS900 manufacturer specifies +0.241 V vs NHE at 25 C (https://www.corrtestinstruments.com/en/02437.html). Reference-electrode temperature is not established by the consulted paper methods; CRA 25 C alone is not paper evidence. Under this stated convention 1172-241=931 and 1164-241=923 mV. Agreement is conditional, not proof of the original curators' calibration.",
+    "Table 3 labels the chloride-free acid endpoints Epit, but PDF p.3 discusses transpassive dissolution and oxygen evolution in H2SO4; p.6 reports little/no pitting for the Al-free alloy. Identity is retained with this physical qualification."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 1 M NaCl endpoint on PDF p.3; both CSV rows instead describe deaerated 0.5 M H2SO4 without NaCl. For obs_002 the Al0.5 alloy also differs from the CSV Al0/Al0.3 alloys."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered 1 M NaCl endpoint on PDF p.3; both CSV rows instead describe deaerated 0.5 M H2SO4 without NaCl. For obs_002 the Al0.5 alloy also differs from the CSV Al0/Al0.3 alloys."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 593,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "931",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Table 1 CrFe1.5MnNi0.5: 0 wt.% Al",
+              "cra_value": "0.0",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 CrFe1.5MnNi0.5: 23.63 wt.% Cr",
+              "cra_value": "23.63",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Table 1 CrFe1.5MnNi0.5: 38.03 wt.% Fe",
+              "cra_value": "38.03",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "Table 1 CrFe1.5MnNi0.5: 24.99 wt.% Mn",
+              "cra_value": "24.99",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 CrFe1.5MnNi0.5: 13.33 wt.% Ni",
+              "cra_value": "13.33",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.5 M H2SO4, without added NaCl; deaerated with purified N2",
+              "cra_value": " Deaerated 0.5M H2SO4",
+              "comparison": "Table 3 row and p.2 methods identify the chloride-free acid counterpart; original leading CSV whitespace preserved."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "No added chloride in this Table 3 electrolyte",
+              "cra_value": "0.0",
+              "comparison": "Matches 0 M added chloride; no pH inferred."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact potentiodynamic sweep rate (p.2)."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 1172}",
+              "cra_value": "931",
+              "comparison": "C2 (conditional 25 C SCE): 1172 - 241 = 931 mV(SCE). Matches numerically under the stated convention; source values remain mV(SHE)."
+            }
+          ],
+          "notes": "Table 1 composition and Table 3 chloride-free acid row independently identify CrFe1.5MnNi0.5 with CRA 593 (PDF pp.2,4). C2 comparison is explicitly conditional. Source transpassive qualification retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 594,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "923",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Table 1 Al0.3CrFe1.5MnNi0.5: 3.55 wt.% Al",
+              "cra_value": "3.55",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 Al0.3CrFe1.5MnNi0.5: 22.79 wt.% Cr",
+              "cra_value": "22.79",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Table 1 Al0.3CrFe1.5MnNi0.5: 36.68 wt.% Fe",
+              "cra_value": "36.68",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "Table 1 Al0.3CrFe1.5MnNi0.5: 24.1 wt.% Mn",
+              "cra_value": "24.1",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 Al0.3CrFe1.5MnNi0.5: 12.86 wt.% Ni",
+              "cra_value": "12.86",
+              "comparison": "Direct source wt.% analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.5 M H2SO4, without added NaCl; deaerated with purified N2",
+              "cra_value": " Deaerated 0.5M H2SO4",
+              "comparison": "Table 3 row and p.2 methods identify the chloride-free acid counterpart; original leading CSV whitespace preserved."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "No added chloride in this Table 3 electrolyte",
+              "cra_value": "0.0",
+              "comparison": "Matches 0 M added chloride; no pH inferred."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact potentiodynamic sweep rate (p.2)."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 1164}",
+              "cra_value": "923",
+              "comparison": "C2 (conditional 25 C SCE): 1164 - 241 = 923 mV(SCE). Matches numerically under the stated convention; source values remain mV(SHE)."
+            }
+          ],
+          "notes": "Table 1 composition and Table 3 chloride-free acid row independently identify Al0.3CrFe1.5MnNi0.5 with CRA 594 (PDF pp.2,4). C2 comparison is explicitly conditional. Source transpassive qualification retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3: 0.5 M H2SO4 + 0.10 M NaCl, whereas both CSV rows specify the chloride-free acid. Same alloy family alone does not identify the same experiment."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3: 0.5 M H2SO4 + 0.10 M NaCl, whereas both CSV rows specify the chloride-free acid. Same alloy family alone does not identify the same experiment."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3 and secondary p.6 text describe acid + 0.25 M NaCl, unlike both chloride-free acid CSV rows. Both registered presentations considered; no counterpart for this electrolyte."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3 and secondary p.6 text describe acid + 0.25 M NaCl, unlike both chloride-free acid CSV rows. Both registered presentations considered; no counterpart for this electrolyte."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3 acid + 0.50 M NaCl condition has no counterpart in the two chloride-free acid CSV records."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3 acid + 0.50 M NaCl condition has no counterpart in the two chloride-free acid CSV records."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

@@ -1,0 +1,879 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "69_W.C. Moshier, G.D. Davis, J.S. Ahearn, H.F. Hough, J Electrochem Soc, 134 (1987) 2677-2684.pdf",
+  "reference_number": 69,
+  "inputs": {
+    "pdf": {
+      "filename": "69_W.C. Moshier, G.D. Davis, J.S. Ahearn, H.F. Hough, J Electrochem Soc, 134 (1987) 2677-2684.pdf",
+      "sha256": "4b1ce343e1a3b09b0c8fbc4e4c493fa0c2d337089c06450e7a092e9b4e681567"
+    },
+    "csv": {
+      "filename": "pitting_potential_69.csv",
+      "sha256": "e437f60d8762b84e6a67735712c8057c2ad5dcc609219606f7ae2d22e97a0372"
+    },
+    "registry": {
+      "filename": "paper_69.json",
+      "sha256": "480eb3d79989a23d0e0a28e33cfa55cbec8f25ed6e49736dad3b3c9cc1d0a731"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "coverage_notes": "Every supplied observation and CRA row was considered. Every registered anchor page, including secondary locations, was actually viewed. Context pages and enlarged source plots were consulted where needed. This is alignment of the exact supplied registry, not a full-paper census or proof of the presentation selected by the original curators. Inputs are unchanged.",
+  "shared_qualifications": [
+    "C1: source Fig.6 composition is at% Mo, with Al balance in the stated binary alloy. Using CIAAW Al26.982 andMo95.95 (https://ciaaw.org/abridged-atomic-weights.htm), wt%Mo=100*x*95.95/((100-x)*26.982+x*95.95). Inverting original CRA binary wt% cells gives approximately2.8,5.4,10.4,3.0,4.0,5.0,6.0 and8.2 at% Mo forCRA720-727, respectively. These are explicitly dataset-derived calculations, not independent paper composition measurements.",
+    "The actual enlarged Fig.6 points and original registry coordinates are retained; the smooth fitted line is not an observation. Crowded points near3-6 at% are distinct specimens. Matching only a similar potential would conceal composition conflicts. Plausible alternatives around5.0/5.4 at% are retained without choosing the closest potential.",
+    "obs_004 at approximately4.0 at% Mo has about-145 mV(SCE), whereasCRA724 corresponds to approximately4.0 at% but says-330 mV. Composition/medium independently support the identity, with discrepant potential agreement; no reassignment to a nearby-330 mV marker is made. obs_003/005/006/007/008/010 have unresolved composition-counterpart differences and remain candidates.",
+    "The binary films were RF magnetron sputter-deposited and contain Mo in solid solution (PDF pp.2-4). Source0.1 N KCl is N2-deaerated and adjusted topH8 withKOH. For monovalent KCl,0.1 N supplies0.1 mol/L chloride. Source sweep rate is0.2 mV/s after OCP change<1 mV over6 min; the CRA scan-rate cell is blank, not zero.",
+    "All source potentials use SCE, so no electrode offset is applied. Source methods do not establish numerical25/26 C test temperatures in the inspected passages; CRA temperature values are not copied to the paper side. The Al-13Mo no-degradation limit at0 V has no corresponding13 at% CRA material and is not treated as a measured breakdown.",
+    "Poppler returned success with Symbol/ArialNarrow font warnings. The relevant source text, axes, markers and captions were legible, including the enlarged Fig.6."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 719,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-630",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "100 at% Al, 0 at% Mo; Fig.6 registered marker at approximately0 at% Mo, PDF p.5",
+              "cra_value": "100.0",
+              "comparison": "C1: wt% Al=100*100*26.982/2698.200000=100.00000; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "100 at% Al, 0 at% Mo; Fig.6 registered marker at approximately0 at% Mo, PDF p.5",
+              "cra_value": "0.0",
+              "comparison": "C1: wt% Mo=100*0*95.95/2698.200000=0.00000; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -630}",
+              "cra_value": "-630",
+              "comparison": "Same mV(SCE) scale; no offset. The discrete source potential is compared at its graphical precision; additional CRA digits do not improve source precision."
+            }
+          ],
+          "notes": "Source binary composition coordinate/C1 conversion and independently specified film/electrolyte/protocol identify this counterpart. Small coordinate/potential differences are compatible with the plotted precision; no curve interpolation or new mean is used."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 720,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-485",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "97.2 at% Al, 2.8 at% Mo; Fig.6 registered marker at approximately2.8 at% Mo, PDF p.5",
+              "cra_value": "90.71",
+              "comparison": "C1: wt% Al=100*97.2*26.982/2891.310400=90.70802; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "97.2 at% Al, 2.8 at% Mo; Fig.6 registered marker at approximately2.8 at% Mo, PDF p.5",
+              "cra_value": "9.29",
+              "comparison": "C1: wt% Mo=100*2.8*95.95/2891.310400=9.29198; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -480}",
+              "cra_value": "-485",
+              "comparison": "Same mV(SCE) scale; no offset. The discrete source potential is compared at its graphical precision; additional CRA digits do not improve source precision."
+            }
+          ],
+          "notes": "Source binary composition coordinate/C1 conversion and independently specified film/electrolyte/protocol identify this counterpart. Small coordinate/potential differences are compatible with the plotted precision; no curve interpolation or new mean is used."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 723,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-330",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "96.6 at% Al, 3.4 at% Mo; Fig.6 registered marker at approximately3.4 at% Mo, PDF p.5",
+              "cra_value": "90.09",
+              "comparison": "C1: wt% Al=100*96.6*26.982/2932.691200=88.87609; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "96.6 at% Al, 3.4 at% Mo; Fig.6 registered marker at approximately3.4 at% Mo, PDF p.5",
+              "cra_value": "9.91",
+              "comparison": "C1: wt% Mo=100*3.4*95.95/2932.691200=11.12391; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -330}",
+              "cra_value": "-330",
+              "comparison": "Both use mV(SCE), without an offset. CRA-derived3.0 at% versus source approximately3.4; similar-330 mV values do not resolve composition identity."
+            }
+          ],
+          "notes": "Candidate-only: CRA-derived3.0 at% versus source approximately3.4; similar-330 mV values do not resolve composition identity. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+        }
+      ],
+      "notes": "Candidate-only: CRA-derived3.0 at% versus source approximately3.4; similar-330 mV values do not resolve composition identity. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 724,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-330",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "96 at% Al, 4 at% Mo; Fig.6 registered marker at approximately4 at% Mo, PDF p.5",
+              "cra_value": "87.09",
+              "comparison": "C1: wt% Al=100*96*26.982/2974.072000=87.09513; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "96 at% Al, 4 at% Mo; Fig.6 registered marker at approximately4 at% Mo, PDF p.5",
+              "cra_value": "12.91",
+              "comparison": "C1: wt% Mo=100*4*95.95/2974.072000=12.90487; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -145}",
+              "cra_value": "-330",
+              "comparison": "Same mV(SCE) scale; no offset. The source marker is approximately-145 mV, contradictingCRA-330 mV at the independently matched4.0 at% composition."
+            }
+          ],
+          "notes": "Source binary composition coordinate/C1 conversion and independently specified film/electrolyte/protocol identify this counterpart. The potential contradiction is explicit and is not repaired by selecting a neighboring point."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 724,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-330",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "95.7 at% Al, 4.3 at% Mo; Fig.6 registered marker at approximately4.3 at% Mo, PDF p.5",
+              "cra_value": "87.09",
+              "comparison": "C1: wt% Al=100*95.7*26.982/2994.762400=86.22311; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "95.7 at% Al, 4.3 at% Mo; Fig.6 registered marker at approximately4.3 at% Mo, PDF p.5",
+              "cra_value": "12.91",
+              "comparison": "C1: wt% Mo=100*4.3*95.95/2994.762400=13.77689; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -250}",
+              "cra_value": "-330",
+              "comparison": "Both use mV(SCE), without an offset. CRA-derived4.0 at% versus source approximately4.3; source-250 versusCRA-330 mV also differs. The distinct4.0 at% marker remains registered separately."
+            }
+          ],
+          "notes": "Candidate-only: CRA-derived4.0 at% versus source approximately4.3; source-250 versusCRA-330 mV also differs. The distinct4.0 at% marker remains registered separately. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+        }
+      ],
+      "notes": "Candidate-only: CRA-derived4.0 at% versus source approximately4.3; source-250 versusCRA-330 mV also differs. The distinct4.0 at% marker remains registered separately. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 725,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-280",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "94.9 at% Al, 5.1 at% Mo; Fig.6 registered marker at approximately5.1 at% Mo, PDF p.5",
+              "cra_value": "84.23",
+              "comparison": "C1: wt% Al=100*94.9*26.982/3049.936800=83.95557; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "94.9 at% Al, 5.1 at% Mo; Fig.6 registered marker at approximately5.1 at% Mo, PDF p.5",
+              "cra_value": "15.77",
+              "comparison": "C1: wt% Mo=100*5.1*95.95/3049.936800=16.04443; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -145}",
+              "cra_value": "-280",
+              "comparison": "Both use mV(SCE), without an offset. CRA-derived5.0 at% is near the5.1 at% marker, but source-145 versusCRA-280 mV disagrees."
+            }
+          ],
+          "notes": "Candidate-only: CRA-derived5.0 at% is near the5.1 at% marker, but source-145 versusCRA-280 mV disagrees. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+        },
+        {
+          "citrine_no": 721,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-265",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "94.9 at% Al, 5.1 at% Mo; Fig.6 registered marker at approximately5.1 at% Mo, PDF p.5",
+              "cra_value": "83.12",
+              "comparison": "C1: wt% Al=100*94.9*26.982/3049.936800=83.95557; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "94.9 at% Al, 5.1 at% Mo; Fig.6 registered marker at approximately5.1 at% Mo, PDF p.5",
+              "cra_value": "16.88",
+              "comparison": "C1: wt% Mo=100*5.1*95.95/3049.936800=16.04443; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -145}",
+              "cra_value": "-265",
+              "comparison": "Both use mV(SCE), without an offset. The adjacent CRA-derived5.4 at% composition is another unresolved nearby alternative; source-145 versusCRA-265 mV disagrees."
+            }
+          ],
+          "notes": "Candidate-only: The adjacent CRA-derived5.4 at% composition is another unresolved nearby alternative; source-145 versusCRA-265 mV disagrees. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+        }
+      ],
+      "notes": "Candidate-only: The adjacent CRA-derived5.4 at% composition is another unresolved nearby alternative; source-145 versusCRA-265 mV disagrees. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 725,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-280",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "94.7 at% Al, 5.3 at% Mo; Fig.6 registered marker at approximately5.3 at% Mo, PDF p.5",
+              "cra_value": "84.23",
+              "comparison": "C1: wt% Al=100*94.7*26.982/3063.730400=83.40144; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "94.7 at% Al, 5.3 at% Mo; Fig.6 registered marker at approximately5.3 at% Mo, PDF p.5",
+              "cra_value": "15.77",
+              "comparison": "C1: wt% Mo=100*5.3*95.95/3063.730400=16.59856; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -285}",
+              "cra_value": "-280",
+              "comparison": "Both use mV(SCE), without an offset. CRA-derived5.0 at% versus source5.3; similar potential does not establish counterpart identity."
+            }
+          ],
+          "notes": "Candidate-only: CRA-derived5.0 at% versus source5.3; similar potential does not establish counterpart identity. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+        },
+        {
+          "citrine_no": 721,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-265",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "94.7 at% Al, 5.3 at% Mo; Fig.6 registered marker at approximately5.3 at% Mo, PDF p.5",
+              "cra_value": "83.12",
+              "comparison": "C1: wt% Al=100*94.7*26.982/3063.730400=83.40144; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "94.7 at% Al, 5.3 at% Mo; Fig.6 registered marker at approximately5.3 at% Mo, PDF p.5",
+              "cra_value": "16.88",
+              "comparison": "C1: wt% Mo=100*5.3*95.95/3063.730400=16.59856; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -285}",
+              "cra_value": "-265",
+              "comparison": "Both use mV(SCE), without an offset. CRA-derived5.4 at% is also close to source5.3; source-285 versusCRA-265 mV remains a resolvable potential difference."
+            }
+          ],
+          "notes": "Candidate-only: CRA-derived5.4 at% is also close to source5.3; source-285 versusCRA-265 mV remains a resolvable potential difference. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+        }
+      ],
+      "notes": "Candidate-only: CRA-derived5.4 at% is also close to source5.3; source-285 versusCRA-265 mV remains a resolvable potential difference. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 721,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-265",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "94.4 at% Al, 5.6 at% Mo; Fig.6 registered marker at approximately5.6 at% Mo, PDF p.5",
+              "cra_value": "83.12",
+              "comparison": "C1: wt% Al=100*94.4*26.982/3084.420800=82.57955; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "94.4 at% Al, 5.6 at% Mo; Fig.6 registered marker at approximately5.6 at% Mo, PDF p.5",
+              "cra_value": "16.88",
+              "comparison": "C1: wt% Mo=100*5.6*95.95/3084.420800=17.42045; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -265}",
+              "cra_value": "-265",
+              "comparison": "Both use mV(SCE), without an offset. CRA-derived5.4 at% versus source5.6; matching-265 mV values do not resolve the neighboring-composition ambiguity."
+            }
+          ],
+          "notes": "Candidate-only: CRA-derived5.4 at% versus source5.6; matching-265 mV values do not resolve the neighboring-composition ambiguity. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+        }
+      ],
+      "notes": "Candidate-only: CRA-derived5.4 at% versus source5.6; matching-265 mV values do not resolve the neighboring-composition ambiguity. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 726,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-200",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "93.9 at% Al, 6.1 at% Mo; Fig.6 registered marker at approximately6.1 at% Mo, PDF p.5",
+              "cra_value": "81.5",
+              "comparison": "C1: wt% Al=100*93.9*26.982/3118.904800=81.23396; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "93.9 at% Al, 6.1 at% Mo; Fig.6 registered marker at approximately6.1 at% Mo, PDF p.5",
+              "cra_value": "18.5",
+              "comparison": "C1: wt% Mo=100*6.1*95.95/3118.904800=18.76604; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -210}",
+              "cra_value": "-200",
+              "comparison": "Same mV(SCE) scale; no offset. The discrete source potential is compared at its graphical precision; additional CRA digits do not improve source precision."
+            }
+          ],
+          "notes": "Source binary composition coordinate/C1 conversion and independently specified film/electrolyte/protocol identify this counterpart. Small coordinate/potential differences are compatible with the plotted precision; no curve interpolation or new mean is used."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 727,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-40",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "91.3 at% Al, 8.7 at% Mo; Fig.6 registered marker at approximately8.7 at% Mo, PDF p.5",
+              "cra_value": "75.89",
+              "comparison": "C1: wt% Al=100*91.3*26.982/3298.221600=74.69045; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "91.3 at% Al, 8.7 at% Mo; Fig.6 registered marker at approximately8.7 at% Mo, PDF p.5",
+              "cra_value": "24.11",
+              "comparison": "C1: wt% Mo=100*8.7*95.95/3298.221600=25.30955; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -45}",
+              "cra_value": "-40",
+              "comparison": "Both use mV(SCE), without an offset. CRA-derived8.2 at% versus source8.7; approximate-40/-45 mV agreement is insufficient to repair the composition difference."
+            }
+          ],
+          "notes": "Candidate-only: CRA-derived8.2 at% versus source8.7; approximate-40/-45 mV agreement is insufficient to repair the composition difference. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+        }
+      ],
+      "notes": "Candidate-only: CRA-derived8.2 at% versus source8.7; approximate-40/-45 mV agreement is insufficient to repair the composition difference. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 722,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-130",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "89.6 at% Al, 10.4 at% Mo; Fig.6 registered marker at approximately10.4 at% Mo, PDF p.5",
+              "cra_value": "70.78",
+              "comparison": "C1: wt% Al=100*89.6*26.982/3415.467200=70.78350; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "89.6 at% Al, 10.4 at% Mo; Fig.6 registered marker at approximately10.4 at% Mo, PDF p.5",
+              "cra_value": "29.22",
+              "comparison": "C1: wt% Mo=100*10.4*95.95/3415.467200=29.21650; denominator=sum(x*M) for the complete stated composition. Original CRA wt% cell is retained, including any basis conflict."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-deaerated0.1 N KCl, pH8, PDF p.2",
+              "cra_value": "0.1 N KCl Deaerated N2 pH 8",
+              "comparison": "Same independent electrolyte; for this monovalent salt0.1 N gives0.1 mol/L chloride."
+            },
+            {
+              "field": "pH",
+              "paper_value": "8, adjusted withKOH",
+              "cra_value": "8.0",
+              "comparison": "Same explicit source pH."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Sputter-deposited binary film; OCP change<1 mV over6 min before anodic polarization, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP was mesured until stability for 6 mins",
+              "comparison": "Same source material/method series; separately plotted compositions are not forced into replicate groups."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.2 mV/s, PDF p.2",
+              "cra_value": "",
+              "comparison": "Source supplies the scan rate; original CRA blank cell is retained as missing information."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": -130}",
+              "cra_value": "-130",
+              "comparison": "Same mV(SCE) scale; no offset. The discrete source potential is compared at its graphical precision; additional CRA digits do not improve source precision."
+            }
+          ],
+          "notes": "Source binary composition coordinate/C1 conversion and independently specified film/electrolyte/protocol identify this counterpart. Small coordinate/potential differences are compatible with the plotted precision; no curve interpolation or new mean is used."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The source explicitly reports no surface degradation after polarization ofAl-13Mo to0 V(SCE), with the Fig.6 upward arrow (PDF p.5). No supplied binary CRA composition corresponds to13 at% Mo. The bound is not converted into a measured onset or assigned to the10.4 at% record."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    721,
+    723,
+    725,
+    727
+  ]
+}

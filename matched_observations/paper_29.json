@@ -1,0 +1,134 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "29_A.A. Rodriguez, J.H. Tylczak, M.C. Gao, P.D. Jablonski, M. Detrois, M. Ziomek-Moroz, J.A. Hawk, Advances in Materials Science and Engineering, 2018 (2018) 11.pdf",
+  "reference_number": 29,
+  "inputs": {
+    "pdf": {
+      "filename": "29_A.A. Rodriguez, J.H. Tylczak, M.C. Gao, P.D. Jablonski, M. Detrois, M. Ziomek-Moroz, J.A. Hawk, Advances in Materials Science and Engineering, 2018 (2018) 11.pdf",
+      "sha256": "adba215f00a91474beaa3c81ed992125a86683f0b243b08d244191bc1bc0eeca"
+    },
+    "csv": {
+      "filename": "pitting_potential_29.csv",
+      "sha256": "70b408811017ba0037560bc5c1760625ae7d9304ae0dba735f537c37bbd95085"
+    },
+    "registry": {
+      "filename": "paper_29.json",
+      "sha256": "e5a5f04977a72324f595c89cdcdf2eb4b01ae552152b202943ad5d668d87d6d0"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    3,
+    4,
+    5,
+    7,
+    9
+  ],
+  "coverage_notes": "All two supplied observations and both CSV records considered. Initial Poppler rendering of the long original path failed with I/O Error: Couldn't open file. A short-named byte-identical copy (SHA-256 verified) rendered successfully. All registered anchors (PDF pp.4,5,7,9) and composition/procedure context (pp.2-3) actually viewed. CRA 601 remains unlinked relative to this registry; no new A36 observation was added.",
+  "shared_qualifications": [
+    "A35 Ebre marks pseudopassive breakdown and metastable-pit initiation, not necessarily a stable-pitting threshold (PDF pp.4-5). The registered endpoint is retained with this qualification.",
+    "PDF pp.5,9 explicitly give the same A35 Ebre as 0.32 V vs SCE and 0.56 V vs SHE; their source-supplied rounded equivalence is a 0.24 V offset. Primary SCE value is unchanged, and secondary SHE readings remain in their original scale.",
+    "PDF pp.4-5 give initial pH 8.4 and final pH 10.9 for A35; CRA pH is 7.0. This context conflict does not change the identity.",
+    "obs_002 retains the source SS316/316L naming inconsistency; it has no supplied CRA material counterpart."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 600,
+          "location_indices": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "cra_potential": {
+            "avg": "320",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Table 1 A35: 19.98 wt.% Fe",
+              "cra_value": "19.98",
+              "comparison": "Direct source wt.% matches; distinguishes A35 from Mo-bearing A36 (PDF p.3)."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 A35: 18.4 wt.% Cr",
+              "cra_value": "18.4",
+              "comparison": "Direct source wt.% matches; distinguishes A35 from Mo-bearing A36 (PDF p.3)."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 A35: 40.84 wt.% Ni",
+              "cra_value": "40.84",
+              "comparison": "Direct source wt.% matches; distinguishes A35 from Mo-bearing A36 (PDF p.3)."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Table 1 A35: 20.67 wt.% Co",
+              "cra_value": "20.67",
+              "comparison": "Direct source wt.% matches; distinguishes A35 from Mo-bearing A36 (PDF p.3)."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "A35 Table 1 Mo cell is an em dash; base formula CoCrFeNi2",
+              "cra_value": "0.0",
+              "comparison": "Source base alloy has no stated Mo addition; distinguishes CRA 600 from 601 (7.64 wt.% Mo), without interpreting arbitrary missing cells as zero."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5 wt.% NaCl, nondeaerated",
+              "cra_value": "3.5wt% NaCl",
+              "comparison": "Exact electrolyte (PDF pp.2-3)."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Exact test temperature (PDF p.3 and Table 2)."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "1 mV/s",
+              "cra_value": "1",
+              "comparison": "Exact sweep rate (PDF p.4)."
+            },
+            {
+              "field": "pH",
+              "paper_value": "Initial pH 8.4; final pH for A35 10.9",
+              "cra_value": "7.0",
+              "comparison": "Disagrees with CRA pH 7.0; source value retained."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.32}",
+              "cra_value": "320",
+              "comparison": "Primary Table 2 and registered text/conclusion: 0.32 V(SCE)*1000=320 mV(SCE), exact. Secondary 0.56 V(SHE) is explicitly presented by the source as the same endpoint; source rounded equivalence (0.56-0.24)*1000=320 mV(SCE). This is source-supplied equivalence, not a fitted external calibration."
+            }
+          ],
+          "notes": "A35 measured chemistry and 25 C nondeaerated NaCl test identify CRA 600 independently (PDF pp.2-4, Table 1). All six registered locations support the same source-described endpoint; no extra replicate is inferred. Primary Table 2 and repeated SCE values agree; secondary SHE equivalence, metastable-pit meaning and pH conflict retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "SS316/316L comparator in text/Table 2 has no counterpart: supplied CRA rows are A35 and Mo-bearing A36. Source naming inconsistency retained; origin category is not the exclusion reason."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    601
+  ]
+}

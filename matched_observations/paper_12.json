@@ -1,0 +1,1740 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "12_N. D. Tomashov, G. P. Chernova, O. N. Markova, Corrosion 20 (1964)_ p. 166t.pdf",
+  "reference_number": 12,
+  "inputs": {
+    "pdf": {
+      "filename": "12_N. D. Tomashov, G. P. Chernova, O. N. Markova, Corrosion 20 (1964)_ p. 166t.pdf",
+      "sha256": "bb6fc75e892add8233ca127af958c13e772bbf7e8d2ade25183883bab0ed98b9"
+    },
+    "csv": {
+      "filename": "pitting_potential_12.csv",
+      "sha256": "0ec9291fa54a2150fc4ee58c534618157c6d618945209a659346d3093d59d0ad"
+    },
+    "registry": {
+      "filename": "paper_12.json",
+      "sha256": "cda06367749da7d094ed346296ced279c41734f9787025620f8edd8abec74179"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "coverage_notes": "Viewed all registered anchors on PDF pp.4 and 6, plus title p.1, composition/heat treatment p.2 and hydrogen-reference text p.3. Figure 3 was enlarged and actually viewed; crowded low-addition symbols remain ambiguous. No registry values or IDs were changed.",
+  "shared_qualifications": [
+    "C12 (conditional): E(mV vs SCE)=1000 E(V vs NHE)-244. The paper explicitly states normal hydrogen reference (PDF p.3). The 25 C calomel value +0.244 V vs SHE is tabulated by HORIBA: https://www.horiba.com/twn/water-quality/support/electrochemistry/the-basis-of-ph/electrical-potential-of-reference-electrode/ . Comparison assumes the target saturated-calomel scale is at 25 C and NHE is the common hydrogen scale. Reference-electrode temperature/calibration is not specified; solution temperature alone does not establish it. The constant was not fitted to CRA targets.",
+    "The 18Cr-14Ni base is Cr 17.93, Ni 14.38, C 0.036 wt.% (PDF p.2). Table I supplies supplementary contents in wt.%; starred Ce/Re/Mo contents are based on charge. Nominal 5% labels are distinguished from Table I V 4.75% and Si 4.74%.",
+    "Table 3 annealed (2 h at 650 C) and quenched (1150 C, water quenched) results are distinct. Quenched V and Si >1.50 V are bounds, not exact thresholds. The quenched baseline and high-V bound have no corresponding row in this CSV.",
+    "obs_006/Ce 0.2% is about 0.66 V in the registry and visible figure, giving conditionally 416 mV versus CRA 400; identity is independently supported but potential agreement is discrepant. obs_007 registry 0.51 V lies below the visible approximately 0.52 V Ce marker; CRA 279 mV corresponds conditionally to 0.523 V. Both registry readings are preserved, with discrepancies explicit.",
+    "Partial obs_024/025/026 retain their unresolved cluster-series assignments. Compatible Nb 0.92, Ta 1.00 and Nb 1.30 rows remain candidates; numerical agreement does not resolve the faint series. Partial low-Si obs_015 is assessed, but no Si 1.45% row is supplied.",
+    "The annealed Mo breakdown is associated in the source with grain-boundary/intergranular attack, rather than unqualified pitting. Si near nominal 5% has an alpha phase in the source (p.2); CRA 383 only says austenitic. Qualifications are retained without excluding the registered outcomes."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Quenched base alloy Table 3 value 0.644 V has no unalloyed-quenched CRA row. CRA 362 has Ce 0.2%, and CRA 384 is annealed; neither is substituted for the baseline."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 365,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "535",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Re",
+              "paper_value": "0.99 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "0.99",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.78}",
+              "cra_value": "535",
+              "comparison": "C12 conditional: 0.78 x1000 -244 = 536 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 366,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "617",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Re",
+              "paper_value": "2.5 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "2.5",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.86}",
+              "cra_value": "617",
+              "comparison": "C12 conditional: 0.86 x1000 -244 = 616 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 367,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "418",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ti",
+              "paper_value": "0.19 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "0.19",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.67}",
+              "cra_value": "418",
+              "comparison": "C12 conditional: 0.67 x1000 -244 = 426 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 368,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "446",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ti",
+              "paper_value": "0.31 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "0.31",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.69}",
+              "cra_value": "446",
+              "comparison": "C12 conditional: 0.69 x1000 -244 = 446 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 362,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "400",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Ce",
+              "paper_value": "0.2 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "0.2",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.66}",
+              "cra_value": "400",
+              "comparison": "C12 conditional: 0.66 x1000 -244 = 416 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12. Registry/visible approximately 0.66 V gives 416 mV, 16 mV above CRA 400; retained as discrepant."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 363,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "279",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Ce",
+              "paper_value": "0.5 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "0.503",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.51}",
+              "cra_value": "279",
+              "comparison": "C12 conditional: 0.51 x1000 -244 = 266 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12. Registry 0.51 V gives 266 mV, 13 mV below CRA 279. Enlarged marker is approximately 0.52 V; source/registry recovery difference is disclosed without changing the primary reading."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 364,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "395",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ce",
+              "paper_value": "1 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "1.0",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.64}",
+              "cra_value": "395",
+              "comparison": "C12 conditional: 0.64 x1000 -244 = 396 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 371,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "405",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "1.47 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "1.47",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.65}",
+              "cra_value": "405",
+              "comparison": "C12 conditional: 0.65 x1000 -244 = 406 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 372,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "457",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "2.75 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "2.75",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.7}",
+              "cra_value": "457",
+              "comparison": "C12 conditional: 0.7 x1000 -244 = 456 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 373,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "956",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "5 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "5.0",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"Volts\", \"value\": 1.2}",
+              "cra_value": "956",
+              "comparison": "C12 conditional: 1.2 x1000 -244 = 956 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 369,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "407",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "V",
+              "paper_value": "1 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "1.0",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.65}",
+              "cra_value": "407",
+              "comparison": "C12 conditional: 0.65 x1000 -244 = 406 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 370,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "475",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "V",
+              "paper_value": "2.25 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "2.25",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.72}",
+              "cra_value": "475",
+              "comparison": "C12 conditional: 0.72 x1000 -244 = 476 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Quenched nominal 5% V >1.50 V bound has no corresponding CSV row; CRA 386 is the annealed 4.75% V result and is not an equivalent condition."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Partial low-Si marker/placement remains limited as recorded in the registry; CSV has no Si 1.45% heat. Superposed W 1.5% is a different alloy, not a substitute."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 382,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "355",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Si",
+              "paper_value": "3.3 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "3.33",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.6}",
+              "cra_value": "355",
+              "comparison": "C12 conditional: 0.6 x1000 -244 = 356 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 383,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": ">1256",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Si",
+              "paper_value": "4.74 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "4.74",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"Volts\", \"min\": 1.5}",
+              "cra_value": ">1256",
+              "comparison": "C12 conditional: 1.5 x1000 -244 = 1256 mV vs SCE as a strict lower bound, not an observed threshold."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12. Strict >1.50 V bound; source alpha phase is absent from CRA austenitic-only description."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 374,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "329",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "W",
+              "paper_value": "0.18 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "0.18",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.575}",
+              "cra_value": "329",
+              "comparison": "C12 conditional: 0.575 x1000 -244 = 331 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 375,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "393",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "W",
+              "paper_value": "1.5 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "1.5",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.64}",
+              "cra_value": "393",
+              "comparison": "C12 conditional: 0.64 x1000 -244 = 396 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 376,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "446",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "W",
+              "paper_value": "2.67 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "2.67",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.69}",
+              "cra_value": "446",
+              "comparison": "C12 conditional: 0.69 x1000 -244 = 446 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 378,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "376",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ta",
+              "paper_value": "2.07 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "2.07",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.62}",
+              "cra_value": "376",
+              "comparison": "C12 conditional: 0.62 x1000 -244 = 376 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 381,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "326",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "2.18 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "2.18",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C for 15 min, water quenched",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.57}",
+              "cra_value": "326",
+              "comparison": "C12 conditional: 0.57 x1000 -244 = 326 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Partial anonymous approximately 0.6 wt.% cluster marker may involve Zr/Ta series not resolved visually; no defensible corresponding supplied CRA composition at this content. Recovery limitation is retained."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 379,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "375",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Unassigned converging-series marker at 0.92 wt.% supplementary content; element identity unresolved",
+              "cra_value": "0.92",
+              "comparison": "Compatible with this Table I content and candidate series, but source symbol/line association remains unresolved."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18Cr-14Ni base; measured Cr 17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base family agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 caption."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C water quench",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Figure 3 methods context."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.62}",
+              "cra_value": "375",
+              "comparison": "C12 conditional: 0.62 x1000 -244=376 mV; compatible potential cannot by itself name the plotted series."
+            }
+          ],
+          "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
+        }
+      ],
+      "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 377,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "386",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Ta",
+              "paper_value": "Unassigned converging-series marker at 1.0 wt.% supplementary content; element identity unresolved",
+              "cra_value": "1.0",
+              "comparison": "Compatible with this Table I content and candidate series, but source symbol/line association remains unresolved."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18Cr-14Ni base; measured Cr 17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base family agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 caption."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C water quench",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Figure 3 methods context."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.63}",
+              "cra_value": "386",
+              "comparison": "C12 conditional: 0.63 x1000 -244=386 mV; compatible potential cannot by itself name the plotted series."
+            }
+          ],
+          "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
+        }
+      ],
+      "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 380,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "373",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Nb",
+              "paper_value": "Unassigned converging-series marker at 1.3 wt.% supplementary content; element identity unresolved",
+              "cra_value": "1.3",
+              "comparison": "Compatible with this Table I content and candidate series, but source symbol/line association remains unresolved."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18Cr-14Ni base; measured Cr 17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base family agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 caption."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "1150 C water quench",
+              "cra_value": "The ingots were forged, rooled into bars 2 mm thick, then tempered at 1150 C (heating for 15mins) and quenched in water.",
+              "comparison": "Figure 3 methods context."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (normal hydrogen electrode)\", \"value\": 0.615}",
+              "cra_value": "373",
+              "comparison": "C12 conditional: 0.615 x1000 -244=371 mV; compatible potential cannot by itself name the plotted series."
+            }
+          ],
+          "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
+        }
+      ],
+      "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 384,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "415",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "No supplementary alloying element (Table 3 None)",
+              "cra_value": "0.0",
+              "comparison": "Unalloyed base row; not the quenched base result."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Annealed 2 h at 650 C after quenching",
+              "cra_value": "Annealed 2 hours at 650 C",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"Volts\", \"value\": 0.659}",
+              "cra_value": "415",
+              "comparison": "C12 conditional: 0.659 x1000 -244 = 415 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 385,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "566",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Mo",
+              "paper_value": "5 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "5.0",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Annealed 2 h at 650 C after quenching",
+              "cra_value": "Annealed 2 hours at 650 C",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"Volts\", \"value\": 0.81}",
+              "cra_value": "566",
+              "comparison": "C12 conditional: 0.81 x1000 -244 = 566 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12. Annealed Mo source associates this breakdown with intergranular attack; it is not certified as an isolated pitting threshold."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 386,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "V",
+              "paper_value": "4.75 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "4.75",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Annealed 2 h at 650 C after quenching",
+              "cra_value": "Annealed 2 hours at 650 C",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"Volts\", \"value\": 0.744}",
+              "cra_value": "500",
+              "comparison": "C12 conditional: 0.744 x1000 -244 = 500 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 387,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "415",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Si",
+              "paper_value": "4.74 wt.% (Table I; nominal 5% where applicable)",
+              "cra_value": "5.0",
+              "comparison": "Exact composition context or rounded graphical coordinate; starred contents are charge-based. CRA Ce 0.503 and Si 3.33 are more precise than the corresponding supplied source labels, and CRA annealed Si 5.0 is nominal rather than Table I measured 4.74."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.93 wt.%",
+              "cra_value": "17.93",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "14.38 wt.%",
+              "cra_value": "14.38",
+              "comparison": "Base composition p.2 agrees."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.1N NaCl",
+              "cra_value": "0.1N NaCl",
+              "comparison": "Figure 3 or Table 3 medium agrees."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Figure 3 temperature; same breakdown-potential context."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Annealed 2 h at 650 C after quenching",
+              "cra_value": "Annealed 2 hours at 650 C",
+              "comparison": "Table 3 column or methods p.2 distinguishes treatment."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"Volts\", \"value\": 0.659}",
+              "cra_value": "415",
+              "comparison": "C12 conditional: 0.659 x1000 -244 = 415 mV vs SCE; compare with the original target at source table/plot precision."
+            }
+          ],
+          "notes": "Figure 3 series/registered anchor or Table 3 row, base chemistry, supplementary addition, NaCl and treatment independently identify the counterpart. Numerical comparison is conditional on C12."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered explicit pitting onset is in 0.1N HCl, distinct from every supplied CSV NaCl result. No corresponding acid-medium record is supplied."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Registered explicit pitting onset is in 0.1N HCl, distinct from every supplied CSV NaCl result. No corresponding acid-medium record is supplied."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    377,
+    379,
+    380
+  ]
+}

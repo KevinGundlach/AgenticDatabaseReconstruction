@@ -1,0 +1,143 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "59_Landolt, D., et al.  Corrosion science 31 (1990)_ 431-440.pdf",
+  "reference_number": 59,
+  "inputs": {
+    "pdf": {
+      "filename": "59_Landolt, D., et al.  Corrosion science 31 (1990)_ 431-440.pdf",
+      "sha256": "8f9e0b1f33e24c3b41848de7ba090fe3cd692ff07155534258e0723dbceda750"
+    },
+    "csv": {
+      "filename": "pitting_potential_59.csv",
+      "sha256": "d94e34f5df8d2dfa9fddc59626f86b99d8023854339970620d89ae4617e4ec2c"
+    },
+    "registry": {
+      "filename": "paper_59.json",
+      "sha256": "d4c67438499f94494538d83a4529ebce15ae8b37b0eda48d707777f17d0a8aaa"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was reviewed. Every registered anchor page, including secondary locations, was actually viewed. This is alignment of the exact supplied registry, not a full-paper census or proof of the source presentation used by the original curators. All inputs are unchanged.",
+  "shared_qualifications": [
+    "Source Fig.2 (PDF p.2) definesFe24Cr,65 C,electrolyteB=0.1 M H2SO4 +0.4 M Na2SO4 +0.12 M NaCl,PL=+200 mV nhe andPH=+500 mV nhe. Methods (PDF p.1) specify3000 rpm rotating disk and three-hour constant-potential exposure, without air.",
+    "Both supplied observations are explicitly below the pitting potential ofFe24Cr in electrolyteB (PDF pp.3-4); they are lower limits from applied holds, not numerical measurements of the pitting onset. CRA207 shares the independently specified material, electrolyte and protocol, but its487.5 mV(SCE) target has no established identity with either bound and stays candidate-only. CRA206 is electrolyteA and has no supported link in this supplied registry.",
+    "No SHE/NHE-to-SCE offset is chosen without appropriate reference conditions, and no applied endpoint is recast as the measured onset. No threshold is inferred from the separate continuous polarization curve."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 207,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "487.5",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Fe24Cr nominal24% Cr, Fig.2",
+              "cra_value": "24.0",
+              "comparison": "Independent source alloy identity; no detailed composition is inferred."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "ElectrolyteB:0.1 M H2SO4 +0.4 M Na2SO4 +0.12 M NaCl",
+              "cra_value": "Deaerated 0.1 M H2SO4 + 0.4M Na2SO4 + 0.12 M NaCl",
+              "comparison": "Same named medium; electrolyteA is different."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C",
+              "cra_value": "65.0",
+              "comparison": "Same explicit source temperature."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Three-hour potentiostatic exposure, rotating disk3000 rpm, absent air, PDF p.1",
+              "cra_value": "Potentiostatic Polarization at different potentials. The working electrode was a rotating disk, the rotation rate was 3000 rpm in all experiments.",
+              "comparison": "Independent protocol agrees with CRA context, but does not establish a numerical onset counterpart."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (standard hydrogen electrode)\", \"min\": 200}",
+              "cra_value": "487.5",
+              "comparison": "Original200/500 mV versus standard hydrogen electrode is retained as a no-pitting lower bound. Reference conditions and measurement roles do not permit a definitive numerical equality comparison."
+            }
+          ],
+          "notes": "Candidate207 shares independently specified material, medium, temperature and three-hour protocol. The source gives only a below-pitting applied limit here, so its relationship to the populated CRA onset target remains unresolved."
+        }
+      ],
+      "notes": "Candidate207 shares independently specified material, medium, temperature and three-hour protocol. The source gives only a below-pitting applied limit here, so its relationship to the populated CRA onset target remains unresolved."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 207,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "487.5",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "Fe24Cr nominal24% Cr, Fig.2",
+              "cra_value": "24.0",
+              "comparison": "Independent source alloy identity; no detailed composition is inferred."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "ElectrolyteB:0.1 M H2SO4 +0.4 M Na2SO4 +0.12 M NaCl",
+              "cra_value": "Deaerated 0.1 M H2SO4 + 0.4M Na2SO4 + 0.12 M NaCl",
+              "comparison": "Same named medium; electrolyteA is different."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "65 C",
+              "cra_value": "65.0",
+              "comparison": "Same explicit source temperature."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Three-hour potentiostatic exposure, rotating disk3000 rpm, absent air, PDF p.1",
+              "cra_value": "Potentiostatic Polarization at different potentials. The working electrode was a rotating disk, the rotation rate was 3000 rpm in all experiments.",
+              "comparison": "Independent protocol agrees with CRA context, but does not establish a numerical onset counterpart."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (standard hydrogen electrode)\", \"min\": 500}",
+              "cra_value": "487.5",
+              "comparison": "Original200/500 mV versus standard hydrogen electrode is retained as a no-pitting lower bound. Reference conditions and measurement roles do not permit a definitive numerical equality comparison."
+            }
+          ],
+          "notes": "Candidate207 shares independently specified material, medium, temperature and three-hour protocol. The source gives only a below-pitting applied limit here, so its relationship to the populated CRA onset target remains unresolved."
+        }
+      ],
+      "notes": "Candidate207 shares independently specified material, medium, temperature and three-hour protocol. The source gives only a below-pitting applied limit here, so its relationship to the populated CRA onset target remains unresolved."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    206,
+    207
+  ]
+}

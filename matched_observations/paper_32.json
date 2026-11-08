@@ -1,0 +1,1249 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "32_A.M. Lucente, J.R. Scully, Electrochemical and Solid-State Letters, 10 (2007) C39-C43.pdf",
+  "reference_number": 32,
+  "inputs": {
+    "pdf": {
+      "filename": "32_A.M. Lucente, J.R. Scully, Electrochemical and Solid-State Letters, 10 (2007) C39-C43.pdf",
+      "sha256": "701c662392a2073d457acfa5ac13ad27b17b6c26639591c9352eeeafc74812ac"
+    },
+    "csv": {
+      "filename": "pitting_potential_32.csv",
+      "sha256": "4d401c04dfe416a83f71b68b37d4d060414746764bd30df9c70cbba7dc3c3058"
+    },
+    "registry": {
+      "filename": "paper_32.json",
+      "sha256": "3b5f7607e4f24589094f7419ca890130ebafeefbf533d84773734f60dc3bb522"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "Rendered a short-named, byte-identical PDF copy after verifying its SHA-256 against the original. Input fingerprints refer to original supplied bytes. Only listed PDF pages were actually viewed. All 30 entries and 16 CRA rows considered. All registered anchors on PDF pp.2-4 and methods on p.1 visually inspected; Table I distinguishes microstructures on p.2. All original readings retained.",
+  "shared_qualifications": [
+    "C1: Interpret nominal Al-based formula coefficients as atomic proportions; calculate wt.%_i = 100*n_i*M_i/sum(n_j*M_j) over the full formula, not from CSV-filled source values. CIAAW abridged standard atomic weights 2024: Al 26.982, Fe 55.845, Gd 157.25, Ni 58.693, Co 58.933, Ce 140.12 (https://ciaaw.org/abridged-atomic-weights.htm). Nominal converted chemistry is not a measured analysis.",
+    "Figures 5-8 report medians with 25th/75th percentiles. Registry min/max retain those percentile roles, not extrema. CRA Avg does not establish a source mean and its blank Min/Max cells are not zero.",
+    "Within each alloy family, CRA rows omit heat treatment, microstructure and nanocrystal size. Those missing selectors prevent confirmation of specific source-condition identities; plausible numerical correspondences remain candidates.",
+    "Individual Fig.2 scans are not proven to be the same experiments/populations as Figures 5-8 medians. Figures 3-4 annotated metastable-pit events are distinct from the stable, micrometre-scale Epit criterion.",
+    "CRA 780 has +980 mV(SCE), outside the registered Al90Fe5Gd5 Epit readings. No sign, decimal or row-order correction is guessed to assign it."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al comparator has no chemically matching CRA row. All 16 supplied records contain substantial alloy additions; near potentials do not overcome this material difference. Repeated comparator summaries are not treated as independent experiments."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 781,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "10",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Al=90",
+              "cra_value": "69.5",
+              "comparison": "C1: 100*90*26.982/3493.85500 = 69.5043 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Fe=5",
+              "cra_value": "7.99",
+              "comparison": "C1: 100*5*55.845/3493.85500 = 7.9919 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Gd=5",
+              "cra_value": "22.5",
+              "comparison": "C1: 100*5*157.25/3493.85500 = 22.5038 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered 0.02 V(SCE)",
+              "cra_value": "10",
+              "comparison": "0.02*1000 = 20 mV(SCE), versus CRA 10. This is an individual example scan; it is not asserted to equal a population median."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 781 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. A possible relation to a summary is unresolved; no shared supported row is asserted."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 781 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. A possible relation to a summary is unresolved; no shared supported row is asserted."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 783,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Al=90",
+              "cra_value": "69.5",
+              "comparison": "C1: 100*90*26.982/3493.85500 = 69.5043 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Fe=5",
+              "cra_value": "7.99",
+              "comparison": "C1: 100*5*55.845/3493.85500 = 7.9919 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Gd=5",
+              "cra_value": "22.5",
+              "comparison": "C1: 100*5*157.25/3493.85500 = 22.5038 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered 0.25 V(SCE)",
+              "cra_value": "300",
+              "comparison": "0.25*1000 = 250 mV(SCE), versus CRA 300. This is an individual example scan; it is not asserted to equal a population median."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 783 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. A possible relation to a summary is unresolved; no shared supported row is asserted."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 783 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. A possible relation to a summary is unresolved; no shared supported row is asserted."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Annotated individual metastable-pit event in Fig.3/4 has no independently identifiable CRA counterpart. Its event potential is not substituted for a stable Epit or a median simply because alloy/medium agree."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Annotated individual metastable-pit event in Fig.3/4 has no independently identifiable CRA counterpart. Its event potential is not substituted for a stable Epit or a median simply because alloy/medium agree."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Annotated individual metastable-pit event in Fig.3/4 has no independently identifiable CRA counterpart. Its event potential is not substituted for a stable Epit or a median simply because alloy/medium agree."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Annotated individual metastable-pit event in Fig.3/4 has no independently identifiable CRA counterpart. Its event potential is not substituted for a stable Epit or a median simply because alloy/medium agree."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Annotated individual metastable-pit event in Fig.3/4 has no independently identifiable CRA counterpart. Its event potential is not substituted for a stable Epit or a median simply because alloy/medium agree."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Annotated individual metastable-pit event in Fig.3/4 has no independently identifiable CRA counterpart. Its event potential is not substituted for a stable Epit or a median simply because alloy/medium agree."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Annotated individual metastable-pit event in Fig.3/4 has no independently identifiable CRA counterpart. Its event potential is not substituted for a stable Epit or a median simply because alloy/medium agree."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 779,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-150",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Al=90",
+              "cra_value": "69.5",
+              "comparison": "C1: 100*90*26.982/3493.85500 = 69.5043 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Fe=5",
+              "cra_value": "7.99",
+              "comparison": "C1: 100*5*55.845/3493.85500 = 7.9919 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Gd=5",
+              "cra_value": "22.5",
+              "comparison": "C1: 100*5*157.25/3493.85500 = 22.5038 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2 ",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.14 V(SCE)",
+              "cra_value": "-150",
+              "comparison": "-0.14*1000 = -140 mV(SCE), versus CRA -150. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 779 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 779 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.5 Al90Fe5Gd5, 6.5 nm median is approximately -0.09 V(SCE). CRA supplies no size/state selectors; the +980 mV record cannot be assigned by conjecturing a sign/decimal error. No defensible counterpart beyond common family context."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 781,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "10",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Al=90",
+              "cra_value": "69.5",
+              "comparison": "C1: 100*90*26.982/3493.85500 = 69.5043 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Fe=5",
+              "cra_value": "7.99",
+              "comparison": "C1: 100*5*55.845/3493.85500 = 7.9919 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Gd=5",
+              "cra_value": "22.5",
+              "comparison": "C1: 100*5*157.25/3493.85500 = 22.5038 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered 0 V(SCE)",
+              "cra_value": "10",
+              "comparison": "0*1000 = 0 mV(SCE), versus CRA 10. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 781 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 781 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 782,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "150",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Al=90",
+              "cra_value": "69.5",
+              "comparison": "C1: 100*90*26.982/3493.85500 = 69.5043 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Fe=5",
+              "cra_value": "7.99",
+              "comparison": "C1: 100*5*55.845/3493.85500 = 7.9919 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Gd=5",
+              "cra_value": "22.5",
+              "comparison": "C1: 100*5*157.25/3493.85500 = 22.5038 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered 0.12 V(SCE)",
+              "cra_value": "150",
+              "comparison": "0.12*1000 = 120 mV(SCE), versus CRA 150. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 782 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 782 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 783,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Al=90",
+              "cra_value": "69.5",
+              "comparison": "C1: 100*90*26.982/3493.85500 = 69.5043 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Fe=5",
+              "cra_value": "7.99",
+              "comparison": "C1: 100*5*55.845/3493.85500 = 7.9919 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Gd=5",
+              "cra_value": "22.5",
+              "comparison": "C1: 100*5*157.25/3493.85500 = 22.5038 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered 0.29 V(SCE)",
+              "cra_value": "300",
+              "comparison": "0.29*1000 = 290 mV(SCE), versus CRA 300. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 783 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 783 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 784,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-550",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Al=90",
+              "cra_value": "69.5",
+              "comparison": "C1: 100*90*26.982/3493.85500 = 69.5043 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Fe=5",
+              "cra_value": "7.99",
+              "comparison": "C1: 100*5*55.845/3493.85500 = 7.9919 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al90Fe5Gd5; atomic coefficient Gd=5",
+              "cra_value": "22.5",
+              "comparison": "C1: 100*5*157.25/3493.85500 = 22.5038 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.58 V(SCE)",
+              "cra_value": "-550",
+              "comparison": "-0.58*1000 = -580 mV(SCE), versus CRA -550. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 784 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 784 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al comparator has no chemically matching CRA row. All 16 supplied records contain substantial alloy additions; near potentials do not overcome this material difference. Repeated comparator summaries are not treated as independent experiments."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 790,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-290",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Al=87",
+              "cra_value": "63.41",
+              "comparison": "C1: 100*87*26.982/3701.78500 = 63.4136 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Ni=7",
+              "cra_value": "11.1",
+              "comparison": "C1: 100*7*58.693/3701.78500 = 11.0987 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Gd=6",
+              "cra_value": "25.49",
+              "comparison": "C1: 100*6*157.25/3701.78500 = 25.4877 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.28 V(SCE)",
+              "cra_value": "-290",
+              "comparison": "-0.28*1000 = -280 mV(SCE), versus CRA -290. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 790 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 790 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 791,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-240",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Al=87",
+              "cra_value": "63.41",
+              "comparison": "C1: 100*87*26.982/3701.78500 = 63.4136 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Ni=7",
+              "cra_value": "11.1",
+              "comparison": "C1: 100*7*58.693/3701.78500 = 11.0987 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Gd=6",
+              "cra_value": "25.49",
+              "comparison": "C1: 100*6*157.25/3701.78500 = 25.4877 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.23 V(SCE)",
+              "cra_value": "-240",
+              "comparison": "-0.23*1000 = -230 mV(SCE), versus CRA -240. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 791 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 791 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 792,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-195",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Al=87",
+              "cra_value": "63.41",
+              "comparison": "C1: 100*87*26.982/3701.78500 = 63.4136 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Ni=7",
+              "cra_value": "11.1",
+              "comparison": "C1: 100*7*58.693/3701.78500 = 11.0987 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al87Ni7Gd6; atomic coefficient Gd=6",
+              "cra_value": "25.49",
+              "comparison": "C1: 100*6*157.25/3701.78500 = 25.4877 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.17 V(SCE)",
+              "cra_value": "-195",
+              "comparison": "-0.17*1000 = -170 mV(SCE), versus CRA -195. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 792 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 792 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al comparator has no chemically matching CRA row. All 16 supplied records contain substantial alloy additions; near potentials do not overcome this material difference. Repeated comparator summaries are not treated as independent experiments."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 785,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-280",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Al=90",
+              "cra_value": "67.72",
+              "comparison": "C1: 100*90*26.982/3586.01900 = 67.7180 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Co=3",
+              "cra_value": "4.93",
+              "comparison": "C1: 100*3*58.933/3586.01900 = 4.9302 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Ce",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Ce=7",
+              "cra_value": "27.35",
+              "comparison": "C1: 100*7*140.12/3586.01900 = 27.3518 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.28 V(SCE)",
+              "cra_value": "-280",
+              "comparison": "-0.28*1000 = -280 mV(SCE), versus CRA -280. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 785 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 785 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 786,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-390",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Al=90",
+              "cra_value": "67.72",
+              "comparison": "C1: 100*90*26.982/3586.01900 = 67.7180 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Co=3",
+              "cra_value": "4.93",
+              "comparison": "C1: 100*3*58.933/3586.01900 = 4.9302 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Ce",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Ce=7",
+              "cra_value": "27.35",
+              "comparison": "C1: 100*7*140.12/3586.01900 = 27.3518 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.38 V(SCE)",
+              "cra_value": "-390",
+              "comparison": "-0.38*1000 = -380 mV(SCE), versus CRA -390. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 786 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 786 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 787,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-420",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Al=90",
+              "cra_value": "67.72",
+              "comparison": "C1: 100*90*26.982/3586.01900 = 67.7180 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Co=3",
+              "cra_value": "4.93",
+              "comparison": "C1: 100*3*58.933/3586.01900 = 4.9302 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Ce",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Ce=7",
+              "cra_value": "27.35",
+              "comparison": "C1: 100*7*140.12/3586.01900 = 27.3518 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.42 V(SCE)",
+              "cra_value": "-420",
+              "comparison": "-0.42*1000 = -420 mV(SCE), versus CRA -420. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 787 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 787 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 788,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-450",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Al=90",
+              "cra_value": "67.72",
+              "comparison": "C1: 100*90*26.982/3586.01900 = 67.7180 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Co=3",
+              "cra_value": "4.93",
+              "comparison": "C1: 100*3*58.933/3586.01900 = 4.9302 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Ce",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Ce=7",
+              "cra_value": "27.35",
+              "comparison": "C1: 100*7*140.12/3586.01900 = 27.3518 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.45 V(SCE)",
+              "cra_value": "-450",
+              "comparison": "-0.45*1000 = -450 mV(SCE), versus CRA -450. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 788 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 788 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 789,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-690",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Al=90",
+              "cra_value": "67.72",
+              "comparison": "C1: 100*90*26.982/3586.01900 = 67.7180 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Co",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Co=3",
+              "cra_value": "4.93",
+              "comparison": "C1: 100*3*58.933/3586.01900 = 4.9302 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Ce",
+              "paper_value": "Nominal Al90Co3Ce7; atomic coefficient Ce=7",
+              "cra_value": "27.35",
+              "comparison": "C1: 100*7*140.12/3586.01900 = 27.3518 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.68 V(SCE)",
+              "cra_value": "-690",
+              "comparison": "-0.68*1000 = -680 mV(SCE), versus CRA -690. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 789 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 789 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al comparator has no chemically matching CRA row. All 16 supplied records contain substantial alloy additions; near potentials do not overcome this material difference. Repeated comparator summaries are not treated as independent experiments."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 793,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-200",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al85Fe7Gd8; atomic coefficient Al=85",
+              "cra_value": "58.74",
+              "comparison": "C1: 100*85*26.982/3942.38500 = 58.1747 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al85Fe7Gd8; atomic coefficient Fe=7",
+              "cra_value": "9.78",
+              "comparison": "C1: 100*7*55.845/3942.38500 = 9.9157 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al85Fe7Gd8; atomic coefficient Gd=8",
+              "cra_value": "31.48",
+              "comparison": "C1: 100*8*157.25/3942.38500 = 31.9096 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered -0.2 V(SCE)",
+              "cra_value": "-200",
+              "comparison": "-0.2*1000 = -200 mV(SCE), versus CRA -200. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 793 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 793 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 794,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "300",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al85Fe7Gd8; atomic coefficient Al=85",
+              "cra_value": "58.74",
+              "comparison": "C1: 100*85*26.982/3942.38500 = 58.1747 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "Nominal Al85Fe7Gd8; atomic coefficient Fe=7",
+              "cra_value": "9.78",
+              "comparison": "C1: 100*7*55.845/3942.38500 = 9.9157 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "Nominal Al85Fe7Gd8; atomic coefficient Gd=8",
+              "cra_value": "31.48",
+              "comparison": "C1: 100*8*157.25/3942.38500 = 31.9096 wt.%; compare original CRA wt.% cell."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "0.6 M NaCl, nitrogen-deaerated",
+              "cra_value": "0.6M NaCl Deaerated N2",
+              "comparison": "Matches alloy-family test medium (PDF p.1); trailing CSV spaces retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same stable-pitting polarization procedure."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Source distinguishes fully amorphous, nanocrystalline and fully crystalline conditions (Table I)",
+              "cra_value": "",
+              "comparison": "CRA heat-treatment cell is blank and cannot confirm the registered state/size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered 0.26 V(SCE)",
+              "cra_value": "300",
+              "comparison": "0.26*1000 = 260 mV(SCE), versus CRA 300. Source central value is a median; source percentiles have no populated CRA bound counterparts."
+            }
+          ],
+          "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 794 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+        }
+      ],
+      "notes": "Candidate: nominal alloy chemistry, NaCl medium and approximate potential support this possible correspondence (PDF pp.1-4), but CRA 794 has no state/size selector to distinguish same-alloy records. No unique counterpart identity or run relationship is established. Different medians are not arbitrarily assigned by CSV row order."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al comparator has no chemically matching CRA row. All 16 supplied records contain substantial alloy additions; near potentials do not overcome this material difference. Repeated comparator summaries are not treated as independent experiments."
+    }
+  ],
+  "unlinked_citrine_nos": [
+    779,
+    780,
+    781,
+    782,
+    783,
+    784,
+    785,
+    786,
+    787,
+    788,
+    789,
+    790,
+    791,
+    792,
+    793,
+    794
+  ]
+}

@@ -1,0 +1,648 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "46_B. E. Wilde , E. Williams , J. Electrochem. Soc. 117 (1970)_ p. 775.pdf",
+  "reference_number": 46,
+  "inputs": {
+    "pdf": {
+      "filename": "46_B. E. Wilde , E. Williams , J. Electrochem. Soc. 117 (1970)_ p. 775.pdf",
+      "sha256": "681f354c7697c2a13d24e6bff3b83298a5396b63de3a000cf156344aed1f88c4"
+    },
+    "csv": {
+      "filename": "pitting_potential_46.csv",
+      "sha256": "9c8538ebb5c14dc7c6bc41610270742ddb1dd413627938a28164b784d1e2df8e"
+    },
+    "registry": {
+      "filename": "paper_46.json",
+      "sha256": "cb32c1720144d987154af6d5f50316488203a92b678295de7580705470c3aa79"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was considered. All registered anchor pages were visually inspected, including secondary locations. This is registry-scoped identity alignment, not a full-paper census or proof of the original curator's chosen presentation. Inputs are unchanged.",
+  "shared_qualifications": [
+    "C1: 0.600 V/hour *1000/3600 = 0.166667 mV/s, consistent with CRA 0.167. SCE is common to both potential scales; V*1000 gives mV without an electrode offset.",
+    "Source solution is 1 M NaCl at pH 6.3 and 25 +/-1 C, while CRA pH is 7.0. This pH conflict is retained in paired evidence and does not alter the independent gas/material identities.",
+    "The authors note previous reporting of these experiments; this provenance does not exclude the supplied observations. The +/-10 mV reproducibility statement is not imported as statistical uncertainty.",
+    "Poppler returned success with font warnings for Symbol/ArialNarrow variants. The registered table/text anchors and methods were visually legible."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 153,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-185",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 430 stainless, solution-annealed stock, 2.0 emery finish (PDF pp.1-2)",
+              "cra_value": "AISI 430SS, abraded through 2.0 emery paper",
+              "comparison": "Independent named alloy and specimen context."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "16.35 wt% Cr, Table I, PDF p.1",
+              "cra_value": "16.35",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.17 wt% Ni, Table I",
+              "cra_value": "0.17",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Hydrogen-saturated 1 M NaCl, Table II, PDF p.2",
+              "cra_value": "Hydrogen-saturated 1 M NaCl",
+              "comparison": "Gas and salt molarity independently select the condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 +/-1 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C is the nominal center of the stated test-temperature interval."
+            },
+            {
+              "field": "pH",
+              "paper_value": "6.3, PDF p.1",
+              "cra_value": "7.0",
+              "comparison": "Source/CRA conflict: 6.3 versus 7.0; no adjustment is made."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.600 V/hour",
+              "cra_value": "0.167",
+              "comparison": "C1: 0.600*1000/3600 = 0.166667 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.185}",
+              "cra_value": "-185",
+              "comparison": "V(SCE)*1000 = mV(SCE), with no offset. Table II values agree exactly; secondary text/Table III readings retain their roles."
+            }
+          ],
+          "notes": "Table II material/gas cell, Table I chemistry and the common scan procedure identify the counterpart independently. Registered secondary presentations do not establish separate runs."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 157,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-50",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 304 stainless, solution-annealed stock, 2.0 emery finish (PDF pp.1-2)",
+              "cra_value": "AISI 304SS, abraded through 2.0 emery paper",
+              "comparison": "Independent named alloy and specimen context."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.1 wt% Cr, Table I, PDF p.1",
+              "cra_value": "18.1",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.22 wt% Ni, Table I",
+              "cra_value": "8.22",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Hydrogen-saturated 1 M NaCl, Table II, PDF p.2",
+              "cra_value": "Hydrogen-saturated 1 M NaCl",
+              "comparison": "Gas and salt molarity independently select the condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 +/-1 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C is the nominal center of the stated test-temperature interval."
+            },
+            {
+              "field": "pH",
+              "paper_value": "6.3, PDF p.1",
+              "cra_value": "7.0",
+              "comparison": "Source/CRA conflict: 6.3 versus 7.0; no adjustment is made."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.600 V/hour",
+              "cra_value": "0.167",
+              "comparison": "C1: 0.600*1000/3600 = 0.166667 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.05}",
+              "cra_value": "-50",
+              "comparison": "V(SCE)*1000 = mV(SCE), with no offset. Table II values agree exactly; secondary text/Table III readings retain their roles."
+            }
+          ],
+          "notes": "Table II material/gas cell, Table I chemistry and the common scan procedure identify the counterpart independently. Registered secondary presentations do not establish separate runs."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 154,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-130",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 430 stainless, solution-annealed stock, 2.0 emery finish (PDF pp.1-2)",
+              "cra_value": "AISI 430SS, abraded through 2.0 emery paper",
+              "comparison": "Independent named alloy and specimen context."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "16.35 wt% Cr, Table I, PDF p.1",
+              "cra_value": "16.35",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.17 wt% Ni, Table I",
+              "cra_value": "0.17",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Nitrogen-saturated 1 M NaCl, Table II, PDF p.2",
+              "cra_value": "Nitrogen-saturated 1 M NaCl",
+              "comparison": "Gas and salt molarity independently select the condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 +/-1 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C is the nominal center of the stated test-temperature interval."
+            },
+            {
+              "field": "pH",
+              "paper_value": "6.3, PDF p.1",
+              "cra_value": "7.0",
+              "comparison": "Source/CRA conflict: 6.3 versus 7.0; no adjustment is made."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.600 V/hour",
+              "cra_value": "0.167",
+              "comparison": "C1: 0.600*1000/3600 = 0.166667 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.13}",
+              "cra_value": "-130",
+              "comparison": "V(SCE)*1000 = mV(SCE), with no offset. Table II values agree exactly; secondary text/Table III readings retain their roles."
+            }
+          ],
+          "notes": "Table II material/gas cell, Table I chemistry and the common scan procedure identify the counterpart independently. Registered secondary presentations do not establish separate runs."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 158,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-20",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 304 stainless, solution-annealed stock, 2.0 emery finish (PDF pp.1-2)",
+              "cra_value": "AISI 304SS, abraded through 2.0 emery paper",
+              "comparison": "Independent named alloy and specimen context."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.1 wt% Cr, Table I, PDF p.1",
+              "cra_value": "18.1",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.22 wt% Ni, Table I",
+              "cra_value": "8.22",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Nitrogen-saturated 1 M NaCl, Table II, PDF p.2",
+              "cra_value": "Nitrogen-saturated 1 M NaCl",
+              "comparison": "Gas and salt molarity independently select the condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 +/-1 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C is the nominal center of the stated test-temperature interval."
+            },
+            {
+              "field": "pH",
+              "paper_value": "6.3, PDF p.1",
+              "cra_value": "7.0",
+              "comparison": "Source/CRA conflict: 6.3 versus 7.0; no adjustment is made."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.600 V/hour",
+              "cra_value": "0.167",
+              "comparison": "C1: 0.600*1000/3600 = 0.166667 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.02}",
+              "cra_value": "-20",
+              "comparison": "V(SCE)*1000 = mV(SCE), with no offset. Table II values agree exactly; secondary text/Table III readings retain their roles."
+            }
+          ],
+          "notes": "Table II material/gas cell, Table I chemistry and the common scan procedure identify the counterpart independently. Registered secondary presentations do not establish separate runs."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 155,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-100",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 430 stainless, solution-annealed stock, 2.0 emery finish (PDF pp.1-2)",
+              "cra_value": "AISI 430SS, abraded through 2.0 emery paper",
+              "comparison": "Independent named alloy and specimen context."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "16.35 wt% Cr, Table I, PDF p.1",
+              "cra_value": "16.35",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.17 wt% Ni, Table I",
+              "cra_value": "0.17",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-saturated 1 M NaCl, Table II, PDF p.2",
+              "cra_value": "Argon-saturated 1 M NaCl",
+              "comparison": "Gas and salt molarity independently select the condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 +/-1 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C is the nominal center of the stated test-temperature interval."
+            },
+            {
+              "field": "pH",
+              "paper_value": "6.3, PDF p.1",
+              "cra_value": "7.0",
+              "comparison": "Source/CRA conflict: 6.3 versus 7.0; no adjustment is made."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.600 V/hour",
+              "cra_value": "0.167",
+              "comparison": "C1: 0.600*1000/3600 = 0.166667 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.1}",
+              "cra_value": "-100",
+              "comparison": "V(SCE)*1000 = mV(SCE), with no offset. Table II values agree exactly; secondary text/Table III readings retain their roles."
+            }
+          ],
+          "notes": "Table II material/gas cell, Table I chemistry and the common scan procedure identify the counterpart independently. Registered secondary presentations do not establish separate runs."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 159,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "50",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 304 stainless, solution-annealed stock, 2.0 emery finish (PDF pp.1-2)",
+              "cra_value": "AISI 304SS, abraded through 2.0 emery paper",
+              "comparison": "Independent named alloy and specimen context."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.1 wt% Cr, Table I, PDF p.1",
+              "cra_value": "18.1",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.22 wt% Ni, Table I",
+              "cra_value": "8.22",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Argon-saturated 1 M NaCl, Table II, PDF p.2",
+              "cra_value": "Argon-saturated 1 M NaCl",
+              "comparison": "Gas and salt molarity independently select the condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 +/-1 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C is the nominal center of the stated test-temperature interval."
+            },
+            {
+              "field": "pH",
+              "paper_value": "6.3, PDF p.1",
+              "cra_value": "7.0",
+              "comparison": "Source/CRA conflict: 6.3 versus 7.0; no adjustment is made."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.600 V/hour",
+              "cra_value": "0.167",
+              "comparison": "C1: 0.600*1000/3600 = 0.166667 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.05}",
+              "cra_value": "50",
+              "comparison": "V(SCE)*1000 = mV(SCE), with no offset. Table II values agree exactly; secondary text/Table III readings retain their roles."
+            }
+          ],
+          "notes": "Table II material/gas cell, Table I chemistry and the common scan procedure identify the counterpart independently. Registered secondary presentations do not establish separate runs."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 156,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-35",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 430 stainless, solution-annealed stock, 2.0 emery finish (PDF pp.1-2)",
+              "cra_value": "AISI 430SS, abraded through 2.0 emery paper",
+              "comparison": "Independent named alloy and specimen context."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "16.35 wt% Cr, Table I, PDF p.1",
+              "cra_value": "16.35",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "0.17 wt% Ni, Table I",
+              "cra_value": "0.17",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Oxygen-saturated 1 M NaCl, Table II, PDF p.2",
+              "cra_value": "Oxygen-saturated 1 M NaCl",
+              "comparison": "Gas and salt molarity independently select the condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 +/-1 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C is the nominal center of the stated test-temperature interval."
+            },
+            {
+              "field": "pH",
+              "paper_value": "6.3, PDF p.1",
+              "cra_value": "7.0",
+              "comparison": "Source/CRA conflict: 6.3 versus 7.0; no adjustment is made."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.600 V/hour",
+              "cra_value": "0.167",
+              "comparison": "C1: 0.600*1000/3600 = 0.166667 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.035}",
+              "cra_value": "-35",
+              "comparison": "V(SCE)*1000 = mV(SCE), with no offset. Table II values agree exactly; secondary text/Table III readings retain their roles."
+            }
+          ],
+          "notes": "Table II material/gas cell, Table I chemistry and the common scan procedure identify the counterpart independently. Registered secondary presentations do not establish separate runs."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 160,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "65",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 304 stainless, solution-annealed stock, 2.0 emery finish (PDF pp.1-2)",
+              "cra_value": "AISI 304SS, abraded through 2.0 emery paper",
+              "comparison": "Independent named alloy and specimen context."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.1 wt% Cr, Table I, PDF p.1",
+              "cra_value": "18.1",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "8.22 wt% Ni, Table I",
+              "cra_value": "8.22",
+              "comparison": "Independent source analysis identifies the alloy."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Oxygen-saturated 1 M NaCl, Table II, PDF p.2",
+              "cra_value": "Oxygen-saturated 1 M NaCl",
+              "comparison": "Gas and salt molarity independently select the condition."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 +/-1 C, PDF p.1",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C is the nominal center of the stated test-temperature interval."
+            },
+            {
+              "field": "pH",
+              "paper_value": "6.3, PDF p.1",
+              "cra_value": "7.0",
+              "comparison": "Source/CRA conflict: 6.3 versus 7.0; no adjustment is made."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.600 V/hour",
+              "cra_value": "0.167",
+              "comparison": "C1: 0.600*1000/3600 = 0.166667 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.065}",
+              "cra_value": "65",
+              "comparison": "V(SCE)*1000 = mV(SCE), with no offset. Table II values agree exactly; secondary text/Table III readings retain their roles."
+            }
+          ],
+          "notes": "Table II material/gas cell, Table I chemistry and the common scan procedure identify the counterpart independently. Registered secondary presentations do not establish separate runs."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table III observations concern Type 316, Carpenter 20Cb, Incoloy 825 or Hastelloy C, absent from the supplied CRA material groups (430 and 304). The Hastelloy C bound remains strict and censored."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table III observations concern Type 316, Carpenter 20Cb, Incoloy 825 or Hastelloy C, absent from the supplied CRA material groups (430 and 304). The Hastelloy C bound remains strict and censored."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table III observations concern Type 316, Carpenter 20Cb, Incoloy 825 or Hastelloy C, absent from the supplied CRA material groups (430 and 304). The Hastelloy C bound remains strict and censored."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table III observations concern Type 316, Carpenter 20Cb, Incoloy 825 or Hastelloy C, absent from the supplied CRA material groups (430 and 304). The Hastelloy C bound remains strict and censored."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "No pitting for 100 h at -0.140 V(SCE) in O2 is a censored potentiostatic-hold result, not the O2 potentiodynamic threshold (-35 mV). No corresponding hold-history record is supplied."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pitting after O2-to-H2 substitution at the imposed -0.140 V(SCE) is a history-dependent hold upper bound, not the H2 scan threshold (-185 mV). No corresponding history/protocol record is supplied."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

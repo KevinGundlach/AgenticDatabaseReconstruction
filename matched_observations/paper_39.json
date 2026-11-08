@@ -1,0 +1,876 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "39_J.R. Galvele, S.M. de De Micheli, Corrosion Science, 10 (1970) 795-807.pdf",
+  "reference_number": 39,
+  "inputs": {
+    "pdf": {
+      "filename": "39_J.R. Galvele, S.M. de De Micheli, Corrosion Science, 10 (1970) 795-807.pdf",
+      "sha256": "10b68d18444547374a269239631527b9e258a6ffbfc981614c118e33adf237e2"
+    },
+    "csv": {
+      "filename": "pitting_potential_39.csv",
+      "sha256": "d738f0ffb383fc2cda3146894fa0975c74095c88ab2941da2caa562bfa61d1d8"
+    },
+    "registry": {
+      "filename": "paper_39.json",
+      "sha256": "bbfd5acb1ca221513ee888bc05b4189572fc939eb34d5128a11b39cca782bbab"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    3,
+    4,
+    6,
+    10,
+    12
+  ],
+  "coverage_notes": "Rendered short-named, byte-identical PDF copy verified against the original SHA-256. Fingerprints refer to original input bytes. All 40 entries and seven CRA rows considered. All registered primary/secondary anchors on PDF pp.3,4,6,10,12 and material/method context on pp.2-3 visually inspected. Registry activities, brackets and result origins retained.",
+  "shared_qualifications": [
+    "C1: All source potentials are reported vs NHE, although measured using SCE, and tests were at 25 C (PDF p.3). For comparison adopt the explicitly stated 25 C saturated-KCl convention E_SCE_vs_NHE=+0.241 V (Corrtest CS900 manufacturer, https://www.corrtestinstruments.com/en/02437.html). E_mV(SCE)=1000*E_V(NHE)-241. Source does not give its own numerical offset; comparison is conditional on this convention, not a reconstruction of the authors' calibration. Strict bounds keep their directions.",
+    "Fig.5 has two axes: NaCl activity below and concentration above. Activity 0.01, 0.08, 0.7 and 4.5 is linked to concentration 0.01, 0.1, 1 and 5 M by the displayed axes; activity is not assumed equal to molarity.",
+    "Nominal Al-4%Cu and Al-0.2%Cu analyses are measured as 4.07 and 0.27 wt.% Cu (PDF p.2). CRA uses nominal 4.0/0.2 wt.% values. The nominal/analytical distinction is retained.",
+    "Fig.6 EpI/EpII are expected phase thresholds, not independently measured bulk onsets. Table 1 reports strict potential-region limits, with mixed pitting/intergranular attack in the aged case. Candidates retain these differences and unresolved processing identities.",
+    "Table 2 >+3 V outcomes are strict no-pitting bounds. None is converted to an exact pitting potential or discarded solely because it is censored."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al experiment (including secondary presentations and the five-hour bracket) has no chemically matching supplied CRA record: each row contains nominal 4% or 0.2% Cu. No threshold/control potential is reassigned by numerical proximity."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al experiment (including secondary presentations and the five-hour bracket) has no chemically matching supplied CRA record: each row contains nominal 4% or 0.2% Cu. No threshold/control potential is reassigned by numerical proximity."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al experiment (including secondary presentations and the five-hour bracket) has no chemically matching supplied CRA record: each row contains nominal 4% or 0.2% Cu. No threshold/control potential is reassigned by numerical proximity."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 795,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-541",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Nominal Al-4 wt.% Cu; measured 4.07 wt.% Cu (PDF p.2)",
+              "cra_value": "4.0",
+              "comparison": "CRA uses nominal composition, not the measured analysis; distinguishes the two Fig.5 materials."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated NaCl, concentration 0.01 M (upper axis); activity 0.01 (lower axis)",
+              "cra_value": "0.01 M NaCl Deaerated N2",
+              "comparison": "Concentration/chemical identity agrees via the explicit two-axis Fig.5 presentation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.01 M NaCl concentration",
+              "cra_value": "0.01",
+              "comparison": "One chloride per NaCl formula unit; use concentration, not plotted activity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Exact stated test temperature (PDF p.3)."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic, 10 mV steps, waiting until a stationary current at each point",
+              "cra_value": "Potentiostatic Polarization. Measurements made in 10 mV steps and held until a stationary current was observed",
+              "comparison": "Same stepped protocol; no continuous numerical scan rate is inferred from the step size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate -0.305 V(NHE)",
+              "cra_value": "-541",
+              "comparison": "C1: 1000*(-0.305)-241 = -546 mV(SCE); CRA -541. Rounding/digitization residual is within the resolution of the approximately read Fig.5 marker."
+            }
+          ],
+          "notes": "Nominal Cu content, explicit NaCl concentration and common stepped protocol identify this Fig.5 counterpart (PDF pp.2-3,6). The material is the solubilized 4%-Cu alloy or nominal 0.2%-Cu surrogate, as labeled. C1 electrode convention and measured-composition discrepancy remain explicit."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 796,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-591",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Nominal Al-4 wt.% Cu; measured 4.07 wt.% Cu (PDF p.2)",
+              "cra_value": "4.0",
+              "comparison": "CRA uses nominal composition, not the measured analysis; distinguishes the two Fig.5 materials."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated NaCl, concentration 0.1 M (upper axis); activity 0.08 (lower axis)",
+              "cra_value": "0.1 M NaCl Deaerated N2",
+              "comparison": "Concentration/chemical identity agrees via the explicit two-axis Fig.5 presentation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M NaCl concentration",
+              "cra_value": "0.1",
+              "comparison": "One chloride per NaCl formula unit; use concentration, not plotted activity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Exact stated test temperature (PDF p.3)."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic, 10 mV steps, waiting until a stationary current at each point",
+              "cra_value": "Potentiostatic Polarization. Measurements made in 10 mV steps and held until a stationary current was observed",
+              "comparison": "Same stepped protocol; no continuous numerical scan rate is inferred from the step size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate -0.35 V(NHE)",
+              "cra_value": "-591",
+              "comparison": "C1: 1000*(-0.35)-241 = -591 mV(SCE); CRA -591. Rounding/digitization residual is within the resolution of the approximately read Fig.5 marker."
+            }
+          ],
+          "notes": "Nominal Cu content, explicit NaCl concentration and common stepped protocol identify this Fig.5 counterpart (PDF pp.2-3,6). The material is the solubilized 4%-Cu alloy or nominal 0.2%-Cu surrogate, as labeled. C1 electrode convention and measured-composition discrepancy remain explicit."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 797,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-631",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Nominal Al-4 wt.% Cu; measured 4.07 wt.% Cu (PDF p.2)",
+              "cra_value": "4.0",
+              "comparison": "CRA uses nominal composition, not the measured analysis; distinguishes the two Fig.5 materials."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated NaCl, concentration 1 M (upper axis); activity 0.7 (lower axis)",
+              "cra_value": "1 M NaCl Deaerated N2",
+              "comparison": "Concentration/chemical identity agrees via the explicit two-axis Fig.5 presentation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 M NaCl concentration",
+              "cra_value": "1.0",
+              "comparison": "One chloride per NaCl formula unit; use concentration, not plotted activity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Exact stated test temperature (PDF p.3)."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic, 10 mV steps, waiting until a stationary current at each point",
+              "cra_value": "Potentiostatic Polarization. Measurements made in 10 mV steps and held until a stationary current was observed",
+              "comparison": "Same stepped protocol; no continuous numerical scan rate is inferred from the step size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate -0.405 V(NHE)",
+              "cra_value": "-631",
+              "comparison": "C1: 1000*(-0.405)-241 = -646 mV(SCE); CRA -631. Rounding/digitization residual is within the resolution of the approximately read Fig.5 marker."
+            }
+          ],
+          "notes": "Nominal Cu content, explicit NaCl concentration and common stepped protocol identify this Fig.5 counterpart (PDF pp.2-3,6). The material is the solubilized 4%-Cu alloy or nominal 0.2%-Cu surrogate, as labeled. C1 electrode convention and measured-composition discrepancy remain explicit."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 798,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-671",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Nominal Al-4 wt.% Cu; measured 4.07 wt.% Cu (PDF p.2)",
+              "cra_value": "4.0",
+              "comparison": "CRA uses nominal composition, not the measured analysis; distinguishes the two Fig.5 materials."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated NaCl, concentration 5 M (upper axis); activity 4.5 (lower axis)",
+              "cra_value": "5 M NaCl Deaerated N2",
+              "comparison": "Concentration/chemical identity agrees via the explicit two-axis Fig.5 presentation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "5 M NaCl concentration",
+              "cra_value": "5.0",
+              "comparison": "One chloride per NaCl formula unit; use concentration, not plotted activity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Exact stated test temperature (PDF p.3)."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic, 10 mV steps, waiting until a stationary current at each point",
+              "cra_value": "Potentiostatic Polarization. Measurements made in 10 mV steps and held until a stationary current was observed",
+              "comparison": "Same stepped protocol; no continuous numerical scan rate is inferred from the step size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate -0.445 V(NHE)",
+              "cra_value": "-671",
+              "comparison": "C1: 1000*(-0.445)-241 = -686 mV(SCE); CRA -671. Rounding/digitization residual is within the resolution of the approximately read Fig.5 marker."
+            }
+          ],
+          "notes": "Nominal Cu content, explicit NaCl concentration and common stepped protocol identify this Fig.5 counterpart (PDF pp.2-3,6). The material is the solubilized 4%-Cu alloy or nominal 0.2%-Cu surrogate, as labeled. C1 electrode convention and measured-composition discrepancy remain explicit."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Al2Cu intermetallic comparator (56.1 wt.% Cu analysis on PDF p.2) has no supplied material counterpart; CRA rows contain nominal 4% or 0.2% Cu."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Al2Cu intermetallic comparator (56.1 wt.% Cu analysis on PDF p.2) has no supplied material counterpart; CRA rows contain nominal 4% or 0.2% Cu."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Al2Cu intermetallic comparator (56.1 wt.% Cu analysis on PDF p.2) has no supplied material counterpart; CRA rows contain nominal 4% or 0.2% Cu."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Al2Cu intermetallic comparator (56.1 wt.% Cu analysis on PDF p.2) has no supplied material counterpart; CRA rows contain nominal 4% or 0.2% Cu."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 799,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-631",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Nominal Al-0.2 wt.% Cu; measured 0.27 wt.% Cu (PDF p.2)",
+              "cra_value": "0.2",
+              "comparison": "CRA uses nominal composition, not the measured analysis; distinguishes the two Fig.5 materials."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated NaCl, concentration 0.01 M (upper axis); activity 0.01 (lower axis)",
+              "cra_value": "0.01 M NaCl Deaerated N2",
+              "comparison": "Concentration/chemical identity agrees via the explicit two-axis Fig.5 presentation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.01 M NaCl concentration",
+              "cra_value": "0.01",
+              "comparison": "One chloride per NaCl formula unit; use concentration, not plotted activity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Exact stated test temperature (PDF p.3)."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic, 10 mV steps, waiting until a stationary current at each point",
+              "cra_value": "Potentiostatic Polarization. Measurements made in 10 mV steps and held until a stationary current was observed",
+              "comparison": "Same stepped protocol; no continuous numerical scan rate is inferred from the step size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate -0.395 V(NHE)",
+              "cra_value": "-631",
+              "comparison": "C1: 1000*(-0.395)-241 = -636 mV(SCE); CRA -631. Rounding/digitization residual is within the resolution of the approximately read Fig.5 marker."
+            }
+          ],
+          "notes": "Nominal Cu content, explicit NaCl concentration and common stepped protocol identify this Fig.5 counterpart (PDF pp.2-3,6). The material is the solubilized 4%-Cu alloy or nominal 0.2%-Cu surrogate, as labeled. C1 electrode convention and measured-composition discrepancy remain explicit."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 800,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-701",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Nominal Al-0.2 wt.% Cu; measured 0.27 wt.% Cu (PDF p.2)",
+              "cra_value": "0.2",
+              "comparison": "CRA uses nominal composition, not the measured analysis; distinguishes the two Fig.5 materials."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated NaCl, concentration 0.1 M (upper axis); activity 0.08 (lower axis)",
+              "cra_value": "0.1 M NaCl Deaerated N2",
+              "comparison": "Concentration/chemical identity agrees via the explicit two-axis Fig.5 presentation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "0.1 M NaCl concentration",
+              "cra_value": "0.1",
+              "comparison": "One chloride per NaCl formula unit; use concentration, not plotted activity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Exact stated test temperature (PDF p.3)."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic, 10 mV steps, waiting until a stationary current at each point",
+              "cra_value": "Potentiostatic Polarization. Measurements made in 10 mV steps and held until a stationary current was observed",
+              "comparison": "Same stepped protocol; no continuous numerical scan rate is inferred from the step size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate -0.455 V(NHE)",
+              "cra_value": "-701",
+              "comparison": "C1: 1000*(-0.455)-241 = -696 mV(SCE); CRA -701. Rounding/digitization residual is within the resolution of the approximately read Fig.5 marker."
+            }
+          ],
+          "notes": "Nominal Cu content, explicit NaCl concentration and common stepped protocol identify this Fig.5 counterpart (PDF pp.2-3,6). The material is the solubilized 4%-Cu alloy or nominal 0.2%-Cu surrogate, as labeled. C1 electrode convention and measured-composition discrepancy remain explicit."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 801,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-761",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Nominal Al-0.2 wt.% Cu; measured 0.27 wt.% Cu (PDF p.2)",
+              "cra_value": "0.2",
+              "comparison": "CRA uses nominal composition, not the measured analysis; distinguishes the two Fig.5 materials."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated NaCl, concentration 1 M (upper axis); activity 0.7 (lower axis)",
+              "cra_value": "1 M NaCl Deaerated N2",
+              "comparison": "Concentration/chemical identity agrees via the explicit two-axis Fig.5 presentation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 M NaCl concentration",
+              "cra_value": "1.0",
+              "comparison": "One chloride per NaCl formula unit; use concentration, not plotted activity."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Exact stated test temperature (PDF p.3)."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "Potentiostatic, 10 mV steps, waiting until a stationary current at each point",
+              "cra_value": "Potentiostatic Polarization. Measurements made in 10 mV steps and held until a stationary current was observed",
+              "comparison": "Same stepped protocol; no continuous numerical scan rate is inferred from the step size."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Registered approximate -0.52 V(NHE)",
+              "cra_value": "-761",
+              "comparison": "C1: 1000*(-0.52)-241 = -761 mV(SCE); CRA -761. Rounding/digitization residual is within the resolution of the approximately read Fig.5 marker."
+            }
+          ],
+          "notes": "Nominal Cu content, explicit NaCl concentration and common stepped protocol identify this Fig.5 counterpart (PDF pp.2-3,6). The material is the solubilized 4%-Cu alloy or nominal 0.2%-Cu surrogate, as labeled. C1 electrode convention and measured-composition discrepancy remain explicit."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al experiment (including secondary presentations and the five-hour bracket) has no chemically matching supplied CRA record: each row contains nominal 4% or 0.2% Cu. No threshold/control potential is reassigned by numerical proximity."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al experiment (including secondary presentations and the five-hour bracket) has no chemically matching supplied CRA record: each row contains nominal 4% or 0.2% Cu. No threshold/control potential is reassigned by numerical proximity."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al experiment (including secondary presentations and the five-hour bracket) has no chemically matching supplied CRA record: each row contains nominal 4% or 0.2% Cu. No threshold/control potential is reassigned by numerical proximity."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al experiment (including secondary presentations and the five-hour bracket) has no chemically matching supplied CRA record: each row contains nominal 4% or 0.2% Cu. No threshold/control potential is reassigned by numerical proximity."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Pure-Al experiment (including secondary presentations and the five-hour bracket) has no chemically matching supplied CRA record: each row contains nominal 4% or 0.2% Cu. No threshold/control potential is reassigned by numerical proximity."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 801,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-761",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "EpI, Cu-depleted boundary represented by nominal Al-0.2%Cu surrogate; registered bulk sample is aged/over-aged Al-4%Cu",
+              "cra_value": "0.2",
+              "comparison": "Nominal phase-surrogate/bulk composition suggests a possible relation; it does not establish identical sample or treatment."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M deaerated NaCl",
+              "cra_value": "1 M NaCl Deaerated N2",
+              "comparison": "Same electrolyte as this possible comparison row."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged/over-aged source condition; Fig.6 expected phase thresholds or Table 1 region boundary",
+              "cra_value": "",
+              "comparison": "CRA processing cell is blank; specific aged-state counterpart identity is unresolved."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{'unit': 'V (NHE)', 'value': -0.52}",
+              "cra_value": "-761",
+              "comparison": "C1 preserves expected-threshold/strict-bound role when converting. The numerical compatibility is not proof that the phase prediction or aged specimen is the experimental outcome underlying the CRA record."
+            }
+          ],
+          "notes": "Candidate only: the source phase-surrogate relationship (PDF p.2, Fig.1 and Fig.6 p.6) or aged-state region (Table 1 p.10) makes this relation plausible. Expected phase thresholds and bulk/aging-dependent region summaries are not confirmed as the same measured outcome. No category is excluded solely because it is derived or bounded."
+        }
+      ],
+      "notes": "Candidate only: the source phase-surrogate relationship (PDF p.2, Fig.1 and Fig.6 p.6) or aged-state region (Table 1 p.10) makes this relation plausible. Expected phase thresholds and bulk/aging-dependent region summaries are not confirmed as the same measured outcome. No category is excluded solely because it is derived or bounded."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 797,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-631",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "EpII, grain body represented by solubilized Al-4%Cu; registered bulk sample is aged/over-aged Al-4%Cu",
+              "cra_value": "4.0",
+              "comparison": "Nominal phase-surrogate/bulk composition suggests a possible relation; it does not establish identical sample or treatment."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M deaerated NaCl",
+              "cra_value": "1 M NaCl Deaerated N2",
+              "comparison": "Same electrolyte as this possible comparison row."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged/over-aged source condition; Fig.6 expected phase thresholds or Table 1 region boundary",
+              "cra_value": "",
+              "comparison": "CRA processing cell is blank; specific aged-state counterpart identity is unresolved."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{'unit': 'V (NHE)', 'value': -0.4}",
+              "cra_value": "-631",
+              "comparison": "C1 preserves expected-threshold/strict-bound role when converting. The numerical compatibility is not proof that the phase prediction or aged specimen is the experimental outcome underlying the CRA record."
+            }
+          ],
+          "notes": "Candidate only: the source phase-surrogate relationship (PDF p.2, Fig.1 and Fig.6 p.6) or aged-state region (Table 1 p.10) makes this relation plausible. Expected phase thresholds and bulk/aging-dependent region summaries are not confirmed as the same measured outcome. No category is excluded solely because it is derived or bounded."
+        }
+      ],
+      "notes": "Candidate only: the source phase-surrogate relationship (PDF p.2, Fig.1 and Fig.6 p.6) or aged-state region (Table 1 p.10) makes this relation plausible. Expected phase thresholds and bulk/aging-dependent region summaries are not confirmed as the same measured outcome. No category is excluded solely because it is derived or bounded."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 797,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-631",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Table 1 solubilized Al-4 wt.% Cu",
+              "cra_value": "4.0",
+              "comparison": "Same nominal bulk alloy as the 1 M Fig.5 solubilized point."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M deaerated NaCl",
+              "cra_value": "1 M NaCl Deaerated N2",
+              "comparison": "Exact Table 1 electrolyte."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Table 1: pitting for potentials strictly over -0.40 V(NHE)",
+              "cra_value": "-631",
+              "comparison": "C1: E > (-0.40*1000-241) = -641 mV(SCE). CRA -631 mV lies within that region. This compatible lower boundary is not asserted to be an exact onset equal to CRA."
+            }
+          ],
+          "notes": "Supported shared row with obs_006: Table 1 summarizes the same solubilized alloy/1 M condition as a pitting-region boundary (PDF pp.6,10). Possible repeated presentation is not an additional independent run; the strict inequality remains distinct from the plotted point."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 797,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-631",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Table 1 aged bulk Al-4%Cu, mixed pitting plus intergranular region; registered bulk sample is aged/over-aged Al-4%Cu",
+              "cra_value": "4.0",
+              "comparison": "Nominal phase-surrogate/bulk composition suggests a possible relation; it does not establish identical sample or treatment."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M deaerated NaCl",
+              "cra_value": "1 M NaCl Deaerated N2",
+              "comparison": "Same electrolyte as this possible comparison row."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged/over-aged source condition; Fig.6 expected phase thresholds or Table 1 region boundary",
+              "cra_value": "",
+              "comparison": "CRA processing cell is blank; specific aged-state counterpart identity is unresolved."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{'unit': 'V (NHE)', 'min': -0.4}",
+              "cra_value": "-631",
+              "comparison": "C1 preserves expected-threshold/strict-bound role when converting. The numerical compatibility is not proof that the phase prediction or aged specimen is the experimental outcome underlying the CRA record."
+            }
+          ],
+          "notes": "Candidate only: the source phase-surrogate relationship (PDF p.2, Fig.1 and Fig.6 p.6) or aged-state region (Table 1 p.10) makes this relation plausible. Expected phase thresholds and bulk/aging-dependent region summaries are not confirmed as the same measured outcome. No category is excluded solely because it is derived or bounded."
+        }
+      ],
+      "notes": "Candidate only: the source phase-surrogate relationship (PDF p.2, Fig.1 and Fig.6 p.6) or aged-state region (Table 1 p.10) makes this relation plausible. Expected phase thresholds and bulk/aging-dependent region summaries are not confirmed as the same measured outcome. No category is excluded solely because it is derived or bounded."
+    },
+    {
+      "observation_id": "obs_024",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 797,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-631",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Cu",
+              "paper_value": "Table 1 over-aged bulk Al-4%Cu, continuous pitting-containing region; registered bulk sample is aged/over-aged Al-4%Cu",
+              "cra_value": "4.0",
+              "comparison": "Nominal phase-surrogate/bulk composition suggests a possible relation; it does not establish identical sample or treatment."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1 M deaerated NaCl",
+              "cra_value": "1 M NaCl Deaerated N2",
+              "comparison": "Same electrolyte as this possible comparison row."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Aged/over-aged source condition; Fig.6 expected phase thresholds or Table 1 region boundary",
+              "cra_value": "",
+              "comparison": "CRA processing cell is blank; specific aged-state counterpart identity is unresolved."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{'unit': 'V (NHE)', 'min': -0.52}",
+              "cra_value": "-631",
+              "comparison": "C1 preserves expected-threshold/strict-bound role when converting. The numerical compatibility is not proof that the phase prediction or aged specimen is the experimental outcome underlying the CRA record."
+            }
+          ],
+          "notes": "Candidate only: the source phase-surrogate relationship (PDF p.2, Fig.1 and Fig.6 p.6) or aged-state region (Table 1 p.10) makes this relation plausible. Expected phase thresholds and bulk/aging-dependent region summaries are not confirmed as the same measured outcome. No category is excluded solely because it is derived or bounded."
+        }
+      ],
+      "notes": "Candidate only: the source phase-surrogate relationship (PDF p.2, Fig.1 and Fig.6 p.6) or aged-state region (Table 1 p.10) makes this relation plausible. Expected phase thresholds and bulk/aging-dependent region summaries are not confirmed as the same measured outcome. No category is excluded solely because it is derived or bounded."
+    },
+    {
+      "observation_id": "obs_025",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_026",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_027",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_028",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_029",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_030",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_031",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_032",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_033",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_034",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_035",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_036",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_037",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_038",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_039",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    },
+    {
+      "observation_id": "obs_040",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 2 electrolyte (KBr, KI, NaClO4, NaNO3, Na2SO4, H2SO4, NaIO3 or ammonium tartrate) has no corresponding supplied CRA NaCl experiment. Printed values and strict >+3 V bounds were all assessed."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "25_Hong-lei Wang, Tai-Xiu Gao, Jia-zheng Niu, Pei-jian Shi, Jing Xu, and Yan Wang. International Journal of Minerals, Metallury, and Materials, 23 (1) (2016), 77-82.pdf",
+  "reference_number": 25,
+  "inputs": {
+    "pdf": {
+      "filename": "25_Hong-lei Wang, Tai-Xiu Gao, Jia-zheng Niu, Pei-jian Shi, Jing Xu, and Yan Wang. International Journal of Minerals, Metallury, and Materials, 23 (1) (2016), 77-82.pdf",
+      "sha256": "50f7dbc8b89310e28caf7cda69737efe9414a6b4044cf6298c55c5823de674f6"
+    },
+    "csv": {
+      "filename": "pitting_potential_25.csv",
+      "sha256": "0248a1474a9c06c0e4581a37916e4ba34878c3c827b8ec6c443d561df678d272"
+    },
+    "registry": {
+      "filename": "paper_25.json",
+      "sha256": "803801a6248773d70f00b791d7ed06c28aa8692d1224a794b572c0c58585559b"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    4
+  ],
+  "coverage_notes": "All supplied observations/CSV records considered. Initial Poppler rendering of the long original path failed with I/O Error: Couldn't open file. Rendering a short-named byte-identical copy (SHA-256 verified) succeeded; PDF pp.1,2,4 actually viewed, including both registered anchors. Fingerprint remains that of the original PDF.",
+  "shared_qualifications": [
+    "C1: Nominal atomic/molar coefficients are converted only for chemistry comparison: wt.%_i = 100*n_i*M_i / sum(n_j*M_j), over the complete stated formula. CIAAW abridged standard atomic weights 2024: Al 26.982, Co 58.933, Cr 51.996, Fe 55.845, Ni 58.693, Si 28.085, B 10.81 (https://ciaaw.org/abridged-atomic-weights.htm). Calculated nominal wt.% is not a measured analysis.",
+    "The registered primary text reports -0.56 V vs Ag/AgCl; the registered Fig.5 Epit guide reads approximately -0.68 V on the same scale, a 120 mV internal source disagreement. Both locations are retained.",
+    "Methods (PDF p.2) identify Ag/AgCl but omit its filling solution and reference-electrode temperature. No Ag/AgCl-to-SCE offset is fitted to CRA -602 mV. Numerical comparison is not_comparable.",
+    "The solution is artificial sea salt dissolved in distilled water at a 1:30 mass ratio, not an established 1:30 seawater dilution. No sea-salt recipe, chloride molarity or pH is supplied for conversion."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 592,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "-602",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "not_comparable",
+          "evidence": [
+            {
+              "field": "Fe",
+              "paper_value": "Nominal equiatomic FeSiBAlNi; atomic/molar coefficient Fe=1",
+              "cra_value": "31.0",
+              "comparison": "C1: 100*1*55.845/180.415000 = 30.9536 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Si",
+              "paper_value": "Nominal equiatomic FeSiBAlNi; atomic/molar coefficient Si=1",
+              "cra_value": "16.0",
+              "comparison": "C1: 100*1*28.085/180.415000 = 15.5669 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "B",
+              "paper_value": "Nominal equiatomic FeSiBAlNi; atomic/molar coefficient B=1",
+              "cra_value": "6.0",
+              "comparison": "C1: 100*1*10.81/180.415000 = 5.9917 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Nominal equiatomic FeSiBAlNi; atomic/molar coefficient Al=1",
+              "cra_value": "14.0",
+              "comparison": "C1: 100*1*26.982/180.415000 = 14.9555 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal equiatomic FeSiBAlNi; atomic/molar coefficient Ni=1",
+              "cra_value": "33.0",
+              "comparison": "C1: 100*1*58.693/180.415000 = 32.5322 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "240 h mechanical alloying; SPS 520 C for 10 min, 40 C/min, 80 MPa in Ar; free cooling",
+              "cra_value": "as-milled powders consolidated by SPS @520C for 10 min, heating rate 40C/min, 80MPa in Ar, cooled freely",
+              "comparison": "Distinctive processing sequence agrees with CRA; p.78 methods."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Artificial sea salt : distilled water = 1:30 by mass",
+              "cra_value": "Sea Water 1:30",
+              "comparison": "Corresponds to CRA Sea Water 1:30 label; it does not establish the CRA chloride molarity."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "3 mV/s",
+              "cra_value": "3",
+              "comparison": "Exact sweep rate (PDF p.2)."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "Text: -0.56 V vs Ag/AgCl; secondary Fig.5 guide: approximately -0.68 V vs Ag/AgCl",
+              "cra_value": "-602",
+              "comparison": "Scaling alone gives -560 and approximately -680 mV vs Ag/AgCl; neither is yet an SCE value. Filling solution and reference temperature are unspecified, so -602 mV(SCE) cannot be defensibly compared numerically."
+            }
+          ],
+          "notes": "Equiatomic alloy family plus the exact 520 C SPS sequence, 1:30 artificial-sea-salt medium and 3 mV/s scan identify CRA 592 (PDF pp.1-2,4). Calculated nominal Al is about 15 wt.% versus CRA 14 wt.%; this discrepancy is retained. The two registered readings disagree; neither is substituted or corrected. The 1080 C material is not this registered outcome."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

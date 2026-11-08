@@ -1,0 +1,1016 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "85_C.A. Clark & P. Guha. Improvements in corrosion resistance … Werkstoffe und Korrosion, 34. 1983.pdf",
+  "reference_number": 85,
+  "inputs": {
+    "pdf": {
+      "filename": "85_C.A. Clark & P. Guha. Improvements in corrosion resistance … Werkstoffe und Korrosion, 34. 1983.pdf",
+      "sha256": "f71fac0d60eb204472a078bad3848afde5aeb441c6abfe3e6787d31e8747b621"
+    },
+    "csv": {
+      "filename": "pitting_potential_85.csv",
+      "sha256": "387fc565c8b2db1101413a24a66b5141cc8a9450cc964b8745bb043e009ffb95"
+    },
+    "registry": {
+      "filename": "paper_85.json",
+      "sha256": "f9b6b59109c81a8c56aaa0a84b3c426dcf65bc916864d697aaaf18e406432acc"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "coverage_notes": "Poppler emitted missing-display-font diagnostics for Symbol/ArialNarrow/HelveticaNarrow families. All registered anchors and necessary context were actually viewed and legible; Table2 was additionally viewed as a300-dpi crop to verify its Nb subheading.",
+  "shared_qualifications": [
+    "C1: conditional room-temperature saturated-KCl SCE comparisons. ALS/BAS lists +0.244 V versus SHE for saturated-KCl calomel and discusses 25°C reference operation (https://www.als-japan.com/2137.html); Corrtest lists +0.241 V versus NHE at25°C (https://www.corrtestinstruments.com/en/02437.html). C1a subtracts244 mV; C1b subtracts241 mV. Both are shown as alternative published comparison conventions, not paper uncertainty or constants fitted to CRA. Paper/CRA do not establish the physical calomel reference temperature/calibration. Numerical agreement is conditional on these25°C conventions; test-solution temperature is not assumed to be reference-electrode temperature. Identity uses alloy and test context independently.",
+    "PDF p.3 explicitly identifies Figure4 electrolyte as3%NaCl; p.4 gives distinct product/temperature markers. Four1150 mV points lie on the upper dashed line, whose meaning is not specified as censoring or no-pitting. Preserve the registered numerical readings; do not invent a bound.",
+    "Table2 supplies composition ranges and typical phases, not measured analyses of each plotted specimen. CRA fixed Cr/Ni/Cu/Mo numbers are range midpoints; duplex N=.1 represents a minimum and C=.08 a maximum, not established specimen analyses. Do not reconstruct exact source chemistry from CRA.",
+    "Cast20-type Table2 explicitly changes the N-column subheading to Nb and states Nb=8×%C; C maximum .07 implies .56 wt% Nb at that maximum, not .56 wt% nitrogen. CRA Nos.329–331 instead contain N=.56 and Nb=0.0. The source nitrogen content is unavailable. Independent designation, major-element ranges, austenitic phase and temperature identify these counterparts despite the field error.",
+    "Table3 lists1120°C solution treatment/water quench for these product classes as typical mechanical-property conditions. It does not independently establish treatment of each Figure4 pitting specimen; the common CRA treatment is not used to claim individual pitting-test provenance.",
+    "The cited nitrogen-added text comparison and high-N Figure1 endpoints (obs_002/005/008) can be related only tentatively to the30°C Ferralium255 row. Their exact named-product/specimen identity is not established. They remain candidate-only even though the converted potential agrees; no duplicate experiment or mean is asserted.",
+    "Obs_009/010 are pitting-current observations at imposed850 mV with unspecified electrode reference. Their upper bounds are not converted into exact thresholds or assigned to Figure4 records. Conventional18Cr10Ni3Mo temperature points have no matching alloy among the supplied CRA rows."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Cited nitrogen-free generic duplex result at0.45 V SHE; the supplied Ferralium product rows specify nitrogen-bearing grades and do not identify this comparison specimen."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 324,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "906",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Cr",
+              "paper_value": "approximately25 wt%",
+              "cra_value": "25.5",
+              "comparison": "Cited generic duplex composition is compatible only broadly with the product range24–27."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "approximately5 wt%",
+              "cra_value": "5.5",
+              "comparison": "Broad agreement with Ferralium255 range4.5–6.5; exact product identity not given."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "approximately2.4 wt%",
+              "cra_value": "3.0",
+              "comparison": "Within product range2–4, but not the CRA scalar3.0; no exact specimen identity."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "approximately3 wt%",
+              "cra_value": "2.65",
+              "comparison": "Within product range1.3–4, but not the CRA scalar2.65."
+            },
+            {
+              "field": "N",
+              "paper_value": "nitrogen added; amount not printed",
+              "cra_value": "0.1",
+              "comparison": "Cannot establish exact specimen nitrogen or its correspondence to a named product."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30°C",
+              "cra_value": "30.0",
+              "comparison": "Same nominal temperature; insufficient to prove repeated experiment identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl",
+              "comparison": "Same named electrolyte; no concentration-basis conversion inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (S.H.E.)\", \"value\": 1.15}",
+              "cra_value": "906",
+              "comparison": "C1 conditional comparison: source 1150 mV on hydrogen scale; C1a 1150−244=906 mV SCE; C1b 1150−241=909 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Possible counterpart to the30°C Ferralium255 population, supported by broad composition/conditions and potential. Exact product, nitrogen/carbon assignment and experiment identity are unresolved; candidate only, no consolidation with obs_018."
+        }
+      ],
+      "notes": "Possible counterpart to the30°C Ferralium255 population, supported by broad composition/conditions and potential. Exact product, nitrogen/carbon assignment and experiment identity are unresolved; candidate only, no consolidation with obs_018."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Distinct Figure1 nitrogen/carbon-series marker. CRA product rows do not identify this specimen; nitrogen/temperature/converted potential do not establish a counterpart. No origin category is excluded from assessment."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Distinct Figure1 nitrogen/carbon-series marker. CRA product rows do not identify this specimen; nitrogen/temperature/converted potential do not establish a counterpart. No origin category is excluded from assessment."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 324,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "906",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.16 wt% N",
+              "cra_value": "0.1",
+              "comparison": "Above Table2 product minimum.1, but CRA scalar.1 does not identify this specific high-N specimen."
+            },
+            {
+              "field": "C",
+              "paper_value": "0.04 wt% C",
+              "cra_value": "0.08",
+              "comparison": "Below Table2 product maximum.08, but the two carbon series are distinct and CRA does not identify either specimen."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "unlabelled duplex nitrogen/carbon series, Figure1",
+              "cra_value": "Ferralium alloy 255",
+              "comparison": "Same broad duplex family as Ferralium255; Figure1 does not securely assign this specimen to the named Figure4 product."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30°C",
+              "cra_value": "30.0",
+              "comparison": "Same nominal temperature; insufficient to prove repeated experiment identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl",
+              "comparison": "Same named electrolyte; no concentration-basis conversion inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 1150}",
+              "cra_value": "906",
+              "comparison": "C1 conditional comparison: source 1150 mV on hydrogen scale; C1a 1150−244=906 mV SCE; C1b 1150−241=909 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Possible counterpart to the30°C Ferralium255 population, supported by broad composition/conditions and potential. Exact product, nitrogen/carbon assignment and experiment identity are unresolved; candidate only, no consolidation with obs_018."
+        }
+      ],
+      "notes": "Possible counterpart to the30°C Ferralium255 population, supported by broad composition/conditions and potential. Exact product, nitrogen/carbon assignment and experiment identity are unresolved; candidate only, no consolidation with obs_018."
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Distinct Figure1 nitrogen/carbon-series marker. CRA product rows do not identify this specimen; nitrogen/temperature/converted potential do not establish a counterpart. No origin category is excluded from assessment."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Distinct Figure1 nitrogen/carbon-series marker. CRA product rows do not identify this specimen; nitrogen/temperature/converted potential do not establish a counterpart. No origin category is excluded from assessment."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 324,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "906",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "0.16 wt% N",
+              "cra_value": "0.1",
+              "comparison": "Above Table2 product minimum.1, but CRA scalar.1 does not identify this specific high-N specimen."
+            },
+            {
+              "field": "C",
+              "paper_value": "0.07 wt% C",
+              "cra_value": "0.08",
+              "comparison": "Below Table2 product maximum.08, but the two carbon series are distinct and CRA does not identify either specimen."
+            },
+            {
+              "field": "Comments",
+              "paper_value": "unlabelled duplex nitrogen/carbon series, Figure1",
+              "cra_value": "Ferralium alloy 255",
+              "comparison": "Same broad duplex family as Ferralium255; Figure1 does not securely assign this specimen to the named Figure4 product."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30°C",
+              "cra_value": "30.0",
+              "comparison": "Same nominal temperature; insufficient to prove repeated experiment identity."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl",
+              "comparison": "Same named electrolyte; no concentration-basis conversion inferred."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 1150}",
+              "cra_value": "906",
+              "comparison": "C1 conditional comparison: source 1150 mV on hydrogen scale; C1a 1150−244=906 mV SCE; C1b 1150−241=909 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            }
+          ],
+          "notes": "Possible counterpart to the30°C Ferralium255 population, supported by broad composition/conditions and potential. Exact product, nitrogen/carbon assignment and experiment identity are unresolved; candidate only, no consolidation with obs_018."
+        }
+      ],
+      "notes": "Possible counterpart to the30°C Ferralium255 population, supported by broad composition/conditions and potential. Exact product, nitrogen/carbon assignment and experiment identity are unresolved; candidate only, no consolidation with obs_018."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Imposed850 mV pitting-current upper bound with unspecified electrode reference; different quantity/protocol and chromium condition from the named-product Figure4 rows. No defensible counterpart or reference conversion."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Imposed850 mV pitting-current upper bound with unspecified electrode reference; different quantity/protocol and chromium condition from the named-product Figure4 rows. No defensible counterpart or reference conversion."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "18Cr10Ni3Mo conventional-steel series. Supplied CRA rows contain Ferralium255/288 and high-Ni Cast20-type products, not this alloy; matching potential/temperature alone is insufficient."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "18Cr10Ni3Mo conventional-steel series. Supplied CRA rows contain Ferralium255/288 and high-Ni Cast20-type products, not this alloy; matching potential/temperature alone is insufficient."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "18Cr10Ni3Mo conventional-steel series. Supplied CRA rows contain Ferralium255/288 and high-Ni Cast20-type products, not this alloy; matching potential/temperature alone is insufficient."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "18Cr10Ni3Mo conventional-steel series. Supplied CRA rows contain Ferralium255/288 and high-Ni Cast20-type products, not this alloy; matching potential/temperature alone is insufficient."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 329,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "906",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Cast20-type steel",
+              "cra_value": "Cast 20-type",
+              "comparison": "Named Figure4 series, supported by Table2 product classification, PDF p.4."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20–22 wt% range",
+              "cra_value": "21.0",
+              "comparison": "Table2 range; CRA scalar is its midpoint, not a specimen analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "26–31 wt% range",
+              "cra_value": "28.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.5–4.5 wt% range",
+              "cra_value": "4.0",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "1.5–2.5 wt% range",
+              "cra_value": "2.0",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "fully austenitic",
+              "cra_value": "austenitic ",
+              "comparison": "Table2 typical phase class, not a measured phase fraction for this test specimen."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "20°C",
+              "cra_value": "20.0",
+              "comparison": "Specific discrete Figure4 marker."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl  ",
+              "comparison": "Explicit Figure4 context, PDF p.3; no3%→.53M conversion assumed."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 1150}",
+              "cra_value": "906",
+              "comparison": "C1 conditional comparison: source 1150 mV on hydrogen scale; C1a 1150−244=906 mV SCE; C1b 1150−241=909 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            },
+            {
+              "field": "N",
+              "paper_value": "nitrogen not specified for Cast20-type; this Table2 cell is subheaded Nb",
+              "cra_value": "0.56",
+              "comparison": "CRA .56 is not supported as nitrogen; preserve the field conflict."
+            },
+            {
+              "field": "Nb",
+              "paper_value": "8×%C; C maximum .07 wt%, so8×.07=.56 wt% Nb at the stated carbon maximum",
+              "cra_value": "0.0",
+              "comparison": "Contradicts CRA0.0 Nb. This arithmetic is not an exact measured specimen Nb analysis."
+            }
+          ],
+          "notes": "Figure4 product designation and temperature, corroborated by Table2 ranges/phase class, identify the counterpart. C1a arithmetic equals the target; C1b differs by3 mV, both compatible with approximate graphical precision. Actual reference temperature remains unspecified. N/Nb column conflict is preserved."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 330,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "806",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Cast20-type steel",
+              "cra_value": "Cast 20-type",
+              "comparison": "Named Figure4 series, supported by Table2 product classification, PDF p.4."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20–22 wt% range",
+              "cra_value": "21.0",
+              "comparison": "Table2 range; CRA scalar is its midpoint, not a specimen analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "26–31 wt% range",
+              "cra_value": "28.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.5–4.5 wt% range",
+              "cra_value": "4.0",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "1.5–2.5 wt% range",
+              "cra_value": "2.0",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "fully austenitic",
+              "cra_value": "austenitic ",
+              "comparison": "Table2 typical phase class, not a measured phase fraction for this test specimen."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30°C",
+              "cra_value": "30.0",
+              "comparison": "Specific discrete Figure4 marker."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl  ",
+              "comparison": "Explicit Figure4 context, PDF p.3; no3%→.53M conversion assumed."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 1050}",
+              "cra_value": "806",
+              "comparison": "C1 conditional comparison: source 1050 mV on hydrogen scale; C1a 1050−244=806 mV SCE; C1b 1050−241=809 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            },
+            {
+              "field": "N",
+              "paper_value": "nitrogen not specified for Cast20-type; this Table2 cell is subheaded Nb",
+              "cra_value": "0.56",
+              "comparison": "CRA .56 is not supported as nitrogen; preserve the field conflict."
+            },
+            {
+              "field": "Nb",
+              "paper_value": "8×%C; C maximum .07 wt%, so8×.07=.56 wt% Nb at the stated carbon maximum",
+              "cra_value": "0.0",
+              "comparison": "Contradicts CRA0.0 Nb. This arithmetic is not an exact measured specimen Nb analysis."
+            }
+          ],
+          "notes": "Figure4 product designation and temperature, corroborated by Table2 ranges/phase class, identify the counterpart. C1a arithmetic equals the target; C1b differs by3 mV, both compatible with approximate graphical precision. Actual reference temperature remains unspecified. N/Nb column conflict is preserved."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 331,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "286",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Cast20-type steel",
+              "cra_value": "Cast 20-type",
+              "comparison": "Named Figure4 series, supported by Table2 product classification, PDF p.4."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "20–22 wt% range",
+              "cra_value": "21.0",
+              "comparison": "Table2 range; CRA scalar is its midpoint, not a specimen analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "26–31 wt% range",
+              "cra_value": "28.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "3.5–4.5 wt% range",
+              "cra_value": "4.0",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "1.5–2.5 wt% range",
+              "cra_value": "2.0",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "fully austenitic",
+              "cra_value": "austenitic ",
+              "comparison": "Table2 typical phase class, not a measured phase fraction for this test specimen."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "40°C",
+              "cra_value": "40.0",
+              "comparison": "Specific discrete Figure4 marker."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl  ",
+              "comparison": "Explicit Figure4 context, PDF p.3; no3%→.53M conversion assumed."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 530}",
+              "cra_value": "286",
+              "comparison": "C1 conditional comparison: source 530 mV on hydrogen scale; C1a 530−244=286 mV SCE; C1b 530−241=289 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            },
+            {
+              "field": "N",
+              "paper_value": "nitrogen not specified for Cast20-type; this Table2 cell is subheaded Nb",
+              "cra_value": "0.56",
+              "comparison": "CRA .56 is not supported as nitrogen; preserve the field conflict."
+            },
+            {
+              "field": "Nb",
+              "paper_value": "8×%C; C maximum .07 wt%, so8×.07=.56 wt% Nb at the stated carbon maximum",
+              "cra_value": "0.0",
+              "comparison": "Contradicts CRA0.0 Nb. This arithmetic is not an exact measured specimen Nb analysis."
+            }
+          ],
+          "notes": "Figure4 product designation and temperature, corroborated by Table2 ranges/phase class, identify the counterpart. C1a arithmetic equals the target; C1b differs by3 mV, both compatible with approximate graphical precision. Actual reference temperature remains unspecified. N/Nb column conflict is preserved."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 324,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "906",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "FERRALIUM alloy255",
+              "cra_value": "Ferralium alloy 255",
+              "comparison": "Named Figure4 series, supported by Table2 product classification, PDF p.4."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "24–27 wt% range",
+              "cra_value": "25.5",
+              "comparison": "Table2 range; CRA scalar is its midpoint, not a specimen analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "4.5–6.5 wt% range",
+              "cra_value": "5.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2–4 wt% range",
+              "cra_value": "3.0",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "1.3–4 wt% range",
+              "cra_value": "2.65",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "50/50 austenite–ferrite",
+              "cra_value": "50/50 austenite-ferrite ",
+              "comparison": "Table2 typical phase class, not a measured phase fraction for this test specimen."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "30°C",
+              "cra_value": "30.0",
+              "comparison": "Specific discrete Figure4 marker."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl",
+              "comparison": "Explicit Figure4 context, PDF p.3; no3%→.53M conversion assumed."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 1150}",
+              "cra_value": "906",
+              "comparison": "C1 conditional comparison: source 1150 mV on hydrogen scale; C1a 1150−244=906 mV SCE; C1b 1150−241=909 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.1 wt% minimum",
+              "cra_value": "0.1",
+              "comparison": "CRA.1 is the stated lower limit, not measured nitrogen for this marker."
+            },
+            {
+              "field": "C",
+              "paper_value": "0.08 wt% maximum",
+              "cra_value": "0.08",
+              "comparison": "CRA.08 is a maximum, not measured carbon for this marker."
+            }
+          ],
+          "notes": "Figure4 product designation and temperature, corroborated by Table2 ranges/phase class, identify the counterpart. C1a arithmetic equals the target; C1b differs by3 mV, both compatible with approximate graphical precision. Actual reference temperature remains unspecified."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 325,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "406",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "FERRALIUM alloy255",
+              "cra_value": "Ferralium alloy 255",
+              "comparison": "Named Figure4 series, supported by Table2 product classification, PDF p.4."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "24–27 wt% range",
+              "cra_value": "25.5",
+              "comparison": "Table2 range; CRA scalar is its midpoint, not a specimen analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "4.5–6.5 wt% range",
+              "cra_value": "5.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2–4 wt% range",
+              "cra_value": "3.0",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Cu",
+              "paper_value": "1.3–4 wt% range",
+              "cra_value": "2.65",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "50/50 austenite–ferrite",
+              "cra_value": "50/50 austenite-ferrite ",
+              "comparison": "Table2 typical phase class, not a measured phase fraction for this test specimen."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "40°C",
+              "cra_value": "40.0",
+              "comparison": "Specific discrete Figure4 marker."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl  ",
+              "comparison": "Explicit Figure4 context, PDF p.3; no3%→.53M conversion assumed."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 650}",
+              "cra_value": "406",
+              "comparison": "C1 conditional comparison: source 650 mV on hydrogen scale; C1a 650−244=406 mV SCE; C1b 650−241=409 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.1 wt% minimum",
+              "cra_value": "0.1",
+              "comparison": "CRA.1 is the stated lower limit, not measured nitrogen for this marker."
+            },
+            {
+              "field": "C",
+              "paper_value": "0.08 wt% maximum",
+              "cra_value": "0.08",
+              "comparison": "CRA.08 is a maximum, not measured carbon for this marker."
+            }
+          ],
+          "notes": "Figure4 product designation and temperature, corroborated by Table2 ranges/phase class, identify the counterpart. C1a arithmetic equals the target; C1b differs by3 mV, both compatible with approximate graphical precision. Actual reference temperature remains unspecified."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 326,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "906",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "FERRALIUM alloy288",
+              "cra_value": "Ferralium alloy 288",
+              "comparison": "Named Figure4 series, supported by Table2 product classification, PDF p.4."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "26–29 wt% range",
+              "cra_value": "27.5",
+              "comparison": "Table2 range; CRA scalar is its midpoint, not a specimen analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6–9 wt% range",
+              "cra_value": "7.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2–3 wt% range",
+              "cra_value": "2.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Cu",
+              "paper_value": ".75–1.75 wt% range",
+              "cra_value": "1.25",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "50/50 austenite–ferrite",
+              "cra_value": "50/50 austenite-ferrite ",
+              "comparison": "Table2 typical phase class, not a measured phase fraction for this test specimen."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "40°C",
+              "cra_value": "40.0",
+              "comparison": "Specific discrete Figure4 marker."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl  ",
+              "comparison": "Explicit Figure4 context, PDF p.3; no3%→.53M conversion assumed."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 1150}",
+              "cra_value": "906",
+              "comparison": "C1 conditional comparison: source 1150 mV on hydrogen scale; C1a 1150−244=906 mV SCE; C1b 1150−241=909 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.1 wt% minimum",
+              "cra_value": "0.1",
+              "comparison": "CRA.1 is the stated lower limit, not measured nitrogen for this marker."
+            },
+            {
+              "field": "C",
+              "paper_value": "0.08 wt% maximum",
+              "cra_value": "0.08",
+              "comparison": "CRA.08 is a maximum, not measured carbon for this marker."
+            }
+          ],
+          "notes": "Figure4 product designation and temperature, corroborated by Table2 ranges/phase class, identify the counterpart. C1a arithmetic equals the target; C1b differs by3 mV, both compatible with approximate graphical precision. Actual reference temperature remains unspecified."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 327,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "806",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "FERRALIUM alloy288",
+              "cra_value": "Ferralium alloy 288",
+              "comparison": "Named Figure4 series, supported by Table2 product classification, PDF p.4."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "26–29 wt% range",
+              "cra_value": "27.5",
+              "comparison": "Table2 range; CRA scalar is its midpoint, not a specimen analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6–9 wt% range",
+              "cra_value": "7.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2–3 wt% range",
+              "cra_value": "2.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Cu",
+              "paper_value": ".75–1.75 wt% range",
+              "cra_value": "1.25",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "50/50 austenite–ferrite",
+              "cra_value": "50/50 austenite-ferrite ",
+              "comparison": "Table2 typical phase class, not a measured phase fraction for this test specimen."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "50°C",
+              "cra_value": "50.0",
+              "comparison": "Specific discrete Figure4 marker."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl  ",
+              "comparison": "Explicit Figure4 context, PDF p.3; no3%→.53M conversion assumed."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 1050}",
+              "cra_value": "806",
+              "comparison": "C1 conditional comparison: source 1050 mV on hydrogen scale; C1a 1050−244=806 mV SCE; C1b 1050−241=809 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.1 wt% minimum",
+              "cra_value": "0.1",
+              "comparison": "CRA.1 is the stated lower limit, not measured nitrogen for this marker."
+            },
+            {
+              "field": "C",
+              "paper_value": "0.08 wt% maximum",
+              "cra_value": "0.08",
+              "comparison": "CRA.08 is a maximum, not measured carbon for this marker."
+            }
+          ],
+          "notes": "Figure4 product designation and temperature, corroborated by Table2 ranges/phase class, identify the counterpart. C1a arithmetic equals the target; C1b differs by3 mV, both compatible with approximate graphical precision. Actual reference temperature remains unspecified."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 328,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "266",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "FERRALIUM alloy288",
+              "cra_value": "Ferralium alloy 288",
+              "comparison": "Named Figure4 series, supported by Table2 product classification, PDF p.4."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "26–29 wt% range",
+              "cra_value": "27.5",
+              "comparison": "Table2 range; CRA scalar is its midpoint, not a specimen analysis."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "6–9 wt% range",
+              "cra_value": "7.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "2–3 wt% range",
+              "cra_value": "2.5",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Cu",
+              "paper_value": ".75–1.75 wt% range",
+              "cra_value": "1.25",
+              "comparison": "Independent product chemistry range."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "50/50 austenite–ferrite",
+              "cra_value": "50/50 austenite-ferrite ",
+              "comparison": "Table2 typical phase class, not a measured phase fraction for this test specimen."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60°C",
+              "cra_value": "60.0",
+              "comparison": "Specific discrete Figure4 marker."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3% NaCl",
+              "cra_value": "3% NaCl  ",
+              "comparison": "Explicit Figure4 context, PDF p.3; no3%→.53M conversion assumed."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (S.H.E.)\", \"value\": 510}",
+              "cra_value": "266",
+              "comparison": "C1 conditional comparison: source 510 mV on hydrogen scale; C1a 510−244=266 mV SCE; C1b 510−241=269 mV SCE. Original reading/sign retained; physical reference temperature/calibration unresolved."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.1 wt% minimum",
+              "cra_value": "0.1",
+              "comparison": "CRA.1 is the stated lower limit, not measured nitrogen for this marker."
+            },
+            {
+              "field": "C",
+              "paper_value": "0.08 wt% maximum",
+              "cra_value": "0.08",
+              "comparison": "CRA.08 is a maximum, not measured carbon for this marker."
+            }
+          ],
+          "notes": "Figure4 product designation and temperature, corroborated by Table2 ranges/phase class, identify the counterpart. C1a arithmetic equals the target; C1b differs by3 mV, both compatible with approximate graphical precision. Actual reference temperature remains unspecified."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

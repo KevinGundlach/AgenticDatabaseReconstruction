@@ -1,0 +1,416 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "60_J.E. Sweitzer, J.R. Scully, R.A. Bley, J.W.P. Hsu, Electrochemical and Solid-State Letters, 2 (1999) 267-270.pdf",
+  "reference_number": 60,
+  "inputs": {
+    "pdf": {
+      "filename": "60_J.E. Sweitzer, J.R. Scully, R.A. Bley, J.W.P. Hsu, Electrochemical and Solid-State Letters, 2 (1999) 267-270.pdf",
+      "sha256": "947be49ae72e6a113923af302789cc63ad049ab2eca2ae94e92d24031f16c186"
+    },
+    "csv": {
+      "filename": "pitting_potential_60.csv",
+      "sha256": "90b324211c55c5eb6daf843595fc5ff7ee56e8431e3e5b00653071e3f7cad909"
+    },
+    "registry": {
+      "filename": "paper_60.json",
+      "sha256": "c6a3113644ba1ee404d5de88c9ad795e6c57e995161171646350b044eda20452"
+    }
+  },
+  "inspected_pdf_pages": [
+    1,
+    2,
+    4
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was reviewed. Every registered anchor page, including secondary locations, was actually viewed. This is alignment of the exact supplied registry, not a full-paper census or proof of the source presentation used by the original curators. All inputs are unchanged.",
+  "shared_qualifications": [
+    "C1: source alloy formulas are atomic percentages, whereas CRA element columns are wt%. For a complete ternary formula, wt%_i = 100*x_i*M_i / sum(x_j*M_j). Atomic weights from CIAAW Abridged Standard Atomic Weights 2024 (https://ciaaw.org/abridged-atomic-weights.htm): Al26.982, Co58.933, Ce140.12, Ni58.693, Y88.906, Fe55.845, Gd157.25. Only relevant elements enter each explicitly stated ternary; no omitted alloy component is filled from CRA.",
+    "C2: V(SCE)*1000=mV(SCE); scale +/- by1000 and then form endpoints. Table II uncertainty is reported at99% confidence, not observed population extremes. The nanocrystalline source value is positive+0.044 V and is preserved as printed.",
+    "Microelectrode area is10^-4 cm2; the separate footnote result is for10^-1 cm2 pure-Al electrodes. The larger-area result is not substituted for the microelectrode mean. BracketedAl-Ni-Y entries occur only in the repassivation row, so no extra Epit observation is inferred.",
+    "Ep uses an anodic-current criterion two orders above passive current (PDF p.2), not an inferred reversal endpoint. Tests use N2-purged0.6 M NaCl,pH5.9,25 C,one-hourOCP and0.1 mV/s scan. Source heat treatments are150 C/25 h and550 C/1 h (PDF pp.1-2); CRA water-quench text is retained as metadata not independently established in these passages.",
+    "Poppler returned success but warned of missing Symbol/ArialNarrow display fonts. The registered Table II, footnote, methods and captions were visually legible; no anchor was blocked."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 708,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-376",
+            "min": "-489.0",
+            "max": "-263.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "99.999% pure polycrystalline Al, PDF p.2",
+              "cra_value": "100.0",
+              "comparison": "Nominal pure-element identity; source purity is retained."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-purged0.6 M NaCl",
+              "cra_value": "0.6M NaCl Deaerated N2 pH 5.9",
+              "comparison": "Same independently stated medium and gas."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.9",
+              "cra_value": "5.9",
+              "comparison": "Same explicit source-reported pH."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit temperature."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "10^-4 cm2 microelectrode, three-electrode cell; one-hour OCP exposure, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP measured for 1 hr",
+              "comparison": "Independent geometry/method distinguishes this from the separate large-area footnote."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same explicit scan rate."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.376, \"plus_minus\": 0.113}",
+              "cra_value": "-376",
+              "comparison": "C2: -0.376 V(SCE)*1000 = -376 mV(SCE); +/-0.113 V scales to +/-113 mV without an electrode offset. Source uncertainty means the reported99% confidence uncertainty of the mean. "
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "-0.376 - 0.113 V(SCE), the reported99% confidence uncertainty of the mean",
+              "cra_value": "-489.0",
+              "comparison": "C2: (-0.376-0.113)*1000 = -489 mV(SCE). This is a scaled uncertainty endpoint, not an observed population extreme. "
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "-0.376 + 0.113 V(SCE), the reported99% confidence uncertainty of the mean",
+              "cra_value": "-263.0",
+              "comparison": "C2: (-0.376+0.113)*1000 = -263 mV(SCE). This is a scaled uncertainty endpoint, not an observed population extreme. "
+            }
+          ],
+          "notes": "Table II microelectrode material/state, full source formula and independent electrolyte/procedure identify the counterpart; mean and scaled confidence endpoints agree exactly. The large-area footnote and repassivation-only bracket values are distinct."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 709,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-99",
+            "min": "-192.0",
+            "max": "-6.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "69.5",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Al = 100*90*26.982/3493.855000 = 69.50432 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "7.99",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Fe = 100*5*55.845/3493.855000 = 7.99189 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "22.5",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Gd = 100*5*157.25/3493.855000 = 22.50380 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-purged0.6 M NaCl",
+              "cra_value": "0.6M NaCl Deaerated N2 pH 5.9",
+              "comparison": "Same independently stated medium and gas."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.9",
+              "cra_value": "5.9",
+              "comparison": "Same explicit source-reported pH."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit temperature."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "10^-4 cm2 microelectrode, three-electrode cell; one-hour OCP exposure, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP measured for 1 hr",
+              "comparison": "Independent geometry/method distinguishes this from the separate large-area footnote."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same explicit scan rate."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "Amorphous",
+              "cra_value": "Amorphous",
+              "comparison": "Same source state independently selects the material condition."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.099, \"plus_minus\": 0.093}",
+              "cra_value": "-99",
+              "comparison": "C2: -0.099 V(SCE)*1000 = -99 mV(SCE); +/-0.093 V scales to +/-93 mV without an electrode offset. Source uncertainty means the reported99% confidence uncertainty of the mean. "
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "-0.099 - 0.093 V(SCE), the reported99% confidence uncertainty of the mean",
+              "cra_value": "-192.0",
+              "comparison": "C2: (-0.099-0.093)*1000 = -192 mV(SCE). This is a scaled uncertainty endpoint, not an observed population extreme. "
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "-0.099 + 0.093 V(SCE), the reported99% confidence uncertainty of the mean",
+              "cra_value": "-6.0",
+              "comparison": "C2: (-0.099+0.093)*1000 = -6 mV(SCE). This is a scaled uncertainty endpoint, not an observed population extreme. "
+            }
+          ],
+          "notes": "Table II microelectrode material/state, full source formula and independent electrolyte/procedure identify the counterpart; mean and scaled confidence endpoints agree exactly. The large-area footnote and repassivation-only bracket values are distinct."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 710,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "44",
+            "min": "-86.0",
+            "max": "174.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "69.5",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Al = 100*90*26.982/3493.855000 = 69.50432 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "7.99",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Fe = 100*5*55.845/3493.855000 = 7.99189 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "22.5",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Gd = 100*5*157.25/3493.855000 = 22.50380 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-purged0.6 M NaCl",
+              "cra_value": "0.6M NaCl Deaerated N2 pH 5.9",
+              "comparison": "Same independently stated medium and gas."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.9",
+              "cra_value": "5.9",
+              "comparison": "Same explicit source-reported pH."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit temperature."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "10^-4 cm2 microelectrode, three-electrode cell; one-hour OCP exposure, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP measured for 1 hr",
+              "comparison": "Independent geometry/method distinguishes this from the separate large-area footnote."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same explicit scan rate."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "Nanocrystalline",
+              "cra_value": "Nanocrystalline",
+              "comparison": "Same source state independently selects the material condition."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "150 C for25 h",
+              "cra_value": "150 °C for 25 hrs and H2O quenched",
+              "comparison": "Same temperature/duration; CRA H2O quench is not independently established in the inspected source passages."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.044, \"plus_minus\": 0.13}",
+              "cra_value": "44",
+              "comparison": "C2: 0.044 V(SCE)*1000 = 44 mV(SCE); +/-0.13 V scales to +/-130 mV without an electrode offset. Source uncertainty means the reported99% confidence uncertainty of the mean. "
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "0.044 - 0.13 V(SCE), the reported99% confidence uncertainty of the mean",
+              "cra_value": "-86.0",
+              "comparison": "C2: (0.044-0.13)*1000 = -86 mV(SCE). This is a scaled uncertainty endpoint, not an observed population extreme. "
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "0.044 + 0.13 V(SCE), the reported99% confidence uncertainty of the mean",
+              "cra_value": "174.0",
+              "comparison": "C2: (0.044+0.13)*1000 = 174 mV(SCE). This is a scaled uncertainty endpoint, not an observed population extreme. "
+            }
+          ],
+          "notes": "Table II microelectrode material/state, full source formula and independent electrolyte/procedure identify the counterpart; mean and scaled confidence endpoints agree exactly. The large-area footnote and repassivation-only bracket values are distinct."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 711,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "-499",
+            "min": "-662.0",
+            "max": "-336.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "69.5",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Al = 100*90*26.982/3493.855000 = 69.50432 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Fe",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "7.99",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Fe = 100*5*55.845/3493.855000 = 7.99189 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Gd",
+              "paper_value": "90 at% Al, 5 at% Fe, 5 at% Gd; Al90Fe5Gd5 source atomic formula, PDF pp.1-2 / TableII",
+              "cra_value": "22.5",
+              "comparison": "C1: denominator sum(x*M) = 3493.855000; Gd = 100*5*157.25/3493.855000 = 22.50380 wt%. Compare the original CRA wt% cell, retaining any basis error."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "N2-purged0.6 M NaCl",
+              "cra_value": "0.6M NaCl Deaerated N2 pH 5.9",
+              "comparison": "Same independently stated medium and gas."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.9",
+              "cra_value": "5.9",
+              "comparison": "Same explicit source-reported pH."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "25 C",
+              "cra_value": "25.0",
+              "comparison": "Same explicit temperature."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "10^-4 cm2 microelectrode, three-electrode cell; one-hour OCP exposure, PDF p.2",
+              "cra_value": "Potentiodynamic Polarization in a three electrode flat cell, prior to anodic sweep OCP measured for 1 hr",
+              "comparison": "Independent geometry/method distinguishes this from the separate large-area footnote."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.1 mV/s",
+              "cra_value": "0.1",
+              "comparison": "Same explicit scan rate."
+            },
+            {
+              "field": "Microstructures",
+              "paper_value": "Fully crystalline",
+              "cra_value": "Fully Crystalline",
+              "comparison": "Same source state independently selects the material condition."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "550 C for1 h",
+              "cra_value": "550 °C for 1 hrs and H2O quenched",
+              "comparison": "Same temperature/duration; CRA H2O quench is not independently established in the inspected source passages."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": -0.499, \"plus_minus\": 0.163}",
+              "cra_value": "-499",
+              "comparison": "C2: -0.499 V(SCE)*1000 = -499 mV(SCE); +/-0.163 V scales to +/-163 mV without an electrode offset. Source uncertainty means the reported99% confidence uncertainty of the mean. "
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "-0.499 - 0.163 V(SCE), the reported99% confidence uncertainty of the mean",
+              "cra_value": "-662.0",
+              "comparison": "C2: (-0.499-0.163)*1000 = -662 mV(SCE). This is a scaled uncertainty endpoint, not an observed population extreme. "
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "-0.499 + 0.163 V(SCE), the reported99% confidence uncertainty of the mean",
+              "cra_value": "-336.0",
+              "comparison": "C2: (-0.499+0.163)*1000 = -336 mV(SCE). This is a scaled uncertainty endpoint, not an observed population extreme. "
+            }
+          ],
+          "notes": "Table II microelectrode material/state, full source formula and independent electrolyte/procedure identify the counterpart; mean and scaled confidence endpoints agree exactly. The large-area footnote and repassivation-only bracket values are distinct."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table II footnote explicitly reports10^-1 cm2 pure Al,-0.649+/-0.034 V(SCE), a separate area-dependent experiment. CRA708 is the10^-4 cm2 Table II mean-0.376+/-0.113 V; no large-area counterpart is supplied here."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

@@ -1,0 +1,306 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "45_G. C. Palit, V. Kain , H. S. Gadiyaζ Corrosion 49 (1993)_ p. 977.pdf",
+  "reference_number": 45,
+  "inputs": {
+    "pdf": {
+      "filename": "45_G. C. Palit, V. Kain , H. S. Gadiyaζ Corrosion 49 (1993)_ p. 977.pdf",
+      "sha256": "34d7b9082f840f9e79ccbcad66da58d52585b93e9a8a8536b19ba67e08fbe7e9"
+    },
+    "csv": {
+      "filename": "pitting_potential_45.csv",
+      "sha256": "a90e901c8a501d77841d4f2c30da98e29c7b07c92c523910d5740a62d650e77e"
+    },
+    "registry": {
+      "filename": "paper_45.json",
+      "sha256": "730c412495fa404484ab3de4f1aafb14c147db22bb395143d742eff5a53e3f52"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    4,
+    5,
+    6
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was considered. All registered anchor pages were visually inspected, including secondary locations. This is registry-scoped identity alignment, not a full-paper census or proof of the original curator's chosen presentation. Inputs are unchanged.",
+  "shared_qualifications": [
+    "C1: in these explicitly identified monovalent HCl and NaCl solutions, 1 equivalent of chloride is supplied per mole of solute, so N = mol/L for chloride. This does not generalize to unspecified normalities or establish pH.",
+    "C2: 20 mV increments with a 60 s dwell give 20/60 = 0.333333 mV/s as a nominal average, not a continuous sweep (PDF p.2). CRA 0.333 and its full stepped-procedure text are interpreted accordingly.",
+    "No.148 has CRA CL- [M] = 0.0 despite both its own 1 M HCl solution label and source 1 N HCl. This conflict is retained. Missing test temperatures remain missing; no room temperature is inferred. Duplicate tests agreeing within 20 mV are reproducibility information, not a standard deviation.",
+    "Poppler rendered the registered pages successfully but emitted font warnings for Symbol/ArialNarrow variants. The relevant text, values, axes and captions were visually legible; no anchor was blocked."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 148,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 316LN (UNS S31653), 600-grit finish, about 3 cm2 exposed area, PDF p.2",
+              "cra_value": "600 grit surface finish, 316LN (UNS S31653), exposed area 3 cm2",
+              "comparison": "Independent alloy and specimen context."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.16 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.16",
+              "comparison": "Distinguishes the nitrogen-alloyed specimen from comparative 316L results."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "H2-deaerated 1 N HCl, PDF pp.2,4-5",
+              "cra_value": " deareated (by H2) 1 M HCl",
+              "comparison": "Same named medium; C1 gives the source-specific N-to-M relation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "1 N HCl; C1 gives 1 mol/L chloride",
+              "cra_value": "0.0",
+              "comparison": "Conflict: source chloride is 1 mol/L, whereas CRA says 0.0."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV step, 1 min dwell",
+              "cra_value": "0.333",
+              "comparison": "C2: nominal 20/60 = 0.333333 mV/s; not a continuous scan."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 500}",
+              "cra_value": "500",
+              "comparison": "Both use mV(SCE); exact printed Epit agrees with the original CRA average cell. No reference-electrode conversion or averaging is needed."
+            }
+          ],
+          "notes": "Named 316LN material, source medium and stepped procedure identify this counterpart independently (PDF pp.2,4-5); the separate potentiostatic-hold bracket is not merged into this result."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The >1000 mV(SCE) result is for 316LN in 0.1 N HCl, not the supplied 1 N HCl CRA row; the bound is retained and not replaced by its endpoint."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These comparative 316L outcomes use a different material from all supplied 316LN rows; no counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "These comparative 316L outcomes use a different material from all supplied 316LN rows; no counterpart is supplied."
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 151,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "350",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 316LN (UNS S31653), 600-grit finish, about 3 cm2 exposed area, PDF p.2",
+              "cra_value": "600 grit surface finish, 316LN (UNS S31653), exposed area 3 cm2",
+              "comparison": "Independent alloy and specimen context."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.16 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.16",
+              "comparison": "Distinguishes the nitrogen-alloyed specimen from comparative 316L results."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "H2-deaerated Saturated NaCl, approximately 6.2 N, PDF pp.2,4-5",
+              "cra_value": "deareated (by H2) 6.2 M NaCl",
+              "comparison": "Same named medium; C1 gives the source-specific N-to-M relation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "Saturated NaCl, approximately 6.2 N; C1 gives 6.2 mol/L chloride",
+              "cra_value": "6.2",
+              "comparison": "C1: one chloride equivalent per mole of the named monovalent solute."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV step, 1 min dwell",
+              "cra_value": "0.333",
+              "comparison": "C2: nominal 20/60 = 0.333333 mV/s; not a continuous scan."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 350}",
+              "cra_value": "350",
+              "comparison": "Both use mV(SCE); exact printed Epit agrees with the original CRA average cell. No reference-electrode conversion or averaging is needed."
+            }
+          ],
+          "notes": "Named 316LN material, source medium and stepped procedure identify this counterpart independently (PDF pp.2,4-5); the separate potentiostatic-hold bracket is not merged into this result."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The approximately 1000 mV(SCE) result covers 1.5-2.5 N NaCl, a concentration group absent from the four supplied CRA rows."
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 149,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "720",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 316LN (UNS S31653), 600-grit finish, about 3 cm2 exposed area, PDF p.2",
+              "cra_value": "600 grit surface finish, 316LN (UNS S31653), exposed area 3 cm2",
+              "comparison": "Independent alloy and specimen context."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.16 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.16",
+              "comparison": "Distinguishes the nitrogen-alloyed specimen from comparative 316L results."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "H2-deaerated 3 N NaCl, PDF pp.2,4-5",
+              "cra_value": "deareated (by H2) 3 M NaCl",
+              "comparison": "Same named medium; C1 gives the source-specific N-to-M relation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "3 N NaCl; C1 gives 3 mol/L chloride",
+              "cra_value": "3.0",
+              "comparison": "C1: one chloride equivalent per mole of the named monovalent solute."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV step, 1 min dwell",
+              "cra_value": "0.333",
+              "comparison": "C2: nominal 20/60 = 0.333333 mV/s; not a continuous scan."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 720}",
+              "cra_value": "720",
+              "comparison": "Both use mV(SCE); exact printed Epit agrees with the original CRA average cell. No reference-electrode conversion or averaging is needed."
+            }
+          ],
+          "notes": "Named 316LN material, source medium and stepped procedure identify this counterpart independently (PDF pp.2,4-5); the separate potentiostatic-hold bracket is not merged into this result."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 150,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "500",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Comments",
+              "paper_value": "Type 316LN (UNS S31653), 600-grit finish, about 3 cm2 exposed area, PDF p.2",
+              "cra_value": "600 grit surface finish, 316LN (UNS S31653), exposed area 3 cm2",
+              "comparison": "Independent alloy and specimen context."
+            },
+            {
+              "field": "N",
+              "paper_value": "0.16 wt% N, Table 1, PDF p.2",
+              "cra_value": "0.16",
+              "comparison": "Distinguishes the nitrogen-alloyed specimen from comparative 316L results."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "H2-deaerated 4 N NaCl, PDF pp.2,4-5",
+              "cra_value": "deareated (by H2) 4 M NaCl",
+              "comparison": "Same named medium; C1 gives the source-specific N-to-M relation."
+            },
+            {
+              "field": "CL- [M]",
+              "paper_value": "4 N NaCl; C1 gives 4 mol/L chloride",
+              "cra_value": "4.0",
+              "comparison": "C1: one chloride equivalent per mole of the named monovalent solute."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV step, 1 min dwell",
+              "cra_value": "0.333",
+              "comparison": "C2: nominal 20/60 = 0.333333 mV/s; not a continuous scan."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 500}",
+              "cra_value": "500",
+              "comparison": "Both use mV(SCE); exact printed Epit agrees with the original CRA average cell. No reference-electrode conversion or averaging is needed."
+            }
+          ],
+          "notes": "Named 316LN material, source medium and stepped procedure identify this counterpart independently (PDF pp.2,4-5); the separate potentiostatic-hold bracket is not merged into this result."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "The >300 to <=400 mV(SCE) stable-pitting bracket is from separate potentiostatic holds (PDF pp.5-6), not the stepped-polarization 500 mV threshold in 1 N HCl; no hold-protocol counterpart is supplied."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

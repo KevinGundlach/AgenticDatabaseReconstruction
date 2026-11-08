@@ -1,0 +1,1385 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "38_H. Tsuge , Y. Tarutani, T. Kudo , Corrosion 44 (1988)_ p. 305.pdf",
+  "reference_number": 38,
+  "inputs": {
+    "pdf": {
+      "filename": "38_H. Tsuge , Y. Tarutani, T. Kudo , Corrosion 44 (1988)_ p. 305.pdf",
+      "sha256": "e2a463f86f5f92064223c18379755f5484db2b3f0b4ca774e83cae62fe1d91f6"
+    },
+    "csv": {
+      "filename": "pitting_potential_38.csv",
+      "sha256": "8a99ace17554d6330356ff12271c3d5f37f63c272fb5d912cc42528fbd148888"
+    },
+    "registry": {
+      "filename": "paper_38.json",
+      "sha256": "0eea2833c86bae2302822e41ae37fdeae5cb1703abc1a37ec17ac33353c4d3e5"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    4,
+    5,
+    6,
+    8
+  ],
+  "coverage_notes": "Rendered short-named, byte-identical PDF copy verified against the original SHA-256. Fingerprints refer to original input bytes. All 23 registry entries and 17 CRA rows considered. Every registered anchor on PDF pp.4,6,8 and composition/heat-treatment/test methods on p.2 and heat-treatment identity context on p.5 visually inspected. Simulated HAZ(B) results are not assigned to base metal.",
+  "shared_qualifications": [
+    "The source criterion is the dramatic anodic-current increase attributed to pitting; plotted values retain manual-reading precision, not the excess decimals in curated CSV targets.",
+    "Fig.14 labels nitrogen approximately 0.13%; the registry identifies alloy D (Table 1, 0.137 wt.%). Fig.11 on PDF p.5 explicitly identifies 0.137% material heated at 600 C for 1 h, and the surrounding heat-treatment discussion/Fig.13 also includes 0.137% material. This source label precision is retained instead of silently rewriting the registry or the CRA analysis."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 121,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "190.77",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy A: 0.047 mass % N",
+              "cra_value": "0.047",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy A: 21.89 mass % Cr",
+              "cra_value": "21.89",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy A: 5.57 mass % Ni",
+              "cra_value": "5.57",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy A: 3.22 mass % Mo",
+              "cra_value": "3.22",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 190}",
+              "cra_value": "190.77",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy A Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 127,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "156.33",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy A: 0.047 mass % N",
+              "cra_value": "0.047",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy A: 21.89 mass % Cr",
+              "cra_value": "21.89",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy A: 5.57 mass % Ni",
+              "cra_value": "5.57",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy A: 3.22 mass % Mo",
+              "cra_value": "3.22",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl + 0.01 atm H2S",
+              "cra_value": "deaerated 5 wt.% NaCl + 0.01 atm H2S",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 155}",
+              "cra_value": "156.33",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy A Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 122,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "225.31",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy B: 0.077 mass % N",
+              "cra_value": "0.077",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy B: 21.72 mass % Cr",
+              "cra_value": "21.72",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy B: 5.58 mass % Ni",
+              "cra_value": "5.58",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy B: 3.16 mass % Mo",
+              "cra_value": "3.16",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 225}",
+              "cra_value": "225.31",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy B Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 128,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "169.92",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy B: 0.077 mass % N",
+              "cra_value": "0.077",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy B: 21.72 mass % Cr",
+              "cra_value": "21.72",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy B: 5.58 mass % Ni",
+              "cra_value": "5.58",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy B: 3.16 mass % Mo",
+              "cra_value": "3.16",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl + 0.01 atm H2S",
+              "cra_value": "deaerated 5 wt.% NaCl + 0.01 atm H2S",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 165}",
+              "cra_value": "169.92",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy B Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 123,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "226.23",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy C: 0.123 mass % N",
+              "cra_value": "0.123",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy C: 21.92 mass % Cr",
+              "cra_value": "21.92",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy C: 5.6 mass % Ni",
+              "cra_value": "5.6",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy C: 3.22 mass % Mo",
+              "cra_value": "3.22",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 225}",
+              "cra_value": "226.23",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy C Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 129,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "163.34",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy C: 0.123 mass % N",
+              "cra_value": "0.123",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy C: 21.92 mass % Cr",
+              "cra_value": "21.92",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy C: 5.6 mass % Ni",
+              "cra_value": "5.6",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy C: 3.22 mass % Mo",
+              "cra_value": "3.22",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl + 0.01 atm H2S",
+              "cra_value": "deaerated 5 wt.% NaCl + 0.01 atm H2S",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 160}",
+              "cra_value": "163.34",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy C Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 124,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "277.95",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy D: 0.137 mass % N",
+              "cra_value": "0.137",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy D: 21.75 mass % Cr",
+              "cra_value": "21.75",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy D: 5.56 mass % Ni",
+              "cra_value": "5.56",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy D: 3.3 mass % Mo",
+              "cra_value": "3.3",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 280}",
+              "cra_value": "277.95",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy D Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 130,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "186.61",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy D: 0.137 mass % N",
+              "cra_value": "0.137",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy D: 21.75 mass % Cr",
+              "cra_value": "21.75",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy D: 5.56 mass % Ni",
+              "cra_value": "5.56",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy D: 3.3 mass % Mo",
+              "cra_value": "3.3",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl + 0.01 atm H2S",
+              "cra_value": "deaerated 5 wt.% NaCl + 0.01 atm H2S",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 185}",
+              "cra_value": "186.61",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy D Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 125,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "352.91",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy E: 0.164 mass % N",
+              "cra_value": "0.164",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy E: 21.7 mass % Cr",
+              "cra_value": "21.7",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy E: 5.51 mass % Ni",
+              "cra_value": "5.51",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy E: 3.14 mass % Mo",
+              "cra_value": "3.14",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 355}",
+              "cra_value": "352.91",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy E Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 131,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "243.61",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy E: 0.164 mass % N",
+              "cra_value": "0.164",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy E: 21.7 mass % Cr",
+              "cra_value": "21.7",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy E: 5.51 mass % Ni",
+              "cra_value": "5.51",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy E: 3.14 mass % Mo",
+              "cra_value": "3.14",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl + 0.01 atm H2S",
+              "cra_value": "deaerated 5 wt.% NaCl + 0.01 atm H2S",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 240}",
+              "cra_value": "243.61",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy E Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 126,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "724.53",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy F: 0.238 mass % N",
+              "cra_value": "0.238",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy F: 21.7 mass % Cr",
+              "cra_value": "21.7",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy F: 5.51 mass % Ni",
+              "cra_value": "5.51",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy F: 3.16 mass % Mo",
+              "cra_value": "3.16",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 725}",
+              "cra_value": "724.53",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy F Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 132,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "461.75",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy F: 0.238 mass % N",
+              "cra_value": "0.238",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy F: 21.7 mass % Cr",
+              "cra_value": "21.7",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy F: 5.51 mass % Ni",
+              "cra_value": "5.51",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy F: 3.16 mass % Mo",
+              "cra_value": "3.16",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl + 0.01 atm H2S",
+              "cra_value": "deaerated 5 wt.% NaCl + 0.01 atm H2S",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Base metal: solution heat treatment 1050 C for 30 min, water quenched",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching",
+              "comparison": "Exact base-metal preparation, without simulated HAZ or additional 1 h aging."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 465}",
+              "cra_value": "461.75",
+              "comparison": "Original plotted mV(SCE) reading; same electrode scale as CRA. Differences of a few mV are compatible with finite manual plot resolution; no numerical reference offset."
+            }
+          ],
+          "notes": "Alloy F Table 1 chemistry, base-metal preparation and Fig.6 gas/solution series identify the counterpart (PDF pp.2,4), independently of the near potential."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 133,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "256.93",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy D: 0.137 mass % N",
+              "cra_value": "0.137",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy D: 21.75 mass % Cr",
+              "cra_value": "21.75",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy D: 5.56 mass % Ni",
+              "cra_value": "5.56",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy D: 3.3 mass % Mo",
+              "cra_value": "3.3",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution treated base metal, then heated at 500 C for 1 h",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching, then 500 C heated for 1 h",
+              "comparison": "Exact distinct Fig.14 upper-panel aging temperature and duration; source approximate N label retained."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 255}",
+              "cra_value": "256.93",
+              "comparison": "Fig.14 upper-panel pitting potential in mV(SCE), directly comparable. CRA differs by only a few mV at the plotted precision; lower-panel corrosion rate is a different quantity."
+            }
+          ],
+          "notes": "Distinct 1 h aging temperature, approximate-N alloy-D context and 60 C NaCl test identify the Fig.14 counterpart (PDF pp.2,6). Source caption N~0.13% versus exact Table 1 N=0.137% retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 134,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "243.35",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy D: 0.137 mass % N",
+              "cra_value": "0.137",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy D: 21.75 mass % Cr",
+              "cra_value": "21.75",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy D: 5.56 mass % Ni",
+              "cra_value": "5.56",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy D: 3.3 mass % Mo",
+              "cra_value": "3.3",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution treated base metal, then heated at 600 C for 1 h",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching, then 600 C heated for 1 h",
+              "comparison": "Exact distinct Fig.14 upper-panel aging temperature and duration; source approximate N label retained."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 245}",
+              "cra_value": "243.35",
+              "comparison": "Fig.14 upper-panel pitting potential in mV(SCE), directly comparable. CRA differs by only a few mV at the plotted precision; lower-panel corrosion rate is a different quantity."
+            }
+          ],
+          "notes": "Distinct 1 h aging temperature, approximate-N alloy-D context and 60 C NaCl test identify the Fig.14 counterpart (PDF pp.2,6). Source caption N~0.13% versus exact Table 1 N=0.137% retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 135,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "160.4",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy D: 0.137 mass % N",
+              "cra_value": "0.137",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy D: 21.75 mass % Cr",
+              "cra_value": "21.75",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy D: 5.56 mass % Ni",
+              "cra_value": "5.56",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy D: 3.3 mass % Mo",
+              "cra_value": "3.3",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution treated base metal, then heated at 700 C for 1 h",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching, then 700 C heated for 1 h",
+              "comparison": "Exact distinct Fig.14 upper-panel aging temperature and duration; source approximate N label retained."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 160}",
+              "cra_value": "160.4",
+              "comparison": "Fig.14 upper-panel pitting potential in mV(SCE), directly comparable. CRA differs by only a few mV at the plotted precision; lower-panel corrosion rate is a different quantity."
+            }
+          ],
+          "notes": "Distinct 1 h aging temperature, approximate-N alloy-D context and 60 C NaCl test identify the Fig.14 counterpart (PDF pp.2,6). Source caption N~0.13% versus exact Table 1 N=0.137% retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 136,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "88.43",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy D: 0.137 mass % N",
+              "cra_value": "0.137",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy D: 21.75 mass % Cr",
+              "cra_value": "21.75",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy D: 5.56 mass % Ni",
+              "cra_value": "5.56",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy D: 3.3 mass % Mo",
+              "cra_value": "3.3",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution treated base metal, then heated at 800 C for 1 h",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching, then 800 C heated for 1 h",
+              "comparison": "Exact distinct Fig.14 upper-panel aging temperature and duration; source approximate N label retained."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 90}",
+              "cra_value": "88.43",
+              "comparison": "Fig.14 upper-panel pitting potential in mV(SCE), directly comparable. CRA differs by only a few mV at the plotted precision; lower-panel corrosion rate is a different quantity."
+            }
+          ],
+          "notes": "Distinct 1 h aging temperature, approximate-N alloy-D context and 60 C NaCl test identify the Fig.14 counterpart (PDF pp.2,6). Source caption N~0.13% versus exact Table 1 N=0.137% retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 137,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "58.67",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Table 1 alloy D: 0.137 mass % N",
+              "cra_value": "0.137",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "Table 1 alloy D: 21.75 mass % Cr",
+              "cra_value": "21.75",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Table 1 alloy D: 5.56 mass % Ni",
+              "cra_value": "5.56",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Mo",
+              "paper_value": "Table 1 alloy D: 3.3 mass % Mo",
+              "cra_value": "3.3",
+              "comparison": "Direct source mass-percent analysis agrees; PDF p.2."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "Deaerated 5% NaCl",
+              "cra_value": "deaerated 5 wt.% NaCl",
+              "comparison": "Exact plotted electrolyte; no unsupported salt-weight-to-chloride-molarity conversion."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "60 C",
+              "cra_value": "60.0",
+              "comparison": "Exact test temperature, PDF p.2 and plot labels."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "20 mV/min",
+              "cra_value": "0.33",
+              "comparison": "20/60 = 0.3333333 mV/s; rounds to CRA 0.33."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Solution treated base metal, then heated at 900 C for 1 h",
+              "cra_value": "Melted in the laboratory. The ingots were forged, hot rolled to plates of 5 mm in thickness, and then solution heat treated at 1050 C for 30 min, followed by water quenching, then 900 C heated for 1 h",
+              "comparison": "Exact distinct Fig.14 upper-panel aging temperature and duration; source approximate N label retained."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 60}",
+              "cra_value": "58.67",
+              "comparison": "Fig.14 upper-panel pitting potential in mV(SCE), directly comparable. CRA differs by only a few mV at the plotted precision; lower-panel corrosion rate is a different quantity."
+            }
+          ],
+          "notes": "Distinct 1 h aging temperature, approximate-N alloy-D context and 60 C NaCl test identify the Fig.14 counterpart (PDF pp.2,6). Source caption N~0.13% versus exact Table 1 N=0.137% retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.18 simulated high-temperature HAZ(B), with 1375 C peak, differs from every supplied CRA base-metal/500-900 C 1 h aging treatment. Matching nitrogen content or similar potential does not identify the same experiment. Source HAZ thermal context on PDF pp.2,8 considered."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.18 simulated high-temperature HAZ(B), with 1375 C peak, differs from every supplied CRA base-metal/500-900 C 1 h aging treatment. Matching nitrogen content or similar potential does not identify the same experiment. Source HAZ thermal context on PDF pp.2,8 considered."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.18 simulated high-temperature HAZ(B), with 1375 C peak, differs from every supplied CRA base-metal/500-900 C 1 h aging treatment. Matching nitrogen content or similar potential does not identify the same experiment. Source HAZ thermal context on PDF pp.2,8 considered."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.18 simulated high-temperature HAZ(B), with 1375 C peak, differs from every supplied CRA base-metal/500-900 C 1 h aging treatment. Matching nitrogen content or similar potential does not identify the same experiment. Source HAZ thermal context on PDF pp.2,8 considered."
+    },
+    {
+      "observation_id": "obs_022",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.18 simulated high-temperature HAZ(B), with 1375 C peak, differs from every supplied CRA base-metal/500-900 C 1 h aging treatment. Matching nitrogen content or similar potential does not identify the same experiment. Source HAZ thermal context on PDF pp.2,8 considered."
+    },
+    {
+      "observation_id": "obs_023",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.18 simulated high-temperature HAZ(B), with 1375 C peak, differs from every supplied CRA base-metal/500-900 C 1 h aging treatment. Matching nitrogen content or similar potential does not identify the same experiment. Source HAZ thermal context on PDF pp.2,8 considered."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

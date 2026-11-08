@@ -1,0 +1,550 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "47_A. G. Hartline, Met. Trans. 5 (1974)_ p. 271.pdf",
+  "reference_number": 47,
+  "inputs": {
+    "pdf": {
+      "filename": "47_A. G. Hartline, Met. Trans. 5 (1974)_ p. 271.pdf",
+      "sha256": "69fdc9dfd39bb4ff3e70cd1a7b8ac5226c6fadf233daabfe00bf33965f2e9c91"
+    },
+    "csv": {
+      "filename": "pitting_potential_47.csv",
+      "sha256": "96145196d9386c9fdc7797cc0dc8a42ffc735e40f543daed2fe626a5e89ccb4c"
+    },
+    "registry": {
+      "filename": "paper_47.json",
+      "sha256": "d883619dff7fde2c50b3f23ebde70d61489a686697dc4b44b34609af1b40c491"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    3,
+    5
+  ],
+  "coverage_notes": "Every supplied observation and CSV row was considered. All registered anchor pages were visually inspected, including secondary locations. This is registry-scoped identity alignment, not a full-paper census or proof of the original curator's chosen presentation. Inputs are unchanged.",
+  "shared_qualifications": [
+    "C1: 0.7 V/hour *1000/3600 = 0.194444 mV/s, consistent with CRA 0.194. V(SCE)*1000 = mV(SCE) with no reference offset; graphical readings do not justify the CRA hundredth-mV digits.",
+    "PDF p.3 states 1000 ppm Cl- as NaCl, whereas CRA says 1000 ppm NaCl and provides CL- [M] = 0.0171116552617484. Salt ppm and chloride ppm are different bases; no unsupported ppm-to-molarity conversion is made. The material/N sequence, pH, scan and prehold still identify the experimental series.",
+    "Source offset pitting is the first current exceeding 0.02 mA without repassivation (PDF p.3), rather than an inferred threshold from an arbitrary curve point. The single-replicate agreement within 0.04 V is not a standard deviation. The source notes non-unique current-surge assignments; the original offset criterion remains attached.",
+    "Figures 1, 2 and (for the first five alloys) 5 are possible repeated presentations of the same material/condition series, not independently established extra runs. Alloy 1 after thermal ferritization is distinct."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 161,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "26.83",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Alloy 1, 0.03 wt% N, Table I, PDF p.2",
+              "cra_value": "0.03",
+              "comparison": "Independent nitrogen-series selector; Figure 2 uses percent nitrogen."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.95 wt% Cr, Table I",
+              "cra_value": "17.95",
+              "comparison": "Source analysis, not an inferred nominal 18% value."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "18.25 wt% Mn, Table I",
+              "cra_value": "18.25",
+              "comparison": "Source analysis identifies this Cr-Mn series."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1000 ppm Cl- as NaCl; acetic acid to pH 5.0, PDF p.3",
+              "cra_value": "1000 ppm NaCl, pH=5 by acetic acid  ",
+              "comparison": "CRA labels 1000 ppm NaCl instead: concentration-basis conflict remains unresolved."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.0, adjusted with acetic acid",
+              "cra_value": "5.0",
+              "comparison": "Same explicit reported pH and additive."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "30 min at -0.3 to -0.1 V, then anodic scan; offset criterion 0.02 mA without repassivation, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before the test, the sample remain in contact with the solution for 30 min. at -0.3 to -0.1 V to passivate or reach equilibrium.",
+              "comparison": "Same prehold and polarization context; original source current criterion is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.7 V/hour",
+              "cra_value": "0.194",
+              "comparison": "C1: 0.7*1000/3600 = 0.194444 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.025}",
+              "cra_value": "26.83",
+              "comparison": "V(SCE)*1000 = mV(SCE); no reference offset. Differences are consistent with marker/axis precision, not exact numerical equality."
+            }
+          ],
+          "notes": "Table I composition and the Figure 1/2 alloy/N labels identify the original processed-strip series independently, with registered Figure 5 repetitions considered. The separately thermally ferritized Alloy 1 is not included."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 162,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "49.87",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Alloy 2, 0.1 wt% N, Table I, PDF p.2",
+              "cra_value": "0.1",
+              "comparison": "Independent nitrogen-series selector; Figure 2 uses percent nitrogen."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.88 wt% Cr, Table I",
+              "cra_value": "17.88",
+              "comparison": "Source analysis, not an inferred nominal 18% value."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "18.2 wt% Mn, Table I",
+              "cra_value": "18.2",
+              "comparison": "Source analysis identifies this Cr-Mn series."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1000 ppm Cl- as NaCl; acetic acid to pH 5.0, PDF p.3",
+              "cra_value": "1000 ppm NaCl, pH=5 by acetic acid  ",
+              "comparison": "CRA labels 1000 ppm NaCl instead: concentration-basis conflict remains unresolved."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.0, adjusted with acetic acid",
+              "cra_value": "5.0",
+              "comparison": "Same explicit reported pH and additive."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "30 min at -0.3 to -0.1 V, then anodic scan; offset criterion 0.02 mA without repassivation, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before the test, the sample remain in contact with the solution for 30 min. at -0.3 to -0.1 V to passivate or reach equilibrium.",
+              "comparison": "Same prehold and polarization context; original source current criterion is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.7 V/hour",
+              "cra_value": "0.194",
+              "comparison": "C1: 0.7*1000/3600 = 0.194444 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.05}",
+              "cra_value": "49.87",
+              "comparison": "V(SCE)*1000 = mV(SCE); no reference offset. Differences are consistent with marker/axis precision, not exact numerical equality."
+            }
+          ],
+          "notes": "Table I composition and the Figure 1/2 alloy/N labels identify the original processed-strip series independently, with registered Figure 5 repetitions considered. The separately thermally ferritized Alloy 1 is not included."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 163,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "107.73",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Alloy 3, 0.18 wt% N, Table I, PDF p.2",
+              "cra_value": "0.18",
+              "comparison": "Independent nitrogen-series selector; Figure 2 uses percent nitrogen."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.88 wt% Cr, Table I",
+              "cra_value": "17.88",
+              "comparison": "Source analysis, not an inferred nominal 18% value."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "18.14 wt% Mn, Table I",
+              "cra_value": "18.14",
+              "comparison": "Source analysis identifies this Cr-Mn series."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1000 ppm Cl- as NaCl; acetic acid to pH 5.0, PDF p.3",
+              "cra_value": "1000 ppm NaCl, pH=5 by acetic acid  ",
+              "comparison": "CRA labels 1000 ppm NaCl instead: concentration-basis conflict remains unresolved."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.0, adjusted with acetic acid",
+              "cra_value": "5.0",
+              "comparison": "Same explicit reported pH and additive."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "30 min at -0.3 to -0.1 V, then anodic scan; offset criterion 0.02 mA without repassivation, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before the test, the sample remain in contact with the solution for 30 min. at -0.3 to -0.1 V to passivate or reach equilibrium.",
+              "comparison": "Same prehold and polarization context; original source current criterion is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.7 V/hour",
+              "cra_value": "0.194",
+              "comparison": "C1: 0.7*1000/3600 = 0.194444 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.105}",
+              "cra_value": "107.73",
+              "comparison": "V(SCE)*1000 = mV(SCE); no reference offset. Differences are consistent with marker/axis precision, not exact numerical equality."
+            }
+          ],
+          "notes": "Table I composition and the Figure 1/2 alloy/N labels identify the original processed-strip series independently, with registered Figure 5 repetitions considered. The separately thermally ferritized Alloy 1 is not included."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 164,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "265.77",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Alloy 4, 0.33 wt% N, Table I, PDF p.2",
+              "cra_value": "0.33",
+              "comparison": "Independent nitrogen-series selector; Figure 2 uses percent nitrogen."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.88 wt% Cr, Table I",
+              "cra_value": "17.88",
+              "comparison": "Source analysis, not an inferred nominal 18% value."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "18.2 wt% Mn, Table I",
+              "cra_value": "18.2",
+              "comparison": "Source analysis identifies this Cr-Mn series."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1000 ppm Cl- as NaCl; acetic acid to pH 5.0, PDF p.3",
+              "cra_value": "1000 ppm NaCl, pH=5 by acetic acid  ",
+              "comparison": "CRA labels 1000 ppm NaCl instead: concentration-basis conflict remains unresolved."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.0, adjusted with acetic acid",
+              "cra_value": "5.0",
+              "comparison": "Same explicit reported pH and additive."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "30 min at -0.3 to -0.1 V, then anodic scan; offset criterion 0.02 mA without repassivation, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before the test, the sample remain in contact with the solution for 30 min. at -0.3 to -0.1 V to passivate or reach equilibrium.",
+              "comparison": "Same prehold and polarization context; original source current criterion is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.7 V/hour",
+              "cra_value": "0.194",
+              "comparison": "C1: 0.7*1000/3600 = 0.194444 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.265}",
+              "cra_value": "265.77",
+              "comparison": "V(SCE)*1000 = mV(SCE); no reference offset. Differences are consistent with marker/axis precision, not exact numerical equality."
+            }
+          ],
+          "notes": "Table I composition and the Figure 1/2 alloy/N labels identify the original processed-strip series independently, with registered Figure 5 repetitions considered. The separately thermally ferritized Alloy 1 is not included."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 165,
+          "location_indices": [
+            0,
+            1,
+            2
+          ],
+          "cra_potential": {
+            "avg": "306.39",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Alloy 5, 0.4 wt% N, Table I, PDF p.2",
+              "cra_value": "0.4",
+              "comparison": "Independent nitrogen-series selector; Figure 2 uses percent nitrogen."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.1 wt% Cr, Table I",
+              "cra_value": "18.1",
+              "comparison": "Source analysis, not an inferred nominal 18% value."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "18 wt% Mn, Table I",
+              "cra_value": "18.0",
+              "comparison": "Source analysis identifies this Cr-Mn series."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1000 ppm Cl- as NaCl; acetic acid to pH 5.0, PDF p.3",
+              "cra_value": "1000 ppm NaCl, pH=5 by acetic acid  ",
+              "comparison": "CRA labels 1000 ppm NaCl instead: concentration-basis conflict remains unresolved."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.0, adjusted with acetic acid",
+              "cra_value": "5.0",
+              "comparison": "Same explicit reported pH and additive."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "30 min at -0.3 to -0.1 V, then anodic scan; offset criterion 0.02 mA without repassivation, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before the test, the sample remain in contact with the solution for 30 min. at -0.3 to -0.1 V to passivate or reach equilibrium.",
+              "comparison": "Same prehold and polarization context; original source current criterion is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.7 V/hour",
+              "cra_value": "0.194",
+              "comparison": "C1: 0.7*1000/3600 = 0.194444 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.305}",
+              "cra_value": "306.39",
+              "comparison": "V(SCE)*1000 = mV(SCE); no reference offset. Differences are consistent with marker/axis precision, not exact numerical equality."
+            }
+          ],
+          "notes": "Table I composition and the Figure 1/2 alloy/N labels identify the original processed-strip series independently, with registered Figure 5 repetitions considered. The separately thermally ferritized Alloy 1 is not included."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 166,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "334.86",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Alloy 6, 0.52 wt% N, Table I, PDF p.2",
+              "cra_value": "0.52",
+              "comparison": "Independent nitrogen-series selector; Figure 2 uses percent nitrogen."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "17.83 wt% Cr, Table I",
+              "cra_value": "17.83",
+              "comparison": "Source analysis, not an inferred nominal 18% value."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "17.8 wt% Mn, Table I",
+              "cra_value": "17.8",
+              "comparison": "Source analysis identifies this Cr-Mn series."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1000 ppm Cl- as NaCl; acetic acid to pH 5.0, PDF p.3",
+              "cra_value": "1000 ppm NaCl, pH=5 by acetic acid  ",
+              "comparison": "CRA labels 1000 ppm NaCl instead: concentration-basis conflict remains unresolved."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.0, adjusted with acetic acid",
+              "cra_value": "5.0",
+              "comparison": "Same explicit reported pH and additive."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "30 min at -0.3 to -0.1 V, then anodic scan; offset criterion 0.02 mA without repassivation, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before the test, the sample remain in contact with the solution for 30 min. at -0.3 to -0.1 V to passivate or reach equilibrium.",
+              "comparison": "Same prehold and polarization context; original source current criterion is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.7 V/hour",
+              "cra_value": "0.194",
+              "comparison": "C1: 0.7*1000/3600 = 0.194444 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.335}",
+              "cra_value": "334.86",
+              "comparison": "V(SCE)*1000 = mV(SCE); no reference offset. Differences are consistent with marker/axis precision, not exact numerical equality."
+            }
+          ],
+          "notes": "Table I composition and the Figure 1/2 alloy/N labels identify the original processed-strip series independently, with registered Figure 5 repetitions considered. The separately thermally ferritized Alloy 1 is not included."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 167,
+          "location_indices": [
+            0,
+            1
+          ],
+          "cra_potential": {
+            "avg": "398.91",
+            "min": "",
+            "max": ""
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "N",
+              "paper_value": "Alloy 7, 0.69 wt% N, Table I, PDF p.2",
+              "cra_value": "0.69",
+              "comparison": "Independent nitrogen-series selector; Figure 2 uses percent nitrogen."
+            },
+            {
+              "field": "Cr",
+              "paper_value": "18.25 wt% Cr, Table I",
+              "cra_value": "18.25",
+              "comparison": "Source analysis, not an inferred nominal 18% value."
+            },
+            {
+              "field": "Mn",
+              "paper_value": "18.25 wt% Mn, Table I",
+              "cra_value": "18.25",
+              "comparison": "Source analysis identifies this Cr-Mn series."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "1000 ppm Cl- as NaCl; acetic acid to pH 5.0, PDF p.3",
+              "cra_value": "1000 ppm NaCl, pH=5 by acetic acid  ",
+              "comparison": "CRA labels 1000 ppm NaCl instead: concentration-basis conflict remains unresolved."
+            },
+            {
+              "field": "pH",
+              "paper_value": "5.0, adjusted with acetic acid",
+              "cra_value": "5.0",
+              "comparison": "Same explicit reported pH and additive."
+            },
+            {
+              "field": "Test Method",
+              "paper_value": "30 min at -0.3 to -0.1 V, then anodic scan; offset criterion 0.02 mA without repassivation, PDF p.3",
+              "cra_value": "Potentiodynamic Polarization. Before the test, the sample remain in contact with the solution for 30 min. at -0.3 to -0.1 V to passivate or reach equilibrium.",
+              "comparison": "Same prehold and polarization context; original source current criterion is retained."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "0.7 V/hour",
+              "cra_value": "0.194",
+              "comparison": "C1: 0.7*1000/3600 = 0.194444 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.395}",
+              "cra_value": "398.91",
+              "comparison": "V(SCE)*1000 = mV(SCE); no reference offset. Differences are consistent with marker/axis precision, not exact numerical equality."
+            }
+          ],
+          "notes": "Table I composition and the Figure 1/2 alloy/N labels identify the original processed-strip series independently, with registered Figure 5 repetitions considered. The separately thermally ferritized Alloy 1 is not included."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Alloy 1* was reheated to 1260 C for 15 min and water quenched to ferritize the duplex structure (PDF p.2; Figure 1 caption p.3; Figure 5 p.5). Its -0.150 V(SCE) reading is not the original Alloy 1 condition represented by CRA 161; no ferritized counterpart is supplied."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}

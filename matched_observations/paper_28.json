@@ -1,0 +1,475 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "28_Shi, Y., et al. (2018). Corrosion Science 133_ 120-131.pdf",
+  "reference_number": 28,
+  "inputs": {
+    "pdf": {
+      "filename": "28_Shi, Y., et al. (2018). Corrosion Science 133_ 120-131.pdf",
+      "sha256": "768828456b0d9d7472e0eb24cd1a5bbe4a4d804f0e8335ae9625014bc33c1f6d"
+    },
+    "csv": {
+      "filename": "pitting_potential_28.csv",
+      "sha256": "ae9d1b1872c8ffbbd6576c2086fada4a521986f1077f1b23397b4abcf66739cf"
+    },
+    "registry": {
+      "filename": "paper_28.json",
+      "sha256": "9304c304fa37529b9780e3719552c299e2c6cb856ae4f01f9f296c193a3154ca"
+    }
+  },
+  "inspected_pdf_pages": [
+    2,
+    3,
+    7,
+    8,
+    9,
+    11
+  ],
+  "coverage_notes": "All 21 supplied observations and three CSV records considered. Registered Table 3 (PDF p.9) and Fig.11 (p.11, also enlarged) visually inspected, plus context on pp.2,3,7,8. Registry plot readings preserved, including disagreements.",
+  "shared_qualifications": [
+    "C1: Nominal atomic/molar coefficients are converted only for chemistry comparison: wt.%_i = 100*n_i*M_i / sum(n_j*M_j), over the complete stated formula. CIAAW abridged standard atomic weights 2024: Al 26.982, Co 58.933, Cr 51.996, Fe 55.845, Ni 58.693, Si 28.085, B 10.81 (https://ciaaw.org/abridged-atomic-weights.htm). Calculated nominal wt.% is not a measured analysis.",
+    "Table 3 parentheses are standard deviations, not observed extrema. CRA minimum/maximum cells coincide with mean minus/plus one SD; this arithmetic does not establish sample minima/maxima.",
+    "PDF p.7 defines Ep at current density exceeding 100 microA/cm2 and increasing continually. Al0.7 corrosion is described as preferential/selective dissolution; retain the qualified current-criterion endpoint.",
+    "PDF p.3 methods specify 20 +/- 2 C, whereas CRA Test Temp C is 25.0. The discrepancy is retained; Table 3 caption only says room temperature.",
+    "Fig.11 black squares have a family legend but no individual Al coefficient or heat-treatment labels. Possible table/plot repetition remains unresolved; candidates are excluded from default joins."
+  ],
+  "observations": [
+    {
+      "observation_id": "obs_001",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3 as-forged state differs from all three CRA records, which specify the 1250 C/1000 h water-quenched as-equilibrated state. Similar composition does not establish counterpart identity."
+    },
+    {
+      "observation_id": "obs_002",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3 as-forged state differs from all three CRA records, which specify the 1250 C/1000 h water-quenched as-equilibrated state. Similar composition does not establish counterpart identity."
+    },
+    {
+      "observation_id": "obs_003",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Table 3 as-forged state differs from all three CRA records, which specify the 1250 C/1000 h water-quenched as-equilibrated state. Similar composition does not establish counterpart identity."
+    },
+    {
+      "observation_id": "obs_004",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 597,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "808",
+            "min": "792.0",
+            "max": "824.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.3CoCrFeNi; atomic/molar coefficient Al=0.3",
+              "cra_value": "3.5",
+              "comparison": "C1: 100*0.3*26.982/233.561600 = 3.4657 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.3CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "25.1",
+              "comparison": "C1: 100*1*58.693/233.561600 = 25.1296 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "As-equilibrated: forged specimens annealed at 1250 C for 1000 h, then water quenched",
+              "cra_value": "Annealed at 1250C for 1000hr, water quenched",
+              "comparison": "Exact distinguishing treatment (PDF p.2 methods); Table 3 as-equilibrated state."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5 wt.% NaCl",
+              "cra_value": "3.5wt% NaCl",
+              "comparison": "Exact stated medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "20 +/- 2 C (PDF p.3 methods)",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C lies outside the reported interval; source/CSV conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "100 mV/min",
+              "cra_value": "1.67",
+              "comparison": "100/60 = 1.6666667 mV/s, rounds to CRA 1.67 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 808, \"plus_minus\": 16}",
+              "cra_value": "808",
+              "comparison": "Table 3 mean Ep=808 mV(SCE), exactly the CRA central target."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "Table 3 808 +/- 16 mV(SCE), parentheses denote SD",
+              "cra_value": "792.0",
+              "comparison": "808-16=792 mV, exactly CRA lower cell; derived mean-minus-SD, not an observed minimum."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "Table 3 808 +/- 16 mV(SCE), parentheses denote SD",
+              "cra_value": "824.0",
+              "comparison": "808+16=824 mV, exactly CRA upper cell; derived mean-plus-SD, not an observed maximum."
+            }
+          ],
+          "notes": "Table 3 alloy coefficient and as-equilibrated condition identify this counterpart (PDF pp.2,9). Potential central value and SD-derived bounds agree; temperature conflict and endpoint meaning retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 598,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "496",
+            "min": "458.0",
+            "max": "534.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Al=0.5",
+              "cra_value": "5.6",
+              "comparison": "C1: 100*0.5*26.982/238.958000 = 5.6458 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.5CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "24.6",
+              "comparison": "C1: 100*1*58.693/238.958000 = 24.5621 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "As-equilibrated: forged specimens annealed at 1250 C for 1000 h, then water quenched",
+              "cra_value": "Annealed at 1250C for 1000hr, water quenched",
+              "comparison": "Exact distinguishing treatment (PDF p.2 methods); Table 3 as-equilibrated state."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5 wt.% NaCl",
+              "cra_value": "3.5wt% NaCl",
+              "comparison": "Exact stated medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "20 +/- 2 C (PDF p.3 methods)",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C lies outside the reported interval; source/CSV conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "100 mV/min",
+              "cra_value": "1.67",
+              "comparison": "100/60 = 1.6666667 mV/s, rounds to CRA 1.67 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 496, \"plus_minus\": 38}",
+              "cra_value": "496",
+              "comparison": "Table 3 mean Ep=496 mV(SCE), exactly the CRA central target."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "Table 3 496 +/- 38 mV(SCE), parentheses denote SD",
+              "cra_value": "458.0",
+              "comparison": "496-38=458 mV, exactly CRA lower cell; derived mean-minus-SD, not an observed minimum."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "Table 3 496 +/- 38 mV(SCE), parentheses denote SD",
+              "cra_value": "534.0",
+              "comparison": "496+38=534 mV, exactly CRA upper cell; derived mean-plus-SD, not an observed maximum."
+            }
+          ],
+          "notes": "Table 3 alloy coefficient and as-equilibrated condition identify this counterpart (PDF pp.2,9). Potential central value and SD-derived bounds agree; temperature conflict and endpoint meaning retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "status": "matched",
+      "matches": [
+        {
+          "citrine_no": 599,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "256",
+            "min": "246.0",
+            "max": "266.0"
+          },
+          "potential_agreement": "exact",
+          "evidence": [
+            {
+              "field": "Al",
+              "paper_value": "Nominal Al0.7CoCrFeNi; atomic/molar coefficient Al=0.7",
+              "cra_value": "7.7",
+              "comparison": "C1: 100*0.7*26.982/244.354400 = 7.7295 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Ni",
+              "paper_value": "Nominal Al0.7CoCrFeNi; atomic/molar coefficient Ni=1",
+              "cra_value": "24.0",
+              "comparison": "C1: 100*1*58.693/244.354400 = 24.0196 wt.%; compare with original CRA wt.% cell."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "As-equilibrated: forged specimens annealed at 1250 C for 1000 h, then water quenched",
+              "cra_value": "Annealed at 1250C for 1000hr, water quenched",
+              "comparison": "Exact distinguishing treatment (PDF p.2 methods); Table 3 as-equilibrated state."
+            },
+            {
+              "field": "Test Solution",
+              "paper_value": "3.5 wt.% NaCl",
+              "cra_value": "3.5wt% NaCl",
+              "comparison": "Exact stated medium."
+            },
+            {
+              "field": "Test Temp C",
+              "paper_value": "20 +/- 2 C (PDF p.3 methods)",
+              "cra_value": "25.0",
+              "comparison": "CRA 25 C lies outside the reported interval; source/CSV conflict."
+            },
+            {
+              "field": "Scan Rate mV/s",
+              "paper_value": "100 mV/min",
+              "cra_value": "1.67",
+              "comparison": "100/60 = 1.6666667 mV/s, rounds to CRA 1.67 mV/s."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"mV (SCE)\", \"value\": 256, \"plus_minus\": 10}",
+              "cra_value": "256",
+              "comparison": "Table 3 mean Ep=256 mV(SCE), exactly the CRA central target."
+            },
+            {
+              "field": "Min Epit mV (SCE)",
+              "paper_value": "Table 3 256 +/- 10 mV(SCE), parentheses denote SD",
+              "cra_value": "246.0",
+              "comparison": "256-10=246 mV, exactly CRA lower cell; derived mean-minus-SD, not an observed minimum."
+            },
+            {
+              "field": "Max Epit mV (SCE)",
+              "paper_value": "Table 3 256 +/- 10 mV(SCE), parentheses denote SD",
+              "cra_value": "266.0",
+              "comparison": "256+10=266 mV, exactly CRA upper cell; derived mean-plus-SD, not an observed maximum."
+            }
+          ],
+          "notes": "Table 3 alloy coefficient and as-equilibrated condition identify this counterpart (PDF pp.2,9). Potential central value and SD-derived bounds agree; temperature conflict and endpoint meaning retained."
+        }
+      ],
+      "candidates": [],
+      "notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 black square at registered ~0.05 V and Icorr ~0.42 microA/cm2 has no individual alloy/state label or defensible linkage to the three as-equilibrated CRA records. It also does not reproduce any Table 3 as-equilibrated Ep/Icorr pair; no one-to-one assignment inferred from the number of squares."
+    },
+    {
+      "observation_id": "obs_008",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 598,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "496",
+            "min": "458.0",
+            "max": "534.0"
+          },
+          "potential_agreement": "discrepant",
+          "evidence": [
+            {
+              "field": "Test Solution",
+              "paper_value": "Fig.11 comparison in 3.5 wt.% NaCl",
+              "cra_value": "3.5wt% NaCl",
+              "comparison": "Same medium as CRA, but marker alloy/state is unspecified."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Fig.11 family label AlxCoCrFeNi; individual x is unavailable",
+              "cra_value": "5.6",
+              "comparison": "CRA Al content identifies a specific nominal formula, but the plot marker cannot be independently assigned that formula."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Fig.11 individual marker heat-treatment state unavailable",
+              "cra_value": "Annealed at 1250C for 1000hr, water quenched",
+              "comparison": "CRA specifies as-equilibrated treatment; plot lacks an individual state label."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.44}",
+              "cra_value": "496",
+              "comparison": "Registry 0.44 V*1000=440 mV(SCE), versus CRA 496 and bounds 458/534 mV. The enlarged visible square appears nearer 0.5 V; registry reading retained and flagged, not replaced."
+            }
+          ],
+          "notes": "Candidate possible repeated presentation of Table 3 as-equilibrated outcome (obs_005). Registered Icorr ~0.07 microA/cm2 is near Table 3 0.0714 microA/cm2. Icorr is source-side context (no CSV Icorr column). The family-only plot legend supplies no individual alloy or condition label, preventing supported identity. No observation is merged and no supported shared row is asserted."
+        }
+      ],
+      "notes": "Candidate possible repeated presentation of Table 3 as-equilibrated outcome (obs_005). Registered Icorr ~0.07 microA/cm2 is near Table 3 0.0714 microA/cm2. Icorr is source-side context (no CSV Icorr column). The family-only plot legend supplies no individual alloy or condition label, preventing supported identity. No observation is merged and no supported shared row is asserted."
+    },
+    {
+      "observation_id": "obs_009",
+      "status": "ambiguous",
+      "matches": [],
+      "candidates": [
+        {
+          "citrine_no": 597,
+          "location_indices": [
+            0
+          ],
+          "cra_potential": {
+            "avg": "808",
+            "min": "792.0",
+            "max": "824.0"
+          },
+          "potential_agreement": "within_precision",
+          "evidence": [
+            {
+              "field": "Test Solution",
+              "paper_value": "Fig.11 comparison in 3.5 wt.% NaCl",
+              "cra_value": "3.5wt% NaCl",
+              "comparison": "Same medium as CRA, but marker alloy/state is unspecified."
+            },
+            {
+              "field": "Al",
+              "paper_value": "Fig.11 family label AlxCoCrFeNi; individual x is unavailable",
+              "cra_value": "3.5",
+              "comparison": "CRA Al content identifies a specific nominal formula, but the plot marker cannot be independently assigned that formula."
+            },
+            {
+              "field": "Heat treatment",
+              "paper_value": "Fig.11 individual marker heat-treatment state unavailable",
+              "cra_value": "Annealed at 1250C for 1000hr, water quenched",
+              "comparison": "CRA specifies as-equilibrated treatment; plot lacks an individual state label."
+            },
+            {
+              "field": "Avg Epit mV (SCE)",
+              "paper_value": "{\"unit\": \"V (SCE)\", \"value\": 0.8}",
+              "cra_value": "808",
+              "comparison": "Registry 0.8 V*1000=800 mV(SCE), compatible with CRA 808 and SD-derived interval 792/824 at plot resolution."
+            }
+          ],
+          "notes": "Candidate possible repeated presentation of Table 3 as-equilibrated outcome (obs_004). Registered Icorr ~0.03 microA/cm2 is near Table 3 0.0289 microA/cm2. Icorr is source-side context (no CSV Icorr column). The family-only plot legend supplies no individual alloy or condition label, preventing supported identity. No observation is merged and no supported shared row is asserted."
+        }
+      ],
+      "notes": "Candidate possible repeated presentation of Table 3 as-equilibrated outcome (obs_004). Registered Icorr ~0.03 microA/cm2 is near Table 3 0.0289 microA/cm2. Icorr is source-side context (no CSV Icorr column). The family-only plot legend supplies no individual alloy or condition label, preventing supported identity. No observation is merged and no supported shared row is asserted."
+    },
+    {
+      "observation_id": "obs_010",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_011",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_012",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_013",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_014",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_015",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_016",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_017",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_018",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_019",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_020",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    },
+    {
+      "observation_id": "obs_021",
+      "status": "unmatched",
+      "matches": [],
+      "candidates": [],
+      "notes": "Fig.11 cited Al-, Ti-, Cu- or Ni-alloy comparator, considered on the same basis as other origin categories. None of the supplied CRA rows describes that material family; all are AlxCoCrFeNi HEAs."
+    }
+  ],
+  "unlinked_citrine_nos": []
+}
