@@ -1,0 +1,1053 @@
+{
+  "paper_name": "67_Kim, J. G., and R. A. Buchanan. Corrosion 50.9 (1994)_ 658-668.pdf",
+  "reference_number": 67,
+  "inputs": {
+    "pdf": {
+      "filename": "67_Kim, J. G., and R. A. Buchanan. Corrosion 50.9 (1994)_ 658-668.pdf",
+      "sha256": "81919ff8aa26457e5846ade9bc70b9976493a4ac151fe0b1a87aca76f7425237"
+    },
+    "registry": {
+      "filename": "paper_67.json",
+      "sha256": "3c292485335c77cc9419f7c9ee9980af203edc167a36f29f50b9b0a34ffabecc"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 72,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 330
+      },
+      "result_note": "Graphical breakdown potential Eb used by the paper as resistance to initiation of localized/pitting corrosion; not a reverse-scan protection potential. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 2,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 420
+      },
+      "result_note": "Graphical breakdown potential Eb used by the paper as resistance to initiation of localized/pitting corrosion; not a reverse-scan protection potential. Material is FA-77B in Table 1 / Figure 3, but Figure 5 caption abbreviates it FA-77. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 68,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 4,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 520
+      },
+      "result_note": "Graphical breakdown potential Eb used by the paper as resistance to initiation of localized/pitting corrosion; not a reverse-scan protection potential. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 66,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 6,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 620
+      },
+      "result_note": "Graphical breakdown potential Eb used by the paper as resistance to initiation of localized/pitting corrosion; not a reverse-scan protection potential. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 68.95,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 2,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "B",
+            "amount": {
+              "value": 0.05,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 450
+      },
+      "result_note": "Forward-scan breakdown Eb; Ecorr, Ep and Ep−Ecorr are different quantities and excluded. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 67.95,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 2,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "B",
+            "amount": {
+              "value": 0.05,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 500
+      },
+      "result_note": "Forward-scan breakdown Eb; Ecorr, Ep and Ep−Ecorr are different quantities and excluded. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 67.5,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 4,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.5,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 480
+      },
+      "result_note": "Printed breakdown result, with the corresponding Figure 7 summary retained. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 67,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 4,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 540
+      },
+      "result_note": "Printed breakdown result, with the corresponding Figure 7 summary retained. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 66,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 4,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 580
+      },
+      "result_note": "Table 4 is the primary printed reading; Figure 7 repeats the Mo-effect comparison. The 2 at% Mo graphical Eb is approximately 560 mV while Table 4 prints 580 mV; both are preserved. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Annealed in air at 850°C for 1 h for recrystallization, then 7 days at 500°C for ordering, followed by air cooling. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 68,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 4,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "DO3-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 480
+      },
+      "result_note": "Possible repeat of the zero-Mo 4 at% Cr result in Figure 4 (obs_003), which reads approximately 520 mV. The figure does not establish run identity; retained separately as an unresolved duplicate candidate, not asserted to be an independent experiment. Materials/methods specify 850°C recrystallization; Figure 3 caption prints 859°C. The methods schedule is retained with that source discrepancy explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Stress-relieved in air at 750°C for 1 h, followed by oil quenching. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 69.95,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 2,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "B",
+            "amount": {
+              "value": 0.05,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "B2-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 420
+      },
+      "result_note": "The second number of the crevice/noncrevice pair is the noncrevice breakdown potential. The crevice-breakdown first number and protection potential Ep are outside this pitting registry. Different composition/heat-treatment context prevents numerical deduplication against earlier tables.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "ORNL 500-g alloy arc-melted in a water-cooled Cu crucible under argon, remelted six times, drop-cast in a Cu mold; hot-forged 50% at 1000°C, hot-rolled 50% at 800°C, and warm-rolled 70% at 650°C to 0.75 mm. Stress-relieved in air at 750°C for 1 h, followed by oil quenching. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 65.9,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 28,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 5,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "B",
+            "amount": {
+              "value": 0.04,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Zr",
+            "amount": {
+              "value": 0.08,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "B2-ordered iron aluminide.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 540
+      },
+      "result_note": "The second number of the crevice/noncrevice pair is the noncrevice breakdown potential. The crevice-breakdown first number and protection potential Ep are outside this pitting registry. Different composition/heat-treatment context prevents numerical deduplication against earlier tables.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Type 304L stainless-steel comparison specimen; no bulk chemistry or specific heat-treatment schedule is supplied. Mounted in Maraglas 655 epoxy cured 80°C for 24 h; ground with 600-grit SiC. Epoxy/specimen interface coated with Amercoat 90, exposing 1 cm²; cured 70°C for 10 h. Before testing, hand-polished with 9-µm diamond paste to remove curing oxide; interface seal lightly abraded without damage.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Distilled water acidified to pH 4 with H2SO4, containing NaCl; continuously sparged with oxygen for aerated polarization.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 6.25e-05,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.0055,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 4,
+        "chloride_concentration": {
+          "value": 200,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Noncrevice specimen configuration; EG&G 273 potentiostat. Stabilize at OCP in oxygen-sparged solution until potential change <1 mV/min. Scan anodically from OCP to a current density of 10⁻³ A/cm², reverse and continue until protection potential Ep is identified or no hysteresis develops. Saturated-KCl Ag/AgCl reference; authors report all values on the SHE scale. No numerical electrolyte test temperature is stated.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Forward-scan breakdown potential Eb used as resistance to initiation of localized/pitting corrosion; reverse-scan protection potential Ep is distinct."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 620
+      },
+      "result_note": "The second number of the crevice/noncrevice pair is the noncrevice breakdown potential. The crevice-breakdown first number and protection potential Ep are outside this pitting registry. Different composition/heat-treatment context prevents numerical deduplication against earlier tables. The paragraph on p.8 states that the iron aluminides, rather than all three comparison materials, received B2 treatment. The type 304L anchor remains unchanged; no commercial composition is inferred.",
+      "failure_notes": "Registry obs_013 lists B2 heat treatment for type 304L, but the source scopes B2 treatment to the iron aluminides. The stainless-steel treatment cannot be recovered; B2 is not assigned to this specimen."
+    }
+  ]
+}

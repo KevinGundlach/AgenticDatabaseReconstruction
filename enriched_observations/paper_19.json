@@ -1,0 +1,310 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "19_Yu-Jui Hsu, Wen-Chi Chiang, and Jiann-Kuo Wu. Materials Chemistry and Physics,92 (2005) , 112-117.pdf",
+  "reference_number": 19,
+  "inputs": {
+    "pdf": {
+      "filename": "19_Yu-Jui Hsu, Wen-Chi Chiang, and Jiann-Kuo Wu. Materials Chemistry and Physics,92 (2005) , 112-117.pdf",
+      "sha256": "11f6c7ef4b144bba8eb2fc87dcdbdcb4f9f692c639c6d0f03beaaa2749b5ff41"
+    },
+    "registry": {
+      "filename": "paper_19.json",
+      "sha256": "2f53c40dc73b844b00150249201b2d72fe8e9deb4b172c2ea431d0bab56512de"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "As-cast FeCoNiCr high-entropy alloy; arc melted from 99.99% pure Fe, Co, Ni, Cr and Cu metals under titanium-gettered argon. Electrode surface preparation and any subsequent heat treatment are not specified.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 24.58,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.92,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 24.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          }
+        ],
+        "microstructure": "Basically fcc structure by XRD.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated solution, under atmospheric pressure. No gas-flow duration, pH or chloride-ion concentration is supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Typical three-electrode cell: specimen working electrode, saturated calomel reference (SCE) and platinum counter electrode; working-electrode potential measured through a Luggin probe, with reference as close as possible to the specimen. Scanned from 250 mV below open-circuit potential to 1.6 V SCE. Calibration in accordance with ASTM G5 and G59. The 30-day immersion and subsequent HCl/hexamethylenetetramine cleaning are separate from this polarization experiment.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 5 explicitly defines Epit as pitting potential, derived from the anodic polarization curves in Figure 5. No numerical current-density criterion for selecting Epit is stated."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.31
+      },
+      "result_note": "Composition is the Table 1 specimen EDX analysis in wt%, not the phase-specific Table 2 at% analysis. A table dash is not converted to zero or an inferred balance.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "As-cast FeCoNiCrCu0.5 high-entropy alloy; arc melted from 99.99% pure Fe, Co, Ni, Cr and Cu metals under titanium-gettered argon. Electrode surface preparation and any subsequent heat treatment are not specified.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 20.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 23.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 13.49,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Basically fcc structure by XRD. Dendritic structure with Cu-rich/Cr-depleted interdendrites and Cu-depleted/Cr-rich dendrites; additional Cu-rich fcc reflections identified for FeCoNiCrCu.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated solution, under atmospheric pressure. No gas-flow duration, pH or chloride-ion concentration is supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Typical three-electrode cell: specimen working electrode, saturated calomel reference (SCE) and platinum counter electrode; working-electrode potential measured through a Luggin probe, with reference as close as possible to the specimen. Scanned from 250 mV below open-circuit potential to 1.6 V SCE. Calibration in accordance with ASTM G5 and G59. The 30-day immersion and subsequent HCl/hexamethylenetetramine cleaning are separate from this polarization experiment.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 5 explicitly defines Epit as pitting potential, derived from the anodic polarization curves in Figure 5. No numerical current-density criterion for selecting Epit is stated."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.09
+      },
+      "result_note": "Paper explicitly labels Epit as pitting potential. The localized attack for Cu-containing alloys is discussed as preferential interdendritic galvanic corrosion; retain that physical qualification without reclassifying recovery. Composition is the Table 1 specimen EDX analysis in wt%, not the phase-specific Table 2 at% analysis. A table dash is not converted to zero or an inferred balance.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "As-cast FeCoNiCrCu high-entropy alloy; arc melted from 99.99% pure Fe, Co, Ni, Cr and Cu metals under titanium-gettered argon. Electrode surface preparation and any subsequent heat treatment are not specified.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 18.78,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 21.78,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 21.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 21.69,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Basically fcc structure by XRD. Dendritic structure with Cu-rich/Cr-depleted interdendrites and Cu-depleted/Cr-rich dendrites; additional Cu-rich fcc reflections identified for FeCoNiCrCu.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated solution, under atmospheric pressure. No gas-flow duration, pH or chloride-ion concentration is supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Typical three-electrode cell: specimen working electrode, saturated calomel reference (SCE) and platinum counter electrode; working-electrode potential measured through a Luggin probe, with reference as close as possible to the specimen. Scanned from 250 mV below open-circuit potential to 1.6 V SCE. Calibration in accordance with ASTM G5 and G59. The 30-day immersion and subsequent HCl/hexamethylenetetramine cleaning are separate from this polarization experiment.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 5 explicitly defines Epit as pitting potential, derived from the anodic polarization curves in Figure 5. No numerical current-density criterion for selecting Epit is stated."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.08
+      },
+      "result_note": "Paper explicitly labels Epit as pitting potential. The localized attack for Cu-containing alloys is discussed as preferential interdendritic galvanic corrosion; retain that physical qualification without reclassifying recovery. Composition is the Table 1 specimen EDX analysis in wt%, not the phase-specific Table 2 at% analysis. A table dash is not converted to zero or an inferred balance.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "AISI 304L stainless-steel comparison; manufacturing, heat treatment, surface preparation and chemical analysis are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated solution, under atmospheric pressure. No gas-flow duration, pH or chloride-ion concentration is supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Typical three-electrode cell: specimen working electrode, saturated calomel reference (SCE) and platinum counter electrode; working-electrode potential measured through a Luggin probe, with reference as close as possible to the specimen. Scanned from 250 mV below open-circuit potential to 1.6 V SCE. Calibration in accordance with ASTM G5 and G59. The 30-day immersion and subsequent HCl/hexamethylenetetramine cleaning are separate from this polarization experiment.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 5 explicitly defines Epit as pitting potential, derived from the anodic polarization curves in Figure 5. No numerical current-density criterion for selecting Epit is stated."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.23
+      },
+      "result_note": "",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,3962 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "2_A. P. Bond, E. A. Lizlovs, J. Electrochem. Soc. 115 (1968)_ p. 1130.pdf",
+  "reference_number": 2,
+  "inputs": {
+    "pdf": {
+      "filename": "2_A. P. Bond, E. A. Lizlovs, J. Electrochem. Soc. 115 (1968)_ p. 1130.pdf",
+      "sha256": "8f28f4233c1d05cee7f4aa28529e8099c219ec0777d351eddcfe7db292586f93"
+    },
+    "registry": {
+      "filename": "paper_2.json",
+      "sha256": "3a1e358c4586b996dc8ee9d0093bd4191b0c61680564afd5ee561bda7faeffe1"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39.09,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.21,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.46,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.056,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.04,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.64
+      },
+      "result_note": "Average of two or more runs. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39.13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.85,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.67,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.84,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.45,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.39
+      },
+      "result_note": "Average of two or more runs. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.45,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.37,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.56,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.72,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.53,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.033,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.89,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Separate heats melted and cast in vacuum. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.86,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 16.13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.09,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.067,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: pure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Separate heats melted and cast in vacuum. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 16.25,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.08,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.012,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: pure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Separate heats melted and cast in vacuum. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.07,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 16.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.09,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.004,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.012,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Average of two or more runs. NP = no pitting up to 0.8v; lower testing bound, not pitting observed at 0.8v. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: pure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned in argon-saturated 1.0 M NaCl at 2000 mV/hr in the positive direction; saturated calomel reference.",
+        "scan_rate": {
+          "value": 2000,
+          "unit": "mV/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Momentary current blips associated with very small pits that repassivated almost immediately."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.29
+      },
+      "result_note": "Transient pit-initiation potential for pits that immediately repassivate; distinct from the stable-growth pitting potential. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned in argon-saturated 1.0 M NaCl at 2000 mV/hr in the positive direction; saturated calomel reference.",
+        "scan_rate": {
+          "value": 2000,
+          "unit": "mV/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.43
+      },
+      "result_note": "Stable pit-growth threshold. Separate runs and scan rates retained. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned at 600 mV/hr in argon-saturated 1.0 M NaCl; saturated calomel reference.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Momentary current blips associated with very small pits that repassivated almost immediately."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.32
+      },
+      "result_note": "Transient pit-initiation potential for pits that immediately repassivate; distinct from the stable-growth pitting potential. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned at 600 mV/hr in argon-saturated 1.0 M NaCl; saturated calomel reference.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.47
+      },
+      "result_note": "Stable pit-growth threshold. Separate runs and scan rates retained. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned at 600 mV/hr from −0.7 to +0.3 V, then 60 mV/hr; saturated calomel reference. 600 from -0.7 to +0.3v then 60 mv/hr; first run.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Momentary current blips associated with very small pits that repassivated almost immediately."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.29
+      },
+      "result_note": "Transient pit-initiation potential for pits that immediately repassivate; distinct from the stable-growth pitting potential. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned at 600 mV/hr from −0.7 to +0.3 V, then 60 mV/hr; saturated calomel reference. 600 from -0.7 to +0.3v then 60 mv/hr; first run.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.525
+      },
+      "result_note": "Stable pit-growth threshold. Separate runs and scan rates retained. Unresolved repeated-presentation group (2.93% Mo, standard-rate scans): obs_018, obs_019, obs_034, obs_035; no independence or run identity is asserted. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned at 600 mV/hr from −0.7 to +0.3 V, then 60 mV/hr; saturated calomel reference. 600 from -0.7 to +0.3v then 60 mv/hr; second run.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.495
+      },
+      "result_note": "Stable pit-growth threshold. Separate runs and scan rates retained. Unresolved repeated-presentation group (2.93% Mo, standard-rate scans): obs_018, obs_019, obs_034, obs_035; no independence or run identity is asserted. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned at 600 mV/hr from −0.7 to +0.3 V, then 20 mV/hr; saturated calomel reference. 600 from -0.7 to +0.3v then 20 mv/hr.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Momentary current blips associated with very small pits that repassivated almost immediately."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.31
+      },
+      "result_note": "Transient pit-initiation potential for pits that immediately repassivate; distinct from the stable-growth pitting potential. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Table IV test: masked electrode scanned at 600 mV/hr from −0.7 to +0.3 V, then 20 mV/hr; saturated calomel reference. 600 from -0.7 to +0.3v then 20 mv/hr.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.655
+      },
+      "result_note": "Stable pit-growth threshold. Separate runs and scan rates retained. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39.09,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.21,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.46,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.056,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.04,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.36
+      },
+      "result_note": "Graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39.09,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.21,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.46,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.056,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.04,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.58
+      },
+      "result_note": "Graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Upward arrow at the transpassive boundary: no stable pitting below approximately 0.8 V. Not a measured pitting value at the boundary. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Upward arrow at the transpassive boundary: no stable pitting below approximately 0.8 V. Not a measured pitting value at the boundary. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Upward arrow at the transpassive boundary: no stable pitting below approximately 0.8 V. Not a measured pitting value at the boundary. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Upward arrow at the transpassive boundary: no stable pitting below approximately 0.8 V. Not a measured pitting value at the boundary. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 39.13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.85,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Completely austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Upward arrow at the transpassive boundary: no stable pitting below approximately 0.8 V. Not a measured pitting value at the boundary. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: high.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.67,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.84,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.45,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.25
+      },
+      "result_note": "Approximate graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.67,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.84,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.45,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.415
+      },
+      "result_note": "Approximate graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.67,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.84,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.45,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.435
+      },
+      "result_note": "Approximate graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.45,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.395
+      },
+      "result_note": "Approximate graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.45,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.495
+      },
+      "result_note": "Approximate graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.49
+      },
+      "result_note": "Approximate graphical reading. Possible repeated presentation of the two default 600-then-60 mv/hr Table IV runs (0.495 and 0.525v); specific run correspondence is not explicitly supplied. Retained separately, without asserting independent experiments. Unresolved repeated-presentation group (2.93% Mo, standard-rate scans): obs_018, obs_019, obs_034, obs_035; no independence or run identity is asserted. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.52
+      },
+      "result_note": "Approximate graphical reading. Possible repeated presentation of the two default 600-then-60 mv/hr Table IV runs (0.495 and 0.525v); specific run correspondence is not explicitly supplied. Retained separately, without asserting independent experiments. Unresolved repeated-presentation group (2.93% Mo, standard-rate scans): obs_018, obs_019, obs_034, obs_035; no independence or run identity is asserted. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.37,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.78
+      },
+      "result_note": "Approximate graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_037",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.37,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Upward-limit arrow near 0.8 V; threshold not resolved below the transpassive boundary. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_038",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.56,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.72,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.53,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.033,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.89,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.59
+      },
+      "result_note": "Approximate graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_039",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.56,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.72,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.53,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.033,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.89,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "value": 0.61
+      },
+      "result_note": "Approximate graphical reading. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_040",
+      "alloy": {
+        "preparation": "Induction melted under argon, cast in air using the split-heat technique with successive Mo additions. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1120 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.56,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.72,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.53,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.033,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.89,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Delta ferrite reported above 2.9% Mo, appreciable at 3.9% Mo.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "V vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Upward-limit arrow near 0.8 V; threshold not resolved below the transpassive boundary. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: low.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_041",
+      "alloy": {
+        "preparation": "Separate heats melted and cast in vacuum. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.86,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 16.13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.09,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.067,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.79
+      },
+      "result_note": "Text reports pitting just below the onset of transpassivity (0.79v). Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: pure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_042",
+      "alloy": {
+        "preparation": "Separate heats melted and cast in vacuum. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 16.25,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.08,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.012,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "min": 0.8
+      },
+      "result_note": "No pitting on scanning to 0.8v; numerical lower testing bound, not an observed threshold. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: pure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_043",
+      "alloy": {
+        "preparation": "Separate heats melted and cast in vacuum. Hot forged and hot rolled to 0.76 cm, then cold rolled to 0.38 cm; annealed at 1150 °C for 1 h and water quenched. Mounted in acrylic with one surface parallel to the rolling plane; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina. Masked with Scotch 470 electroplater tape except for a 0.3 cm diameter circular area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.07,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 16.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.09,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.004,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.012,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated. The text discusses a change from pH 1 to 7 when comparing the media, but does not give an independently measured pH for each test; no numeric pH is assigned.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1.0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Masked electrode; saturated calomel reference and platinum auxiliary isolated by a glass frit. Potential scanned from −0.7 V in the active region into the passive region to form the passive film in situ. Usually 600 mV/hr until 0.2–0.3 V below expected pitting, then 60 mV/hr; scanning stopped within 20 mV after breakdown.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp rise in passive current with microscopically confirmed pits; principal pitting potential is initiation followed by continued pit growth. Crevice-only runs were rejected."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "min": 0.8
+      },
+      "result_note": "No pitting on scanning to 0.8v; numerical lower testing bound, not an observed threshold. Table I analyzed Mo content is retained; nominal series compositions in Table III and captions may differ by rounding. Intermediate Table I analyses marked NA are not replaced with endpoint analyses; nominal Cr/Ni are identified as such here. Reported percent basis is not further specified. Material series: pure.",
+      "failure_notes": ""
+    }
+  ]
+}

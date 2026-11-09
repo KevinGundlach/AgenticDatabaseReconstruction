@@ -1,0 +1,941 @@
+{
+  "paper_name": "81_H. Boehni, H. H. Uhlig, Corros. Sci. 9 (1969)_ p. 353.pdf",
+  "reference_number": 81,
+  "inputs": {
+    "pdf": {
+      "filename": "81_H. Boehni, H. H. Uhlig, Corros. Sci. 9 (1969)_ p. 353.pdf",
+      "sha256": "34cfdcdc87ac6b91a1ed36bec80b25bb67d50cc5e0cec1178ae71b8946e54887"
+    },
+    "registry": {
+      "filename": "paper_81.json",
+      "sha256": "ba1b3575cc333456b5ad5ad60f39afa2e62f3fd96559d5dac11b1a29bd1d719d"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 0
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.75
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 0.84,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 0
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.705
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 1.84,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 0
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.675
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 25
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.355
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 0.84,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 25
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.375
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 1.84,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 25
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.585
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 25
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.545
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 0.84,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 25
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.555
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 1.84,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 25
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.63
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 0
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.46
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 0.84,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 0
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.435
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Vacuum melted in dense alumina crucibles from decarburized electrolytic Fe, electrolytic Cr, carbonyl Ni and Re. Cast under purified argon by drawing into 7-mm-diameter Vycor tubes and water quenching. Homogenized 17 h at 1050°C, swaged to 0.4-cm-diameter rods, annealed at 1050°C and water-quenched. Electrodes about 2 cm long × 0.4 cm diameter, abraded to 3/0 emery paper and pickled in 15% HNO3/2% HF at 80°C; mounted with Teflon gasket to expose only alloy to the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "value": 1.84,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mostly austenitic as quenched; only slightly magnetic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 0
+      },
+      "test_solution": {
+        "preparation": "N2-saturated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "steady-state critical-potential determination"
+        ],
+        "procedure_description": "Totally immerse the electrode; polarize in the least noble passive region for 15 min, then advance in the noble direction by 50 mV every 5 min until marked current increase approximates pitting. Follow with 12–15-h runs at a single potential near the critical potential to establish the steady-state endpoint. Potential scale is standard hydrogen; electrode apparatus/filling details are not specified here.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Final critical potential is the least noble potential at which current did not continuously increase with time and no pits were observed under a low-power microscope in the long-time runs."
+      },
+      "pitting_potential": {
+        "unit": "V (Std. H2 scale)",
+        "value": 0.43
+      },
+      "result_note": "Approximate marker reading of the authors’ reported critical pitting potential. The stated endpoint is the least noble potential at which current did not continuously increase and no pits were seen during 12–15 h steady-state runs; this source criterion is retained without replacing it with an inferred onset. General reproducibility ±10–15 mV is not a point-specific symmetric uncertainty. Connecting curves are not extra results. Cr and Ni retain the Table 1 % unit; Re has the explicitly printed weight-percent basis of the figures. Fe is named as the alloy constituent but no Fe amount or balance is reported. Nitrogen saturation is solution conditioning. No pH, solvent or chloride-ion concentration is inferred, and the 80°C pickling temperature is not the test temperature.",
+      "failure_notes": ""
+    }
+  ]
+}

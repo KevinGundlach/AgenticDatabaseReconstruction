@@ -1,0 +1,27 @@
+# Paper 10: observation enrichment
+
+PDF: `10_W.H. Richardson & P. Guha (1979) Improved Ferritic-Austenitic Stainless Steel, British Corrosion Journal, 167-171.pdf`  
+Registry: `paper_10.json`  
+Resolved reference: 10  
+Output: [paper_10.json](paper_10.json)
+
+- Visual overview, one-based supplied-PDF pages actually viewed: None (empty registry).
+- Detailed sources: None: no supplied observations selected for enrichment.
+- Access: No PDF survey was required because there are no eligible IDs.
+- Counts: supplied 0; eligible 0; written 0; skipped failed 0; flagged output 0.
+- Skipped failed IDs: none.
+- Flagged output IDs (nonblank failure_notes): none.
+
+The registry is empty. experiments: [] is a routing result and does not assert that the PDF has no outcomes.
+
+Validation: actual exit code 0; PASS. Exact input hashes, ID coverage/order, schemas/models and unchanged raw anchored potentials checked. Structural validation does not certify scientific associations or benchmark suitability.
+
+```text
+VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\enriched_observations\paper_10.json
+Supplied=0; eligible=0; written=0; skipped_failed=0; flagged=0.
+Skipped failed IDs: none
+Flagged output IDs: none
+No eligible observations were supplied; this does not mean the paper contains no outcomes.
+Scientific fidelity, retained qualification meanings and actual visual coverage are not certified.
+
+```

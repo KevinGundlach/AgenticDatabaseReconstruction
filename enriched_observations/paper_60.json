@@ -1,0 +1,344 @@
+{
+  "paper_name": "60_J.E. Sweitzer, J.R. Scully, R.A. Bley, J.W.P. Hsu, Electrochemical and Solid-State Letters, 2 (1999) 267-270.pdf",
+  "reference_number": 60,
+  "inputs": {
+    "pdf": {
+      "filename": "60_J.E. Sweitzer, J.R. Scully, R.A. Bley, J.W.P. Hsu, Electrochemical and Solid-State Letters, 2 (1999) 267-270.pdf",
+      "sha256": "947be49ae72e6a113923af302789cc63ad049ab2eca2ae94e92d24031f16c186"
+    },
+    "registry": {
+      "filename": "paper_60.json",
+      "sha256": "c6a3113644ba1ee404d5de88c9ad795e6c57e995161171646350b044eda20452"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "High-purity Al foil control. Cross-section mounted in Buehler epoxide and polished to 0.05 µm finish; 10⁻⁴ cm² exposed, with matching-size Al control.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.999,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Polycrystalline, as-drawn grain diameter 10–100 µm.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purged solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 5.9,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Conventional three-electrode cell with saturated calomel reference; one hour at open circuit, anodic scan at 0.1 mV/s, reverse at 0.05 mA. These Ep results arise from the anodic scans; the separate artificial-pit step/hold protocol is not assigned to them.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep at anodic current density two orders of magnitude above the passive current density."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.376,
+        "plus_minus": 0.113
+      },
+      "result_note": "Reported at the 99% confidence level; Ep determined by anodic current density two orders of magnitude above passive current. The bracketed Al87Ni8.7Y4.3 values occur only in the Er row; no additional Ep value is inferred for that alloy.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Rapidly solidified from molten alloy on a cooled wheel as amorphous ribbon, cross-section 0.15 × 0.002 cm; stored at 0°C until testing. Cross-section mounted in Buehler epoxide and polished to 0.05 µm finish; 10⁻⁴ cm² exposed, with matching-size Al control.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "atom %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "atom %"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "atom %"
+            }
+          }
+        ],
+        "microstructure": "Completely amorphous as-solidified ribbon, confirmed by diffraction/TEM.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purged solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 5.9,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Conventional three-electrode cell with saturated calomel reference; one hour at open circuit, anodic scan at 0.1 mV/s, reverse at 0.05 mA. These Ep results arise from the anodic scans; the separate artificial-pit step/hold protocol is not assigned to them.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep at anodic current density two orders of magnitude above the passive current density."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.099,
+        "plus_minus": 0.093
+      },
+      "result_note": "Reported at the 99% confidence level; Ep determined by anodic current density two orders of magnitude above passive current. The bracketed Al87Ni8.7Y4.3 values occur only in the Er row; no additional Ep value is inferred for that alloy.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Rapidly solidified from molten alloy on a cooled wheel as amorphous ribbon, cross-section 0.15 × 0.002 cm; stored at 0°C until testing. Isothermally heat-treated in evacuated quartz at 150°C for 25 h. Cross-section mounted in Buehler epoxide and polished to 0.05 µm finish; 10⁻⁴ cm² exposed, with matching-size Al control.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "atom %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "atom %"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "atom %"
+            }
+          }
+        ],
+        "microstructure": "Partially nanocrystalline: approximately 10–15-nm Al-rich fcc nanocrystals (>98 atom % Al) in remaining amorphous matrix, with TM/RE solute rejection from crystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purged solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 5.9,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Conventional three-electrode cell with saturated calomel reference; one hour at open circuit, anodic scan at 0.1 mV/s, reverse at 0.05 mA. These Ep results arise from the anodic scans; the separate artificial-pit step/hold protocol is not assigned to them.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep at anodic current density two orders of magnitude above the passive current density."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.044,
+        "plus_minus": 0.13
+      },
+      "result_note": "Reported at the 99% confidence level; Ep determined by anodic current density two orders of magnitude above passive current. The bracketed Al87Ni8.7Y4.3 values occur only in the Er row; no additional Ep value is inferred for that alloy.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Rapidly solidified from molten alloy on a cooled wheel as amorphous ribbon, cross-section 0.15 × 0.002 cm; stored at 0°C until testing. Heat-treated 550°C for 1 h. Cross-section mounted in Buehler epoxide and polished to 0.05 µm finish; 10⁻⁴ cm² exposed, with matching-size Al control.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "atom %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "atom %"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "atom %"
+            }
+          }
+        ],
+        "microstructure": "Fully crystalline: Al-rich fcc microcrystals almost depleted of TM/RE, with Al-TM and Al-RE intermetallic phases.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purged solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 5.9,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Conventional three-electrode cell with saturated calomel reference; one hour at open circuit, anodic scan at 0.1 mV/s, reverse at 0.05 mA. These Ep results arise from the anodic scans; the separate artificial-pit step/hold protocol is not assigned to them.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep at anodic current density two orders of magnitude above the passive current density."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.499,
+        "plus_minus": 0.163
+      },
+      "result_note": "Reported at the 99% confidence level; Ep determined by anodic current density two orders of magnitude above passive current. The bracketed Al87Ni8.7Y4.3 values occur only in the Er row; no additional Ep value is inferred for that alloy.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "High-purity Al foil control. Larger Al electrode with 10⁻¹ cm² exposed surface; detailed surface preparation specific to this footnote is unreported.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.999,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Polycrystalline, as-drawn grain diameter 10–100 µm.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purged solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 5.9,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Conventional three-electrode cell with saturated calomel reference; one hour at open circuit, anodic scan at 0.1 mV/s, reverse at 0.05 mA. These Ep results arise from the anodic scans; the separate artificial-pit step/hold protocol is not assigned to them.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep at anodic current density two orders of magnitude above the passive current density."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.649,
+        "plus_minus": 0.034
+      },
+      "result_note": "Separate large-area electrode result explicitly printed in footnote; not a conversion of the microelectrode value.",
+      "failure_notes": ""
+    }
+  ]
+}

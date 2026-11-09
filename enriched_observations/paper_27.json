@@ -1,0 +1,473 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "27_Shang, X., et al. (2018). Science China Technological Sciences 61(2)_ 189-196.pdf",
+  "reference_number": 27,
+  "inputs": {
+    "pdf": {
+      "filename": "27_Shang, X., et al. (2018). Science China Technological Sciences 61(2)_ 189-196.pdf",
+      "sha256": "c7764305683e4cf379908e61a22eba52a6cfab102ef4170a77c9b37a37651c13"
+    },
+    "registry": {
+      "filename": "paper_27.json",
+      "sha256": "2eb258058675b422ec843c7efecaf4c71f8af628b29ae3dba048bc99859d3038"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Pure Ni. Raw Ni, Co, Fe and Cr, as applicable, of 99.95 wt% purity. Electric-arc furnace with electromagnetic stirring for five cycles, solidified on water-cooled copper hearth. Ingots 60 mm long × 10 mm diameter, cut into 2 mm thick × 10 mm diameter pieces. Mechanically ground sequentially with 240#, 800# and 1500# SiC, ultrasonically cleaned with ultrapure water, then cold mounted in flat specimen-holder kit exposing 0.5 cm².",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "Single solid-solution phase in the as-cast condition; FCC study series.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aqueous test solutions described as having the same chloride-ion concentration but different pH. No numerical pH or gas conditioning is supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Three-electrode cell, specimen working and 2 × 2 cm Pt-plate counter; working-to-counter distance 20 mm, working-to-reference and reference-to-counter distances 24 mm. Saturated calomel reference in saturated KCl; cyclic scan from reported −0.8 V versus OCP to 1.4 V RE, reversing and returning to the start. PARSTAT 4000. Before each measurement, immersed and OCP recorded for more than 30 min until fluctuation below 2 mV in 10 min. At least three measurements. Tests at unquantified room temperature; no numerical temperature is imposed.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb associated with new-pit formation above breakdown; Eprot is the crossing of forward/reverse curves and remains distinct. Paper also calls the region above Eb transpassive, and says general corrosion predominates for Cr-containing alloys with few pits seen at high magnification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE, saturated KCl)",
+        "value": 103
+      },
+      "result_note": "Breakdown Eb is related to new-pit formation in the adjacent discussion. The paper also uses transpassive terminology beyond Eb; Cr-bearing specimens show only a few pits at high magnification, while general corrosion is described as predominant. The text restates the present Ni result as 0.345 V NHE; that source-supplied reading is retained without performing a reference conversion. Nominal equiatomic identity is retained in preparation. Only explicitly quantified overall chemistry is stored numerically: Cr 33.3 at.% for NiCoCr or 25 at.% for NiCoCrFe. Raw-metal purity and post-corrosion matrix/pit EDS or surface XPS are not bulk alloy analyses; no equal fractions are calculated for other constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Nominal equiatomic NiCo. Raw Ni, Co, Fe and Cr, as applicable, of 99.95 wt% purity. Electric-arc furnace with electromagnetic stirring for five cycles, solidified on water-cooled copper hearth. Ingots 60 mm long × 10 mm diameter, cut into 2 mm thick × 10 mm diameter pieces. Mechanically ground sequentially with 240#, 800# and 1500# SiC, ultrasonically cleaned with ultrapure water, then cold mounted in flat specimen-holder kit exposing 0.5 cm².",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          }
+        ],
+        "microstructure": "Single solid-solution phase in the as-cast condition; FCC study series.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aqueous test solutions described as having the same chloride-ion concentration but different pH. No numerical pH or gas conditioning is supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Three-electrode cell, specimen working and 2 × 2 cm Pt-plate counter; working-to-counter distance 20 mm, working-to-reference and reference-to-counter distances 24 mm. Saturated calomel reference in saturated KCl; cyclic scan from reported −0.8 V versus OCP to 1.4 V RE, reversing and returning to the start. PARSTAT 4000. Before each measurement, immersed and OCP recorded for more than 30 min until fluctuation below 2 mV in 10 min. At least three measurements. Tests at unquantified room temperature; no numerical temperature is imposed.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb associated with new-pit formation above breakdown; Eprot is the crossing of forward/reverse curves and remains distinct. Paper also calls the region above Eb transpassive, and says general corrosion predominates for Cr-containing alloys with few pits seen at high magnification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE, saturated KCl)",
+        "value": 146
+      },
+      "result_note": "Breakdown Eb is related to new-pit formation in the adjacent discussion. The paper also uses transpassive terminology beyond Eb; Cr-bearing specimens show only a few pits at high magnification, while general corrosion is described as predominant. Nominal equiatomic identity is retained in preparation. Only explicitly quantified overall chemistry is stored numerically: Cr 33.3 at.% for NiCoCr or 25 at.% for NiCoCrFe. Raw-metal purity and post-corrosion matrix/pit EDS or surface XPS are not bulk alloy analyses; no equal fractions are calculated for other constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Nominal equiatomic NiCoFe. Raw Ni, Co, Fe and Cr, as applicable, of 99.95 wt% purity. Electric-arc furnace with electromagnetic stirring for five cycles, solidified on water-cooled copper hearth. Ingots 60 mm long × 10 mm diameter, cut into 2 mm thick × 10 mm diameter pieces. Mechanically ground sequentially with 240#, 800# and 1500# SiC, ultrasonically cleaned with ultrapure water, then cold mounted in flat specimen-holder kit exposing 0.5 cm².",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Single solid-solution phase in the as-cast condition; FCC study series.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aqueous test solutions described as having the same chloride-ion concentration but different pH. No numerical pH or gas conditioning is supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Three-electrode cell, specimen working and 2 × 2 cm Pt-plate counter; working-to-counter distance 20 mm, working-to-reference and reference-to-counter distances 24 mm. Saturated calomel reference in saturated KCl; cyclic scan from reported −0.8 V versus OCP to 1.4 V RE, reversing and returning to the start. PARSTAT 4000. Before each measurement, immersed and OCP recorded for more than 30 min until fluctuation below 2 mV in 10 min. At least three measurements. Tests at unquantified room temperature; no numerical temperature is imposed.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb associated with new-pit formation above breakdown; Eprot is the crossing of forward/reverse curves and remains distinct. Paper also calls the region above Eb transpassive, and says general corrosion predominates for Cr-containing alloys with few pits seen at high magnification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE, saturated KCl)",
+        "value": -143
+      },
+      "result_note": "Breakdown Eb is related to new-pit formation in the adjacent discussion. The paper also uses transpassive terminology beyond Eb; Cr-bearing specimens show only a few pits at high magnification, while general corrosion is described as predominant. Nominal equiatomic identity is retained in preparation. Only explicitly quantified overall chemistry is stored numerically: Cr 33.3 at.% for NiCoCr or 25 at.% for NiCoCrFe. Raw-metal purity and post-corrosion matrix/pit EDS or surface XPS are not bulk alloy analyses; no equal fractions are calculated for other constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Nominal equiatomic NiCoCr. Raw Ni, Co, Fe and Cr, as applicable, of 99.95 wt% purity. Electric-arc furnace with electromagnetic stirring for five cycles, solidified on water-cooled copper hearth. Ingots 60 mm long × 10 mm diameter, cut into 2 mm thick × 10 mm diameter pieces. Mechanically ground sequentially with 240#, 800# and 1500# SiC, ultrasonically cleaned with ultrapure water, then cold mounted in flat specimen-holder kit exposing 0.5 cm².",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 33.3,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Single solid-solution phase in the as-cast condition; FCC study series.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aqueous test solutions described as having the same chloride-ion concentration but different pH. No numerical pH or gas conditioning is supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Three-electrode cell, specimen working and 2 × 2 cm Pt-plate counter; working-to-counter distance 20 mm, working-to-reference and reference-to-counter distances 24 mm. Saturated calomel reference in saturated KCl; cyclic scan from reported −0.8 V versus OCP to 1.4 V RE, reversing and returning to the start. PARSTAT 4000. Before each measurement, immersed and OCP recorded for more than 30 min until fluctuation below 2 mV in 10 min. At least three measurements. Tests at unquantified room temperature; no numerical temperature is imposed.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb associated with new-pit formation above breakdown; Eprot is the crossing of forward/reverse curves and remains distinct. Paper also calls the region above Eb transpassive, and says general corrosion predominates for Cr-containing alloys with few pits seen at high magnification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE, saturated KCl)",
+        "value": 655
+      },
+      "result_note": "Breakdown Eb is related to new-pit formation in the adjacent discussion. The paper also uses transpassive terminology beyond Eb; Cr-bearing specimens show only a few pits at high magnification, while general corrosion is described as predominant. Nominal equiatomic identity is retained in preparation. Only explicitly quantified overall chemistry is stored numerically: Cr 33.3 at.% for NiCoCr or 25 at.% for NiCoCrFe. Raw-metal purity and post-corrosion matrix/pit EDS or surface XPS are not bulk alloy analyses; no equal fractions are calculated for other constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Nominal equiatomic NiCoCrFe. Raw Ni, Co, Fe and Cr, as applicable, of 99.95 wt% purity. Electric-arc furnace with electromagnetic stirring for five cycles, solidified on water-cooled copper hearth. Ingots 60 mm long × 10 mm diameter, cut into 2 mm thick × 10 mm diameter pieces. Mechanically ground sequentially with 240#, 800# and 1500# SiC, ultrasonically cleaned with ultrapure water, then cold mounted in flat specimen-holder kit exposing 0.5 cm².",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25,
+              "unit": "at.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Single solid-solution phase in the as-cast condition; FCC study series.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aqueous test solutions described as having the same chloride-ion concentration but different pH. No numerical pH or gas conditioning is supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Three-electrode cell, specimen working and 2 × 2 cm Pt-plate counter; working-to-counter distance 20 mm, working-to-reference and reference-to-counter distances 24 mm. Saturated calomel reference in saturated KCl; cyclic scan from reported −0.8 V versus OCP to 1.4 V RE, reversing and returning to the start. PARSTAT 4000. Before each measurement, immersed and OCP recorded for more than 30 min until fluctuation below 2 mV in 10 min. At least three measurements. Tests at unquantified room temperature; no numerical temperature is imposed.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb associated with new-pit formation above breakdown; Eprot is the crossing of forward/reverse curves and remains distinct. Paper also calls the region above Eb transpassive, and says general corrosion predominates for Cr-containing alloys with few pits seen at high magnification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE, saturated KCl)",
+        "value": 805
+      },
+      "result_note": "Breakdown Eb is related to new-pit formation in the adjacent discussion. The paper also uses transpassive terminology beyond Eb; Cr-bearing specimens show only a few pits at high magnification, while general corrosion is described as predominant. Nominal equiatomic identity is retained in preparation. Only explicitly quantified overall chemistry is stored numerically: Cr 33.3 at.% for NiCoCr or 25 at.% for NiCoCrFe. Raw-metal purity and post-corrosion matrix/pit EDS or surface XPS are not bulk alloy analyses; no equal fractions are calculated for other constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Nominal equiatomic NiCoCr. Raw Ni, Co, Fe and Cr, as applicable, of 99.95 wt% purity. Electric-arc furnace with electromagnetic stirring for five cycles, solidified on water-cooled copper hearth. Ingots 60 mm long × 10 mm diameter, cut into 2 mm thick × 10 mm diameter pieces. Mechanically ground sequentially with 240#, 800# and 1500# SiC, ultrasonically cleaned with ultrapure water, then cold mounted in flat specimen-holder kit exposing 0.5 cm².",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 33.3,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Single solid-solution phase in the as-cast condition; FCC study series.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aqueous test solutions described as having the same chloride-ion concentration but different pH. No numerical pH or gas conditioning is supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell, specimen working and 2 × 2 cm Pt-plate counter; working-to-counter distance 20 mm, working-to-reference and reference-to-counter distances 24 mm. Ag/AgCl reference with 3.5 M KCl; potentiodynamic scan from reported −0.8 V versus OCP to 1.4 V RE. PARSTAT 4000. Before each measurement, immersed and OCP recorded for more than 30 min until fluctuation below 2 mV in 10 min. At least three measurements. Tests at unquantified room temperature; no numerical temperature is imposed.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb associated with new-pit formation above breakdown; Eprot is the crossing of forward/reverse curves and remains distinct. Paper also calls the region above Eb transpassive, and says general corrosion predominates for Cr-containing alloys with few pits seen at high magnification."
+      },
+      "pitting_potential": {
+        "unit": "mV (Ag/AgCl, 3.5 M KCl)",
+        "value": 971
+      },
+      "result_note": "Reported breakdown associated with competition between passivation and corrosion-pit occurrence. The morphology discussion describes general corrosion as the main type in these Cr-bearing alloys; the reported breakdown is retained with that qualification. Nominal equiatomic identity is retained in preparation. Only explicitly quantified overall chemistry is stored numerically: Cr 33.3 at.% for NiCoCr or 25 at.% for NiCoCrFe. Raw-metal purity and post-corrosion matrix/pit EDS or surface XPS are not bulk alloy analyses; no equal fractions are calculated for other constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Nominal equiatomic NiCoCrFe. Raw Ni, Co, Fe and Cr, as applicable, of 99.95 wt% purity. Electric-arc furnace with electromagnetic stirring for five cycles, solidified on water-cooled copper hearth. Ingots 60 mm long × 10 mm diameter, cut into 2 mm thick × 10 mm diameter pieces. Mechanically ground sequentially with 240#, 800# and 1500# SiC, ultrasonically cleaned with ultrapure water, then cold mounted in flat specimen-holder kit exposing 0.5 cm².",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25,
+              "unit": "at.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Single solid-solution phase in the as-cast condition; FCC study series.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aqueous test solutions described as having the same chloride-ion concentration but different pH. No numerical pH or gas conditioning is supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell, specimen working and 2 × 2 cm Pt-plate counter; working-to-counter distance 20 mm, working-to-reference and reference-to-counter distances 24 mm. Ag/AgCl reference with 3.5 M KCl; potentiodynamic scan from reported −0.8 V versus OCP to 1.4 V RE. PARSTAT 4000. Before each measurement, immersed and OCP recorded for more than 30 min until fluctuation below 2 mV in 10 min. At least three measurements. Tests at unquantified room temperature; no numerical temperature is imposed.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb associated with new-pit formation above breakdown; Eprot is the crossing of forward/reverse curves and remains distinct. Paper also calls the region above Eb transpassive, and says general corrosion predominates for Cr-containing alloys with few pits seen at high magnification."
+      },
+      "pitting_potential": {
+        "unit": "mV (Ag/AgCl, 3.5 M KCl)",
+        "value": 246
+      },
+      "result_note": "Reported breakdown associated with competition between passivation and corrosion-pit occurrence. The morphology discussion describes general corrosion as the main type in these Cr-bearing alloys; the reported breakdown is retained with that qualification. Nominal equiatomic identity is retained in preparation. Only explicitly quantified overall chemistry is stored numerically: Cr 33.3 at.% for NiCoCr or 25 at.% for NiCoCrFe. Raw-metal purity and post-corrosion matrix/pit EDS or surface XPS are not bulk alloy analyses; no equal fractions are calculated for other constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Cited pure-Ni measurement; preparation, purity and surface state are not supplied here.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Literature critical potential for pure Ni in 0.1 M NaCl at 25 °C, as described by this paper; current-study manufacturing, reference electrode and scan protocol are not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Cited critical potential discussed in comparison with the present pure-Ni breakdown/pitting response; no detailed numerical current criterion supplied."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.28
+      },
+      "result_note": "Externally reported critical potential discussed in comparison with the present Ni breakdown/pitting result. The numerical offset above NHE is the source statement, not a conversion performed here.",
+      "failure_notes": ""
+    }
+  ]
+}

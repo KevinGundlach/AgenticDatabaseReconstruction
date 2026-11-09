@@ -1,0 +1,562 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "22_Chun-Ming Lin and Hsien-Lung Tsai. Intermetallics, 19 (2011), 288-294.pdf",
+  "reference_number": 22,
+  "inputs": {
+    "pdf": {
+      "filename": "22_Chun-Ming Lin and Hsien-Lung Tsai. Intermetallics, 19 (2011), 288-294.pdf",
+      "sha256": "233bf7e0b227e9a43cae6fb3c54345e5e30eabf8e08e19835a7fda88e8cc927e"
+    },
+    "registry": {
+      "filename": "paper_22.json",
+      "sha256": "f937b1a43c1a5d46a52e224d64c986025861f107cf7a03c3a3a1739a70be0a28"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "AISI 304L stainless-steel comparison measured in this study; manufacture, heat treatment, electrode surface preparation and chemical analysis are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The methods/caption state 3.5% NaCl and the conclusion explicitly calls it 3.5 wt%. Gas conditioning, pH and solvent are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiodynamic curves, calibration according to ASTM G59; potentials reported versus SCE. Methods print an initial potential of 0.5 V SCE with reference to OCP and a final potential of −1.5 V SCE. This unusual order/sign description is retained as printed; the intended direction is not silently repaired. Table 4/Figure 5 establish the 25 °C electrolyte temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 4 labels Epit as pitting potential; no numerical current threshold for its selection is given. Surface discussion describes intercrystalline, crevice and selective corrosion alongside small pits."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.48
+      },
+      "result_note": "The paper labels this value pitting potential; surface discussion also describes intercrystalline, crevice and selective corrosion. Aging temperature labels specify material treatment, not electrolyte temperature. The printed scan limits/order are unusual and remain a source qualification.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Nominal Al0.5CoCrFeNi high-entropy alloy, arc melted under argon from 99.99% pure elements; 10 × 10 × 7 mm specimens. Retained in the as-cast condition. Electrochemical surface preparation is not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "FCC solid-solution matrix with Al–Ni-rich FCC droplet-shaped phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The methods/caption state 3.5% NaCl and the conclusion explicitly calls it 3.5 wt%. Gas conditioning, pH and solvent are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiodynamic curves, calibration according to ASTM G59; potentials reported versus SCE. Methods print an initial potential of 0.5 V SCE with reference to OCP and a final potential of −1.5 V SCE. This unusual order/sign description is retained as printed; the intended direction is not silently repaired. Table 4/Figure 5 establish the 25 °C electrolyte temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 4 labels Epit as pitting potential; no numerical current threshold for its selection is given. Surface discussion describes intercrystalline, crevice and selective corrosion alongside small pits."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.13
+      },
+      "result_note": "The paper labels this value pitting potential; surface discussion also describes intercrystalline, crevice and selective corrosion. Composition entries retain nominal formula coefficients without normalization. Table 1 contains separate matrix/droplet/wall/needle phase EDX at% analyses, not a measured overall bulk chemistry; they are not substituted for the alloy formula. Aging temperature labels specify material treatment, not electrolyte temperature. The printed scan limits/order are unusual and remain a source qualification.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Nominal Al0.5CoCrFeNi high-entropy alloy, arc melted under argon from 99.99% pure elements; 10 × 10 × 7 mm specimens. Aged under argon for 24 h at 350 °C, then water quenched. Electrochemical surface preparation is not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC + BCC structure: FCC matrix and Al–Ni-rich FCC droplet-shaped phases, plus BCC wall-shaped phases and Al–(Ni,Co,Cr,Fe) needle-shaped BCC phases precipitated during aging.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The methods/caption state 3.5% NaCl and the conclusion explicitly calls it 3.5 wt%. Gas conditioning, pH and solvent are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiodynamic curves, calibration according to ASTM G59; potentials reported versus SCE. Methods print an initial potential of 0.5 V SCE with reference to OCP and a final potential of −1.5 V SCE. This unusual order/sign description is retained as printed; the intended direction is not silently repaired. Table 4/Figure 5 establish the 25 °C electrolyte temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 4 labels Epit as pitting potential; no numerical current threshold for its selection is given. Surface discussion describes intercrystalline, crevice and selective corrosion alongside small pits."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.18
+      },
+      "result_note": "The paper labels this value pitting potential; surface discussion also describes intercrystalline, crevice and selective corrosion. Composition entries retain nominal formula coefficients without normalization. Table 1 contains separate matrix/droplet/wall/needle phase EDX at% analyses, not a measured overall bulk chemistry; they are not substituted for the alloy formula. Aging temperature labels specify material treatment, not electrolyte temperature. The printed scan limits/order are unusual and remain a source qualification.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Nominal Al0.5CoCrFeNi high-entropy alloy, arc melted under argon from 99.99% pure elements; 10 × 10 × 7 mm specimens. Aged under argon for 24 h at 500 °C, then water quenched. Electrochemical surface preparation is not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC + BCC structure: FCC matrix and Al–Ni-rich FCC droplet-shaped phases, plus BCC wall-shaped phases and Al–(Ni,Co,Cr,Fe) needle-shaped BCC phases precipitated during aging.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The methods/caption state 3.5% NaCl and the conclusion explicitly calls it 3.5 wt%. Gas conditioning, pH and solvent are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiodynamic curves, calibration according to ASTM G59; potentials reported versus SCE. Methods print an initial potential of 0.5 V SCE with reference to OCP and a final potential of −1.5 V SCE. This unusual order/sign description is retained as printed; the intended direction is not silently repaired. Table 4/Figure 5 establish the 25 °C electrolyte temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 4 labels Epit as pitting potential; no numerical current threshold for its selection is given. Surface discussion describes intercrystalline, crevice and selective corrosion alongside small pits."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.28
+      },
+      "result_note": "The paper labels this value pitting potential; surface discussion also describes intercrystalline, crevice and selective corrosion. Composition entries retain nominal formula coefficients without normalization. Table 1 contains separate matrix/droplet/wall/needle phase EDX at% analyses, not a measured overall bulk chemistry; they are not substituted for the alloy formula. Aging temperature labels specify material treatment, not electrolyte temperature. The printed scan limits/order are unusual and remain a source qualification.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Nominal Al0.5CoCrFeNi high-entropy alloy, arc melted under argon from 99.99% pure elements; 10 × 10 × 7 mm specimens. Aged under argon for 24 h at 650 °C, then water quenched. Electrochemical surface preparation is not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC + BCC structure: FCC matrix and Al–Ni-rich FCC droplet-shaped phases, plus BCC wall-shaped phases and Al–(Ni,Co,Cr,Fe) needle-shaped BCC phases precipitated during aging.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The methods/caption state 3.5% NaCl and the conclusion explicitly calls it 3.5 wt%. Gas conditioning, pH and solvent are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiodynamic curves, calibration according to ASTM G59; potentials reported versus SCE. Methods print an initial potential of 0.5 V SCE with reference to OCP and a final potential of −1.5 V SCE. This unusual order/sign description is retained as printed; the intended direction is not silently repaired. Table 4/Figure 5 establish the 25 °C electrolyte temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 4 labels Epit as pitting potential; no numerical current threshold for its selection is given. Surface discussion describes intercrystalline, crevice and selective corrosion alongside small pits."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.71
+      },
+      "result_note": "The paper labels this value pitting potential; surface discussion also describes intercrystalline, crevice and selective corrosion. Composition entries retain nominal formula coefficients without normalization. Table 1 contains separate matrix/droplet/wall/needle phase EDX at% analyses, not a measured overall bulk chemistry; they are not substituted for the alloy formula. Aging temperature labels specify material treatment, not electrolyte temperature. The printed scan limits/order are unusual and remain a source qualification.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Nominal Al0.5CoCrFeNi high-entropy alloy, arc melted under argon from 99.99% pure elements; 10 × 10 × 7 mm specimens. Aged under argon for 24 h at 800 °C, then water quenched. Electrochemical surface preparation is not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC + BCC structure: FCC matrix and Al–Ni-rich FCC droplet-shaped phases, plus BCC wall-shaped phases and Al–(Ni,Co,Cr,Fe) needle-shaped BCC phases precipitated during aging.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The methods/caption state 3.5% NaCl and the conclusion explicitly calls it 3.5 wt%. Gas conditioning, pH and solvent are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiodynamic curves, calibration according to ASTM G59; potentials reported versus SCE. Methods print an initial potential of 0.5 V SCE with reference to OCP and a final potential of −1.5 V SCE. This unusual order/sign description is retained as printed; the intended direction is not silently repaired. Table 4/Figure 5 establish the 25 °C electrolyte temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 4 labels Epit as pitting potential; no numerical current threshold for its selection is given. Surface discussion describes intercrystalline, crevice and selective corrosion alongside small pits."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.14
+      },
+      "result_note": "The paper labels this value pitting potential; surface discussion also describes intercrystalline, crevice and selective corrosion. Composition entries retain nominal formula coefficients without normalization. Table 1 contains separate matrix/droplet/wall/needle phase EDX at% analyses, not a measured overall bulk chemistry; they are not substituted for the alloy formula. Aging temperature labels specify material treatment, not electrolyte temperature. The printed scan limits/order are unusual and remain a source qualification.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Nominal Al0.5CoCrFeNi high-entropy alloy, arc melted under argon from 99.99% pure elements; 10 × 10 × 7 mm specimens. Aged under argon for 24 h at 950 °C, then water quenched. Electrochemical surface preparation is not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC + BCC structure: FCC matrix and Al–Ni-rich FCC droplet-shaped phases, plus BCC wall-shaped phases and Al–(Ni,Co,Cr,Fe) needle-shaped BCC phases precipitated during aging.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The methods/caption state 3.5% NaCl and the conclusion explicitly calls it 3.5 wt%. Gas conditioning, pH and solvent are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiodynamic curves, calibration according to ASTM G59; potentials reported versus SCE. Methods print an initial potential of 0.5 V SCE with reference to OCP and a final potential of −1.5 V SCE. This unusual order/sign description is retained as printed; the intended direction is not silently repaired. Table 4/Figure 5 establish the 25 °C electrolyte temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 4 labels Epit as pitting potential; no numerical current threshold for its selection is given. Surface discussion describes intercrystalline, crevice and selective corrosion alongside small pits."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.18
+      },
+      "result_note": "The paper labels this value pitting potential; surface discussion also describes intercrystalline, crevice and selective corrosion. Composition entries retain nominal formula coefficients without normalization. Table 1 contains separate matrix/droplet/wall/needle phase EDX at% analyses, not a measured overall bulk chemistry; they are not substituted for the alloy formula. Aging temperature labels specify material treatment, not electrolyte temperature. The printed scan limits/order are unusual and remain a source qualification.",
+      "failure_notes": ""
+    }
+  ]
+}

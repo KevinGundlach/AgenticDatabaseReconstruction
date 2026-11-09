@@ -1,0 +1,224 @@
+{
+  "paper_name": "84_R. Machin & P. Guha. Werkstoffe und Korrosion 25. 1974.pdf",
+  "reference_number": 84,
+  "inputs": {
+    "pdf": {
+      "filename": "84_R. Machin & P. Guha. Werkstoffe und Korrosion 25. 1974.pdf",
+      "sha256": "1ede11a2d4f570d5b8625885638cb0f43adfc8f9e65f4352657b6cdd8cff0f83"
+    },
+    "registry": {
+      "filename": "paper_84.json",
+      "sha256": "8db6fe58426627c149f655921426eb9dfe57ef104359ddea3d45a547c44dc8fc"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Cast stainless steel. The exact thermal and surface preparation of the Figure 9 pitting specimen is not separately specified; heat treatments attached to other polarization figures are not assigned.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Stable austenitic cast stainless steel; a small amount of stable ferrite may be present.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Purged with oxygen-free high-purity nitrogen.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Wenking potentiostat with stepping-motor potential progression maintained at the printed stepping rate of 10 mV/min; polarization cell/electrode holder as recommended by Greene and polarization according to ASTM G.1 Committee recommendations. All potentials referred to the paper’s S.C.E. calomel scale. Figure 9 specifies 30°C and N2 purge in 3% NaCl. No individual potential increment or step-hold duration is supplied.",
+        "scan_rate": {
+          "value": 10,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ explicitly stated breakdown/pitting potential in the chloride polarization test; no numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -50
+      },
+      "result_note": "Explicit text-reported pitting/breakdown potential. All potentials are stated relative to S.C.E.; no threshold was independently inferred from a continuous curve. Composition is nominal percent, not a recovered full chemical analysis; no Fe balance or unstated elements are calculated. No solvent, pH, chloride-ion concentration or concentration basis is inferred from “3% NaCl”.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Cast stainless steel. The exact thermal and surface preparation of the Figure 10 pitting specimen is not separately specified; heat treatments attached to other polarization figures are not assigned.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Stable austenitic cast stainless steel; a small amount of stable ferrite may be present.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Purged with oxygen-free high-purity nitrogen.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Wenking potentiostat with stepping-motor potential progression maintained at the printed stepping rate of 10 mV/min; polarization cell/electrode holder as recommended by Greene and polarization according to ASTM G.1 Committee recommendations. All potentials referred to the paper’s S.C.E. calomel scale. Figure 10 specifies 30°C and N2 purge in 3% NaCl. No individual potential increment or step-hold duration is supplied.",
+        "scan_rate": {
+          "value": 10,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ explicitly stated breakdown/pitting potential in the chloride polarization test; no numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 200
+      },
+      "result_note": "Explicit text-reported pitting/breakdown potential. All potentials are stated relative to S.C.E.; no threshold was independently inferred from a continuous curve. Composition is nominal percent, not a recovered full chemical analysis; no Fe balance or unstated elements are calculated. No solvent, pH, chloride-ion concentration or concentration basis is inferred from “3% NaCl”.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Cast stainless steel. The exact thermal and surface preparation of the Figure 11 pitting specimen is not separately specified; heat treatments attached to other polarization figures are not assigned.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic microstructure, reported as 50:50.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Purged with oxygen-free high-purity nitrogen.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Wenking potentiostat with stepping-motor potential progression maintained at the printed stepping rate of 10 mV/min; polarization cell/electrode holder as recommended by Greene and polarization according to ASTM G.1 Committee recommendations. All potentials referred to the paper’s S.C.E. calomel scale. Figure 11 specifies 30°C and N2 purge in 3% NaCl. No individual potential increment or step-hold duration is supplied.",
+        "scan_rate": {
+          "value": 10,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ explicitly stated breakdown/pitting potential in the chloride polarization test; no numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 800
+      },
+      "result_note": "Explicit text-reported pitting/breakdown potential. All potentials are stated relative to S.C.E.; no threshold was independently inferred from a continuous curve. Approximately +800 mV, as qualified by the source. Composition is nominal percent, not a recovered full chemical analysis; no Fe balance or unstated elements are calculated. No solvent, pH, chloride-ion concentration or concentration basis is inferred from “3% NaCl”. The final nominal FERRALIUM composition (25% Cr, 5.5% Ni, 3% Cu, 2.5% Mo) is explicitly listed on PDF p.5; the earlier 25Cr/5Ni/3Mo discussion describes development steps. The separate Figure 17 solution treatment at 1120°C and subsequent 500°C aging do not identify the precise Figure 11 specimen treatment.",
+      "failure_notes": ""
+    }
+  ]
+}

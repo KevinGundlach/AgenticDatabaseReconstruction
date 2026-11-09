@@ -1,0 +1,1967 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "32_A.M. Lucente, J.R. Scully, Electrochemical and Solid-State Letters, 10 (2007) C39-C43.pdf",
+  "reference_number": 32,
+  "inputs": {
+    "pdf": {
+      "filename": "32_A.M. Lucente, J.R. Scully, Electrochemical and Solid-State Letters, 10 (2007) C39-C43.pdf",
+      "sha256": "701c662392a2073d457acfa5ac13ad27b17b6c26639591c9352eeeafc74812ac"
+    },
+    "registry": {
+      "filename": "paper_32.json",
+      "sha256": "3b5f7607e4f24589094f7419ca890130ebafeefbf533d84773734f60dc3bb522"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "High-purity 99.999% polycrystalline Al foil (Alfa Aesar), same dimensions as metallic-glass ribbons; mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm². Wet polished with 1 µm diamond then 0.05 µm silica suspensions and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.999,
+              "unit": "% (foil purity)"
+            }
+          }
+        ],
+        "microstructure": "Polycrystalline Al foil.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.55
+      },
+      "result_note": "Approximate potential at the explicitly labeled Epit arrow in an individual example scan. This is not the median of Figures 5–8; overlap with the underlying summary population is unspecified.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully amorphous metallic glass.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.02
+      },
+      "result_note": "Approximate potential at the explicitly labeled Epit arrow in an individual example scan. This is not the median of Figures 5–8; overlap with the underlying summary population is unspecified. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. The exact Table I treatment cannot be uniquely assigned from this example/coordinate; no nearest-size schedule is assumed. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix containing solute-lean fcc Al-rich nanocrystals; specific crystal size of this Figure 2 example is not identified.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.25
+      },
+      "result_note": "Approximate potential at the explicitly labeled Epit arrow in an individual example scan. This is not the median of Figures 5–8; overlap with the underlying summary population is unspecified. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully amorphous metallic glass.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Figures 3–4 use increased acquisition rate 20 points/s (20 Hz), Gamry FAS2, detecting about 2 pA spikes above approximately 200 pA passive current; the acquisition frequency is not a potential sweep rate.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Specifically arrow-annotated pit event in the high-acquisition-rate scan, distinct from a new stable-pitting threshold."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.46
+      },
+      "result_note": "Approximate potential of the specifically arrow-annotated pit event, not a new stable-pitting threshold inferred from the continuous trace. Separate annotated events are retained even at the same potential. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully amorphous metallic glass.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Figures 3–4 use increased acquisition rate 20 points/s (20 Hz), Gamry FAS2, detecting about 2 pA spikes above approximately 200 pA passive current; the acquisition frequency is not a potential sweep rate.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Specifically arrow-annotated pit event in the high-acquisition-rate scan, distinct from a new stable-pitting threshold."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.06
+      },
+      "result_note": "Approximate potential of the specifically arrow-annotated pit event, not a new stable-pitting threshold inferred from the continuous trace. Separate annotated events are retained even at the same potential. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully amorphous metallic glass.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Figures 3–4 use increased acquisition rate 20 points/s (20 Hz), Gamry FAS2, detecting about 2 pA spikes above approximately 200 pA passive current; the acquisition frequency is not a potential sweep rate.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Specifically arrow-annotated pit event in the high-acquisition-rate scan, distinct from a new stable-pitting threshold."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.09
+      },
+      "result_note": "Approximate potential of the specifically arrow-annotated pit event, not a new stable-pitting threshold inferred from the continuous trace. Separate annotated events are retained even at the same potential. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 300 °C for 2 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 14 nm spherical solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Figures 3–4 use increased acquisition rate 20 points/s (20 Hz), Gamry FAS2, detecting about 2 pA spikes above approximately 200 pA passive current; the acquisition frequency is not a potential sweep rate.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Specifically arrow-annotated pit event in the high-acquisition-rate scan, distinct from a new stable-pitting threshold."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.7
+      },
+      "result_note": "Approximate potential of the specifically arrow-annotated pit event, not a new stable-pitting threshold inferred from the continuous trace. Separate annotated events are retained even at the same potential. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 300 °C for 2 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 14 nm spherical solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Figures 3–4 use increased acquisition rate 20 points/s (20 Hz), Gamry FAS2, detecting about 2 pA spikes above approximately 200 pA passive current; the acquisition frequency is not a potential sweep rate.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Specifically arrow-annotated pit event in the high-acquisition-rate scan, distinct from a new stable-pitting threshold."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.48
+      },
+      "result_note": "Approximate potential of the specifically arrow-annotated pit event, not a new stable-pitting threshold inferred from the continuous trace. Separate annotated events are retained even at the same potential. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 300 °C for 2 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 14 nm spherical solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Figures 3–4 use increased acquisition rate 20 points/s (20 Hz), Gamry FAS2, detecting about 2 pA spikes above approximately 200 pA passive current; the acquisition frequency is not a potential sweep rate.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Specifically arrow-annotated pit event in the high-acquisition-rate scan, distinct from a new stable-pitting threshold."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.24
+      },
+      "result_note": "Approximate potential of the specifically arrow-annotated pit event, not a new stable-pitting threshold inferred from the continuous trace. Separate annotated events are retained even at the same potential. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 300 °C for 2 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 14 nm spherical solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Figures 3–4 use increased acquisition rate 20 points/s (20 Hz), Gamry FAS2, detecting about 2 pA spikes above approximately 200 pA passive current; the acquisition frequency is not a potential sweep rate.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Specifically arrow-annotated pit event in the high-acquisition-rate scan, distinct from a new stable-pitting threshold."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.24
+      },
+      "result_note": "Approximate potential of the specifically arrow-annotated pit event, not a new stable-pitting threshold inferred from the continuous trace. Separate annotated events are retained even at the same potential. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully amorphous metallic glass.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.14,
+        "min": -0.21,
+        "max": -0.03
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 150 °C for 8 min. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 6.5 nm spherical solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.09,
+        "min": -0.18,
+        "max": 0.09
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. The exact Table I treatment cannot be uniquely assigned from this example/coordinate; no nearest-size schedule is assumed. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 11 nm spherical solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0,
+        "min": -0.09,
+        "max": 0.14
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. The marker is plotted near 11 nm; Table I lists a nominal 10 nm condition among the treatments, but this graphical coordinate is not replaced by that value. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula. Figure 5 coordinate is approximately 11 nm; Table I lists a 10 nm spherical-NC treatment (180 °C/25 h), and Figure 1 separately describes 10 nm at 150 °C/24 h. The figure coordinate and exact treatment are not silently reconciled.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 280 °C for 5 min. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 12 nm spherical solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.12,
+        "min": -0.13,
+        "max": 0.26
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 300 °C for 2 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 14 nm spherical solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.29,
+        "min": 0.13,
+        "max": 0.38
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 550 °C for 1 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully crystalline alloy; approximately 500 nm grains.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.58,
+        "min": -0.65,
+        "max": -0.49
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "High-purity 99.999% polycrystalline Al foil (Alfa Aesar), same dimensions as metallic-glass ribbons; mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm². Wet polished with 1 µm diamond then 0.05 µm silica suspensions and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.999,
+              "unit": "% (foil purity)"
+            }
+          }
+        ],
+        "microstructure": "Polycrystalline Al foil.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.67,
+        "min": -0.7,
+        "max": -0.54
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. The repeated Pure Al summaries in obs_017, obs_021, obs_027 and obs_030 may use the same comparator population; the paper does not identify run correspondence, so these locations remain separate uncertain duplicates, not independent experiments.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 6,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully amorphous metallic glass.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.28,
+        "min": -0.3,
+        "max": -0.19
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 250 °C for 10 min. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 6,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 20 nm spherical solute-lean fcc Al-rich nanocrystals. Low nanocrystal density.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.23,
+        "min": -0.28,
+        "max": 0
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 250 °C for 24 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 6,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 40 nm spherical solute-lean fcc Al-rich nanocrystals. High nanocrystal density.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.17,
+        "min": -0.31,
+        "max": 0.07
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "High-purity 99.999% polycrystalline Al foil (Alfa Aesar), same dimensions as metallic-glass ribbons; mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm². Wet polished with 1 µm diamond then 0.05 µm silica suspensions and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.999,
+              "unit": "% (foil purity)"
+            }
+          }
+        ],
+        "microstructure": "Polycrystalline Al foil.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.66,
+        "min": -0.68,
+        "max": -0.54
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. The repeated Pure Al summaries in obs_017, obs_021, obs_027 and obs_030 may use the same comparator population; the paper does not identify run correspondence, so these locations remain separate uncertain duplicates, not independent experiments.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 3,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully amorphous metallic glass.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.28,
+        "min": -0.39,
+        "max": -0.23
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 200 °C for 10 min. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 3,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 5 nm dendritic solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.38,
+        "min": -0.42,
+        "max": -0.3
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 200 °C for 1 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 3,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 25 nm dendritic solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.42,
+        "min": -0.47,
+        "max": -0.34
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 200 °C for 3 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 3,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 50 nm dendritic solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.45,
+        "min": -0.5,
+        "max": -0.38
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 500 °C for 15 days. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 3,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully crystalline alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.68,
+        "min": -0.72,
+        "max": -0.66
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "High-purity 99.999% polycrystalline Al foil (Alfa Aesar), same dimensions as metallic-glass ribbons; mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm². Wet polished with 1 µm diamond then 0.05 µm silica suspensions and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.999,
+              "unit": "% (foil purity)"
+            }
+          }
+        ],
+        "microstructure": "Polycrystalline Al foil.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.66,
+        "min": -0.69,
+        "max": -0.54
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. The repeated Pure Al summaries in obs_017, obs_021, obs_027 and obs_030 may use the same comparator population; the paper does not identify run correspondence, so these locations remain separate uncertain duplicates, not independent experiments.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 85,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 8,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fully amorphous metallic glass.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.2,
+        "min": -0.28,
+        "max": -0.14
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Metallic-glass ribbon fabricated by single-roller melt spinning. For devitrified states, encapsulated in Pyrex or quartz tube backfilled with argon for isothermal treatment. Table I associated treatment: 210 °C for 24 h. Mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm²; wet polished with 1 µm then 0.05 µm alumina suspension and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 85,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 7,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Gd",
+            "amount": {
+              "value": 8,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Amorphous matrix plus 100 nm dendritic solute-lean fcc Al-rich nanocrystals.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.26,
+        "min": 0.19,
+        "max": 0.29
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. Composition entries are nominal formula coefficients as printed, not a new normalized atomic/weight analysis. No amorphous-matrix or nanocrystal phase chemistry is substituted for the bulk formula.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "High-purity 99.999% polycrystalline Al foil (Alfa Aesar), same dimensions as metallic-glass ribbons; mounted on end in low-curing-temperature epoxy to expose 2 × 10^-4 cm². Wet polished with 1 µm diamond then 0.05 µm silica suspensions and rinsed with deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.999,
+              "unit": "% (foil purity)"
+            }
+          }
+        ],
+        "microstructure": "Polycrystalline Al foil.",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Electrolyte also explicitly described as 3.5 wt% NaCl; prepared from ACS-certified reagents and 18.2 MΩ·cm resistivity deionized water. Both empty cell and electrolyte deaerated with nitrogen before experiment; duration and pH not supplied.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "OCP measured for 1 h after adding electrolyte; anodic scan at 0.1 mV/s with reversal at 10 mA/cm²; potentials versus SCE. Numeric electrolyte temperature is not supplied. Median comparisons use the standard acquisition protocol; the low acquisition rate means Epit generally represents removal of a 0.5–1 µm-radius hemispherical volume.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit and Erp are the potentials where slope of the current-versus-potential curve changes suddenly; Epit concerns micrometer-scale stable pitting, distinguished from small preceding transients."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.67,
+        "min": -0.71,
+        "max": -0.54
+      },
+      "result_note": "Manually read median Epit; min/max are the plotted 25th/75th percentiles, not extrema or standard deviations. Deaerated 0.6 M NaCl, scan rate 0.1 mV/s. The repeated Pure Al summaries in obs_017, obs_021, obs_027 and obs_030 may use the same comparator population; the paper does not identify run correspondence, so these locations remain separate uncertain duplicates, not independent experiments.",
+      "failure_notes": ""
+    }
+  ]
+}

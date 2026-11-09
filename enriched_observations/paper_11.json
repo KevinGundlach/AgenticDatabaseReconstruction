@@ -1,0 +1,1432 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "11_E. A. Lizlovs, A. P. Bond, J. Electrochem. Soc. 116 (1969)_ p. 574.pdf",
+  "reference_number": 11,
+  "inputs": {
+    "pdf": {
+      "filename": "11_E. A. Lizlovs, A. P. Bond, J. Electrochem. Soc. 116 (1969)_ p. 574.pdf",
+      "sha256": "696e329b4611c32180ca7154ce3d289116f15a66789c62f2095c42757fead5e2"
+    },
+    "registry": {
+      "filename": "paper_11.json",
+      "sha256": "5e3e13e7244ac0e5c1135af4a14c43829be818dd4b142eaaa6c3a21053fbae52"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Commercial hot-rolled Type 430 steel; annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.046,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.33,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.008,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 29.6,
+        "plus_minus": 0.1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 540 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 54 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.18
+      },
+      "result_note": "Source-reported average of experimental pitting potentials.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Commercial hot-rolled Type 434 steel; annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.069,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.52,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.42,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.11,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 29.6,
+        "plus_minus": 0.1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 540 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 54 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.19
+      },
+      "result_note": "Source-reported average of experimental pitting potentials.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "High-purity laboratory alloy melted and cast in vacuum; hot rolled to 0.64 cm sheet, cold rolled to 0.32 cm, annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.08,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.06,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0065,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 29.6,
+        "plus_minus": 0.1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 540 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 54 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.26
+      },
+      "result_note": "Source-reported average of experimental pitting potentials.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "High-purity laboratory alloy melted and cast in vacuum; hot rolled to 0.64 cm sheet, cold rolled to 0.32 cm, annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.04,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 29.6,
+        "plus_minus": 0.1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 540 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 54 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.32
+      },
+      "result_note": "Source-reported average of experimental pitting potentials.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "High-purity laboratory alloy melted and cast in vacuum; hot rolled to 0.64 cm sheet, cold rolled to 0.32 cm, annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.68,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.06,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0048,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 29.6,
+        "plus_minus": 0.1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 540 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 54 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Source-reported average of experimental pitting potentials. Strict >0.80v bound: scanned beyond the transpassive transition without a definite pitting threshold under this scan procedure; not pitting observed at 0.80v.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Induction melted in argon using the split-heat technique with successive additions; hot forged, hot rolled to 0.76 cm strip and cold rolled to 0.38 cm strip; annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.11,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 600 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 60 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.31
+      },
+      "result_note": "Source-reported average of experimental pitting potentials. Cr = 18% and Mo = 2% are the nominal series values where Table I analysis is NA. Other NA entries remain null; no endpoint analysis is copied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Induction melted in argon using the split-heat technique with successive additions; hot forged, hot rolled to 0.76 cm strip and cold rolled to 0.38 cm strip; annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.62,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 600 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 60 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.35
+      },
+      "result_note": "Source-reported average of experimental pitting potentials. Cr = 18% and Mo = 2% are the nominal series values where Table I analysis is NA. Other NA entries remain null; no endpoint analysis is copied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Induction melted in argon using the split-heat technique with successive additions; hot forged, hot rolled to 0.76 cm strip and cold rolled to 0.38 cm strip; annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.031,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.53,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.95,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1.08,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 600 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 60 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.34
+      },
+      "result_note": "Source-reported average of experimental pitting potentials.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Induction melted in argon using the split-heat technique with successive additions; hot forged, hot rolled to 0.76 cm strip and cold rolled to 0.38 cm strip; annealed 1 h at 1040 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.034,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.45,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.11,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.47,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.045,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel. Ti-containing alloys annealed at 1040 °C to prevent formation of a second phase in the high-Ti alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 600 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 60 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Source-reported average of experimental pitting potentials. Strict >0.80v bound: scanned beyond the transpassive transition without a definite pitting threshold under this scan procedure; not pitting observed at 0.80v.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Induction melted in argon using the split-heat technique with successive additions; hot forged, hot rolled to 0.76 cm strip and cold rolled to 0.38 cm strip; annealed 1 h at 1040 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.035,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 1.86,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.023,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel. Ti-containing alloys annealed at 1040 °C to prevent formation of a second phase in the high-Ti alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 600 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 60 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.63
+      },
+      "result_note": "Source-reported average of experimental pitting potentials. Cr = 18% and Mo = 2% are the nominal series values where Table I analysis is NA. Other NA entries remain null; no endpoint analysis is copied. Table I Ni is NA; approximately 0.1% Ni is separately reported for this Ti alloy in Table III/Fig. 3. The value is approximate, not a new chemical analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Induction melted in argon using the split-heat technique with successive additions; hot forged, hot rolled to 0.76 cm strip and cold rolled to 0.38 cm strip; annealed 1 h at 1040 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.032,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.91,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel. Ti-containing alloys annealed at 1040 °C to prevent formation of a second phase in the high-Ti alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 600 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 60 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "min": 0.8
+      },
+      "result_note": "Source-reported average of experimental pitting potentials. Strict >0.80v bound: scanned beyond the transpassive transition without a definite pitting threshold under this scan procedure; not pitting observed at 0.80v.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Induction melted in argon using the split-heat technique with successive additions; hot forged, hot rolled to 0.76 cm strip and cold rolled to 0.38 cm strip; annealed 1 h at 1040 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 2.08,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 1.75,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel. Ti-containing alloys annealed at 1040 °C to prevent formation of a second phase in the high-Ti alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 24,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 600 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 60 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "v vs. SCE",
+        "value": 0.62
+      },
+      "result_note": "Source-reported average of experimental pitting potentials. Cr = 18% and Mo = 2% are the nominal series values where Table I analysis is NA. Other NA entries remain null; no endpoint analysis is copied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "High-purity laboratory alloy melted and cast in vacuum; hot rolled to 0.64 cm sheet, cold rolled to 0.32 cm, annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.04,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 29.6,
+        "plus_minus": 0.1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 540 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 54 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp, sudden rise in polarization current, distinguished from the gradual increase associated with crevice corrosion; post-test examination of the free electrode surface."
+      },
+      "pitting_potential": {
+        "unit": "V versus SCE",
+        "value": 0.36
+      },
+      "result_note": "Explicit graphical pitting annotation in a representative individual scan, distinct from the Table IV experimental mean. ",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "High-purity laboratory alloy melted and cast in vacuum; hot rolled to 0.64 cm sheet, cold rolled to 0.32 cm, annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.04,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 29.6,
+        "plus_minus": 0.1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference; platinum auxiliary isolated by glass frit. Usually scanned from −0.7 to −0.6 V SCE into the passive region, at 540 mV/hr until approximately 0.1–0.2 V below expected pitting, then slowed tenfold to 54 mV/hr. Stopped at pitting potential and allowed to pit for 20–30 min; tape removed and surface examined for pits and possible crevice corrosion.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Transient pit initiation/current blip followed by complete repassivation; free-surface pits observed. The source says some pits persisted for 15–20 min before repassivation."
+      },
+      "pitting_potential": {
+        "unit": "V versus SCE",
+        "value": 0.27
+      },
+      "result_note": "Explicit graphical pitting annotation in a representative individual scan, distinct from the Table IV experimental mean. Transient pit initiation that repassivates, not a conventional protection potential.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "High-purity laboratory alloy melted and cast in vacuum; hot rolled to 0.64 cm sheet, cold rolled to 0.32 cm, annealed 1 h at 815 °C and water quenched. Acrylic-mounted with the 0.5 × 0.6 cm exposed surface a longitudinal section parallel to the rolled surface; polished by standard metallography to a distilled-water slurry of 0.3 µm alumina; masked with Scotch 470 electroplater tape except for a circular 0.36 cm diameter area for pitting measurements.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.68,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.06,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0048,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 29.6,
+        "plus_minus": 0.1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon saturated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "potential-jump experiment"
+        ],
+        "procedure_description": "Actively corroding electrode switched almost instantaneously to a preset noble passive-region potential, +0.40 V SCE, in 0.1 N HCl. This is a distinct potential-jump protocol, not the slow potential scan.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting observed at the imposed +0.40 V; the precise threshold is not established."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.4
+      },
+      "result_note": "Pitting observed at the stated imposed potential under a distinct potential-jump protocol. Not an exact threshold and not equivalent to the >0.80v scan bound.",
+      "failure_notes": ""
+    }
+  ]
+}

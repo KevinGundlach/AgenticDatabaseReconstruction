@@ -1,0 +1,737 @@
+{
+  "paper_name": "69_W.C. Moshier, G.D. Davis, J.S. Ahearn, H.F. Hough, J Electrochem Soc, 134 (1987) 2677-2684.pdf",
+  "reference_number": 69,
+  "inputs": {
+    "pdf": {
+      "filename": "69_W.C. Moshier, G.D. Davis, J.S. Ahearn, H.F. Hough, J Electrochem Soc, 134 (1987) 2677-2684.pdf",
+      "sha256": "4b1ce343e1a3b09b0c8fbc4e4c493fa0c2d337089c06450e7a092e9b4e681567"
+    },
+    "registry": {
+      "filename": "paper_69.json",
+      "sha256": "480eb3d79989a23d0e0a28e33cfa55cbec8f25ed6e49736dad3b3c9cc1d0a731"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Pure Al film, fcc structure with approximately 0.25-µm grains.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -630
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.8,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -480
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.4,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -330
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.0,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -145
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.3,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -250
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.1,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -145
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.3,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -285
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.6,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -265
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -210
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.7,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -45
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 10.4,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -130
+      },
+      "result_note": "Approximate discrete breakdown-potential reading, determined by rapid current-density increase during potentiodynamic polarization. The paper associates Eb with visible pit formation; the smooth fitted line is not an additional observation. Closely spaced concentrations are separate plotted specimens, not replicates inferred from the fit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "RF magnetron co-sputter deposition from separate Al and Mo targets onto a 5-cm single-crystal silicon wafer; deposition rate 5 Å/s and pre-deposition vacuum 10⁻⁷ torr. Immediately after deposition began, Si was cooled near −196°C to limit heating and Mo-rich precipitation; deposited thickness 0.8–1.0 µm. Slowly warmed to ambient before removal. Center of wafer cleaved into eight sections to minimize composition/thickness gradients; scratched sections excluded. Test specimen masked with lacquer and dried for 24 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 13,
+              "unit": "at.%"
+            }
+          }
+        ],
+        "microstructure": "Mo in substitutional solid solution in the Al fcc lattice; no Al–Mo intermetallic phase detected in as-deposited films or during several months at room temperature. Nodular surface features correspond to grains; grain size decreased with Mo addition.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Reagent-grade KCl mixed with 500 ml distilled water to 0.1 N; first degassed under vacuum, then deaerated with high-purity nitrogen. pH adjusted to 8 with KOH. Magnetic stirring vigorously agitated the solution throughout testing.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "KOH",
+            "amount": null
+          }
+        ],
+        "ph": 8,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immerse and monitor potential until equilibrium Ecorr, defined as <1 mV change in open-circuit potential over 6 min. PAR 273 potentiostat/galvanostat; platinum-mesh counter electrode at least ten times working-electrode area; SCE approximately 2 mm from surface through a Luggin probe. Anodic scan from Ecorr; no numerical electrolyte test temperature is supplied.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb determined from rapid current-density increase during anodic polarization, correlated with pits seen by HSEM. For Al–13Mo, no surface degradation after polarization to 0 V (SCE) is a lower bound, not a breakdown event."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0
+      },
+      "result_note": "No surface degradation after polarization to 0 V supports a lower pitting limit, not a measured onset. Figure 6’s open-circle upward arrow gives the corresponding graphical limit. Mo amount follows the Figure 6 mean-composition coordinate; Al is not calculated by difference. The −196°C substrate cooling and room-temperature storage characterization are not numerical test temperatures. No chloride-ion concentration is calculated from KCl normality.",
+      "failure_notes": ""
+    }
+  ]
+}

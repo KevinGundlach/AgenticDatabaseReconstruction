@@ -1,0 +1,2427 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "12_N. D. Tomashov, G. P. Chernova, O. N. Markova, Corrosion 20 (1964)_ p. 166t.pdf",
+  "reference_number": 12,
+  "inputs": {
+    "pdf": {
+      "filename": "12_N. D. Tomashov, G. P. Chernova, O. N. Markova, Corrosion 20 (1964)_ p. 166t.pdf",
+      "sha256": "bb6fc75e892add8233ca127af958c13e772bbf7e8d2ade25183883bab0ed98b9"
+    },
+    "registry": {
+      "filename": "paper_12.json",
+      "sha256": "cda06367749da7d094ed346296ced279c41734f9787025620f8edd8abec74179"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "Volts",
+        "value": 0.644
+      },
+      "result_note": "Explicit baseline; Table 3 prints 0.644 volts for the quenched condition. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "unit": "% wt",
+              "value": 0.99
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.78
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Re",
+            "amount": {
+              "unit": "% wt",
+              "value": 2.5
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.86
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. Table 1 asterisk: this supplementary amount is based on the furnace charge, not a chemical analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "unit": "% wt",
+              "value": 0.2
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.67
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The approximately 0.2 wt% Ti plot coordinate cannot be uniquely assigned to the separate 0.19 or 0.22 wt% Table 1 analyses; no analysis is arbitrarily substituted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "unit": "% wt",
+              "value": 0.31
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.69
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "unit": "% wt",
+              "value": 0.2
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.66
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. Table 1 asterisk: this supplementary amount is based on the furnace charge, not a chemical analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "unit": "% wt",
+              "value": 0.5
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.51
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. Table 1 asterisk: this supplementary amount is based on the furnace charge, not a chemical analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "unit": "% wt",
+              "value": 1.0
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.64
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. Table 1 asterisk: this supplementary amount is based on the furnace charge, not a chemical analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "% wt",
+              "value": 1.47
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.65
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "% wt",
+              "value": 2.75
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.7
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "% wt",
+              "value": 5
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "Volts",
+        "value": 1.2
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. Table 1 asterisk: this supplementary amount is based on the furnace charge, not a chemical analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "unit": "% wt",
+              "value": 1
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.65
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "unit": "% wt",
+              "value": 2.25
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.72
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 4.75,
+              "unit": "weight percent"
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "Volts",
+        "min": 1.5
+      },
+      "result_note": "Text/Table 3 give >1.50V: no breakdown up to the stated limit; not a measured threshold at 1.50V. Figure labels use nominal 5%, while Table 1 gives Si 4.74% / V 4.75%. Strict inequality >1.50 Volts in Table 3. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The source calls this a nominal 5% addition; the composition field uses the Table 1 analyzed 4.75 weight percent.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "unit": "% wt",
+              "value": 1.45
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.64
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": "The low-Si marker is superposed with the W-series marker near 1.5 wt%, 0.64V; its independent placement cannot be resolved after enlargement."
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "unit": "% wt",
+              "value": 3.3
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.6
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 4.74,
+              "unit": "weight percent"
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching. The nominal 5% Si steel also exhibited an alpha phase.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "Volts",
+        "min": 1.5
+      },
+      "result_note": "Text/Table 3 give >1.50V: no breakdown up to the stated limit; not a measured threshold at 1.50V. Figure labels use nominal 5%, while Table 1 gives Si 4.74% / V 4.75%. Strict inequality >1.50 Volts in Table 3. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The source calls this a nominal 5% addition; the composition field uses the Table 1 analyzed 4.74 weight percent.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "unit": "% wt",
+              "value": 0.18
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.575
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "unit": "% wt",
+              "value": 1.5
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.64
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "unit": "% wt",
+              "value": 2.67
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.69
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": {
+              "unit": "% wt",
+              "value": 2.07
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.62
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "unit": "% wt",
+              "value": 2.18
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.57
+      },
+      "result_note": "Approximate graphical reading. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.62
+      },
+      "result_note": "Approximate graphical reading; alloy name is not guessed from Table 1 composition alone. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The registered supplementary-content coordinate is 0.6 wt%; its element remains unassigned. Only the common base-steel composition and shared test context can be supplied.",
+      "failure_notes": "The converging Ta/Nb/Ce/Zr-region lines and faint symbols do not permit a reliable individual series assignment after enlargement; coordinate and potential remain recoverable."
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.62
+      },
+      "result_note": "Approximate graphical reading; alloy name is not guessed from Table 1 composition alone. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The registered supplementary-content coordinate is 0.92 wt%; its element remains unassigned. Only the common base-steel composition and shared test context can be supplied.",
+      "failure_notes": "The converging Ta/Nb/Ce/Zr-region lines and faint symbols do not permit a reliable individual series assignment after enlargement; coordinate and potential remain recoverable."
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.63
+      },
+      "result_note": "Approximate graphical reading; alloy name is not guessed from Table 1 composition alone. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The registered supplementary-content coordinate is 1.0 wt%; its element remains unassigned. Only the common base-steel composition and shared test context can be supplied.",
+      "failure_notes": "The converging Ta/Nb/Ce/Zr-region lines and faint symbols do not permit a reliable individual series assignment after enlargement; coordinate and potential remain recoverable."
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "V (normal hydrogen electrode)",
+        "value": 0.615
+      },
+      "result_note": "Approximate graphical reading; alloy name is not guessed from Table 1 composition alone. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The registered supplementary-content coordinate is 1.3 wt%; its element remains unassigned. Only the common base-steel composition and shared test context can be supplied.",
+      "failure_notes": "The converging Ta/Nb/Ce/Zr-region lines and faint symbols do not permit a reliable individual series assignment after enlargement; coordinate and potential remain recoverable."
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched. Subsequently annealed at 650 °C for 2 h.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Annealed condition; the paper reports grain-boundary carbide precipitation and chromium-depleted peripheral regions after the 650 °C treatment.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement. Table 3 does not independently state its test temperature, so this field is left null rather than treating the 650 °C anneal as a test temperature.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "Volts",
+        "value": 0.659
+      },
+      "result_note": "Annealed condition is distinct from quenched.  The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched. Subsequently annealed at 650 °C for 2 h.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5,
+              "unit": "weight percent"
+            }
+          }
+        ],
+        "microstructure": "Annealed condition; the paper reports grain-boundary carbide precipitation and chromium-depleted peripheral regions after the 650 °C treatment. Complex grain-boundary carbides involving the alloying element are discussed for this alloy family.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement. Table 3 does not independently state its test temperature, so this field is left null rather than treating the 650 °C anneal as a test temperature.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "Volts",
+        "value": 0.81
+      },
+      "result_note": "Annealed condition is distinct from quenched. The paper associates Mo-alloy annealed attack with grain-boundary/intergranular corrosion; retain this qualification on the reported breakdown result. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. Table 1 asterisk: this supplementary amount is based on the furnace charge, not a chemical analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched. Subsequently annealed at 650 °C for 2 h.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 4.75,
+              "unit": "weight percent"
+            }
+          }
+        ],
+        "microstructure": "Annealed condition; the paper reports grain-boundary carbide precipitation and chromium-depleted peripheral regions after the 650 °C treatment. Complex grain-boundary carbides involving the alloying element are discussed for this alloy family.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement. Table 3 does not independently state its test temperature, so this field is left null rather than treating the 650 °C anneal as a test temperature.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "Volts",
+        "value": 0.744
+      },
+      "result_note": "Annealed condition is distinct from quenched.  The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The source calls this a nominal 5% addition; the composition field uses the Table 1 analyzed 4.75 weight percent.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched. Subsequently annealed at 650 °C for 2 h.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 4.74,
+              "unit": "weight percent"
+            }
+          }
+        ],
+        "microstructure": "Annealed condition; the paper reports grain-boundary carbide precipitation and chromium-depleted peripheral regions after the 650 °C treatment.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Anodic polarization in 0.1 N NaCl to determine passive-film breakdown; Figure 3 specifies 25 °C. Detailed technique is referred to previous literature and is not imported. The separate microscope/orifice pit-distribution apparatus is not assumed to define every registered breakdown-potential measurement. Table 3 does not independently state its test temperature, so this field is left null rather than treating the 650 °C anneal as a test temperature.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported passive-film breakdown potential; no general numerical current criterion is supplied. For the >1.50 V results, no breakdown occurred up to the stated test limit."
+      },
+      "pitting_potential": {
+        "unit": "Volts",
+        "value": 0.659
+      },
+      "result_note": "Annealed condition is distinct from quenched.  The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The source calls this a nominal 5% addition; the composition field uses the Table 1 analyzed 4.74 weight percent.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 4.75,
+              "unit": "weight percent"
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 20,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Authors state HCl pH was approximately 1.2, like their 0.5 N FeCl3 solution; no pH calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": 1.2,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Anodic potentiostatic curves obtained with an electronic potentiostat in 0.1 N HCl; Figure 7 describes quenched steels at 20 °C. No potential increment or step-hold duration is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Text explicitly attributes anodic-current increase at +0.35 V to development of pitting for the V- and Si-alloyed quenched steels."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.35
+      },
+      "result_note": "Text explicitly identifies pitting onset, unlike unannotated polarization-curve markers. Distinct electrolyte from the Table 3 NaCl results. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The source calls this a nominal 5% addition; the composition field uses the Table 1 analyzed 4.75 weight percent.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "Smelted in an electric induction furnace under slag; ingots forged and rolled to 2 mm thick bars; held at 1150 °C for 15 min and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.93,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.38,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.036,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 4.74,
+              "unit": "weight percent"
+            }
+          }
+        ],
+        "microstructure": "Austenitic after quenching. The nominal 5% Si steel also exhibited an alpha phase.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 20,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Authors state HCl pH was approximately 1.2, like their 0.5 N FeCl3 solution; no pH calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": 1.2,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Anodic potentiostatic curves obtained with an electronic potentiostat in 0.1 N HCl; Figure 7 describes quenched steels at 20 °C. No potential increment or step-hold duration is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Text explicitly attributes anodic-current increase at +0.35 V to development of pitting for the V- and Si-alloyed quenched steels."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.35
+      },
+      "result_note": "Text explicitly identifies pitting onset, unlike unannotated polarization-curve markers. Distinct electrolyte from the Table 3 NaCl results. The supplied base-steel analysis is Cr 17.93%, Ni 14.38%, C 0.036%; supplementary amounts are separately reported in Table 1/figure coordinates. Full independent base-element analyses for every modified specimen are not supplied; no Fe balance is calculated. The source calls this a nominal 5% addition; the composition field uses the Table 1 analyzed 4.74 weight percent.",
+      "failure_notes": ""
+    }
+  ]
+}

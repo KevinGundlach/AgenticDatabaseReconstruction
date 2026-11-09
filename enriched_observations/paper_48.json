@@ -1,0 +1,1457 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "48_T. Ujiro, K. Yoshioka, R. W. Staehle, Corrosion 50 (1994)_ p. 953.pdf",
+  "reference_number": 48,
+  "inputs": {
+    "pdf": {
+      "filename": "48_T. Ujiro, K. Yoshioka, R. W. Staehle, Corrosion 50 (1994)_ p. 953.pdf",
+      "sha256": "eedb0e38263d105529e3a2affe49259ff5f316d278c7c47af2633edd40afb03e"
+    },
+    "registry": {
+      "filename": "paper_48.json",
+      "sha256": "196dd3f82aa457bafbead3151c25f108ad1bb4cedbdcb1bca769770357e3e7e2"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "F1 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.29,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.0,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.0,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "max": 0.003,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": -0.26,
+        "min": -0.275,
+        "max": -0.245
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "F3 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.2,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.03,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.007,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": -0.225
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. No separate bar endpoint is resolved beyond the marker. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "F2 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.28,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.08,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.4,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.96,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": -0.08,
+        "min": -0.11,
+        "max": -0.04
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "F5 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.3,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.0,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 26.5,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.04,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": -0.19,
+        "min": -0.205,
+        "max": -0.17
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "F4 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.3,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.4,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.91,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.08,
+        "min": 0.035,
+        "max": 0.115
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "F6 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.3,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.97,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 26.9,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.91,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.175,
+        "min": 0.16,
+        "max": 0.19
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "F7 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.98,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 26.7,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.99,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.006,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.73,
+        "min": 0.7,
+        "max": 0.76
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "A1 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.29,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.0,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.6,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.03,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 12.6,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.065,
+        "min": 0.035,
+        "max": 0.11
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "A3 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.96,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.9,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 17.6,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.105,
+        "min": 0.075,
+        "max": 0.14
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "A2 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.24,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.0,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.5,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.91,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 15.3,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.165,
+        "min": 0.135,
+        "max": 0.185
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "A5 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.29,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.98,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 26.2,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.08,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 24.0,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.002,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.19,
+        "min": 0.165,
+        "max": 0.215
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "A4 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.011,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.6,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.85,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.8,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.29,
+        "min": 0.235,
+        "max": 0.325
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "A6 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.01,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 26.5,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.87,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 26.9,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.35,
+        "min": 0.34,
+        "max": 0.36
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "A7 model stainless steel from 50 kg vacuum-melted ingot, rolled to 1–1.5 mm sheet with intermediate annealing and pickling. Numerical anneal temperature/time not supplied. Specimens for Ep measurement polished to 600-grit finish; electrode dimensions and any individual subsequent degreasing are not restated. The 320-grit acetone-degreased immersion/crevice coupons are described separately.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.24,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.0,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 26.3,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.82,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 28.8,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.002,
+              "unit": "mass%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Argon-deaerated 3.5% NaCl; gas duration, solvent grade, percentage basis and numerical pH are not supplied for this Ep test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Potentiostat anodic polarization at 20 mV/min in 3.5% NaCl at 80 °C; Figure 2 potentials on Ag/AgCl scale. Reference filling solution, counter details, starting potential and hold schedule are not independently specified. Figure 2 alloy labels identify the Table 1 row; Cr+3Mo index is not used to calculate missing chemistry. The 60 °C crevice-repassivation step sequence and low-pH/high-chloride curves are separate methods.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential where polarizing current exceeded 10 µA/cm² and continued increasing without oscillation. Plotted bar endpoints retain the source presentation; their statistical meaning is not specified."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": 0.48,
+        "min": 0.435,
+        "max": 0.515
+      },
+      "result_note": "Ep criterion: current exceeds 10 μA/cm² and continues increasing without oscillation. Visible bar endpoints retained; their statistical meaning is not specified. Table 1 actual mass% chemistry retained; F1 Mo strictly <0.003 mass%. No Fe balance, NaCl percentage conversion or chloride molarity is calculated. Acid adjustment with HCl belongs to other anodic-curve solutions and is not added to Figure 2. FeCl3/HCl immersion, boiling H2SO4 and crevice repassivation protocols do not replace this 80 °C Ep method.",
+      "failure_notes": ""
+    }
+  ]
+}

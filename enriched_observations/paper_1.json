@@ -1,0 +1,3288 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "1_J. Horvath, H. H. Uhlig, J. Electrochem. Soc. 115 (1968)_ p. 791.pdf",
+  "reference_number": 1,
+  "inputs": {
+    "pdf": {
+      "filename": "1_J. Horvath, H. H. Uhlig, J. Electrochem. Soc. 115 (1968)_ p. 791.pdf",
+      "sha256": "0f88cb6f389d6b783d8daa229b32227954d6097ca8c097a79f9be229f66b3050"
+    },
+    "registry": {
+      "filename": "paper_1.json",
+      "sha256": "603f36167fa3408ab32323faa258f3bb84cb4db480c79ec51ea523577b9f1203"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Table I; the supplied paper gives no specimen preparation or detailed test protocol for this source.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V",
+        "value": -0.45
+      },
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Material: Al. No external source was consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Carbonyl nickel was the reported nickel source. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V",
+        "value": 0.28
+      },
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Material: Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Table I; the supplied paper gives no specimen preparation or detailed test protocol for this source.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V",
+        "value": 0.26
+      },
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Characteristic of one commercial composition; the paper says pure alloys usually give higher values. Material: 18-8. No external source was consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Zr",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Table I; the supplied paper gives no specimen preparation or detailed test protocol for this source.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V",
+        "value": 0.46
+      },
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Material: Zr. No external source was consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Table I; the supplied paper gives no specimen preparation or detailed test protocol for this source.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V",
+        "min": 1.0
+      },
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Strict inequality >1.0 V. Material: Cr. No external source was consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Ti",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Table I; the supplied paper gives no specimen preparation or detailed test protocol for this source.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V",
+        "min": 1.0
+      },
+      "result_note": "Table footnote: estimated from data for various chloride concentrations. Strict inequality >1.0 V. Material: Ti. No external source was consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched; lower-Cr alloy ingots also described as swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 12
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.2
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched; lower-Cr alloy ingots also described as swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 22.8
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.24
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched; lower-Cr alloy ingots also described as swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 29.4
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.59
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched; lower-Cr alloy ingots also described as swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 38.9
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.89
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Electrodes machined directly from the homogenized ingot because Cr exceeded 40%. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 48.8
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.92
+      },
+      "result_note": "Approximate graphical reading. Some pitting was observed at 48.8% Cr; the higher 57.8% Cr chromates-only transition is excluded. Material: Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 1.8
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.28
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 11.6
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.37
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 15
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.56
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 18.3
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.73
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 25.6
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.78
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 29.4
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.79
+      },
+      "result_note": "Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Carbonyl nickel was the reported nickel source. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.3
+      },
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading. Material: Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 1.8
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.3
+      },
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 5.2
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.3
+      },
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 11.6
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.39
+      },
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 15
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.6
+      },
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 18.3
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.76
+      },
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 25.6
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.8
+      },
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "unit": "wt.%",
+              "value": 29.4
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.8
+      },
+      "result_note": "Stepwise non-steady-state critical potential; distinct from steady-state Vc. Approximate graphical reading. Material: Cr-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Cold rolled to 0.25 cm, annealed at 1000–1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.2
+      },
+      "result_note": "Text says Vc prime is lowered to about 0.2 v. Material: 3.2% Mo-Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.3
+      },
+      "result_note": "Explicitly annotated non-steady-state critical potential; distinct from steady-state results. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Solid-solution ternary alloys prepared by H. Feller; production details beyond those supplied here are not assumed. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "unit": "wt.%",
+              "value": 14
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Solid-solution ternary alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.28
+      },
+      "result_note": "Approximate graphical reading. The low-Ni point may be the Mo-free ternary condition also shown in Fig. 6; run identity is not established, so it remains separate. Unresolved repeated-presentation group (low-Ni / Mo-free ternary): obs_028, obs_033; no independence or run identity is asserted. Material: 15% Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading. Nickel coordinate is the approximate Fig. 5 reading (14 wt.%); no identity with the 13% Ni Fig. 6 specimen is imposed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Solid-solution ternary alloys prepared by H. Feller; production details beyond those supplied here are not assumed. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "unit": "wt.%",
+              "value": 20
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Solid-solution ternary alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.28
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "Solid-solution ternary alloys prepared by H. Feller; production details beyond those supplied here are not assumed. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "unit": "wt.%",
+              "value": 40
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Solid-solution ternary alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.34
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "Solid-solution ternary alloys prepared by H. Feller; production details beyond those supplied here are not assumed. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "unit": "wt.%",
+              "value": 50
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Solid-solution ternary alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.35
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "Solid-solution ternary alloys prepared by H. Feller; production details beyond those supplied here are not assumed. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "unit": "wt.%",
+              "value": 60
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Solid-solution ternary alloy.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.38
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr-Fe. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.28
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. May correspond to the low-Ni Fig. 5 point; no run identity is asserted. Unresolved repeated-presentation group (low-Ni / Mo-free ternary): obs_028, obs_033; no independence or run identity is asserted. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0.43
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.3
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0.94
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.34
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 1.43
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.4
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_037",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 1.9
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.53
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_038",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 2.4
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.72
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_039",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.78
+      },
+      "result_note": "Text explicitly gives 0.78v; Fig. 6 reads approximately 0.80 V (H2 scale). The text reading is primary. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_040",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0.43
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.5
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_041",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0.94
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.42
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_042",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 1.43
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.38
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_043",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 1.9
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.32
+      },
+      "result_note": "Approximate graphical reading; steady-state critical potential. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_044",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.43,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. This is Vc-prime from the staged procedure."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.39
+      },
+      "result_note": "Annotated non-steady-state critical potential, distinct from steady-state Fig. 6. Material: 15% Cr, 13% Ni, 1.43% Mo. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_045",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.4,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. This observation instead describes pitting induced by imposing a potential approaching 0.6 V; the paper reports no definite critical potential for this condition.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Induced pitting, without a definite critical-potential threshold."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.6
+      },
+      "result_note": "Approximate imposed potential approaching 0.6v at which pitting can be induced; the authors say no definite critical potential is observed for this condition. This is a qualified pitting outcome, not a definite Vc. Material: 2.4% Mo. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_046",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "v",
+        "value": 0.54
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_047",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0.43
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.53
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_048",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 1.43
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.51
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_049",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 2.4
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.47
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_050",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.42
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_051",
+      "alloy": {
+        "preparation": "Vacuum melted from pure components in dense alumina; melt drawn into 7 mm Vycor tubes under Ar or He and water quenched; homogenized in Ar or He, usually 1050–1100 °C for several hours. Stainless-steel ingots swaged to approximately 0.45 cm rods, annealed at 1050 °C and water quenched. Electrodes abraded to final 3/0 emery paper and usually pickled in 15% HNO3 + 5% HF at 80 °C for 5 min to remove the cold-worked surface.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "unit": "wt.%",
+              "value": 0.43
+            }
+          }
+        ],
+        "microstructure": "Single-phase structure confirmed metallographically for the relatively low-Cr, high-Ni stainless-steel series.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with purified nitrogen (gas passed over Cu at 450 °C); nitrogen did not flow during actual measurements.",
+        "solvent": "Water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Pyrex cell with ground-glass joints in a temperature-controlled air thermostat; total immersion usually used to reach steady conditions. First potentiostatically polarized at the least noble passive-region potential for at least 15 min; potential advanced in 50 mV stages with 5 min between changes. Subsequently held at fixed potentials for long periods and examined under a low-power microscope; the lowest potential showing pitting after at least 10 h defined steady-state Vc.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Steadily increasing current indicated non-steady-state onset; pitting confirmed microscopically. Steady-state Vc required pitting after 10 h or longer at fixed potential."
+      },
+      "pitting_potential": {
+        "unit": "V (H2 scale)",
+        "value": 0.31
+      },
+      "result_note": "Approximate graphical reading. Material: 15% Cr, 13% Ni. Potentials discussed on the hydrogen scale; the raw anchored unit is retained. The general reported reproducibility is about ±5 mV, without adding uncertainty to the locked reading.",
+      "failure_notes": ""
+    }
+  ]
+}

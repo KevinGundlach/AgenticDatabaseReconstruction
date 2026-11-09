@@ -1,0 +1,2845 @@
+{
+  "paper_name": "74_Ahn, M. K., Hyuk-Sang Kwon, and HyuckMo Lee. Corrosion science 40.2-3 (1998)_ 307-322.pdf",
+  "reference_number": 74,
+  "inputs": {
+    "pdf": {
+      "filename": "74_Ahn, M. K., Hyuk-Sang Kwon, and HyuckMo Lee. Corrosion science 40.2-3 (1998)_ 307-322.pdf",
+      "sha256": "497ad47dedba1dcc9ac7874168c45efbbd48d6673f11f8a042a60ae8db858436"
+    },
+    "registry": {
+      "filename": "paper_74.json",
+      "sha256": "4eda08b03d1c6e5a2221d1a535ed1b4eb3e028fa7f969226ede225078a40caf2"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.93,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.11,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -580
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Two stacked base-alloy markers are separable; fully hidden repeats cannot be enumerated. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.93,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.11,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -560
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Two stacked base-alloy markers are separable; fully hidden repeats cannot be enumerated. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.97,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.11,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -430
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.97,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.11,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -160
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.97,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.11,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 10
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -370
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 0
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0017,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 20
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. The high 2Mo circle is obscured by the nearby W symbol in Figure 3; Figure 4 is its legible primary presentation. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 20
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 260
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 350
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 420
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 1.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0026,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -510
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 1.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0026,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -490
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0032,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -500
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0032,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -480
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0032,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 40
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 4.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0055,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -470
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 4.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0055,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -100
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 4.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0055,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 0
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.78,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 8.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.46,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0071,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -300
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. The lowest 8W reading is approximately -300 mV in Figure 3 versus -200 mV in Figure 4; both retained without reconciliation. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context. Figures 3 and 4 show differing vertical placement of the low 8W result although described as the same population on different composition axes; the registered primary potential is retained unchanged.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.78,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 8.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.46,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0071,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 200
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context. Figures 3 and 4 show differing vertical placement of the low 8W result although described as the same population on different composition axes; the registered primary potential is retained unchanged.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.78,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 8.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.46,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0071,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 720
+      },
+      "result_note": "Discrete repeated measurements; individual run numbers are not printed. Pitting criterion: anodic current density 10 µA/cm² after breakdown. Figure 4 re-expresses the Figure 3 population on an atomic-percent axis; fitted lines do not create observations. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context. Figures 3 and 4 show differing vertical placement of the low 8W result although described as the same population on different composition axes; the registered primary potential is retained unchanged.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 4.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0055,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -140
+      },
+      "result_note": "Single plotted composition-level result. The paper does not define it explicitly as a replicate mean. The 4W / 4Mo points may summarize the respective Fig. 3–4 populations (obs_018–020 / obs_009–012), but no run/aggregation identity is established; retained separately, not asserted independent experiments. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0052,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -70
+      },
+      "result_note": "Single plotted composition-level result. The paper does not define it explicitly as a replicate mean. The 4W / 4Mo points may summarize the respective Fig. 3–4 populations (obs_018–020 / obs_009–012), but no run/aggregation identity is established; retained separately, not asserted independent experiments. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.11,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0041,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -35
+      },
+      "result_note": "Single plotted composition-level result. The paper does not define it explicitly as a replicate mean. The 4W / 4Mo points may summarize the respective Fig. 3–4 populations (obs_018–020 / obs_009–012), but no run/aggregation identity is established; retained separately, not asserted independent experiments. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.15,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 1.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.42,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 30
+      },
+      "result_note": "Single plotted composition-level result. The paper does not define it explicitly as a replicate mean. The 4W / 4Mo points may summarize the respective Fig. 3–4 populations (obs_018–020 / obs_009–012), but no run/aggregation identity is established; retained separately, not asserted independent experiments. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "High-purity elements vacuum arc-melted and cast as buttons; homogenized 2 h at 1250°C, hot-rolled to 5-mm plates, cold-rolled to 2-mm sheets, solution-annealed 20 min at 1050°C and water-quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 29.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.0015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "High-purity ferritic Fe–29Cr stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by high-purity nitrogen purging from 1 h before testing and throughout the test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "MgCl2",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 cell: 1-L multinecked flask, platinum counter electrode and SCE in a salt bridge with a high-silica tip. Begin anodic polarization after stable corrosion potential, usually about 2 h after immersion; three or four tests per alloy in the Figure 3/4 population. All potentials referred to SCE.",
+        "scan_rate": {
+          "value": 0.5,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which anodic current density reaches 10 µA/cm² after film breakdown."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 235
+      },
+      "result_note": "Single plotted composition-level result. The paper does not define it explicitly as a replicate mean. The 4W / 4Mo points may summarize the respective Fig. 3–4 populations (obs_018–020 / obs_009–012), but no run/aggregation identity is established; retained separately, not asserted independent experiments. Composition is the Table 1 chemical analysis in wt%, including Fe explicitly printed as balance. Atomic-percent plot coordinates do not replace this analysis. The separate 20% H2SO4/30°C passivation tests are excluded from the pitting context.",
+      "failure_notes": ""
+    }
+  ]
+}

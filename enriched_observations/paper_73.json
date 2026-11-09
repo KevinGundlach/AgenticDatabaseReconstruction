@@ -1,0 +1,482 @@
+{
+  "paper_name": "73_Bui, N., et al. Corrosion 39.12 (1983)_ 491-496.pdf",
+  "reference_number": 73,
+  "inputs": {
+    "pdf": {
+      "filename": "73_Bui, N., et al. Corrosion 39.12 (1983)_ 491-496.pdf",
+      "sha256": "e379d8ceb6d4e7c62b8aaecd8aeb3620c0f42e446d1f465c9052a1324a02e8fa"
+    },
+    "registry": {
+      "filename": "paper_73.json",
+      "sha256": "fb2e28049437b4267178a89f64c90d3dc9a802de8ba591b3619b408ea172ed1c"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Prepared in a vacuum furnace; specimens cut from rolled sheet (5-mm thickness, 12-mm diameter). Solution-treated under nitrogen at 1150°C for 30 min, water-quenched; wet emery-polished through grade 1000, degreased in absolute ethanol, washed with deionized water and warm-air dried.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.33,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Experimental austenitic 16Cr–14Ni stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "NaCl chloride solution; no tungstate addition.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "WO4²−",
+            "amount": {
+              "value": 0,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "Tacussel potentiostat, current recorder and high-impedance electronic millivoltmeter; potentials on the SCE scale. Tungstate-concentration series at 60°C in 0.1 M NaCl. Separate −50 mV/15-min ESCA passivation is not assigned as pretreatment to these pitting curves.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown/pitting potential from the anodic-polarization transition, explicitly tabulated in the text as the concentration/composition sequence."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 80
+      },
+      "result_note": "Printed breakdown potential in the tungstate concentration sequence. Continuous curves are not traced to generate extra values.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Prepared in a vacuum furnace; specimens cut from rolled sheet (5-mm thickness, 12-mm diameter). Solution-treated under nitrogen at 1150°C for 30 min, water-quenched; wet emery-polished through grade 1000, degreased in absolute ethanol, washed with deionized water and warm-air dried.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.33,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Experimental austenitic 16Cr–14Ni stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "NaCl chloride solution; tungstate supplied as Na2WO4, with the reported WO4²− concentration retained.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "WO4²−",
+            "amount": {
+              "value": 0.025,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "Tacussel potentiostat, current recorder and high-impedance electronic millivoltmeter; potentials on the SCE scale. Tungstate-concentration series at 60°C in 0.1 M NaCl. Separate −50 mV/15-min ESCA passivation is not assigned as pretreatment to these pitting curves.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown/pitting potential from the anodic-polarization transition, explicitly tabulated in the text as the concentration/composition sequence."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 150
+      },
+      "result_note": "Printed breakdown potential in the tungstate concentration sequence. Continuous curves are not traced to generate extra values.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Prepared in a vacuum furnace; specimens cut from rolled sheet (5-mm thickness, 12-mm diameter). Solution-treated under nitrogen at 1150°C for 30 min, water-quenched; wet emery-polished through grade 1000, degreased in absolute ethanol, washed with deionized water and warm-air dried.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.33,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Experimental austenitic 16Cr–14Ni stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "NaCl chloride solution; tungstate supplied as Na2WO4, with the reported WO4²− concentration retained.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "WO4²−",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "Tacussel potentiostat, current recorder and high-impedance electronic millivoltmeter; potentials on the SCE scale. Tungstate-concentration series at 60°C in 0.1 M NaCl. Separate −50 mV/15-min ESCA passivation is not assigned as pretreatment to these pitting curves.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown/pitting potential from the anodic-polarization transition, explicitly tabulated in the text as the concentration/composition sequence."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 220
+      },
+      "result_note": "Printed breakdown potential in the tungstate concentration sequence. Continuous curves are not traced to generate extra values.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Prepared in a vacuum furnace; specimens cut from rolled sheet (5-mm thickness, 12-mm diameter). Solution-treated under nitrogen at 1150°C for 30 min, water-quenched; wet emery-polished through grade 1000, degreased in absolute ethanol, washed with deionized water and warm-air dried.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.33,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.49,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Experimental austenitic 16Cr–14Ni stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "NaCl chloride solution; no tungstate addition.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "Tacussel potentiostat, current recorder and high-impedance electronic millivoltmeter; potentials on the SCE scale. Comparison of alloyed-W steels in 0.1 M NaCl without tungstate; temperature is not separately specified for Figure 3. Separate −50 mV/15-min ESCA passivation is not assigned as pretreatment to these pitting curves.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown/pitting potential from the anodic-polarization transition, explicitly tabulated in the text as the concentration/composition sequence."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 210
+      },
+      "result_note": "Paper’s nominal W labels retained; Table 1 analytical W contents are different from nominal values. The zero-W 80 mV result repeats the tungstate-free baseline (obs_001). Alloy composition uses Table 1 analytical W (2.49 or 4.81 wt%), rather than replacing it with the text’s nominal 2 or 4%. The 60°C statement explicitly scopes Figure 2; it is not separately restated for Figure 3, so test_temperature is null for this comparison.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Prepared in a vacuum furnace; specimens cut from rolled sheet (5-mm thickness, 12-mm diameter). Solution-treated under nitrogen at 1150°C for 30 min, water-quenched; wet emery-polished through grade 1000, degreased in absolute ethanol, washed with deionized water and warm-air dried.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 4.81,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Experimental austenitic 16Cr–14Ni stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "NaCl chloride solution; no tungstate addition.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization"
+        ],
+        "procedure_description": "Tacussel potentiostat, current recorder and high-impedance electronic millivoltmeter; potentials on the SCE scale. Comparison of alloyed-W steels in 0.1 M NaCl without tungstate; temperature is not separately specified for Figure 3. Separate −50 mV/15-min ESCA passivation is not assigned as pretreatment to these pitting curves.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown/pitting potential from the anodic-polarization transition, explicitly tabulated in the text as the concentration/composition sequence."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 300
+      },
+      "result_note": "Paper’s nominal W labels retained; Table 1 analytical W contents are different from nominal values. The zero-W 80 mV result repeats the tungstate-free baseline (obs_001). Alloy composition uses Table 1 analytical W (2.49 or 4.81 wt%), rather than replacing it with the text’s nominal 2 or 4%. The 60°C statement explicitly scopes Figure 2; it is not separately restated for Figure 3, so test_temperature is null for this comparison.",
+      "failure_notes": ""
+    }
+  ]
+}

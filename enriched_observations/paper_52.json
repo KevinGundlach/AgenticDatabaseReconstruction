@@ -1,0 +1,2165 @@
+{
+  "paper_name": "52_J. E. Dowling, Y. H. Kim, S. K. Ahn, Y. D. Lee, Corrosion 55 (1999)_ p. 187.pdf",
+  "reference_number": 52,
+  "inputs": {
+    "pdf": {
+      "filename": "52_J. E. Dowling, Y. H. Kim, S. K. Ahn, Y. D. Lee, Corrosion 55 (1999)_ p. 187.pdf",
+      "sha256": "5238c828402b1d1ae04732da8bde665d7031297c046a77bb367981e9333424a6"
+    },
+    "registry": {
+      "filename": "paper_52.json",
+      "sha256": "bb81f27c8964baa9f37df9427615b0a4ff51d1647e3235c040596733e73f57cb"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished to 600-grit SiC, degreased in 95% ethanol, air-dried, kept dry and dust-free for 24 h; dry-air stream before mounting.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.24,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.009,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.439
+      },
+      "result_note": "Table caption specifies 3.5% NaCl, 30°C; cyclic-polarization methods specify 3.5% NaCl, 35°C and figure captions 3% NaCl, 30°C. Retained as printed. Figures 17–18 summarize these base-metal results; overlapping symbols and inconsistent PREN positions are not used to relabel heats. Figure 18 repeats the base-metal comparison; near-PREN-24 readings overlap and remain approximate. Table 1 does not explicitly label a mass/atomic basis; composition amounts retain %. The printed F19-2Nb carbon entry is 0.0011; it is not silently changed to the different Table 4 heat composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished to 600-grit SiC, degreased in 95% ethanol, air-dried, kept dry and dust-free for 24 h; dry-air stream before mounting.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.24,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.25,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.008,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.31
+      },
+      "result_note": "Table caption specifies 3.5% NaCl, 30°C; cyclic-polarization methods specify 3.5% NaCl, 35°C and figure captions 3% NaCl, 30°C. Retained as printed. Figures 17–18 summarize these base-metal results; overlapping symbols and inconsistent PREN positions are not used to relabel heats. Figure 18 repeats the base-metal comparison; near-PREN-24 readings overlap and remain approximate. Table 1 does not explicitly label a mass/atomic basis; composition amounts retain %. The printed F19-2Nb carbon entry is 0.0011; it is not silently changed to the different Table 4 heat composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished to 600-grit SiC, degreased in 95% ethanol, air-dried, kept dry and dust-free for 24 h; dry-air stream before mounting.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.25,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.97,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.008,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.366
+      },
+      "result_note": "Table caption specifies 3.5% NaCl, 30°C; cyclic-polarization methods specify 3.5% NaCl, 35°C and figure captions 3% NaCl, 30°C. Retained as printed. Figures 17–18 summarize these base-metal results; overlapping symbols and inconsistent PREN positions are not used to relabel heats. Figure 18 repeats the base-metal comparison; near-PREN-24 readings overlap and remain approximate. Table 1 does not explicitly label a mass/atomic basis; composition amounts retain %. The printed F19-2Nb carbon entry is 0.0011; it is not silently changed to the different Table 4 heat composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished to 600-grit SiC, degreased in 95% ethanol, air-dried, kept dry and dust-free for 24 h; dry-air stream before mounting.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.92,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.07,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.009,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.543
+      },
+      "result_note": "Table caption specifies 3.5% NaCl, 30°C; cyclic-polarization methods specify 3.5% NaCl, 35°C and figure captions 3% NaCl, 30°C. Retained as printed. Figures 17–18 summarize these base-metal results; overlapping symbols and inconsistent PREN positions are not used to relabel heats. Figure 18 repeats the base-metal comparison; near-PREN-24 readings overlap and remain approximate. Table 1 does not explicitly label a mass/atomic basis; composition amounts retain %. The printed F19-2Nb carbon entry is 0.0011; it is not silently changed to the different Table 4 heat composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished to 600-grit SiC, degreased in 95% ethanol, air-dried, kept dry and dust-free for 24 h; dry-air stream before mounting.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.96,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.465
+      },
+      "result_note": "Table caption specifies 3.5% NaCl, 30°C; cyclic-polarization methods specify 3.5% NaCl, 35°C and figure captions 3% NaCl, 30°C. Retained as printed. Figures 17–18 summarize these base-metal results; overlapping symbols and inconsistent PREN positions are not used to relabel heats. Figure 18 repeats the base-metal comparison; near-PREN-24 readings overlap and remain approximate. Table 1 does not explicitly label a mass/atomic basis; composition amounts retain %. The printed F19-2Nb carbon entry is 0.0011; it is not silently changed to the different Table 4 heat composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished to 600-grit SiC, degreased in 95% ethanol, air-dried, kept dry and dust-free for 24 h; dry-air stream before mounting.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.013,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.24,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.008,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.438
+      },
+      "result_note": "Table caption specifies 3.5% NaCl, 30°C; cyclic-polarization methods specify 3.5% NaCl, 35°C and figure captions 3% NaCl, 30°C. Retained as printed. Figures 17–18 summarize these base-metal results; overlapping symbols and inconsistent PREN positions are not used to relabel heats. Figure 18 repeats the base-metal comparison; near-PREN-24 readings overlap and remain approximate. Table 1 does not explicitly label a mass/atomic basis; composition amounts retain %. The printed F19-2Nb carbon entry is 0.0011; it is not silently changed to the different Table 4 heat composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished to 600-grit SiC, degreased in 95% ethanol, air-dried, kept dry and dust-free for 24 h; dry-air stream before mounting.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0011,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.437
+      },
+      "result_note": "Table caption specifies 3.5% NaCl, 30°C; cyclic-polarization methods specify 3.5% NaCl, 35°C and figure captions 3% NaCl, 30°C. Retained as printed. Figures 17–18 summarize these base-metal results; overlapping symbols and inconsistent PREN positions are not used to relabel heats. Figure 18 repeats the base-metal comparison; near-PREN-24 readings overlap and remain approximate. Table 1 does not explicitly label a mass/atomic basis; composition amounts retain %. The printed F19-2Nb carbon entry is 0.0011; it is not silently changed to the different Table 4 heat composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished to 600-grit SiC, degreased in 95% ethanol, air-dried, kept dry and dust-free for 24 h; dry-air stream before mounting.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.04,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.24,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.009,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.451
+      },
+      "result_note": "Table caption specifies 3.5% NaCl, 30°C; cyclic-polarization methods specify 3.5% NaCl, 35°C and figure captions 3% NaCl, 30°C. Retained as printed. Figures 17–18 summarize these base-metal results; overlapping symbols and inconsistent PREN positions are not used to relabel heats. Figure 18 repeats the base-metal comparison; near-PREN-24 readings overlap and remain approximate. Table 1 does not explicitly label a mass/atomic basis; composition amounts retain %. The printed F19-2Nb carbon entry is 0.0011; it is not silently changed to the different Table 4 heat composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished specimens for inclusion-effect polarization; surface preparation differs between the general cyclic-polarization (600 grit) and post-test microscopy (0.05-µm diamond) protocols and is not assigned more specifically.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 90,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 30,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 1350,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 22,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.007,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel. Inclusion density 19/mm²; oxide/oxysulfide inclusion population discussed in the paper.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.5,
+        "min": 0.42,
+        "max": 0.58
+      },
+      "result_note": "Summary of 3–5 polarization measurements. Vertical bar endpoints retained without an unreported statistical definition. Possible relationship to Table 2 F19-2Nb (obs_007) is not established; retained separately. Table 4 supplies the row-specific minor-element composition. Figure 8 is associated with 30°C in the registry; the supplied caption has an anomalous printed “300°C”, while the general methods say 35°C. This discrepancy is retained rather than interpreted as a new high-temperature test.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished specimens for inclusion-effect polarization; surface preparation differs between the general cyclic-polarization (600 grit) and post-test microscopy (0.05-µm diamond) protocols and is not assigned more specifically.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 100,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 30,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 56,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 28,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.006,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel. Inclusion density 65/mm²; oxide/oxysulfide inclusion population discussed in the paper.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.45,
+        "min": 0.413,
+        "max": 0.485
+      },
+      "result_note": "Summary of 3–5 polarization measurements. Vertical bar endpoints retained without an unreported statistical definition. Possible relationship to Table 2 F19-2Nb (obs_007) is not established; retained separately. Table 4 supplies the row-specific minor-element composition. Figure 8 is associated with 30°C in the registry; the supplied caption has an anomalous printed “300°C”, while the general methods say 35°C. This discrepancy is retained rather than interpreted as a new high-temperature test.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished specimens for inclusion-effect polarization; surface preparation differs between the general cyclic-polarization (600 grit) and post-test microscopy (0.05-µm diamond) protocols and is not assigned more specifically.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 110,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 30,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 360,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel. Inclusion density 164/mm²; oxide/oxysulfide inclusion population discussed in the paper.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.406,
+        "min": 0.34,
+        "max": 0.471
+      },
+      "result_note": "Summary of 3–5 polarization measurements. Vertical bar endpoints retained without an unreported statistical definition. Possible relationship to Table 2 F19-2Nb (obs_007) is not established; retained separately. Table 4 supplies the row-specific minor-element composition. Figure 8 is associated with 30°C in the registry; the supplied caption has an anomalous printed “300°C”, while the general methods say 35°C. This discrepancy is retained rather than interpreted as a new high-temperature test.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Polished specimens for inclusion-effect polarization; surface preparation differs between the general cyclic-polarization (600 grit) and post-test microscopy (0.05-µm diamond) protocols and is not assigned more specifically.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.26,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 90,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 30,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 360,
+              "unit": "ppm"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel. Inclusion density 413/mm²; oxide/oxysulfide inclusion population discussed in the paper.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.356,
+        "min": 0.304,
+        "max": 0.408
+      },
+      "result_note": "Summary of 3–5 polarization measurements. Vertical bar endpoints retained without an unreported statistical definition. Possible relationship to Table 2 F19-2Nb (obs_007) is not established; retained separately. Table 4 supplies the row-specific minor-element composition. Figure 8 is associated with 30°C in the registry; the supplied caption has an anomalous printed “300°C”, while the general methods say 35°C. This discrepancy is retained rather than interpreted as a new high-temperature test.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Industrial type 444 ferritic stainless steel considered theoretically.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "max": 0.004,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Approximate theoretical breakdown potential from Equation (5), discussed for industrial type 444 stainless steel.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.45
+      },
+      "result_note": "Authors’ approximate theoretical value according to Equation (5), compared qualitatively with cited literature; no separate cited numerical result is supplied. This theoretical example uses PREN 23–24.5 and approximately 300 oxide inclusions/mm², with sulfur <0.004%; no individual tested heat or separate test setup is specified.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.283
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.245
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.36
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.405
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.332
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.239
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.437
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.43
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs. Autogenous gas-tungsten arc bead-on-plate welding, 100 A at 60 cm/min (1.2 kJ/cm), argon purge and backing each 15 L/min. Fusion line centered in disc; polished to 600-grit SiC, degreased with 95% ethanol, dried and stored for 24 h.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel. Weld and heat-affected-zone regions; large columnar weld grains and coarsened HAZ grains described.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.412
+      },
+      "result_note": "Graphical reading. Heat identities of clustered symbols are not individually printed; no alloy assignment inferred. These are welded results distinct from base-metal Table 2. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 17."
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with high-purity nitrogen; electrochemical vessels deaerated for 60 min before polarization.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 6.6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "EG&G disc holder with precautions against crevices. Initial potential −20 mV relative to Ecorr; scan toward a maximum 0.8 V (SCE), reverse at 0.5 × 10⁻³ A/cm², and return to Ecorr. Results showing crevice corrosion were rejected. Methods specify a 35°C water bath, conflicting with 30°C in Table 2.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Breakdown potential Eb from polarization; reverse-scan current threshold is 0.5 × 10⁻³ A/cm². Separate microscopy runs were stopped above 10⁻⁵ A/cm²."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.625
+      },
+      "result_note": "Figure 18 is described as a comparison with the experimental heats but this high-PREN experimental marker has no clear counterpart in Table 2 or Figure 17. Retained as an unresolved additional occurrence, not asserted to be an independent experiment. General methods specify 3.5% NaCl at 35°C, whereas Table 2 gives 30°C and several figure captions give 3% NaCl. No unique temperature is resolved for this summary marker; its heat is not assigned from PREN alone.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Equation (6), attributed to Yazawa et al., applied by the present authors to their experimental heats; individual filled markers in Figure 18. No separate polarization experiment is implied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.095
+      },
+      "result_note": "Discrete model-derived marker, not a new polarization experiment. Dotted connectors/fits are not additional results. Heat names are not individually printed in the plot. Only shared ferritic-steel identity and processing are retained; PREN alone does not determine an elemental composition. The experimental electrolyte and sweep protocol are not assigned as a new test to this calculated value.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Equation (6), attributed to Yazawa et al., applied by the present authors to their experimental heats; individual filled markers in Figure 18. No separate polarization experiment is implied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.29
+      },
+      "result_note": "Discrete model-derived marker, not a new polarization experiment. Dotted connectors/fits are not additional results. Heat names are not individually printed in the plot. Only shared ferritic-steel identity and processing are retained; PREN alone does not determine an elemental composition. The experimental electrolyte and sweep protocol are not assigned as a new test to this calculated value.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Equation (6), attributed to Yazawa et al., applied by the present authors to their experimental heats; individual filled markers in Figure 18. No separate polarization experiment is implied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.525
+      },
+      "result_note": "Discrete model-derived marker, not a new polarization experiment. Dotted connectors/fits are not additional results. Heat names are not individually printed in the plot. Only shared ferritic-steel identity and processing are retained; PREN alone does not determine an elemental composition. The experimental electrolyte and sweep protocol are not assigned as a new test to this calculated value.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Equation (6), attributed to Yazawa et al., applied by the present authors to their experimental heats; individual filled markers in Figure 18. No separate polarization experiment is implied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.21
+      },
+      "result_note": "Discrete model-derived marker, not a new polarization experiment. Dotted connectors/fits are not additional results. Heat names are not individually printed in the plot. Only shared ferritic-steel identity and processing are retained; PREN alone does not determine an elemental composition. The experimental electrolyte and sweep protocol are not assigned as a new test to this calculated value.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Equation (6), attributed to Yazawa et al., applied by the present authors to their experimental heats; individual filled markers in Figure 18. No separate polarization experiment is implied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.525
+      },
+      "result_note": "Discrete model-derived marker, not a new polarization experiment. Dotted connectors/fits are not additional results. Heat names are not individually printed in the plot. Only shared ferritic-steel identity and processing are retained; PREN alone does not determine an elemental composition. The experimental electrolyte and sweep protocol are not assigned as a new test to this calculated value.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Equation (6), attributed to Yazawa et al., applied by the present authors to their experimental heats; individual filled markers in Figure 18. No separate polarization experiment is implied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.39
+      },
+      "result_note": "Discrete model-derived marker, not a new polarization experiment. Dotted connectors/fits are not additional results. Heat names are not individually printed in the plot. Only shared ferritic-steel identity and processing are retained; PREN alone does not determine an elemental composition. The experimental electrolyte and sweep protocol are not assigned as a new test to this calculated value.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Equation (6), attributed to Yazawa et al., applied by the present authors to their experimental heats; individual filled markers in Figure 18. No separate polarization experiment is implied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.765
+      },
+      "result_note": "Discrete model-derived marker, not a new polarization experiment. Dotted connectors/fits are not additional results. Heat names are not individually printed in the plot. Only shared ferritic-steel identity and processing are retained; PREN alone does not determine an elemental composition. The experimental electrolyte and sweep protocol are not assigned as a new test to this calculated value.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "30-kg ingots surface-ground, hot-rolled to 6 mm, annealed at 1100°C, cold-rolled to 2 mm, then annealed at 1050°C; punched discs.",
+        "composition": [],
+        "microstructure": "Ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculation"
+        ],
+        "procedure_description": "Equation (6), attributed to Yazawa et al., applied by the present authors to their experimental heats; individual filled markers in Figure 18. No separate polarization experiment is implied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.665
+      },
+      "result_note": "Discrete model-derived marker, not a new polarization experiment. Dotted connectors/fits are not additional results. Heat names are not individually printed in the plot. Only shared ferritic-steel identity and processing are retained; PREN alone does not determine an elemental composition. The experimental electrolyte and sweep protocol are not assigned as a new test to this calculated value.",
+      "failure_notes": "Individual heat identity/composition cannot be recovered uniquely from the unlabeled/overlapping PREN markers in Figure 18."
+    }
+  ]
+}

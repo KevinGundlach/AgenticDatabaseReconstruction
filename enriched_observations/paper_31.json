@@ -1,0 +1,149 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "31_G. P. Halada , D. Kim , C.R. Clayton , Corrosion 52 (1996)_ p. 36.pdf",
+  "reference_number": 31,
+  "inputs": {
+    "pdf": {
+      "filename": "31_G. P. Halada , D. Kim , C.R. Clayton , Corrosion 52 (1996)_ p. 36.pdf",
+      "sha256": "f0f6bcd234bcb1ceeac3d5d8b7d09d08e62c1eb2f48dbc4cb8abc772a3ceaa81"
+    },
+    "registry": {
+      "filename": "paper_31.json",
+      "sha256": "24b3692e58f0aec85c14b9a0f7664850575295e6ce390b9f3c8e7f34c897b6b6"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Fe–20%Cr–20%Ni steel; annealed at 1100 °C for 3 h and water quenched. Coupons 7 × 10 × 1 mm ground with 600-grit SiC, polished to 0.25 µm diamond finish, ultrasonically cleaned in acetone then isopropanol, rinsed with double-distilled water and mounted for electrochemistry.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 59.58,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.12,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.011,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.004,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.08,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "max": 0.003,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 22,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic high-nickel stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 22,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions deaerated with high-purity argon for at least 2 h before analysis; no numerical pH is supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "PAR Model 173 potentiostat with Model 276 interface/352 acquisition; modified Greene cell with Pt counters in separate opposite compartments, separated by porous frits to avoid Pt plating on working electrode. SCE reference. Cathodic pretreatment in 0.1 M HCl at −700 mV SCE for 15 min to remove air-formed oxide; Figure 1 anodic scan at 1 mV/s in 0.1 M HCl + 0.4 M NaCl at 22 °C. The −100 mV/10 min high-Ni passive-film preparation for XPS and MoNi4 nitriding/passivation treatments are separate analyses.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Table 3 explicitly identifies Epit as pitting potential, distinct from passivation Epp and transpassive Etr; no fixed numerical current criterion is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 239
+      },
+      "result_note": "The table explicitly distinguishes Epit from Etr (transpassive potential). The Mo-bearing steels have no numerical Epit cell and are described as having pitting eliminated. Table 1 amounts retain percent notation (basis is not explicitly printed in the table) and the separate S ppm unit. P is strictly <0.003%; no balance or chloride-ion concentration is calculated. Surface/subfilm XPS compositions are not substituted for bulk chemistry.",
+      "failure_notes": ""
+    }
+  ]
+}

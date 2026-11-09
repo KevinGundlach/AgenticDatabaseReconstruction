@@ -1,0 +1,579 @@
+{
+  "paper_name": "64_Ives, M. B., et al. Corrosion science 31 (1990)_ 367-376.pdf",
+  "reference_number": 64,
+  "inputs": {
+    "pdf": {
+      "filename": "64_Ives, M. B., et al. Corrosion science 31 (1990)_ 367-376.pdf",
+      "sha256": "77931c0354be92f1af14e693efb969af8f0e0a85c7f9d7900c1d836baccfa720"
+    },
+    "registry": {
+      "filename": "paper_64.json",
+      "sha256": "76710fc17c06fe1a9c50c786b7d8bcba01b66aa9665e6edd3317726fc1093d31"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Starting 2-mm annealed sheet cut to 10-mm circular discs; one side polished to 1-µm diamond finish. Teflon specimen holder or protective epoxy on edges/back for electrochemical measurement.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.108,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.55,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.01,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.04,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.0,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.17,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.1,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0.16,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.19,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.012,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.05,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.12,
+              "unit": "weight %"
+            }
+          }
+        ],
+        "microstructure": "Annealed austenitic UNS S30100 stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Initially 0.1 M sodium sulphate; chloride introduced after 30 min to produce 0.6 M sodium chloride. Purge conditions are not independently specified for Figure 4.",
+        "solvent": "water",
+        "composition": [
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic hold",
+          "chloride-addition pit-initiation test"
+        ],
+        "procedure_description": "Maintain +500 mV (SCE) in 0.1 M sodium sulphate; add chloride at the 30-min mark and monitor anodic current with time. Control breakdown occurs within one minute after chloride addition; implanted sample #9 breaks down slightly later with a much slower current increase.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current after chloride addition at the fixed potential. The supplied anchor is an upper bound on onset, not a swept threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 500
+      },
+      "result_note": "Pit initiation after chloride addition during a 500 mV hold supports an upper limit, not a measured threshold at 500 mV. Control breaks down within one minute; implanted sample only a little later. This is separate from the scanned sample #10. Room temperature describes ion implantation, not a numerical electrolyte test temperature. No pH or chloride-ion concentration is calculated from the salt recipe.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Starting 2-mm annealed sheet cut to 10-mm circular discs; one side polished to 1-µm diamond finish. Teflon specimen holder or protective epoxy on edges/back for electrochemical measurement. Mo-ion implanted at room temperature at 140 keV (sample #9); retained dose 3.1 × 10¹⁶ cm⁻². Raster beam over 30 cm² at 10⁻⁶ A/cm²; heated Mo-wire source with oxygen to improve ionization.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.108,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.55,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.01,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.04,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.0,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.17,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.1,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0.16,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.19,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.012,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.05,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.12,
+              "unit": "weight %"
+            }
+          }
+        ],
+        "microstructure": "Annealed austenitic UNS S30100 stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Initially 0.1 M sodium sulphate; chloride introduced after 30 min to produce 0.6 M sodium chloride. Purge conditions are not independently specified for Figure 4.",
+        "solvent": "water",
+        "composition": [
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic hold",
+          "chloride-addition pit-initiation test"
+        ],
+        "procedure_description": "Maintain +500 mV (SCE) in 0.1 M sodium sulphate; add chloride at the 30-min mark and monitor anodic current with time. Control breakdown occurs within one minute after chloride addition; implanted sample #9 breaks down slightly later with a much slower current increase.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current after chloride addition at the fixed potential. The supplied anchor is an upper bound on onset, not a swept threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 500
+      },
+      "result_note": "Pit initiation after chloride addition during a 500 mV hold supports an upper limit, not a measured threshold at 500 mV. Control breaks down within one minute; implanted sample only a little later. This is separate from the scanned sample #10. Composition is the starting bulk alloy from Table 1, not a homogeneous final surface composition. Table 2 reports relative NMo/NFe fractions of 2.4% at the surface and 14.1% at the profile peak; those ratios are not converted to bulk wt%. Room temperature describes ion implantation, not a numerical electrolyte test temperature. No pH or chloride-ion concentration is calculated from the salt recipe.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Starting 2-mm annealed sheet cut to 10-mm circular discs; one side polished to 1-µm diamond finish. Teflon specimen holder or protective epoxy on edges/back for electrochemical measurement.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.108,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.55,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.01,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.04,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.0,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.17,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.1,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0.16,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.19,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.012,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.05,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.12,
+              "unit": "weight %"
+            }
+          }
+        ],
+        "microstructure": "Annealed austenitic UNS S30100 stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with nitrogen, as labeled in Figure 3.",
+        "solvent": "water",
+        "composition": [
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatically controlled anodic polarization"
+        ],
+        "procedure_description": "Figure 3 polarization scan in 0.1 M Na2SO4 + 0.6 M NaCl with SCE reference; unimplanted control compared with 140-keV Mo-implanted sample #10. A scan rate and potential-step/hold schedule are not specified.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Apparent critical pitting potential Ec at the annotated passive-breakdown transition. Authors emphasize poor reproducibility of its shift with implantation."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.45
+      },
+      "result_note": "Approximate reading of the explicitly Ec-labeled transition. The text identifies this as the apparent critical pitting potential and emphasizes poor reproducibility; no additional thresholds are traced from continuous curves. Room temperature describes ion implantation, not a numerical electrolyte test temperature. No pH or chloride-ion concentration is calculated from the salt recipe.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Starting 2-mm annealed sheet cut to 10-mm circular discs; one side polished to 1-µm diamond finish. Teflon specimen holder or protective epoxy on edges/back for electrochemical measurement. Mo-ion implanted at room temperature at 140 keV (sample #10); retained dose 5.55 × 10¹⁶ cm⁻². Raster beam over 30 cm² at 10⁻⁶ A/cm²; heated Mo-wire source with oxygen to improve ionization.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.108,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.55,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.01,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.04,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.0,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.17,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.1,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0.16,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.19,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.012,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.05,
+              "unit": "weight %"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.12,
+              "unit": "weight %"
+            }
+          }
+        ],
+        "microstructure": "Annealed austenitic UNS S30100 stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated with nitrogen, as labeled in Figure 3.",
+        "solvent": "water",
+        "composition": [
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatically controlled anodic polarization"
+        ],
+        "procedure_description": "Figure 3 polarization scan in 0.1 M Na2SO4 + 0.6 M NaCl with SCE reference; unimplanted control compared with 140-keV Mo-implanted sample #10. A scan rate and potential-step/hold schedule are not specified.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Apparent critical pitting potential Ec at the annotated passive-breakdown transition. Authors emphasize poor reproducibility of its shift with implantation."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.38
+      },
+      "result_note": "Approximate reading of the explicitly Ec-labeled transition. The text identifies this as the apparent critical pitting potential and emphasizes poor reproducibility; no additional thresholds are traced from continuous curves. Composition is the starting bulk alloy from Table 1, not a homogeneous final surface composition. Table 2 reports relative NMo/NFe fractions of 10.6% at the surface and 24.7% at the profile peak; those ratios are not converted to bulk wt%. Room temperature describes ion implantation, not a numerical electrolyte test temperature. No pH or chloride-ion concentration is calculated from the salt recipe.",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,4873 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "7_H. Bohni, H. H. Uhlig, J. Electrochem Soc. 116 (1969)_ p. 906.pdf",
+  "reference_number": 7,
+  "inputs": {
+    "pdf": {
+      "filename": "7_H. Bohni, H. H. Uhlig, J. Electrochem Soc. 116 (1969)_ p. 906.pdf",
+      "sha256": "ca82b01e0cfece79edb2d1edec94a995079d006e258ae2aab2630d9b2e2a37e1"
+    },
+    "registry": {
+      "filename": "paper_7.json",
+      "sha256": "cc3ea3f6b8d668eac8b7b5643e610c5c1e72a124b39c4d60af07689999c0b3b9"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.4
+      },
+      "result_note": "Table I explicit number is primary; Fig. 1 approximate reading retained.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.48
+      },
+      "result_note": "Kaesche (1), cited critical potential; paper states pH independence over pH 2–11. Table I asterisk: approximate, not truly steady-state. Unresolved repeated-presentation group (Kaesche 1M NaCl comparison): obs_002, obs_049, obs_050; no independence or run identity is asserted. Reported independence over pH 2–11 is a cited result qualification, not a separate measured pH for this record.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Saline media such as seawater in a cited cathodic-protection discussion; no quantitative recipe supplied.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.21
+      },
+      "result_note": "Cited cathodic-protection discussion (3); alloy referred to as stainless steel, not further identified in this sentence.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.41
+      },
+      "result_note": "Table I explicit number is primary; Fig. 1 approximate reading retained.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 15,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.4
+      },
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 32,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.41
+      },
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 40,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.425
+      },
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.29
+      },
+      "result_note": "",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 0,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.32
+      },
+      "result_note": "",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaClO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0
+      },
+      "result_note": "",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Zone-refined aluminum, as stated for the Bond et al. comparison.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.5
+      },
+      "result_note": "",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KBr",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.35
+      },
+      "result_note": "Asterisk: approximate but not truly steady-state value.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KI",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.2
+      },
+      "result_note": "Asterisk: approximate but not truly steady-state value.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.08,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.004,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0004,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.41
+      },
+      "result_note": "",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.006,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.002,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.001,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.45
+      },
+      "result_note": "",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.04,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.08,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.16,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 2.43,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.44
+      },
+      "result_note": "",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "unit": "M",
+              "value": 0.15
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.04; inhibitor activity = 0.11 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "unit": "M",
+              "value": 0.26
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.055; inhibitor activity = 0.18 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "unit": "M",
+              "value": 0.54
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.08; inhibitor activity = 0.32 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "unit": "M",
+              "value": 1.7
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.15; inhibitor activity = 0.83 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Na2CrO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.034
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.0085; inhibitor activity = 0.02 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Na2CrO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.19
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.018; inhibitor activity = 0.075 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Na2CrO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.46
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.026; inhibitor activity = 0.14 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Na2CrO4",
+            "amount": {
+              "unit": "M",
+              "value": 1.3
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.04; inhibitor activity = 0.3 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "sodium acetate",
+            "amount": {
+              "unit": "M",
+              "value": 0.029
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.007; inhibitor activity = 0.025 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "sodium acetate",
+            "amount": {
+              "unit": "M",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.009; inhibitor activity = 0.04 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "sodium acetate",
+            "amount": {
+              "unit": "M",
+              "value": 0.2
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.014; inhibitor activity = 0.13 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "sodium acetate",
+            "amount": {
+              "unit": "M",
+              "value": 0.38
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.018; inhibitor activity = 0.21 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "sodium benzoate",
+            "amount": {
+              "unit": "M",
+              "value": 0.04
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.0057; inhibitor activity = 0.033 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "sodium benzoate",
+            "amount": {
+              "unit": "M",
+              "value": 0.07
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.007; inhibitor activity = 0.055 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "sodium benzoate",
+            "amount": {
+              "unit": "M",
+              "value": 0.17
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.008; inhibitor activity = 0.11 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "sodium benzoate",
+            "amount": {
+              "unit": "M",
+              "value": 0.21
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.009; inhibitor activity = 0.145 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.04
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.002; inhibitor activity = 0.023 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.13
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.0026; inhibitor activity = 0.053 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.34
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.0032; inhibitor activity = 0.1 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated sodium-chloride solution with the indicated sodium inhibitor salt. Mixtures were not adjusted to constant pH.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 1.0
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting inhibition determination"
+        ],
+        "procedure_description": "Minimum inhibitor amount needed to shift the critical potential to 0.8 V SHE in aerated sodium-chloride solution; the plotted axes are activities, with inhibitor concentrations annotated at markers.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Inhibitor threshold that shifts critical pitting potential to 0.8 V SHE, approximately the oxygen-electrode potential in air."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.8
+      },
+      "result_note": "Text supplies the common 0.8 V critical-potential criterion for these condition-specific inhibitor thresholds. Activities are approximate logarithmic-axis readings; concentration is the printed marker annotation. Chloride activity = 0.0041; inhibitor activity = 0.2 (dimensionless graphical coordinates). No activity-to-concentration conversion applied; NaCl amount is not specified by these activities.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_037",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Immersion with added 5 ppm Cu++; Fig. 4 specifies 0.1 N NaCl, while nearby prose uses 0.1 M.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "Cu++",
+            "amount": {
+              "value": 5,
+              "unit": "ppm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "The registered Vc-prime annotation is the non-steady-state potentiostatic result, compared with a separate Cu-assisted corrosion-potential/time trace. General step method: 50 mV increments every 5 min after initial 5 min at −0.80 V SCE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "min"
+        },
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.38
+      },
+      "result_note": "Non-steady-state potentiostatic annotation, distinct from steady-state Vc. The continuous corrosion-potential time trace is not registered point by point.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_038",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "NaCl containing 5 ppm Cu++; corrosion potential measured in the presence of trace copper to estimate the pitting threshold.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Cu++",
+            "amount": {
+              "value": 5,
+              "unit": "ppm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "corrosion potential measurement"
+        ],
+        "procedure_description": "Cu-assisted corrosion-potential measurements at varying NaCl activity, compared with cited potentiostatic critical potentials; Cu deposition provides cathodic sites and shifts corrosion potential close to the pitting threshold.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Corrosion potential in the presence of 5 ppm Cu++ used as a proxy; authors say it is slightly more noble than steady-state Vc and closer to Vc-prime."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.365,
+        "min": -0.405,
+        "max": -0.335
+      },
+      "result_note": "Cu-assisted corrosion potential used by the authors to estimate the critical potential; they state it is slightly more noble and closer to non-steady-state values. Graphically read central marker and visible vertical endpoints, not an inferred symmetric uncertainty. Chloride activity coordinate: 0.078 (dimensionless); not converted to concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_039",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "NaCl containing 5 ppm Cu++; corrosion potential measured in the presence of trace copper to estimate the pitting threshold.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Cu++",
+            "amount": {
+              "value": 5,
+              "unit": "ppm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "corrosion potential measurement"
+        ],
+        "procedure_description": "Cu-assisted corrosion-potential measurements at varying NaCl activity, compared with cited potentiostatic critical potentials; Cu deposition provides cathodic sites and shifts corrosion potential close to the pitting threshold.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Corrosion potential in the presence of 5 ppm Cu++ used as a proxy; authors say it is slightly more noble than steady-state Vc and closer to Vc-prime."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.44,
+        "min": -0.46,
+        "max": -0.42
+      },
+      "result_note": "Cu-assisted corrosion potential used by the authors to estimate the critical potential; they state it is slightly more noble and closer to non-steady-state values. Graphically read central marker and visible vertical endpoints, not an inferred symmetric uncertainty. Chloride activity coordinate: 0.33 (dimensionless); not converted to concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_040",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "NaCl containing 5 ppm Cu++; corrosion potential measured in the presence of trace copper to estimate the pitting threshold.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Cu++",
+            "amount": {
+              "value": 5,
+              "unit": "ppm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "corrosion potential measurement"
+        ],
+        "procedure_description": "Cu-assisted corrosion-potential measurements at varying NaCl activity, compared with cited potentiostatic critical potentials; Cu deposition provides cathodic sites and shifts corrosion potential close to the pitting threshold.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Corrosion potential in the presence of 5 ppm Cu++ used as a proxy; authors say it is slightly more noble than steady-state Vc and closer to Vc-prime."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.485,
+        "min": -0.51,
+        "max": -0.465
+      },
+      "result_note": "Cu-assisted corrosion potential used by the authors to estimate the critical potential; they state it is slightly more noble and closer to non-steady-state values. Graphically read central marker and visible vertical endpoints, not an inferred symmetric uncertainty. Chloride activity coordinate: 0.63 (dimensionless); not converted to concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_041",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "NaCl containing 5 ppm Cu++; corrosion potential measured in the presence of trace copper to estimate the pitting threshold.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "Cu++",
+            "amount": {
+              "value": 5,
+              "unit": "ppm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "corrosion potential measurement"
+        ],
+        "procedure_description": "Cu-assisted corrosion-potential measurements at varying NaCl activity, compared with cited potentiostatic critical potentials; Cu deposition provides cathodic sites and shifts corrosion potential close to the pitting threshold.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Corrosion potential in the presence of 5 ppm Cu++ used as a proxy; authors say it is slightly more noble than steady-state Vc and closer to Vc-prime."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.525,
+        "min": -0.54,
+        "max": -0.5
+      },
+      "result_note": "Cu-assisted corrosion potential used by the authors to estimate the critical potential; they state it is slightly more noble and closer to non-steady-state values. Graphically read central marker and visible vertical endpoints, not an inferred symmetric uncertainty. Chloride activity coordinate: 1.3 (dimensionless); not converted to concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_042",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.355
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Chloride activity coordinate: 0.078 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_043",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.395
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Chloride activity coordinate: 0.078 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_044",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.4
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Chloride activity coordinate: 0.145 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_045",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.41
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Chloride activity coordinate: 0.145 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_046",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.43
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Chloride activity coordinate: 0.33 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_047",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.455
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Chloride activity coordinate: 0.33 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_048",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.47
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Chloride activity coordinate: 0.5 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_049",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.48
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Unresolved repeated-presentation group (Kaesche 1M NaCl comparison): obs_002, obs_049, obs_050; no independence or run identity is asserted. Chloride activity coordinate: 0.63 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_050",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.49
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Unresolved repeated-presentation group (Kaesche 1M NaCl comparison): obs_002, obs_049, obs_050; no independence or run identity is asserted. Chloride activity coordinate: 0.63 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_051",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison; only context supplied in this PDF is retained. Detailed preparation and testing history are not imported from the citation.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.525
+      },
+      "result_note": "Cited critical-potential point, approximately digitized. Possible repeated presentation of the approximate Kaesche Table I entries at corresponding concentrations; no run-level identity is supplied. Chloride activity coordinate: 1.3 (dimensionless); not converted to a concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_052",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.1 M NaCl; authors state γ = 0.78 for the calculation.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculated critical potential"
+        ],
+        "procedure_description": "Authors evaluate Equation [6] for 0.1 M NaCl with activity coefficient γ = 0.78. This is a calculated comparison, not a new experimental replicate.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Calculated Vc-prime-compatible potential from the chloride-activity relationship."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.37
+      },
+      "result_note": "Authors explicitly calculate this non-steady-state-compatible value and compare it with Table I steady-state -0.40V. It is not a new experimental replicate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_053",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.005,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.005
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.09
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.0038 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_054",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.005,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.32
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.028 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_055",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.005,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.43
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.046 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_056",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.005,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.2
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.49
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.072 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_057",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.005,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "unit": "M",
+              "value": 0.5
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.64
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.135 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_058",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "unit": "M",
+              "value": 0.2
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.14 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_059",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "unit": "M",
+              "value": 0.3
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.25
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.19 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_060",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "unit": "M",
+              "value": 0.4
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.58
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.26 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_061",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixtures not adjusted to constant pH; potentiostatic Figure 6 measurements, distinct from the Cu-containing immersion checks in Figure 7.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "unit": "M",
+              "value": 0.5
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.76
+      },
+      "result_note": "Potentiostatically determined Vc; approximate graphical reading. Cu/Cu++ horizontal line is a redox reference and is not registered as Vc. Inhibitor-ion activity coordinate: 0.31 (dimensionless). CuSO4 belongs to the separate immersion verification and is not added to this potentiostatic electrolyte.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_062",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte. Anodized in 15% H2SO4 at 25 mA/cm² for specific times, then washed and sealed in distilled water at 90 °C for 1/2 h. Estimated oxide thickness .3 µm.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.39
+      },
+      "result_note": "Two explicitly stated film-thickness conditions share the reported steady-state result; source V units preserved.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_063",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte. Anodized in 15% H2SO4 at 25 mA/cm² for specific times, then washed and sealed in distilled water at 90 °C for 1/2 h. Estimated oxide thickness 1.4 µm.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "First polarized anodically within the passive region for 5 min at −0.80 V vs SCE (−0.56 V SHE), then advanced by 50 mV every 5 min while current was noted. Long-time runs held a selected potential near the critical value for at least 12 h; low-power microscopic observation used to determine steady-state Vc. Potentials reported vs SHE.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state Vc-prime: current rises sharply by two or more orders of magnitude. Steady-state Vc: least noble potential at which pits could not be observed after a long fixed-potential run."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.39
+      },
+      "result_note": "Two explicitly stated film-thickness conditions share the reported steady-state result; source V units preserved.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_064",
+      "alloy": {
+        "preparation": "Specimens polished to 3/0 emery paper, pickled in 2 N NaOH at 80 °C for 5 min, then washed in distilled water. Most electrodes 1.5 cm long × 0.4 cm diameter, mounted to a nickel wire against a glass tube with watertight Teflon gasket; only electrode, Teflon and glass contacted the electrolyte. Anodized in 15% H2SO4 at 25 mA/cm² for specific times, then washed and sealed in distilled water at 90 °C for 1/2 h.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.0039,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.0016,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.0007,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 0.0005,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated before measurements by purified N2 previously passed over Cu turnings at 400 °C; all-glass cell in an air thermostat (25 ± 0.2 °C for usual tests); water–ice bath at 0 °C.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "continuous polarization"
+        ],
+        "procedure_description": "Continuous polarization of anodized electrodes in 0.1 M NaCl; the source does not assign this value to a unique oxide thickness or supply a scan rate for this passage.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Non-steady-state critical potential of anodized electrodes."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": -0.33
+      },
+      "result_note": "Non-steady-state outcome for anodized electrodes; text does not assign this value separately to each oxide thickness.",
+      "failure_notes": ""
+    }
+  ]
+}

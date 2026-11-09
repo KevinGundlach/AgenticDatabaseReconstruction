@@ -1,0 +1,913 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "47_A. G. Hartline, Met. Trans. 5 (1974)_ p. 271.pdf",
+  "reference_number": 47,
+  "inputs": {
+    "pdf": {
+      "filename": "47_A. G. Hartline, Met. Trans. 5 (1974)_ p. 271.pdf",
+      "sha256": "69fdc9dfd39bb4ff3e70cd1a7b8ac5226c6fadf233daabfe00bf33965f2e9c91"
+    },
+    "registry": {
+      "filename": "paper_47.json",
+      "sha256": "d883619dff7fde2c50b3f23ebde70d61489a686697dc4b44b34609af1b40c491"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Alloy 1 from commercial low-C ferroalloys/electrolytic metals, melted in 20-pound (9.2 kg) air induction furnace; N varied using nitrided Mn. Ingots ground, hot rolled at 2200 °F (1205 °C) to 0.150 in. (3.8 mm), air annealed at 1950 °F (1070 °C) for 15 min, pickled in 10 pct HNO3:2 pct HF at 150 °F. Cold rolled 50 pct to 0.075 in. (1.9 mm), air annealed at 1950 °F for 7 min, repickled; further pickling removed the approximately 0.001 in. nitrogen-affected austenitized surface zone, reducing total thickness by 0.003 in. (0.075 mm). Specimens sheared from processed strip, degreased in hot 120 °F (50 °C) concentrated Alconox cleaner, thoroughly rinsed in water and alcohol.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.022,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 18.25,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.34,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.95,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.07,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.2,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.03,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite; approximate austenite fraction 36% from Figures 3/5, with phase balance determined by X-ray methods.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "150–200 ml solution containing explicitly stated 1000 ppm Cl− as NaCl; pH standardized to 5.0 by acetic acid. Gas conditioning, solvent grade and numerical test temperature are not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (source of stated chloride)",
+            "amount": null
+          }
+        ],
+        "ph": 5,
+        "chloride_concentration": {
+          "value": 1000,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Johnson cell similar to Stern–Mackrides holder; flat Teflon gasket with 1/16 in. raised ring around 1 cm² hole. Platinum counter; SCE via KCl salt bridge capillary approximately 2 mm from face. Wenking potentiostat, X–Y recorder, motor-driven ramp. After electrolyte addition/electrical connection, equilibrate/passivate for 30 min at −0.3 to −0.1 V, then scan anodically at 0.7 V/h until pitting; overall scan approximately −0.3 to +1.0 V. One replication gave agreement within 0.04 V; this is not a statistical uncertainty.",
+        "scan_rate": {
+          "value": 0.7,
+          "unit": "volt/hour"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Source-defined offset potential where anodic current exceeds 0.02 mA without later decrease below 0.02 mA (repassivation). Figure 1 displays the offset line on its current-density axis for the 1 cm² face. This criterion may include crevice pitting at the metal–Teflon interface as well as general pitting and is distinct from choosing an earlier current surge."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.025
+      },
+      "result_note": "Potential where current exceeds 0.02 mA without subsequent repassivation; the paper notes crevice and general pitting may both begin. This is the source-defined offset criterion, not an independently inferred curve knee. Bulk Table I percent notation is retained without inventing a weight/atomic basis or Fe balance. Cleaning/pickling and anneal temperatures are not test temperature; separate electropolishing for X-ray phase analysis is not imposed on the pitting electrode. Figure 4 caption prints Alloy 1 N as 0.038%, whereas Table I and the N-coordinate presentation use 0.03; bulk analysis follows Table I and no anchor is replaced.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Alloy 2 from commercial low-C ferroalloys/electrolytic metals, melted in 20-pound (9.2 kg) air induction furnace; N varied using nitrided Mn. Ingots ground, hot rolled at 2200 °F (1205 °C) to 0.150 in. (3.8 mm), air annealed at 1950 °F (1070 °C) for 15 min, pickled in 10 pct HNO3:2 pct HF at 150 °F. Cold rolled 50 pct to 0.075 in. (1.9 mm), air annealed at 1950 °F for 7 min, repickled; further pickling removed the approximately 0.001 in. nitrogen-affected austenitized surface zone, reducing total thickness by 0.003 in. (0.075 mm). Specimens sheared from processed strip, degreased in hot 120 °F (50 °C) concentrated Alconox cleaner, thoroughly rinsed in water and alcohol.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.026,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 18.2,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.07,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.22,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.1,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite; approximate austenite fraction 40% from Figures 3/5, with phase balance determined by X-ray methods.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "150–200 ml solution containing explicitly stated 1000 ppm Cl− as NaCl; pH standardized to 5.0 by acetic acid. Gas conditioning, solvent grade and numerical test temperature are not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (source of stated chloride)",
+            "amount": null
+          }
+        ],
+        "ph": 5,
+        "chloride_concentration": {
+          "value": 1000,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Johnson cell similar to Stern–Mackrides holder; flat Teflon gasket with 1/16 in. raised ring around 1 cm² hole. Platinum counter; SCE via KCl salt bridge capillary approximately 2 mm from face. Wenking potentiostat, X–Y recorder, motor-driven ramp. After electrolyte addition/electrical connection, equilibrate/passivate for 30 min at −0.3 to −0.1 V, then scan anodically at 0.7 V/h until pitting; overall scan approximately −0.3 to +1.0 V. One replication gave agreement within 0.04 V; this is not a statistical uncertainty.",
+        "scan_rate": {
+          "value": 0.7,
+          "unit": "volt/hour"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Source-defined offset potential where anodic current exceeds 0.02 mA without later decrease below 0.02 mA (repassivation). Figure 1 displays the offset line on its current-density axis for the 1 cm² face. This criterion may include crevice pitting at the metal–Teflon interface as well as general pitting and is distinct from choosing an earlier current surge."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.05
+      },
+      "result_note": "Potential where current exceeds 0.02 mA without subsequent repassivation; the paper notes crevice and general pitting may both begin. This is the source-defined offset criterion, not an independently inferred curve knee. Bulk Table I percent notation is retained without inventing a weight/atomic basis or Fe balance. Cleaning/pickling and anneal temperatures are not test temperature; separate electropolishing for X-ray phase analysis is not imposed on the pitting electrode. ",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Alloy 3 from commercial low-C ferroalloys/electrolytic metals, melted in 20-pound (9.2 kg) air induction furnace; N varied using nitrided Mn. Ingots ground, hot rolled at 2200 °F (1205 °C) to 0.150 in. (3.8 mm), air annealed at 1950 °F (1070 °C) for 15 min, pickled in 10 pct HNO3:2 pct HF at 150 °F. Cold rolled 50 pct to 0.075 in. (1.9 mm), air annealed at 1950 °F for 7 min, repickled; further pickling removed the approximately 0.001 in. nitrogen-affected austenitized surface zone, reducing total thickness by 0.003 in. (0.075 mm). Specimens sheared from processed strip, degreased in hot 120 °F (50 °C) concentrated Alconox cleaner, thoroughly rinsed in water and alcohol.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.027,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 18.14,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.38,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.07,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.23,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.18,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite; approximate austenite fraction 58% from Figures 3/5, with phase balance determined by X-ray methods.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "150–200 ml solution containing explicitly stated 1000 ppm Cl− as NaCl; pH standardized to 5.0 by acetic acid. Gas conditioning, solvent grade and numerical test temperature are not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (source of stated chloride)",
+            "amount": null
+          }
+        ],
+        "ph": 5,
+        "chloride_concentration": {
+          "value": 1000,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Johnson cell similar to Stern–Mackrides holder; flat Teflon gasket with 1/16 in. raised ring around 1 cm² hole. Platinum counter; SCE via KCl salt bridge capillary approximately 2 mm from face. Wenking potentiostat, X–Y recorder, motor-driven ramp. After electrolyte addition/electrical connection, equilibrate/passivate for 30 min at −0.3 to −0.1 V, then scan anodically at 0.7 V/h until pitting; overall scan approximately −0.3 to +1.0 V. One replication gave agreement within 0.04 V; this is not a statistical uncertainty.",
+        "scan_rate": {
+          "value": 0.7,
+          "unit": "volt/hour"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Source-defined offset potential where anodic current exceeds 0.02 mA without later decrease below 0.02 mA (repassivation). Figure 1 displays the offset line on its current-density axis for the 1 cm² face. This criterion may include crevice pitting at the metal–Teflon interface as well as general pitting and is distinct from choosing an earlier current surge."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.105
+      },
+      "result_note": "Potential where current exceeds 0.02 mA without subsequent repassivation; the paper notes crevice and general pitting may both begin. This is the source-defined offset criterion, not an independently inferred curve knee. Bulk Table I percent notation is retained without inventing a weight/atomic basis or Fe balance. Cleaning/pickling and anneal temperatures are not test temperature; separate electropolishing for X-ray phase analysis is not imposed on the pitting electrode. ",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Alloy 4 from commercial low-C ferroalloys/electrolytic metals, melted in 20-pound (9.2 kg) air induction furnace; N varied using nitrided Mn. Ingots ground, hot rolled at 2200 °F (1205 °C) to 0.150 in. (3.8 mm), air annealed at 1950 °F (1070 °C) for 15 min, pickled in 10 pct HNO3:2 pct HF at 150 °F. Cold rolled 50 pct to 0.075 in. (1.9 mm), air annealed at 1950 °F for 7 min, repickled; further pickling removed the approximately 0.001 in. nitrogen-affected austenitized surface zone, reducing total thickness by 0.003 in. (0.075 mm). Specimens sheared from processed strip, degreased in hot 120 °F (50 °C) concentrated Alconox cleaner, thoroughly rinsed in water and alcohol.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 18.2,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.37,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.08,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.22,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.33,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite; approximate austenite fraction 90% from Figures 3/5, with phase balance determined by X-ray methods.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "150–200 ml solution containing explicitly stated 1000 ppm Cl− as NaCl; pH standardized to 5.0 by acetic acid. Gas conditioning, solvent grade and numerical test temperature are not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (source of stated chloride)",
+            "amount": null
+          }
+        ],
+        "ph": 5,
+        "chloride_concentration": {
+          "value": 1000,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Johnson cell similar to Stern–Mackrides holder; flat Teflon gasket with 1/16 in. raised ring around 1 cm² hole. Platinum counter; SCE via KCl salt bridge capillary approximately 2 mm from face. Wenking potentiostat, X–Y recorder, motor-driven ramp. After electrolyte addition/electrical connection, equilibrate/passivate for 30 min at −0.3 to −0.1 V, then scan anodically at 0.7 V/h until pitting; overall scan approximately −0.3 to +1.0 V. One replication gave agreement within 0.04 V; this is not a statistical uncertainty.",
+        "scan_rate": {
+          "value": 0.7,
+          "unit": "volt/hour"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Source-defined offset potential where anodic current exceeds 0.02 mA without later decrease below 0.02 mA (repassivation). Figure 1 displays the offset line on its current-density axis for the 1 cm² face. This criterion may include crevice pitting at the metal–Teflon interface as well as general pitting and is distinct from choosing an earlier current surge."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.265
+      },
+      "result_note": "Potential where current exceeds 0.02 mA without subsequent repassivation; the paper notes crevice and general pitting may both begin. This is the source-defined offset criterion, not an independently inferred curve knee. Bulk Table I percent notation is retained without inventing a weight/atomic basis or Fe balance. Cleaning/pickling and anneal temperatures are not test temperature; separate electropolishing for X-ray phase analysis is not imposed on the pitting electrode. ",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Alloy 5 from commercial low-C ferroalloys/electrolytic metals, melted in 20-pound (9.2 kg) air induction furnace; N varied using nitrided Mn. Ingots ground, hot rolled at 2200 °F (1205 °C) to 0.150 in. (3.8 mm), air annealed at 1950 °F (1070 °C) for 15 min, pickled in 10 pct HNO3:2 pct HF at 150 °F. Cold rolled 50 pct to 0.075 in. (1.9 mm), air annealed at 1950 °F for 7 min, repickled; further pickling removed the approximately 0.001 in. nitrogen-affected austenitized surface zone, reducing total thickness by 0.003 in. (0.075 mm). Specimens sheared from processed strip, degreased in hot 120 °F (50 °C) concentrated Alconox cleaner, thoroughly rinsed in water and alcohol.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.032,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 18.0,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.011,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.009,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.37,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.08,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.22,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.4,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic state; the 0.40 pct N alloy is described as nearly austenitic and plotted at approximately 100% austenite. Higher-N steels belong to the fully-austenitic region.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "150–200 ml solution containing explicitly stated 1000 ppm Cl− as NaCl; pH standardized to 5.0 by acetic acid. Gas conditioning, solvent grade and numerical test temperature are not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (source of stated chloride)",
+            "amount": null
+          }
+        ],
+        "ph": 5,
+        "chloride_concentration": {
+          "value": 1000,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Johnson cell similar to Stern–Mackrides holder; flat Teflon gasket with 1/16 in. raised ring around 1 cm² hole. Platinum counter; SCE via KCl salt bridge capillary approximately 2 mm from face. Wenking potentiostat, X–Y recorder, motor-driven ramp. After electrolyte addition/electrical connection, equilibrate/passivate for 30 min at −0.3 to −0.1 V, then scan anodically at 0.7 V/h until pitting; overall scan approximately −0.3 to +1.0 V. One replication gave agreement within 0.04 V; this is not a statistical uncertainty.",
+        "scan_rate": {
+          "value": 0.7,
+          "unit": "volt/hour"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Source-defined offset potential where anodic current exceeds 0.02 mA without later decrease below 0.02 mA (repassivation). Figure 1 displays the offset line on its current-density axis for the 1 cm² face. This criterion may include crevice pitting at the metal–Teflon interface as well as general pitting and is distinct from choosing an earlier current surge."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.305
+      },
+      "result_note": "Potential where current exceeds 0.02 mA without subsequent repassivation; the paper notes crevice and general pitting may both begin. This is the source-defined offset criterion, not an independently inferred curve knee. Bulk Table I percent notation is retained without inventing a weight/atomic basis or Fe balance. Cleaning/pickling and anneal temperatures are not test temperature; separate electropolishing for X-ray phase analysis is not imposed on the pitting electrode. ",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Alloy 6 from commercial low-C ferroalloys/electrolytic metals, melted in 20-pound (9.2 kg) air induction furnace; N varied using nitrided Mn. Ingots ground, hot rolled at 2200 °F (1205 °C) to 0.150 in. (3.8 mm), air annealed at 1950 °F (1070 °C) for 15 min, pickled in 10 pct HNO3:2 pct HF at 150 °F. Cold rolled 50 pct to 0.075 in. (1.9 mm), air annealed at 1950 °F for 7 min, repickled; further pickling removed the approximately 0.001 in. nitrogen-affected austenitized surface zone, reducing total thickness by 0.003 in. (0.075 mm). Specimens sheared from processed strip, degreased in hot 120 °F (50 °C) concentrated Alconox cleaner, thoroughly rinsed in water and alcohol.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.038,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 17.8,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.29,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.83,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.08,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.22,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.52,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic state; the 0.40 pct N alloy is described as nearly austenitic and plotted at approximately 100% austenite. Higher-N steels belong to the fully-austenitic region.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "150–200 ml solution containing explicitly stated 1000 ppm Cl− as NaCl; pH standardized to 5.0 by acetic acid. Gas conditioning, solvent grade and numerical test temperature are not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (source of stated chloride)",
+            "amount": null
+          }
+        ],
+        "ph": 5,
+        "chloride_concentration": {
+          "value": 1000,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Johnson cell similar to Stern–Mackrides holder; flat Teflon gasket with 1/16 in. raised ring around 1 cm² hole. Platinum counter; SCE via KCl salt bridge capillary approximately 2 mm from face. Wenking potentiostat, X–Y recorder, motor-driven ramp. After electrolyte addition/electrical connection, equilibrate/passivate for 30 min at −0.3 to −0.1 V, then scan anodically at 0.7 V/h until pitting; overall scan approximately −0.3 to +1.0 V. One replication gave agreement within 0.04 V; this is not a statistical uncertainty.",
+        "scan_rate": {
+          "value": 0.7,
+          "unit": "volt/hour"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Source-defined offset potential where anodic current exceeds 0.02 mA without later decrease below 0.02 mA (repassivation). Figure 1 displays the offset line on its current-density axis for the 1 cm² face. This criterion may include crevice pitting at the metal–Teflon interface as well as general pitting and is distinct from choosing an earlier current surge."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.335
+      },
+      "result_note": "Potential where current exceeds 0.02 mA without subsequent repassivation; the paper notes crevice and general pitting may both begin. This is the source-defined offset criterion, not an independently inferred curve knee. Bulk Table I percent notation is retained without inventing a weight/atomic basis or Fe balance. Cleaning/pickling and anneal temperatures are not test temperature; separate electropolishing for X-ray phase analysis is not imposed on the pitting electrode. ",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Alloy 7 from commercial low-C ferroalloys/electrolytic metals, melted in 20-pound (9.2 kg) air induction furnace; N varied using nitrided Mn. Ingots ground, hot rolled at 2200 °F (1205 °C) to 0.150 in. (3.8 mm), air annealed at 1950 °F (1070 °C) for 15 min, pickled in 10 pct HNO3:2 pct HF at 150 °F. Cold rolled 50 pct to 0.075 in. (1.9 mm), air annealed at 1950 °F for 7 min, repickled; further pickling removed the approximately 0.001 in. nitrogen-affected austenitized surface zone, reducing total thickness by 0.003 in. (0.075 mm). Specimens sheared from processed strip, degreased in hot 120 °F (50 °C) concentrated Alconox cleaner, thoroughly rinsed in water and alcohol.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.037,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 18.25,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.4,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.25,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.07,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.24,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.69,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic state; the 0.40 pct N alloy is described as nearly austenitic and plotted at approximately 100% austenite. Higher-N steels belong to the fully-austenitic region. Ingot porosity explicitly reported at N saturation for Alloy 7.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "150–200 ml solution containing explicitly stated 1000 ppm Cl− as NaCl; pH standardized to 5.0 by acetic acid. Gas conditioning, solvent grade and numerical test temperature are not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (source of stated chloride)",
+            "amount": null
+          }
+        ],
+        "ph": 5,
+        "chloride_concentration": {
+          "value": 1000,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Johnson cell similar to Stern–Mackrides holder; flat Teflon gasket with 1/16 in. raised ring around 1 cm² hole. Platinum counter; SCE via KCl salt bridge capillary approximately 2 mm from face. Wenking potentiostat, X–Y recorder, motor-driven ramp. After electrolyte addition/electrical connection, equilibrate/passivate for 30 min at −0.3 to −0.1 V, then scan anodically at 0.7 V/h until pitting; overall scan approximately −0.3 to +1.0 V. One replication gave agreement within 0.04 V; this is not a statistical uncertainty.",
+        "scan_rate": {
+          "value": 0.7,
+          "unit": "volt/hour"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Source-defined offset potential where anodic current exceeds 0.02 mA without later decrease below 0.02 mA (repassivation). Figure 1 displays the offset line on its current-density axis for the 1 cm² face. This criterion may include crevice pitting at the metal–Teflon interface as well as general pitting and is distinct from choosing an earlier current surge."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.395
+      },
+      "result_note": "Potential where current exceeds 0.02 mA without subsequent repassivation; the paper notes crevice and general pitting may both begin. This is the source-defined offset criterion, not an independently inferred curve knee. Bulk Table I percent notation is retained without inventing a weight/atomic basis or Fe balance. Cleaning/pickling and anneal temperatures are not test temperature; separate electropolishing for X-ray phase analysis is not imposed on the pitting electrode. ",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Alloy 1 from commercial low-C ferroalloys/electrolytic metals, melted in 20-pound (9.2 kg) air induction furnace; N varied using nitrided Mn. Ingots ground, hot rolled at 2200 °F (1205 °C) to 0.150 in. (3.8 mm), air annealed at 1950 °F (1070 °C) for 15 min, pickled in 10 pct HNO3:2 pct HF at 150 °F. Cold rolled 50 pct to 0.075 in. (1.9 mm), air annealed at 1950 °F for 7 min, repickled; further pickling removed the approximately 0.001 in. nitrogen-affected austenitized surface zone, reducing total thickness by 0.003 in. (0.075 mm). This specific Alloy 1 sample was then heated at 2300 °F (1260 °C) for 15 min, water quenched to ferritize the duplex structure and again pickled to remove scale/austenitized zone. Specimens sheared from processed strip, degreased in hot 120 °F (50 °C) concentrated Alconox cleaner, thoroughly rinsed in water and alcohol.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.022,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 18.25,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.34,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.95,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.07,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.2,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.03,
+              "unit": "pct"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Thermally ferritized Alloy 1, approximately 0% austenite (Fig. 5), distinct from its duplex state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "150–200 ml solution containing explicitly stated 1000 ppm Cl− as NaCl; pH standardized to 5.0 by acetic acid. Gas conditioning, solvent grade and numerical test temperature are not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (source of stated chloride)",
+            "amount": null
+          }
+        ],
+        "ph": 5,
+        "chloride_concentration": {
+          "value": 1000,
+          "unit": "ppm"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Johnson cell similar to Stern–Mackrides holder; flat Teflon gasket with 1/16 in. raised ring around 1 cm² hole. Platinum counter; SCE via KCl salt bridge capillary approximately 2 mm from face. Wenking potentiostat, X–Y recorder, motor-driven ramp. After electrolyte addition/electrical connection, equilibrate/passivate for 30 min at −0.3 to −0.1 V, then scan anodically at 0.7 V/h until pitting; overall scan approximately −0.3 to +1.0 V. One replication gave agreement within 0.04 V; this is not a statistical uncertainty.",
+        "scan_rate": {
+          "value": 0.7,
+          "unit": "volt/hour"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Source-defined offset potential where anodic current exceeds 0.02 mA without later decrease below 0.02 mA (repassivation). Figure 1 displays the offset line on its current-density axis for the 1 cm² face. This criterion may include crevice pitting at the metal–Teflon interface as well as general pitting and is distinct from choosing an earlier current surge."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.15
+      },
+      "result_note": "Same offset criterion; source says the method avoids ambiguous onset assignment. Single replication agreed within 0.04 V; not an uncertainty bar. Bulk Table I percent notation is retained without inventing a weight/atomic basis or Fe balance. Cleaning/pickling and anneal temperatures are not test temperature; separate electropolishing for X-ray phase analysis is not imposed on the pitting electrode. Figure 4 caption prints Alloy 1 N as 0.038%, whereas Table I and the N-coordinate presentation use 0.03; bulk analysis follows Table I and no anchor is replaced.",
+      "failure_notes": ""
+    }
+  ]
+}

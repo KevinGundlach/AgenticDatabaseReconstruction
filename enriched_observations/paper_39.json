@@ -1,0 +1,2260 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "39_J.R. Galvele, S.M. de De Micheli, Corrosion Science, 10 (1970) 795-807.pdf",
+  "reference_number": 39,
+  "inputs": {
+    "pdf": {
+      "filename": "39_J.R. Galvele, S.M. de De Micheli, Corrosion Science, 10 (1970) 795-807.pdf",
+      "sha256": "10b68d18444547374a269239631527b9e258a6ffbfc981614c118e33adf237e2"
+    },
+    "registry": {
+      "filename": "paper_39.json",
+      "sha256": "bbfd5acb1ca221513ee888bc05b4189572fc939eb34d5128a11b39cca782bbab"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.455
+      },
+      "result_note": "Approximate reading of the explicitly labeled Ep level. Figure 5 summarizes these critical-potential measurements; its corresponding 0.1 M point is retained as another location. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic potential switching"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Figure 3 switches between −0.55 and −0.51 V NHE every 10–20 min, repeatedly on the same specimen; the caption reports the pitting potential separately. General polarization measurement uses 10 mV steps to stationary current. The switching controls are not new pitting-potential observations.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Caption-reported critical pitting potential; switching to the pitting range produces ≥2-order current increase and surface pits, returning to the passive range stops pitting. No single hold duration is imposed on the 10–20 min schedule."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.53
+      },
+      "result_note": "Caption-reported pitting potential. The switched −0.51/−0.55 V levels are experimental controls, not additional onset measurements. Figure 5 supplies another presentation of the 1 M result. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic current-time polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Separate specimens held at various constant potentials for 5 h in 1 M NaCl (Figure 4). No pitting from −0.76 through −0.53 V NHE, current after 5 h below 1 µA/cm²; at the next tested level −0.52 V NHE the current rises by >3 orders and pitting commences.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": {
+          "value": 5,
+          "unit": "h"
+        },
+        "pitting_criterion": "Five-hour experimental onset bracket: no pitting at −0.53 V and pitting at −0.52 V NHE; retains strict/inclusive bound qualification from registry, not an exact scan onset."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": -0.53,
+        "max": -0.52
+      },
+      "result_note": "Experimental onset bracket: no pitting at −0.53 V after 5 h, whereas pitting commenced at the higher −0.52 V level identified in Fig. 4. Thus the tested threshold is >−0.53 and ≤−0.52 V. This distinct current-time criterion is not merged with obs_002; a relationship to the same underlying specimens is unspecified. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.01 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.01,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.305
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.08 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.08,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.35
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.7 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.7,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.405
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 4.5 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 4.5,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.445
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 56.1%, distinct from the nominal sample designation. Intermetallic Al2Cu cast as rods about 6 mm diameter. Rod surface covered with cured epoxy; one end mechanically taper polished with diamond powder, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 56.1,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Intermetallic Al2Cu.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.01 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.01,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.315
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 56.1%, distinct from the nominal sample designation. Intermetallic Al2Cu cast as rods about 6 mm diameter. Rod surface covered with cured epoxy; one end mechanically taper polished with diamond powder, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 56.1,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Intermetallic Al2Cu.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.08 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.08,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.365
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 56.1%, distinct from the nominal sample designation. Intermetallic Al2Cu cast as rods about 6 mm diameter. Rod surface covered with cured epoxy; one end mechanically taper polished with diamond powder, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 56.1,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Intermetallic Al2Cu.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.7 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.7,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.42
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 56.1%, distinct from the nominal sample designation. Intermetallic Al2Cu cast as rods about 6 mm diameter. Rod surface covered with cured epoxy; one end mechanically taper polished with diamond powder, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 56.1,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Intermetallic Al2Cu.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 4.5 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 4.5,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.47
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 0.27%, distinct from the nominal sample designation. Nominal Al–0.2%Cu annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Low-Cu alloy used to simulate the Cu-depleted grain-boundary region.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.01 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.01,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.395
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 0.27%, distinct from the nominal sample designation. Nominal Al–0.2%Cu annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Low-Cu alloy used to simulate the Cu-depleted grain-boundary region.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.08 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.08,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.455
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 0.27%, distinct from the nominal sample designation. Nominal Al–0.2%Cu annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Low-Cu alloy used to simulate the Cu-depleted grain-boundary region.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.7 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.7,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.52
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.01 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.01,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.38
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 4.5 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 4.5,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.59
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Pure 99.9999% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.9999,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.028 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.028,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.41
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Pure 99.9999% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.9999,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.08 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.08,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.447
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Pure 99.9999% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.9999,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied. Figure 5 lower-axis activity coordinate 0.7 retained separately from the upper NaCl-concentration axis; no activity-to-concentration calculation performed.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl (activity, not concentration)",
+            "amount": {
+              "value": 0.7,
+              "unit": "M (NaCl activity, as printed on lower axis)"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. NaCl anodic polarization: 10 mV steps, waiting at each point for stationary current; no fixed numerical hold time. Figure 5 activity markers are retained without sampling fitted equations/lines.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.53
+      },
+      "result_note": "Approximate manual reading. The lower axis reports NaCl activity and the upper axis concentration; the original activity coordinate is retained. Fitted lines/equations are not sampled into extra observations. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Subsequently aged for 3 h at 176 °C. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Schematic aged structure: Al–4%Cu grain bodies, Cu-depleted boundary zones approximated as Al–0.2%Cu, and Al2Cu precipitates along grain boundaries.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculated phase threshold on stepped polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Figure 6 aged-alloy curve was measured with 10 mV changes every minute; the registered EpI/EpII annotations are expected thresholds from the separately measured phase relationships, not a newly digitized onset on the continuous curve. No sweep rate is calculated from step and hold.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Expected EpI for Cu-depleted grain-boundary phase, represented by Al–0.2%Cu."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.52
+      },
+      "result_note": "Approximate plotted expected threshold, derived from the phase pitting-potential relationships rather than a separately transcribed measured onset. EpI refers to the Cu-depleted boundary phase; EpII to grain bodies. The observed continuous curve is not independently traced. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Subsequently aged for 3 h at 176 °C. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Schematic aged structure: Al–4%Cu grain bodies, Cu-depleted boundary zones approximated as Al–0.2%Cu, and Al2Cu precipitates along grain boundaries.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "calculated phase threshold on stepped polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Figure 6 aged-alloy curve was measured with 10 mV changes every minute; the registered EpI/EpII annotations are expected thresholds from the separately measured phase relationships, not a newly digitized onset on the continuous curve. No sweep rate is calculated from step and hold.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 10,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Expected EpII for grain bodies, represented by solubilized Al–4%Cu."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.4
+      },
+      "result_note": "Approximate plotted expected threshold, derived from the phase pitting-potential relationships rather than a separately transcribed measured onset. EpI refers to the Cu-depleted boundary phase; EpII to grain bodies. The observed continuous curve is not independently traced. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-region corrosion classification"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 1 summarizes attack in deaerated 1 M NaCl under different heat treatments and applied-potential regions. It does not supply a unique step/hold schedule for this summarized boundary; separate microscopy exposure durations are not assigned as a single threshold-test duration.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Lower boundary of a pitting-containing potential region, not a precisely measured onset. Solubilized alloy is passive below its tabulated pitting region."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": -0.4
+      },
+      "result_note": "Reported lower boundary of a pitting-containing potential region, not an exact measured onset. The table’s strict region wording is retained in the selector. Passive in the lower-potential columns. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Subsequently aged for 3 h at 176 °C. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Schematic aged structure: Al–4%Cu grain bodies, Cu-depleted boundary zones approximated as Al–0.2%Cu, and Al2Cu precipitates along grain boundaries.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-region corrosion classification"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 1 summarizes attack in deaerated 1 M NaCl under different heat treatments and applied-potential regions. It does not supply a unique step/hold schedule for this summarized boundary; separate microscopy exposure durations are not assigned as a single threshold-test duration.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Lower boundary of a pitting-containing potential region, not a precisely measured onset. Aged alloy generalized attack is explicitly pitting plus intergranular corrosion; its lower intergranular-only interval is separate."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": -0.4
+      },
+      "result_note": "Reported lower boundary of a pitting-containing potential region, not an exact measured onset. The table’s strict region wording is retained in the selector. The footnote defines the attack as a mixture of pitting plus intergranular corrosion. The lower −0.52 to −0.40 interval is intergranular and is not a second bulk pitting-region result. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Subsequently over-aged for 1 h at 430 °C. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Over-aged two-phase structure, Al–0.2%Cu and Al2Cu in grain bodies; precipitate-free boundary zone also present (Fig. 10).",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-region corrosion classification"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 1 summarizes attack in deaerated 1 M NaCl under different heat treatments and applied-potential regions. It does not supply a unique step/hold schedule for this summarized boundary; separate microscopy exposure durations are not assigned as a single threshold-test duration.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Lower boundary of a pitting-containing potential region, not a precisely measured onset. Adjacent pitting-containing intervals are retained as the one supplied bound."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": -0.52
+      },
+      "result_note": "Reported lower boundary of a pitting-containing potential region, not an exact measured onset. The table’s strict region wording is retained in the selector. The two adjacent pitting regions are one continuous lower-limited region; they are not separate experiments. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KBr",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.42
+      },
+      "result_note": "Printed experimental pitting potential. The neighboring intergranular-corrosion column gives imposed test potentials, not additional Epit values. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KBr",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.28
+      },
+      "result_note": "Printed experimental pitting potential. The neighboring intergranular-corrosion column gives imposed test potentials, not additional Epit values. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KI",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.26
+      },
+      "result_note": "Printed experimental pitting potential. The neighboring intergranular-corrosion column gives imposed test potentials, not additional Epit values. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KI",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.13
+      },
+      "result_note": "Printed experimental pitting potential. The neighboring intergranular-corrosion column gives imposed test potentials, not additional Epit values. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaClO4",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": -0.17
+      },
+      "result_note": "Printed experimental pitting potential. The neighboring intergranular-corrosion column gives imposed test potentials, not additional Epit values. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaClO4",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.03
+      },
+      "result_note": "Printed experimental pitting potential. The neighboring intergranular-corrosion column gives imposed test potentials, not additional Epit values. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 1.8
+      },
+      "result_note": "Printed experimental pitting potential. The neighboring intergranular-corrosion column gives imposed test potentials, not additional Epit values. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaNO3",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential where a marked current increase begins and pits are detected on the surface; no single numerical current-density threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 1.85
+      },
+      "result_note": "Printed experimental pitting potential. The neighboring intergranular-corrosion column gives imposed test potentials, not additional Epit values. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No pitting observed up to the highest applied +3.0 V NHE; strict lower limit on Epit, not pitting at the limit."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": 3.0
+      },
+      "result_note": "Source reports Epit > +3.0 V NHE: no pitting up to the highest applied potential; strict lower bound, not pitting at +3.0 V. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No pitting observed up to the highest applied +3.0 V NHE; strict lower limit on Epit, not pitting at the limit."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": 3.0
+      },
+      "result_note": "Source reports Epit > +3.0 V NHE: no pitting up to the highest applied potential; strict lower bound, not pitting at +3.0 V. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No pitting observed up to the highest applied +3.0 V NHE; strict lower limit on Epit, not pitting at the limit."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": 3.0
+      },
+      "result_note": "Source reports Epit > +3.0 V NHE: no pitting up to the highest applied potential; strict lower bound, not pitting at +3.0 V. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No pitting observed up to the highest applied +3.0 V NHE; strict lower limit on Epit, not pitting at the limit."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": 3.0
+      },
+      "result_note": "Source reports Epit > +3.0 V NHE: no pitting up to the highest applied potential; strict lower bound, not pitting at +3.0 V. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_037",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaIO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No pitting observed up to the highest applied +3.0 V NHE; strict lower limit on Epit, not pitting at the limit."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": 3.0
+      },
+      "result_note": "Source reports Epit > +3.0 V NHE: no pitting up to the highest applied potential; strict lower bound, not pitting at +3.0 V. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_038",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaIO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No pitting observed up to the highest applied +3.0 V NHE; strict lower limit on Epit, not pitting at the limit."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": 3.0
+      },
+      "result_note": "Source reports Epit > +3.0 V NHE: no pitting up to the highest applied potential; strict lower bound, not pitting at +3.0 V. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_039",
+      "alloy": {
+        "preparation": "Pure 99.99% Al specimens; annealed for 2 h at 600 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.99,
+              "unit": "% (purity)"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "Ammonium tartrate",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No pitting observed up to the highest applied +3.0 V NHE; strict lower limit on Epit, not pitting at the limit."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": 3.0
+      },
+      "result_note": "Source reports Epit > +3.0 V NHE: no pitting up to the highest applied potential; strict lower bound, not pitting at +3.0 V. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_040",
+      "alloy": {
+        "preparation": "Alloys prepared from Al 99.99% and Cu 99.999%; analytical Cu composition is 4.07%, distinct from the nominal sample designation. Nominal Al–4%Cu solubilized for 2 h at 550 °C and water quenched. Coupons 10 × 30 mm cut from 1 mm cold-rolled sheet; edges and surface covered with cured epoxy leaving about 1 cm². Electropolished in HClO4/acetic-anhydride bath, stored in desiccator for a few days before experiment.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Solubilized single-phase Al–4%Cu; used to simulate grain bodies of the aged alloy.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Analytical-grade reagents; deaerated with purified N2. Deaeration duration, solvent grade and numerical pH are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "Ammonium tartrate",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "Tacussel PRT 20–2–M potentiostat; Pyrex glass cell at 25 °C, platinum counter electrode, SCE via Luggin capillary. Potentials were measured against SCE and reported by the authors on NHE scale; locked potentials remain as supplied. Table 2 polarization curves in the stated non-NaCl electrolyte; individual increments/holds are not restated for these tests.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No pitting observed up to the highest applied +3.0 V NHE; strict lower limit on Epit, not pitting at the limit."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "min": 3.0
+      },
+      "result_note": "Source reports Epit > +3.0 V NHE: no pitting up to the highest applied potential; strict lower bound, not pitting at +3.0 V. Analytical Cu percentages and Al purity are used without inferring percent basis or calculating Al balance. The HClO4 electropolishing bath, pure-metal grain-boundary model compositions and air-saturated cathodic-polarization tests are not the test electrolyte/bulk chemistry of this observation. No numerical pH, chloride concentration or scan rate is calculated.",
+      "failure_notes": ""
+    }
+  ]
+}

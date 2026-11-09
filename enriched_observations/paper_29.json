@@ -1,0 +1,257 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "29_A.A. Rodriguez, J.H. Tylczak, M.C. Gao, P.D. Jablonski, M. Detrois, M. Ziomek-Moroz, J.A. Hawk, Advances in Materials Science and Engineering, 2018 (2018) 11.pdf",
+  "reference_number": 29,
+  "inputs": {
+    "pdf": {
+      "filename": "29_A.A. Rodriguez, J.H. Tylczak, M.C. Gao, P.D. Jablonski, M. Detrois, M. Ziomek-Moroz, J.A. Hawk, Advances in Materials Science and Engineering, 2018 (2018) 11.pdf",
+      "sha256": "adba215f00a91474beaa3c81ed992125a86683f0b243b08d244191bc1bc0eeca"
+    },
+    "registry": {
+      "filename": "paper_29.json",
+      "sha256": "e5a5f04977a72324f595c89cdcdf2eb4b01ae552152b202943ad5d668d87d6d0"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "A35, nominal CoCrFeNi2, classified as HEA by the authors. Commercial-purity materials and in-house refined Ni–Co–Cr master alloys; approximately 8000 g induction melted under inert gas and poured with 50 °C superheat into 75 mm cylindrical graphite mold with nonreactive ceramic wash. Hot-tops band-sawn off and chemistry slice taken. Computationally optimized homogenization heat treatment (numerical schedule not supplied), sidewalls lathe conditioned, bagged in protective stainless-steel foil pouches and preheated for 3 h. A35 hot worked at 900 °C by forging and rolling into approximately 3.7 mm thick strip. Corrosion specimens 15 × 10 × 3 mm machined from strip, with a 3–48 threaded hole in a 10 × 3 mm end; SiC abrasive slurry/lapping removed tool marks. Before electrochemical testing, wet ground to 600-grit SiC finish, degreased with acetone and air dried; tightly screwed to the threaded-rod holder before immersion.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 19.98,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 40.84,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 20.67,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 11,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 11,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 165,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 10,
+              "unit": "ppm"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase, fully recrystallized equiaxed grains after forging/rolling, average 40 µm with reported standard deviation 4.8 µm; ASTM grain size 6. Small casting inclusions observed. Figure 3 caption calls the micrographs as-cast, whereas preparation and Section 3.1 explicitly discuss hot-worked/recrystallized specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nondeaerated solution; initial pH 8.4 before potentiodynamic polarization. No salt recipe or gas-purging procedure supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": 8.4,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode glass cell with metal working electrode, calomel reference (SCE) and Pt-sheet counter; Luggin capillary to reduce uncompensated IR drop; Gamry Reference 600+ potentiostat/galvanostat/ZRA. Before each test, held 800 mV more negative than free potential for 2 min, followed by 30 min OCP measurement. Potentiodynamic scan from −0.25 V versus Eoc to 1.6 V versus Eoc. Separate cyclic measurements reverse at 1.5 V versus Eoc, and EIS is a separate passive-film assessment.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ breakdown potential Ebre associated with passive-film breakdown and pitting; for A35, explicitly the nucleation/growth/repassivation of metastable pits. No universal numerical current threshold is stated. Large hysteresis in the separate cyclic tests and SEM support pitting susceptibility for A35 and SS316."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.32
+      },
+      "result_note": "The paper associates Ebre with metastable pit initiation in A35. Text, Table 2 and conclusions repeat this outcome. The source also prints 0.56 V versus SHE for the same result; its original alternative reading is retained without a conversion performed here. After potentiodynamic polarization the A35 solution pH was reported as 10.9; the structured pH field retains the initial value 8.4. No pH calculation is performed. Table 1 chemistry retains both wt.% and ppm as printed, without unit conversion or balance calculation. The Figure 6 caption uses the word saturated, while the methods consistently specify a nondeaerated 3.5 wt.% NaCl solution; no saturation concentration is inferred.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Commercial stainless-steel SS316 comparison, called 316L in the abstract; the source also prints UNS 31600. Detailed manufacturing/heat treatment is not supplied for this comparator. Bare corrosion specimens machined and fitted to the threaded-rod holder for electrochemical tests; the experimental-HEA melting/homogenization/hot-working treatment is not assigned to SS316. Before electrochemical testing, wet ground to 600-grit SiC finish, degreased with acetone and air dried; tightly screwed to the threaded-rod holder before immersion.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 68.59,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.47,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.61,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.35,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.39,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 310,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 2500,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 536,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 178,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 200,
+              "unit": "ppm"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless-steel comparator, ASTM grain size 7 reported in Table 1.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nondeaerated solution; initial pH 8.4 before potentiodynamic polarization. No salt recipe or gas-purging procedure supplied.",
+        "solvent": "Water (explicitly aqueous)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": 8.4,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode glass cell with metal working electrode, calomel reference (SCE) and Pt-sheet counter; Luggin capillary to reduce uncompensated IR drop; Gamry Reference 600+ potentiostat/galvanostat/ZRA. Before each test, held 800 mV more negative than free potential for 2 min, followed by 30 min OCP measurement. Potentiodynamic scan from −0.25 V versus Eoc to 1.6 V versus Eoc. Separate cyclic measurements reverse at 1.5 V versus Eoc, and EIS is a separate passive-film assessment.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ breakdown potential Ebre associated with passive-film breakdown and pitting; for A35, explicitly the nucleation/growth/repassivation of metastable pits. No universal numerical current threshold is stated. Large hysteresis in the separate cyclic tests and SEM support pitting susceptibility for A35 and SS316."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.27
+      },
+      "result_note": "The paper associates this breakdown with pitting; the abstract calls the comparator stainless steel 316L, while the figure/table label is SS316. Table 1 chemistry retains both wt.% and ppm as printed, without unit conversion or balance calculation. The Figure 6 caption uses the word saturated, while the methods consistently specify a nondeaerated 3.5 wt.% NaCl solution; no saturation concentration is inferred.",
+      "failure_notes": ""
+    }
+  ]
+}

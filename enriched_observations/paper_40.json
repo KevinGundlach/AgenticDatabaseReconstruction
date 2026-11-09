@@ -1,0 +1,505 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "40_L. F. Garfias-Mesias， J. M. Sykes , C. D. S. Tuck, Corros. Sci. 38 (1996)_ p.1319.pdf",
+  "reference_number": 40,
+  "inputs": {
+    "pdf": {
+      "filename": "40_L. F. Garfias-Mesias， J. M. Sykes , C. D. S. Tuck, Corros. Sci. 38 (1996)_ p.1319.pdf",
+      "sha256": "d3d9f9debf2904919bfb1fc85ed2bbfb4fffe7f77cfa2e5dca8ab2072039af27"
+    },
+    "registry": {
+      "filename": "paper_40.json",
+      "sha256": "e0c0ae6bfd747a0430fae71bfaa75972865e4c64571e50b066ead757dbd907d9"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Wrought UNS S32550 supplied as bar about 10 mm diameter; solution treated for 2 h at 1020 °C and water quenched. Outer material removed after annealing by machining to 8.5 mm rod. End face machined smooth, further wet ground to 4000-mesh finish and degreased. A subset received 1 µm finish for microscopy/microanalysis; individual assignment to the registered scan is not specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.92,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.62,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel: Table 2 lists 47% ferrite and 53% austenite for 1020 °C treatment. Austenite grains in ferrite matrix; both grain sizes increase with annealing temperature. Ferrite enriched in Cr/Mo, austenite enriched in Ni/Cu. Phase compositions are distinct from bulk cast composition.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Hot 3.5% NaCl solution; percentage basis, solvent grade, bulk pH and gas conditioning are not stated. The water bath controls cell temperature; it is not an explicit solvent specification.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass three-electrode cell in 65 °C water bath; rod held from lid with only end face just touching solution surface to define exposed area and avoid side crevices. Platinum-wire counter; saturated calomel reference at the same solution temperature. Potentiodynamic anodic sweep at 1 mV/s; all potentials versus SCE. Some samples were etched after testing for 3 s in 40% KOH at 2 V to distinguish ferrite/austenite and examine pits; this is post-test characterization. The coupled-electrode ZRA/CPT test in FeCl3 is a separate method.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeded 50 µA/cm². Reported pits initiated in ferrite or on the ferrite side of ferrite–austenite boundaries; no independent phase-specific numerical pitting potential is assigned."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 322
+      },
+      "result_note": "Explicit text pitting potential. The experimental criterion is current density exceeding 50 μA/cm² during a 1 mV/s sweep. The source reports preferential ferrite-phase initiation; no phase-specific numerical potential is separately assigned. Bulk chemistry uses the full Table 1 cast analysis. Table 2 separately gives phase analyses and an average of both phases (e.g. Cr 25.06, Ni 5.89, Mo 2.97 wt%), differing from the cast analysis; they are not silently substituted or averaged into a new composition. Ferrite N≈0.05% is the authors’ phase-partition assumption, not a measured bulk composition. All four Ep statements concern the 2 h/water-quenched series; separate 1060 °C/5 h water/oil CPT comparisons are not imported. No Fe balance, NaCl basis conversion, chloride concentration or pH is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Wrought UNS S32550 supplied as bar about 10 mm diameter; solution treated for 2 h at 1060 °C and water quenched. Outer material removed after annealing by machining to 8.5 mm rod. End face machined smooth, further wet ground to 4000-mesh finish and degreased. A subset received 1 µm finish for microscopy/microanalysis; individual assignment to the registered scan is not specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.92,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.62,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel: Table 2 lists 51% ferrite and 49% austenite for 1060 °C treatment. Austenite grains in ferrite matrix; both grain sizes increase with annealing temperature. Ferrite enriched in Cr/Mo, austenite enriched in Ni/Cu. Phase compositions are distinct from bulk cast composition.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Hot 3.5% NaCl solution; percentage basis, solvent grade, bulk pH and gas conditioning are not stated. The water bath controls cell temperature; it is not an explicit solvent specification.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass three-electrode cell in 65 °C water bath; rod held from lid with only end face just touching solution surface to define exposed area and avoid side crevices. Platinum-wire counter; saturated calomel reference at the same solution temperature. Potentiodynamic anodic sweep at 1 mV/s; all potentials versus SCE. Some samples were etched after testing for 3 s in 40% KOH at 2 V to distinguish ferrite/austenite and examine pits; this is post-test characterization. The coupled-electrode ZRA/CPT test in FeCl3 is a separate method.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeded 50 µA/cm². Reported pits initiated in ferrite or on the ferrite side of ferrite–austenite boundaries; no independent phase-specific numerical pitting potential is assigned."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 255
+      },
+      "result_note": "Explicit text pitting potential. The experimental criterion is current density exceeding 50 μA/cm² during a 1 mV/s sweep. The source reports preferential ferrite-phase initiation; no phase-specific numerical potential is separately assigned. Bulk chemistry uses the full Table 1 cast analysis. Table 2 separately gives phase analyses and an average of both phases (e.g. Cr 25.06, Ni 5.89, Mo 2.97 wt%), differing from the cast analysis; they are not silently substituted or averaged into a new composition. Ferrite N≈0.05% is the authors’ phase-partition assumption, not a measured bulk composition. All four Ep statements concern the 2 h/water-quenched series; separate 1060 °C/5 h water/oil CPT comparisons are not imported. No Fe balance, NaCl basis conversion, chloride concentration or pH is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Wrought UNS S32550 supplied as bar about 10 mm diameter; solution treated for 2 h at 1100 °C and water quenched. Outer material removed after annealing by machining to 8.5 mm rod. End face machined smooth, further wet ground to 4000-mesh finish and degreased. A subset received 1 µm finish for microscopy/microanalysis; individual assignment to the registered scan is not specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.92,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.62,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel: Table 2 lists 60% ferrite and 40% austenite for 1100 °C treatment. Austenite grains in ferrite matrix; both grain sizes increase with annealing temperature. Ferrite enriched in Cr/Mo, austenite enriched in Ni/Cu. Phase compositions are distinct from bulk cast composition.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Hot 3.5% NaCl solution; percentage basis, solvent grade, bulk pH and gas conditioning are not stated. The water bath controls cell temperature; it is not an explicit solvent specification.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass three-electrode cell in 65 °C water bath; rod held from lid with only end face just touching solution surface to define exposed area and avoid side crevices. Platinum-wire counter; saturated calomel reference at the same solution temperature. Potentiodynamic anodic sweep at 1 mV/s; all potentials versus SCE. Some samples were etched after testing for 3 s in 40% KOH at 2 V to distinguish ferrite/austenite and examine pits; this is post-test characterization. The coupled-electrode ZRA/CPT test in FeCl3 is a separate method.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeded 50 µA/cm². Reported pits initiated in ferrite or on the ferrite side of ferrite–austenite boundaries; no independent phase-specific numerical pitting potential is assigned."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 209
+      },
+      "result_note": "Explicit text pitting potential. The experimental criterion is current density exceeding 50 μA/cm² during a 1 mV/s sweep. The source reports preferential ferrite-phase initiation; no phase-specific numerical potential is separately assigned. Bulk chemistry uses the full Table 1 cast analysis. Table 2 separately gives phase analyses and an average of both phases (e.g. Cr 25.06, Ni 5.89, Mo 2.97 wt%), differing from the cast analysis; they are not silently substituted or averaged into a new composition. Ferrite N≈0.05% is the authors’ phase-partition assumption, not a measured bulk composition. All four Ep statements concern the 2 h/water-quenched series; separate 1060 °C/5 h water/oil CPT comparisons are not imported. No Fe balance, NaCl basis conversion, chloride concentration or pH is calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Wrought UNS S32550 supplied as bar about 10 mm diameter; solution treated for 2 h at 1140 °C and water quenched. Outer material removed after annealing by machining to 8.5 mm rod. End face machined smooth, further wet ground to 4000-mesh finish and degreased. A subset received 1 µm finish for microscopy/microanalysis; individual assignment to the registered scan is not specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.92,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.62,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.024,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel: Table 2 lists 64% ferrite and 36% austenite for 1140 °C treatment. Austenite grains in ferrite matrix; both grain sizes increase with annealing temperature. Ferrite enriched in Cr/Mo, austenite enriched in Ni/Cu. Phase compositions are distinct from bulk cast composition.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Hot 3.5% NaCl solution; percentage basis, solvent grade, bulk pH and gas conditioning are not stated. The water bath controls cell temperature; it is not an explicit solvent specification.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass three-electrode cell in 65 °C water bath; rod held from lid with only end face just touching solution surface to define exposed area and avoid side crevices. Platinum-wire counter; saturated calomel reference at the same solution temperature. Potentiodynamic anodic sweep at 1 mV/s; all potentials versus SCE. Some samples were etched after testing for 3 s in 40% KOH at 2 V to distinguish ferrite/austenite and examine pits; this is post-test characterization. The coupled-electrode ZRA/CPT test in FeCl3 is a separate method.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeded 50 µA/cm². Reported pits initiated in ferrite or on the ferrite side of ferrite–austenite boundaries; no independent phase-specific numerical pitting potential is assigned."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 176
+      },
+      "result_note": "Explicit text pitting potential. The experimental criterion is current density exceeding 50 μA/cm² during a 1 mV/s sweep. The source reports preferential ferrite-phase initiation; no phase-specific numerical potential is separately assigned. Bulk chemistry uses the full Table 1 cast analysis. Table 2 separately gives phase analyses and an average of both phases (e.g. Cr 25.06, Ni 5.89, Mo 2.97 wt%), differing from the cast analysis; they are not silently substituted or averaged into a new composition. Ferrite N≈0.05% is the authors’ phase-partition assumption, not a measured bulk composition. All four Ep statements concern the 2 h/water-quenched series; separate 1060 °C/5 h water/oil CPT comparisons are not imported. No Fe balance, NaCl basis conversion, chloride concentration or pH is calculated.",
+      "failure_notes": ""
+    }
+  ]
+}

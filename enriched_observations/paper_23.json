@@ -1,0 +1,1842 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "23_Yih-Farn Kao, Tsung-Dar Lee, Swe-Kai Chen, and Yee-Shyi Chang. Corrosion Science, 52 (2010), 1026-1034.pdf",
+  "reference_number": 23,
+  "inputs": {
+    "pdf": {
+      "filename": "23_Yih-Farn Kao, Tsung-Dar Lee, Swe-Kai Chen, and Yee-Shyi Chang. Corrosion Science, 52 (2010), 1026-1034.pdf",
+      "sha256": "9a6e49528061cedc314f7d0813e9b56c225dd3b767a147cd38a2613af75bc42f"
+    },
+    "registry": {
+      "filename": "paper_23.json",
+      "sha256": "d1d2bc1725eedeaeaa92ef498afed258731fd68df673f97a82dbd51991e9598b"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0 prepared at nominal molar ratio x = 0 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 27.12,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.74,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 23.99,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.14,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.1
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Section 3.4 attributes deterioration of the C-0 passive layer to oxygen evolution rather than the pitting process; the reported Epit label is preserved with that qualification. The chloride-free polarization results are also described as transpassive in Section 3.2; this author-labeled Epit bar is not independently established here as a pitting onset. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0 prepared at nominal molar ratio x = 0 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 27.12,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.74,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 23.99,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.14,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.25
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.25
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.11
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Section 3.4 attributes deterioration of the C-0 passive layer to oxygen evolution rather than the pitting process; the reported Epit label is preserved with that qualification. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0 prepared at nominal molar ratio x = 0 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 27.12,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.74,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 23.99,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.14,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.5
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.5
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.1
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Section 3.4 attributes deterioration of the C-0 passive layer to oxygen evolution rather than the pitting process; the reported Epit label is preserved with that qualification. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0 prepared at nominal molar ratio x = 0 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 27.12,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.74,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 23.99,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.14,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 1.0
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 1.0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.13
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Section 3.4 attributes deterioration of the C-0 passive layer to oxygen evolution rather than the pitting process; the reported Epit label is preserved with that qualification. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0.25 prepared at nominal molar ratio x = 0.25 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 3.05,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 25.14,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.48,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 24.15,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.18,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.09
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. The chloride-free polarization results are also described as transpassive in Section 3.2; this author-labeled Epit bar is not independently established here as a pitting onset. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0.25 prepared at nominal molar ratio x = 0.25 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 3.05,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 25.14,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.48,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 24.15,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.18,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.25
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.25
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.12
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Section 3.4 gives a collective 0.2–0.5 V range for the three Al-bearing alloys at 0.25 M chloride, which disagrees with this high C-0.25 bar. The discrete figure reading is retained. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0.25 prepared at nominal molar ratio x = 0.25 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 3.05,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 25.14,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.48,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 24.15,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.18,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.5
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.5
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.44
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0.25 prepared at nominal molar ratio x = 0.25 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 3.05,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 25.14,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.48,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 24.15,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.18,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Single FCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 1.0
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 1.0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.25
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0.50 prepared at nominal molar ratio x = 0.5 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 5.59,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 25.25,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.13,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 22.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 24.22,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC–BCC structure, with Al/Ni-rich BCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.12
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. The chloride-free polarization results are also described as transpassive in Section 3.2; this author-labeled Epit bar is not independently established here as a pitting onset. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0.50 prepared at nominal molar ratio x = 0.5 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 5.59,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 25.25,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.13,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 22.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 24.22,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC–BCC structure, with Al/Ni-rich BCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.25
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.25
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.57
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0.50 prepared at nominal molar ratio x = 0.5 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 5.59,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 25.25,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.13,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 22.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 24.22,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC–BCC structure, with Al/Ni-rich BCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.5
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.5
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.46
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-0.50 prepared at nominal molar ratio x = 0.5 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 5.59,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 25.25,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.13,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 22.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 24.22,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Duplex FCC–BCC structure, with Al/Ni-rich BCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 1.0
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 1.0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.32
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-1.00 prepared at nominal molar ratio x = 1 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 10.02,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 23.84,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.11,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 21.99,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 23.03,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "BCC plus ordered BCC phases; Al/Ni-rich ordered BCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.11
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. The chloride-free polarization results are also described as transpassive in Section 3.2; this author-labeled Epit bar is not independently established here as a pitting onset. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-1.00 prepared at nominal molar ratio x = 1 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 10.02,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 23.84,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.11,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 21.99,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 23.03,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "BCC plus ordered BCC phases; Al/Ni-rich ordered BCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.25
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.25
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.4
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-1.00 prepared at nominal molar ratio x = 1 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 10.02,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 23.84,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.11,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 21.99,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 23.03,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "BCC plus ordered BCC phases; Al/Ni-rich ordered BCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.5
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.5
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.33
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "As-cast AlxCoCrFeNi C-1.00 prepared at nominal molar ratio x = 1 using a vacuum arc remelter. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 10.02,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 23.84,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.11,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 21.99,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 23.03,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "BCC plus ordered BCC phases; Al/Ni-rich ordered BCC phase.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 1.0
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 1.0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.25
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "SS 304 comparison; prior manufacture and heat treatment not stated. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 72.68,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.92,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.11
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. The chloride-free polarization results are also described as transpassive in Section 3.2; this author-labeled Epit bar is not independently established here as a pitting onset. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "SS 304 comparison; prior manufacture and heat treatment not stated. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 72.68,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.92,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.25
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.25
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.16
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "SS 304 comparison; prior manufacture and heat treatment not stated. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 72.68,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.92,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 0.5
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 0.5
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.55
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "SS 304 comparison; prior manufacture and heat treatment not stated. Test specimens cut to 0.8 × 0.8 × 0.3 cm and cold mounted in epoxy, exposing a 0.8 × 0.8 cm surface; ground/polished with silicon-carbide paper, rinsed and dried. The separate SEM preparation to 0.05 µm alumina is not imposed as the electrode finish.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 72.68,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.92,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaeration simultaneously provided by nitrogen gas flowing at 120 ml/min in the test solution; no duration stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "M",
+              "value": 1.0
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "unit": "M",
+          "value": 1.0
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, Pt auxiliary and commercial Ag/AgCl reference in 3 M KCl; CH Instrument Model-600A. Cathodically polarized at −0.4 V SHE for 300 s to remove oxides; OCP quasi-steady-state time 900 s; scan from −0.6 to 1.4 V SHE. Figure 9 specifies 25 °C for the chloride series. Tests performed at least three times. The separate EIS perturbation and multi-day immersion tests do not define this polarization outcome.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Epit bars in Figure 10; no fixed numerical current threshold is stated. Chloride-free high-potential response is described as transpassive; C-0 passive-layer deterioration is attributed to oxygen evolution, so its Epit label does not establish a pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.26
+      },
+      "result_note": "Approximate manual reading of the bar explicitly labeled Epit by the authors. Bulk composition uses Table 1 wt.% entries. Table 6 before/after-immersion and phase-specific at% analyses are not substituted, and no composition basis conversion is performed.",
+      "failure_notes": ""
+    }
+  ]
+}

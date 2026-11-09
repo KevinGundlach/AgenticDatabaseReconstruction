@@ -1,0 +1,1297 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "20_Y.Y. Chen, T. Duval, U.D. Hung, J.W. Yeh, H.C. Shih. Corrosion Science, 47 (2005), 2257-2279.pdf",
+  "reference_number": 20,
+  "inputs": {
+    "pdf": {
+      "filename": "20_Y.Y. Chen, T. Duval, U.D. Hung, J.W. Yeh, H.C. Shih. Corrosion Science, 47 (2005), 2257-2279.pdf",
+      "sha256": "db965268794ac14faa21c0cced0b7d41a06c0bfc0d6c44e9aa6ffab23968b86f"
+    },
+    "registry": {
+      "filename": "paper_20.json",
+      "sha256": "220dd31eff0f557130cf935d720f9f423d38d28b196dc6a9370ddf4c7c1c87db"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Non-equal-mole seven-component Cu0.5NiAlCoCrFeSi HEA. Pure elements arc melted on a water-cooled copper hearth under purified argon; ingots repeatedly turned over, remelted and solidified to obtain a completely alloyed state; solidified in a water-cooled copper mold. Bulk cut with a water-cooled grinding wheel into 2 mm thick, 1.91 cm long × 0.89 cm wide pieces; cold mounted in epoxy with exposed area 1.7 cm². Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 17.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 10.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 8.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 8.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 18.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Reported HEA solidification structure is almost entirely amorphous: dendritic phase mainly amorphous with a small BCC component; interdendritic phase amorphous with small amounts of nanoscale precipitates. The TEM passage calls its specimen as-stamped, without supplying a stamping schedule; no separate stamping treatment is stated for polarization specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl and H2SO4 (Merck), as applicable, dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The paper says pH of other solutions was adjusted with HCl or NaOH, but does not provide the resulting pH for this mixture/concentration.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.58
+      },
+      "result_note": "Explicit pitting potential. The paper reports three tests per condition, but does not supply individual replicate potentials or uncertainties here. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Non-equal-mole seven-component Cu0.5NiAlCoCrFeSi HEA. Pure elements arc melted on a water-cooled copper hearth under purified argon; ingots repeatedly turned over, remelted and solidified to obtain a completely alloyed state; solidified in a water-cooled copper mold. Bulk cut with a water-cooled grinding wheel into 2 mm thick, 1.91 cm long × 0.89 cm wide pieces; cold mounted in epoxy with exposed area 1.7 cm². Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 17.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 10.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 8.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 8.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 18.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Reported HEA solidification structure is almost entirely amorphous: dendritic phase mainly amorphous with a small BCC component; interdendritic phase amorphous with small amounts of nanoscale precipitates. The TEM passage calls its specimen as-stamped, without supplying a stamping schedule; no separate stamping treatment is stated for polarization specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl (Merck) dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The source reports pH 7.4 for 1 M NaCl.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7.4,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.25
+      },
+      "result_note": "Explicit pitting potential. The paper reports three tests per condition, but does not supply individual replicate potentials or uncertainties here. Source conflict: Table 3 and associated text give -0.25 V(SCE), while Table 5 prints -0.49 V(SCE) for the same HEA 1M NaCl condition. Both are retained, with the dedicated Epit Table 3 reading primary; no reference conversion or correction is inferred. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "AISI type-304 stainless steel (304S); a 1-inch diameter rod machined to 1.22 cm diameter, then cut into 1-cm-long pieces; cold mounted in epoxy with exposed area 1.17 cm². Earlier manufacturing and heat treatment are not stated. Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.77,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.35,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.67,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0.11,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl and H2SO4 (Merck), as applicable, dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The paper says pH of other solutions was adjusted with HCl or NaOH, but does not provide the resulting pH for this mixture/concentration.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.46
+      },
+      "result_note": "Explicit pitting potential. The paper reports three tests per condition, but does not supply individual replicate potentials or uncertainties here. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "AISI type-304 stainless steel (304S); a 1-inch diameter rod machined to 1.22 cm diameter, then cut into 1-cm-long pieces; cold mounted in epoxy with exposed area 1.17 cm². Earlier manufacturing and heat treatment are not stated. Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.77,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.35,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.67,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 0.11,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl (Merck) dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The source reports pH 7.4 for 1 M NaCl.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7.4,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.17
+      },
+      "result_note": "Explicit pitting potential. The paper reports three tests per condition, but does not supply individual replicate potentials or uncertainties here. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Non-equal-mole seven-component Cu0.5NiAlCoCrFeSi HEA. Pure elements arc melted on a water-cooled copper hearth under purified argon; ingots repeatedly turned over, remelted and solidified to obtain a completely alloyed state; solidified in a water-cooled copper mold. Bulk cut with a water-cooled grinding wheel into 2 mm thick, 1.91 cm long × 0.89 cm wide pieces; cold mounted in epoxy with exposed area 1.7 cm². Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 17.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 10.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 8.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 8.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 18.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Reported HEA solidification structure is almost entirely amorphous: dendritic phase mainly amorphous with a small BCC component; interdendritic phase amorphous with small amounts of nanoscale precipitates. The TEM passage calls its specimen as-stamped, without supplying a stamping schedule; no separate stamping treatment is stated for polarization specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl and H2SO4 (Merck), as applicable, dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The paper says pH of other solutions was adjusted with HCl or NaOH, but does not provide the resulting pH for this mixture/concentration.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 1,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.28
+      },
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. For the acid/NaCl series, the authors explicitly describe the varied Figure 13/Table 5 concentration as chloride concentration in the associated text (pp. 18–19); the chloride field retains that reported association, without a concentration calculation. The pH 0.5 reported for chloride-free 1 N H2SO4 is not assigned to these mixed solutions. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Non-equal-mole seven-component Cu0.5NiAlCoCrFeSi HEA. Pure elements arc melted on a water-cooled copper hearth under purified argon; ingots repeatedly turned over, remelted and solidified to obtain a completely alloyed state; solidified in a water-cooled copper mold. Bulk cut with a water-cooled grinding wheel into 2 mm thick, 1.91 cm long × 0.89 cm wide pieces; cold mounted in epoxy with exposed area 1.7 cm². Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 17.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 10.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 8.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 8.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 18.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Reported HEA solidification structure is almost entirely amorphous: dendritic phase mainly amorphous with a small BCC component; interdendritic phase amorphous with small amounts of nanoscale precipitates. The TEM passage calls its specimen as-stamped, without supplying a stamping schedule; no separate stamping treatment is stated for polarization specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl and H2SO4 (Merck), as applicable, dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The paper says pH of other solutions was adjusted with HCl or NaOH, but does not provide the resulting pH for this mixture/concentration.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.6,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.23
+      },
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. For the acid/NaCl series, the authors explicitly describe the varied Figure 13/Table 5 concentration as chloride concentration in the associated text (pp. 18–19); the chloride field retains that reported association, without a concentration calculation. The pH 0.5 reported for chloride-free 1 N H2SO4 is not assigned to these mixed solutions. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Non-equal-mole seven-component Cu0.5NiAlCoCrFeSi HEA. Pure elements arc melted on a water-cooled copper hearth under purified argon; ingots repeatedly turned over, remelted and solidified to obtain a completely alloyed state; solidified in a water-cooled copper mold. Bulk cut with a water-cooled grinding wheel into 2 mm thick, 1.91 cm long × 0.89 cm wide pieces; cold mounted in epoxy with exposed area 1.7 cm². Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 17.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 10.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 8.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 8.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 18.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Reported HEA solidification structure is almost entirely amorphous: dendritic phase mainly amorphous with a small BCC component; interdendritic phase amorphous with small amounts of nanoscale precipitates. The TEM passage calls its specimen as-stamped, without supplying a stamping schedule; no separate stamping treatment is stated for polarization specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl and H2SO4 (Merck), as applicable, dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The paper says pH of other solutions was adjusted with HCl or NaOH, but does not provide the resulting pH for this mixture/concentration.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.21
+      },
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. For the acid/NaCl series, the authors explicitly describe the varied Figure 13/Table 5 concentration as chloride concentration in the associated text (pp. 18–19); the chloride field retains that reported association, without a concentration calculation. The pH 0.5 reported for chloride-free 1 N H2SO4 is not assigned to these mixed solutions. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Non-equal-mole seven-component Cu0.5NiAlCoCrFeSi HEA. Pure elements arc melted on a water-cooled copper hearth under purified argon; ingots repeatedly turned over, remelted and solidified to obtain a completely alloyed state; solidified in a water-cooled copper mold. Bulk cut with a water-cooled grinding wheel into 2 mm thick, 1.91 cm long × 0.89 cm wide pieces; cold mounted in epoxy with exposed area 1.7 cm². Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 17.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 10.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 8.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 8.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 18.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Reported HEA solidification structure is almost entirely amorphous: dendritic phase mainly amorphous with a small BCC component; interdendritic phase amorphous with small amounts of nanoscale precipitates. The TEM passage calls its specimen as-stamped, without supplying a stamping schedule; no separate stamping treatment is stated for polarization specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl and H2SO4 (Merck), as applicable, dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The paper says pH of other solutions was adjusted with HCl or NaOH, but does not provide the resulting pH for this mixture/concentration.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.4,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.215
+      },
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. For the acid/NaCl series, the authors explicitly describe the varied Figure 13/Table 5 concentration as chloride concentration in the associated text (pp. 18–19); the chloride field retains that reported association, without a concentration calculation. The pH 0.5 reported for chloride-free 1 N H2SO4 is not assigned to these mixed solutions. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Non-equal-mole seven-component Cu0.5NiAlCoCrFeSi HEA. Pure elements arc melted on a water-cooled copper hearth under purified argon; ingots repeatedly turned over, remelted and solidified to obtain a completely alloyed state; solidified in a water-cooled copper mold. Bulk cut with a water-cooled grinding wheel into 2 mm thick, 1.91 cm long × 0.89 cm wide pieces; cold mounted in epoxy with exposed area 1.7 cm². Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 17.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 10.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 8.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 8.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 18.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Reported HEA solidification structure is almost entirely amorphous: dendritic phase mainly amorphous with a small BCC component; interdendritic phase amorphous with small amounts of nanoscale precipitates. The TEM passage calls its specimen as-stamped, without supplying a stamping schedule; no separate stamping treatment is stated for polarization specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl and H2SO4 (Merck), as applicable, dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The paper says pH of other solutions was adjusted with HCl or NaOH, but does not provide the resulting pH for this mixture/concentration.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.1,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.24
+      },
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. For the acid/NaCl series, the authors explicitly describe the varied Figure 13/Table 5 concentration as chloride concentration in the associated text (pp. 18–19); the chloride field retains that reported association, without a concentration calculation. The pH 0.5 reported for chloride-free 1 N H2SO4 is not assigned to these mixed solutions. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Non-equal-mole seven-component Cu0.5NiAlCoCrFeSi HEA. Pure elements arc melted on a water-cooled copper hearth under purified argon; ingots repeatedly turned over, remelted and solidified to obtain a completely alloyed state; solidified in a water-cooled copper mold. Bulk cut with a water-cooled grinding wheel into 2 mm thick, 1.91 cm long × 0.89 cm wide pieces; cold mounted in epoxy with exposed area 1.7 cm². Before each electrochemical test, mechanically polished with 600–1500-grit emery cloths, thoroughly cleaned with distilled water and acetone, and finally dried in air.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 17.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 10.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 8.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 8.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 18.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Reported HEA solidification structure is almost entirely amorphous: dendritic phase mainly amorphous with a small BCC component; interdendritic phase amorphous with small amounts of nanoscale precipitates. The TEM passage calls its specimen as-stamped, without supplying a stamping schedule; no separate stamping treatment is stated for polarization specimens.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade NaCl and H2SO4 (Merck), as applicable, dissolved in distilled water. Deaerated by bubbling purified nitrogen before and throughout polarization; duration not stated. The paper says pH of other solutions was adjusted with HCl or NaOH, but does not provide the resulting pH for this mixture/concentration.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.01,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.01,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "anodic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working electrode, saturated calomel reference and smooth platinum-sheet counter; EG&G model 273 potentiostat/galvanostat with computer interface. Specimen cathodically polarized at −2.0 V relative to Ecorr for 1 min to reduce surface oxides. Test cell contained 1000 ml of constantly stirred solution under thermostatic conditions, at reported room temperature approximately 25 °C. Anodic scan automatically terminated at 100 mA anodic current or E = 1.241 V, whichever occurred first. Three tests per condition. The separate cyclic-sulfate scans and +100 mV/15 min imaging treatments are not the registered anodic measurements.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at which a continuous increase in anodic current indicated sustained localized breakdown of the passive film. The 100 mA/1.241 V values are scan-termination limits, not the pitting criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.22
+      },
+      "result_note": "Figure 13 explicitly labels the corresponding chloride-containing results Epit; the chloride-free sulfate Eb is excluded. Composition is the Table 1 ICP-AES wt% analysis; no balance or atom/weight conversion is calculated. Table dashes remain null. The nominal at% example used to calculate equivalent weight is not substituted for the measured analysis. For the acid/NaCl series, the authors explicitly describe the varied Figure 13/Table 5 concentration as chloride concentration in the associated text (pp. 18–19); the chloride field retains that reported association, without a concentration calculation. The pH 0.5 reported for chloride-free 1 N H2SO4 is not assigned to these mixed solutions. The numerical 25 °C test temperature is explicitly reported as approximate room temperature; it is not an assumed typical temperature. Individual replicate potentials and a statistical aggregation rule are not supplied.",
+      "failure_notes": ""
+    }
+  ]
+}

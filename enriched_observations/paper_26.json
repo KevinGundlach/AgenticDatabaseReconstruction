@@ -1,0 +1,883 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "26_C.P. Lee, C.C. Chang, Y.Y. Chen, J.W. Yeh, and H.C. Shih. Corrosion Science, 50 (2008) 2053-2060.pdf",
+  "reference_number": 26,
+  "inputs": {
+    "pdf": {
+      "filename": "26_C.P. Lee, C.C. Chang, Y.Y. Chen, J.W. Yeh, and H.C. Shih. Corrosion Science, 50 (2008) 2053-2060.pdf",
+      "sha256": "a564bfd98b7676c5111c826957fe3f8ebd767de2562115c801ac7a9981efdf44"
+    },
+    "registry": {
+      "filename": "paper_26.json",
+      "sha256": "430c3bf520622edcfdc8a2557f6672023011af2f967b1c513cef502aca4bb372"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "As-cast CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 38.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.33,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "FCC solid solution with alpha-FeCr phase identified in Figure 2.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 19
+      },
+      "result_note": "Endpoint for the named alloy from a condition-specific two-endpoint statement. The Al0.3 outcome is only described as about equal to Al0.5 and is not assigned a number. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "As-cast Al0.5CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 5.78,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 35.83,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 23.54,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 12.56,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single BCC structure.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": -123
+      },
+      "result_note": "Endpoint for the named alloy from a condition-specific two-endpoint statement. The Al0.3 outcome is only described as about equal to Al0.5 and is not assigned a number. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "As-cast CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 38.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.33,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "FCC solid solution with alpha-FeCr phase identified in Figure 2.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 1172
+      },
+      "result_note": "The table explicitly labels this value Epit. Section 3.1 also discusses chloride-free acid breakdown as transpassive; the author-labeled Epit is preserved with that physical-meaning qualification. Acid-series text explicitly describes the varying concentration as chloride concentration; values are retained on that reported basis without calculation. Zero denotes the source’s chloride-free acid comparison. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "As-cast Al0.3CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 3.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 36.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 12.86,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mixed FCC/BCC phases.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 1164
+      },
+      "result_note": "The table explicitly labels this value Epit. Section 3.1 also discusses chloride-free acid breakdown as transpassive; the author-labeled Epit is preserved with that physical-meaning qualification. Acid-series text explicitly describes the varying concentration as chloride concentration; values are retained on that reported basis without calculation. Zero denotes the source’s chloride-free acid comparison. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "As-cast CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 38.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.33,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "FCC solid solution with alpha-FeCr phase identified in Figure 2.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.1,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 1180
+      },
+      "result_note": "The table explicitly labels this value Epit. Acid-series text explicitly describes the varying concentration as chloride concentration; values are retained on that reported basis without calculation. Zero denotes the source’s chloride-free acid comparison. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "As-cast Al0.3CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 3.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 36.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 12.86,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mixed FCC/BCC phases.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.1,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 1156
+      },
+      "result_note": "The table explicitly labels this value Epit. Acid-series text explicitly describes the varying concentration as chloride concentration; values are retained on that reported basis without calculation. Zero denotes the source’s chloride-free acid comparison. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "As-cast CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 38.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.33,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "FCC solid solution with alpha-FeCr phase identified in Figure 2.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.25,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.25,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 589
+      },
+      "result_note": "The table explicitly labels this value Epit. The separate cyclic test in Fig. 5(a) shows negative hysteresis and is described as not susceptible to localized corrosion; it is not merged with this potentiodynamic result. Acid-series text explicitly describes the varying concentration as chloride concentration; values are retained on that reported basis without calculation. Zero denotes the source’s chloride-free acid comparison. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "As-cast Al0.3CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 3.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 36.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 12.86,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mixed FCC/BCC phases.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.25,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.25,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 250
+      },
+      "result_note": "The table explicitly labels this value Epit. Acid-series text explicitly describes the varying concentration as chloride concentration; values are retained on that reported basis without calculation. Zero denotes the source’s chloride-free acid comparison. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "As-cast CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 23.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 38.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.33,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "FCC solid solution with alpha-FeCr phase identified in Figure 2.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 475
+      },
+      "result_note": "The table explicitly labels this value Epit. Acid-series text explicitly describes the varying concentration as chloride concentration; values are retained on that reported basis without calculation. Zero denotes the source’s chloride-free acid comparison. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "As-cast Al0.3CrFe1.5MnNi0.5 made from Al, Cr, Fe, Mn and Ni granules above 99 wt% purity, with the stated nominal mole proportions. Arc melted at 500 A on water-cooled copper hearth; melting/casting at 0.01 atm after three argon purges, with repeated remelting/solidification for homogeneity. Ingots approximately 50 mm diameter × 20 mm thick. Cylinders electric-arc-line cut from bulk and cold mounted in epoxy with 0.5 cm² exposed; mechanically polished through 240–1200-grit SiC and cleaned in acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 3.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.79,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 36.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 24.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 12.86,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Mixed FCC/BCC phases.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing; duration and pH unreported.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Specimen working electrode, Ag/AgCl reference in 3 M KCl and 4 cm² Pt-sheet counter; AUTOLAB PGSTAT30. Free corrosion for 30 min to quasi-stationary OCP, then cathodic polarization at −0.2 V for 300 s to reduce surface oxides. Potentiodynamic scan at 1 mV/s from reported −0.5 V to 1.5 V versus OCP; displayed potentials are on SHE scale. Numerical electrolyte temperature is not supplied. Separate cyclic tests use 10 mV/s, −0.75 to 0.95 V and reversal; those are not substituted for the registered potentiodynamic tests.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sharp increase in anodic current indicating sustained localized breakdown of the passive film; the paper explicitly labels Table 3 values Epit. Chloride-free acid breakdown is also described as transpassive near oxygen evolution, retained as a scientific qualification."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 257
+      },
+      "result_note": "The table explicitly labels this value Epit. Acid-series text explicitly describes the varying concentration as chloride concentration; values are retained on that reported basis without calculation. Zero denotes the source’s chloride-free acid comparison. Table 1 supplies bulk wt% chemistry; no normalization or missing balance is calculated. The source gives no numerical test temperature, so test_temperature remains null. Reference filling KCl is not a test solute.",
+      "failure_notes": ""
+    }
+  ]
+}

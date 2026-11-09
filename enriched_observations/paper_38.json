@@ -1,0 +1,2704 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "38_H. Tsuge , Y. Tarutani, T. Kudo , Corrosion 44 (1988)_ p. 305.pdf",
+  "reference_number": 38,
+  "inputs": {
+    "pdf": {
+      "filename": "38_H. Tsuge , Y. Tarutani, T. Kudo , Corrosion 44 (1988)_ p. 305.pdf",
+      "sha256": "e2a463f86f5f92064223c18379755f5484db2b3f0b4ca774e83cae62fe1d91f6"
+    },
+    "registry": {
+      "filename": "paper_38.json",
+      "sha256": "0eea2833c86bae2302822e41ae37fdeae5cb1703abc1a37ec17ac33353c4d3e5"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy A; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.014,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.72,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.57,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.89,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.22,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.047,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, without the H2S addition shown in the paired series. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 190
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy A; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.014,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.72,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.57,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.89,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.22,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.047,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test. Figure 6 filled-circle series includes H2S at 0.01 atm partial pressure.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "solute": "H2S (gas partial pressure)",
+            "amount": {
+              "value": 0.01,
+              "unit": "atm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, with 0.01 atm H2S. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 155
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy B; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.74,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.58,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.72,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.16,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.077,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, without the H2S addition shown in the paired series. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 225
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy B; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.74,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.58,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.72,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.16,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.077,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test. Figure 6 filled-circle series includes H2S at 0.01 atm partial pressure.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "solute": "H2S (gas partial pressure)",
+            "amount": {
+              "value": 0.01,
+              "unit": "atm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, with 0.01 atm H2S. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 165
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy C; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.77,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.6,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.92,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.22,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.123,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, without the H2S addition shown in the paired series. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 225
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy C; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.77,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.6,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.92,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.22,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.123,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test. Figure 6 filled-circle series includes H2S at 0.01 atm partial pressure.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "solute": "H2S (gas partial pressure)",
+            "amount": {
+              "value": 0.01,
+              "unit": "atm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, with 0.01 atm H2S. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 160
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy D; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.016,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.83,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.56,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.75,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.3,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.137,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, without the H2S addition shown in the paired series. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 280
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy D; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.016,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.83,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.56,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.75,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.3,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.137,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test. Figure 6 filled-circle series includes H2S at 0.01 atm partial pressure.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "solute": "H2S (gas partial pressure)",
+            "amount": {
+              "value": 0.01,
+              "unit": "atm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, with 0.01 atm H2S. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 185
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy E; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.14,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.164,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, without the H2S addition shown in the paired series. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 355
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy E; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.14,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.164,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test. Figure 6 filled-circle series includes H2S at 0.01 atm partial pressure.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "solute": "H2S (gas partial pressure)",
+            "amount": {
+              "value": 0.01,
+              "unit": "atm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, with 0.01 atm H2S. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 240
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy F; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.16,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.238,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, without the H2S addition shown in the paired series. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 725
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy F; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.16,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.238,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test. Figure 6 filled-circle series includes H2S at 0.01 atm partial pressure.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "solute": "H2S (gas partial pressure)",
+            "amount": {
+              "value": 0.01,
+              "unit": "atm"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 6 base metal, with 0.01 atm H2S. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 465
+      },
+      "result_note": "Approximate manual Epit reading. Alloy identity follows the N content in Table 1; source criterion is the potential of dramatic anodic current increase. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy D; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Low-temperature HAZ simulation: subsequently heated at 500 °C for 1 h (Figure 14). Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.016,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.83,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.56,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.75,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.3,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.137,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N. No individual precipitate analysis is assigned to this exact treatment.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 14 upper-panel pitting potential after one-hour thermal treatment. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 255
+      },
+      "result_note": "Approximate manual pitting-potential reading from the upper panel. The lower-panel corrosion rate is a different quantity. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy D; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Low-temperature HAZ simulation: subsequently heated at 600 °C for 1 h (Figure 14). Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.016,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.83,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.56,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.75,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.3,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.137,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N. No individual precipitate analysis is assigned to this exact treatment.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 14 upper-panel pitting potential after one-hour thermal treatment. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 245
+      },
+      "result_note": "Approximate manual pitting-potential reading from the upper panel. The lower-panel corrosion rate is a different quantity. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy D; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Low-temperature HAZ simulation: subsequently heated at 700 °C for 1 h (Figure 14). Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.016,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.83,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.56,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.75,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.3,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.137,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N. Figure 12 identifies Cr23C6 precipitation for the 700 °C/1 h state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 14 upper-panel pitting potential after one-hour thermal treatment. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 160
+      },
+      "result_note": "Approximate manual pitting-potential reading from the upper panel. The lower-panel corrosion rate is a different quantity. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy D; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Low-temperature HAZ simulation: subsequently heated at 800 °C for 1 h (Figure 14). Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.016,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.83,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.56,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.75,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.3,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.137,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N. Figure 12 identifies σ-phase and Cr23C6 for the 800 °C/1 h state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 14 upper-panel pitting potential after one-hour thermal treatment. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 90
+      },
+      "result_note": "Approximate manual pitting-potential reading from the upper panel. The lower-panel corrosion rate is a different quantity. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy D; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. Low-temperature HAZ simulation: subsequently heated at 900 °C for 1 h (Figure 14). Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.016,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.83,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.56,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.75,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.3,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.137,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless steel, ferrite (α) and austenite (γ); phase proportions vary with N. No individual precipitate analysis is assigned to this exact treatment.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 14 upper-panel pitting potential after one-hour thermal treatment. Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 60
+      },
+      "result_note": "Approximate manual pitting-potential reading from the upper panel. The lower-panel corrosion rate is a different quantity. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy A; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. High-temperature HAZ(B) simulation by induction heating in Ar to selected peak 1375 °C; Figure 2 cooling pattern takes 10 s from 800 to 500 °C, measured by surface-contact thermocouple. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.014,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.72,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.57,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.89,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.22,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.047,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "High-temperature HAZ(B): alloys with N ≤0.077% are described as single/almost single α-phase after heating, with Cr-depleted α/α boundaries from Cr23C6 and/or Cr2N precipitation.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 18 lower-panel pitting potential of simulated high-temperature HAZ(B). Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 110
+      },
+      "result_note": "Approximate manual pitting-potential reading. This heat-affected condition is distinct from the base metal in Figure 6. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy B; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. High-temperature HAZ(B) simulation by induction heating in Ar to selected peak 1375 °C; Figure 2 cooling pattern takes 10 s from 800 to 500 °C, measured by surface-contact thermocouple. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.74,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.58,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.72,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.16,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.077,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "High-temperature HAZ(B): alloys with N ≤0.077% are described as single/almost single α-phase after heating, with Cr-depleted α/α boundaries from Cr23C6 and/or Cr2N precipitation.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 18 lower-panel pitting potential of simulated high-temperature HAZ(B). Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 160
+      },
+      "result_note": "Approximate manual pitting-potential reading. This heat-affected condition is distinct from the base metal in Figure 6. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy C; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. High-temperature HAZ(B) simulation by induction heating in Ar to selected peak 1375 °C; Figure 2 cooling pattern takes 10 s from 800 to 500 °C, measured by surface-contact thermocouple. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.01,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.77,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.6,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.92,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.22,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.123,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "High-temperature HAZ(B): transformation to single α-phase above 1350 °C, then needle-shaped γ precipitation on cooling; more N promotes γ formation. An exact phase fraction is not assigned to this record.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 18 lower-panel pitting potential of simulated high-temperature HAZ(B). Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 210
+      },
+      "result_note": "Approximate manual pitting-potential reading. This heat-affected condition is distinct from the base metal in Figure 6. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy D; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. High-temperature HAZ(B) simulation by induction heating in Ar to selected peak 1375 °C; Figure 2 cooling pattern takes 10 s from 800 to 500 °C, measured by surface-contact thermocouple. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.016,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.49,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.83,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.56,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.75,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.3,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.137,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "High-temperature HAZ(B): transformation to single α-phase above 1350 °C, then needle-shaped γ precipitation on cooling; more N promotes γ formation. An exact phase fraction is not assigned to this record.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 18 lower-panel pitting potential of simulated high-temperature HAZ(B). Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 335
+      },
+      "result_note": "Approximate manual pitting-potential reading. This heat-affected condition is distinct from the base metal in Figure 6. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy E; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. High-temperature HAZ(B) simulation by induction heating in Ar to selected peak 1375 °C; Figure 2 cooling pattern takes 10 s from 800 to 500 °C, measured by surface-contact thermocouple. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.14,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.164,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "High-temperature HAZ(B): transformation to single α-phase above 1350 °C, then needle-shaped γ precipitation on cooling; more N promotes γ formation. An exact phase fraction is not assigned to this record.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 18 lower-panel pitting potential of simulated high-temperature HAZ(B). Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 345
+      },
+      "result_note": "Approximate manual pitting-potential reading. This heat-affected condition is distinct from the base metal in Figure 6. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Laboratory-melted alloy F; ingots forged and hot rolled to 5 mm plate, solution heat treated at 1050 °C for 30 min, water quenched. High-temperature HAZ(B) simulation by induction heating in Ar to selected peak 1375 °C; Figure 2 cooling pattern takes 10 s from 800 to 500 °C, measured by surface-contact thermocouple. Pitting specimen: disk 15 mm diameter × 2 mm thick, polished with No. 600 emery, washed with water and alcohol, then degreased with acetone.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.003,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.7,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.16,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.238,
+              "unit": "mass %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "High-temperature HAZ(B): transformation to single α-phase above 1350 °C, then needle-shaped γ precipitation on cooling; more N promotes γ formation. An exact phase fraction is not assigned to this record.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 5% NaCl solution; percentage basis, gas used for deaeration, duration and numerical pH are not specified for the potential test.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Potentiostat, SCE reference and platinum counter electrode; anodic sweep at 20 mV/min in deaerated 5% NaCl at 60 °C. Figure 18 lower-panel pitting potential of simulated high-temperature HAZ(B). Initial hold and starting potential are not specified. FeCl3 CPT, ASTM boiling-acid corrosion and stressed autoclave procedures are separate tests.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Vc′: potential at which anodic current density increases dramatically because of pitting; no fixed numerical current threshold is supplied."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 395
+      },
+      "result_note": "Approximate manual pitting-potential reading. This heat-affected condition is distinct from the base metal in Figure 6. Table 1 gives bulk mass %; Fe balance is not printed and is not calculated. Preparation heating temperatures are distinct from the 60 °C test. NaCl percentage basis is not upgraded to wt%, chloride molarity is not calculated, and the SCC-autoclave nitrogen/vacuum preparation is not assigned to the pitting cell.",
+      "failure_notes": ""
+    }
+  ]
+}

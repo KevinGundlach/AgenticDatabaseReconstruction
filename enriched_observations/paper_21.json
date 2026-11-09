@@ -1,0 +1,1065 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "21_K. Sugimoto, Y. Sawada, Corrosion 32 (1976)_ p. 347.pdf",
+  "reference_number": 21,
+  "inputs": {
+    "pdf": {
+      "filename": "21_K. Sugimoto, Y. Sawada, Corrosion 32 (1976)_ p. 347.pdf",
+      "sha256": "5afa88b9c0a53066c1097c07b66ed9c217112e93372991b561ab4f7df6ff5092"
+    },
+    "registry": {
+      "filename": "paper_21.json",
+      "sha256": "c451b014a603e74f6898bb3b4121ce42e152934fc81e46a6bf16acc379cefa34"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.053,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.58,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "MoO4^2- (added as Na2MoO4)",
+            "amount": {
+              "unit": "mol/l",
+              "value": 0.02
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.48
+      },
+      "result_note": "Approximate manual reading of the discrete marker; connecting line is not an additional observation. Molybdate amount is the reported ion concentration; no salt/ion conversion or pH interpolation is performed. The pH 6.68 example applies to 0.1 M NaCl + 0.1 M Na2MoO4; other exact mixture pH values are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.053,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.58,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "MoO4^2- (added as Na2MoO4)",
+            "amount": {
+              "unit": "mol/l",
+              "value": 0.04
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.55
+      },
+      "result_note": "Approximate manual reading of the discrete marker; connecting line is not an additional observation. Molybdate amount is the reported ion concentration; no salt/ion conversion or pH interpolation is performed. The pH 6.68 example applies to 0.1 M NaCl + 0.1 M Na2MoO4; other exact mixture pH values are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.053,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.58,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "MoO4^2- (added as Na2MoO4)",
+            "amount": {
+              "unit": "mol/l",
+              "value": 0.06
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.61
+      },
+      "result_note": "Approximate manual reading of the discrete marker; connecting line is not an additional observation. Molybdate amount is the reported ion concentration; no salt/ion conversion or pH interpolation is performed. The pH 6.68 example applies to 0.1 M NaCl + 0.1 M Na2MoO4; other exact mixture pH values are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.053,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.58,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "MoO4^2- (added as Na2MoO4)",
+            "amount": {
+              "unit": "mol/l",
+              "value": 0.08
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.7
+      },
+      "result_note": "Approximate manual reading of the discrete marker; connecting line is not an additional observation. Molybdate amount is the reported ion concentration; no salt/ion conversion or pH interpolation is performed. The pH 6.68 example applies to 0.1 M NaCl + 0.1 M Na2MoO4; other exact mixture pH values are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.053,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.58,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "MoO4^2- (added as Na2MoO4)",
+            "amount": {
+              "unit": "mol/l",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": 6.68,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.78
+      },
+      "result_note": "Approximate manual reading of the discrete marker; connecting line is not an additional observation. Molybdate amount is the reported ion concentration; no salt/ion conversion or pH interpolation is performed. The pH 6.68 example applies to 0.1 M NaCl + 0.1 M Na2MoO4; other exact mixture pH values are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.053,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.58,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "MoO4^2- (added as Na2MoO4)",
+            "amount": {
+              "unit": "mol/l",
+              "value": 0.11
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.83
+      },
+      "result_note": "Approximate manual reading of the discrete marker; connecting line is not an additional observation. Molybdate amount is the reported ion concentration; no salt/ion conversion or pH interpolation is performed. The pH 6.68 example applies to 0.1 M NaCl + 0.1 M Na2MoO4; other exact mixture pH values are not supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.053,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.58,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.521
+      },
+      "result_note": "One separately identified alloy outcome from the shared numerical statement; no threshold was inferred from the continuous curves.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni-5Mo. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.059,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.46,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.44,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.96,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.66,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "value": 0.521
+      },
+      "result_note": "One separately identified alloy outcome from the shared numerical statement; no threshold was inferred from the continuous curves.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Rolled austenitic steel sheet, 20Cr-25Ni. Electrochemical specimens 40 × 20 × 1.5 mm; annealed in vacuo at 1050 °C for 2 h and water quenched at 0 °C. Mechanically polished with emery paper through No. 6/0, cloth polished using diluted chromium-oxide suspension, degreased with absolute ethyl alcohol, washed in distilled water, and air-blast dried. Masked with Teflon seal tape on an epoxy-resin undercoating, leaving 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.053,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.54,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.06,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.58,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.01,
+              "unit": "Wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Solutions described as approximately neutral; deaerated by bubbling pure nitrogen for more than 30 min. Continuation of gas flow during measurement is not stated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "MoO4^2- (added as Na2MoO4)",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Potential regulated by potentiostat and successively increased from corrosion potential in 25 mV steps; current recorded after holding each setting for 1 min, under stationary-state conditions. Measured with saturated calomel reference but paper reports potentials versus NHE. No potential-reference conversion is performed. ESCA specimen passivation at +0.946 V for 60 min is a separate treatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "minute"
+        },
+        "pitting_criterion": "Authors’ pitting-initiation potential from anodic polarization; no fixed numerical current criterion is specified. Distinct from transpassive dissolution/oxygen evolution at approximately +1.15 V when pitting is inhibited."
+      },
+      "pitting_potential": {
+        "unit": "V (NHE)",
+        "max": 0.97
+      },
+      "result_note": "The authors state that pitting initiation could not be prevented above +0.97 V even at 1.0M molybdate. Stored as an upper limiting potential, not an exact measured onset. This is the reported upper limiting potential above which bromide pitting could not be prevented even with 1.0 M molybdate, rather than a newly selected exact onset.",
+      "failure_notes": ""
+    }
+  ]
+}

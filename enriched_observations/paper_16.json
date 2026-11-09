@@ -1,0 +1,2548 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "16_S. Azuma et al. , in Proceedings of the International Conference on Stainless Steels, Iron and Steel Institute of Japan, Tokyo, p. 133, 1991.pdf",
+  "reference_number": 16,
+  "inputs": {
+    "pdf": {
+      "filename": "16_S. Azuma et al. , in Proceedings of the International Conference on Stainless Steels, Iron and Steel Institute of Japan, Tokyo, p. 133, 1991.pdf",
+      "sha256": "820a43a172e4230523bf87758a33300b6fbf6664432075dcc083382c09bd0214"
+    },
+    "registry": {
+      "filename": "paper_16.json",
+      "sha256": "cdb502feb2b7645a0fcd4e0ab19803454ba7f87cc59207504beb3fe448a903bb"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Alloy-design specimen, nominal 27.5% Cr–3.8% Mo with 6–8% Ni; simulated heat-affected zone subjected to the Figure 2 thermal cycle: peak 1648 K for 1 s, cooling at 30 K/s. The manufacturing route of the subsequently developed P/M tube is not automatically assigned to these alloy-design specimens.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.135
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless-steel alloy-design series. The source associates low-Ni HAZ degradation with Cr carbonitride precipitation and high-Ni degradation with sigma precipitation; the individual markers are not assigned a particular precipitate state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 353,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Figure 4 simulated HAZ at 353 K, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.49
+      },
+      "result_note": "Approximate graphical reading. Individual Ni contents are not supplied for the markers; no series identity is invented. Ni 6–8% is the reported range across this Figure 4 specimen set, not an individually resolved Ni analysis. Nitrogen is the approximate registered graphical coordinate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Alloy-design specimen, nominal 27.5% Cr–3.8% Mo with 6–8% Ni; simulated heat-affected zone subjected to the Figure 2 thermal cycle: peak 1648 K for 1 s, cooling at 30 K/s. The manufacturing route of the subsequently developed P/M tube is not automatically assigned to these alloy-design specimens.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.17
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless-steel alloy-design series. The source associates low-Ni HAZ degradation with Cr carbonitride precipitation and high-Ni degradation with sigma precipitation; the individual markers are not assigned a particular precipitate state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 353,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Figure 4 simulated HAZ at 353 K, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.44
+      },
+      "result_note": "Approximate graphical reading. Individual Ni contents are not supplied for the markers; no series identity is invented. Ni 6–8% is the reported range across this Figure 4 specimen set, not an individually resolved Ni analysis. Nitrogen is the approximate registered graphical coordinate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Alloy-design specimen, nominal 27.5% Cr–3.8% Mo with 6–8% Ni; simulated heat-affected zone subjected to the Figure 2 thermal cycle: peak 1648 K for 1 s, cooling at 30 K/s. The manufacturing route of the subsequently developed P/M tube is not automatically assigned to these alloy-design specimens.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.215
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless-steel alloy-design series. The source associates low-Ni HAZ degradation with Cr carbonitride precipitation and high-Ni degradation with sigma precipitation; the individual markers are not assigned a particular precipitate state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 353,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Figure 4 simulated HAZ at 353 K, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.56
+      },
+      "result_note": "Approximate graphical reading. Individual Ni contents are not supplied for the markers; no series identity is invented. Ni 6–8% is the reported range across this Figure 4 specimen set, not an individually resolved Ni analysis. Nitrogen is the approximate registered graphical coordinate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Alloy-design specimen, nominal 27.5% Cr–3.8% Mo with 6–8% Ni; simulated heat-affected zone subjected to the Figure 2 thermal cycle: peak 1648 K for 1 s, cooling at 30 K/s. The manufacturing route of the subsequently developed P/M tube is not automatically assigned to these alloy-design specimens.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.225
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless-steel alloy-design series. The source associates low-Ni HAZ degradation with Cr carbonitride precipitation and high-Ni degradation with sigma precipitation; the individual markers are not assigned a particular precipitate state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 353,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Figure 4 simulated HAZ at 353 K, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.48
+      },
+      "result_note": "Approximate graphical reading. Individual Ni contents are not supplied for the markers; no series identity is invented. Ni 6–8% is the reported range across this Figure 4 specimen set, not an individually resolved Ni analysis. Nitrogen is the approximate registered graphical coordinate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Alloy-design specimen, nominal 27.5% Cr–3.8% Mo with 6–8% Ni; simulated heat-affected zone subjected to the Figure 2 thermal cycle: peak 1648 K for 1 s, cooling at 30 K/s. The manufacturing route of the subsequently developed P/M tube is not automatically assigned to these alloy-design specimens.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.3
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless-steel alloy-design series. The source associates low-Ni HAZ degradation with Cr carbonitride precipitation and high-Ni degradation with sigma precipitation; the individual markers are not assigned a particular precipitate state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 353,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Figure 4 simulated HAZ at 353 K, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.72
+      },
+      "result_note": "Approximate graphical reading. Individual Ni contents are not supplied for the markers; no series identity is invented. Ni 6–8% is the reported range across this Figure 4 specimen set, not an individually resolved Ni analysis. Nitrogen is the approximate registered graphical coordinate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Alloy-design specimen, nominal 27.5% Cr–3.8% Mo with 6–8% Ni; simulated heat-affected zone subjected to the Figure 2 thermal cycle: peak 1648 K for 1 s, cooling at 30 K/s. The manufacturing route of the subsequently developed P/M tube is not automatically assigned to these alloy-design specimens.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.315
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless-steel alloy-design series. The source associates low-Ni HAZ degradation with Cr carbonitride precipitation and high-Ni degradation with sigma precipitation; the individual markers are not assigned a particular precipitate state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 353,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Figure 4 simulated HAZ at 353 K, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.67
+      },
+      "result_note": "Approximate graphical reading. Individual Ni contents are not supplied for the markers; no series identity is invented. Ni 6–8% is the reported range across this Figure 4 specimen set, not an individually resolved Ni analysis. Nitrogen is the approximate registered graphical coordinate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Alloy-design specimen, nominal 27.5% Cr–3.8% Mo with 6–8% Ni; simulated heat-affected zone subjected to the Figure 2 thermal cycle: peak 1648 K for 1 s, cooling at 30 K/s. The manufacturing route of the subsequently developed P/M tube is not automatically assigned to these alloy-design specimens.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.32
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless-steel alloy-design series. The source associates low-Ni HAZ degradation with Cr carbonitride precipitation and high-Ni degradation with sigma precipitation; the individual markers are not assigned a particular precipitate state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 353,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Figure 4 simulated HAZ at 353 K, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.64
+      },
+      "result_note": "Approximate graphical reading. Individual Ni contents are not supplied for the markers; no series identity is invented. Ni 6–8% is the reported range across this Figure 4 specimen set, not an individually resolved Ni analysis. Nitrogen is the approximate registered graphical coordinate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Alloy-design specimen, nominal 27.5% Cr–3.8% Mo with 6–8% Ni; simulated heat-affected zone subjected to the Figure 2 thermal cycle: peak 1648 K for 1 s, cooling at 30 K/s. The manufacturing route of the subsequently developed P/M tube is not automatically assigned to these alloy-design specimens.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.36
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Duplex stainless-steel alloy-design series. The source associates low-Ni HAZ degradation with Cr carbonitride precipitation and high-Ni degradation with sigma precipitation; the individual markers are not assigned a particular precipitate state.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 353,
+        "unit": "K"
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Figure 4 simulated HAZ at 353 K, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.625
+      },
+      "result_note": "Approximate graphical reading. Individual Ni contents are not supplied for the markers; no series identity is invented. Ni 6–8% is the reported range across this Figure 4 specimen set, not an individually resolved Ni analysis. Nitrogen is the approximate registered graphical coordinate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 333
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1.0
+      },
+      "result_note": "Upward arrow at 1.0 V: lower measurement/testing limit, not pitting observed at 1.0 V.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 353
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1.0
+      },
+      "result_note": "Upward arrow at 1.0 V: lower measurement/testing limit, not pitting observed at 1.0 V.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 373
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.83
+      },
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Comparison steel 254; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Super-austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 333
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1.0
+      },
+      "result_note": "Upward arrow at 1.0 V: lower measurement/testing limit, not pitting observed at 1.0 V.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Comparison steel 254; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Super-austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 353
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1.0
+      },
+      "result_note": "Upward arrow at 1.0 V: lower measurement/testing limit, not pitting observed at 1.0 V.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Comparison steel 254; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Super-austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 373
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.78
+      },
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Comparison steel 2942; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 2.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Super-ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 333
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1.0
+      },
+      "result_note": "Upward arrow at 1.0 V: lower measurement/testing limit, not pitting observed at 1.0 V.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Comparison steel 2942; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 2.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Super-ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 353
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1.0
+      },
+      "result_note": "Upward arrow at 1.0 V: lower measurement/testing limit, not pitting observed at 1.0 V.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Comparison steel 2942; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 2.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Super-ferritic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 373
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.5
+      },
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 333
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1.0
+      },
+      "result_note": "Upward arrow at 1.0 V: lower measurement/testing limit, not pitting observed at 1.0 V.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 353
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.32
+      },
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "K",
+        "value": 373
+      },
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. Base-metal measurements at the stated Figure 7 temperature, 20 mV/min.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.23
+      },
+      "result_note": "Approximate graphical reading.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Subsequently heat treated for 10 s at maximum temperature 1373 K for the Figure 10 comparison.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel. Ferrite fraction depends on the thermal treatment; no value is inferred from a different state. The text and plot differ on the exact high-temperature ferrite fraction of 28Cr, so none is imposed.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1
+      },
+      "result_note": "Upward limit arrow at 1.0 V. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Subsequently heat treated for 10 s at maximum temperature 1473 K for the Figure 10 comparison.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel. Ferrite fraction depends on the thermal treatment; no value is inferred from a different state. The text and plot differ on the exact high-temperature ferrite fraction of 28Cr, so none is imposed.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "min": 1
+      },
+      "result_note": "Upward limit arrow at 1.0 V. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Subsequently heat treated for 10 s at maximum temperature 1573 K for the Figure 10 comparison.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel. Ferrite fraction depends on the thermal treatment; no value is inferred from a different state. The text and plot differ on the exact high-temperature ferrite fraction of 28Cr, so none is imposed.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.75
+      },
+      "result_note": "Approximate graphical reading. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Subsequently heat treated for 10 s at maximum temperature 1623 K for the Figure 10 comparison.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel. Ferrite fraction depends on the thermal treatment; no value is inferred from a different state. The text and plot differ on the exact high-temperature ferrite fraction of 28Cr, so none is imposed.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.6
+      },
+      "result_note": "Approximate graphical reading. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied. Subsequently heat treated for 10 s at maximum temperature 1323 K for the Figure 10 comparison.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel. Ferrite fraction depends on the thermal treatment; no value is inferred from a different state. The text and plot differ on the exact high-temperature ferrite fraction of 28Cr, so none is imposed.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.45
+      },
+      "result_note": "Approximate graphical reading. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied. Subsequently heat treated for 10 s at maximum temperature 1473 K for the Figure 10 comparison.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel. Ferrite fraction depends on the thermal treatment; no value is inferred from a different state. The text and plot differ on the exact high-temperature ferrite fraction of 28Cr, so none is imposed.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.45
+      },
+      "result_note": "Approximate graphical reading. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied. Subsequently heat treated for 10 s at maximum temperature 1573 K for the Figure 10 comparison.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel. Ferrite fraction depends on the thermal treatment; no value is inferred from a different state. The text and plot differ on the exact high-temperature ferrite fraction of 28Cr, so none is imposed.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.38
+      },
+      "result_note": "Approximate graphical reading. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied. Subsequently heat treated for 10 s at maximum temperature 1623 K for the Figure 10 comparison.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel. Ferrite fraction depends on the thermal treatment; no value is inferred from a different state. The text and plot differ on the exact high-temperature ferrite fraction of 28Cr, so none is imposed.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.33
+      },
+      "result_note": "Approximate graphical reading. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Girth welded by GTAW with similar 28Cr filler; heat input 6 kJ/cm.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.67,
+        "min": 0.64,
+        "max": 0.71
+      },
+      "result_note": "Graphically recovered central marker and vertical endpoints; no inferred symmetric error. Potential is measured experimentally, regardless of the calculated P.I. context elsewhere. Possible repeated girth-weld presentation group: obs_029 and obs_037; Fig.13 does not specify the heat input, so identity is unresolved and no independence is asserted. Composition is the Table 2 parent-metal composition; a separate weld-deposit analysis is not supplied. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Girth welded by GTAW with similar 28Cr filler; heat input 11.2 kJ/cm.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.68,
+        "min": 0.58,
+        "max": 0.82
+      },
+      "result_note": "Graphically recovered central marker and vertical endpoints; no inferred symmetric error. Potential is measured experimentally, regardless of the calculated P.I. context elsewhere. Composition is the Table 2 parent-metal composition; a separate weld-deposit analysis is not supplied. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Girth welded by GTAW with similar 28Cr filler; heat input 13.5 kJ/cm.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.5,
+        "min": 0.47,
+        "max": 0.54
+      },
+      "result_note": "Graphically recovered central marker and vertical endpoints; no inferred symmetric error. Potential is measured experimentally, regardless of the calculated P.I. context elsewhere. Unresolved repeated-presentation candidates: obs_031 and obs_032 (13.5kJ/cm plot versus 12kJ/cm text); no independent-experiment claim. Composition is the Table 2 parent-metal composition; a separate weld-deposit analysis is not supplied. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Girth welded by GTAW with similar 28Cr filler; heat input 12 kJ/cm.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.5
+      },
+      "result_note": "Text identifies 12kJ/cm, while the low Fig.11 marker is graphically near 13.5kJ/cm. Retained separately because exact run correspondence is unresolved; no independent experiment is asserted. Unresolved repeated-presentation candidates: obs_031 and obs_032 (13.5kJ/cm plot versus 12kJ/cm text); no independent-experiment claim. Composition is the Table 2 parent-metal composition; a separate weld-deposit analysis is not supplied. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied. Figure 13 base-metal reference; not treated as a seal-weld deposit.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.4
+      },
+      "result_note": "Pitting potential is experimental; only the independent-variable P.I. is calculated. Approximate graphical reading. Base-metal and welded markers remain distinct. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure. Calculated P.I. coordinate = 35.8; the pitting potential itself is experimental, not calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "alloy": {
+        "preparation": "Comparison steel 329J2L; detailed production and heat treatment not supplied. Girth-weld comparison in Figure 13; the individual heat input and full welding schedule are not supplied for this marker.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.14,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.35
+      },
+      "result_note": "Pitting potential is experimental; only the independent-variable P.I. is calculated. Approximate graphical reading. Base-metal and welded markers remain distinct. Composition is the named parent steel, not a measured weld-deposit chemistry. Calculated P.I. does not establish a new elemental analysis. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure. Calculated P.I. coordinate = 35.8; the pitting potential itself is experimental, not calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "alloy": {
+        "preparation": "Tube-to-tube-sheet seal weld of the 28Cr P/M tube to the 25Cr duplex 329J2L sheet, using 329J2L filler; GTAW heat input 5.8 kJ/cm, with the edge preparation shown in Figure 12.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.41
+      },
+      "result_note": "Pitting potential is experimental; only the independent-variable P.I. is calculated. Approximate graphical reading. Base-metal and welded markers remain distinct. The plotted P.I. is calculated from dilution by tube and tube-sheet materials. No weld-metal elemental analysis is supplied; neither a filler composition nor a parent composition is substituted for the mixed weld. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure. Calculated P.I. coordinate = 39.1; the pitting potential itself is experimental, not calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "alloy": {
+        "preparation": "Tube-to-tube-sheet seal weld of the 28Cr P/M tube to the 25Cr duplex 329J2L sheet, using 28Cr filler; GTAW heat input 5.8 kJ/cm, with the edge preparation shown in Figure 12.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.46
+      },
+      "result_note": "Pitting potential is experimental; only the independent-variable P.I. is calculated. Approximate graphical reading. Base-metal and welded markers remain distinct. The plotted P.I. is calculated from dilution by tube and tube-sheet materials. No weld-metal elemental analysis is supplied; neither a filler composition nor a parent composition is substituted for the mixed weld. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure. Calculated P.I. coordinate = 41.0; the pitting potential itself is experimental, not calculated.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_037",
+      "alloy": {
+        "preparation": "28Cr seamless tube produced by nitrogen-gas atomization of duplex-steel powder; packed in a mild-steel capsule, cold isostatically pressed and hot extruded; capsule removed by acid pickling, then heat treated at 1373 K (1100 °C) and water quenched. Girth-weld comparison in Figure 13; the individual heat input and full welding schedule are not supplied for this marker.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 27.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Ferritic–austenitic duplex stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Synthetic seawater as named by the source; recipe, pH and gas conditioning not supplied. Natural seawater immersion and NaCl crevice tests are separate experiments.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potential-sweep polarization"
+        ],
+        "procedure_description": "Pitting potential measured by potential-sweep polarization; values reported vs SCE. For the heat-treatment/weld figures the source does not restate a numerical electrolyte temperature or scan rate; those fields remain null.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Reported pitting potential Vc-prime; no general numerical current criterion is stated. Upward arrows remain lower testing bounds, not observed thresholds."
+      },
+      "pitting_potential": {
+        "unit": "V vs SCE",
+        "value": 0.64
+      },
+      "result_note": "Pitting potential is experimental; only the independent-variable P.I. is calculated. Approximate graphical reading. Base-metal and welded markers remain distinct. Possible repeated girth-weld presentation group: obs_029 and obs_037; Fig.13 does not specify the heat input, so identity is unresolved and no independence is asserted. Composition is the named parent steel, not a measured weld-deposit chemistry. Calculated P.I. does not establish a new elemental analysis. The maximum heating temperature or welding heat input is a specimen-treatment variable, not electrolyte temperature. A numerical test temperature is not explicitly supplied for this figure. Calculated P.I. coordinate = 43.3; the pitting potential itself is experimental, not calculated.",
+      "failure_notes": ""
+    }
+  ]
+}

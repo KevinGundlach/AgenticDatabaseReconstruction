@@ -1,0 +1,1708 @@
+{
+  "paper_name": "85_C.A. Clark & P. Guha. Improvements in corrosion resistance … Werkstoffe und Korrosion, 34. 1983.pdf",
+  "reference_number": 85,
+  "inputs": {
+    "pdf": {
+      "filename": "85_C.A. Clark & P. Guha. Improvements in corrosion resistance … Werkstoffe und Korrosion, 34. 1983.pdf",
+      "sha256": "f71fac0d60eb204472a078bad3848afde5aeb441c6abfe3e6787d31e8747b621"
+    },
+    "registry": {
+      "filename": "paper_85.json",
+      "sha256": "f9b6b59109c81a8c56aaa0a84b3c426dcf65bc916864d697aaaf18e406432acc"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Large-section castings. The solution-treated/aged 76-mm-section tensile comparison in this paragraph does not specify the thermal protocol for these cited pitting endpoints.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          }
+        ],
+        "microstructure": "Large-section cast duplex austenitic–ferritic steel; individual phase fractions not specified for these pitting endpoints.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cited pitting-potential measurement"
+        ],
+        "procedure_description": "Cited nitrogen-free versus nitrogen-added comparison in 3% NaCl at 30°C; potential reported on the S.H.E. scale. The supplied paper does not give the scan/step schedule, surface preparation or numerical onset-current criterion for these endpoints.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ cited pitting potential; no numerical endpoint criterion is provided."
+      },
+      "pitting_potential": {
+        "unit": "V (S.H.E.)",
+        "value": 0.45
+      },
+      "result_note": "Comparison from the studies discussed in the paragraph ending with reference 4. Exact N and C contents of these two text endpoints are not supplied. The 1.15 V endpoint may overlap Figure 1’s high-N results (obs_005/obs_008), but carbon/N assignment is insufficient to consolidate; not asserted independent experiments. The base chemistry is explicitly approximate. The nitrogen-free/added labels are retained without inventing analytical N or C amounts, or assigning a Figure 1 carbon series. The cited study is not followed outside this PDF. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Large-section castings. The solution-treated/aged 76-mm-section tensile comparison in this paragraph does not specify the thermal protocol for these cited pitting endpoints.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          }
+        ],
+        "microstructure": "Large-section cast duplex austenitic–ferritic steel; individual phase fractions not specified for these pitting endpoints.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cited pitting-potential measurement"
+        ],
+        "procedure_description": "Cited nitrogen-free versus nitrogen-added comparison in 3% NaCl at 30°C; potential reported on the S.H.E. scale. The supplied paper does not give the scan/step schedule, surface preparation or numerical onset-current criterion for these endpoints.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ cited pitting potential; no numerical endpoint criterion is provided."
+      },
+      "pitting_potential": {
+        "unit": "V (S.H.E.)",
+        "value": 1.15
+      },
+      "result_note": "Comparison from the studies discussed in the paragraph ending with reference 4. Exact N and C contents of these two text endpoints are not supplied. The 1.15 V endpoint may overlap Figure 1’s high-N results (obs_005/obs_008), but carbon/N assignment is insufficient to consolidate; not asserted independent experiments. The base chemistry is explicitly approximate. The nitrogen-free/added labels are retained without inventing analytical N or C amounts, or assigning a Figure 1 carbon series. The cited study is not followed outside this PDF. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "unit": "%",
+              "value": 0.04
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.06
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic steel; no phase fraction is assigned to an individual Figure 1 specimen.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 1 nitrogen/carbon comparison in 3% NaCl at 30°C, on the S.H.E. scale. Carbon and nitrogen are specific to each registered marker; scan rate, step/hold schedule and numerical onset criterion are not supplied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential plotted by the authors; numerical identification criterion not specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 600
+      },
+      "result_note": "Approximate discrete experimental marker; dashed lines do not create observations. At .16% N the two carbon-series endpoints coincide; both distinct carbon conditions are retained. Possible relationship of high-N points to the text comparison obs_002 is unresolved. Figure 1 supplies the C/N series but does not independently identify a complete base-alloy analysis. The approximately 25Cr–5Ni–2.4Mo–3Cu cited text comparison is not asserted to be the complete chemistry of every Figure 1 marker. Table 1 contains separate mechanical-property specimens and is not used to fill these rows. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "unit": "%",
+              "value": 0.04
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.1
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic steel; no phase fraction is assigned to an individual Figure 1 specimen.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 1 nitrogen/carbon comparison in 3% NaCl at 30°C, on the S.H.E. scale. Carbon and nitrogen are specific to each registered marker; scan rate, step/hold schedule and numerical onset criterion are not supplied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential plotted by the authors; numerical identification criterion not specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 850
+      },
+      "result_note": "Approximate discrete experimental marker; dashed lines do not create observations. At .16% N the two carbon-series endpoints coincide; both distinct carbon conditions are retained. Possible relationship of high-N points to the text comparison obs_002 is unresolved. Figure 1 supplies the C/N series but does not independently identify a complete base-alloy analysis. The approximately 25Cr–5Ni–2.4Mo–3Cu cited text comparison is not asserted to be the complete chemistry of every Figure 1 marker. Table 1 contains separate mechanical-property specimens and is not used to fill these rows. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "unit": "%",
+              "value": 0.04
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.16
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic steel; no phase fraction is assigned to an individual Figure 1 specimen.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 1 nitrogen/carbon comparison in 3% NaCl at 30°C, on the S.H.E. scale. Carbon and nitrogen are specific to each registered marker; scan rate, step/hold schedule and numerical onset criterion are not supplied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential plotted by the authors; numerical identification criterion not specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 1150
+      },
+      "result_note": "Approximate discrete experimental marker; dashed lines do not create observations. At .16% N the two carbon-series endpoints coincide; both distinct carbon conditions are retained. Possible relationship of high-N points to the text comparison obs_002 is unresolved. Figure 1 supplies the C/N series but does not independently identify a complete base-alloy analysis. The approximately 25Cr–5Ni–2.4Mo–3Cu cited text comparison is not asserted to be the complete chemistry of every Figure 1 marker. Table 1 contains separate mechanical-property specimens and is not used to fill these rows. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "unit": "%",
+              "value": 0.07
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.06
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic steel; no phase fraction is assigned to an individual Figure 1 specimen.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 1 nitrogen/carbon comparison in 3% NaCl at 30°C, on the S.H.E. scale. Carbon and nitrogen are specific to each registered marker; scan rate, step/hold schedule and numerical onset criterion are not supplied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential plotted by the authors; numerical identification criterion not specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 400
+      },
+      "result_note": "Approximate discrete experimental marker; dashed lines do not create observations. At .16% N the two carbon-series endpoints coincide; both distinct carbon conditions are retained. Possible relationship of high-N points to the text comparison obs_002 is unresolved. Figure 1 supplies the C/N series but does not independently identify a complete base-alloy analysis. The approximately 25Cr–5Ni–2.4Mo–3Cu cited text comparison is not asserted to be the complete chemistry of every Figure 1 marker. Table 1 contains separate mechanical-property specimens and is not used to fill these rows. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "unit": "%",
+              "value": 0.07
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.12
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic steel; no phase fraction is assigned to an individual Figure 1 specimen.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 1 nitrogen/carbon comparison in 3% NaCl at 30°C, on the S.H.E. scale. Carbon and nitrogen are specific to each registered marker; scan rate, step/hold schedule and numerical onset criterion are not supplied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential plotted by the authors; numerical identification criterion not specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 800
+      },
+      "result_note": "Approximate discrete experimental marker; dashed lines do not create observations. At .16% N the two carbon-series endpoints coincide; both distinct carbon conditions are retained. Possible relationship of high-N points to the text comparison obs_002 is unresolved. Figure 1 supplies the C/N series but does not independently identify a complete base-alloy analysis. The approximately 25Cr–5Ni–2.4Mo–3Cu cited text comparison is not asserted to be the complete chemistry of every Figure 1 marker. Table 1 contains separate mechanical-property specimens and is not used to fill these rows. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "unit": "%",
+              "value": 0.07
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "unit": "%",
+              "value": 0.16
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic steel; no phase fraction is assigned to an individual Figure 1 specimen.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 1 nitrogen/carbon comparison in 3% NaCl at 30°C, on the S.H.E. scale. Carbon and nitrogen are specific to each registered marker; scan rate, step/hold schedule and numerical onset criterion are not supplied.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential plotted by the authors; numerical identification criterion not specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 1150
+      },
+      "result_note": "Approximate discrete experimental marker; dashed lines do not create observations. At .16% N the two carbon-series endpoints coincide; both distinct carbon conditions are retained. Possible relationship of high-N points to the text comparison obs_002 is unresolved. Figure 1 supplies the C/N series but does not independently identify a complete base-alloy analysis. The approximately 25Cr–5Ni–2.4Mo–3Cu cited text comparison is not asserted to be the complete chemistry of every Figure 1 marker. Table 1 contains separate mechanical-property specimens and is not used to fill these rows. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.15,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "constant-potential pitting-current measurement"
+        ],
+        "procedure_description": "Apply 850 mV in 3% NaCl; pitting current density reported as 310 µA/cm² at 22.5% Cr. The conclusions specify 30°C for these pitting-current measurements. Electrode reference and measurement duration are not stated for this chromium comparison; the 16-h duration of the separate copper plot is not assigned.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors explicitly identify the current as pitting current at an imposed potential; the registered upper bound is not an independently measured onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV",
+        "max": 850
+      },
+      "result_note": "The text explicitly calls this a pitting current at applied 850 mV. Retained as an upper bound for pitting at that test potential, not a measured onset. The paragraph does not specify the electrode reference for this applied potential; no reference is inferred from other figures. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 28,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.15,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex austenitic–ferritic steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "constant-potential pitting-current measurement"
+        ],
+        "procedure_description": "Apply 850 mV in 3% NaCl; pitting current density reported as 20 µA/cm² at 28% Cr. The conclusions specify 30°C for these pitting-current measurements. Electrode reference and measurement duration are not stated for this chromium comparison; the 16-h duration of the separate copper plot is not assigned.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors explicitly identify the current as pitting current at an imposed potential; the registered upper bound is not an independently measured onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV",
+        "max": 850
+      },
+      "result_note": "The text explicitly calls this a pitting current at applied 850 mV. Retained as an upper bound for pitting at that test potential, not a measured onset. The paragraph does not specify the electrode reference for this applied potential; no reference is inferred from other figures. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "18Cr/10Ni/3Mo stainless-steel comparison grade; no quantitative phase fraction is supplied for this Figure 4 curve.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 0
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 1150
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Only the explicitly named nominal 18Cr/10Ni/3Mo composition is assigned. It is not identified as the separate CF8M row of Table 2, so CF8M composition limits and thermal treatment are not imported. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "18Cr/10Ni/3Mo stainless-steel comparison grade; no quantitative phase fraction is supplied for this Figure 4 curve.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 20
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 650
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Only the explicitly named nominal 18Cr/10Ni/3Mo composition is assigned. It is not identified as the separate CF8M row of Table 2, so CF8M composition limits and thermal treatment are not imported. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "18Cr/10Ni/3Mo stainless-steel comparison grade; no quantitative phase fraction is supplied for this Figure 4 curve.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 30
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 450
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Only the explicitly named nominal 18Cr/10Ni/3Mo composition is assigned. It is not identified as the separate CF8M row of Table 2, so CF8M composition limits and thermal treatment are not imported. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "18Cr/10Ni/3Mo stainless-steel comparison grade; no quantitative phase fraction is supplied for this Figure 4 curve.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 40
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 350
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Only the explicitly named nominal 18Cr/10Ni/3Mo composition is assigned. It is not identified as the separate CF8M row of Table 2, so CF8M composition limits and thermal treatment are not imported. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Cast 20-type steel.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.07,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "min": 20,
+              "max": 22,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 26,
+              "max": 31,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "min": 1.5,
+              "max": 2.5,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "min": 3.5,
+              "max": 4.5,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Fully austenitic (Table 2 typical microstructure).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 20
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 1150
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Table 2 reports Nb as 8 × %C, not nitrogen. Nb amount remains null because no absolute numerical Nb amount is given; the reported C maximum is not substituted to calculate Nb. Table 3 lists a typical mechanical-property condition of 1120°C solution treatment/water quench, but Figure 4 does not independently specify that specimen treatment. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Cast 20-type steel.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.07,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "min": 20,
+              "max": 22,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 26,
+              "max": 31,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "min": 1.5,
+              "max": 2.5,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "min": 3.5,
+              "max": 4.5,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Fully austenitic (Table 2 typical microstructure).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 30
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 1050
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Table 2 reports Nb as 8 × %C, not nitrogen. Nb amount remains null because no absolute numerical Nb amount is given; the reported C maximum is not substituted to calculate Nb. Table 3 lists a typical mechanical-property condition of 1120°C solution treatment/water quench, but Figure 4 does not independently specify that specimen treatment. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Cast 20-type steel.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.07,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "min": 20,
+              "max": 22,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 26,
+              "max": 31,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "min": 1.5,
+              "max": 2.5,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "min": 3.5,
+              "max": 4.5,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Fully austenitic (Table 2 typical microstructure).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 40
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 530
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Table 2 reports Nb as 8 × %C, not nitrogen. Nb amount remains null because no absolute numerical Nb amount is given; the reported C maximum is not substituted to calculate Nb. Table 3 lists a typical mechanical-property condition of 1120°C solution treatment/water quench, but Figure 4 does not independently specify that specimen treatment. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.08,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "min": 0.1,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "min": 24,
+              "max": 27,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 4.5,
+              "max": 6.5,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "min": 1.3,
+              "max": 4,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "min": 2,
+              "max": 4,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "50/50 austenite–ferrite (Table 2 typical microstructure).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 30
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 1150
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Table 2 grade composition ranges/limits are retained rather than converted to a midpoint or treated as a measured heat analysis. Table 3 lists 1120°C solution treatment/water quench for typical mechanical properties and a separate solution-treated plus 510°C aged condition for alloy 255; Figure 4 does not independently identify its treatment or cast/wrought product form, so no one condition is selected. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.08,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "min": 0.1,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "min": 24,
+              "max": 27,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 4.5,
+              "max": 6.5,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "min": 1.3,
+              "max": 4,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "min": 2,
+              "max": 4,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "50/50 austenite–ferrite (Table 2 typical microstructure).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 40
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 650
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Table 2 grade composition ranges/limits are retained rather than converted to a midpoint or treated as a measured heat analysis. Table 3 lists 1120°C solution treatment/water quench for typical mechanical properties and a separate solution-treated plus 510°C aged condition for alloy 255; Figure 4 does not independently identify its treatment or cast/wrought product form, so no one condition is selected. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.08,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "min": 0.1,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "min": 26,
+              "max": 29,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 9,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "min": 0.75,
+              "max": 1.75,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "min": 2,
+              "max": 3,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "50/50 austenite–ferrite (Table 2 typical microstructure).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 40
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 1150
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Table 2 grade composition ranges/limits are retained rather than converted to a midpoint or treated as a measured heat analysis. Table 3 lists 1120°C solution treatment/water quench for typical mechanical properties; Figure 4 does not independently identify its treatment or cast/wrought product form, so no one condition is selected. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.08,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "min": 0.1,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "min": 26,
+              "max": 29,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 9,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "min": 0.75,
+              "max": 1.75,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "min": 2,
+              "max": 3,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "50/50 austenite–ferrite (Table 2 typical microstructure).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 50
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 1050
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Table 2 grade composition ranges/limits are retained rather than converted to a midpoint or treated as a measured heat analysis. Table 3 lists 1120°C solution treatment/water quench for typical mechanical properties; Figure 4 does not independently identify its treatment or cast/wrought product form, so no one condition is selected. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.08,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "min": 0.1,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "min": 26,
+              "max": 29,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "min": 6,
+              "max": 9,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "min": 0.75,
+              "max": 1.75,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "min": 2,
+              "max": 3,
+              "unit": "wt. %"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "50/50 austenite–ferrite (Table 2 typical microstructure).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 60
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "pitting-potential measurement"
+        ],
+        "procedure_description": "Figure 4 plots pitting potential against electrolyte temperature in 3% NaCl (electrolyte identified in the preceding text on PDF p.3); S.H.E. potential scale. The paper does not specify the scan/step schedule, holding duration, aeration or numerical onset-current criterion for these curves.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ Figure 4 pitting-potential markers. The upper dashed line is not explicitly defined as a no-pitting bound or scan ceiling, so no such interpretation is added."
+      },
+      "pitting_potential": {
+        "unit": "mV (S.H.E.)",
+        "value": 510
+      },
+      "result_note": "Approximate discrete pitting-potential marker. The four 1150 mV markers coincide with the upper dashed horizontal line; the paper does not define that line as a no-pitting limit or a scan ceiling, so the plotted potential is retained without inventing a bound. Continuous connecting segments are excluded. Table 2 grade composition ranges/limits are retained rather than converted to a midpoint or treated as a measured heat analysis. Table 3 lists 1120°C solution treatment/water quench for typical mechanical properties; Figure 4 does not independently identify its treatment or cast/wrought product form, so no one condition is selected. No solvent, pH, gas conditioning, free chloride concentration or unstated NaCl percentage basis is inferred. Unreported test protocol is left missing; the fixed-potential current test, nitrogen series, commercial-grade ranges and temperature curves remain separately scoped.",
+      "failure_notes": ""
+    }
+  ]
+}

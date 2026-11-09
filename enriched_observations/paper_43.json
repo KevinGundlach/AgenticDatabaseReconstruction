@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "43_V. Guillaumin, G. Mankowski, Corrosion Science, 41 (1998) 421-438.pdf",
+  "reference_number": 43,
+  "inputs": {
+    "pdf": {
+      "filename": "43_V. Guillaumin, G. Mankowski, Corrosion Science, 41 (1998) 421-438.pdf",
+      "sha256": "1ed2544830a5680ffea23a1df0afa043e8e6fc18d84bf5a41ae8073746766a94"
+    },
+    "registry": {
+      "filename": "paper_43.json",
+      "sha256": "c3b7b1016407e9f99c5869cb1521abdb9d35707f76e2f0b885708794df47b499"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "2024 T351 supplied as 25 mm thick plate; coupons 10 × 10 mm cut from plate, edges varnished leaving 100 mm² rolling plane exposed. Mechanically polished with 4000-grit SiC then 1 µm diamond paste, finally rinsed with distilled water. The paper does not restate a numerical T351 thermal/mechanical schedule.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 4.54,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mg",
+            "amount": {
+              "value": 1.51,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Zn",
+            "amount": {
+              "value": 0.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Rolled grain structure, 50–700 µm grains elongated along rolling direction. Coarse intermetallics up to 30 µm: spherical Al2CuMg S phase and irregular Al–Cu–Mn–Fe particles. Matrix has approximately 100 nm Al2CuMg hardening precipitates and approximately 200 nm Al20Mn3Cu2 rod dispersoids; coarse particles surrounded by dispersoid-free zones. Grain boundaries contain Al2CuMg precipitates; no precipitate-free boundary zone observed.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Naturally aerated 1 M NaCl, reported pH 6. Solvent grade and solution-preparation recipe are not specified.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic polarization"
+        ],
+        "procedure_description": "At unquantified room temperature, scan from −900 mV to −400 mV versus SCE at 500 mV/h; platinum counter electrode. Figure 7 second breakdown Eb2 supported by text in Sections 3.2, 3.4 and Conclusion. Separate stopped-scan potentiostatic holds and acidified pH 2 particle experiments do not define this pH 6 scan.",
+        "scan_rate": {
+          "value": 500,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Second rapid increase in anodic current density near Eb2, assigned to matrix/grain-boundary dissolution with both pitting and intergranular corrosion. First Eb1 near −720 mV is selective S-phase dissolution, not the supplied matrix-pitting threshold. No fixed numerical current criterion is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -620
+      },
+      "result_note": "Approximately −620 mV: second breakdown corresponds to pitting and intergranular corrosion; first breakdown at −720 mV is S-phase dissolution, not the matrix pitting threshold. Table 1 identifies Al as base without numerical amount; no residual balance is calculated. Particle/EDS and boundary-zone chemistries are not substituted for the bulk analysis. Distilled-water rinse is surface preparation, not an explicitly stated electrolyte solvent. Room temperature remains numerically null.",
+      "failure_notes": ""
+    }
+  ]
+}

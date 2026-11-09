@@ -1,0 +1,251 @@
+{
+  "paper_name": "57_Sugimoto, K., and Y. Sawada. Corrosion Science 17.5 (1977)_ 425-445.pdf",
+  "reference_number": 57,
+  "inputs": {
+    "pdf": {
+      "filename": "57_Sugimoto, K., and Y. Sawada. Corrosion Science 17.5 (1977)_ 425-445.pdf",
+      "sha256": "0399e468d74430cafd4ae00c91b9ca764343df8b890b7fe7c7864235a9c22762"
+    },
+    "registry": {
+      "filename": "paper_57.json",
+      "sha256": "1e0992b2d30339a776fb4c8b7e3544e06b182d6a139d397eeb50d57afb29537c"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Rolled sheet, vacuum-heated at 1050°C for 2 h, then water-quenched to 0°C. Electrochemical specimens 40 × 20 × 1.5 mm; emery-polished to No.6/0, cloth-polished with dilute chromium-oxide suspension, degreased with absolute ethanol, washed in distilled water and air-blast dried. PTFE tape over epoxy undercoat leaves 1 × 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.059,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.46,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25.66,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.06,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen for more than 30 min.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": 0.02,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic stepped polarization"
+        ],
+        "procedure_description": "Potential increased successively from the corrosion potential in 25-mV steps; current recorded after a 1-min hold at every setting. Stationary, deoxygenated solution at room temperature explicitly 25°C; saturated calomel reference.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Pitting susceptibility/passive breakdown identified from anodic polarization and the explicit accompanying text; transpassive dissolution is distinguished from pitting."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.85
+      },
+      "result_note": "No pitting up to the onset of transpassive dissolution, ca. +0.85 V. Lower bound only; the transpassive event is not labeled as pitting.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Pure chromium; subjected to suitable heat treatment to obtain a homogeneous annealed structure (specific schedule not reported). Electrochemical specimens 40 × 20 × 1.5 mm; emery-polished to No.6/0, cloth-polished with dilute chromium-oxide suspension, degreased with absolute ethanol, washed in distilled water and air-blast dried. PTFE tape over epoxy undercoat leaves 1 × 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": null
+          }
+        ],
+        "microstructure": "Homogeneous annealed structure.",
+        "material_class": "Other"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen for more than 30 min.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": 0.02,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic stepped polarization"
+        ],
+        "procedure_description": "Potential increased successively from the corrosion potential in 25-mV steps; current recorded after a 1-min hold at every setting. Stationary, deoxygenated solution at room temperature explicitly 25°C; saturated calomel reference.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Pitting susceptibility/passive breakdown identified from anodic polarization and the explicit accompanying text; transpassive dissolution is distinguished from pitting."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.85
+      },
+      "result_note": "Maintained passivity up to +0.85 V before transpassive dissolution; no pitting. Lower bound only.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "25Ni–5Mo steel of nominal 17 wt% Cr; suitable heat treatment to obtain a homogeneous annealed structure (specific schedule not reported). Electrochemical specimens 40 × 20 × 1.5 mm; emery-polished to No.6/0, cloth-polished with dilute chromium-oxide suspension, degreased with absolute ethanol, washed in distilled water and air-blast dried. PTFE tape over epoxy undercoat leaves 1 × 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Homogeneous annealed stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen for more than 30 min.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": 0.02,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic stepped polarization"
+        ],
+        "procedure_description": "Potential increased successively from the corrosion potential in 25-mV steps; current recorded after a 1-min hold at every setting. Stationary, deoxygenated solution at room temperature explicitly 25°C; saturated calomel reference.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Pitting susceptibility/passive breakdown identified from anodic polarization and the explicit accompanying text; transpassive dissolution is distinguished from pitting."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.4
+      },
+      "result_note": "Text explicitly reports pitting above +0.40 V; retained as the stated approximate onset. No thresholds were inferred from other continuous curves.",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1638 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "46_B. E. Wilde , E. Williams , J. Electrochem. Soc. 117 (1970)_ p. 775.pdf",
+  "reference_number": 46,
+  "inputs": {
+    "pdf": {
+      "filename": "46_B. E. Wilde , E. Williams , J. Electrochem. Soc. 117 (1970)_ p. 775.pdf",
+      "sha256": "681f354c7697c2a13d24e6bff3b83298a5396b63de3a000cf156344aed1f88c4"
+    },
+    "registry": {
+      "filename": "paper_46.json",
+      "sha256": "cb32c1720144d987154af6d5f50316488203a92b678295de7580705470c3aa79"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.094,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.35,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.17,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.08,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Hydrogen-saturated condition. H2 flow 1.5 l/min, reported residual dissolved oxygen 0.076 ppm.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table II gas-dependent critical-breakdown results are the authors’ measurements, summarized from their prior report; only present-PDF context is used.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.185
+      },
+      "result_note": "Reproducibility stated as ±10 mV for repeated polarization curves; not a separately tabulated statistical uncertainty. The text describes these as the authors’ experiments, previously reported in reference (20) and summarized in Table II. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.079,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.33,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.034,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.22,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.22,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.36,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Hydrogen-saturated condition. H2 flow 1.5 l/min, reported residual dissolved oxygen 0.076 ppm.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table II gas-dependent critical-breakdown results are the authors’ measurements, summarized from their prior report; only present-PDF context is used.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.05
+      },
+      "result_note": "Reproducibility stated as ±10 mV for repeated polarization curves; not a separately tabulated statistical uncertainty. The text describes these as the authors’ experiments, previously reported in reference (20) and summarized in Table II. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.094,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.35,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.17,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.08,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Nitrogen-saturated condition. No independent numerical flow rate/duration is stated for this gas.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table II gas-dependent critical-breakdown results are the authors’ measurements, summarized from their prior report; only present-PDF context is used.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.13
+      },
+      "result_note": "Reproducibility stated as ±10 mV for repeated polarization curves; not a separately tabulated statistical uncertainty. The text describes these as the authors’ experiments, previously reported in reference (20) and summarized in Table II. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.079,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.33,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.034,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.22,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.22,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.36,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Nitrogen-saturated condition. No independent numerical flow rate/duration is stated for this gas.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table II gas-dependent critical-breakdown results are the authors’ measurements, summarized from their prior report; only present-PDF context is used.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.02
+      },
+      "result_note": "Reproducibility stated as ±10 mV for repeated polarization curves; not a separately tabulated statistical uncertainty. The text describes these as the authors’ experiments, previously reported in reference (20) and summarized in Table II. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.094,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.35,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.17,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.08,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Argon-saturated condition. No independent numerical flow rate/duration is stated for this gas.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table II gas-dependent critical-breakdown results are the authors’ measurements, summarized from their prior report; only present-PDF context is used.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.1
+      },
+      "result_note": "Reproducibility stated as ±10 mV for repeated polarization curves; not a separately tabulated statistical uncertainty. The text describes these as the authors’ experiments, previously reported in reference (20) and summarized in Table II. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.079,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.33,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.034,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.22,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.22,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.36,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Argon-saturated condition. No independent numerical flow rate/duration is stated for this gas.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table II gas-dependent critical-breakdown results are the authors’ measurements, summarized from their prior report; only present-PDF context is used.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.05
+      },
+      "result_note": "Reproducibility stated as ±10 mV for repeated polarization curves; not a separately tabulated statistical uncertainty. The text describes these as the authors’ experiments, previously reported in reference (20) and summarized in Table II. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.094,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.35,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.17,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.08,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Oxygen-saturated condition. O2 flow 1.5 l/min.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table II gas-dependent critical-breakdown results are the authors’ measurements, summarized from their prior report; only present-PDF context is used.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.035
+      },
+      "result_note": "Reproducibility stated as ±10 mV for repeated polarization curves; not a separately tabulated statistical uncertainty. The text describes these as the authors’ experiments, previously reported in reference (20) and summarized in Table II. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.079,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.33,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.034,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.22,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.22,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.36,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Oxygen-saturated condition. O2 flow 1.5 l/min.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table II gas-dependent critical-breakdown results are the authors’ measurements, summarized from their prior report; only present-PDF context is used.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.065
+      },
+      "result_note": "Reproducibility stated as ±10 mV for repeated polarization curves; not a separately tabulated statistical uncertainty. The text describes these as the authors’ experiments, previously reported in reference (20) and summarized in Table II. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Table I alloy; individual manufacturing history, thermal state and dimensions are not separately restated for this Table III electrode. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.08,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.4,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.7,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.036,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 11.6,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.2,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.2,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Nitrogen-saturated condition. No independent numerical flow rate/duration is stated for this gas.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table III critical breakdown measured as described in nitrogen-saturated 1 M NaCl, separately from its FeCl3 chemical-exposure columns.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.1
+      },
+      "result_note": "Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Table I alloy; individual manufacturing history, thermal state and dimensions are not separately restated for this Table III electrode. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.027,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.39,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.37,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 33.71,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 3.38,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.24,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Nitrogen-saturated condition. No independent numerical flow rate/duration is stated for this gas.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table III critical breakdown measured as described in nitrogen-saturated 1 M NaCl, separately from its FeCl3 chemical-exposure columns.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.5
+      },
+      "result_note": "Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Table I alloy; individual manufacturing history, thermal state and dimensions are not separately restated for this Table III electrode. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.028,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.71,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.002,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.004,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.1,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 42.6,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 2.0,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.13,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Nitrogen-saturated condition. No independent numerical flow rate/duration is stated for this gas.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table III critical breakdown measured as described in nitrogen-saturated 1 M NaCl, separately from its FeCl3 chemical-exposure columns.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. "
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.525
+      },
+      "result_note": "Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Table I alloy; individual manufacturing history, thermal state and dimensions are not separately restated for this Table III electrode. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.06,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.73,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.67,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.44,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 56.27,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 13.6,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 5.2,
+              "unit": "w/o"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Nitrogen-saturated condition. No independent numerical flow rate/duration is stated for this gas.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. 600 ml electrolyte; specimen exposed for 60 min before continuous scan in the noble direction at 0.600 V/hr. Continuous scan is distinct from cited authors’ stepped procedure. Table III critical breakdown measured as described in nitrogen-saturated 1 M NaCl, separately from its FeCl3 chemical-exposure columns.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/hr"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical breakdown of passivity Ec on anodic scan, associated with pit initiation; prolonged exposure at potentials more noble than Ec produces severe pitting, without observed crevice corrosion. Ec >0.900 V SCE remains a strict lower bound without onset at 0.900 V."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.9
+      },
+      "result_note": "Strict Ec >0.900 V (SCE); no onset at the bound. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.094,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.35,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.17,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.08,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Oxygen-saturated condition. O2 flow 1.5 l/min.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. Same Type 430 specimen first exposed in oxygen-saturated 1 M NaCl for 100 h at steady corrosion potential about −0.140 V SCE without pitting, then connected to potentiostat and held at −0.140 V for a further 100 h without pitting. This registered lower test bound refers to the second, potentiostatic oxygenated 100 h period.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": {
+          "value": 100,
+          "unit": "hr"
+        },
+        "pitting_criterion": "No pitting during oxygenated 100 h potentiostatic exposure; protocol-specific test lower bound."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": -0.14
+      },
+      "result_note": "No pitting at −0.140 V during the potentiostatic oxygenated hold: protocol-specific lower test bound. Same sample subsequently pits after hydrogen substitution; this is a separate altered-environment outcome. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Cylindrical electrode 0.25 in. diameter × 0.75 in. long, machined from solution-annealed stock. Standard polarization preparation: abrade through 2.0 emery paper, wash in detergent, rinse with distilled water, dry; Stern–Mackrides-type holder in glass cell.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.094,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.56,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.35,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.17,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.08,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "w/o"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Reagent-grade 1 M NaCl in distilled water; final pH 6.3 at 25 °C. Hydrogen following oxygen exposure-saturated condition. Oxygen flow replaced by H2 at 1.50 l/min without interrupting imposed potential.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6.3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Glass cell, bright-Pt auxiliary electrodes, SCE reference through Luggin–Haber probe; no liquid-junction-potential correction. Same Type 430 specimen first exposed in oxygen-saturated 1 M NaCl for 100 h at steady corrosion potential about −0.140 V SCE without pitting, then connected to potentiostat and held at −0.140 V for a further 100 h without pitting. With potential still imposed, oxygen was replaced by hydrogen at 1.50 l/min; after 16 h pronounced pitting with rapid anodic-current increase occurred. The full preceding oxygenated history is retained, rather than treating this as a fresh hydrogen-saturated scan.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pronounced pitting accompanied by rapid anodic-current increase after 16 h of hydrogen substitution at unchanged −0.140 V SCE; supplies an upper bound, not an exact scan breakdown."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "max": -0.14
+      },
+      "result_note": "Observed pitting at this hold potential after 16 h gives only Epit ≤−0.140 V for this history, not an exact breakdown potential; distinct from gas-saturated scan results. Table I w/o analyses retained; ND means not determined and remains null. No Fe residual/commercial recipe is calculated. Thermostatic test temperature 25 ±1 °C is reported; solution-annealing temperature/time is not. Ec is critical breakdown, not Ecorr, a repassivation potential, or the FeCl3-exposure maximum/minimum corrosion potentials. ±10 mV repeatability is not a new statistical error bar on every outcome.",
+      "failure_notes": ""
+    }
+  ]
+}

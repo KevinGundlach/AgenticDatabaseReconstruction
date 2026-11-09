@@ -1,0 +1,3427 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "4_J. R. Postlethwaite, J. Scoular, M. H. Dobbin, Corrosion 44 (1988)_ p. 199..pdf",
+  "reference_number": 4,
+  "inputs": {
+    "pdf": {
+      "filename": "4_J. R. Postlethwaite, J. Scoular, M. H. Dobbin, Corrosion 44 (1988)_ p. 199..pdf",
+      "sha256": "594b919d56f01652d5e6d60e7c989757ae4834c2f6a2c5d730636c5ec62bc5e5"
+    },
+    "registry": {
+      "filename": "paper_4.json",
+      "sha256": "eef6b84a3523ac37a23cc1009df8b84833331217c48f1716f57aca8d4858683a"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 125,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. This illustrative 1% NaCl curve is not one of the Alloy 625 concentration series in Figure 4. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 75,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.91
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 125,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.07
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 150,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": -0.03
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 200,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.13
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.82
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 75,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.38
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 85,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.22
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 90,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.19
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 125,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.02
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 140,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.02
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 150,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": -0.02
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 175,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.05
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 75,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.71
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 100,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.52
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 125,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": -0.04
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 150,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.05
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 175,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": -0.02
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 100,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.92
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 125,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": -0.07
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 150,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.01
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 175,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.01
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 100,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.36
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 175,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.08
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 15.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 15.69,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 6.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 3.65,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1.87,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 200,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Parr 1 L titanium autoclave; external Ag/AgCl reference maintained at 25 °C and system pressure. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.22
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. Material UNS N10276.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "As-received mill-annealed plate machined to specimens; wet ground on silicon-carbide papers down to 600 grade. Plain blocks 11 × 11 × 7 mm with drilled/tapped connection, PTFE compression gasket and insulated rod of the same alloy; some initial tests used 25 × 13 × 7 mm blocks with a bolted radially grooved 16 mm PTFE washer assembly, plain backing washer and 6 N m torque.",
+        "composition": [
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 60.8,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.63,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 8.52,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 4.68,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Nb",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ta",
+            "amount": null
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.24,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "NiCrMo Alloy"
+      },
+      "test_temperature": {
+        "value": 100,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral chloride solution, deaerated with nitrogen for cyclic polarization; continuous aeration belongs to the separate immersion tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional multinecked 1 L glass cell, external SCE with solution bridge and Luggin probe. IR compensation; scanned from Ecorr at 20 mV/min, reversed at approximately 1 mA/cm² and terminated below repassivation. Plain and creviced specimens were tried initially; subsequent tests did not require the artificial crevice assembly. Specimens examined with stereomicroscope up to ×160; some by SEM. Authors report potentials on SHE(T), assuming negligible thermal-junction potentials.",
+        "scan_rate": {
+          "value": 20,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Passivation breakdown Eb on the upward sweep of the cyclic curve; localized attack could involve PTFE-mount crevice corrosion and/or pits on freely exposed surfaces. Low-temperature curves can contain transpassive zones and ambiguous hysteresis."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE(T))",
+        "value": 0.36
+      },
+      "result_note": "Passivation-breakdown Eb from cyclic polarization; the authors explicitly cannot cleanly distinguish pitting from crevice attack and discuss ambiguous low-temperature curves/transpassive zones. It is retained as a qualified localized-corrosion potential, not certified as a pure pitting threshold. Approximate graphical reading. The + series passes through the × region. Table 1 reports combined Cb + Ta = 3.54 wt%; separate Nb and Ta amounts cannot be assigned. Material UNS N06625.",
+      "failure_notes": "The 100°C + marker is superposed with the × marker/connecting curves after enlargement. Its independent marker/value cannot be resolved confidently; approximately 0.36 V is the recoverable shared location."
+    }
+  ]
+}

@@ -1,0 +1,1403 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "34_Y. S. Lim,]. S. Kim, 5.]. Ahn, H. S. Kwon, Y. Katada, Corros. Sci. 43 (2001)_p. 53.pdf",
+  "reference_number": 34,
+  "inputs": {
+    "pdf": {
+      "filename": "34_Y. S. Lim,]. S. Kim, 5.]. Ahn, H. S. Kwon, Y. Katada, Corros. Sci. 43 (2001)_p. 53.pdf",
+      "sha256": "d9a4b9d71d7563dcf4318f0e3b57e9af847120b584a69c913363c0f165aa5ad4"
+    },
+    "registry": {
+      "filename": "paper_34.json",
+      "sha256": "329a27159cdf2547a8cbfe230f1d2ebf949a6655f570f84b3767d07a5d27ba7d"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Model M1 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 20.26,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.39,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.62,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.26,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0028,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "max": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.004,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. M series has frequent large elongated/elliptical stoichiometric MnS and round/faceted Al2O3 inclusions; MnS sometimes attached to alumina.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 295
+      },
+      "result_note": "Approximate manual reading of the Epit arrow, not a threshold inferred from one of the unlabeled current transients. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Model M2 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 20.12,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.26,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.96,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.18,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0019,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.0021,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "max": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.314,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. M series has frequent large elongated/elliptical stoichiometric MnS and round/faceted Al2O3 inclusions; MnS sometimes attached to alumina.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 350
+      },
+      "result_note": "Approximate manual reading of the Epit arrow, not a threshold inferred from one of the unlabeled current transients. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Model M3 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 20,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.29,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.91,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.18,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0024,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.003,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "max": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.394,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. M series has frequent large elongated/elliptical stoichiometric MnS and round/faceted Al2O3 inclusions; MnS sometimes attached to alumina.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 480
+      },
+      "result_note": "Approximate manual reading of the Epit arrow, not a threshold inferred from one of the unlabeled current transients. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Model L1 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "max": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.23,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.64,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.25,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.045,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0042,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "max": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. L series inclusions are rare and mostly Al2O3.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 480
+      },
+      "result_note": "Approximate manual reading of a discrete pitting-potential marker. Connecting lines and the reported slopes do not create additional outcomes. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Model L1 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "max": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.23,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.64,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.25,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.045,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0042,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "max": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. L series inclusions are rare and mostly Al2O3.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 220
+      },
+      "result_note": "Approximate manual reading of a discrete pitting-potential marker. Connecting lines and the reported slopes do not create additional outcomes. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Model L2 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "max": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.26,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.56,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.27,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.073,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "max": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.058,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. L series inclusions are rare and mostly Al2O3.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 675
+      },
+      "result_note": "Approximate manual reading of a discrete pitting-potential marker. Connecting lines and the reported slopes do not create additional outcomes. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Model L2 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "max": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.26,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.56,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.27,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.073,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "max": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.058,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. L series inclusions are rare and mostly Al2O3.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 260
+      },
+      "result_note": "Approximate manual reading of a discrete pitting-potential marker. Connecting lines and the reported slopes do not create additional outcomes. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Model L3 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.23,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.064,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0014,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.116,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. L series inclusions are rare and mostly Al2O3.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 940
+      },
+      "result_note": "Approximate manual reading of a discrete pitting-potential marker. Connecting lines and the reported slopes do not create additional outcomes. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Model L3 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.23,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.064,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0014,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.116,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. L series inclusions are rare and mostly Al2O3.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 310
+      },
+      "result_note": "Approximate manual reading of a discrete pitting-potential marker. Connecting lines and the reported slopes do not create additional outcomes. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Model L4 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.08,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.36,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.29,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.078,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0025,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.171,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. L series inclusions are rare and mostly Al2O3.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 1170
+      },
+      "result_note": "Approximate manual reading of a discrete pitting-potential marker. Connecting lines and the reported slopes do not create additional outcomes. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Model L4 alloy from NRIM, Japan; vacuum induction melted/cast, hot rolled under controlled atmosphere then cold rolled to 2.154 mm sheet. Solution annealed at 1150 °C for 20 min and water quenched. Cu-wire spot-welded, specimen mounted in epoxy and ground to 2000-grade SiC; mount interface coated with thin silicone sealant, about 1 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 14.08,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.36,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.29,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.078,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0025,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "O",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.001,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.171,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Single austenitic phase after solution treatment; no sigma, chi or Cr2N precipitates found, with N in solid solution. L series inclusions are rare and mostly Al2O3.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Analytical-grade reagents in double-distilled water; purged with purified N2 before and during each potentiodynamic test. Numerical pH is not supplied.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, SCE reference and Pt counter. Immersed at OCP for 2 h to stabilize Ecorr, then raised anodically from 100 mV below Ecorr at 0.2 mV/s. Tests at unquantified room temperature, repeated at least twice; pitting confirmed by optical microscopy afterward. The separate in-situ SPM experiment uses air-saturated 0.1 M KCl and a 1 µm diamond finish; those details do not replace this standard nitrogen-degassed protocol.",
+        "scan_rate": {
+          "value": 0.2,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 2 arrows explicitly locate pitting potentials, distinguished from preceding metastable-current transients; Figure 4 summarizes the L-series pitting potentials. Pitting was confirmed optically; no fixed numerical current threshold is stated."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 350
+      },
+      "result_note": "Approximate manual reading of a discrete pitting-potential marker. Connecting lines and the reported slopes do not create additional outcomes. Table 1 explicitly states wt.% and Fe balance. Upper-bound Mn/P entries retain strict < qualifiers (Mn <0.01 where applicable; P <0.001 where applicable). The 1150 °C solution anneal is not electrolyte temperature.",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,4103 @@
+{
+  "paper_name": "66_E. Lunarska, Z. Szklarska-Smialowska, M. Jamk' Czachor, Corrosion 31 (1975)_ p. 231.pdf",
+  "reference_number": 66,
+  "inputs": {
+    "pdf": {
+      "filename": "66_E. Lunarska, Z. Szklarska-Smialowska, M. Jamk' Czachor, Corrosion 31 (1975)_ p. 231.pdf",
+      "sha256": "bcd3b2991180f4492bd466e0fc28a42049f3dbe49f642929b10036d3114205b4"
+    },
+    "registry": {
+      "filename": "paper_66.json",
+      "sha256": "a63205a01c8eea6f43a77855574dde8e28e42fe7e042baaf1413a1223102673a"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0075,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.034,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.066,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Martensite with some δ-ferrite inclusions at former austenite grain boundaries. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 700
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0075,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.034,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.066,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Martensite with some δ-ferrite inclusions at former austenite grain boundaries. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 750
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0075,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.034,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.066,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Martensite with some δ-ferrite inclusions at former austenite grain boundaries. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 1100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0075,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.034,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.066,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Martensite with some δ-ferrite inclusions at former austenite grain boundaries. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 1100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0075,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.034,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.066,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Martensite with some δ-ferrite inclusions at former austenite grain boundaries. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0075,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.034,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.51,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.066,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Martensite with some δ-ferrite inclusions at former austenite grain boundaries. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.47,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.061,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.47,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.061,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.47,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.061,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 600
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.47,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.061,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 950
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.47,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.061,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.47,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.061,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.013,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.031,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.52,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.049,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.013,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.031,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.52,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.049,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 70
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.013,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.031,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.52,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.049,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 550
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.013,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.031,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.52,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.049,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 500
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.013,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.031,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.52,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.049,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.013,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.57,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.031,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.52,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.049,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.69,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate. Carbon for this 10.0% Mn heat is printed n.d.; its amount is null rather than borrowed from the distinct 9.6% Mn heat.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.69,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate. Carbon for this 10.0% Mn heat is printed n.d.; its amount is null rather than borrowed from the distinct 9.6% Mn heat.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.69,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 500
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate. Carbon for this 10.0% Mn heat is printed n.d.; its amount is null rather than borrowed from the distinct 9.6% Mn heat.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.69,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 500
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate. Carbon for this 10.0% Mn heat is printed n.d.; its amount is null rather than borrowed from the distinct 9.6% Mn heat.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.69,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate. Carbon for this 10.0% Mn heat is printed n.d.; its amount is null rather than borrowed from the distinct 9.6% Mn heat.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.69,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.019,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate. Carbon for this 10.0% Mn heat is printed n.d.; its amount is null rather than borrowed from the distinct 9.6% Mn heat.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.065,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.065,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.065,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 550
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.065,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 500
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.065,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.48,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.065,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 15.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.086,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 100
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 15.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.086,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 75
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 15.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.086,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 600
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 15.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.086,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "value": 500
+      },
+      "result_note": "Approximate graphical potential of pit nucleation E′np. Connecting lines do not create observations. Separate forged and quenched outcomes retained even when they overlap. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Tested in the as-received hot-forged condition. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 15.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.086,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Fine carbide precipitates described at γ–δ boundaries and within δ phase in hot-forged specimens.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "alloy": {
+        "preparation": "Supplied as hot-forged 18-mm-diameter rods. Heated in air at 1050°C and water-quenched; paper identifies most electrochemical tests as using a 1-h heating period. Cut from rods, epoxy-mounted to expose about 0.8 cm², coarse-ground with SiC paper and fine-ground with alumina paste.",
+        "composition": [
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 15.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.086,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite and ferrite; no σ phase detected. The 10% Mn heat contains more δ-ferrite than the 9.6% Mn heat. Small carbide particles, presumed M23C6, detected in all specimens. Quenching did not essentially change phase composition; it increased homogeneity of δ/γ phases and made δ grains somewhat larger and rounder.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic stepped polarization"
+        ],
+        "procedure_description": "Stepwise anodic polarization at 25°C; experimental text specifies 50 mV per 30 s. Potential plotted on the H scale. Figure 5 supplies separate hot-forged/open and 1050°C-water-quenched/filled symbols for each NaCl concentration. Optical microscopy, XRD and electron microprobe support the phase/context discussion.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 50,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 30,
+          "unit": "s"
+        },
+        "pitting_criterion": "Potential of pit nucleation E′np from anodic polarization. Upward square markers in Figure 5 explicitly denote no pitting, represented as lower limits."
+      },
+      "pitting_potential": {
+        "unit": "mV_H",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward arrow gives a lower bound at approximately 1150 mV_H, not a pitting event. Table 1 gives composition in % without an explicit mass/atomic basis. Figure 1 displays a conflicting “50 mV/sec” label, while the experimental method and Figure 2 specify 50 mV/30 sec; the stepwise method is retained without calculating a sweep rate.",
+      "failure_notes": ""
+    }
+  ]
+}

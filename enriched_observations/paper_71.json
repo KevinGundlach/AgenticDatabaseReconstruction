@@ -1,0 +1,4406 @@
+{
+  "paper_name": "71_Truman, J. E., M. J. Coleman, and K. R. Pirt. British corrosion journal 12.4 (1977)_ 236-238.pdf",
+  "reference_number": 71,
+  "inputs": {
+    "pdf": {
+      "filename": "71_Truman, J. E., M. J. Coleman, and K. R. Pirt. British corrosion journal 12.4 (1977)_ 236-238.pdf",
+      "sha256": "30c1df1a51294bfb769ae26a1f43a037e48a84fb5c0440e9a3df79ffee4331bc"
+    },
+    "registry": {
+      "filename": "paper_71.json",
+      "sha256": "a130faa2015f0b90bf5c5995d8f886e6f17e4f70324cd43e8e286106e72cc835"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.84,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.38,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.15,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.036,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -65
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.84,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.38,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.15,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.036,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -90
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.22,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.68,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.43,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.08,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.3,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -25
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. Nominal Cr/Mo summary on page 238 repeats the plain result; its ~0.3% N description is approximate (actual steel compositions remain in Table I/II). No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.22,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.68,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.43,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.08,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.3,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -15
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.035,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.38,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.95,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.9,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.031,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -40
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.035,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.38,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.95,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.9,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.031,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -30
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.08,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.42,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.9,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.155,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -15
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.08,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.42,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.9,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.155,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -60
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.33,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.06,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.86,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.98,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.27,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 65
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.33,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.06,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.86,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.98,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.03,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.27,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -20
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.17,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.31,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.66,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.54,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.01,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.29,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 50
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. Nominal Cr/Mo summary on page 238 repeats the plain result; its ~0.3% N description is approximate (actual steel compositions remain in Table I/II). No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.17,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.31,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.66,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.54,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.01,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.29,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 20
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.18,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.25,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.34,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.16,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.98,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.034,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 20
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.18,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.25,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.34,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.16,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.98,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.034,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 10
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.06,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.7,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.65,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.92,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.149,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 85
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.06,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.7,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.65,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.92,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.149,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 40
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.07,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.8,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.05,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.94,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.291,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 80
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.27,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.07,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.8,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.05,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.94,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.291,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 95
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.53,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.58,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.29,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 95
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. Nominal Cr/Mo summary on page 238 repeats the plain result; its ~0.3% N description is approximate (actual steel compositions remain in Table I/II). No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.53,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.58,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.29,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 70
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.28,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.58,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.88,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.05,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -30
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.13,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.28,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.58,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.88,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.05,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -60
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.33,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.46,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.27,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.39,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 50
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. Nominal Cr/Mo summary on page 238 repeats the plain result; its ~0.3% N description is approximate (actual steel compositions remain in Table I/II). No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.33,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.46,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.27,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.1,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.39,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 80
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.2,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.13,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.3,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -10
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.2,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.13,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.3,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -10
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.15,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.52,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.85,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.07,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.155,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 35
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.15,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.016,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.52,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.85,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.07,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.155,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -70
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.72,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.95,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.412,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 200
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. Nominal Cr/Mo summary on page 238 repeats the plain result; its ~0.3% N description is approximate (actual steel compositions remain in Table I/II). No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.72,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.95,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.412,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 65
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.29,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.41,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.96,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.64,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.067,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 125
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.29,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.41,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.96,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.64,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.067,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 40
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.84,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.05,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.85,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.159,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 170
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.14,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.84,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.05,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.85,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.159,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 150
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.022,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.35,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.35,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.39,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.73,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 920
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. Nominal Cr/Mo summary on page 238 repeats the plain result; its ~0.3% N description is approximate (actual steel compositions remain in Table I/II). No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_036",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.022,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.35,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.35,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.39,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.73,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.31,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 130
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_037",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². Plain specimen with non-exposed surface protected by a coating.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.75,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.52,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.95,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.96,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.455,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Plain specimen; intermittent junction attack at the coating can produce scatter, particularly for more resistant alloys.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 940
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². Authors note intermittent attack at the coating/specimen junction may lower plain-specimen results, especially in more resistant steels. Table I prints N = 0.455 wt%, while Table II prints 0.435 wt%; sample identity retained without resolving the composition conflict. Composition uses the dedicated Table I analysis (N = 0.455 wt-%); Table II lists N = 0.435 wt-%. Neither value is averaged or used to replace the registered potential. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_038",
+      "alloy": {
+        "preparation": "5-kg melts made at atmospheric pressure in an induction furnace using iron, nickel, chromium, ferro-molybdenum, manganese and high-nitrogen ferro-chromium. Cast ingots hot-rolled to 20-mm-diameter bars, heat-treated at 1100°C for 30 min and cooled in still air. Surface ground to 120 grit; exposed area 5 cm². A round-section neoprene ring (2.5-mm section) fastened firmly around the cylindrical specimen creates a standard crevice.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 3.75,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.017,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 22.52,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.95,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.96,
+              "unit": "wt-%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.455,
+              "unit": "wt-%"
+            }
+          }
+        ],
+        "microstructure": "Fully austenitic experimental stainless steel; base composition chosen to maintain austenite throughout the nitrogen range.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Aerated solution.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaHCO3",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "crevice-assisted initiation"
+        ],
+        "procedure_description": "Saturated calomel reference and potentiostat. Pretreatment at −1.5 V for 5 min, rapidly increase to −0.5 V, then increase steadily at 1 V in 50 min. Standard neoprene crevice specimen.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "V/50 min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Critical potential at an anodic current density of 10⁻⁵ A/cm²; deliberate crevice results retain the authors’ “pitting” terminology but may be controlled by crevice initiation."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 905
+      },
+      "result_note": "Critical potential defined at 10⁻⁵ A/cm². A neoprene ring deliberately forms a small crevice; authors call this a “pitting” potential but crevice initiation can control the value. It is retained separately from the plain test. Table I prints N = 0.455 wt%, while Table II prints 0.435 wt%; sample identity retained without resolving the composition conflict. Composition uses the dedicated Table I analysis (N = 0.455 wt-%); Table II lists N = 0.435 wt-%. Neither value is averaged or used to replace the registered potential. No numerical temperature or pH is specified for the polarization experiment. Ambient temperature and pH 2 refer to separate immersion tests and are not assigned here.",
+      "failure_notes": ""
+    }
+  ]
+}

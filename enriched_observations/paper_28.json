@@ -1,0 +1,1202 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "28_Shi, Y., et al. (2018). Corrosion Science 133_ 120-131.pdf",
+  "reference_number": 28,
+  "inputs": {
+    "pdf": {
+      "filename": "28_Shi, Y., et al. (2018). Corrosion Science 133_ 120-131.pdf",
+      "sha256": "768828456b0d9d7472e0eb24cd1a5bbe4a4d804f0e8335ae9625014bc33c1f6d"
+    },
+    "registry": {
+      "filename": "paper_28.json",
+      "sha256": "9304c304fa37529b9780e3719552c299e2c6cb856ae4f01f9f296c193a3154ca"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Arc melted pure metals (99.99 wt%) on water-cooled copper hearth (ABJ-900) under Ti-gettered argon at vacuum stated as at least 0.01 Torr; remelted at least four times. Rectangular cast ingots annealed at 1250 °C for 50 h and water quenched, then forged at 1250 °C with 50% reduction to about 10 mm thickness, and air cooled. Tested in as-forged condition. For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.3,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          }
+        ],
+        "microstructure": "Single FCC A1 solid solution, homogeneous elemental distribution and randomly oriented equiaxed grains about 50 µm.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 522,
+        "plus_minus": 18
+      },
+      "result_note": "Parentheses are standard deviations, as stated in the Table 3 caption. Section 3.3 defines Ep as the potential at which current density exceeds 100 μA/cm² and increases continually. Possible relationship to the unlabeled HEA comparison markers obs_007–obs_009 is unresolved; those markers are not asserted to be independent experiments. Composition entries retain the explicitly stated nominal atomic ratio x/(1+1+1+1), not normalized at% or measured bulk wt%. Table 1 SEM/TEM EDS amounts are phase-specific and are not a full bulk chemistry.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Arc melted pure metals (99.99 wt%) on water-cooled copper hearth (ABJ-900) under Ti-gettered argon at vacuum stated as at least 0.01 Torr; remelted at least four times. Rectangular cast ingots annealed at 1250 °C for 50 h and water quenched, then forged at 1250 °C with 50% reduction to about 10 mm thickness, and air cooled. Tested in as-forged condition. For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          }
+        ],
+        "microstructure": "FCC A1 matrix about 95 vol%, average grain size about 15 µm; irregular BCC-structured islands about 5 vol%. Islands contain disordered A2 nanoparticles in ordered B2 matrix; A1 rich in Cr/Fe, B2 rich in Al/Ni.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 316,
+        "plus_minus": 32
+      },
+      "result_note": "Parentheses are standard deviations, as stated in the Table 3 caption. Section 3.3 defines Ep as the potential at which current density exceeds 100 μA/cm² and increases continually. Possible relationship to the unlabeled HEA comparison markers obs_007–obs_009 is unresolved; those markers are not asserted to be independent experiments. Composition entries retain the explicitly stated nominal atomic ratio x/(1+1+1+1), not normalized at% or measured bulk wt%. Table 1 SEM/TEM EDS amounts are phase-specific and are not a full bulk chemistry.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Arc melted pure metals (99.99 wt%) on water-cooled copper hearth (ABJ-900) under Ti-gettered argon at vacuum stated as at least 0.01 Torr; remelted at least four times. Rectangular cast ingots annealed at 1250 °C for 50 h and water quenched, then forged at 1250 °C with 50% reduction to about 10 mm thickness, and air cooled. Tested in as-forged condition. For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.7,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          }
+        ],
+        "microstructure": "Dendritic A1 FCC plus interdendritic A2/B2 phases, BCC-structured fraction about 45 vol%. Interdendrites preferentially [101]-oriented; Cr/Co/Fe-rich A2 net-like phase and 10–50 nm particles in Al/Ni-rich B2 matrix.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 118,
+        "plus_minus": 12
+      },
+      "result_note": "Parentheses are standard deviations, as stated in the Table 3 caption. Section 3.3 defines Ep as the potential at which current density exceeds 100 μA/cm² and increases continually. Fig. 8 and the discussion describe selective dissolution in this alloy; the authors nevertheless report Ep as the critical pitting/localized-corrosion index. Possible relationship to the unlabeled HEA comparison markers obs_007–obs_009 is unresolved; those markers are not asserted to be independent experiments. Composition entries retain the explicitly stated nominal atomic ratio x/(1+1+1+1), not normalized at% or measured bulk wt%. Table 1 SEM/TEM EDS amounts are phase-specific and are not a full bulk chemistry.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Arc melted pure metals (99.99 wt%) on water-cooled copper hearth (ABJ-900) under Ti-gettered argon at vacuum stated as at least 0.01 Torr; remelted at least four times. Rectangular cast ingots annealed at 1250 °C for 50 h and water quenched, then forged at 1250 °C with 50% reduction to about 10 mm thickness, and air cooled. Forged specimens sealed in vacuum tubes, annealed at 1250 °C for 1000 h, then water quenched (as-equilibrated condition). For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.3,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          }
+        ],
+        "microstructure": "Single FCC A1 phase remains, with grains reported five times larger than as forged and annealing twins.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 808,
+        "plus_minus": 16
+      },
+      "result_note": "Parentheses are standard deviations, as stated in the Table 3 caption. Section 3.3 defines Ep as the potential at which current density exceeds 100 μA/cm² and increases continually. Possible relationship to the unlabeled HEA comparison markers obs_007–obs_009 is unresolved; those markers are not asserted to be independent experiments. Composition entries retain the explicitly stated nominal atomic ratio x/(1+1+1+1), not normalized at% or measured bulk wt%. Table 1 SEM/TEM EDS amounts are phase-specific and are not a full bulk chemistry.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Arc melted pure metals (99.99 wt%) on water-cooled copper hearth (ABJ-900) under Ti-gettered argon at vacuum stated as at least 0.01 Torr; remelted at least four times. Rectangular cast ingots annealed at 1250 °C for 50 h and water quenched, then forged at 1250 °C with 50% reduction to about 10 mm thickness, and air cooled. Forged specimens sealed in vacuum tubes, annealed at 1250 °C for 1000 h, then water quenched (as-equilibrated condition). For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          }
+        ],
+        "microstructure": "FCC A1 grains about 200 µm and BCC-structured fraction reduced to about 2 vol%; A2 nanoparticles dissolve during annealing and only ordered B2 remains in the BCC regions, with reduced chemical contrast.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 496,
+        "plus_minus": 38
+      },
+      "result_note": "Parentheses are standard deviations, as stated in the Table 3 caption. Section 3.3 defines Ep as the potential at which current density exceeds 100 μA/cm² and increases continually. Possible relationship to the unlabeled HEA comparison markers obs_007–obs_009 is unresolved; those markers are not asserted to be independent experiments. Composition entries retain the explicitly stated nominal atomic ratio x/(1+1+1+1), not normalized at% or measured bulk wt%. Table 1 SEM/TEM EDS amounts are phase-specific and are not a full bulk chemistry.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Arc melted pure metals (99.99 wt%) on water-cooled copper hearth (ABJ-900) under Ti-gettered argon at vacuum stated as at least 0.01 Torr; remelted at least four times. Rectangular cast ingots annealed at 1250 °C for 50 h and water quenched, then forged at 1250 °C with 50% reduction to about 10 mm thickness, and air cooled. Forged specimens sealed in vacuum tubes, annealed at 1250 °C for 1000 h, then water quenched (as-equilibrated condition). For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.7,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal atomic-ratio coefficient"
+            }
+          }
+        ],
+        "microstructure": "Equiaxed grains about 50 µm; A2/B2 fraction reduced from about 45 to 22 vol%. A1 randomly oriented and A2/B2 preferentially [101]-oriented. A2 changes from net-like morphology to 20–180 nm cuboidal precipitates within B2; chemical segregation is reduced.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 256,
+        "plus_minus": 10
+      },
+      "result_note": "Parentheses are standard deviations, as stated in the Table 3 caption. Section 3.3 defines Ep as the potential at which current density exceeds 100 μA/cm² and increases continually. Fig. 8 and the discussion describe selective dissolution in this alloy; the authors nevertheless report Ep as the critical pitting/localized-corrosion index. Possible relationship to the unlabeled HEA comparison markers obs_007–obs_009 is unresolved; those markers are not asserted to be independent experiments. Composition entries retain the explicitly stated nominal atomic ratio x/(1+1+1+1), not normalized at% or measured bulk wt%. Table 1 SEM/TEM EDS amounts are phase-specific and are not a full bulk chemistry.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Figure 11 AlxCoCrFeNi HEA comparison marker, from the current as-forged/as-equilibrated study; the specific x and processing state are not identified. For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.05
+      },
+      "result_note": "Approximate manual reading of a visible black square. Individual alloy/condition is not labeled at this point. Possible duplicate of one of obs_001–obs_006, or another presentation in that group; correspondence cannot be established, so it remains separate without asserting an independent experiment. The shared study uses x = 0.3, 0.5 or 0.7 and two processing states; no particular composition/state is selected for this unlabeled marker. Possible repeated presentation is retained without merging IDs.",
+      "failure_notes": "Figure 11 does not identify the individual Al content or as-forged/as-equilibrated state for this HEA marker. It cannot be reliably associated with one of the Table 3 specimens; alloy-specific processing, numerical composition and microstructure remain unresolved."
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Figure 11 AlxCoCrFeNi HEA comparison marker, from the current as-forged/as-equilibrated study; the specific x and processing state are not identified. For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.44
+      },
+      "result_note": "Approximate manual reading of a visible black square. Individual alloy/condition is not labeled at this point. Possible duplicate of one of obs_001–obs_006, or another presentation in that group; correspondence cannot be established, so it remains separate without asserting an independent experiment. The shared study uses x = 0.3, 0.5 or 0.7 and two processing states; no particular composition/state is selected for this unlabeled marker. Possible repeated presentation is retained without merging IDs.",
+      "failure_notes": "Figure 11 does not identify the individual Al content or as-forged/as-equilibrated state for this HEA marker. It cannot be reliably associated with one of the Table 3 specimens; alloy-specific processing, numerical composition and microstructure remain unresolved."
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Figure 11 AlxCoCrFeNi HEA comparison marker, from the current as-forged/as-equilibrated study; the specific x and processing state are not identified. For polarization, cut to 1 × 1 × 0.5 cm, cold mounted in epoxy with copper-line back contact and 1 cm² exposed; ground through 200–2000-grit SiC, then cleaned with alcohol, acetone and deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 20,
+        "plus_minus": 2,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with specimen working, SCE reference and Pt-sheet auxiliary; PARSTAT 2263. Tests at reported room temperature 20 ± 2 °C. Free corrosion for 30 min to quasi-stationary OCP, then scan from −0.25 V versus OCP until current density reaches 1 mA/cm². Work-function/SEM/AFM polishing protocols and calculated phase-equilibrium temperatures are not the electrode procedure.",
+        "scan_rate": {
+          "value": 100,
+          "unit": "mV/min"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Ep is the potential at which current density exceeds 100 µA/cm² and increases continually, used as an index of localized-corrosion resistance. This differs from the 1 mA/cm² scan endpoint. Al0.7 specimens also exhibit selective dissolution."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.8
+      },
+      "result_note": "Approximate manual reading of a visible black square. Individual alloy/condition is not labeled at this point. Possible duplicate of one of obs_001–obs_006, or another presentation in that group; correspondence cannot be established, so it remains separate without asserting an independent experiment. The shared study uses x = 0.3, 0.5 or 0.7 and two processing states; no particular composition/state is selected for this unlabeled marker. Possible repeated presentation is retained without merging IDs.",
+      "failure_notes": "Figure 11 does not identify the individual Al content or as-forged/as-equilibrated state for this HEA marker. It cannot be reliably associated with one of the Table 3 specimens; alloy-specific processing, numerical composition and microstructure remain unresolved."
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Cited Al alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.73
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Cited Al alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.68
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Cited Al alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.58
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Cited Ti alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.18
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Cited Ti alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.28
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Cited Ti alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.19
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Cited Ti alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.05
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Cited Cu alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.12
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Cited Cu alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.15
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Cited Cu alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.11
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Cited Ni alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.06
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Cited Ni alloy comparison in Figure 11; individual grade, prior processing, surface preparation and point-specific citation are not supplied.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Other"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The Figure 11 comparison is explicitly scoped to 3.5 wt.% NaCl. Numerical pH, chloride-ion concentration, solvent and gas conditioning are not supplied.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited Figure 11 comparison of pitting potential Ep and corrosion-current density in 3.5 wt.% NaCl; point-specific temperature, scan method/rate and criterion are not supplied, so the current-study protocol is not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Figure 11 labels its horizontal quantity pitting potential Ep; a point-specific selection criterion is not supplied for the cited alloys."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.9
+      },
+      "result_note": "Approximate manual reading of an identifiable discrete symbol. The figure supplies the alloy class but not the individual grade, test condition or point-specific citation. Hatching and overlapping regions limit graphical precision. Broad colored envelopes are not individual observations. The source supplies a material class, not an individual grade or chemistry. The 20 ± 2 °C temperature and 100 mV/min scan rate of the current HEA experiments are not assigned to cited comparisons.",
+      "failure_notes": ""
+    }
+  ]
+}

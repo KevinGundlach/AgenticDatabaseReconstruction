@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "25_Hong-lei Wang, Tai-Xiu Gao, Jia-zheng Niu, Pei-jian Shi, Jing Xu, and Yan Wang. International Journal of Minerals, Metallury, and Materials, 23 (1) (2016), 77-82.pdf",
+  "reference_number": 25,
+  "inputs": {
+    "pdf": {
+      "filename": "25_Hong-lei Wang, Tai-Xiu Gao, Jia-zheng Niu, Pei-jian Shi, Jing Xu, and Yan Wang. International Journal of Minerals, Metallury, and Materials, 23 (1) (2016), 77-82.pdf",
+      "sha256": "50f7dbc8b89310e28caf7cda69737efe9414a6b4044cf6298c55c5823de674f6"
+    },
+    "registry": {
+      "filename": "paper_25.json",
+      "sha256": "803801a6248773d70f00b791d7ed06c28aa8692d1224a794b572c0c58585559b"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Equiatomic FeSiBAlNi powders made from elemental Fe, Si, B, Al and Ni powders above 99.5 wt% purity and below 70 µm. Mechanically alloyed in a planetary ball mill at 350 r/min for 240 h under argon at room temperature, using stainless-steel cylinder/balls and 15:1 ball:powder mass ratio; after every 30 min milling, halted for 30 min. As-milled powders spark-plasma sintered in graphite die (Dr. Sinter-3.20MKII) at 520 °C for 10 min, heating 40 °C/min under axial 80 MPa and argon, then freely cooled to room temperature. Compactness/shape assessed and surface ground with 2000-grit SiC before electrochemistry.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal equiatomic formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1,
+              "unit": "nominal equiatomic formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "B",
+            "amount": {
+              "value": 1,
+              "unit": "nominal equiatomic formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 1,
+              "unit": "nominal equiatomic formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal equiatomic formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "At 520 °C SPS, partially crystallized amorphous composite containing fcc1 and bcc1 solid-solution phases and residual amorphous phase; particle-like morphology below 3 µm with agglomerated particles. The fully amorphous milled powder and fully crystallized 1080 °C SPS product are distinct states.",
+        "material_class": "HEA"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Artificial seawater prepared by dissolving artificial sea salt in distilled water at reported salt:water mass ratio 1:30. No individual salt recipe, pH or gas conditioning supplied.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "Artificial sea salt",
+            "amount": {
+              "value": 1,
+              "unit": "mass part per 30 mass parts distilled water"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell with bulk FeSiBAlNi working electrode, Pt counter and Ag/AgCl reference; CHI 760E potentiostat. Sweep after OCP had sufficiently stabilized; stabilization time and potential range are not given. The paper explicitly states room temperature only for the separate immersion tests; no numerical polarization temperature is supplied.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit explicitly identified in Section 3.4 and Figure 5 at the passive-to-active transition; no fixed current-density criterion is stated."
+      },
+      "pitting_potential": {
+        "unit": "V (Ag/AgCl)",
+        "value": -0.56
+      },
+      "result_note": "The explicit text Epit is selected as primary. Fig. 5 places the labeled Epit guide near −0.68 V, which conflicts with the printed −0.56 V. Both readings are retained without resolving the source discrepancy. The 1080°C curve is described as anodic dissolution without a passive plateau and supplies no Epit. Nominal equiatomic formula coefficients are retained without calculating 20 at% or a bulk weight analysis. The 520 °C label is SPS processing temperature, not electrolyte temperature. The seawater ratio is copied without conversion to wt% or chloride concentration.",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "paper_name": "63_Lu, Y. C., C. R. Clayton, and A. R. Brooks. Corrosion science 29.7 (1989)_ 863-880.pdf",
+  "reference_number": 63,
+  "inputs": {
+    "pdf": {
+      "filename": "63_Lu, Y. C., C. R. Clayton, and A. R. Brooks. Corrosion science 29.7 (1989)_ 863-880.pdf",
+      "sha256": "c64a93bb7f1a23aa6ec0982c1bd31385ca3174f28d39dd77fa1e52f44fb5b419"
+    },
+    "registry": {
+      "filename": "paper_63.json",
+      "sha256": "cdbab9235bb8bf9e7506ed56d05e3fd771a571eb195ecb6199a038bd0436138a"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Specimens 7 × 10 × 1 mm sealed in a pre-evacuated quartz tube, annealed at 1100°C for 3 h, and water-quenched by breaking the tube under water. Mechanically polished from 600 grit to a 0.25-µm diamond finish.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 9.0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "max": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "max": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Table 2 calls the solution aerated. Experimental methods specify argon purging for 2 h and execution in an argon-purged glove box; Figure 1 calls it de-aerated.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.3,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 5.4,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional Green cell with saturated calomel reference. Cathodically polarized at −1.150 V (SCE) for 15 min to reduce the polishing film, then swept in the anodic direction at 1 mV/s. Cathodic branch uses 0.3 M NaCl at pH 5.4; pH adjustment for the alkaline scan occurs at open circuit. Separate −0.180 V passive-film/XPS holds are not assigned as pretreatment to the pitting scans.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit identified in the anodic-polarization curve and tabulated in Table 2; no numerical current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -50
+      },
+      "result_note": "Table 2 caption says aerated; the experimental method and Figure 1 caption say de-aerated. Retained without resolving that source conflict. The electrode reference is explicitly SCE in the methods. Carbon, nitrogen and sulfur composition limits are strict < values, represented as upper bounds. No numerical electrolyte temperature is given for these pitting scans; the 70°C film-analysis experiment is a separate condition. NaOH adjustment stock concentration is not the final NaOH concentration.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Specimens 7 × 10 × 1 mm sealed in a pre-evacuated quartz tube, annealed at 1100°C for 3 h, and water-quenched by breaking the tube under water. Mechanically polished from 600 grit to a 0.25-µm diamond finish.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 9.0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "max": 0.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "max": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "max": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Table 2 calls the solution aerated. Experimental methods specify argon purging for 2 h and execution in an argon-purged glove box; Figure 1 calls it de-aerated. At open circuit, pH adjusted to 9 using 0.1 M NaOH; cathodic branch begins in pH 5.4 NaCl.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.3,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaOH",
+            "amount": null
+          }
+        ],
+        "ph": 9.0,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Conventional Green cell with saturated calomel reference. Cathodically polarized at −1.150 V (SCE) for 15 min to reduce the polishing film, then swept in the anodic direction at 1 mV/s. Cathodic branch uses 0.3 M NaCl at pH 5.4; pH adjustment for the alkaline scan occurs at open circuit. Separate −0.180 V passive-film/XPS holds are not assigned as pretreatment to the pitting scans.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit identified in the anodic-polarization curve and tabulated in Table 2; no numerical current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 525
+      },
+      "result_note": "Table 2 caption says aerated; the experimental method and Figure 1 caption say de-aerated. Retained without resolving that source conflict. The electrode reference is explicitly SCE in the methods. Carbon, nitrogen and sulfur composition limits are strict < values, represented as upper bounds. No numerical electrolyte temperature is given for these pitting scans; the 70°C film-analysis experiment is a separate condition. NaOH adjustment stock concentration is not the final NaOH concentration.",
+      "failure_notes": ""
+    }
+  ]
+}

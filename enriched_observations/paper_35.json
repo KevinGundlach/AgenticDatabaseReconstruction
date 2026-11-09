@@ -1,0 +1,203 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "35_I. Olefjord, L. Wegrelius, Corros. Sci. 38 (1996)_ p. 1203.pdf",
+  "reference_number": 35,
+  "inputs": {
+    "pdf": {
+      "filename": "35_I. Olefjord, L. Wegrelius, Corros. Sci. 38 (1996)_ p. 1203.pdf",
+      "sha256": "624af2158a0a9c8267c0a395563ee65611ece2fba1ac7517bf4b1915aee328a0"
+    },
+    "registry": {
+      "filename": "paper_35.json",
+      "sha256": "89cf266dbed6c61a8b45178fbb1be383ece91baab44d52a4bc8d68dab9b45daf"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Low-N Fe–Cr–Ni–Mo steel; homogenization described as heat treatment at 1100 and 1250 °C followed by water quenching, without a temperature-to-specimen allocation or hold times. Samples 11 mm diameter; emery polished then finished with 1 µm diamond paste.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 19.98,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.011,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.08,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 21,
+              "unit": "ppm"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Pro-analysis grade chemicals in deionized water; argon bubbling for 2 h before exposure. Discussion explicitly describes the electrolyte as 0.5 M Cl− at approximately pH 1. Table 2 characterizes source-water impurities (NO3− <0.005, NO2− 0.08 and NH4+ 0.03 mg/l), not separately added solutes.",
+        "solvent": "Deionized water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 1,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "ESCA-connected electrochemical cell, SCE reference; activated at −700 mV for 10 min. Current-time exposure at +500 mV SCE and 65 °C (Figure 2c): initial passivation tendency for about 10 s, followed by steadily increasing current from active-pit propagation. The plotted trace extends about 15 min; an exact hold duration for this registered current-time outcome is not separately stated. The 1 mV/s dynamic sweeps and separate −75/+500/+800 mV XPS exposure schedule are not the pitting threshold method.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Sustained increase in current after initial approximately 10 s passivation tendency, attributed to propagation of active pits at imposed +500 mV SCE. This supplies an upper bound, not a scan-derived exact Epit."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 500
+      },
+      "result_note": "Potentiostatic current-time upper limit: sustained active-pit propagation occurs during the +500 mV SCE exposure after about 10 s. Stored as a bound at or below the applied potential, not an exact scan-derived Epit. The high-N curve instead repassivates; its transient pit initiation does not supply a stable-pitting threshold. The solution pH is reported approximately 1; chloride 0.5 M is explicitly reported in Discussion rather than calculated from the salts. No assignment of a unique homogenization temperature/hold or exact potential increment is invented.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Cited Mo-free Fe–20Cr–20Ni comparator; no individual heat, processing schedule, surface preparation or nitrogen content is identified.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "nominal %"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "nominal %"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0,
+              "unit": "nominal %"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "The discussion cites a room-temperature Mo-free comparison, but does not independently restate that measurement’s electrolyte recipe or conditioning; current-study electrolyte is not automatically imported.",
+        "solvent": "",
+        "composition": [],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited approximate pitting potential at unquantified room temperature, reported on SCE scale; detailed scan/hold procedure is not supplied in this PDF.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ approximate cited pitting potential; not an exact current-study onset."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 500
+      },
+      "result_note": "Approximate cited pitting potential. The passage does not give an individual heat/run identity; it is not merged with the present Mo-bearing experiment.",
+      "failure_notes": ""
+    }
+  ]
+}

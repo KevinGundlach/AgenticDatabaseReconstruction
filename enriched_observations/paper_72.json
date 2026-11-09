@@ -1,0 +1,764 @@
+{
+  "paper_name": "72_Wilde, B. E. Corrosion 42.3 (1986)_ 147-151.pdf",
+  "reference_number": 72,
+  "inputs": {
+    "pdf": {
+      "filename": "72_Wilde, B. E. Corrosion 42.3 (1986)_ 147-151.pdf",
+      "sha256": "dd3cf3026c58962c085d07e078cc8d515b12093e8e67cc4d3a542efd60fc41f7"
+    },
+    "registry": {
+      "filename": "paper_72.json",
+      "sha256": "df3e62cd456f15985ca7a890ddb61bea8e549fb4c8f087a6525db86f6adac43f"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Experimental alloy melted in a 500-lb vacuum furnace, hot-rolled to 0.5-in plate, cold-rolled to 0.25-in plate; solution-annealed 2000°F (1092°C) for 60 min and quenched in flowing water. Cylindrical specimens 0.25-in diameter × 0.75-in length, polished to 600-grit SiC and mounted in Teflon compression gasket; ultrasonically degreased, pickled in 25 vol% HNO3/4 vol% HF at 140°F (60°C) for 5 min, washed in distilled water and hot-air dried. Teflon/steel interface painted with alkyd varnish before polarization to prevent crevice interference.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.055,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.53,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.01,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.83,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.039,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.007,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel with <1% δ-ferrite. No sigma phase detected by XRD in the experimental alloys.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated; made from reagent-grade chemicals and distilled water.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Forward anodic polarization in aerated 3.5 wt% NaCl at 25°C with saturated calomel reference; Figure 2 specifies 0.6 V/h. Table 3 repeats Ec from the cyclic measurements; sweep reversal for that table is at 10 mA/cm². Ec is retained independently of reverse-scan Ep.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Clear passive-breakdown potential Ec marking onset of pit initiation; no additional numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.22
+      },
+      "result_note": "Ec denotes the forward-scan critical breakdown / pit-initiation potential, distinct from repassivation Ep. Table 3 repeats the same Ec results. Figure 1 shows sensitized micrographs (620°C/24 h), whereas electrochemical specimens are explicitly machined from annealed stock. That sensitization treatment is not assigned to these tests. AISI 304 Cu, Mo and N entries printed ND remain null; immersion-test pH 0.9 is not the NaCl polarization pH.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Experimental alloy melted in a 500-lb vacuum furnace, hot-rolled to 0.5-in plate, cold-rolled to 0.25-in plate; solution-annealed 2000°F (1092°C) for 60 min and quenched in flowing water. Cylindrical specimens 0.25-in diameter × 0.75-in length, polished to 600-grit SiC and mounted in Teflon compression gasket; ultrasonically degreased, pickled in 25 vol% HNO3/4 vol% HF at 140°F (60°C) for 5 min, washed in distilled water and hot-air dried. Teflon/steel interface painted with alkyd varnish before polarization to prevent crevice interference.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.054,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.49,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.95,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.87,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.038,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel with <1% δ-ferrite. No sigma phase detected by XRD in the experimental alloys.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated; made from reagent-grade chemicals and distilled water.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Forward anodic polarization in aerated 3.5 wt% NaCl at 25°C with saturated calomel reference; Figure 2 specifies 0.6 V/h. Table 3 repeats Ec from the cyclic measurements; sweep reversal for that table is at 10 mA/cm². Ec is retained independently of reverse-scan Ep.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Clear passive-breakdown potential Ec marking onset of pit initiation; no additional numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.275
+      },
+      "result_note": "Ec denotes the forward-scan critical breakdown / pit-initiation potential, distinct from repassivation Ep. Table 3 repeats the same Ec results. Figure 1 shows sensitized micrographs (620°C/24 h), whereas electrochemical specimens are explicitly machined from annealed stock. That sensitization treatment is not assigned to these tests. AISI 304 Cu, Mo and N entries printed ND remain null; immersion-test pH 0.9 is not the NaCl polarization pH.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Experimental alloy melted in a 500-lb vacuum furnace, hot-rolled to 0.5-in plate, cold-rolled to 0.25-in plate; solution-annealed 2000°F (1092°C) for 60 min and quenched in flowing water. Cylindrical specimens 0.25-in diameter × 0.75-in length, polished to 600-grit SiC and mounted in Teflon compression gasket; ultrasonically degreased, pickled in 25 vol% HNO3/4 vol% HF at 140°F (60°C) for 5 min, washed in distilled water and hot-air dried. Teflon/steel interface painted with alkyd varnish before polarization to prevent crevice interference.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.059,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.49,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 2.85,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.94,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.036,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel with 1.7% δ-ferrite. No sigma phase detected by XRD in the experimental alloys.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated; made from reagent-grade chemicals and distilled water.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Forward anodic polarization in aerated 3.5 wt% NaCl at 25°C with saturated calomel reference; Figure 2 specifies 0.6 V/h. Table 3 repeats Ec from the cyclic measurements; sweep reversal for that table is at 10 mA/cm². Ec is retained independently of reverse-scan Ep.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Clear passive-breakdown potential Ec marking onset of pit initiation; no additional numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.31
+      },
+      "result_note": "Ec denotes the forward-scan critical breakdown / pit-initiation potential, distinct from repassivation Ep. Table 3 repeats the same Ec results. Figure 1 shows sensitized micrographs (620°C/24 h), whereas electrochemical specimens are explicitly machined from annealed stock. That sensitization treatment is not assigned to these tests. AISI 304 Cu, Mo and N entries printed ND remain null; immersion-test pH 0.9 is not the NaCl polarization pH.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Experimental alloy melted in a 500-lb vacuum furnace, hot-rolled to 0.5-in plate, cold-rolled to 0.25-in plate; solution-annealed 2000°F (1092°C) for 60 min and quenched in flowing water. Cylindrical specimens 0.25-in diameter × 0.75-in length, polished to 600-grit SiC and mounted in Teflon compression gasket; ultrasonically degreased, pickled in 25 vol% HNO3/4 vol% HF at 140°F (60°C) for 5 min, washed in distilled water and hot-air dried. Teflon/steel interface painted with alkyd varnish before polarization to prevent crevice interference.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.059,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.49,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 3.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 9.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.018,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel with 7.5% δ-ferrite. No sigma phase detected by XRD in the experimental alloys.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated; made from reagent-grade chemicals and distilled water.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Forward anodic polarization in aerated 3.5 wt% NaCl at 25°C with saturated calomel reference; Figure 2 specifies 0.6 V/h. Table 3 repeats Ec from the cyclic measurements; sweep reversal for that table is at 10 mA/cm². Ec is retained independently of reverse-scan Ep.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Clear passive-breakdown potential Ec marking onset of pit initiation; no additional numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.37
+      },
+      "result_note": "Ec denotes the forward-scan critical breakdown / pit-initiation potential, distinct from repassivation Ep. Table 3 repeats the same Ec results. Figure 1 shows sensitized micrographs (620°C/24 h), whereas electrochemical specimens are explicitly machined from annealed stock. That sensitization treatment is not assigned to these tests. AISI 304 Cu, Mo and N entries printed ND remain null; immersion-test pH 0.9 is not the NaCl polarization pH.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Experimental alloy melted in a 500-lb vacuum furnace, hot-rolled to 0.5-in plate, cold-rolled to 0.25-in plate; solution-annealed 2000°F (1092°C) for 60 min and quenched in flowing water. Cylindrical specimens 0.25-in diameter × 0.75-in length, polished to 600-grit SiC and mounted in Teflon compression gasket; ultrasonically degreased, pickled in 25 vol% HNO3/4 vol% HF at 140°F (60°C) for 5 min, washed in distilled water and hot-air dried. Teflon/steel interface painted with alkyd varnish before polarization to prevent crevice interference.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.49,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.014,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 4.45,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.09,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 9.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.032,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel with 17.0% δ-ferrite. No sigma phase detected by XRD in the experimental alloys.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated; made from reagent-grade chemicals and distilled water.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Forward anodic polarization in aerated 3.5 wt% NaCl at 25°C with saturated calomel reference; Figure 2 specifies 0.6 V/h. Table 3 repeats Ec from the cyclic measurements; sweep reversal for that table is at 10 mA/cm². Ec is retained independently of reverse-scan Ep.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Clear passive-breakdown potential Ec marking onset of pit initiation; no additional numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.99
+      },
+      "result_note": "Ec denotes the forward-scan critical breakdown / pit-initiation potential, distinct from repassivation Ep. Table 3 repeats the same Ec results. Figure 1 shows sensitized micrographs (620°C/24 h), whereas electrochemical specimens are explicitly machined from annealed stock. That sensitization treatment is not assigned to these tests. AISI 304 Cu, Mo and N entries printed ND remain null; immersion-test pH 0.9 is not the NaCl polarization pH.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Commercial AISI 304 comparison alloy; electrochemical specimens from annealed stock. Cylindrical specimens 0.25-in diameter × 0.75-in length, polished to 600-grit SiC and mounted in Teflon compression gasket; ultrasonically degreased, pickled in 25 vol% HNO3/4 vol% HF at 140°F (60°C) for 5 min, washed in distilled water and hot-air dried. Teflon/steel interface painted with alkyd varnish before polarization to prevent crevice interference.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.078,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.47,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.008,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.41,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 9.81,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.45,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.08,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel with 0.0% δ-ferrite.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Aerated; made from reagent-grade chemicals and distilled water.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic anodic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "Forward anodic polarization in aerated 3.5 wt% NaCl at 25°C with saturated calomel reference; Figure 2 specifies 0.6 V/h. Table 3 repeats Ec from the cyclic measurements; sweep reversal for that table is at 10 mA/cm². Ec is retained independently of reverse-scan Ep.",
+        "scan_rate": {
+          "value": 0.6,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Clear passive-breakdown potential Ec marking onset of pit initiation; no additional numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.065
+      },
+      "result_note": "Ec denotes the forward-scan critical breakdown / pit-initiation potential, distinct from repassivation Ep. Table 3 repeats the same Ec results. Figure 1 shows sensitized micrographs (620°C/24 h), whereas electrochemical specimens are explicitly machined from annealed stock. That sensitization treatment is not assigned to these tests. AISI 304 Cu, Mo and N entries printed ND remain null; immersion-test pH 0.9 is not the NaCl polarization pH.",
+      "failure_notes": ""
+    }
+  ]
+}

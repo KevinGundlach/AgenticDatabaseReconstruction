@@ -1,0 +1,246 @@
+{
+  "paper_name": "68_Newman, R. C. Corrosion Science 25.5 (1985)_ 341-350.pdf",
+  "reference_number": 68,
+  "inputs": {
+    "pdf": {
+      "filename": "68_Newman, R. C. Corrosion Science 25.5 (1985)_ 341-350.pdf",
+      "sha256": "fdf7605fded8e0df03eb6f6ce443b3078ef34ace064517926a575b92b9cf0370"
+    },
+    "registry": {
+      "filename": "paper_68.json",
+      "sha256": "870eed1df30c777ac0e60b1c1f3bdfa632121968155345c48ddcdc16aea55dba"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "High-purity experimental alloy melted as small ingots; small coupons prepared by hot rolling. Mechanically polished coupon, exposed area 0.4 cm².",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "max": 0.005,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 22,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral 1 M KCl bulk solution; numerical pH and gas conditioning are unreported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic stepped polarization"
+        ],
+        "procedure_description": "Start at −300 mV (SCE), then step potential upwards by 25 mV every 400 s on a mechanically polished coupon in 1 M KCl. Temperature 22 ± 1°C throughout. Pitting is checked using a binocular microscope. Separate wire artificial-pit and reverse-scan protection-potential procedures are not assigned as pitting-test pretreatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 400,
+          "unit": "s"
+        },
+        "pitting_criterion": "Pitting verified with a binocular microscope; Ep is the pitting potential in Table 3, distinct from Epp protection potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -75
+      },
+      "result_note": "Pitting verified microscopically; potential stepped upward by 25 mV every 400 s. Ep is the pitting potential here; Epp is the separate protection potential. Reported as measured, without converting scale. Sulfur <0.005 wt% is an upper limit. The 1200°C/24-h anneal and water quench are explicitly described for wire artificial-pit electrodes, not assigned to these coupon pitting tests.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "High-purity experimental alloy melted as small ingots; small coupons prepared by hot rolling. Mechanically polished coupon, exposed area 0.4 cm².",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.6,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 11.0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "max": 0.005,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 22,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral 1 M KCl bulk solution; numerical pH and gas conditioning are unreported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic stepped polarization"
+        ],
+        "procedure_description": "Start at −300 mV (SCE), then step potential upwards by 25 mV every 400 s on a mechanically polished coupon in 1 M KCl. Temperature 22 ± 1°C throughout. Pitting is checked using a binocular microscope. Separate wire artificial-pit and reverse-scan protection-potential procedures are not assigned as pitting-test pretreatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 400,
+          "unit": "s"
+        },
+        "pitting_criterion": "Pitting verified with a binocular microscope; Ep is the pitting potential in Table 3, distinct from Epp protection potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 50
+      },
+      "result_note": "Pitting verified microscopically; potential stepped upward by 25 mV every 400 s. Ep is the pitting potential here; Epp is the separate protection potential. Reported as measured, without converting scale. Sulfur <0.005 wt% is an upper limit. The 1200°C/24-h anneal and water quench are explicitly described for wire artificial-pit electrodes, not assigned to these coupon pitting tests.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Type 304L stainless-steel comparison coupon; mechanically polished, 0.4 cm² exposed area. No specific alloy-processing/heat-treatment schedule is supplied.",
+        "composition": [
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          }
+        ],
+        "microstructure": "Sulfide inclusions are discussed as a source of sulfur species in 304L pits.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 22,
+        "plus_minus": 1,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Neutral 1 M KCl bulk solution; numerical pH and gas conditioning are unreported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "KCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic stepped polarization"
+        ],
+        "procedure_description": "Start at −300 mV (SCE), then step potential upwards by 25 mV every 400 s on a mechanically polished coupon in 1 M KCl. Temperature 22 ± 1°C throughout. Pitting is checked using a binocular microscope. Separate wire artificial-pit and reverse-scan protection-potential procedures are not assigned as pitting-test pretreatment.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 25,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 400,
+          "unit": "s"
+        },
+        "pitting_criterion": "Pitting verified with a binocular microscope; Ep is the pitting potential in Table 3, distinct from Epp protection potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 100
+      },
+      "result_note": "Pitting verified microscopically; potential stepped upward by 25 mV every 400 s. Ep is the pitting potential here; Epp is the separate protection potential. Reported as measured, without converting scale. The paper identifies this 304L as the material used in its reference 2 and qualitatively mentions Mo, Cu, N and sulfur, but supplies no numerical composition. No outside recipe or heat treatment is imported.",
+      "failure_notes": ""
+    }
+  ]
+}

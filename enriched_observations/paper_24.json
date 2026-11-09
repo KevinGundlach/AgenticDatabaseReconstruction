@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "24_Y.L.Chou, J.W.Yeh, and H.C. Shih. Corrosion Science, 52 (2010),2571-2581.pdf",
+  "reference_number": 24,
+  "inputs": {
+    "pdf": {
+      "filename": "24_Y.L.Chou, J.W.Yeh, and H.C. Shih. Corrosion Science, 52 (2010),2571-2581.pdf",
+      "sha256": "19f96af65b5c2112f2265f9e3063e70bffab69aac6e8789f7c0b81217d2e186d"
+    },
+    "registry": {
+      "filename": "paper_24.json",
+      "sha256": "994579f7748f29384259dad0e9d33a12cbb2809ccc35cfa1763bcca167945112"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "As-cast Mo0, nominal Co1.5CrFeNi1.5Ti0.5Mo0. Raw Co, Cr, Ti, Fe and Ni granules of purity above 99 wt%; induction melted at 1600 °C after argon purging. Co, Fe and Ni first melted, followed by Ti and Cr as described in the shared sequence; no FeMo addition for Mo0. Poured into a shell mold preheated at 1100 °C; ingots 8 × 7 × 14 cm. Electric-arc-line cut into 3 mm thick, 8 mm diameter cylinders; cold mounted in epoxy with 0.5 cm² exposed. Ground through 240–600-grit SiC and cleaned with acetone and distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 28.68,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.87,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 18.12,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 28.56,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 7.77,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0,
+              "unit": "wt.%"
+            }
+          }
+        ],
+        "microstructure": "Simple FCC solid-solution structure; dendritic as-cast microstructure with Ni/Ti-rich interdendrites and Fe/Cr-rich dendrites. Cr/Mo-rich sigma reflections belong to higher-Mo alloys, not Mo0.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated by bubbling purified nitrogen before and throughout electrochemical testing, under atmospheric pressure; duration and pH not stated.",
+        "solvent": "Water (source explicitly calls these aqueous environments)",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode cell: specimen working, Ag/AgCl in 3 M KCl reference and Pt-sheet counter; Autolab PGSTAT30. OCP recorded for 15 min, then cathodically polarized at −192 mV SHE for 5 min to reduce surface films. Cyclic scan begins at −0.5 V, moves anodically to 1.5 V versus OCP, then reverses to the starting potential as reported. Results are reported on SHE scale. Figure 5(a) shows positive hysteresis and the Mo-free alloy is identified as pitting susceptible.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Eb is the potential where current density suddenly increases; positive hysteresis establishes pitting in Mo0. New pits initiate above Eb, distinguished from the lower Eprot and Erp."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 338
+      },
+      "result_note": "Reported breakdown potential associated with pitting in the Mo-free specimen. The lower Eprot and Erp are separate protection/repassivation quantities, not duplicate pitting potentials. Table 1 supplies reported bulk wt.% chemistry; nominal mole ratios and phase-specific EDS are not converted into bulk composition. The 3 M KCl belongs to the reference electrode, not the test electrolyte.",
+      "failure_notes": ""
+    }
+  ]
+}

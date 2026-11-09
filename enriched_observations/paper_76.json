@@ -1,0 +1,3867 @@
+{
+  "paper_name": "76_Janik-Czachor, E. Lunarska, Z. Szklarska-Smialowska, Corrosion 31 (1975)_ p. 349.pdf",
+  "reference_number": 76,
+  "inputs": {
+    "pdf": {
+      "filename": "76_Janik-Czachor, E. Lunarska, Z. Szklarska-Smialowska, Corrosion 31 (1975)_ p. 349.pdf",
+      "sha256": "eec72d00f5c989acd5fd2acfd75410e5c9f7f4b4a0f49af9754017f36c18f7bd"
+    },
+    "registry": {
+      "filename": "paper_76.json",
+      "sha256": "72798561471ad1746d2ca7345020f7e168ab47159267ba6a21a3b7ee5dee7e66"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 350
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.12,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 500
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0185,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 490
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.25,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 580
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.35,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.1
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 690
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Figure 1 explicitly annotates E′np for this specimen at approximately 650 mV, differing from Figure 2; both readings are retained, with the summary marker primary. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 580
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Figure 4 repeats the .05 N NaCl scan series; its approximate reading is retained separately. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.12,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 650
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Figure 4 repeats the .05 N NaCl scan series; its approximate reading is retained separately. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0185,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 700
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Figure 4 repeats the .05 N NaCl scan series; its approximate reading is retained separately. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.25,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 940
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Figure 4 repeats the .05 N NaCl scan series; its approximate reading is retained separately. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.35,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.05
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "E′np: rise of apparent anodic current density as a consequence of pitting, distinct from passive current and critical passivation parameters."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "value": 930
+      },
+      "result_note": "Potentiokinetic pit-nucleation potential E′np; approximate marker reading. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Figure 4 repeats the .05 N NaCl scan series; its approximate reading is retained separately. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No breakdown of passivity in 0.01 N NaCl; upward-arrow test-limit bound retained rather than an onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward-arrow lower limit, not a measured onset. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.12,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No breakdown of passivity in 0.01 N NaCl; upward-arrow test-limit bound retained rather than an onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward-arrow lower limit, not a measured onset. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0185,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No breakdown of passivity in 0.01 N NaCl; upward-arrow test-limit bound retained rather than an onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward-arrow lower limit, not a measured onset. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.25,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No breakdown of passivity in 0.01 N NaCl; upward-arrow test-limit bound retained rather than an onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward-arrow lower limit, not a measured onset. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.35,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "unit": "N",
+              "value": 0.01
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiokinetic anodic polarization"
+        ],
+        "procedure_description": "Figure 2 potentiokinetic pit-nucleation series, with the polarization progression printed as 50 mV/30 sec in Figure 1. The paper does not separately define a potential-step/hold program; no such settings are inferred. The 2 V/h protocol belongs to additional passivation measurements and is not substituted. Hydrogen-electrode (NHE) potential scale.",
+        "scan_rate": {
+          "value": 50,
+          "unit": "mV/30 sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "No breakdown of passivity in 0.01 N NaCl; upward-arrow test-limit bound retained rather than an onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 1150
+      },
+      "result_note": "No pitting: upward-arrow lower limit, not a measured onset. Axis mV_H; text identifies the hydrogen-electrode scale as NHE. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 60 mV (NHE); Figure 3 induction-time coordinate: no pitting (upward arrow). Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 60
+      },
+      "result_note": "Explicit no-pitting arrow gives a test-limited lower bound; observation duration not separately printed. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 90 mV (NHE); Figure 3 induction-time coordinate: no pitting (upward arrow). Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 90
+      },
+      "result_note": "Explicit no-pitting arrow gives a test-limited lower bound; observation duration not separately printed. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 115 mV (NHE); Figure 3 induction-time coordinate: 40 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 115
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 140 mV (NHE); Figure 3 induction-time coordinate: 40 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 140
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 165 mV (NHE); Figure 3 induction-time coordinate: 40 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 165
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 190 mV (NHE); Figure 3 induction-time coordinate: 40 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 190
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 115 mV (NHE); Figure 3 induction-time coordinate: 30 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 115
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 240 mV (NHE); Figure 3 induction-time coordinate: 34 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 240
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 290 mV (NHE); Figure 3 induction-time coordinate: 13 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 290
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 340 mV (NHE); Figure 3 induction-time coordinate: 7 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 340
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 450 mV (NHE); Figure 3 induction-time coordinate: 4 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 450
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 650 mV (NHE); Figure 3 induction-time coordinate: 0 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 650
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. Quenched condition indicated in the Figure 2/3 labels: heated in air at 1120°C for 1 h, then water-quenched. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "Current density versus time measured at constant applied potential 850 mV (NHE); Figure 3 induction-time coordinate: 0 min. Induction time is a measured response, not a prescribed potential-step hold. No separate observation cutoff or step size is stated.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction determined from the current-density-versus-time response at fixed potential; no-pitting arrows retain lower bounds, finite induction times retain upper bounds on the nucleation threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 850
+      },
+      "result_note": "Finite plotted induction-time result gives an upper bound at the applied potential, not an exact pit-nucleation potential. Approximate coordinates; separate visible markers are retained, including the two induction-time readings near 115 mV. Zero-minute readings mean onset below the graphical time resolution. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. The study examined as-received and quenched conditions (1 h in air at 1120°C, then water quench); the heat-treatment condition is not separately restated for this tabulated/temperature-comparison result. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "limiting induction-time and pit-number analysis"
+        ],
+        "procedure_description": "Measure current density versus time and pit number at different constant potentials in 0.1 N H2SO4 + 0.05 N NaCl. Table 2 gives the experimental E_np interval; Figure 4 compares this interval with scan-derived E′np. No scan rate, step size or fixed hold time is assigned to this limiting method.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Lower limit of the pit-nucleation potential range estimated as induction time tends to infinity and pit number tends to zero; strict Table 2 intervals retained unchanged."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 100,
+        "max": 115
+      },
+      "result_note": "Strict source inequality: lower < E_np < upper. Authors estimate the lower limit of the pit-nucleation range from induction time tending to infinity and pit number tending to zero. This experimental threshold estimate is distinct from scan E′np and is not replaced by either regression line. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. The study examined as-received and quenched conditions (1 h in air at 1120°C, then water quench); the heat-treatment condition is not separately restated for this tabulated/temperature-comparison result. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.03,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.12,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "limiting induction-time and pit-number analysis"
+        ],
+        "procedure_description": "Measure current density versus time and pit number at different constant potentials in 0.1 N H2SO4 + 0.05 N NaCl. Table 2 gives the experimental E_np interval; Figure 4 compares this interval with scan-derived E′np. No scan rate, step size or fixed hold time is assigned to this limiting method.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Lower limit of the pit-nucleation potential range estimated as induction time tends to infinity and pit number tends to zero; strict Table 2 intervals retained unchanged."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 90,
+        "max": 115
+      },
+      "result_note": "Strict source inequality: lower < E_np < upper. Authors estimate the lower limit of the pit-nucleation range from induction time tending to infinity and pit number tending to zero. This experimental threshold estimate is distinct from scan E′np and is not replaced by either regression line. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. The study examined as-received and quenched conditions (1 h in air at 1120°C, then water quench); the heat-treatment condition is not separately restated for this tabulated/temperature-comparison result. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0185,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 9.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.027,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.018,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenite with a small amount of δ-ferrite; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "limiting induction-time and pit-number analysis"
+        ],
+        "procedure_description": "Measure current density versus time and pit number at different constant potentials in 0.1 N H2SO4 + 0.05 N NaCl. Table 2 gives the experimental E_np interval; Figure 4 compares this interval with scan-derived E′np. No scan rate, step size or fixed hold time is assigned to this limiting method.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Lower limit of the pit-nucleation potential range estimated as induction time tends to infinity and pit number tends to zero; strict Table 2 intervals retained unchanged."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 340,
+        "max": 360
+      },
+      "result_note": "Strict source inequality: lower < E_np < upper. Authors estimate the lower limit of the pit-nucleation range from induction time tending to infinity and pit number tending to zero. This experimental threshold estimate is distinct from scan E′np and is not replaced by either regression line. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_032",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. The study examined as-received and quenched conditions (1 h in air at 1120°C, then water quench); the heat-treatment condition is not separately restated for this tabulated/temperature-comparison result. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.31,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.026,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.024,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.25,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "limiting induction-time and pit-number analysis"
+        ],
+        "procedure_description": "Measure current density versus time and pit number at different constant potentials in 0.1 N H2SO4 + 0.05 N NaCl. Table 2 gives the experimental E_np interval; Figure 4 compares this interval with scan-derived E′np. No scan rate, step size or fixed hold time is assigned to this limiting method.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Lower limit of the pit-nucleation potential range estimated as induction time tends to infinity and pit number tends to zero; strict Table 2 intervals retained unchanged."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 190,
+        "max": 215
+      },
+      "result_note": "Strict source inequality: lower < E_np < upper. Authors estimate the lower limit of the pit-nucleation range from induction time tending to infinity and pit number tending to zero. This experimental threshold estimate is distinct from scan E′np and is not replaced by either regression line. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_033",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. The study examined as-received and quenched conditions (1 h in air at 1120°C, then water quench); the heat-treatment condition is not separately restated for this tabulated/temperature-comparison result. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.35,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "limiting induction-time and pit-number analysis"
+        ],
+        "procedure_description": "Measure current density versus time and pit number at different constant potentials in 0.1 N H2SO4 + 0.05 N NaCl. Table 2 gives the experimental E_np interval; Figure 4 compares this interval with scan-derived E′np. No scan rate, step size or fixed hold time is assigned to this limiting method.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Lower limit of the pit-nucleation potential range estimated as induction time tends to infinity and pit number tends to zero; strict Table 2 intervals retained unchanged."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "min": 315,
+        "max": 340
+      },
+      "result_note": "Strict source inequality: lower < E_np < upper. Authors estimate the lower limit of the pit-nucleation range from induction time tending to infinity and pit number tending to zero. This experimental threshold estimate is distinct from scan E′np and is not replaced by either regression line. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_034",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. The study examined as-received and quenched conditions (1 h in air at 1120°C, then water quench); the heat-treatment condition is not separately restated for this tabulated/temperature-comparison result. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.35,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "0.35% N steel at an imposed 450 mV on the NHE scale in 0.1 N H2SO4 + 0.05 N NaCl; measured induction time about 30 min at 25°C. This is a response time, not a prescribed step-hold duration.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction observed at the imposed potential; registered potential is an upper bound on nucleation, not an exact onset."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 450
+      },
+      "result_note": "Pitting induction explicitly reported at the imposed 450 mV: upper bound, not an exact onset. The approximately 250 mV temperature shift alone does not define an additional absolute potential. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_035",
+      "alloy": {
+        "preparation": "Supplied as hot-forged rods, 18-mm diameter. The study examined as-received and quenched conditions (1 h in air at 1120°C, then water quench); the heat-treatment condition is not separately restated for this tabulated/temperature-comparison result. Further specimen preparation and experimental details are referred elsewhere and are not provided in the supplied paper.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 10.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.32,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.029,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.022,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 5.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.35,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic; small carbide (Me23C6) and carbonitride (Me2(C,N)) precipitates; pure nitrides very rare. No sigma phase detected by X-ray analysis. Quenching caused some homogenization and precipitate coagulation, without significant phase-composition change.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 40,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.05,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "pitting induction-time measurement"
+        ],
+        "procedure_description": "0.35% N steel at an imposed 450 mV on the NHE scale in 0.1 N H2SO4 + 0.05 N NaCl; measured induction time about 1 min at 40°C. This is a response time, not a prescribed step-hold duration.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting induction observed at the imposed potential; registered potential is an upper bound on nucleation, not an exact onset."
+      },
+      "pitting_potential": {
+        "unit": "mV (NHE)",
+        "max": 450
+      },
+      "result_note": "Pitting induction explicitly reported at the imposed 450 mV: upper bound, not an exact onset. The approximately 250 mV temperature shift alone does not define an additional absolute potential. Table 1 reports composition in percent without an explicit mass/atomic basis; the printed % unit is retained. Solution normalities are not converted into molarity or calculated chloride concentration/pH. Surface preparation, aeration and solvent are not supplied here.",
+      "failure_notes": ""
+    }
+  ]
+}

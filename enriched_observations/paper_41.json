@@ -1,0 +1,3112 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "41_S. J. Pawel, E. E. Stansbury, C. D. Lundin , Corrosion 45 (1989)_ p. 125.pdf",
+  "reference_number": 41,
+  "inputs": {
+    "pdf": {
+      "filename": "41_S. J. Pawel, E. E. Stansbury, C. D. Lundin , Corrosion 45 (1989)_ p. 125.pdf",
+      "sha256": "1eb29d57434aa6fd81ceb693937e2d0cdbec7b947266bc6cdc3a0f2e25037fe9"
+    },
+    "registry": {
+      "filename": "paper_41.json",
+      "sha256": "9ca4e9f3c56d40c94e318461497e34bf4be586b551775648d0938c178a2e4455"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 65.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.6,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 7 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Figure 3 means represent at least three determinations, bars total scatter.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.795,
+        "min": 0.77,
+        "max": 0.825
+      },
+      "result_note": "Mean of at least three determinations; endpoints are total scatter, not standard deviation. Potential origin is experimental even though the horizontal composition index was estimated. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 66.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 9 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Figure 3 means represent at least three determinations, bars total scatter.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.81,
+        "min": 0.78,
+        "max": 0.85
+      },
+      "result_note": "Mean of at least three determinations; endpoints are total scatter, not standard deviation. Potential origin is experimental even though the horizontal composition index was estimated. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 68.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 9.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.082,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 10 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Figure 3 means represent at least three determinations, bars total scatter.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.87,
+        "min": 0.845,
+        "max": 0.91
+      },
+      "result_note": "Mean of at least three determinations; endpoints are total scatter, not standard deviation. Potential origin is experimental even though the horizontal composition index was estimated. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 69.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.098,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 15 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Figure 3 means represent at least three determinations, bars total scatter.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.93,
+        "min": 0.915,
+        "max": 0.945
+      },
+      "result_note": "Mean of at least three determinations; endpoints are total scatter, not standard deviation. Potential origin is experimental even though the horizontal composition index was estimated. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Similar cast CF-3 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 18 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Figure 3 means represent at least three determinations, bars total scatter.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 0.97,
+        "min": 0.955,
+        "max": 0.985
+      },
+      "result_note": "Mean of at least three determinations; endpoints are total scatter, not standard deviation. Potential origin is experimental even though the horizontal composition index was estimated. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Similar cast CF-4 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.058,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 11 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Figure 3 means represent at least three determinations, bars total scatter.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "V (SHE)",
+        "value": 1.01,
+        "min": 0.985,
+        "max": 1.05
+      },
+      "result_note": "Mean of at least three determinations; endpoints are total scatter, not standard deviation. Potential origin is experimental even though the horizontal composition index was estimated. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 65.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.6,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 7 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 12 protocol rapidly traverses from a few mV below Ec to −80 mV at >200 V/h (about 2 s), then resumes normal 3 V/h scan. Multi-rate sequence is not forced into one scan_rate. Filled low-potential excursion markers are not the registered open-circle Epit values.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 805
+      },
+      "result_note": "Separate visible pitting-potential markers; no run identity is supplied. Filled low-potential current-excursion markers are not interpreted as Epit. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 65.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.6,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 7 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 12 protocol rapidly traverses from a few mV below Ec to −80 mV at >200 V/h (about 2 s), then resumes normal 3 V/h scan. Multi-rate sequence is not forced into one scan_rate. Filled low-potential excursion markers are not the registered open-circle Epit values.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 795
+      },
+      "result_note": "Separate visible pitting-potential markers; no run identity is supplied. Filled low-potential current-excursion markers are not interpreted as Epit. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 65.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.6,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 7 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 12 protocol rapidly traverses from a few mV below Ec to −80 mV at >200 V/h (about 2 s), then resumes normal 3 V/h scan. Multi-rate sequence is not forced into one scan_rate. Filled low-potential excursion markers are not the registered open-circle Epit values.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 775
+      },
+      "result_note": "Separate visible pitting-potential markers; no run identity is supplied. Filled low-potential current-excursion markers are not interpreted as Epit. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Similar cast CF-3 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 18 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 12 protocol rapidly traverses from a few mV below Ec to −80 mV at >200 V/h (about 2 s), then resumes normal 3 V/h scan. Multi-rate sequence is not forced into one scan_rate. Filled low-potential excursion markers are not the registered open-circle Epit values.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 920
+      },
+      "result_note": "Separate visible pitting-potential markers; no run identity is supplied. Filled low-potential current-excursion markers are not interpreted as Epit. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Similar cast CF-3 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 18 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 12 protocol rapidly traverses from a few mV below Ec to −80 mV at >200 V/h (about 2 s), then resumes normal 3 V/h scan. Multi-rate sequence is not forced into one scan_rate. Filled low-potential excursion markers are not the registered open-circle Epit values.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 785
+      },
+      "result_note": "Separate visible pitting-potential markers; no run identity is supplied. Filled low-potential current-excursion markers are not interpreted as Epit. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Similar cast CF-4 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.058,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 11 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 12 protocol rapidly traverses from a few mV below Ec to −80 mV at >200 V/h (about 2 s), then resumes normal 3 V/h scan. Multi-rate sequence is not forced into one scan_rate. Filled low-potential excursion markers are not the registered open-circle Epit values.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 955
+      },
+      "result_note": "Separate visible pitting-potential markers; no run identity is supplied. Filled low-potential current-excursion markers are not interpreted as Epit. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Similar cast CF-4 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.058,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 11 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 12 protocol rapidly traverses from a few mV below Ec to −80 mV at >200 V/h (about 2 s), then resumes normal 3 V/h scan. Multi-rate sequence is not forced into one scan_rate. Filled low-potential excursion markers are not the registered open-circle Epit values.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 920
+      },
+      "result_note": "Separate visible pitting-potential markers; no run identity is supplied. Filled low-potential current-excursion markers are not interpreted as Epit. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "CF-1 additional low-Cr alloy, described as very similar to Table 1 alloys except for Cr; exact remaining analysis and individual manufacturing/thermal schedule are not supplied. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Table 2 Epit accompanies separate AAS potentiostatic dissolution analyses; the near-active-peak and +250 mV holds characterize solution products, not the pitting-potential measurement.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 510
+      },
+      "result_note": "Epit column accompanying AAS results; mV/SHE scale is shared with the paper’s experimental-potential reporting. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "CF-2 additional low-Cr alloy, described as very similar to Table 1 alloys except for Cr; exact remaining analysis and individual manufacturing/thermal schedule are not supplied. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.058,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Table 2 Epit accompanies separate AAS potentiostatic dissolution analyses; the near-active-peak and +250 mV holds characterize solution products, not the pitting-potential measurement.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 710
+      },
+      "result_note": "Epit column accompanying AAS results; mV/SHE scale is shared with the paper’s experimental-potential reporting. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 65.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.6,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 7 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Table 2 Epit accompanies separate AAS potentiostatic dissolution analyses; the near-active-peak and +250 mV holds characterize solution products, not the pitting-potential measurement.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 795
+      },
+      "result_note": "Epit column accompanying AAS results; mV/SHE scale is shared with the paper’s experimental-potential reporting. Possible repeat of obs_001 standard-procedure summary; table does not explicitly identify the same determinations, so retained separately. Some plotted/table values differ. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 66.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 9 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Table 2 Epit accompanies separate AAS potentiostatic dissolution analyses; the near-active-peak and +250 mV holds characterize solution products, not the pitting-potential measurement.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 810
+      },
+      "result_note": "Epit column accompanying AAS results; mV/SHE scale is shared with the paper’s experimental-potential reporting. Possible repeat of obs_002 standard-procedure summary; table does not explicitly identify the same determinations, so retained separately. Some plotted/table values differ. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 68.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 9.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.082,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 10 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Table 2 Epit accompanies separate AAS potentiostatic dissolution analyses; the near-active-peak and +250 mV holds characterize solution products, not the pitting-potential measurement.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 860
+      },
+      "result_note": "Epit column accompanying AAS results; mV/SHE scale is shared with the paper’s experimental-potential reporting. Possible repeat of obs_003 standard-procedure summary; table does not explicitly identify the same determinations, so retained separately. Some plotted/table values differ. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 69.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.098,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 15 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Table 2 Epit accompanies separate AAS potentiostatic dissolution analyses; the near-active-peak and +250 mV holds characterize solution products, not the pitting-potential measurement.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 920
+      },
+      "result_note": "Epit column accompanying AAS results; mV/SHE scale is shared with the paper’s experimental-potential reporting. Possible repeat of obs_004 standard-procedure summary; table does not explicitly identify the same determinations, so retained separately. Some plotted/table values differ. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Similar cast CF-3 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.3,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.4,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.015,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 18 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Table 2 Epit accompanies separate AAS potentiostatic dissolution analyses; the near-active-peak and +250 mV holds characterize solution products, not the pitting-potential measurement.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 960
+      },
+      "result_note": "Epit column accompanying AAS results; mV/SHE scale is shared with the paper’s experimental-potential reporting. Possible repeat of obs_005 standard-procedure summary; table does not explicitly identify the same determinations, so retained separately. Some plotted/table values differ. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Similar cast CF-4 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.058,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 11 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Standard 3 V/h scan. Table 2 Epit accompanies separate AAS potentiostatic dissolution analyses; the near-active-peak and +250 mV holds characterize solution products, not the pitting-potential measurement.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 1010
+      },
+      "result_note": "Epit column accompanying AAS results; mV/SHE scale is shared with the paper’s experimental-potential reporting. Possible repeat of obs_006 standard-procedure summary; table does not explicitly identify the same determinations, so retained separately. Some plotted/table values differ. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 65.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 11.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.025,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.6,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 7 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5. Initially chloride-free 1 N H2SO4: anodic loop scanned from Ec to +200 mV, then NaCl added through separating funnel to reach explicitly stated final 0.5 M chloride before subsequent upscan.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 15 protocol forms passive film without chloride, scanning Ec to +200 mV in 1 N H2SO4, then adds NaCl and continues the upscan. The altered film-formation conditions limit direct comparison of absolute potentials with standard tests.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 890,
+        "min": 760,
+        "max": 980
+      },
+      "result_note": "Distinct modified-procedure outcome; endpoints read from the plotted range bar. CF-3 has no separately identifiable marker here. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 66.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.9,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.22,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.054,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 9 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5. Initially chloride-free 1 N H2SO4: anodic loop scanned from Ec to +200 mV, then NaCl added through separating funnel to reach explicitly stated final 0.5 M chloride before subsequent upscan.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 15 protocol forms passive film without chloride, scanning Ec to +200 mV in 1 N H2SO4, then adds NaCl and continues the upscan. The altered film-formation conditions limit direct comparison of absolute potentials with standard tests.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 875,
+        "min": 725,
+        "max": 1000
+      },
+      "result_note": "Distinct modified-procedure outcome; endpoints read from the plotted range bar. CF-3 has no separately identifiable marker here. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 68.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 9.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.082,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 10 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5. Initially chloride-free 1 N H2SO4: anodic loop scanned from Ec to +200 mV, then NaCl added through separating funnel to reach explicitly stated final 0.5 M chloride before subsequent upscan.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 15 protocol forms passive film without chloride, scanning Ec to +200 mV in 1 N H2SO4, then adds NaCl and continues the upscan. The altered film-formation conditions limit direct comparison of absolute potentials with standard tests.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 885,
+        "min": 810,
+        "max": 965
+      },
+      "result_note": "Distinct modified-procedure outcome; endpoints read from the plotted range bar. CF-3 has no separately identifiable marker here. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Base CF stock cast cylindrically and remelted in Balzers induction furnace, adjusted with high-purity Fe/Cr/Ni/Mo/graphite and N-bearing ferrochrome. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 69.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 21.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.0,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.23,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.05,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.098,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.01,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.8,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.7,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 15 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5. Initially chloride-free 1 N H2SO4: anodic loop scanned from Ec to +200 mV, then NaCl added through separating funnel to reach explicitly stated final 0.5 M chloride before subsequent upscan.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 15 protocol forms passive film without chloride, scanning Ec to +200 mV in 1 N H2SO4, then adds NaCl and continues the upscan. The altered film-formation conditions limit direct comparison of absolute potentials with standard tests.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 975,
+        "min": 960,
+        "max": 990
+      },
+      "result_note": "Distinct modified-procedure outcome; endpoints read from the plotted range bar. CF-3 has no separately identifiable marker here. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Similar cast CF-4 alloy; its individual melting schedule is not restated. Solution treated at 1120 °C for 1 h and water quenched. Standard polarization preparation: polish through 9 µm diamond paste, prepassivate in 50% nitric acid at 50 °C, paint sample edges with corrosion-resistant enamel; immediately before testing remove passive film from exposed face with diamond-paste cotton swab while preserving film beneath enamel. Mounted in epoxy with brass-screw electrical contact.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 70.6,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20.5,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.2,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": null
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.058,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.17,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": null
+          },
+          {
+            "element_symbol": "S",
+            "amount": null
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1.1,
+              "unit": "%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.4,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Duplex ferrite/austenite, essentially carbide-free after solution treatment. Reported magne-gage ferrite number 11 is not a measured volume percentage.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 27,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Nitrogen-purge deaerated aqueous test solution; purge duration not stated. Authors describe bulk pH as near 0.5. Initially chloride-free 1 N H2SO4: anodic loop scanned from Ec to +200 mV, then NaCl added through separating funnel to reach explicitly stated final 0.5 M chloride before subsequent upscan.",
+        "solvent": "Water (aqueous solution)",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.5,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 0.5,
+        "chloride_concentration": {
+          "value": 0.5,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "cyclic polarization"
+        ],
+        "procedure_description": "Cyclic polarization starts at stable active OCP (about 3 min wait), scans anodically through critical passivation and passive range to Epit, then to 10^-4 A/cm² before reversal; reverse scan stops where current equals forward-scan current (Erp). Potentials reported versus SHE. Modified Figure 15 protocol forms passive film without chloride, scanning Ec to +200 mV in 1 N H2SO4, then adds NaCl and continues the upscan. The altered film-formation conditions limit direct comparison of absolute potentials with standard tests.",
+        "scan_rate": {
+          "value": 3,
+          "unit": "V/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit is the dramatic/sharp current-density increase from the passive region, distinguished from gradual crevice current, low-potential excursions, reversal limit and Erp. Reversal at 10^-4 A/cm² permits stable pitting and microscopic examination; this reversal threshold is not itself the Epit criterion."
+      },
+      "pitting_potential": {
+        "unit": "mV (SHE)",
+        "value": 1025,
+        "min": 1010,
+        "max": 1040
+      },
+      "result_note": "Distinct modified-procedure outcome; endpoints read from the plotted range bar. CF-3 has no separately identifiable marker here. Bulk Table 1 analyses retain percent notation; its unit basis is not explicitly printed. Estimated austenite Cr_eff index and AAS dissolution-product/film compositions are not substituted for bulk analysis. pH is reported near 0.5, not calculated. Prepassivation acid and 1120 °C treatment are distinct from the test electrolyte and 27 °C temperature.",
+      "failure_notes": ""
+    }
+  ]
+}

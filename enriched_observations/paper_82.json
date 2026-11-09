@@ -1,0 +1,862 @@
+{
+  "paper_name": "82_R.A. Perren, T.A. Suter, P.J. UggowitzeR, L. Weber, R. Magdowski, H. Bohni, M.O. Speidel, Corrosion Science, 43 (2001) 707.pdf",
+  "reference_number": 82,
+  "inputs": {
+    "pdf": {
+      "filename": "82_R.A. Perren, T.A. Suter, P.J. UggowitzeR, L. Weber, R. Magdowski, H. Bohni, M.O. Speidel, Corrosion Science, 43 (2001) 707.pdf",
+      "sha256": "08982220e187c8681c88d4a8cb70a1817a8c5130f30d045c1d3dc349ac4b42a1"
+    },
+    "registry": {
+      "filename": "paper_82.json",
+      "sha256": "cd331d36c2b9041faeb81ab0c4ad0371df42fb77ccbd12ed15357fd20a3f79e3"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1100°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 9
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 1000
+      },
+      "result_note": "No pitting in the stated passive window: test-window lower bound at 1000 mV, not evidence of stability at the full general scan endpoint of 1400 mV. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1100°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 10
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 1000
+      },
+      "result_note": "No pitting in the stated passive window: test-window lower bound at 1000 mV, not evidence of stability at the full general scan endpoint of 1400 mV. The 3/1100°C, 10 M cell contains both open/filled symbols, meaning pitting and no pitting. Its two outcome categories are retained without inventing replicate counts or claiming independent experiments. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1100°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 10
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 200,
+        "max": 1000
+      },
+      "result_note": "Pitting is reported within the explicitly stated 200–1000 mV passive window: interval bound only, no exact onset supplied. The 3/1100°C, 10 M cell contains both open/filled symbols, meaning pitting and no pitting. Its two outcome categories are retained without inventing replicate counts or claiming independent experiments. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1100°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.1,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.4,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 11
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 200,
+        "max": 1000
+      },
+      "result_note": "Pitting is reported within the explicitly stated 200–1000 mV passive window: interval bound only, no exact onset supplied. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1150°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.6,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.7,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 9
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 1000
+      },
+      "result_note": "No pitting in the stated passive window: test-window lower bound at 1000 mV, not evidence of stability at the full general scan endpoint of 1400 mV. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1150°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.6,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.7,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 10
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 200,
+        "max": 1000
+      },
+      "result_note": "Pitting is reported within the explicitly stated 200–1000 mV passive window: interval bound only, no exact onset supplied. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1150°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.8,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.6,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.7,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.23,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 11
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 200,
+        "max": 1000
+      },
+      "result_note": "Pitting is reported within the explicitly stated 200–1000 mV passive window: interval bound only, no exact onset supplied. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1050°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.7,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.55,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 9
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 1000
+      },
+      "result_note": "No pitting in the stated passive window: test-window lower bound at 1000 mV, not evidence of stability at the full general scan endpoint of 1400 mV. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1050°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.7,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.55,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 10
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 1000
+      },
+      "result_note": "No pitting in the stated passive window: test-window lower bound at 1000 mV, not evidence of stability at the full general scan endpoint of 1400 mV. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "10-kg melt in a vacuum induction furnace; homogenized in air at 1230°C for 10 h and forged between 1200 and 1150°C into 15 × 65 mm² bars. One-step solution anneal in air at 1050°C for 40 min, then water quench (Table 2 condition without two-step “s” prefix). Electrochemical surface mechanically ground to 1200 grit and not etched.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.2,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.7,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 4.9,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.55,
+              "unit": "wt.%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Super duplex stainless steel with ferrite and austenite in the almost precipitation-free solution-annealed state; very small amounts of chromium nitrides in ferrite are acknowledged by the authors.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "pH-neutral LiCl aqueous solution prepared from reagent-grade chemicals and distilled water; electrolytes were not aerated. No numerical pH is specified.",
+        "solvent": "distilled water",
+        "composition": [
+          {
+            "solute": "LiCl",
+            "amount": {
+              "unit": "M",
+              "value": 11
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "macroelectrochemical potentiodynamic polarization"
+        ],
+        "procedure_description": "Room-temperature macroelectrochemical test with Schlumberger SI 1286 potentiostat, platinum-wire counter electrode, calomel reference (SCE scale) and silicone-rubber seal to prevent crevice attack. Cathodic prepolarization for 2 min at −500 mV SCE; immediately scan from −500 to 1400 mV SCE at 1 mV/s. Table 2 reports pitting/no-pitting categories specifically within the 200–1000-mV passive region. No numeric temperature is assigned from unrelated acid-test figure captions.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting or no pitting in the explicitly defined passive region, 200–1000 mV SCE; Table 2 symbols do not provide an exact numerical onset potential or onset-current threshold."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 200,
+        "max": 1000
+      },
+      "result_note": "Pitting is reported within the explicitly stated 200–1000 mV passive window: interval bound only, no exact onset supplied. The reported LiCl molarity is not converted to free chloride concentration. “pH-neutral” and “room temperature” remain qualitative. Bulk Table 1 chemistry is used; phase PREN values are not inverted to compositions. Acid microcell etching, phase-specific tests and separate FeCl3 critical-crevice-temperature conditions do not describe these LiCl observations.",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1108 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "45_G. C. Palit, V. Kain , H. S. Gadiyaζ Corrosion 49 (1993)_ p. 977.pdf",
+  "reference_number": 45,
+  "inputs": {
+    "pdf": {
+      "filename": "45_G. C. Palit, V. Kain , H. S. Gadiyaζ Corrosion 49 (1993)_ p. 977.pdf",
+      "sha256": "34d7b9082f840f9e79ccbcad66da58d52585b93e9a8a8536b19ba67e08fbe7e9"
+    },
+    "registry": {
+      "filename": "paper_45.json",
+      "sha256": "730c412495fa404484ab3de4f1aafb14c147db22bb395143d742eff5a53e3f52"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Type 316LN commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.57,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 64.23,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Immersed at OCP for 5 min; potential increased anodically in 20 mV steps and current read after 1 min at each potential. At least duplicate runs, pitting-potential variation within 20 mV. No sweep rate calculated from steps and waits. ",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Abrupt increase in current when the set potential reaches Ep; pitting confirmed by optical microscopy. "
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 500
+      },
+      "result_note": "Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Type 316LN commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.57,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 64.23,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Immersed at OCP for 5 min; potential increased anodically in 20 mV steps and current read after 1 min at each potential. At least duplicate runs, pitting-potential variation within 20 mV. No sweep rate calculated from steps and waits. ",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Abrupt increase in current when the set potential reaches Ep; pitting confirmed by optical microscopy. No onset up to +1000 mV SCE; retain test lower limit rather than an observed onset."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 1000
+      },
+      "result_note": "No pitting up to +1000 mV (SCE); lower test limit on Epit, not an observed pitting onset. Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Type 316L commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 12.32,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.38,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 0.1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Immersed at OCP for 5 min; potential increased anodically in 20 mV steps and current read after 1 min at each potential. At least duplicate runs, pitting-potential variation within 20 mV. No sweep rate calculated from steps and waits. ",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Abrupt increase in current when the set potential reaches Ep; pitting confirmed by optical microscopy. "
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -60
+      },
+      "result_note": "Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Type 316L commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 16.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 12.32,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.07,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.38,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified. Concentration-series solutions described as neutral; numerical pH not imposed.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Immersed at OCP for 5 min; potential increased anodically in 20 mV steps and current read after 1 min at each potential. At least duplicate runs, pitting-potential variation within 20 mV. No sweep rate calculated from steps and waits. ",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Abrupt increase in current when the set potential reaches Ep; pitting confirmed by optical microscopy. "
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 40
+      },
+      "result_note": "Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Type 316LN commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.57,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 64.23,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified. NaCl-saturated solution, approximately 6.2 N. Concentration-series solutions described as neutral; numerical pH not imposed.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 6.2,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Immersed at OCP for 5 min; potential increased anodically in 20 mV steps and current read after 1 min at each potential. At least duplicate runs, pitting-potential variation within 20 mV. No sweep rate calculated from steps and waits. ",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Abrupt increase in current when the set potential reaches Ep; pitting confirmed by optical microscopy. Deep pits confirmed for the concentrated-NaCl series."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 350
+      },
+      "result_note": "Explicitly identified pitting potential, not an arbitrary imposed exposure. Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Type 316LN commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.57,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 64.23,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified. Concentration-series solutions described as neutral; numerical pH not imposed.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "min": 1.5,
+              "max": 2.5,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Immersed at OCP for 5 min; potential increased anodically in 20 mV steps and current read after 1 min at each potential. At least duplicate runs, pitting-potential variation within 20 mV. No sweep rate calculated from steps and waits. This record is the one grouped summary over 1.5–2.5 N NaCl; no individual curve thresholds are created.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Abrupt increase in current when the set potential reaches Ep; pitting confirmed by optical microscopy. Deep pits confirmed for the concentrated-NaCl series."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 1000
+      },
+      "result_note": "Source-reported approximately steady Epit across this specified concentration interval. Recorded as one grouped summary; individual curve thresholds are not inferred. Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Type 316LN commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.57,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 64.23,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified. Concentration-series solutions described as neutral; numerical pH not imposed.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Immersed at OCP for 5 min; potential increased anodically in 20 mV steps and current read after 1 min at each potential. At least duplicate runs, pitting-potential variation within 20 mV. No sweep rate calculated from steps and waits. ",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Abrupt increase in current when the set potential reaches Ep; pitting confirmed by optical microscopy. Deep pits confirmed for the concentrated-NaCl series."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 720
+      },
+      "result_note": "Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Type 316LN commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.57,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 64.23,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified. Concentration-series solutions described as neutral; numerical pH not imposed.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "stepped potentiostatic anodic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Immersed at OCP for 5 min; potential increased anodically in 20 mV steps and current read after 1 min at each potential. At least duplicate runs, pitting-potential variation within 20 mV. No sweep rate calculated from steps and waits. ",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 20,
+          "unit": "mV"
+        },
+        "step_hold_duration": {
+          "value": 1,
+          "unit": "min"
+        },
+        "pitting_criterion": "Abrupt increase in current when the set potential reaches Ep; pitting confirmed by optical microscopy. Deep pits confirmed for the concentrated-NaCl series."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 500
+      },
+      "result_note": "Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Type 316LN commercial wrought 2.5 mm sheet cold rolled to 1 mm, cut into 25 × 15 × 1 mm coupons, sealed in silica tubes under He, solution annealed at 1100 °C for 20 min and water quenched. SS wire spot welded and insulated with PTFE, mounted in epoxy, ground with 600-grit emery then diamond polished scratch-free. Thin lacquer at mount interface minimizes crevices; about 3 cm² exposed.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.4,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 13.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.57,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.019,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.16,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.021,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1.73,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.64,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 64.23,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": null,
+      "test_solution": {
+        "preparation": "Pure analytical-reagent chemicals in double-distilled water; deaerated by purified H2 bubbling before and during each polarization experiment. pH adjusted using a pH meter, but an individual numerical pH for this registered condition is not specified.",
+        "solvent": "Double-distilled water",
+        "composition": [
+          {
+            "solute": "HCl",
+            "amount": {
+              "value": 1,
+              "unit": "N"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Three-electrode cell similar to Greene design, SCE reference and two smooth Pt auxiliary electrodes; potentiostat with strip-chart current/potential recording and current integrator. Tests at unquantified room temperature. Electrode introduced into solution and held at selected constant potential while current and total charge recorded. Applied-potential grid includes 0 to +700 mV SCE in 100 mV spacings, plus OCP and −260 mV controls; these are fixed-potential exposures rather than the 20 mV/1 min scan method. At +100/+200/+300 mV all metastable pits repassivated within 7–9 h; at +400 and +700 mV stable pitting occurred without current transients. Exposure lengths vary; no single duration is forced into step_hold_duration.",
+        "scan_rate": null,
+        "potential_step": {
+          "value": 100,
+          "unit": "mV"
+        },
+        "step_hold_duration": null,
+        "pitting_criterion": "Minimum imposed potential required for stable pit initiation and growth. Persistent pitting at +400 mV, compared with repassivation at +300 mV, supports the registered >300/≤400 mV bracket; metastable-current spikes alone are not stable-pitting onset."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "min": 300,
+        "max": 400
+      },
+      "result_note": "Stable pitting supported at +400 mV (SCE); at +300 mV pits repassivated within the test. Retained bracket >300 and ≤400 mV for this hold protocol; distinct from +500 mV polarization-scan result. Table 1 bulk wt% chemistry is retained: explicit Fe 64.23 for 316LN; Fe balance column for 316L, without calculating a residual. Cu dash is unknown, not zero. Dissolved corrosion-product and AES surface compositions do not replace alloy chemistry. H2 is conditioning gas, not a solute; no numerical room temperature, pH or chloride concentration is calculated. Scan/hold difference and source grouping remain explicit.",
+      "failure_notes": ""
+    }
+  ]
+}

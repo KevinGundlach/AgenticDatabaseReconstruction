@@ -1,0 +1,2983 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "8_R. Guo, M. B. Ives, Corrosion 46 {1990)_ p. 125.pdf",
+  "reference_number": 8,
+  "inputs": {
+    "pdf": {
+      "filename": "8_R. Guo, M. B. Ives, Corrosion 46 {1990)_ p. 125.pdf",
+      "sha256": "f47dd93b90f12ddbbee8592917d3b181756cb1b3fc0e3201c500c0b440fc602d"
+    },
+    "registry": {
+      "filename": "paper_8.json",
+      "sha256": "52c2acc09a1d6c0595a6cfb363d922788b7902a336e3eaa866295906d63046e4"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.108,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.047,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M chloride solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": {
+          "value": 0.6,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.04,
+        "max": 0.09
+      },
+      "result_note": "Source-reported range across experiments, graphically recovered; no unreported mean/replicates inferred. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.108,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 8.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.047,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.25,
+        "max": 0.3
+      },
+      "result_note": "Source-reported range across experiments, graphically recovered; no unreported mean/replicates inferred. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.049,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M chloride solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": {
+          "value": 0.6,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.14,
+        "max": 0.2
+      },
+      "result_note": "Source-reported range across experiments, graphically recovered; no unreported mean/replicates inferred. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.06,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 10.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.049,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.3,
+        "max": 0.35
+      },
+      "result_note": "Source-reported range across experiments, graphically recovered; no unreported mean/replicates inferred. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M chloride solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": {
+          "value": 0.6,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.59,
+        "max": 0.65
+      },
+      "result_note": "Source-reported range across experiments, graphically recovered; no unreported mean/replicates inferred. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.46,
+        "max": 0.5
+      },
+      "result_note": "Source-reported range across experiments, graphically recovered; no unreported mean/replicates inferred. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "min": 0.58,
+        "max": 0.67
+      },
+      "result_note": "Source-reported range across experiments, graphically recovered; no unreported mean/replicates inferred. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Figure 3 S31254 summary does not identify the heat. Common nominal elements of both heats are retained; heat-specific Ti amount and inclusion population remain unresolved rather than choosing Heat 1 or Heat 2.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M chloride solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": {
+          "value": 0.6,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.99
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 60,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M chloride solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": {
+          "value": 0.6,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.95
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M chloride solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": {
+          "value": 0.6,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.66
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M chloride solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": {
+          "value": 0.6,
+          "unit": "M"
+        }
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.6
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 30,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.98
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.87
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.84
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 52,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.8
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.63
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted. Unresolved repeated-presentation group (S31254 pure bromide at 70°C): obs_016, obs_017, obs_030, obs_031; no independence or run identity is asserted. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.57
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted. Unresolved repeated-presentation group (S31254 pure bromide at 70°C): obs_016, obs_017, obs_030, obs_031; no independence or run identity is asserted. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 23,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.72
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 23,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.69
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.58
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 50,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.55
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.5
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Cut from cold-rolled sheet. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.025,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 25,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1.5,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "0.6 M bromide solution. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.46
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. At 70°C these may contribute to the Figure 3 summary ranges; no individual-to-summary merger is asserted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixed sodium halide solution; [Br−]/([Cl−]+[Br−]) = 0.25, with fixed total [Cl−]+[Br−] = 0.6 M. Individual mixed-salt concentrations not calculated. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaBr",
+            "amount": null
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.71
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Pure-halide endpoints may re-present Figure 4 conditions; the paper does not identify individual runs, so no independence is assumed. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixed sodium halide solution; [Br−]/([Cl−]+[Br−]) = 0.25, with fixed total [Cl−]+[Br−] = 0.6 M. Individual mixed-salt concentrations not calculated. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaBr",
+            "amount": null
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.68
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Pure-halide endpoints may re-present Figure 4 conditions; the paper does not identify individual runs, so no independence is assumed. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixed sodium halide solution; [Br−]/([Cl−]+[Br−]) = 0.5, with fixed total [Cl−]+[Br−] = 0.6 M. Individual mixed-salt concentrations not calculated. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaBr",
+            "amount": null
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.68
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Pure-halide endpoints may re-present Figure 4 conditions; the paper does not identify individual runs, so no independence is assumed. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_027",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixed sodium halide solution; [Br−]/([Cl−]+[Br−]) = 0.5, with fixed total [Cl−]+[Br−] = 0.6 M. Individual mixed-salt concentrations not calculated. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaBr",
+            "amount": null
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.64
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Pure-halide endpoints may re-present Figure 4 conditions; the paper does not identify individual runs, so no independence is assumed. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_028",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixed sodium halide solution; [Br−]/([Cl−]+[Br−]) = 0.75, with fixed total [Cl−]+[Br−] = 0.6 M. Individual mixed-salt concentrations not calculated. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaBr",
+            "amount": null
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.65
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Pure-halide endpoints may re-present Figure 4 conditions; the paper does not identify individual runs, so no independence is assumed. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_029",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixed sodium halide solution; [Br−]/([Cl−]+[Br−]) = 0.75, with fixed total [Cl−]+[Br−] = 0.6 M. Individual mixed-salt concentrations not calculated. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": null
+          },
+          {
+            "solute": "NaBr",
+            "amount": null
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.61
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Pure-halide endpoints may re-present Figure 4 conditions; the paper does not identify individual runs, so no independence is assumed. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_030",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixed sodium halide solution; [Br−]/([Cl−]+[Br−]) = 1, with fixed total [Cl−]+[Br−] = 0.6 M. Individual mixed-salt concentrations not calculated. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.63
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Pure-halide endpoints may re-present Figure 4 conditions; the paper does not identify individual runs, so no independence is assumed. Unresolved repeated-presentation group (S31254 pure bromide at 70°C): obs_016, obs_017, obs_030, obs_031; no independence or run identity is asserted. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_031",
+      "alloy": {
+        "preparation": "Sample taken from tube material. Surface ground to 600-grade silicon-carbide paper; additional fine polishing was used for specimens examined by optical or electron microscopy. Further preparation details are referred outside this PDF and not imported.",
+        "composition": [
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.02,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 6.1,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 0.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.21,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.033,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Austenitic stainless steel. Heat 1 contains a significant population of titanium-rich inclusions and is metallographically less clean than Heat 2.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 70,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Mixed sodium halide solution; [Br−]/([Cl−]+[Br−]) = 1, with fixed total [Cl−]+[Br−] = 0.6 M. Individual mixed-salt concentrations not calculated. Prepared from analytical reagents, sodium salts and distilled water; neutral pH approximately 7; deaerated with nitrogen for 1 h before and throughout experiments.",
+        "solvent": "Distilled water",
+        "composition": [
+          {
+            "solute": "NaBr",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 7,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Immersed for 30 min, then potentiodynamic polarization commenced at the free-corrosion potential; potentials reported vs SCE. Separate above-threshold potentiostatic microscopy tests were used to examine pit morphology and inclusions, not to define the registered scan potential.",
+        "scan_rate": {
+          "value": 600,
+          "unit": "mV/h"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential identified from anodic polarization; authors label the temperature/mixed-halide results transpassive and/or pitting potentials, without assigning every transition marker unequivocally to one mechanism."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": 0.59
+      },
+      "result_note": "Approximate graphical reading. The paper labels these outcomes transpassive and/or pitting potentials. At the critical-temperature transition, the paper does not assign every marker unequivocally to pitting rather than transpassivity; that source uncertainty remains. Clearly nonpitting transpassive conditions have been excluded. Pure-halide endpoints may re-present Figure 4 conditions; the paper does not identify individual runs, so no independence is assumed. Unresolved repeated-presentation group (S31254 pure bromide at 70°C): obs_016, obs_017, obs_030, obs_031; no independence or run identity is asserted. S31254 Heat 1: Table 1 values nominal except Ti, which was directly analyzed.",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1139 @@
+{
+  "paper_name": "78_Kim, J-S., and H-S. Kwon. Corrosion 55.5 (1999)_ 512-521.pdf",
+  "reference_number": 78,
+  "inputs": {
+    "pdf": {
+      "filename": "78_Kim, J-S., and H-S. Kwon. Corrosion 55.5 (1999)_ 512-521.pdf",
+      "sha256": "5c5099be9709e3aad080ee46ce19bec2a2def04b42c678eb11f89f4d38d34fa8"
+    },
+    "registry": {
+      "filename": "paper_78.json",
+      "sha256": "ba406a719c422581c1782345883d774216e50d3dc2cc124ae74ab812605e22a6"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Solution-annealed test condition; no subsequent aging assigned. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.39,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.232,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Anodic polarization from the corrosion potential in deaerated 4 M NaCl at 80°C; five tests per alloy. Printed representative pitting potentials are described as close to the five-test averages. A pitting-scan rate is not independently stated; the 1-mV/s ramp is explicitly given for the CPT protocol.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential from the anodic polarization response. No numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 609
+      },
+      "result_note": "Printed representative pitting potential, described as close to the average of five polarization tests per alloy. The text assigns 609 to 3% Mo and 515 to 2% W–2% Mo, whereas Figure 1’s solid/dotted curve ordering appears reversed. The explicit text assignment is preserved; no onset was independently inferred from the unannotated curves. The general 30–100 mV scatter statement is not an alloy-specific error interval. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Solution-annealed test condition; no subsequent aging assigned. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Anodic polarization from the corrosion potential in deaerated 4 M NaCl at 80°C; five tests per alloy. Printed representative pitting potentials are described as close to the five-test averages. A pitting-scan rate is not independently stated; the 1-mV/s ramp is explicitly given for the CPT protocol.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential from the anodic polarization response. No numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 758
+      },
+      "result_note": "Printed representative pitting potential, described as close to the average of five polarization tests per alloy. The text assigns 609 to 3% Mo and 515 to 2% W–2% Mo, whereas Figure 1’s solid/dotted curve ordering appears reversed. The explicit text assignment is preserved; no onset was independently inferred from the unannotated curves. The general 30–100 mV scatter statement is not an alloy-specific error interval. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Solution-annealed test condition; no subsequent aging assigned. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.94,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.251,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 80,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "anodic polarization"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Anodic polarization from the corrosion potential in deaerated 4 M NaCl at 80°C; five tests per alloy. Printed representative pitting potentials are described as close to the five-test averages. A pitting-scan rate is not independently stated; the 1-mV/s ramp is explicitly given for the CPT protocol.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting potential from the anodic polarization response. No numerical onset-current threshold is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 515
+      },
+      "result_note": "Printed representative pitting potential, described as close to the average of five polarization tests per alloy. The text assigns 609 to 3% Mo and 515 to 2% W–2% Mo, whereas Figure 1’s solid/dotted curve ordering appears reversed. The explicit text assignment is preserved; no onset was independently inferred from the unannotated curves. The general 30–100 mV scatter statement is not an alloy-specific error interval. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Solution-annealed test condition; no subsequent aging assigned. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.39,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.232,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 84.5
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Typical individual current-time test at CPT 84.5°C. Possible member of the Figure 3 summary population (obs_005), not asserted to be an independent experiment. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Solution-annealed test condition; no subsequent aging assigned. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.39,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.232,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 84,
+        "min": 81,
+        "max": 87
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Experimental summary; the paper does not define the bars as standard deviation or extrema. Figure 2’s typical test (obs_004) may be a member of this summary population. The text identifies the 84°C baseline as solution-annealed, while Figure 11(a) labels its leftmost marker at 1 min before an axis break. Both selectors are retained as a source conflict. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Solution-annealed test condition; no subsequent aging assigned. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.7,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 7.0,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.94,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.05,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.251,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 88.5,
+        "min": 81.5,
+        "max": 96
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Experimental summary; the paper does not define the bars as standard deviation or extrema. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Solution-annealed test condition; no subsequent aging assigned. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ).",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 91,
+        "min": 87,
+        "max": 95.5
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Experimental summary; the paper does not define the bars as standard deviation or extrema. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Subsequently aged 600 min at 850°C. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.39,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.232,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ). Aging precipitates σ phase; the 3% Mo alloy exhibits σ precipitates without detected χ in the reported microscopy comparisons.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 69,
+        "min": 61,
+        "max": 77.5
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Aged 600 min at 850°C; average CPT 69°C. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Subsequently aged 10 min at 850°C. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ). Aging precipitates σ phase; the 3% W–1.5% Mo alloy also exhibits fine χ precipitates and retarded σ growth.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 90,
+        "min": 82.5,
+        "max": 98
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Aged 10 min at 850°C; average CPT 90°C. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Subsequently aged 10 min at 850°C. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.39,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.232,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ). Aging precipitates σ phase; the 3% Mo alloy exhibits σ precipitates without detected χ in the reported microscopy comparisons.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 77.5,
+        "min": 74,
+        "max": 81.5
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Aged 10 min at 850°C. Approximate graphical CPT mean and bar endpoints; bar statistical meaning is not defined. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Subsequently aged 30 min at 850°C. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.39,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 2.72,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": null
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.232,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ). Aging precipitates σ phase; the 3% Mo alloy exhibits σ precipitates without detected χ in the reported microscopy comparisons.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 74.5,
+        "min": 73.5,
+        "max": 76
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Aged 30 min at 850°C. Approximate graphical CPT mean and bar endpoints; bar statistical meaning is not defined. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Subsequently aged 30 min at 850°C. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ). Aging precipitates σ phase; the 3% W–1.5% Mo alloy also exhibits fine χ precipitates and retarded σ growth.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 78.5,
+        "min": 73.5,
+        "max": 83.5
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Aged 30 min at 850°C. Approximate graphical CPT mean and bar endpoints; bar statistical meaning is not defined. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "High-purity heats vacuum-induction melted in the laboratory and cast in 25-kg ingots; prepared as cold-rolled sheets 3 mm thick and hot-rolled plates 12 mm thick. Solution-annealed 2 h at 1050°C. Subsequently aged 600 min at 850°C. Electrochemical specimen form, cooling and surface-finishing details are not separately specified.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 25.29,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 6.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1.55,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 2.86,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.26,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": "balance"
+          }
+        ],
+        "microstructure": "Duplex stainless steel with ferrite (α) and austenite (γ). Aging precipitates σ phase; the 3% W–1.5% Mo alloy also exhibits fine χ precipitates and retarded σ growth.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 77,
+        "min": 70,
+        "max": 84
+      },
+      "test_solution": {
+        "preparation": "Deaerated 4-M NaCl solution. The nitrogen-flow statement for boiling MgCl2 SCC tests is not assigned to these pitting/CPT tests.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic critical pitting temperature"
+        ],
+        "procedure_description": "ASTM G5 1-L multineck flask, platinum counter electrode and SCE positioned in a salt bridge with a high-silica tip. Polarize from corrosion potential to 600 mV (SCE) at 1 mV/s, then hold at 600 mV while heating the deaerated 4-M NaCl solution at 0.5°C/min from 40°C and monitoring anodic current. CPT measured at least four times per alloy. The test_temperature field is the associated CPT, not a constant bath temperature.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "CPT is the solution temperature at which anodic current increases abruptly, indicating pitting. Pitting at the imposed 600 mV gives the registered upper bound on potential; it is not a swept onset potential."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "max": 600
+      },
+      "result_note": "Pitting observed during a temperature-ramp test at imposed 600 mV (SCE), retained as an upper bound at the associated CPT, not an exact measured pitting potential. Temperature mean/bar endpoints are coordinates, not potential uncertainty. Aged 600 min at 850°C. Approximate graphical CPT mean and bar endpoints; bar statistical meaning is not defined. Reported/digitized CPT mean and bar endpoints are retained as temperature context; bar statistical meaning is unspecified. No potential uncertainty is inferred from temperature bars. Composition is Table 1 bulk chemistry (wt% basis stated in the experimental discussion), with Fe explicitly balance. The 3% Mo W dash remains null rather than an inferred zero; phase-specific EDX analyses in Tables 3/4 do not replace bulk composition. TEM-foil preparation and KOH metallographic etching are not assigned to the pitting electrodes.",
+      "failure_notes": ""
+    }
+  ]
+}

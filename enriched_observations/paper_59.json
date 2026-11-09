@@ -1,0 +1,157 @@
+{
+  "paper_name": "59_Landolt, D., et al.  Corrosion science 31 (1990)_ 431-440.pdf",
+  "reference_number": 59,
+  "inputs": {
+    "pdf": {
+      "filename": "59_Landolt, D., et al.  Corrosion science 31 (1990)_ 431-440.pdf",
+      "sha256": "8f9e0b1f33e24c3b41848de7ba090fe3cd692ff07155534258e0723dbceda750"
+    },
+    "registry": {
+      "filename": "paper_59.json",
+      "sha256": "d4c67438499f94494538d83a4529ebce15ae8b37b0eda48d707777f17d0a8aaa"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Fe24Cr model alloy; mechanically polished and cathodically prepolarized before the experiment. Rotating-disc working electrode; no detailed manufacturing, thermal treatment or polishing schedule is supplied.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24,
+              "unit": ""
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte B; polarization in the absence of air. Specific routine purge gas/duration is unreported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.12,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm; cathodic prepolarization precedes a three-hour constant-potential exposure at +200 mV (PL) on the normal/standard hydrogen scale. PL is in the low passive region and PH in the high passive region. After exposure, rinse in distilled water, dry in argon, store in desiccator less than 2 h, then transfer for ex-situ surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors explicitly state all applied film-formation potentials are below the Fe24Cr pitting potential in electrolyte B; represented as lower limits only."
+      },
+      "pitting_potential": {
+        "unit": "mV (standard hydrogen electrode)",
+        "min": 200
+      },
+      "result_note": "Authors explicitly state applied potentials are below the pitting potential of Fe24Cr in electrolyte B. Lower bound only, not a measured onset. Electrolyte B is 0.1 M H2SO4 + 0.4 M Na2SO4 + 0.12 M NaCl. Cathodic pretreatment is excluded. Only the nominal Fe24Cr designation is supplied; the amount 24 has no explicit composition basis in Figure 2, and no iron balance or minor-element chemistry is inferred. Details from other papers are not imported.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Fe24Cr model alloy; mechanically polished and cathodically prepolarized before the experiment. Rotating-disc working electrode; no detailed manufacturing, thermal treatment or polishing schedule is supplied.",
+        "composition": [
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24,
+              "unit": ""
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte B; polarization in the absence of air. Specific routine purge gas/duration is unreported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.12,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm; cathodic prepolarization precedes a three-hour constant-potential exposure at +500 mV (PH) on the normal/standard hydrogen scale. PL is in the low passive region and PH in the high passive region. After exposure, rinse in distilled water, dry in argon, store in desiccator less than 2 h, then transfer for ex-situ surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors explicitly state all applied film-formation potentials are below the Fe24Cr pitting potential in electrolyte B; represented as lower limits only."
+      },
+      "pitting_potential": {
+        "unit": "mV (standard hydrogen electrode)",
+        "min": 500
+      },
+      "result_note": "Authors explicitly state applied potentials are below the pitting potential of Fe24Cr in electrolyte B. Lower bound only, not a measured onset. Electrolyte B is 0.1 M H2SO4 + 0.4 M Na2SO4 + 0.12 M NaCl. Cathodic pretreatment is excluded. Only the nominal Fe24Cr designation is supplied; the amount 24 has no explicit composition basis in Figure 2, and no iron balance or minor-element chemistry is inferred. Details from other papers are not imported.",
+      "failure_notes": ""
+    }
+  ]
+}

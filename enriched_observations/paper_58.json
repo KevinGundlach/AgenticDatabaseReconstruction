@@ -1,0 +1,805 @@
+{
+  "paper_name": "58_Mischler, S., et al. Corrosion science 32.9 (1991)_ 925-944.pdf",
+  "reference_number": 58,
+  "inputs": {
+    "pdf": {
+      "filename": "58_Mischler, S., et al. Corrosion science 32.9 (1991)_ 925-944.pdf",
+      "sha256": "8021eada0b9db6ad0be05371595a2e582bb70ad0d0fb32e19d719b78241c9f34"
+    },
+    "registry": {
+      "filename": "paper_58.json",
+      "sha256": "1eaa463e61d52597ce8ce02ff98cce33777850e6f23f8a24c0a99d6a7dcbd538"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Heat-treated at 1300°C for 58 h to homogenize concentration; machined as rods/rotating discs, 3.57-mm diameter (0.1 cm²). For potentiostatic surface-analysis experiments no epoxy insulation; meniscus contact prevents wetting the rod side. Mechanically polished with SiC and 1-µm alumina, washed with ethanol and doubly distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.063,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.043,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0033,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase ferritic alloy; grains in the millimetre range after homogenization; a few chromium-oxide inclusions.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte A; deaerated under argon.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "current–time transient"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm. Cathodic polarization at −650 mV for 1 min followed by an anodic hold for 1 h at 200 mV (PL) relative to normal hydrogen electrode. Solartron 1286/AMEL 568; current recorded versus time. Electrode removed with potential still applied, rinsed with doubly distilled water, dried/stored under argon for up to 2 h before surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting would produce a current increase associated with pit initiation/growth. Authors exclude pitting during PL and PH because no such current-transient increase is observed."
+      },
+      "pitting_potential": {
+        "unit": "mV (normal hydrogen electrode)",
+        "min": 200
+      },
+      "result_note": "No-pitting lower limit from the authors’ explicit interpretation of current–time transients, not an onset digitized from polarization curves. Electrolyte A: 0.1 M H2SO4 + 0.4 M Na2SO4; B adds 0.12 M NaCl. Applies only to the stated hold; no claim of pitting at this potential. No-pitting interpretation applies to the one-hour hold; the paper separately reports pitting of Fe–24Cr in electrolyte B during broader polarization. Table 1 wt% values are retained; parenthesized at% values are not converted or mixed into the composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Heat-treated at 1300°C for 58 h to homogenize concentration; machined as rods/rotating discs, 3.57-mm diameter (0.1 cm²). For potentiostatic surface-analysis experiments no epoxy insulation; meniscus contact prevents wetting the rod side. Mechanically polished with SiC and 1-µm alumina, washed with ethanol and doubly distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.063,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.043,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0033,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase ferritic alloy; grains in the millimetre range after homogenization; a few chromium-oxide inclusions.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte A; deaerated under argon.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "current–time transient"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm. Cathodic polarization at −650 mV for 1 min followed by an anodic hold for 1 h at 500 mV (PH) relative to normal hydrogen electrode. Solartron 1286/AMEL 568; current recorded versus time. Electrode removed with potential still applied, rinsed with doubly distilled water, dried/stored under argon for up to 2 h before surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting would produce a current increase associated with pit initiation/growth. Authors exclude pitting during PL and PH because no such current-transient increase is observed."
+      },
+      "pitting_potential": {
+        "unit": "mV (normal hydrogen electrode)",
+        "min": 500
+      },
+      "result_note": "No-pitting lower limit from the authors’ explicit interpretation of current–time transients, not an onset digitized from polarization curves. Electrolyte A: 0.1 M H2SO4 + 0.4 M Na2SO4; B adds 0.12 M NaCl. Applies only to the stated hold; no claim of pitting at this potential. No-pitting interpretation applies to the one-hour hold; the paper separately reports pitting of Fe–24Cr in electrolyte B during broader polarization. Table 1 wt% values are retained; parenthesized at% values are not converted or mixed into the composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Heat-treated at 1300°C for 58 h to homogenize concentration; machined as rods/rotating discs, 3.57-mm diameter (0.1 cm²). For potentiostatic surface-analysis experiments no epoxy insulation; meniscus contact prevents wetting the rod side. Mechanically polished with SiC and 1-µm alumina, washed with ethanol and doubly distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.063,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.043,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0033,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase ferritic alloy; grains in the millimetre range after homogenization; a few chromium-oxide inclusions.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte B; deaerated under argon.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.12,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "current–time transient"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm. Cathodic polarization at −650 mV for 1 min followed by an anodic hold for 1 h at 200 mV (PL) relative to normal hydrogen electrode. Solartron 1286/AMEL 568; current recorded versus time. Electrode removed with potential still applied, rinsed with doubly distilled water, dried/stored under argon for up to 2 h before surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting would produce a current increase associated with pit initiation/growth. Authors exclude pitting during PL and PH because no such current-transient increase is observed."
+      },
+      "pitting_potential": {
+        "unit": "mV (normal hydrogen electrode)",
+        "min": 200
+      },
+      "result_note": "No-pitting lower limit from the authors’ explicit interpretation of current–time transients, not an onset digitized from polarization curves. Electrolyte A: 0.1 M H2SO4 + 0.4 M Na2SO4; B adds 0.12 M NaCl. Applies only to the stated hold; no claim of pitting at this potential. No-pitting interpretation applies to the one-hour hold; the paper separately reports pitting of Fe–24Cr in electrolyte B during broader polarization. Table 1 wt% values are retained; parenthesized at% values are not converted or mixed into the composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Heat-treated at 1300°C for 58 h to homogenize concentration; machined as rods/rotating discs, 3.57-mm diameter (0.1 cm²). For potentiostatic surface-analysis experiments no epoxy insulation; meniscus contact prevents wetting the rod side. Mechanically polished with SiC and 1-µm alumina, washed with ethanol and doubly distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 0.063,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.043,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.002,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.0033,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.006,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase ferritic alloy; grains in the millimetre range after homogenization; a few chromium-oxide inclusions.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte B; deaerated under argon.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.12,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "current–time transient"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm. Cathodic polarization at −650 mV for 1 min followed by an anodic hold for 1 h at 500 mV (PH) relative to normal hydrogen electrode. Solartron 1286/AMEL 568; current recorded versus time. Electrode removed with potential still applied, rinsed with doubly distilled water, dried/stored under argon for up to 2 h before surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting would produce a current increase associated with pit initiation/growth. Authors exclude pitting during PL and PH because no such current-transient increase is observed."
+      },
+      "pitting_potential": {
+        "unit": "mV (normal hydrogen electrode)",
+        "min": 500
+      },
+      "result_note": "No-pitting lower limit from the authors’ explicit interpretation of current–time transients, not an onset digitized from polarization curves. Electrolyte A: 0.1 M H2SO4 + 0.4 M Na2SO4; B adds 0.12 M NaCl. Applies only to the stated hold; no claim of pitting at this potential. No-pitting interpretation applies to the one-hour hold; the paper separately reports pitting of Fe–24Cr in electrolyte B during broader polarization. Table 1 wt% values are retained; parenthesized at% values are not converted or mixed into the composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Heat-treated at 1300°C for 58 h to homogenize concentration; machined as rods/rotating discs, 3.57-mm diameter (0.1 cm²). For potentiostatic surface-analysis experiments no epoxy insulation; meniscus contact prevents wetting the rod side. Mechanically polished with SiC and 1-µm alumina, washed with ethanol and doubly distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 10.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase ferritic alloy; grains in the millimetre range after homogenization; a few chromium-oxide inclusions.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte A; deaerated under argon.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "current–time transient"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm. Cathodic polarization at −650 mV for 1 min followed by an anodic hold for 1 h at 200 mV (PL) relative to normal hydrogen electrode. Solartron 1286/AMEL 568; current recorded versus time. Electrode removed with potential still applied, rinsed with doubly distilled water, dried/stored under argon for up to 2 h before surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting would produce a current increase associated with pit initiation/growth. Authors exclude pitting during PL and PH because no such current-transient increase is observed."
+      },
+      "pitting_potential": {
+        "unit": "mV (normal hydrogen electrode)",
+        "min": 200
+      },
+      "result_note": "No-pitting lower limit from the authors’ explicit interpretation of current–time transients, not an onset digitized from polarization curves. Electrolyte A: 0.1 M H2SO4 + 0.4 M Na2SO4; B adds 0.12 M NaCl. Applies only to the stated hold; no claim of pitting at this potential. No-pitting interpretation applies to the one-hour hold; the paper separately reports pitting of Fe–24Cr in electrolyte B during broader polarization. Table 1 wt% values are retained; parenthesized at% values are not converted or mixed into the composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Heat-treated at 1300°C for 58 h to homogenize concentration; machined as rods/rotating discs, 3.57-mm diameter (0.1 cm²). For potentiostatic surface-analysis experiments no epoxy insulation; meniscus contact prevents wetting the rod side. Mechanically polished with SiC and 1-µm alumina, washed with ethanol and doubly distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 10.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase ferritic alloy; grains in the millimetre range after homogenization; a few chromium-oxide inclusions.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte A; deaerated under argon.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "current–time transient"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm. Cathodic polarization at −650 mV for 1 min followed by an anodic hold for 1 h at 500 mV (PH) relative to normal hydrogen electrode. Solartron 1286/AMEL 568; current recorded versus time. Electrode removed with potential still applied, rinsed with doubly distilled water, dried/stored under argon for up to 2 h before surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting would produce a current increase associated with pit initiation/growth. Authors exclude pitting during PL and PH because no such current-transient increase is observed."
+      },
+      "pitting_potential": {
+        "unit": "mV (normal hydrogen electrode)",
+        "min": 500
+      },
+      "result_note": "No-pitting lower limit from the authors’ explicit interpretation of current–time transients, not an onset digitized from polarization curves. Electrolyte A: 0.1 M H2SO4 + 0.4 M Na2SO4; B adds 0.12 M NaCl. Applies only to the stated hold; no claim of pitting at this potential. No-pitting interpretation applies to the one-hour hold; the paper separately reports pitting of Fe–24Cr in electrolyte B during broader polarization. Table 1 wt% values are retained; parenthesized at% values are not converted or mixed into the composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Heat-treated at 1300°C for 58 h to homogenize concentration; machined as rods/rotating discs, 3.57-mm diameter (0.1 cm²). For potentiostatic surface-analysis experiments no epoxy insulation; meniscus contact prevents wetting the rod side. Mechanically polished with SiC and 1-µm alumina, washed with ethanol and doubly distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 10.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase ferritic alloy; grains in the millimetre range after homogenization; a few chromium-oxide inclusions.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte B; deaerated under argon.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.12,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "current–time transient"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm. Cathodic polarization at −650 mV for 1 min followed by an anodic hold for 1 h at 200 mV (PL) relative to normal hydrogen electrode. Solartron 1286/AMEL 568; current recorded versus time. Electrode removed with potential still applied, rinsed with doubly distilled water, dried/stored under argon for up to 2 h before surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting would produce a current increase associated with pit initiation/growth. Authors exclude pitting during PL and PH because no such current-transient increase is observed."
+      },
+      "pitting_potential": {
+        "unit": "mV (normal hydrogen electrode)",
+        "min": 200
+      },
+      "result_note": "No-pitting lower limit from the authors’ explicit interpretation of current–time transients, not an onset digitized from polarization curves. Electrolyte A: 0.1 M H2SO4 + 0.4 M Na2SO4; B adds 0.12 M NaCl. Applies only to the stated hold; no claim of pitting at this potential. No-pitting interpretation applies to the one-hour hold; the paper separately reports pitting of Fe–24Cr in electrolyte B during broader polarization. Table 1 wt% values are retained; parenthesized at% values are not converted or mixed into the composition.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Heat-treated at 1300°C for 58 h to homogenize concentration; machined as rods/rotating discs, 3.57-mm diameter (0.1 cm²). For potentiostatic surface-analysis experiments no epoxy insulation; meniscus contact prevents wetting the rod side. Mechanically polished with SiC and 1-µm alumina, washed with ethanol and doubly distilled water.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 24.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 10.9,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.12,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "W",
+            "amount": {
+              "value": 0.015,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.009,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.005,
+              "unit": "wt%"
+            }
+          }
+        ],
+        "microstructure": "Single-phase ferritic alloy; grains in the millimetre range after homogenization; a few chromium-oxide inclusions.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 65,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Electrolyte B; deaerated under argon.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "H2SO4",
+            "amount": {
+              "value": 0.1,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "Na2SO4",
+            "amount": {
+              "value": 0.4,
+              "unit": "M"
+            }
+          },
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.12,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiostatic polarization",
+          "current–time transient"
+        ],
+        "procedure_description": "Rotating-disc electrode at 3000 rpm. Cathodic polarization at −650 mV for 1 min followed by an anodic hold for 1 h at 500 mV (PH) relative to normal hydrogen electrode. Solartron 1286/AMEL 568; current recorded versus time. Electrode removed with potential still applied, rinsed with doubly distilled water, dried/stored under argon for up to 2 h before surface analysis.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Pitting would produce a current increase associated with pit initiation/growth. Authors exclude pitting during PL and PH because no such current-transient increase is observed."
+      },
+      "pitting_potential": {
+        "unit": "mV (normal hydrogen electrode)",
+        "min": 500
+      },
+      "result_note": "No-pitting lower limit from the authors’ explicit interpretation of current–time transients, not an onset digitized from polarization curves. Electrolyte A: 0.1 M H2SO4 + 0.4 M Na2SO4; B adds 0.12 M NaCl. Applies only to the stated hold; no claim of pitting at this potential. No-pitting interpretation applies to the one-hour hold; the paper separately reports pitting of Fe–24Cr in electrolyte B during broader polarization. Table 1 wt% values are retained; parenthesized at% values are not converted or mixed into the composition.",
+      "failure_notes": ""
+    }
+  ]
+}

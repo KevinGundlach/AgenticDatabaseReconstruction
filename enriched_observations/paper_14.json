@@ -1,0 +1,2527 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "14_R. J. Brigham, E. W. Tozer, Corrosion 29 (1973)_ p. 33.pdf",
+  "reference_number": 14,
+  "inputs": {
+    "pdf": {
+      "filename": "14_R. J. Brigham, E. W. Tozer, Corrosion 29 (1973)_ p. 33.pdf",
+      "sha256": "f8359f4807bd1df162d01dbba8e20fc02f0d3188e00b65ed5defa828bacac15b"
+    },
+    "registry": {
+      "filename": "paper_14.json",
+      "sha256": "59e79d7884ccf32291ee13066e053aeecac3edb0b9f15035b4cf8ee0b4adea11"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-1; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.24,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 30
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 620,
+        "min": 590,
+        "max": 650
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-1; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.24,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 50
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 180,
+        "min": 140,
+        "max": 230
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-1; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.24,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 60
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 90
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-1; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.24,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 70
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 110,
+        "min": 60,
+        "max": 155
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-1; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.24,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 80
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 110
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-1; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.24,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 85
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 10
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-1; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 19.17,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20.24,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.99,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.19,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.44,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 3.04,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 90
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 120
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-2; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 35
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 580,
+        "min": 510,
+        "max": 650
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-2; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 60
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 240
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-2; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 70
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 130
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-2; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 80
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 210
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-2; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 85
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 60
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-2; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 4.48,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 90
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 25
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-3; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.6,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 50
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 540,
+        "min": 530,
+        "max": 555
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-3; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.6,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 60
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 290
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-3; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.6,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 70
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 230,
+        "min": 185,
+        "max": 285
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-3; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.6,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 80
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 175
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-3; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.6,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 87
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 120
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-3; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 18,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 20,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 5.6,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 90
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 160
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cr 18%, Ni 20%, N 0.2% are the nominal figure-caption series composition. Table 1 marks those elements and other residuals as not analyzed for this split; measured endpoint analyses are not copied. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-4; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 7.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 50
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 750,
+        "min": 740,
+        "max": 770
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-4; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 7.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 60
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 560,
+        "min": 450,
+        "max": 665
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-4; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 7.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 70
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 400
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-4; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 7.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 70
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 155
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_024",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-4; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 7.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 80
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 310
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_025",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-4; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 7.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 85
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 90
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_026",
+      "alloy": {
+        "preparation": "Experimental alloy 7580-4; alloys 7580-1 through 7580-4 are stated to be splits from one heat. Detailed manufacture, heat treatment and surface preparation for the reproduced increasing-potential experiments are not restated.",
+        "composition": [
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 17.88,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 18.96,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 0.89,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "C",
+            "amount": {
+              "value": 0.03,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "N",
+            "amount": {
+              "value": 0.2,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 0.43,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "P",
+            "amount": {
+              "value": 0.012,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "S",
+            "amount": {
+              "value": 0.013,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 7.3,
+              "unit": "wt%"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          }
+        ],
+        "microstructure": "Austenitic stainless steel.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "unit": "°C",
+        "value": 90
+      },
+      "test_solution": {
+        "preparation": "Figure 1 reproduced increasing-potential series in 3.5% NaCl at pH 3. The current-paper increasing-temperature protocol also states 0.6 M NaCl, but its nitrogenation, five-minute waits and temperature ramp are not automatically assigned to the cited scans.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 3.5,
+              "unit": "%"
+            }
+          }
+        ],
+        "ph": 3,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Reproduced increasing-potential runs at fixed temperature, cited from the earlier presentation (Reference 1) and re-plotted in Figure 2. Potential corresponding to current density 10 µA/cm² used for pit initiation. Scan rate, potential increment and hold duration for those cited runs are not supplied here. The +500 mV hold and 0.6 °C/min temperature ramp belong to a separate temperature-screening test.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Potential at rise in current density to 10 µA/cm²; intermediate temperature-dependent values distinguished from upper transpassive plateau."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 230,
+        "min": 220,
+        "max": 240
+      },
+      "result_note": "Source uses potential at 10 μA/cm² as the pit-initiation criterion. Graphical central value and visible vertical endpoints are retained where shown; small adjacent numerals denote run counts, not additional potentials. Upper transpassive-plateau markers are excluded. Cited/reproduced outcome retained with only context supplied by this PDF; no external paper consulted.",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,1664 @@
+{
+  "schema_version": "1.0",
+  "paper_name": "17_Y. Qiu, M.A. Gibson, H.L. Fraser & N. Birbilis.  Materials Science and Technology, 31_10 (2015), 1235-1243.pdf",
+  "reference_number": 17,
+  "inputs": {
+    "pdf": {
+      "filename": "17_Y. Qiu, M.A. Gibson, H.L. Fraser & N. Birbilis.  Materials Science and Technology, 31_10 (2015), 1235-1243.pdf",
+      "sha256": "f06c7b43408d5861fb44bab63e48057621bf0217f34e8a200e6afdcb9339d712"
+    },
+    "registry": {
+      "filename": "paper_17.json",
+      "sha256": "e94f88b7b7baf7491d4061d31583149bee2e4f1cde98abcadf521f2df5200389"
+    }
+  },
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: CoCrFeNiAl0.6. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.6,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 190
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Mechanical alloying: metal powders blended in the appropriate proportions by high-energy ball milling, then consolidated by spark-plasma sintering (DR.SINTER SPS-925). Nominal alloy formula: CoFeMnNi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 0
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Cited Austenitic stainless steels comparison; no specimen preparation or full composition supplied here.",
+        "composition": [],
+        "microstructure": "Austenitic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Figure 1 or Table 1, scoped to quiescent 0.6 M NaCl at 25 °C; current-study preparation, OCP hold and scan rate are not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 285
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Comparative category value attributed by the caption to earlier studies; no specific grade/individual alloy is supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: CoCrFeNiAl0.9. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.9,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Fine interconnected fcc + B2 (ordered bcc) microstructure, without significant elemental segregation; TEM/SADP distinguish the phases.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 164,
+        "plus_minus": 29
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Table 3 explicit value and printed symmetric uncertainty are primary; uncertainty type is unreported. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Mechanical alloying: metal powders blended in the appropriate proportions by high-energy ball milling, then consolidated by spark-plasma sintering (DR.SINTER SPS-925). Nominal alloy formula: CoCrCuFeNi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -100
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Laser melted using a Trumpf TruLaser Cell 7040 under argon; starting metal powders of purity above 99.5 wt% and typical size 50–100 µm. Nominal alloy formula: CoCrFeNi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 390
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: CoCrFeNi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Single fcc solid solution by XRD for the arc-melted material.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 442
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: CoCrFeNiAl0.3. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.3,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 290,
+        "min": 240,
+        "max": 340
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Processing labels conflict: Figure 1 says SPS, while Figure 2 caption/discussion calls the alloy as cast. The supplied paper does not resolve whether the exact material state is the same. Nominal alloy formula: AlCoCrCuFe. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -130,
+        "plus_minus": 5
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Table 1 explicit value/printed uncertainty is primary. The paper does not identify the uncertainty as SD or SE. Figure 1 labels this alloy SPS whereas the Figure 2 caption/discussion calls it as cast; the shared summary/table result is retained with this processing-label conflict. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents. These HEAs are described as Mo-free and C-free in the Table 1 comparison; this is not a full measured elemental analysis. The as-cast AlCoCrCuFe microstructure is described as Cu-rich fcc plus a Cu-depleted bcc matrix; its applicability to the SPS-labelled summary entry cannot be settled, so the tested-state microstructure field is left empty.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_010",
+      "alloy": {
+        "preparation": "Mechanical alloying: metal powders blended in the appropriate proportions by high-energy ball milling, then consolidated by spark-plasma sintering (DR.SINTER SPS-925). CoCrFeNi SPS* held at 1000 °C for 5 min (Figure 1 footnote). Nominal alloy formula: CoCrFeNi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -28
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_011",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: Ti0.3(CoCrFeNi)0.7. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.3,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": null
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": null
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": null
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": null
+          }
+        ],
+        "microstructure": "Very heterogeneous microstructure with at least three distinct phases; phase A is Ti-rich (Table 4 EDS), which is a phase-specific analysis and not a bulk composition.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 1040,
+        "plus_minus": 13
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Table 3 explicit value and printed symmetric uncertainty are primary; uncertainty type is unreported. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_012",
+      "alloy": {
+        "preparation": "Mechanical alloying: metal powders blended in the appropriate proportions by high-energy ball milling, then consolidated by spark-plasma sintering (DR.SINTER SPS-925). Nominal alloy formula: CoCrFeNiMo. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Mo",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -115
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_013",
+      "alloy": {
+        "preparation": "Mechanical alloying: metal powders blended in the appropriate proportions by high-energy ball milling, then consolidated by spark-plasma sintering (DR.SINTER SPS-925). CoCrFeNi SPS^ first held at 500 °C for 5 min, then sintered at 1000 °C for another 5 min (Figure 1/Table 3 footnotes). Nominal alloy formula: CoCrFeNi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Multiple phases: fcc plus Cr-rich sigma phase; Cr-depleted fcc matrix and fine pores reported for the two-stage SPS specimen.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -8,
+        "plus_minus": 59
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Table 3 explicit value and printed symmetric uncertainty are primary; uncertainty type is unreported. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_014",
+      "alloy": {
+        "preparation": "Cited Ferritic stainless steels comparison; no specimen preparation or full composition supplied here.",
+        "composition": [],
+        "microstructure": "Ferritic.",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Figure 1 or Table 1, scoped to quiescent 0.6 M NaCl at 25 °C; current-study preparation, OCP hold and scan rate are not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -85
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Comparative category value attributed by the caption to earlier studies; no specific grade/individual alloy is supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_015",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: CoCrFeNiAl0.9Ti0.5. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 0.9,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 0.5,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 180
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_016",
+      "alloy": {
+        "preparation": "Mechanical alloying: metal powders blended in the appropriate proportions by high-energy ball milling, then consolidated by spark-plasma sintering (DR.SINTER SPS-925). Nominal alloy formula: CoFeNi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -130
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_017",
+      "alloy": {
+        "preparation": "As-cast specimen as labelled in Figure 2; the exact production route is not uniquely identified for this unlabelled summary entry. Nominal alloy formula: (TiAl)0.7V0.15Fe0.1Ni0.05. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Ti",
+            "amount": null
+          },
+          {
+            "element_symbol": "Al",
+            "amount": null
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 0.15,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 0.1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 0.05,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Highly heterogeneous multiphase microstructure described for the as-cast specimen in Figure 2.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 263,
+        "plus_minus": 10
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Table 1 explicit value/printed uncertainty is primary. The paper does not identify the uncertainty as SD or SE. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents. These HEAs are described as Mo-free and C-free in the Table 1 comparison; this is not a full measured elemental analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_018",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: CoFeMnNi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Mn",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ni",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -245
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_019",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: TiAlCuFeSn. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cu",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Fe",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Sn",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -245
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_020",
+      "alloy": {
+        "preparation": "Arc melted under reduced argon on a water-cooled copper hearth, using 99.99 wt% pure metal chunks. Nominal alloy formula: AlTiVCrSi. Ground to 2000-grit SiC finish before electrochemical testing.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Ti",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "V",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Cr",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          },
+          {
+            "element_symbol": "Si",
+            "amount": {
+              "value": 1,
+              "unit": "nominal formula coefficient"
+            }
+          }
+        ],
+        "microstructure": "Highly heterogeneous multiphase microstructure described for the arc-melted/as-cast specimen in Figure 2.",
+        "material_class": "HEA"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization"
+        ],
+        "procedure_description": "Three-electrode flat cell: specimen working electrode, saturated calomel reference and platinum-mesh counter. OCP measured for 30 min for approximate stabilization; scanned from 150 mV below OCP to final 2.0 V SCE using a Biologic VMP under EC-Lab 10.02. At least four replicate tests conducted per alloy.",
+        "scan_rate": {
+          "value": 1,
+          "unit": "mV/s"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Authors’ reported Epit from the potentiodynamic response, distinct from Ecorr; no universal numerical current-density criterion for selecting Epit is specified."
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 11,
+        "plus_minus": 10
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Table 1 explicit value/printed uncertainty is primary. The paper does not identify the uncertainty as SD or SE. Composition amounts are nominal formula coefficients, not measured bulk at% or wt%; implicit unit coefficients retain the chemical notation. No normalized fractions or balance are calculated. Parenthesized group coefficients remain in the formula rather than being divided among constituents. These HEAs are described as Mo-free and C-free in the Table 1 comparison; this is not a full measured elemental analysis.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_021",
+      "alloy": {
+        "preparation": "Cited Mild steel comparison; no specimen preparation or full composition supplied here.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Figure 1 or Table 1, scoped to quiescent 0.6 M NaCl at 25 °C; current-study preparation, OCP hold and scan rate are not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -650
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Comparative category value attributed by the caption to earlier studies; no specific grade/individual alloy is supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_022",
+      "alloy": {
+        "preparation": "Cited Aluminium alloys comparison; no specimen preparation or full composition supplied here.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Figure 1 or Table 1, scoped to quiescent 0.6 M NaCl at 25 °C; current-study preparation, OCP hold and scan rate are not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": -885,
+        "min": -990,
+        "max": -780
+      },
+      "result_note": "Approximate graphical reading; Epit is distinct from the black-square Ecorr series. Comparative category value attributed by the caption to earlier studies; no specific grade/individual alloy is supplied.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_023",
+      "alloy": {
+        "preparation": "Cited 304L comparison; no specimen preparation or full composition supplied here.",
+        "composition": [],
+        "microstructure": "",
+        "material_class": "Fe Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Quiescent solution; no gas conditioning or pH reported.",
+        "solvent": "",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": null,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [],
+        "procedure_description": "Cited comparison in Figure 1 or Table 1, scoped to quiescent 0.6 M NaCl at 25 °C; current-study preparation, OCP hold and scan rate are not imported.",
+        "scan_rate": null,
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": ""
+      },
+      "pitting_potential": {
+        "unit": "mV (SCE)",
+        "value": 230
+      },
+      "result_note": "304L data explicitly attributed to Hsu et al. (19). This specific cited grade is distinct from the generic austenitic-steel comparison point in Figure 1.",
+      "failure_notes": ""
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+{
+  "paper_name": "55_M.E. Goldman, N. Ünlü, G.J. Shiflet, J.R. Scully, Electrochemical and Solid-State Letters, 8 (2005) B1-B5.pdf",
+  "reference_number": 55,
+  "inputs": {
+    "pdf": {
+      "filename": "55_M.E. Goldman, N. Ünlü, G.J. Shiflet, J.R. Scully, Electrochemical and Solid-State Letters, 8 (2005) B1-B5.pdf",
+      "sha256": "7b14e420ca9aa46a7dd8e8b42442d1574f696058c7efd80d171d399055b0513e"
+    },
+    "registry": {
+      "filename": "paper_55.json",
+      "sha256": "9a1dd8008b1bbbd17372a8fcd7c6376f791338bdfd51f5904021d288416cd2fb"
+    }
+  },
+  "schema_version": "1.0",
+  "experiments": [
+    {
+      "observation_id": "obs_001",
+      "alloy": {
+        "preparation": " Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 99.999,
+              "unit": "%"
+            }
+          }
+        ],
+        "microstructure": "Polycrystalline high-purity aluminum.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.701,
+        "plus_minus": 0.016
+      },
+      "result_note": "Source-reported mean ± printed uncertainty; statistical meaning of ± is not specified. Epit criterion is two orders of magnitude above ipass when the scan’s Epit is unclear; authors do not identify affected individual results.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_002",
+      "alloy": {
+        "preparation": "Ingots from >99.999% Al, >99.995% Co and >99.9% Ce; single-wheel melt spinning under helium at 52 m/s to ribbons approximately 20 µm thick and 2 mm wide. Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 90,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 7,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 3,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "As-spun amorphous alloy; possible nanoscale heterogeneity discussed as a limitation of conventional XRD.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.214,
+        "plus_minus": 0.02
+      },
+      "result_note": "Source-reported mean ± printed uncertainty; statistical meaning of ± is not specified. Epit criterion is two orders of magnitude above ipass when the scan’s Epit is unclear; authors do not identify affected individual results.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_003",
+      "alloy": {
+        "preparation": "Ingots from >99.999% Al, >99.995% Co and >99.9% Ce; single-wheel melt spinning under helium at 52 m/s to ribbons approximately 20 µm thick and 2 mm wide. Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 8.7,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 4.3,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "As-spun amorphous alloy; possible nanoscale heterogeneity discussed as a limitation of conventional XRD.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.218,
+        "plus_minus": 0.028
+      },
+      "result_note": "Source-reported mean ± printed uncertainty; statistical meaning of ± is not specified. Epit criterion is two orders of magnitude above ipass when the scan’s Epit is unclear; authors do not identify affected individual results.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_004",
+      "alloy": {
+        "preparation": "Ingots from >99.999% Al, >99.995% Co and >99.9% Ce; single-wheel melt spinning under helium at 52 m/s to ribbons approximately 20 µm thick and 2 mm wide. Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 7,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 6,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "As-spun amorphous alloy; possible nanoscale heterogeneity discussed as a limitation of conventional XRD.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.252,
+        "plus_minus": 0.026
+      },
+      "result_note": "Source-reported mean ± printed uncertainty; statistical meaning of ± is not specified. Epit criterion is two orders of magnitude above ipass when the scan’s Epit is unclear; authors do not identify affected individual results. Table 2 labels the amorphous and fully crystalline states as copied; Figure 9 curve labeling appears opposite to their relative pitting transitions. The table anchor and state assignment are preserved with this source inconsistency explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_005",
+      "alloy": {
+        "preparation": "Ingots from >99.999% Al, >99.995% Co and >99.9% Ce; single-wheel melt spinning under helium at 52 m/s to ribbons approximately 20 µm thick and 2 mm wide. Exposed at 550°C for 24 h to induce complete recrystallization; unencapsulated, thermal oxide removed by polishing. Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 7,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 6,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "Fully crystalline following 550°C treatment.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.674,
+        "plus_minus": 0.055
+      },
+      "result_note": "Source-reported mean ± printed uncertainty; statistical meaning of ± is not specified. Epit criterion is two orders of magnitude above ipass when the scan’s Epit is unclear; authors do not identify affected individual results. Table 2 labels the amorphous and fully crystalline states as copied; Figure 9 curve labeling appears opposite to their relative pitting transitions. The table anchor and state assignment are preserved with this source inconsistency explicit.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_006",
+      "alloy": {
+        "preparation": "Ingots from >99.999% Al, >99.995% Co and >99.9% Ce; single-wheel melt spinning under helium at 52 m/s to ribbons approximately 20 µm thick and 2 mm wide. Artificially aged at 100°C for 1 h; thermal oxide removed by polishing. Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 7,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 6,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "Initially amorphous; low-temperature treatment produces structural relaxation and/or partial devitrification with isolated nanocrystals. The paper reports aluminum nanocrystals after the 100-h treatment.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.25,
+        "min": -0.27,
+        "max": -0.23
+      },
+      "result_note": "Average with graphical vertical endpoints; error-bar statistic is not explicitly defined. This is separate from the fully crystalline 550°C comparison. The 100°C coordinate is an aging temperature, while electrochemical testing is at 25°C. Figure 2 caption identifies Al87Co8.7Ce4.3 for its XRD series, whereas the aging-methods text identifies Al87Co7Ce6; no more specific phase fraction is inferred for the Figure 8 alloy.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_007",
+      "alloy": {
+        "preparation": "Ingots from >99.999% Al, >99.995% Co and >99.9% Ce; single-wheel melt spinning under helium at 52 m/s to ribbons approximately 20 µm thick and 2 mm wide. Artificially aged at 100°C for 10 h; thermal oxide removed by polishing. Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 7,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 6,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "Initially amorphous; low-temperature treatment produces structural relaxation and/or partial devitrification with isolated nanocrystals. The paper reports aluminum nanocrystals after the 100-h treatment.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.21,
+        "min": -0.25,
+        "max": -0.175
+      },
+      "result_note": "Average with graphical vertical endpoints; error-bar statistic is not explicitly defined. This is separate from the fully crystalline 550°C comparison. The 100°C coordinate is an aging temperature, while electrochemical testing is at 25°C. Figure 2 caption identifies Al87Co8.7Ce4.3 for its XRD series, whereas the aging-methods text identifies Al87Co7Ce6; no more specific phase fraction is inferred for the Figure 8 alloy.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_008",
+      "alloy": {
+        "preparation": "Ingots from >99.999% Al, >99.995% Co and >99.9% Ce; single-wheel melt spinning under helium at 52 m/s to ribbons approximately 20 µm thick and 2 mm wide. Artificially aged at 100°C for 100 h; thermal oxide removed by polishing. Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 7,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 6,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "Initially amorphous; low-temperature treatment produces structural relaxation and/or partial devitrification with isolated nanocrystals. The paper reports aluminum nanocrystals after the 100-h treatment.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.115,
+        "min": -0.195,
+        "max": -0.03
+      },
+      "result_note": "Average with graphical vertical endpoints; error-bar statistic is not explicitly defined. This is separate from the fully crystalline 550°C comparison. The 100°C coordinate is an aging temperature, while electrochemical testing is at 25°C. Figure 2 caption identifies Al87Co8.7Ce4.3 for its XRD series, whereas the aging-methods text identifies Al87Co7Ce6; no more specific phase fraction is inferred for the Figure 8 alloy.",
+      "failure_notes": ""
+    },
+    {
+      "observation_id": "obs_009",
+      "alloy": {
+        "preparation": "Ingots from >99.999% Al, >99.995% Co and >99.9% Ce; single-wheel melt spinning under helium at 52 m/s to ribbons approximately 20 µm thick and 2 mm wide. Artificially aged at 100°C for 1000 h; thermal oxide removed by polishing. Mounted on end in low-viscosity epoxy (28°C curing), approximately 10⁻⁴ cm² cross-section exposed; wet-polished through 1200-grit SiC, finished with 1-µm alumina, then rinsed in deionized water.",
+        "composition": [
+          {
+            "element_symbol": "Al",
+            "amount": {
+              "value": 87,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Co",
+            "amount": {
+              "value": 7,
+              "unit": "at%"
+            }
+          },
+          {
+            "element_symbol": "Ce",
+            "amount": {
+              "value": 6,
+              "unit": "at%"
+            }
+          }
+        ],
+        "microstructure": "Initially amorphous; low-temperature treatment produces structural relaxation and/or partial devitrification with isolated nanocrystals. The paper reports aluminum nanocrystals after the 100-h treatment.",
+        "material_class": "Al Alloy"
+      },
+      "test_temperature": {
+        "value": 25,
+        "unit": "°C"
+      },
+      "test_solution": {
+        "preparation": "Deionized water and ACS-certified reagents; nitrogen-purged. pH adjusted using 1 M NaOH or 1 M HCl as necessary.",
+        "solvent": "deionized water",
+        "composition": [
+          {
+            "solute": "NaCl",
+            "amount": {
+              "value": 0.6,
+              "unit": "M"
+            }
+          }
+        ],
+        "ph": 6,
+        "chloride_concentration": null
+      },
+      "test_method": {
+        "test_types": [
+          "potentiodynamic polarization",
+          "cyclic polarization"
+        ],
+        "procedure_description": "One hour at open circuit in 25°C nitrogen-purged solution, then scan beginning at −0.1 V relative to OCP; scan anodically and reverse at 1000 µA/cm². PAR 273A, platinum-mesh counter and SCE reference; 10–20 scans per composition for statistical summaries.",
+        "scan_rate": {
+          "value": 0.1,
+          "unit": "mV/sec"
+        },
+        "potential_step": null,
+        "step_hold_duration": null,
+        "pitting_criterion": "Epit from the anodic transition; when unclear, potential at a current density two orders of magnitude above ipass. Reverse scan threshold defines a separate Erp."
+      },
+      "pitting_potential": {
+        "unit": "V (SCE)",
+        "value": -0.17,
+        "min": -0.29,
+        "max": -0.045
+      },
+      "result_note": "Average with graphical vertical endpoints; error-bar statistic is not explicitly defined. This is separate from the fully crystalline 550°C comparison. The 100°C coordinate is an aging temperature, while electrochemical testing is at 25°C. Figure 2 caption identifies Al87Co8.7Ce4.3 for its XRD series, whereas the aging-methods text identifies Al87Co7Ce6; no more specific phase fraction is inferred for the Figure 8 alloy.",
+      "failure_notes": ""
+    }
+  ]
+}
