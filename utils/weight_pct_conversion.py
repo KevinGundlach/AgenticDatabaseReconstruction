@@ -1,6 +1,7 @@
 """Convert an Alloy to element -> weight percent without modifying the input.
 
-to_weight_percent preserves indeterminate listed elements as None.
+to_weight_percent preserves indeterminate listed elements as None, with options
+to retain explicit 'balance' markers and interpret bare '%' as weight percent.
 to_weight_percent_strict requires a complete composition and raises a categorized
 InvalidAlloyCompositionError. Both use central values only; neither interprets
 bounds as points. Nominal ratios remain nominal after conversion.
@@ -11,7 +12,7 @@ import math
 from enum import StrEnum
 
 from models.observation_enrichment import Alloy, Measurement
-from typing import List
+from typing import List, Literal
 
 
 class AlloyCompositionErrorReason(StrEnum):
@@ -205,7 +206,12 @@ def to_weight_percent_strict(alloy: Alloy) -> dict[str, float]:
     return {element: 100 * mass / total_mass for element, mass in masses.items()}
 
 
-def to_weight_percent(alloy: Alloy) -> dict[str, float | None]:
+def to_weight_percent(
+    alloy: Alloy,
+    *,
+    calculate_balance: bool = True,
+    assume_percent_is_weight: bool = False,
+) -> dict[str, float | Literal["balance"] | None]:
     """Return known weight percentages and None for indeterminate listed elements.
 
     Complete compositions use the strict converter, including atomic conversion
@@ -213,39 +219,59 @@ def to_weight_percent(alloy: Alloy) -> dict[str, float | None]:
     values without rescaling or requiring a total of 100. An explicit balance
     can still be resolved when every other listed amount is known in wt%.
 
-    Missing/bounds-only amounts, ambiguous units (including bare % and ppm),
+    Set calculate_balance=False to retain explicit 'balance' markers in the
+    returned dictionary, even when the remainder cannot be determined. Atomic
+    conversion still uses a resolvable balance internally to convert the other
+    elements; the returned marker identifies the balance-derived entry.
+
+    Set assume_percent_is_weight=True to interpret a unit of exactly '%' (after
+    stripping whitespace) as wt%. Other ambiguous units remain unsupported.
+    This interpretation is applied to a copy; the input and strict converter
+    are unchanged. Missing amounts are never inferred to be balance entries.
+
+    By default, missing/bounds-only amounts, ambiguous units (including % and ppm),
     invalid values/symbols, and duplicate elements remain None. Atomic values
     require a complete, consistent composition; they cannot be converted one
     element at a time. Unlisted elements are not added or treated as zero.
     """
-    try:
-        return to_weight_percent_strict(alloy)
-    except InvalidAlloyCompositionError:
-        pass
+    if assume_percent_is_weight:
+        alloy = alloy.model_copy(deep=True)
+        for component in alloy.composition:
+            if isinstance(component.amount, Measurement) and component.amount.unit.strip() == "%":
+                component.amount.unit = "wt%"
 
-    result = {component.element_symbol: None for component in alloy.composition}
     counts = Counter(component.element_symbol for component in alloy.composition)
-    for component in alloy.composition:
-        element = component.element_symbol
-        amount = component.amount
-        if element not in ATOMIC_WEIGHTS or counts[element] > 1:
-            continue
-        if (isinstance(amount, Measurement)
-                and amount.value is not None
-                and math.isfinite(amount.value)
-                and 0 <= amount.value <= 100
-                and amount.unit.strip() in WEIGHT_PERCENT_UNITS):
-            result[element] = amount.value
+    try:
+        result = to_weight_percent_strict(alloy)
+    except InvalidAlloyCompositionError:
+        result = {component.element_symbol: None for component in alloy.composition}
+        for component in alloy.composition:
+            element = component.element_symbol
+            amount = component.amount
+            if element not in ATOMIC_WEIGHTS or counts[element] > 1:
+                continue
+            if (isinstance(amount, Measurement)
+                    and amount.value is not None
+                    and math.isfinite(amount.value)
+                    and 0 <= amount.value <= 100
+                    and amount.unit.strip() in WEIGHT_PERCENT_UNITS):
+                result[element] = amount.value
 
-    balances = [c.element_symbol for c in alloy.composition if c.amount == "balance"]
-    if len(balances) == 1:
-        element = balances[0]
-        others = [value for symbol, value in result.items() if symbol != element]
-        if (element in ATOMIC_WEIGHTS and counts[element] == 1
-                and others and all(value is not None for value in others)):
-            remainder = 100 - sum(others)
-            if 0 <= remainder <= 100:
-                result[element] = remainder
+        balances = [c.element_symbol for c in alloy.composition if c.amount == "balance"]
+        if calculate_balance and len(balances) == 1:
+            element = balances[0]
+            others = [value for symbol, value in result.items() if symbol != element]
+            if (element in ATOMIC_WEIGHTS and counts[element] == 1
+                    and others and all(value is not None for value in others)):
+                remainder = 100 - sum(others)
+                if 0 <= remainder <= 100:
+                    result[element] = remainder
+
+    if not calculate_balance:
+        for component in alloy.composition:
+            element = component.element_symbol
+            if component.amount == "balance" and element in ATOMIC_WEIGHTS and counts[element] == 1:
+                result[element] = "balance"
     return result
 
 

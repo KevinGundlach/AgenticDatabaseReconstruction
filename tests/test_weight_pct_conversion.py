@@ -190,6 +190,90 @@ class PermissiveWeightPercentConversionTests(unittest.TestCase):
             with self.subTest(unit=unit):
                 self.assertEqual(to_weight_percent(alloy(("Fe", amount(100, unit)))), {"Fe": None})
 
+    def test_percent_assumption_is_opt_in_for_complete_and_partial_compositions(self):
+        source = alloy(("Fe", amount(80, "%")), ("Cr", amount(20, " % ")))
+        self.assertEqual(to_weight_percent(source), {"Fe": None, "Cr": None})
+        self.assertEqual(to_weight_percent(source, assume_percent_is_weight=True), {"Fe": 80, "Cr": 20})
+        partial = alloy(("Fe", None), ("Cr", amount(18, "%")), ("Ni", amount(10, "wt%")))
+        self.assertEqual(to_weight_percent(partial, assume_percent_is_weight=True),
+                         {"Fe": None, "Cr": 18, "Ni": 10})
+
+    def test_percent_assumption_does_not_reinterpret_other_units_or_bounds(self):
+        for unit in ("", "pct", "nominal %", "ppm", "% (purity)", "% (foil purity)"):
+            with self.subTest(unit=unit):
+                self.assertEqual(to_weight_percent(alloy(("Fe", amount(100, unit))),
+                                                   assume_percent_is_weight=True), {"Fe": None})
+        bounded = alloy(("Fe", None), ("Cr", {"min": 18, "max": 20, "unit": "%"}))
+        self.assertEqual(to_weight_percent(bounded, assume_percent_is_weight=True),
+                         {"Fe": None, "Cr": None})
+
+    def test_balance_markers_can_be_preserved_when_resolvable_or_unknown(self):
+        cases = [
+            (alloy(("Fe", "balance"), ("Cr", amount(20, "wt%"))), {"Fe": "balance", "Cr": 20}),
+            (alloy(("Fe", "balance"), ("Cr", amount(20, "wt%")), ("Ni", None)),
+             {"Fe": "balance", "Cr": 20, "Ni": None}),
+            (alloy(("Fe", "balance")), {"Fe": "balance"}),
+            (alloy(("Fe", "balance"), ("Cr", "balance"), ("Ni", amount(20, "wt%"))),
+             {"Fe": "balance", "Cr": "balance", "Ni": 20}),
+            (alloy(("Fe", "balance"), ("Cr", amount(60, "wt%")), ("Ni", amount(50, "wt%"))),
+             {"Fe": "balance", "Cr": 60, "Ni": 50}),
+        ]
+        for source, expected in cases:
+            with self.subTest(source=source):
+                self.assertEqual(to_weight_percent(source, calculate_balance=False), expected)
+
+    def test_atomic_conversion_uses_balance_internally_but_preserves_output_marker(self):
+        source = alloy(("Fe", "balance"), ("Cr", amount(20, "at%")))
+        expected = to_weight_percent_strict(source)
+        actual = to_weight_percent(source, calculate_balance=False)
+        self.assertEqual(actual, {"Fe": "balance", "Cr": expected["Cr"]})
+        incomplete = alloy(("Fe", "balance"), ("Cr", amount(20, "at%")), ("Ni", None))
+        self.assertEqual(to_weight_percent(incomplete, calculate_balance=False),
+                         {"Fe": "balance", "Cr": None, "Ni": None})
+
+    def test_balance_and_percent_options_work_independently(self):
+        source = alloy(("Fe", "balance"), ("Cr", amount(20, "%")))
+        for calculate, assume, expected in [
+            (True, False, {"Fe": None, "Cr": None}),
+            (False, False, {"Fe": "balance", "Cr": None}),
+            (True, True, {"Fe": 80, "Cr": 20}),
+            (False, True, {"Fe": "balance", "Cr": 20}),
+        ]:
+            with self.subTest(calculate_balance=calculate, assume_percent_is_weight=assume):
+                self.assertEqual(to_weight_percent(source, calculate_balance=calculate,
+                                                   assume_percent_is_weight=assume), expected)
+
+    def test_options_preserve_existing_atomic_and_ratio_conversion(self):
+        for unit, value in [("at%", 50), ("nominal formula coefficient", 1)]:
+            source = alloy(("Fe", amount(value, unit)), ("Cr", amount(value, unit)))
+            with self.subTest(unit=unit):
+                self.assertEqual(to_weight_percent(source, calculate_balance=False,
+                                                   assume_percent_is_weight=True),
+                                 to_weight_percent_strict(source))
+
+    def test_options_do_not_make_invalid_or_missing_amounts_known(self):
+        source = alloy(("Fe", None), ("Cr", amount(101, "%")), ("Ni", amount(-1, "%")),
+                       ("Unknown", "balance"), ("Co", "balance"), ("Co", amount(1, "%")))
+        self.assertEqual(to_weight_percent(source, calculate_balance=False,
+                                           assume_percent_is_weight=True),
+                         {"Fe": None, "Cr": None, "Ni": None, "Unknown": None, "Co": None})
+
+    def test_options_leave_input_units_and_strict_conversion_unchanged(self):
+        source = alloy(("Fe", "balance"), ("Cr", amount(20, "%", min=19, max=21, plus_minus=1)))
+        snapshot = source.model_dump()
+        units_before = WEIGHT_PERCENT_UNITS.copy()
+        for calculate in (False, True):
+            with self.subTest(calculate_balance=calculate):
+                result = to_weight_percent(source, calculate_balance=calculate,
+                                           assume_percent_is_weight=True)
+                result["Cr"] = -1
+                self.assertEqual(source.model_dump(), snapshot)
+        self.assertEqual(WEIGHT_PERCENT_UNITS, units_before)
+        self.assertEqual(to_weight_percent(source), {"Fe": None, "Cr": None})
+        with self.assertRaises(InvalidAlloyCompositionError) as caught:
+            to_weight_percent_strict(source)
+        self.assertIs(caught.exception.reason, AlloyCompositionErrorReason.UNSUPPORTED_UNIT)
+
     def test_complete_atomic_compositions_and_ratios_still_convert(self):
         for unit, value in [("at%", 50), ("nominal formula coefficient", 1)]:
             source = alloy(("Fe", amount(value, unit)), ("Cr", amount(value, unit)))
