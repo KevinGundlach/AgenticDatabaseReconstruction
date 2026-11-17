@@ -1,9 +1,8 @@
-
-
+import reporting.database_reports as rep 
 
 def main():
-
-    pass
+    
+    rep.print_additional_stats()
 
 
 

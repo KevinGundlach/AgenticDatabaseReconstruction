@@ -11,6 +11,9 @@ from utils.weight_pct_conversion import get_alloy_units, to_weight_percent_stric
 from collections import Counter
 import utils.weight_pct_conversion as wpc
 
+import re 
+import os 
+
 
 
 def load_enriched_observations() -> List[ObservationEnrichment]:
@@ -302,3 +305,158 @@ def print_unit_breakdown():
         print(f"{value}: {count}")
 
 
+
+
+def get_known_papers():
+    
+    papers = os.listdir("papers") 
+    
+    reference_numbers = set(
+        int(re.match(r"(\d+)_", p).groups()[0]) for p in papers
+    )
+    
+    return sorted(reference_numbers)
+
+    
+def print_additional_stats():
+    
+    enriched_documents = load_enriched_observations()
+    aligned_documents = load_aligned_observations()
+    cra_records = load_cra_records()
+    enriched_experiments = [exp for doc in enriched_documents for exp in doc.experiments]
+
+    obsid_to_row = {}
+    row_to_obsid = {} 
+
+    for doc in aligned_documents:
+        for obs in doc.observations:
+            for match in obs.matches:
+
+                if obs.observation_id not in obsid_to_row:
+                    obsid_to_row[obs.observation_id] = []
+                
+                if match.citrine_no not in row_to_obsid:
+                    row_to_obsid[match.citrine_no] = []
+
+                obsid_to_row[obs.observation_id].append(match.citrine_no)
+                row_to_obsid[match.citrine_no].append(obs.observation_id)
+
+    papers_in_corpus = get_known_papers()
+
+    cra_papers = set(row['Reference'] for row in cra_records)
+    
+    enrichment_papers = set(
+        doc.reference_number 
+        for doc in enriched_documents
+        if len(doc.experiments) >= 1
+    )
+
+    # 810
+    print("Total Number Of CRA Rows:", len(cra_records))
+    
+    # 2176
+    print("Total Number Of Enriched Observations:", len(enriched_experiments))
+
+    # 850
+    print("Total Number Of Matched Enriched Observations:", len(obsid_to_row))
+    
+    # 667
+    print("Total Number Of Matched CRA Records:", len(row_to_obsid))    
+
+    # 35
+    print("Total Number of CRA Records From Missing Papers:", len(
+        [1 for row in cra_records if row['Reference'] not in papers_in_corpus]
+    ))
+
+    # 143
+    print("Total Number Of Unmatched CRA Records:", len([
+        1 for row in cra_records if row['No.'] not in row_to_obsid
+    ]))
+
+    # 108
+    print("Total Number of Unmatched CRA Records From Corpus:", len([
+        1 for row in cra_records 
+        if row['No.'] not in row_to_obsid 
+        and row['Reference'] in papers_in_corpus
+    ]))
+
+    # 3
+    print("Number Of Papers (In Corpus) With CRA Records But No Registered Observations:", len(set(
+        row['Reference'] for row in cra_records
+        if row['Reference'] not in enrichment_papers
+        and row['Reference'] in papers_in_corpus
+    )))
+
+    # [10, 33, 77]
+    print("    These papers are:", sorted(set(
+        row['Reference'] for row in cra_records
+        if row['Reference'] not in enrichment_papers
+        and row['Reference'] in papers_in_corpus
+    )))
+
+    # 8
+    print("Number Of CRA Records From Papers (In Corpus) With No Registered Observations:", len([
+        row for row in cra_records 
+        if row['Reference'] not in enrichment_papers
+        and row['Reference'] in papers_in_corpus
+    ]))
+
+
+    # I also need to figure out which CRA rows are matched with multiple observation IDs,
+    # and which observation IDs are matched to multiple CRA rows.
+    # Then I can more closely investigate what's going on.
+
+    # 22
+    print("Number of Enriched Observations With Multiple CRA Matches:", len([
+        obsid for obsid in obsid_to_row
+        if len(obsid_to_row[obsid]) > 1
+    ]))
+
+    # [
+    #       '71-obs_001', '71-obs_003', '71-obs_005', '71-obs_007', '71-obs_009', 
+    #       '71-obs_011', '71-obs_013', '71-obs_015', '71-obs_017', '71-obs_019', 
+    #       '71-obs_021', '71-obs_023', '71-obs_025', '71-obs_027', '71-obs_029', 
+    #       '71-obs_031', '71-obs_033', '71-obs_035', '71-obs_037', 
+    # 
+    #       '73-obs_001', '73-obs_004', '73-obs_005'
+    # ]
+
+    print("    These Observations Are:", sorted([
+        obsid for obsid in obsid_to_row
+        if len(obsid_to_row[obsid]) > 1
+    ]))
+
+    # 45
+    print("Number of CRA Records With Multiple Observation Matches:", len([
+        rownum for rownum in row_to_obsid
+        if len(row_to_obsid[rownum]) > 1        
+    ]))
+
+
+    # Prefixed by paper number:
+    #
+    # [
+    #   '1-333', 
+    #   '2-402', 
+    #   '3-430', '3-446', 
+
+    #   '37-105', '37-106', '37-107', '37-108', '37-109', 
+    #   '37-110', '37-111', '37-112', '37-113', '37-114', 
+    #   '37-115', '37-116', '37-117', '37-118', '37-119', 
+    #   '37-120', 
+    
+    #   '39-797', 
+    #   '41-142', '41-143', '41-144', '41-145', '41-146', '41-147', 
+    #   '56-700', '56-701', '56-702', '56-703', '56-705', '56-707', 
+    #   '6-458', '6-460', '6-461', '6-462', '6-463', '6-464', '6-465', '6-466', '6-467', 
+    #   '67-551', 
+    #   '8-470', '8-474'
+    # ]
+
+    print("    These Records Are:", sorted([
+
+        f'{row['Reference']}-{row['No.']}' 
+        for row in cra_records 
+        if row['No.'] in row_to_obsid
+        and len(row_to_obsid[row['No.']]) > 1
+    ]))
