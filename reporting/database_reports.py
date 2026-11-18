@@ -454,9 +454,25 @@ def print_additional_stats():
     # ]
 
     print("    These Records Are:", sorted([
-
         f'{row['Reference']}-{row['No.']}' 
         for row in cra_records 
         if row['No.'] in row_to_obsid
         and len(row_to_obsid[row['No.']]) > 1
     ]))
+
+
+    one_to_one_obsids = []
+
+    for obsid in obsid_to_row:
+        if len(obsid_to_row[obsid]) == 1:
+            rownum = obsid_to_row[obsid][0]
+            if len(row_to_obsid[rownum]) == 1:
+                one_to_one_obsids.append(obsid) 
+
+    # Oh dear... this isn't good. Only 577?
+    print("Number of 1-to-1 Experiment / CRA Row Matchings:", len(one_to_one_obsids))
+    
+    
+
+    # Let's begin with something simple. I created the file "reporting/benchmark_plots.py". Write for me a function that generates/saves a matplotlib histogram featuring the number of "gaps" for each matched experiment. That is, the X axis represents the number of gaps, and each bar represents the number of experiments in that bin.  For now, filter out the experiments which are matched to multiple CRA rows, or where multiple experiments are matched to the same CRA row. 
+
