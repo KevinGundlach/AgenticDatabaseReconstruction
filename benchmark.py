@@ -28,6 +28,11 @@ Default numerical tolerance is rounding only (1e-6 absolute and relative).
 {"alloy": 0.01, "pitting_potential": 5}. Units are wt percentage points, mV(SCE),
 degrees C, mol/L for chloride, and pH units. Solution amounts use mol/L when
 convertible, otherwise their common reported basis (wt%, %, ppm, N or mol/kg).
+``relative_tolerance=0.01`` instead uses 1% of the CRA value's magnitude,
+after unit conversion. The allowed difference is the larger of that amount
+and the absolute tolerance; zero targets therefore retain the absolute
+allowance. Each range endpoint uses its own CRA value. Omit this option to
+keep the original rounding-only comparison unchanged.
 Neither uncertainty bars nor CRA disagreement determine a tolerance. The caller
 must select digitization allowances: EnrichedExperiment has no reading_method.
 
@@ -138,6 +143,7 @@ def benchmark_experiment(
     calculate_balance: bool = False,
     assume_percent_is_weight: bool = False,
     tolerances: dict[str, float] | None = None,
+    relative_tolerance: float | None = None,
 ) -> BenchmarkResult:
     """Return field-level gaps and explicit exclusions for one supported link.
 
@@ -148,7 +154,18 @@ def benchmark_experiment(
     ``compared`` counts comparison opportunities, including those with gaps.
     Multiple CRA links must be evaluated separately; this function does not pick
     the best row or deduplicate repeated observations/reference records.
+
+    relative_tolerance is a fraction of abs(CRA value), e.g. 0.01 for 1%.
+    It combines with absolute tolerances using the larger allowance and
+    affects numerical agreement only, not missing values, conversions or skips.
     """
+    if relative_tolerance is not None and (
+        isinstance(relative_tolerance, bool)
+        or not isinstance(relative_tolerance, (int, float))
+        or not math.isfinite(relative_tolerance)
+        or relative_tolerance < 0
+    ):
+        raise ValueError("relative_tolerance must be finite and nonnegative")
     margins = dict(tolerances or {})
     groups = {"alloy", "test_solution", "pitting_potential", "test_temperature",
               "chloride_concentration", "ph"}
@@ -181,9 +198,19 @@ def benchmark_experiment(
             return
         result.compared += 1
         tolerance = margins.get(name, margins.get(name.split(".")[0], 1e-6))
-        differences = [f"{p}: {getattr(actual, p):g} versus CRA {getattr(target, p):g}"
-                       for p in parts if not math.isclose(getattr(actual, p), getattr(target, p),
-                                                         rel_tol=1e-6, abs_tol=tolerance)]
+        differences = []
+        for part in parts:
+            observed, expected = getattr(actual, part), getattr(target, part)
+            if relative_tolerance is None:
+                agrees = math.isclose(observed, expected, rel_tol=1e-6, abs_tol=tolerance)
+            else:
+                allowance = max(tolerance, relative_tolerance * abs(expected))
+                difference = abs(observed - expected)
+                # Include exact boundaries despite floating-point subtraction.
+                agrees = difference <= allowance or math.isclose(
+                    difference, allowance, rel_tol=1e-12, abs_tol=0)
+            if not agrees:
+                differences.append(f"{part}: {observed:g} versus CRA {expected:g}")
         if differences:
             result.gaps[name] = "mismatch: " + "; ".join(differences) + f" ({target.unit})"
 

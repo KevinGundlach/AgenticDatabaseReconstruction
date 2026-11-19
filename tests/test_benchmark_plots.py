@@ -106,19 +106,21 @@ class BenchmarkPlotTests(unittest.TestCase):
             captured.update(centres=[bar.get_x() + bar.get_width() / 2 for bar in axes.patches],
                             heights=[bar.get_height() for bar in axes.patches],
                             ticks=list(axes.get_xticks()), xlabel=axes.get_xlabel(),
-                            ylabel=axes.get_ylabel())
+                            ylabel=axes.get_ylabel(), caption=figure._supxlabel.get_text())
             save(figure, destination, **kwargs)
 
         with patch.object(Figure, "savefig", new=inspect_and_save):
-            counts = plot_gap_count_bars(self.destination, tolerances={"ph": 0.1})
+            counts = plot_gap_count_bars(self.destination, tolerances={"ph": 0.1}, relative_tolerance=0.01)
         self.assertEqual(counts, {0: 1, 1: 0, 2: 2})
         self.assertEqual(captured, {"centres": [0, 1, 2], "heights": [1, 0, 2],
                                     "ticks": [0, 1, 2], "xlabel": "Number of gaps",
-                                    "ylabel": "Number of experiments"})
+                                    "ylabel": "Number of experiments",
+                                    "caption": "Tolerance: 1% of |CRA value|; absolute tolerances retained.\n"
+                                               "Unscored comparisons are excluded from gap counts."})
         self.assertEqual(self.score.call_count, 3)
         self.assertIs(self.score.call_args_list[0].args[0], self.enriched[0].experiments[0])
         self.assertIs(self.score.call_args_list[2].args[0], self.enriched[1].experiments[0])
-        self.assertTrue(all(call.kwargs == {"tolerances": {"ph": 0.1}}
+        self.assertTrue(all(call.kwargs == {"tolerances": {"ph": 0.1}, "relative_tolerance": 0.01}
                             for call in self.score.call_args_list))
         with Image.open(self.destination) as image:
             self.assertEqual(image.format, "PNG")
@@ -176,20 +178,23 @@ class BenchmarkPlotTests(unittest.TestCase):
             captured.update(labels=[tick.get_text() for tick in axes.get_yticklabels()],
                             widths=[bar.get_width() for bar in axes.patches],
                             xlabel=axes.get_xlabel(), ylabel=axes.get_ylabel(),
-                            highest_first=axes.yaxis_inverted())
+                            highest_first=axes.yaxis_inverted(), caption=figure._supxlabel.get_text())
             save(figure, destination, **kwargs)
 
         with patch("reporting.benchmark_plots.benchmark_experiment", side_effect=lambda exp, row, **kw:
                    Object(gaps=gaps[row["No."]], skipped={"alloy.Ni": "unscored"})) as score:
             with patch.object(Figure, "savefig", new=inspect_and_save):
-                counts = plot_gaps_by_field(self.destination, tolerances={"ph": 0.1})
+                counts = plot_gaps_by_field(self.destination, tolerances={"ph": 0.1}, relative_tolerance=0.01)
         self.assertEqual(list(counts.items()), [("alloy.Cr", 2), ("ph", 2), ("test_solution.NaCl", 1)])
         self.assertEqual(captured, {"labels": list(counts), "widths": [2, 2, 1],
-                                    "xlabel": "Number of gaps", "ylabel": "Field", "highest_first": True})
+                                    "xlabel": "Number of gaps", "ylabel": "Field", "highest_first": True,
+                                    "caption": "Tolerance: 1% of |CRA value|; absolute tolerances retained.\n"
+                                               "Unscored comparisons are excluded; zero gaps do not imply full coverage."})
         self.assertEqual(score.call_count, 3)
         self.assertIs(score.call_args_list[0].args[0], self.enriched[0].experiments[0])
         self.assertIs(score.call_args_list[2].args[0], self.enriched[1].experiments[0])
-        self.assertTrue(all(call.kwargs == {"tolerances": {"ph": 0.1}} for call in score.call_args_list))
+        self.assertTrue(all(call.kwargs == {"tolerances": {"ph": 0.1}, "relative_tolerance": 0.01}
+                            for call in score.call_args_list))
         self.assertNotIn("alloy.Ni", counts)
         self.score.assert_not_called()
         with Image.open(self.destination) as image:

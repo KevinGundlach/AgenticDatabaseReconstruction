@@ -59,6 +59,13 @@ def _one_to_one_pairs():
     return pairs
 
 
+def _relative_tolerance_note(options):
+    relative = options.get("relative_tolerance")
+    if relative is None:
+        return ""
+    return f"Tolerance: {100 * relative:g}% of |CRA value|; absolute tolerances retained.\n"
+
+
 def plot_gap_histogram(
     output_path: str | Path = "plots/gap_histogram.png",
     **benchmark_options,
@@ -93,7 +100,8 @@ def plot_gap_histogram(
     axes.yaxis.set_major_locator(MaxNLocator(integer=True))
     axes.set_axisbelow(True)
     axes.grid(axis="y", alpha=0.2)
-    figure.supxlabel("Unscored comparisons are excluded from gap counts.", fontsize=9)
+    figure.supxlabel(_relative_tolerance_note(benchmark_options)
+                     + "Unscored comparisons are excluded from gap counts.", fontsize=9)
 
     destination = Path(output_path)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -107,7 +115,8 @@ def plot_gap_count_bars(
 ) -> dict[int, int]:
     """Save one vertical bar per integer gap count; return count -> experiments.
 
-    Use the same one-to-one cohort and scoring options as plot_gap_histogram.
+    Use the same one-to-one cohort and scoring options as plot_gap_histogram,
+    including relative_tolerance=0.01 for 1% of each CRA value's magnitude.
     Include every integer from zero to the observed maximum, even when no
     experiments have that gap count. The maximum is not fixed at 14.
     Run from the project root; create parent directories and replace the
@@ -130,7 +139,8 @@ def plot_gap_count_bars(
     axes.margins(y=0.12)
     axes.set_axisbelow(True)
     axes.grid(axis="y", alpha=0.2)
-    figure.supxlabel("Unscored comparisons are excluded from gap counts.", fontsize=9)
+    figure.supxlabel(_relative_tolerance_note(benchmark_options)
+                     + "Unscored comparisons are excluded from gap counts.", fontsize=9)
 
     destination = Path(output_path)
     destination.parent.mkdir(parents=True, exist_ok=True)
@@ -150,6 +160,7 @@ def plot_gaps_by_field(
     Sort by decreasing count, with alphabetical ties; retain zero-gap reference
     fields. A zero is not evidence of agreement if comparisons were unscored.
     Skipped/unscored comparisons are not gaps. Run from the project root.
+    Pass relative_tolerance=0.01 for 1% of each CRA value's magnitude.
     Create parent directories and replace the specified image on rerun.
     """
     pairs = _one_to_one_pairs()
@@ -193,7 +204,8 @@ def plot_gaps_by_field(
     else:
         axes.set_yticks([])
         axes.text(0.5, 0.5, "No gaps found", transform=axes.transAxes, ha="center", va="center")
-    figure.supxlabel("Unscored comparisons are excluded; zero gaps do not imply full coverage.", fontsize=9)
+    figure.supxlabel(_relative_tolerance_note(benchmark_options)
+                     + "Unscored comparisons are excluded; zero gaps do not imply full coverage.", fontsize=9)
 
     destination = Path(output_path)
     destination.parent.mkdir(parents=True, exist_ok=True)

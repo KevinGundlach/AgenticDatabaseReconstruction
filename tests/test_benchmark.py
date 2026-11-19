@@ -172,6 +172,82 @@ class BenchmarkTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             count_gaps(experiment, cra, tolerances={"typo": 1})
 
+    def test_relative_tolerance_is_anchored_to_cra_and_includes_boundaries(self):
+        experiment, cra = example()
+        cra["Cr"] = "5"
+        for value, gap in [(4.95, False), (5.05, False), (4.9499, True), (5.0501, True)]:
+            with self.subTest(value=value):
+                experiment.alloy.composition[1].amount.value = value
+                result = benchmark_experiment(experiment, cra, relative_tolerance=0.01)
+                self.assertEqual("alloy.Cr" in result.gaps, gap)
+
+    def test_relative_tolerance_applies_after_conversion_to_all_numeric_fields(self):
+        experiment, cra = example()
+        experiment.alloy.composition[1].amount.value = 18.18
+        experiment.test_temperature = Measurement(value=298.4, unit="K")
+        experiment.pitting_potential = Measurement(value=0.303, unit="V (SCE)")
+        experiment.test_solution.composition[0].amount = Measurement(value=505, unit="mM")
+        experiment.test_solution.chloride_concentration = Measurement(value=505, unit="mM")
+        experiment.test_solution.ph = 7.07
+        before_exp, before_cra = experiment.model_dump(exclude_unset=True), deepcopy(cra)
+        self.assertEqual(set(benchmark_experiment(experiment, cra).gaps), {
+            "alloy.Cr", "test_temperature", "pitting_potential", "test_solution.NaCl",
+            "chloride_concentration", "ph"})
+        self.assertEqual(count_gaps(experiment, cra, relative_tolerance=0.01), 0)
+        self.assertEqual(experiment.model_dump(exclude_unset=True), before_exp)
+        self.assertEqual(cra, before_cra)
+
+    def test_relative_tolerance_handles_negative_and_zero_targets(self):
+        experiment, cra = example()
+        cra["Avg Epit mV (SCE)"] = "-100"
+        for value, gap in [(-101, False), (-99, False), (-101.0001, True), (-98.9999, True)]:
+            with self.subTest(value=value):
+                experiment.pitting_potential = Measurement(value=value, unit="mV (SCE)")
+                self.assertEqual("pitting_potential" in benchmark_experiment(
+                    experiment, cra, relative_tolerance=0.01).gaps, gap)
+        cra["Avg Epit mV (SCE)"] = "0"
+        for value, gap in [(5e-7, False), (-5e-7, False), (2e-6, True)]:
+            with self.subTest(zero_target=value):
+                experiment.pitting_potential = Measurement(value=value, unit="mV (SCE)")
+                self.assertEqual("pitting_potential" in benchmark_experiment(
+                    experiment, cra, relative_tolerance=0.01).gaps, gap)
+
+    def test_relative_tolerance_compares_range_endpoints_individually(self):
+        experiment, cra = example()
+        cra.update({"Avg Epit mV (SCE)": "NA", "Min Epit mV (SCE)": "100",
+                    "Max Epit mV (SCE)": "200"})
+        experiment.pitting_potential = Measurement(min=99, max=202, unit="mV (SCE)")
+        self.assertEqual(count_gaps(experiment, cra, relative_tolerance=0.01), 0)
+        experiment.pitting_potential.max = 202.001
+        self.assertEqual(set(benchmark_experiment(experiment, cra, relative_tolerance=0.01).gaps),
+                         {"pitting_potential"})
+
+    def test_relative_tolerance_preserves_missing_conversion_category_and_skip_rules(self):
+        experiment, cra = example()
+        experiment.alloy.composition[1].amount = None
+        experiment.test_temperature = None
+        experiment.pitting_potential.unit = "V"
+        experiment.alloy.material_class = ""
+        cra["Ni"] = "NA"
+        original = benchmark_experiment(experiment, cra)
+        relaxed = benchmark_experiment(experiment, cra, relative_tolerance=1)
+        self.assertEqual(relaxed.gaps, original.gaps)
+        self.assertEqual(set(relaxed.gaps), {"alloy.Cr", "test_temperature",
+                                            "pitting_potential", "material_class"})
+        self.assertEqual(relaxed.skipped, original.skipped)
+        self.assertEqual(relaxed.compared, original.compared)
+
+    def test_relative_tolerance_validation_and_absolute_allowance(self):
+        experiment, cra = example()
+        for invalid in (-0.01, math.inf, math.nan, True, "1%"):
+            with self.subTest(value=invalid), self.assertRaises(ValueError):
+                count_gaps(experiment, cra, relative_tolerance=invalid)
+        self.assertEqual(count_gaps(experiment, cra, relative_tolerance=0), 0)
+        experiment.pitting_potential.value = 0.305
+        self.assertEqual(count_gaps(experiment, cra, relative_tolerance=0.01), 1)
+        self.assertEqual(count_gaps(experiment, cra, relative_tolerance=0.01,
+                                    tolerances={"pitting_potential": 5}), 0)
+
     def test_solute_aliases_molar_prefixes_and_normality(self):
         experiment, cra = example()
         experiment.test_solution.composition[0].solute = "sodium chloride"
