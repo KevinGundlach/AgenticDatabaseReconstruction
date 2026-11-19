@@ -16,7 +16,7 @@ from reporting.database_reports import (
 
 
 def _one_to_one_pairs():
-    """Load the same validated, supported one-to-one pairs for both plots."""
+    """Load the same validated, supported one-to-one pairs for all plots."""
     enriched = load_enriched_observations()
     aligned = load_aligned_observations()
     cra_records = load_cra_records()
@@ -99,6 +99,43 @@ def plot_gap_histogram(
     destination.parent.mkdir(parents=True, exist_ok=True)
     figure.savefig(destination, dpi=200)
     return gap_counts
+
+
+def plot_gap_count_bars(
+    output_path: str | Path = "plots/gap_histogram_2.png",
+    **benchmark_options,
+) -> dict[int, int]:
+    """Save one vertical bar per integer gap count; return count -> experiments.
+
+    Use the same one-to-one cohort and scoring options as plot_gap_histogram.
+    Include every integer from zero to the observed maximum, even when no
+    experiments have that gap count. The maximum is not fixed at 14.
+    Run from the project root; create parent directories and replace the
+    specified image on rerun. Source datasets are unchanged.
+    """
+    frequencies = Counter(count_gaps(experiment, row, **benchmark_options)
+                          for experiment, row in _one_to_one_pairs())
+    counts = {gaps: frequencies[gaps] for gaps in range(max(frequencies) + 1)}
+
+    figure = Figure(figsize=(8, 5), layout="constrained")
+    axes = figure.subplots()
+    bars = axes.bar(list(counts), list(counts.values()), color="#4C78A8", width=0.8)
+    axes.bar_label(bars, padding=3, fontsize=9)
+    axes.set_xlabel("Number of gaps")
+    axes.set_ylabel("Number of experiments")
+    axes.set_title(f"Gap counts for one-to-one CRA matches (n={sum(counts.values())})")
+    axes.set_xticks(list(counts))
+    axes.set_xlim(-0.6, max(counts) + 0.6)
+    axes.yaxis.set_major_locator(MaxNLocator(integer=True))
+    axes.margins(y=0.12)
+    axes.set_axisbelow(True)
+    axes.grid(axis="y", alpha=0.2)
+    figure.supxlabel("Unscored comparisons are excluded from gap counts.", fontsize=9)
+
+    destination = Path(output_path)
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    figure.savefig(destination, dpi=200)
+    return counts
 
 
 def plot_gaps_by_field(

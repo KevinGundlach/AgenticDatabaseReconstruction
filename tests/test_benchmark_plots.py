@@ -10,7 +10,7 @@ from unittest.mock import patch
 from matplotlib.figure import Figure
 from PIL import Image
 
-from reporting.benchmark_plots import plot_gap_histogram, plot_gaps_by_field
+from reporting.benchmark_plots import plot_gap_count_bars, plot_gap_histogram, plot_gaps_by_field
 
 
 def inputs():
@@ -94,6 +94,46 @@ class BenchmarkPlotTests(unittest.TestCase):
             plot_gap_histogram(self.destination)
         self.assertFalse(self.destination.exists())
         self.score.assert_not_called()
+
+    def test_integer_bars_count_repeats_and_include_unobserved_gap_counts(self):
+        for row in self.rows:
+            row["gaps"] = {10: 0, 15: 2, 11: 2}[row["No."]]
+        captured = {}
+        save = Figure.savefig
+
+        def inspect_and_save(figure, destination, **kwargs):
+            axes = figure.axes[0]
+            captured.update(centres=[bar.get_x() + bar.get_width() / 2 for bar in axes.patches],
+                            heights=[bar.get_height() for bar in axes.patches],
+                            ticks=list(axes.get_xticks()), xlabel=axes.get_xlabel(),
+                            ylabel=axes.get_ylabel())
+            save(figure, destination, **kwargs)
+
+        with patch.object(Figure, "savefig", new=inspect_and_save):
+            counts = plot_gap_count_bars(self.destination, tolerances={"ph": 0.1})
+        self.assertEqual(counts, {0: 1, 1: 0, 2: 2})
+        self.assertEqual(captured, {"centres": [0, 1, 2], "heights": [1, 0, 2],
+                                    "ticks": [0, 1, 2], "xlabel": "Number of gaps",
+                                    "ylabel": "Number of experiments"})
+        self.assertEqual(self.score.call_count, 3)
+        self.assertIs(self.score.call_args_list[0].args[0], self.enriched[0].experiments[0])
+        self.assertIs(self.score.call_args_list[2].args[0], self.enriched[1].experiments[0])
+        self.assertTrue(all(call.kwargs == {"tolerances": {"ph": 0.1}}
+                            for call in self.score.call_args_list))
+        with Image.open(self.destination) as image:
+            self.assertEqual(image.format, "PNG")
+            self.assertEqual(image.size, (1600, 1000))
+
+    def test_integer_bars_handle_zero_only_and_maximum_above_fourteen(self):
+        for row in self.rows:
+            row["gaps"] = 0
+        self.assertEqual(plot_gap_count_bars(self.destination), {0: 3})
+        self.rows[0]["gaps"] = 16
+        counts = plot_gap_count_bars(self.destination)
+        self.assertEqual(list(counts), list(range(17)))
+        self.assertEqual(counts[0], 2)
+        self.assertEqual(counts[16], 1)
+        self.assertEqual(sum(counts.values()), 3)
 
     def test_stale_input_fingerprints_are_rejected(self):
         for kind in ("pdf", "registry"):
