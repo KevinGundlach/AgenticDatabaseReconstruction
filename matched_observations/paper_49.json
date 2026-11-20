@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_49.json",
-      "sha256": "0636184827b0d00b0739c8304b5544af49141b1a3335eca7df694ef13495f13b"
+      "sha256": "c4d20d11339c1b2f9884b01092e6b5014473caa66f91f3bc3f74eb0e43162135"
     }
   },
   "inspected_pdf_pages": [
@@ -30,14 +30,14 @@
   "shared_qualifications": [
     "Table 5 (PDF p.7) directly supplies alloy rows and 300/500/1000/5000 ppm Cl- or natural-seawater columns at 50 C. CRA uses the corresponding numeric solution labels but calls them ppm NaCl. These mass bases are not equivalent; identity is supported by the independently named alloy and table condition series, with the conflict exposed in paired evidence. No density or ppm-to-molarity conversion is assumed, including for seawater.",
     "Source artificial solutions are adjusted to pH 7.8 (PDF p.3); natural seawater composition has pH 8.2 (Table 2, PDF p.4). The electrochemical Epit definition is a consistent current increase indicating non-passivating pits (PDF p.6), not an inferred reversal-current threshold. The detailed CRA scan protocol is not independently verified from the inspected source passages, which refer to an earlier publication.",
-    "Source contradictions are preserved: obs_030 / CRA 30 has printed Table 5 value 1516 mV, Fig.2 labeled 17-4PH annotation 94 mV, and Fig.6 about 160 mV. obs_035 / CRA 35 has Table 5 SMO254 813 mV and PREN43.5, but Fig.6 label 254 is near PREN38 and 720 mV. obs_075 / CRA65 has Table 5 Duplex2205 629 mV, Fig.2 annotation 826 mV and Fig.6 about 630 mV. These supported identities are marked discrepant across registered locations; no decimal/label repair is guessed.",
+    "Source contradictions are preserved: 49_obs_030 / CRA 30 has printed Table 5 value 1516 mV, Fig.2 labeled 17-4PH annotation 94 mV, and Fig.6 about 160 mV. 49_obs_035 / CRA 35 has Table 5 SMO254 813 mV and PREN43.5, but Fig.6 label 254 is near PREN38 and 720 mV. 49_obs_075 / CRA65 has Table 5 Duplex2205 629 mV, Fig.2 annotation 826 mV and Fig.6 about 630 mV. These supported identities are marked discrepant across registered locations; no decimal/label repair is guessed.",
     "C1: interpreting the Fig.5 label Log Cl(ppm) as base-10 gives 10^2.5 = 316.23, 10^3 = 1000, 10^3.5 = 3162.28 and 10^4 = 10000 ppm Cl-. Table 5 instead uses 300,500,1000,5000 (log10 values 2.4771,2.6990,3.0000,3.6990). Actual enlarged-marker x coordinates are retained. Potential/material sequences suggest possible repeated table presentations but do not resolve the concentration conflict; these links are candidates only. At x=3, the same-alloy 1000-ppm table row is an additional concentration-based alternative where different from the possible sequence counterpart.",
-    "Fig.6 obs_110 is actually labeled 44653, near PREN43.5 and 820 mV. Candidate CRA60 follows a possible transposition of Monit44635, conflicting with Table 5 PREN38 and 721 mV; candidate CRA35 follows the plotted PREN/potential of SMO254, conflicting with the printed label. Both remain unresolved; no source identity is rewritten.",
+    "Fig.6 49_obs_110 is actually labeled 44653, near PREN43.5 and 820 mV. Candidate CRA60 follows a possible transposition of Monit44635, conflicting with Table 5 PREN38 and 721 mV; candidate CRA35 follows the plotted PREN/potential of SMO254, conflicting with the printed label. Both remain unresolved; no source identity is rewritten.",
     "Remanit4565 and Remanit4575 are absent from the supplied CRA rows, despite their presence in the paper. Candidate-only plot links do not prove duplicate runs or identify the presentation used by the original curators. Literal CRA heat treatment None remains literal; source specimens were used without further heat treatment (PDF p.3)."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "49_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -90,7 +90,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "49_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -143,7 +143,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "49_obs_003",
       "status": "matched",
       "matches": [
         {
@@ -196,7 +196,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "49_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -249,7 +249,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "49_obs_005",
       "status": "matched",
       "matches": [
         {
@@ -303,7 +303,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "49_obs_006",
       "status": "matched",
       "matches": [
         {
@@ -356,7 +356,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "49_obs_007",
       "status": "matched",
       "matches": [
         {
@@ -409,7 +409,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "49_obs_008",
       "status": "matched",
       "matches": [
         {
@@ -462,7 +462,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "49_obs_009",
       "status": "matched",
       "matches": [
         {
@@ -515,7 +515,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "49_obs_010",
       "status": "matched",
       "matches": [
         {
@@ -569,7 +569,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "49_obs_011",
       "status": "matched",
       "matches": [
         {
@@ -622,7 +622,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "49_obs_012",
       "status": "matched",
       "matches": [
         {
@@ -675,7 +675,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_013",
+      "observation_id": "49_obs_013",
       "status": "matched",
       "matches": [
         {
@@ -728,7 +728,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_014",
+      "observation_id": "49_obs_014",
       "status": "matched",
       "matches": [
         {
@@ -781,7 +781,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_015",
+      "observation_id": "49_obs_015",
       "status": "matched",
       "matches": [
         {
@@ -836,7 +836,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_016",
+      "observation_id": "49_obs_016",
       "status": "matched",
       "matches": [
         {
@@ -889,7 +889,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_017",
+      "observation_id": "49_obs_017",
       "status": "matched",
       "matches": [
         {
@@ -942,7 +942,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_018",
+      "observation_id": "49_obs_018",
       "status": "matched",
       "matches": [
         {
@@ -995,7 +995,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_019",
+      "observation_id": "49_obs_019",
       "status": "matched",
       "matches": [
         {
@@ -1048,7 +1048,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_020",
+      "observation_id": "49_obs_020",
       "status": "matched",
       "matches": [
         {
@@ -1103,7 +1103,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_021",
+      "observation_id": "49_obs_021",
       "status": "matched",
       "matches": [
         {
@@ -1156,7 +1156,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_022",
+      "observation_id": "49_obs_022",
       "status": "matched",
       "matches": [
         {
@@ -1209,7 +1209,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_023",
+      "observation_id": "49_obs_023",
       "status": "matched",
       "matches": [
         {
@@ -1262,7 +1262,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_024",
+      "observation_id": "49_obs_024",
       "status": "matched",
       "matches": [
         {
@@ -1315,7 +1315,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_025",
+      "observation_id": "49_obs_025",
       "status": "matched",
       "matches": [
         {
@@ -1368,7 +1368,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_026",
+      "observation_id": "49_obs_026",
       "status": "matched",
       "matches": [
         {
@@ -1421,7 +1421,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_027",
+      "observation_id": "49_obs_027",
       "status": "matched",
       "matches": [
         {
@@ -1474,7 +1474,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_028",
+      "observation_id": "49_obs_028",
       "status": "matched",
       "matches": [
         {
@@ -1527,7 +1527,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_029",
+      "observation_id": "49_obs_029",
       "status": "matched",
       "matches": [
         {
@@ -1580,7 +1580,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_030",
+      "observation_id": "49_obs_030",
       "status": "matched",
       "matches": [
         {
@@ -1635,7 +1635,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_031",
+      "observation_id": "49_obs_031",
       "status": "matched",
       "matches": [
         {
@@ -1688,7 +1688,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_032",
+      "observation_id": "49_obs_032",
       "status": "matched",
       "matches": [
         {
@@ -1741,7 +1741,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_033",
+      "observation_id": "49_obs_033",
       "status": "matched",
       "matches": [
         {
@@ -1794,7 +1794,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_034",
+      "observation_id": "49_obs_034",
       "status": "matched",
       "matches": [
         {
@@ -1847,7 +1847,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_035",
+      "observation_id": "49_obs_035",
       "status": "matched",
       "matches": [
         {
@@ -1901,7 +1901,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_036",
+      "observation_id": "49_obs_036",
       "status": "matched",
       "matches": [
         {
@@ -1954,7 +1954,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_037",
+      "observation_id": "49_obs_037",
       "status": "matched",
       "matches": [
         {
@@ -2007,7 +2007,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_038",
+      "observation_id": "49_obs_038",
       "status": "matched",
       "matches": [
         {
@@ -2060,7 +2060,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_039",
+      "observation_id": "49_obs_039",
       "status": "matched",
       "matches": [
         {
@@ -2113,7 +2113,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_040",
+      "observation_id": "49_obs_040",
       "status": "matched",
       "matches": [
         {
@@ -2167,7 +2167,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_041",
+      "observation_id": "49_obs_041",
       "status": "matched",
       "matches": [
         {
@@ -2220,7 +2220,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_042",
+      "observation_id": "49_obs_042",
       "status": "matched",
       "matches": [
         {
@@ -2273,7 +2273,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_043",
+      "observation_id": "49_obs_043",
       "status": "matched",
       "matches": [
         {
@@ -2326,7 +2326,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_044",
+      "observation_id": "49_obs_044",
       "status": "matched",
       "matches": [
         {
@@ -2379,7 +2379,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_045",
+      "observation_id": "49_obs_045",
       "status": "matched",
       "matches": [
         {
@@ -2433,7 +2433,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_046",
+      "observation_id": "49_obs_046",
       "status": "matched",
       "matches": [
         {
@@ -2486,7 +2486,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_047",
+      "observation_id": "49_obs_047",
       "status": "matched",
       "matches": [
         {
@@ -2539,7 +2539,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_048",
+      "observation_id": "49_obs_048",
       "status": "matched",
       "matches": [
         {
@@ -2592,7 +2592,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_049",
+      "observation_id": "49_obs_049",
       "status": "matched",
       "matches": [
         {
@@ -2645,7 +2645,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_050",
+      "observation_id": "49_obs_050",
       "status": "matched",
       "matches": [
         {
@@ -2699,7 +2699,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_051",
+      "observation_id": "49_obs_051",
       "status": "matched",
       "matches": [
         {
@@ -2752,7 +2752,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_052",
+      "observation_id": "49_obs_052",
       "status": "matched",
       "matches": [
         {
@@ -2805,7 +2805,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_053",
+      "observation_id": "49_obs_053",
       "status": "matched",
       "matches": [
         {
@@ -2858,7 +2858,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_054",
+      "observation_id": "49_obs_054",
       "status": "matched",
       "matches": [
         {
@@ -2911,7 +2911,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_055",
+      "observation_id": "49_obs_055",
       "status": "matched",
       "matches": [
         {
@@ -2966,42 +2966,42 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_056",
+      "observation_id": "49_obs_056",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_057",
+      "observation_id": "49_obs_057",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_058",
+      "observation_id": "49_obs_058",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_059",
+      "observation_id": "49_obs_059",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_060",
+      "observation_id": "49_obs_060",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_061",
+      "observation_id": "49_obs_061",
       "status": "matched",
       "matches": [
         {
@@ -3054,7 +3054,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_062",
+      "observation_id": "49_obs_062",
       "status": "matched",
       "matches": [
         {
@@ -3107,7 +3107,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_063",
+      "observation_id": "49_obs_063",
       "status": "matched",
       "matches": [
         {
@@ -3160,7 +3160,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_064",
+      "observation_id": "49_obs_064",
       "status": "matched",
       "matches": [
         {
@@ -3213,7 +3213,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_065",
+      "observation_id": "49_obs_065",
       "status": "matched",
       "matches": [
         {
@@ -3266,42 +3266,42 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_066",
+      "observation_id": "49_obs_066",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_067",
+      "observation_id": "49_obs_067",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_068",
+      "observation_id": "49_obs_068",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_069",
+      "observation_id": "49_obs_069",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_070",
+      "observation_id": "49_obs_070",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_071",
+      "observation_id": "49_obs_071",
       "status": "matched",
       "matches": [
         {
@@ -3354,7 +3354,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_072",
+      "observation_id": "49_obs_072",
       "status": "matched",
       "matches": [
         {
@@ -3407,7 +3407,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_073",
+      "observation_id": "49_obs_073",
       "status": "matched",
       "matches": [
         {
@@ -3460,7 +3460,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_074",
+      "observation_id": "49_obs_074",
       "status": "matched",
       "matches": [
         {
@@ -3513,7 +3513,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_075",
+      "observation_id": "49_obs_075",
       "status": "matched",
       "matches": [
         {
@@ -3568,7 +3568,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_076",
+      "observation_id": "49_obs_076",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -3615,7 +3615,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_077",
+      "observation_id": "49_obs_077",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -3701,7 +3701,7 @@
       "notes": "Additional candidate from the literal log=3 concentration. Table/plot condition and potential conflicts prevent assignment; retain alongside the possible sequence counterpart."
     },
     {
-      "observation_id": "obs_078",
+      "observation_id": "49_obs_078",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -3748,7 +3748,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_079",
+      "observation_id": "49_obs_079",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -3795,7 +3795,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_080",
+      "observation_id": "49_obs_080",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -3842,7 +3842,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_081",
+      "observation_id": "49_obs_081",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -3928,7 +3928,7 @@
       "notes": "Additional candidate from the literal log=3 concentration. Table/plot condition and potential conflicts prevent assignment; retain alongside the possible sequence counterpart."
     },
     {
-      "observation_id": "obs_082",
+      "observation_id": "49_obs_082",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -3975,7 +3975,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_083",
+      "observation_id": "49_obs_083",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4022,7 +4022,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_084",
+      "observation_id": "49_obs_084",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4069,7 +4069,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_085",
+      "observation_id": "49_obs_085",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4155,7 +4155,7 @@
       "notes": "Additional candidate from the literal log=3 concentration. Table/plot condition and potential conflicts prevent assignment; retain alongside the possible sequence counterpart."
     },
     {
-      "observation_id": "obs_086",
+      "observation_id": "49_obs_086",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4202,7 +4202,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_087",
+      "observation_id": "49_obs_087",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4249,7 +4249,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_088",
+      "observation_id": "49_obs_088",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4296,7 +4296,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_089",
+      "observation_id": "49_obs_089",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4343,7 +4343,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_090",
+      "observation_id": "49_obs_090",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4390,7 +4390,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_091",
+      "observation_id": "49_obs_091",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4437,7 +4437,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_092",
+      "observation_id": "49_obs_092",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4523,7 +4523,7 @@
       "notes": "Additional candidate from the literal log=3 concentration. Table/plot condition and potential conflicts prevent assignment; retain alongside the possible sequence counterpart."
     },
     {
-      "observation_id": "obs_093",
+      "observation_id": "49_obs_093",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4570,7 +4570,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_094",
+      "observation_id": "49_obs_094",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4617,7 +4617,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_095",
+      "observation_id": "49_obs_095",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4664,7 +4664,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_096",
+      "observation_id": "49_obs_096",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4750,7 +4750,7 @@
       "notes": "Additional candidate from the literal log=3 concentration. Table/plot condition and potential conflicts prevent assignment; retain alongside the possible sequence counterpart."
     },
     {
-      "observation_id": "obs_097",
+      "observation_id": "49_obs_097",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4797,7 +4797,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_098",
+      "observation_id": "49_obs_098",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4844,7 +4844,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_099",
+      "observation_id": "49_obs_099",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4891,7 +4891,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_100",
+      "observation_id": "49_obs_100",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -4977,7 +4977,7 @@
       "notes": "Additional candidate from the literal log=3 concentration. Table/plot condition and potential conflicts prevent assignment; retain alongside the possible sequence counterpart."
     },
     {
-      "observation_id": "obs_101",
+      "observation_id": "49_obs_101",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -5024,7 +5024,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_102",
+      "observation_id": "49_obs_102",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -5071,35 +5071,35 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_103",
+      "observation_id": "49_obs_103",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_104",
+      "observation_id": "49_obs_104",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_105",
+      "observation_id": "49_obs_105",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_106",
+      "observation_id": "49_obs_106",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "This observation names Remanit 4565 or Remanit 4575, neither represented by a supplied CRA material. Similar high potentials or PRENs do not identify a different named alloy; no counterpart is assigned."
     },
     {
-      "observation_id": "obs_107",
+      "observation_id": "49_obs_107",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -5185,7 +5185,7 @@
       "notes": "Additional candidate from the literal log=3 concentration. Table/plot condition and potential conflicts prevent assignment; retain alongside the possible sequence counterpart."
     },
     {
-      "observation_id": "obs_108",
+      "observation_id": "49_obs_108",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -5232,7 +5232,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_109",
+      "observation_id": "49_obs_109",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -5279,7 +5279,7 @@
       "notes": "Candidate by independently named alloy and possible repeated Table 5 series. The Fig.5 x coordinate/condition relationship is unresolved (C1), so this is excluded from supported joins. It does not prove duplicate-run identity."
     },
     {
-      "observation_id": "obs_110",
+      "observation_id": "49_obs_110",
       "status": "ambiguous",
       "matches": [],
       "candidates": [

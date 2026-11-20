@@ -161,8 +161,8 @@ class Observation(RegistryModel):
     )
 
     observation_id: str = Field(
-        pattern=r"^obs_[0-9]{3,}$",
-        description="Registry-scoped bookkeeping identifier, e.g. obs_001; preserve during later edits and enrichment.",
+        pattern=r"^(?:[1-9][0-9]*_)?obs_[0-9]{3,}$",
+        description="Paper-prefixed bookkeeping identifier, e.g. 42_obs_001; preserve downstream. Legacy obs_001 IDs remain accepted unchanged.",
     )
     result_type: ResultType = Field(
         description=(
@@ -261,8 +261,13 @@ class ObservationRegistry(RegistryModel):
     @model_validator(mode="after")
     def check_observation_ids(self) -> Self:
         seen = set()
+        references = {self.reference_number} if self.reference_number is not None else set()
         for observation in self.observations:
             if observation.observation_id in seen:
                 raise ValueError(f"Duplicate observation_id: {observation.observation_id}")
             seen.add(observation.observation_id)
+            if not observation.observation_id.startswith("obs_"):
+                references.add(int(observation.observation_id.split("_", 1)[0]))
+        if len(references) > 1:
+            raise ValueError("Reference conflict: observation_id prefixes must agree with each other and reference_number")
         return self

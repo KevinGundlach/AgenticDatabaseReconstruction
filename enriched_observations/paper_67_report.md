@@ -15,9 +15,9 @@ Counts: supplied 13; eligible 13; written 13; skipped failed 0; flagged 1.
 
 Skipped failed IDs: none.
 
-Flagged output IDs: obs_013.
+Flagged output IDs: 67_obs_013.
 
-Qualifications: Thirteen anchors retained, including the possible repeated zero-Mo summary and table/figure discrepancy for FA-140. DO3 and B2 iron-aluminide specimens remain distinct; no cold-working treatment is assigned from neighboring curves. Figure 3 caption prints 859°C whereas methods say 850°C. The registry B2 condition on type 304L (obs_013) exceeds the source scope and is flagged; its treatment remains unreported. Ep, crevice first entries and microstructural processing temperatures are not substituted for pitting outcomes or test temperature.
+Qualifications: Thirteen anchors retained, including the possible repeated zero-Mo summary and table/figure discrepancy for FA-140. DO3 and B2 iron-aluminide specimens remain distinct; no cold-working treatment is assigned from neighboring curves. Figure 3 caption prints 859°C whereas methods say 850°C. The registry B2 condition on type 304L (67_obs_013) exceeds the source scope and is flagged; its treatment remains unreported. Ep, crevice first entries and microstructural processing temperatures are not substituted for pitting outcomes or test temperature.
 
 Validation: actual exit code 0. Structural validity does not certify scientific interpretation, associations or visual coverage.
 
@@ -25,7 +25,7 @@ Validation: actual exit code 0. Structural validity does not certify scientific 
 VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\enriched_observations\paper_67.json
 Supplied=13; eligible=13; written=13; skipped_failed=0; flagged=1.
 Skipped failed IDs: none
-Flagged output IDs: obs_013
+Flagged output IDs: 67_obs_013
 Scientific fidelity, retained qualification meanings and actual visual coverage are not certified.
 
 ```

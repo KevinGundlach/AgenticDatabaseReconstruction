@@ -12,7 +12,7 @@ Exclusions: Tables 1–2 and Figures 1–6, 9–10 concern structure, compositio
 
 Registry: [paper_28.json](paper_28.json). Observations: 21. Complete: 21; partial: 0; failed: 0. Partial IDs: none. Failed IDs: none.
 
-Source qualifications and consolidation: Table 3 values are experimental summaries with standard deviations and the stated 100 μA/cm² Ep criterion. Selective dissolution for x=0.7 qualifies the interpretation. Fig. 11 HEA markers obs_007–obs_009 may repeat obs_001–obs_006, but lack individual labels and are retained separately as uncertain duplicates, not independent experiments. Conventional-alloy markers are cited; individual grades/citations are not supplied.
+Source qualifications and consolidation: Table 3 values are experimental summaries with standard deviations and the stated 100 μA/cm² Ep criterion. Selective dissolution for x=0.7 qualifies the interpretation. Fig. 11 HEA markers 28_obs_007–28_obs_009 may repeat 28_obs_001–28_obs_006, but lack individual labels and are retained separately as uncertain duplicates, not independent experiments. Conventional-alloy markers are cited; individual grades/citations are not supplied.
 
 Validation: bundled validator exit 0. Structural validation does not establish scientific completeness or correctness.
 

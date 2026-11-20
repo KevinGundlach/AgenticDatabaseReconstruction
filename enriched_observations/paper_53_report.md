@@ -17,7 +17,7 @@ Skipped failed IDs: none.
 
 Flagged output IDs: none.
 
-Qualifications: Ur transient-pitting and Ub stable-pitting outcomes remain distinct. Table 6 holds remain individual bounds with nonmonotonic counts; Table 6/Figure 1 identify A but adjacent prose says F. Table 5 last block prints E while its header/text say F (obs_036); compositions follow the primary printed row with the disagreement explicit. No galvanostatic Up values replace anchors. Composition table percentages retain their printed unspecified basis.
+Qualifications: Ur transient-pitting and Ub stable-pitting outcomes remain distinct. Table 6 holds remain individual bounds with nonmonotonic counts; Table 6/Figure 1 identify A but adjacent prose says F. Table 5 last block prints E while its header/text say F (53_obs_036); compositions follow the primary printed row with the disagreement explicit. No galvanostatic Up values replace anchors. Composition table percentages retain their printed unspecified basis.
 
 Validation: actual exit code 0. Structural validation does not certify scientific interpretation or associations.
 

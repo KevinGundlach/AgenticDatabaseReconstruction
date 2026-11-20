@@ -104,7 +104,7 @@ class MatchingTests(unittest.TestCase):
         result = self.validate()
         self.assertEqual([o.status for o in result.observations], ["matched", "matched", "ambiguous", "matched", "unmatched", "not_assessed"])
         self.assertEqual(result.unlinked_citrine_nos, [91003, 91004])
-        self.assertEqual(shared_rows(result), {91001: ["obs_007", "obs_008"]})
+        self.assertEqual(shared_rows(result), {91001: ["9001_obs_007", "9001_obs_008"]})
 
     def test_partial_registry_with_nonsequential_ids(self):
         result = self.alignment()
@@ -114,7 +114,32 @@ class MatchingTests(unittest.TestCase):
         result["observations"] = [result["observations"][i] for i in (2, 4)]
         result["unlinked_citrine_nos"] = [r["citrine_no"] for r in self.prepared().rows]
         result["inputs"] = self.prepared().inputs.model_dump(mode="json")
-        self.assertEqual([o.observation_id for o in self.validate(result).observations], ["obs_011", "obs_023"])
+        self.assertEqual([o.observation_id for o in self.validate(result).observations], ["9001_obs_011", "9001_obs_023"])
+
+    def test_legacy_ids_are_preserved_without_automatic_prefixing(self):
+        result = self.alignment()
+        for row in self.registry_document["observations"] + result["observations"]:
+            row["observation_id"] = row["observation_id"].split("_", 1)[1]
+        dump(self.registry, self.registry_document)
+        before = self.registry.read_bytes()
+        result["inputs"] = self.prepared().inputs.model_dump(mode="json")
+        self.assertEqual(self.validate(result).observations[0].observation_id, "obs_007")
+        self.assertEqual(self.registry.read_bytes(), before)
+
+    def test_id_prefix_cannot_be_changed_or_removed_in_alignment(self):
+        for identifier in ("9002_obs_007", "obs_007"):
+            result = self.alignment()
+            result["observations"][0]["observation_id"] = identifier
+            with self.subTest(identifier=identifier), self.assertRaises(InvalidData):
+                self.validate(result)
+
+    def test_id_prefix_must_agree_with_resolved_reference_when_metadata_is_null(self):
+        self.registry_document["reference_number"] = None
+        for row in self.registry_document["observations"]:
+            row["observation_id"] = row["observation_id"].replace("9001_", "9002_", 1)
+        dump(self.registry, self.registry_document)
+        with self.assertRaisesRegex(InvalidData, "Reference conflict"):
+            self.prepared()
 
     def test_empty_registry_retains_all_unlinked_rows(self):
         result = self.alignment()
@@ -131,7 +156,7 @@ class MatchingTests(unittest.TestCase):
         self.write_csv([], headers)
         result = self.alignment()
         for item in result["observations"]:
-            item.update(status="not_assessed" if item["observation_id"] == "obs_030" else "unmatched", matches=[], candidates=[], notes="No CRA rows supplied; failed recovery remains unassessed where applicable.")
+            item.update(status="not_assessed" if item["observation_id"] == "9001_obs_030" else "unmatched", matches=[], candidates=[], notes="No CRA rows supplied; failed recovery remains unassessed where applicable.")
         result["unlinked_citrine_nos"] = []
         self.validate(result)
 
@@ -182,7 +207,7 @@ class MatchingTests(unittest.TestCase):
             column = "Min Epit mV (SCE)" if endpoint == "min" else "Max Epit mV (SCE)"
             link["evidence"] = [dict(field=column, paper_value=row["fields"][column] + " mV (SCE)", cra_value=row["fields"][column], comparison="Range endpoint member; no central value is inferred.")]
         result["unlinked_citrine_nos"] = [91001, 91003]
-        self.assertEqual(shared_rows(self.validate(result)), {91004: ["obs_007", "obs_008"]})
+        self.assertEqual(shared_rows(self.validate(result)), {91004: ["9001_obs_007", "9001_obs_008"]})
 
     def test_original_units_bounds_uncertainty_and_conversion_evidence(self):
         before = self.registry.read_bytes()
@@ -265,7 +290,7 @@ class MatchingTests(unittest.TestCase):
             bad = deepcopy(base); bad["observations"] = ids
             with self.assertRaisesRegex(InvalidData, "cover the supplied registry"):
                 self.validate(bad)
-        bad = deepcopy(base); bad["observations"][0]["observation_id"] = "obs_999"
+        bad = deepcopy(base); bad["observations"][0]["observation_id"] = "9001_obs_999"
         with self.assertRaisesRegex(InvalidData, "cover the supplied registry"):
             self.validate(bad)
 
@@ -417,15 +442,15 @@ class MatchingTests(unittest.TestCase):
         result = self.cli()
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("matched=3; ambiguous=1; unmatched=1; not_assessed=1", result.stdout)
-        self.assertIn("91001: obs_007, obs_008", result.stdout)
-        self.assertIn("ambiguous IDs: obs_011", result.stdout)
+        self.assertIn("91001: 9001_obs_007, 9001_obs_008", result.stdout)
+        self.assertIn("ambiguous IDs: 9001_obs_011", result.stdout)
         self.assertEqual(before, {p.name: p.read_bytes() for p in self.directory.iterdir()})
 
     def test_report_cli_has_one_compact_row_per_supplied_observation(self):
         dump(self.output, self.alignment())
         result = self.cli(extra=("--report-stdout",))
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertEqual(len([line for line in result.stdout.splitlines() if line.startswith("| obs_")]), 6)
+        self.assertEqual(len([line for line in result.stdout.splitlines() if line.startswith("| 9001_obs_")]), 6)
         self.assertIn("&gt;800", result.stdout)
         self.assertIn("Transpassive", result.stdout)
         self.assertIn("Structural validation: PASS", result.stdout)
@@ -438,7 +463,7 @@ class MatchingTests(unittest.TestCase):
         report = render_report(self.validate(result), self.prepared())
         self.assertIn(r"A \| B", report)
         self.assertIn("second line μ", report)
-        self.assertEqual(len([line for line in report.splitlines() if line.startswith("| obs_")]), 6)
+        self.assertEqual(len([line for line in report.splitlines() if line.startswith("| 9001_obs_")]), 6)
 
     def test_blocked_visual_access_remains_valid_and_is_reported(self):
         result = self.alignment()

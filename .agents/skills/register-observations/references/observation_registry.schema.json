@@ -204,8 +204,8 @@
       ],
       "properties": {
         "observation_id": {
-          "description": "Registry-scoped bookkeeping identifier, e.g. obs_001; preserve during later edits and enrichment.",
-          "pattern": "^obs_[0-9]{3,}$",
+          "description": "Paper-prefixed bookkeeping identifier, e.g. 42_obs_001; preserve downstream. Legacy obs_001 IDs remain accepted unchanged.",
+          "pattern": "^(?:[1-9][0-9]*_)?obs_[0-9]{3,}$",
           "title": "Observation Id",
           "type": "string"
         },

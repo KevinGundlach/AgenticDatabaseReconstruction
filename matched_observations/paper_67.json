@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_67.json",
-      "sha256": "3c292485335c77cc9419f7c9ee9980af203edc167a36f29f50b9b0a34ffabecc"
+      "sha256": "db5e0f6b3e18dc3b05a26879b50448e8e4e9164700965b2d6e01207618628e8e"
     }
   },
   "inspected_pdf_pages": [
@@ -29,12 +29,12 @@
     "C2: all plotted/tabulated source potentials are already on SHE (PDF p.2); the measured saturated-KCl Ag/AgCl reference was+196 mV(SHE). Do not add196 a second time. For conditional comparison to a25 C saturated-KCl SCE, subtract241 mV using Corrtest (https://www.corrtestinstruments.com/en/02437.html). CRA reference temperature/calibration is unstated; agreement categories are conditional on this convention, never exact or obtained by fitting an offset.",
     "C3: source600 mV/hour=600/3600=0.166667 mV/s, compatible with CRA0.166. The electrolyte is O2-sparged200 ppm chloride, explicitly stated as5.5*10^-3 M NaCl atpH4 with6.25*10^-5 M H2SO4 (PDF pp.1-2). Source temperature is not assigned a numerical value from the blank CRA field.",
     "DO3 treatment is850 C/1 h plus500 C/7 days, air cooled (PDF p.2). B2 is a different750 C/1 h oil-quench treatment. The Table7 materials have different compositions from supplied DO3 rows, independently preventing assignment; no crevice first-number or reverse-scan protection potential is substituted for noncrevice breakdown.",
-    "obs_009 retains Table4 Eb580 mV(SHE) and Fig.7 approximately560; its conditional potential agreement is discrepant across registered locations. obs_010 is a possible repeated zero-Mo FA-72C comparison at480, versus obs_003 Fig.4 approximately520; both can share CRA551 as possible same-condition presentations with discrepant potentials, without proving common-run identity. CRA555 has0.5 at% Mo and is not selected merely because its potential is closer to480.",
+    "67_obs_009 retains Table4 Eb580 mV(SHE) and Fig.7 approximately560; its conditional potential agreement is discrepant across registered locations. 67_obs_010 is a possible repeated zero-Mo FA-72C comparison at480, versus 67_obs_003 Fig.4 approximately520; both can share CRA551 as possible same-condition presentations with discrepant potentials, without proving common-run identity. CRA555 has0.5 at% Mo and is not selected merely because its potential is closer to480.",
     "FA-77B is the Table1 material; Fig.5 abbreviates it FA-77. No identity repair is imposed on the registry. Poppler font warnings for Symbol/ArialNarrow did not prevent visual inspection of the anchors, captions and methods."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "67_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -99,7 +99,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "67_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -171,7 +171,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "67_obs_003",
       "status": "matched",
       "matches": [
         {
@@ -242,7 +242,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "67_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -313,7 +313,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "67_obs_005",
       "status": "matched",
       "matches": [
         {
@@ -396,7 +396,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "67_obs_006",
       "status": "matched",
       "matches": [
         {
@@ -479,7 +479,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "67_obs_007",
       "status": "matched",
       "matches": [
         {
@@ -557,7 +557,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "67_obs_008",
       "status": "matched",
       "matches": [
         {
@@ -635,7 +635,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "67_obs_009",
       "status": "matched",
       "matches": [
         {
@@ -713,7 +713,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "67_obs_010",
       "status": "matched",
       "matches": [
         {
@@ -774,31 +774,31 @@
               "field": "Avg Epit mV (SCE)",
               "paper_value": "{\"unit\": \"mV (SHE)\", \"value\": 480}",
               "cra_value": "277",
-              "comparison": "C2 conditional25 C comparison: 480-241=239 mV(SCE). Original source scale and CRA cell are preserved. Reference convention is assumed, not fitted. The zero-Mo480 reading gives239 mV(SCE), discrepant withCRA277; Fig.4 obs_003 instead gives approximately520. Shared-row identity is possible repetition, not resolved common-run provenance."
+              "comparison": "C2 conditional25 C comparison: 480-241=239 mV(SCE). Original source scale and CRA cell are preserved. Reference convention is assumed, not fitted. The zero-Mo480 reading gives239 mV(SCE), discrepant withCRA277; Fig.4 67_obs_003 instead gives approximately520. Shared-row identity is possible repetition, not resolved common-run provenance."
             }
           ],
-          "notes": "FA-72C source atomic formula, DO3 state and electrolyte identify the proposed counterpart despite the explicit CRA at%/wt% basis error. SharesCRA551 with the other FA-72C presentation; repetition/run identity remains unresolved.  The zero-Mo480 reading gives239 mV(SCE), discrepant withCRA277; Fig.4 obs_003 instead gives approximately520. Shared-row identity is possible repetition, not resolved common-run provenance."
+          "notes": "FA-72C source atomic formula, DO3 state and electrolyte identify the proposed counterpart despite the explicit CRA at%/wt% basis error. SharesCRA551 with the other FA-72C presentation; repetition/run identity remains unresolved.  The zero-Mo480 reading gives239 mV(SCE), discrepant withCRA277; Fig.4 67_obs_003 instead gives approximately520. Shared-row identity is possible repetition, not resolved common-run provenance."
         }
       ],
       "candidates": [],
       "notes": ""
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "67_obs_011",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "FA-84 contains0.05 at% B (Table1) and has a different treatment context from supplied DO3 FA-77B without B; its420 mV noncrevice value does not identify CRA550 by number alone."
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "67_obs_012",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "FAL-Mo has5 at% Cr,1 at% Mo,0.04 at% B and0.08 at% Zr (Table1), absent from the supplied CRA compositions. No DO3 row is substituted for this different Table7 material."
     },
     {
-      "observation_id": "obs_013",
+      "observation_id": "67_obs_013",
       "status": "unmatched",
       "matches": [],
       "candidates": [],

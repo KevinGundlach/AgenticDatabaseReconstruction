@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_41.json",
-      "sha256": "9ca4e9f3c56d40c94e318461497e34bf4be586b551775648d0938c178a2e4455"
+      "sha256": "6d3b7ff8e6c0e6edae2408cb00d77406f739950edfb66e72eab080ef6ca32248"
     }
   },
   "inspected_pdf_pages": [
@@ -27,13 +27,13 @@
   "coverage_notes": "Every supplied observation and CSV row was considered. All registered anchor pages were visually inspected, including secondary locations. This is registry-scoped identity alignment, not a full-paper census or proof of the original curator's chosen presentation. Inputs are unchanged.",
   "shared_qualifications": [
     "C1 (conditional reference conversion only): Corrtest specifies saturated-KCl SCE = +0.241 V versus NHE at 25 C (https://www.corrtestinstruments.com/en/02437.html). The illustrative comparison is E_mV(SCE,25 C) = 1000*E_V(SHE) - 241, or E_mV(SHE) - 241. Apply the offset separately to both scatter endpoints. The paper reports SHE and a 27 C test bath, without establishing the CRA reference-cell temperature/calibration. Therefore links are not_comparable for a definitive potential comparison; the 25 C calculations are conditional and no offset was fitted to CRA.",
-    "Figure 3 (PDF p.3) means are based on at least three determinations; bars are total scatter, not standard deviations. Figures 12 and 15 repeat the standard-procedure bars. Table 2 Epit values (PDF p.7) are possible repeated standard-condition presentations, not identified replicate means or proven identical runs. obs_001/016 through obs_006/021 share CRA rows on this basis; do not double count them.",
+    "Figure 3 (PDF p.3) means are based on at least three determinations; bars are total scatter, not standard deviations. Figures 12 and 15 repeat the standard-procedure bars. Table 2 Epit values (PDF p.7) are possible repeated standard-condition presentations, not identified replicate means or proven identical runs. 41_obs_001/41_obs_016 through 41_obs_006/41_obs_021 share CRA rows on this basis; do not double count them.",
     "C2: 3 V/hour * 1000/3600 = 0.833333 mV/s, consistent with CRA 0.833. The standard solution is N2-deaerated 1 N H2SO4 + 0.5 M NaCl at 27 C. Source bulk pH is near 0.5 (PDF p.3), versus CRA 0.0; it is not inferred from acid normality.",
     "Table 1 Ferrite Numbers are not established wt% phase fractions; CRA microstructure percentages are not used as exact composition evidence. Modified rapid-scan and chloride-free-loop results remain distinct from the standard test."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "41_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -112,7 +112,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "41_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -191,7 +191,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "41_obs_003",
       "status": "matched",
       "matches": [
         {
@@ -270,7 +270,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "41_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -349,7 +349,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "41_obs_005",
       "status": "matched",
       "matches": [
         {
@@ -427,7 +427,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "41_obs_006",
       "status": "matched",
       "matches": [
         {
@@ -506,70 +506,70 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "41_obs_007",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "41_obs_008",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "41_obs_009",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "41_obs_010",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "41_obs_011",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "41_obs_012",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
     },
     {
-      "observation_id": "obs_013",
+      "observation_id": "41_obs_013",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 12 open markers omit Ec to -80 mV by very rapid scanning (>200 V/hour); these separate modified-procedure readings cannot be identified with the six standard-procedure CRA summaries (PDF p.6)."
     },
     {
-      "observation_id": "obs_014",
+      "observation_id": "41_obs_014",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Table 2 CF-1/CF-2 have about 17% Cr and are additional alloys, distinct from all six supplied CRA compositions (PDF p.7); no counterpart is supplied."
     },
     {
-      "observation_id": "obs_015",
+      "observation_id": "41_obs_015",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Table 2 CF-1/CF-2 have about 17% Cr and are additional alloys, distinct from all six supplied CRA compositions (PDF p.7); no counterpart is supplied."
     },
     {
-      "observation_id": "obs_016",
+      "observation_id": "41_obs_016",
       "status": "matched",
       "matches": [
         {
@@ -634,7 +634,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_017",
+      "observation_id": "41_obs_017",
       "status": "matched",
       "matches": [
         {
@@ -699,7 +699,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_018",
+      "observation_id": "41_obs_018",
       "status": "matched",
       "matches": [
         {
@@ -764,7 +764,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_019",
+      "observation_id": "41_obs_019",
       "status": "matched",
       "matches": [
         {
@@ -829,7 +829,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_020",
+      "observation_id": "41_obs_020",
       "status": "matched",
       "matches": [
         {
@@ -894,7 +894,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_021",
+      "observation_id": "41_obs_021",
       "status": "matched",
       "matches": [
         {
@@ -959,35 +959,35 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_022",
+      "observation_id": "41_obs_022",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
     },
     {
-      "observation_id": "obs_023",
+      "observation_id": "41_obs_023",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
     },
     {
-      "observation_id": "obs_024",
+      "observation_id": "41_obs_024",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
     },
     {
-      "observation_id": "obs_025",
+      "observation_id": "41_obs_025",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Figure 15 modified tests scan the active loop in chloride-free 1 N H2SO4, then add NaCl at 200 mV. The paper explicitly says their passive-film conditions are not directly comparable with standard tests (PDF pp.7-8); no modified-procedure CRA row is supplied."
     },
     {
-      "observation_id": "obs_026",
+      "observation_id": "41_obs_026",
       "status": "unmatched",
       "matches": [],
       "candidates": [],

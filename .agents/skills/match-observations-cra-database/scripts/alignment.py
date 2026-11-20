@@ -80,7 +80,10 @@ class ObservationMatch(AlignmentModel):
         _status_rule("not_assessed", {"maxItems": 0}, {"maxItems": 0}),
     ]})
 
-    observation_id: str = Field(pattern=r"^obs_[0-9]{3,}$")
+    observation_id: str = Field(
+        pattern=r"^(?:[1-9][0-9]*_)?obs_[0-9]{3,}$",
+        description="Unchanged registry ID, e.g. 42_obs_001; legacy obs_001 IDs remain accepted unchanged.",
+    )
     status: MatchStatus
     matches: list[CRALink] = Field(description="Supported assignments; many-to-many links are allowed.")
     candidates: list[CRALink] = Field(description="Unresolved alternatives, excluded from default joins.")
@@ -138,6 +141,9 @@ class ObservationAlignment(AlignmentModel):
         identifiers = [item.observation_id for item in self.observations]
         if len(identifiers) != len(set(identifiers)):
             raise ValueError("Duplicate observation_id in alignment")
+        if any(not identifier.startswith("obs_") and int(identifier.split("_", 1)[0]) != self.reference_number
+               for identifier in identifiers):
+            raise ValueError("Reference conflict: observation_id prefixes must agree with reference_number")
         for name in ("inspected_pdf_pages", "unlinked_citrine_nos"):
             values = getattr(self, name)
             if len(values) != len(set(values)):

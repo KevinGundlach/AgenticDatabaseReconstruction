@@ -147,6 +147,10 @@ def prepare_inputs(pdf: Path, registry_path: Path):
     references = []
     if registry.reference_number is not None:
         references.append(("registry reference_number", registry.reference_number))
+    references.extend(("observation_id prefix", number) for number in sorted({
+        int(observation.observation_id.split("_", 1)[0]) for observation in registry.observations
+        if not observation.observation_id.startswith("obs_")
+    }))
     for label, stem, pattern in [
         ("PDF filename", pdf.stem, r"^(\d+)(?=\D|$)"),
         ("registry paper_name", Path(registry.paper_name).stem, r"^(\d+)(?=\D|$)"),

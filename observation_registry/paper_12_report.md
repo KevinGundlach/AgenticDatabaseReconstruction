@@ -10,7 +10,7 @@ Covered sources: All text, discussions, Tables 1–3, Figures 1–8 and captions
 
 Exclusions: Corrosion weight loss/rates, pit-location percentages, composition-only Table 1, pit photographs, unannotated continuous polarization markers in Figures 7–8, pure passivation regions and explicitly intergranular current-rise potentials.
 
-Registry: [paper_12.json](paper_12.json). Observations: 32. Complete: 27; partial: 5; failed: 0. Partial IDs: obs_015, obs_023, obs_024, obs_025, obs_026. Failed IDs: none.
+Registry: [paper_12.json](paper_12.json). Observations: 32. Complete: 27; partial: 5; failed: 0. Partial IDs: 12_obs_015, 12_obs_023, 12_obs_024, 12_obs_025, 12_obs_026. Failed IDs: none.
 
 Source qualifications and consolidation: Table 3 explicit quenched baseline/endpoints are primary over Figure 3 and repeated text. Annealed and quenched conditions remain distinct. Lower Figure 3 series assignments and the overlapping low-Si marker have recovery limitations recorded as partial. Table 3 annealed Mo breakdown has an intergranular-attack qualification.
 
@@ -19,7 +19,7 @@ Validation: bundled validator exit 0.
 ```text
 VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\observation_registry\paper_12.json (32 observations).
 Extraction status: complete=27; partial=5; failed=0
-Partial observation IDs: obs_015, obs_023, obs_024, obs_025, obs_026
+Partial observation IDs: 12_obs_015, 12_obs_023, 12_obs_024, 12_obs_025, 12_obs_026
 Failed observation IDs: none
 Default routing: complete and partial continue; failed require review.
 Scientific fidelity, consolidation, coverage, and benchmark suitability not checked.

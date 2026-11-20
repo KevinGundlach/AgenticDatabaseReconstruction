@@ -12,7 +12,7 @@ Output: [paper_21.json](paper_21.json)
 - Skipped failed IDs: none.
 - Flagged output IDs (nonblank failure_notes): none.
 
-All nine eligible IDs retained. Molybdate ion coordinates, exact pH example and bromide conditions remain scoped; no pH interpolation or chloride calculation. The 25 mV/1 min stepped protocol is not represented as a calculated scan rate. Potentials remain in the locked NHE units although SCE was the measurement reference. obs_009 remains an upper limiting statement; ESCA holds and transpassive limits are not additional outcomes.
+All nine eligible IDs retained. Molybdate ion coordinates, exact pH example and bromide conditions remain scoped; no pH interpolation or chloride calculation. The 25 mV/1 min stepped protocol is not represented as a calculated scan rate. Potentials remain in the locked NHE units although SCE was the measurement reference. 21_obs_009 remains an upper limiting statement; ESCA holds and transpassive limits are not additional outcomes.
 
 Validation: actual exit code 0; PASS. Checked schemas/models, exact input fingerprints, eligible-ID coverage/order and unchanged raw potential objects. Structural validation does not certify scientific associations or benchmark suitability.
 

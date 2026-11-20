@@ -106,8 +106,8 @@ class EnrichmentTests(unittest.TestCase):
     def test_full_input_routes_complete_partial_and_failed(self):
         prepared = self.prepared()
         result = self.validate()
-        self.assertEqual(prepared.eligible_ids, ["obs_003", "obs_009", "obs_012", "obs_018", "obs_030"])
-        self.assertEqual(prepared.skipped_failed_ids, ["obs_024"])
+        self.assertEqual(prepared.eligible_ids, ["9002_obs_003", "9002_obs_009", "9002_obs_012", "9002_obs_018", "9002_obs_030"])
+        self.assertEqual(prepared.skipped_failed_ids, ["9002_obs_024"])
         self.assertEqual([r.observation_id for r in result.experiments], prepared.eligible_ids)
 
     def test_subset_keeps_noncontiguous_ids_and_order(self):
@@ -116,7 +116,32 @@ class EnrichmentTests(unittest.TestCase):
         dump(self.registry, self.registry_document)
         document["experiments"] = [document["experiments"][i] for i in (1, 3)]
         document["inputs"] = self.prepared().inputs.model_dump(mode="json")
-        self.assertEqual([r.observation_id for r in self.validate(document).experiments], ["obs_009", "obs_018"])
+        self.assertEqual([r.observation_id for r in self.validate(document).experiments], ["9002_obs_009", "9002_obs_018"])
+
+    def test_legacy_ids_are_preserved_without_automatic_prefixing(self):
+        document = self.enrichment()
+        for row in self.registry_document["observations"] + document["experiments"]:
+            row["observation_id"] = row["observation_id"].split("_", 1)[1]
+        dump(self.registry, self.registry_document)
+        before = self.registry.read_bytes()
+        document["inputs"] = self.prepared().inputs.model_dump(mode="json")
+        self.assertEqual(self.validate(document).experiments[0].observation_id, "obs_003")
+        self.assertEqual(self.registry.read_bytes(), before)
+
+    def test_id_prefix_cannot_be_changed_or_removed_in_enrichment(self):
+        for identifier in ("9003_obs_003", "obs_003"):
+            document = self.enrichment()
+            document["experiments"][0]["observation_id"] = identifier
+            with self.subTest(identifier=identifier), self.assertRaises(InvalidData):
+                self.validate(document)
+
+    def test_id_prefix_must_agree_with_resolved_reference_when_metadata_is_null(self):
+        self.registry_document["reference_number"] = None
+        for row in self.registry_document["observations"]:
+            row["observation_id"] = row["observation_id"].replace("9002_", "9003_", 1)
+        dump(self.registry, self.registry_document)
+        with self.assertRaisesRegex(InvalidData, "Reference conflict"):
+            self.prepared()
 
     def test_empty_and_failed_only_registries(self):
         for failed_only in (False, True):
@@ -131,14 +156,14 @@ class EnrichmentTests(unittest.TestCase):
                 self.assertEqual(response.returncode, 0, response.stderr)
                 self.assertIn("No eligible observations were supplied", response.stdout)
                 if failed_only:
-                    self.assertIn("Skipped failed IDs: obs_024", response.stdout)
+                    self.assertIn("Skipped failed IDs: 9002_obs_024", response.stdout)
 
     def test_all_origin_types_are_eligible(self):
         for origin in ("reported_experimental", "interpolated", "calculated", "cited", "reference_value", "unclear"):
             self.registry_document["observations"][0]["result_type"] = origin
             dump(self.registry, self.registry_document)
             with self.subTest(origin=origin):
-                self.assertEqual(self.validate().experiments[0].observation_id, "obs_003")
+                self.assertEqual(self.validate().experiments[0].observation_id, "9002_obs_003")
 
     def test_resolved_partial_context_is_not_automatically_flagged(self):
         result = self.validate()
@@ -156,7 +181,7 @@ class EnrichmentTests(unittest.TestCase):
         result = self.validate()
         self.assertEqual(result.experiments[0].alloy, result.experiments[-1].alloy)
         self.assertNotEqual(result.experiments[0].observation_id, result.experiments[-1].observation_id)
-        self.assertIn("may repeat obs_003", result.experiments[-1].result_note)
+        self.assertIn("may repeat 9002_obs_003", result.experiments[-1].result_note)
         self.assertEqual(result.experiments[0].pitting_potential.unit, "V (SCE)")
         self.assertEqual(result.experiments[-1].pitting_potential.unit, "mV (SCE)")
 
@@ -213,11 +238,11 @@ class EnrichmentTests(unittest.TestCase):
         base = self.enrichment()
         variants = []
         bad = deepcopy(base); bad["experiments"].append(deepcopy(bad["experiments"][0])); variants.append(bad)
-        bad = deepcopy(base); bad["experiments"][0]["observation_id"] = "obs_999"; variants.append(bad)
-        bad = deepcopy(base); bad["experiments"][0]["observation_id"] = "obs_024"; variants.append(bad)
+        bad = deepcopy(base); bad["experiments"][0]["observation_id"] = "9002_obs_999"; variants.append(bad)
+        bad = deepcopy(base); bad["experiments"][0]["observation_id"] = "9002_obs_024"; variants.append(bad)
         bad = deepcopy(base); bad["experiments"].pop(0); variants.append(bad)
         bad = deepcopy(base); bad["experiments"].reverse(); variants.append(bad)
-        bad = deepcopy(base); bad["experiments"][0]["observation_id"] = "obs_001"; variants.append(bad)
+        bad = deepcopy(base); bad["experiments"][0]["observation_id"] = "9002_obs_001"; variants.append(bad)
         for index, bad in enumerate(variants):
             with self.subTest(case=index), self.assertRaises(InvalidData): self.validate(bad)
 
@@ -305,14 +330,28 @@ class EnrichmentTests(unittest.TestCase):
                 prepare_inputs(pdf, registry)
             dump(self.registry, self.registry_document)
 
-    def test_unknown_reference_is_allowed(self):
+    def test_unknown_reference_is_allowed_for_legacy_ids(self):
+        self.pdf = self.directory / "unnumbered.pdf"
+        self.pdf.write_bytes(b"%PDF fixture\n")
+        self.registry = self.directory / "registry_subset.json"
+        self.registry_document.update(reference_number=None, paper_name=self.pdf.name)
+        for row in self.registry_document["observations"]:
+            row["observation_id"] = row["observation_id"].split("_", 1)[1]
+        dump(self.registry, self.registry_document)
+        self.assertIsNone(self.prepared().reference_number)
+        document = self.enrichment()
+        for row in document["experiments"]:
+            row["observation_id"] = row["observation_id"].split("_", 1)[1]
+        self.assertIsNone(self.validate(document).reference_number)
+
+    def test_reference_can_resolve_from_id_prefix_alone(self):
         self.pdf = self.directory / "unnumbered.pdf"
         self.pdf.write_bytes(b"%PDF fixture\n")
         self.registry = self.directory / "registry_subset.json"
         self.registry_document.update(reference_number=None, paper_name=self.pdf.name)
         dump(self.registry, self.registry_document)
-        self.assertIsNone(self.prepared().reference_number)
-        self.assertIsNone(self.validate().reference_number)
+        self.assertEqual(self.prepared().reference_number, 9002)
+        self.assertEqual(self.validate().experiments[0].observation_id, "9002_obs_003")
 
     def test_null_reference_can_resolve_from_numbered_files(self):
         self.registry_document["reference_number"] = None
@@ -398,7 +437,7 @@ class EnrichmentTests(unittest.TestCase):
         prepared = json.loads(response.stdout)
         self.assertEqual(prepared["registry"], self.registry_document)
         self.assertEqual(prepared["eligible_observation_ids"], self.prepared().eligible_ids)
-        self.assertEqual(prepared["skipped_failed_observation_ids"], ["obs_024"])
+        self.assertEqual(prepared["skipped_failed_observation_ids"], ["9002_obs_024"])
         self.assertEqual(before, self.snapshot())
 
     def test_validator_cli_counts_flags_and_skips_without_writing(self):
@@ -407,8 +446,8 @@ class EnrichmentTests(unittest.TestCase):
         response = self.cli()
         self.assertEqual(response.returncode, 0, response.stderr)
         self.assertIn("Supplied=6; eligible=5; written=5; skipped_failed=1; flagged=1", response.stdout)
-        self.assertIn("Skipped failed IDs: obs_024", response.stdout)
-        self.assertIn("Flagged output IDs: obs_012", response.stdout)
+        self.assertIn("Skipped failed IDs: 9002_obs_024", response.stdout)
+        self.assertIn("Flagged output IDs: 9002_obs_012", response.stdout)
         self.assertEqual(before, self.snapshot())
 
     def test_invalid_data_exit_one_without_success_output(self):

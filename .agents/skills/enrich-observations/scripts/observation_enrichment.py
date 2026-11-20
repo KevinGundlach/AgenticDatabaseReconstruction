@@ -255,8 +255,8 @@ class EnrichedExperiment(ExtractionModel):
         )
     )
     observation_id: str = Field(
-        pattern=r"^obs_[0-9]{3,}$",
-        description="Unchanged registry-scoped ID; not an author-supplied experiment identifier.",
+        pattern=r"^(?:[1-9][0-9]*_)?obs_[0-9]{3,}$",
+        description="Unchanged registry ID, e.g. 42_obs_001; legacy obs_001 IDs remain accepted unchanged. Not an author-supplied experiment identifier.",
     )
 
 
@@ -292,4 +292,10 @@ class ObservationEnrichment(ExtractionModel):
         identifiers = [row.observation_id for row in self.experiments]
         if len(identifiers) != len(set(identifiers)):
             raise ValueError("Duplicate observation_id in experiments")
+        references = {int(identifier.split("_", 1)[0]) for identifier in identifiers
+                      if not identifier.startswith("obs_")}
+        if self.reference_number is not None:
+            references.add(self.reference_number)
+        if len(references) > 1:
+            raise ValueError("Reference conflict: observation_id prefixes must agree with each other and reference_number")
         return self

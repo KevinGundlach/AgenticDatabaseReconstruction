@@ -20,7 +20,7 @@ Preparation checks the registry reference, CSV Reference, leading PDF/registry-p
 
 ## Observation results
 
-Each result has `observation_id`, `status`, `matches`, `candidates` and `notes`. Exactly cover supplied IDs in original order. Required statuses have no defaults:
+Each result has `observation_id`, `status`, `matches`, `candidates` and `notes`. Exactly cover supplied IDs in original order. Preserve the full paper-prefixed ID, e.g. `42_obs_001`; its prefix must agree with the resolved reference. Existing unprefixed `obs_001` IDs remain accepted unchanged, without migration. Preparation includes numeric observation-ID prefixes when checking reference consistency. Required statuses have no defaults:
 
 | Status | Meaning / requirements |
 |---|---|

@@ -15,9 +15,9 @@ Counts: supplied 31; eligible 31; written 31; skipped failed 0; flagged 18.
 
 Skipped failed IDs: none.
 
-Flagged output IDs: obs_014, obs_015, obs_016, obs_017, obs_018, obs_019, obs_020, obs_021, obs_022, obs_023, obs_024, obs_025, obs_026, obs_027, obs_028, obs_029, obs_030, obs_031.
+Flagged output IDs: 52_obs_014, 52_obs_015, 52_obs_016, 52_obs_017, 52_obs_018, 52_obs_019, 52_obs_020, 52_obs_021, 52_obs_022, 52_obs_023, 52_obs_024, 52_obs_025, 52_obs_026, 52_obs_027, 52_obs_028, 52_obs_029, 52_obs_030, 52_obs_031.
 
-Qualifications: Conflicting 3%/3.5% NaCl and 30°C/35°C statements are retained. Figure 8 caption has anomalous “300°C” printing. Table 1 composition basis is unspecified (% retained). Summary/model markers obs_014–obs_031 do not identify individual heats uniquely; their compositions remain empty and are flagged. Calculated results remain calculations; possible repeated presentations are preserved.
+Qualifications: Conflicting 3%/3.5% NaCl and 30°C/35°C statements are retained. Figure 8 caption has anomalous “300°C” printing. Table 1 composition basis is unspecified (% retained). Summary/model markers 52_obs_014–52_obs_031 do not identify individual heats uniquely; their compositions remain empty and are flagged. Calculated results remain calculations; possible repeated presentations are preserved.
 
 Validation: actual exit code 0. Structural validation does not certify scientific interpretation or associations.
 
@@ -25,7 +25,7 @@ Validation: actual exit code 0. Structural validation does not certify scientifi
 VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\enriched_observations\paper_52.json
 Supplied=31; eligible=31; written=31; skipped_failed=0; flagged=18.
 Skipped failed IDs: none
-Flagged output IDs: obs_014, obs_015, obs_016, obs_017, obs_018, obs_019, obs_020, obs_021, obs_022, obs_023, obs_024, obs_025, obs_026, obs_027, obs_028, obs_029, obs_030, obs_031
+Flagged output IDs: 52_obs_014, 52_obs_015, 52_obs_016, 52_obs_017, 52_obs_018, 52_obs_019, 52_obs_020, 52_obs_021, 52_obs_022, 52_obs_023, 52_obs_024, 52_obs_025, 52_obs_026, 52_obs_027, 52_obs_028, 52_obs_029, 52_obs_030, 52_obs_031
 Scientific fidelity, retained qualification meanings and actual visual coverage are not certified.
 
 ```

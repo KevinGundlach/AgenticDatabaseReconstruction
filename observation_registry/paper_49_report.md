@@ -6,7 +6,7 @@ Covered all 75 Table 5 Epit cells; five explicitly numerical Figure 2 pitting an
 
 Registry: [paper_49.json](paper_49.json). Observations: 110; complete: 110; partial: 0; failed: 0. Partial/failed IDs: none.
 
-Source qualifications and possible repeats: Table 5 literal 1516 mV for 17-4PH seawater conflicts with Figure 6 (~160 mV) and Figure 2 (94 mV). Duplex Figure 2 annotation 826 mV conflicts with Table 5 629 mV. Figure 6 has a 254/PREN/potential discrepancy and an unmatched label 44653. Figure 5 records obs_076–obs_109 may repeat the respective first four Table 5 conditions, but incompatible horizontal coordinates prevent consolidation; not asserted independent experiments. Graph fits and absent markers add no outcomes.
+Source qualifications and possible repeats: Table 5 literal 1516 mV for 17-4PH seawater conflicts with Figure 6 (~160 mV) and Figure 2 (94 mV). Duplex Figure 2 annotation 826 mV conflicts with Table 5 629 mV. Figure 6 has a 254/PREN/potential discrepancy and an unmatched label 44653. Figure 5 records 49_obs_076–49_obs_109 may repeat the respective first four Table 5 conditions, but incompatible horizontal coordinates prevent consolidation; not asserted independent experiments. Graph fits and absent markers add no outcomes.
 
 Validation: exit 0.
 

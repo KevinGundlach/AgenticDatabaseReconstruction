@@ -34,14 +34,6 @@ def load_enriched_observations() -> List[ObservationEnrichment]:
         doc : ObservationEnrichment = adapter.validate_json(content)
         documents.append(doc)
 
-    # Observation IDs can be reused for different papers
-    # since the agent skills were run in batches.
-    # Prefix them with the paper number to make them global. 
-    
-    for doc in documents:
-        for exp in doc.experiments:
-            exp.observation_id = f"{doc.reference_number}-{exp.observation_id}"
-
     return documents
 
 
@@ -62,14 +54,6 @@ def load_aligned_observations() -> List[ObservationAlignment]:
         adapter = TypeAdapter(ObservationAlignment)
         doc : ObservationAlignment = adapter.validate_json(content)
         documents.append(doc)
-
-    # Observation IDs can be reused for different papers
-    # since the agent skills were run in batches.
-    # Prefix them with the paper number to make them global. 
-
-    for doc in documents:
-        for obs in doc.observations:
-            obs.observation_id = f"{doc.reference_number}-{obs.observation_id}"
 
     return documents
 

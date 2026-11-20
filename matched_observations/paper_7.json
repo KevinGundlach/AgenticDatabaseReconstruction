@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_7.json",
-      "sha256": "cc3ea3f6b8d668eac8b7b5643e610c5c1e72a124b39c4d60af07689999c0b3b9"
+      "sha256": "f2645aeb7a8e113873a2dd8717cba27ae5f1bb1e23332ad80b74cd0140a1b8af"
     }
   },
   "inspected_pdf_pages": [
@@ -25,14 +25,14 @@
   "coverage_notes": "All supplied anchors on PDF pp.1-4 were viewed, including complete Table I and metal analyses, Figs.1-6 and anodizing discussion. Rendered labels remained readable despite Poppler font warnings.",
   "shared_qualifications": [
     "C7: The paper itself supplies the rounded reference equivalence -0.80 V vs SCE = -0.56 V vs SHE (PDF p.1). Accordingly use E(mV vs SCE) = 1000 E(V vs SHE) - 240 for a source-calibrated comparison at the precision of those rounded values. No target-fitting offset is used. Reference temperature is unstated; 0-40 C are experimental-solution temperatures, not assumed reference-electrode temperatures. The source reports steady-state reproducibility better than +/-15 mV.",
-    "All CRA 803-814 targets agree within source/reference rounding and graphical precision, rather than at their excessive decimal precision. obs_004 primary Table I -0.41 V and secondary Fig.1 approximately -0.40 V are both preserved; obs_001 similarly retains text/table -0.40 and plot about -0.405 V.",
+    "All CRA 803-814 targets agree within source/reference rounding and graphical precision, rather than at their excessive decimal precision. 7_obs_004 primary Table I -0.41 V and secondary Fig.1 approximately -0.40 V are both preserved; 7_obs_001 similarly retains text/table -0.40 and plot about -0.405 V.",
     "The paper uses 50 mV potential increments separated by 5 min, followed by at least 12 h holds for steady Vc. CRA Scan Rate 0.167 must not be taken as a continuous sweep rate merely because 50/300 has that numerical value.",
     "CRA 810 solution cell 0.1 M NaCIO4 is preserved verbatim; paper Table I is NaClO4 (perchlorate), not NaCl. Its CRA CL- [M] value 0.1 is inconsistent with chloride species and is not used as evidence of free chloride.",
-    "obs_011/CRA 811 retains cited Bond et al. provenance from Table I; source-reported/cited outcomes are not excluded. Fig.5 present corrosion-potential proxies and Kaesche critical-potential points retain their distinct origin/meaning and are not equated to supplied standard steady-state records."
+    "7_obs_011/CRA 811 retains cited Bond et al. provenance from Table I; source-reported/cited outcomes are not excluded. Fig.5 present corrosion-potential proxies and Kaesche critical-potential points retain their distinct origin/meaning and are not equated to supplied standard steady-state records."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "7_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -88,21 +88,21 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "7_obs_002",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "7_obs_003",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "7_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -156,7 +156,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "7_obs_005",
       "status": "matched",
       "matches": [
         {
@@ -209,7 +209,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "7_obs_006",
       "status": "matched",
       "matches": [
         {
@@ -262,7 +262,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "7_obs_007",
       "status": "matched",
       "matches": [
         {
@@ -315,7 +315,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "7_obs_008",
       "status": "matched",
       "matches": [
         {
@@ -368,7 +368,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "7_obs_009",
       "status": "matched",
       "matches": [
         {
@@ -421,7 +421,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "7_obs_010",
       "status": "matched",
       "matches": [
         {
@@ -480,7 +480,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "7_obs_011",
       "status": "matched",
       "matches": [
         {
@@ -533,21 +533,21 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "7_obs_012",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_013",
+      "observation_id": "7_obs_013",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_014",
+      "observation_id": "7_obs_014",
       "status": "matched",
       "matches": [
         {
@@ -600,7 +600,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_015",
+      "observation_id": "7_obs_015",
       "status": "matched",
       "matches": [
         {
@@ -653,7 +653,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_016",
+      "observation_id": "7_obs_016",
       "status": "matched",
       "matches": [
         {
@@ -706,336 +706,336 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_017",
+      "observation_id": "7_obs_017",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_018",
+      "observation_id": "7_obs_018",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_019",
+      "observation_id": "7_obs_019",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_020",
+      "observation_id": "7_obs_020",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_021",
+      "observation_id": "7_obs_021",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_022",
+      "observation_id": "7_obs_022",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_023",
+      "observation_id": "7_obs_023",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_024",
+      "observation_id": "7_obs_024",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_025",
+      "observation_id": "7_obs_025",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_026",
+      "observation_id": "7_obs_026",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_027",
+      "observation_id": "7_obs_027",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_028",
+      "observation_id": "7_obs_028",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_029",
+      "observation_id": "7_obs_029",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_030",
+      "observation_id": "7_obs_030",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_031",
+      "observation_id": "7_obs_031",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_032",
+      "observation_id": "7_obs_032",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_033",
+      "observation_id": "7_obs_033",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_034",
+      "observation_id": "7_obs_034",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_035",
+      "observation_id": "7_obs_035",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_036",
+      "observation_id": "7_obs_036",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_037",
+      "observation_id": "7_obs_037",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_038",
+      "observation_id": "7_obs_038",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_039",
+      "observation_id": "7_obs_039",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_040",
+      "observation_id": "7_obs_040",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_041",
+      "observation_id": "7_obs_041",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_042",
+      "observation_id": "7_obs_042",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_043",
+      "observation_id": "7_obs_043",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_044",
+      "observation_id": "7_obs_044",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_045",
+      "observation_id": "7_obs_045",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_046",
+      "observation_id": "7_obs_046",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_047",
+      "observation_id": "7_obs_047",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_048",
+      "observation_id": "7_obs_048",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_049",
+      "observation_id": "7_obs_049",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_050",
+      "observation_id": "7_obs_050",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_051",
+      "observation_id": "7_obs_051",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_052",
+      "observation_id": "7_obs_052",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_053",
+      "observation_id": "7_obs_053",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_054",
+      "observation_id": "7_obs_054",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_055",
+      "observation_id": "7_obs_055",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_056",
+      "observation_id": "7_obs_056",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_057",
+      "observation_id": "7_obs_057",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_058",
+      "observation_id": "7_obs_058",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_059",
+      "observation_id": "7_obs_059",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_060",
+      "observation_id": "7_obs_060",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_061",
+      "observation_id": "7_obs_061",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_062",
+      "observation_id": "7_obs_062",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_063",
+      "observation_id": "7_obs_063",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart with this electrolyte/additive, material treatment, source provenance and result definition in the supplied 12-row CSV."
     },
     {
-      "observation_id": "obs_064",
+      "observation_id": "7_obs_064",
       "status": "unmatched",
       "matches": [],
       "candidates": [],

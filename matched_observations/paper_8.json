@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_8.json",
-      "sha256": "52c2acc09a1d6c0595a6cfb363d922788b7902a336e3eaa866295906d63046e4"
+      "sha256": "45c9cc4932b7b36e5fa3561ebf23b0a45391e0e4cd2f104175de13f284a554fa"
     }
   },
   "inspected_pdf_pages": [
@@ -28,11 +28,11 @@
     "Figure 3 bars are experiment ranges, not source-reported means. CSV Avg targets are retained as central values without manufacturing a source mean. The seven supplied registered bar outcomes correspond to seven rows; CRA 471 (S31254 chloride, about 1.0 V) has no supplied registry observation and remains unlinked.",
     "The paper describes Fig.4/5 outcomes as transpassive and/or pitting potentials, with incomplete pointwise separation at the transition. Identity alignment does not certify every registered value as a pitting threshold. The clearly nonpitting S31254 chloride condition was not added to the registry.",
     "Fig.3 S31254 bar does not label an individual heat. The results text identifies the associated Fig.2 example as Heat 2, consistent with CRA 475, but bar-wide heat membership is not explicit. Fig.4 S31254 and Fig.5 are Heat 1; CRA 475 Comments specifies Heat 2. Their pure-bromide endpoints remain candidate-only rather than silently conflating heats.",
-    "Shared CRA 470/474 links relate a Fig.3 range to individual Fig.4 70 C readings. They do not assert that the figures repeat the same runs. obs_010 approximately 660 mV exceeds CRA 470 Max 640 mV; the independently identified counterpart is retained with discrepant potential agreement."
+    "Shared CRA 470/474 links relate a Fig.3 range to individual Fig.4 70 C readings. They do not assert that the figures repeat the same runs. 8_obs_010 approximately 660 mV exceeds CRA 470 Max 640 mV; the independently identified counterpart is retained with discrepant potential agreement."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "8_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -103,7 +103,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "8_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -174,7 +174,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "8_obs_003",
       "status": "matched",
       "matches": [
         {
@@ -245,7 +245,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "8_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -316,7 +316,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "8_obs_005",
       "status": "matched",
       "matches": [
         {
@@ -387,7 +387,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "8_obs_006",
       "status": "matched",
       "matches": [
         {
@@ -458,7 +458,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "8_obs_007",
       "status": "matched",
       "matches": [
         {
@@ -529,21 +529,21 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "8_obs_008",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "8_obs_009",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "8_obs_010",
       "status": "matched",
       "matches": [
         {
@@ -614,7 +614,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "8_obs_011",
       "status": "matched",
       "matches": [
         {
@@ -685,35 +685,35 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "8_obs_012",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_013",
+      "observation_id": "8_obs_013",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_014",
+      "observation_id": "8_obs_014",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_015",
+      "observation_id": "8_obs_015",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_016",
+      "observation_id": "8_obs_016",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -766,7 +766,7 @@
       "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
     },
     {
-      "observation_id": "obs_017",
+      "observation_id": "8_obs_017",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -819,35 +819,35 @@
       "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
     },
     {
-      "observation_id": "obs_018",
+      "observation_id": "8_obs_018",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_019",
+      "observation_id": "8_obs_019",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_020",
+      "observation_id": "8_obs_020",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_021",
+      "observation_id": "8_obs_021",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_022",
+      "observation_id": "8_obs_022",
       "status": "matched",
       "matches": [
         {
@@ -918,7 +918,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_023",
+      "observation_id": "8_obs_023",
       "status": "matched",
       "matches": [
         {
@@ -989,49 +989,49 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_024",
+      "observation_id": "8_obs_024",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_025",
+      "observation_id": "8_obs_025",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_026",
+      "observation_id": "8_obs_026",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_027",
+      "observation_id": "8_obs_027",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_028",
+      "observation_id": "8_obs_028",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_029",
+      "observation_id": "8_obs_029",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "No supported counterpart in the supplied 70 C pure-halide CSV subset: this observation has a different temperature, mixed-halide composition, or unresolved heat-specific identity."
     },
     {
-      "observation_id": "obs_030",
+      "observation_id": "8_obs_030",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -1084,7 +1084,7 @@
       "notes": "Same grade, pure-bromide 70 C condition and compatible outcome suggest CRA 475, but its explicit Heat 2 assignment conflicts with the Heat 1 source observation. Candidate only; possible repeated Fig.4/5 presentations do not resolve the heat conflict."
     },
     {
-      "observation_id": "obs_031",
+      "observation_id": "8_obs_031",
       "status": "ambiguous",
       "matches": [],
       "candidates": [

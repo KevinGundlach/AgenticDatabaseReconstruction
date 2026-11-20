@@ -10,7 +10,7 @@ Covered sources: Table 1; Figures 1–7; Experimental and all Results and Discus
 
 Exclusions: Figures 1–2 are qualitative corrosion-mode maps without numerical potential outcomes. Figures 5–7 and immersion text describe crevice corrosion, temperature limits or exposure durations rather than pitting potentials. Ep protection potentials and unannotated continuous Figure 3 curves are excluded.
 
-Registry: [paper_4.json](paper_4.json). Observations: 26. Complete: 25; partial: 1; failed: 0. Partial IDs: obs_026. Failed IDs: none.
+Registry: [paper_4.json](paper_4.json). Observations: 26. Complete: 25; partial: 1; failed: 0. Partial IDs: 4_obs_026. Failed IDs: none.
 
 Source qualifications and consolidation: All recovered Eb values retain the authors’ uncertainty about pitting/crevice discrimination and low-temperature interpretation. Figure 4 units are the authors’ SHE(T) scale; no new reference conversion was performed. The ambiguous coincident 100°C + marker is partial; complete markers still carry scientific qualification.
 
@@ -19,7 +19,7 @@ Validation: bundled validator exit 0.
 ```text
 VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\observation_registry\paper_4.json (26 observations).
 Extraction status: complete=25; partial=1; failed=0
-Partial observation IDs: obs_026
+Partial observation IDs: 4_obs_026
 Failed observation IDs: none
 Default routing: complete and partial continue; failed require review.
 Scientific fidelity, consolidation, coverage, and benchmark suitability not checked.

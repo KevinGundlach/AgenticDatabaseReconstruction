@@ -12,7 +12,7 @@ Exclusions: Epp is protection potential and is excluded. Figures 4–5 are conti
 
 Registry: [paper_36.json](paper_36.json). Observations: 53. Complete: 53; partial: 0; failed: 0. Partial IDs: none. Failed IDs: none.
 
-Source qualifications and consolidation: The initiation criterion includes repassivating pits; it must not be read as exclusively stable propagation. Separate scratches, polarization and scratch values are preserved. Possible duplicates: obs_011 versus obs_042–obs_043, obs_012 versus obs_044, and Table 2 scratch obs_047/050/053 versus the respective 80°C Figure 1 series. Those records are not claimed as independent experiments. Figure 1 values/coordinates are approximate manual readings on a logarithmic concentration axis. The text supports consolidation of its selected 150/375 mV scratches with the corresponding Figure 1 symbols.
+Source qualifications and consolidation: The initiation criterion includes repassivating pits; it must not be read as exclusively stable propagation. Separate scratches, polarization and scratch values are preserved. Possible duplicates: 36_obs_011 versus 36_obs_042–36_obs_043, 36_obs_012 versus 36_obs_044, and Table 2 scratch 36_obs_047/36_obs_050/36_obs_053 versus the respective 80°C Figure 1 series. Those records are not claimed as independent experiments. Figure 1 values/coordinates are approximate manual readings on a logarithmic concentration axis. The text supports consolidation of its selected 150/375 mV scratches with the corresponding Figure 1 symbols.
 
 Validation: bundled validator exit 0. Structural validation does not establish scientific completeness or correctness.
 

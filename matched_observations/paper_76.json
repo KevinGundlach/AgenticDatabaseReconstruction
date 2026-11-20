@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_76.json",
-      "sha256": "72798561471ad1746d2ca7345020f7e168ab47159267ba6a21a3b7ee5dee7e66"
+      "sha256": "6aeaf2c254627a046aad3df5e0e9057cfb79f7ba8c0f844f77c73e0106a8a3f4"
     }
   },
   "inspected_pdf_pages": [
@@ -27,12 +27,12 @@
     "C1: conditional 25°C saturated-KCl SCE comparison E(mV,SCE)=E(mV,NHE)−241. Corrtest specifies SCE +0.241 V versus NHE at 25°C: https://www.corrtestinstruments.com/en/02437.html . NHE is treated as the hydrogen reference named by the paper. CRA does not specify the physical reference electrode temperature/filling; numerical agreement is conditional on this standard SCE convention, not an offset fitted to targets.",
     "PDF p.2 Figure 1 scan 50 mV/30 s =1.6666667 mV/s, compatible with CRA 1.66. The separate 2 V/h passivation measurements on pp.1–2 are a different protocol. All Figure 2 results at 25°C (p.3); quenched 1120°C/water samples.",
     "Figure 2 E′np and limiting induction-time E_np are distinct. No-pitting limits, imposed-potential bounds and Table 2 inequalities are not substituted for scan thresholds. Numerical pH 1 in CRA is not an independently stated paper value.",
-    "Obs_005: primary Figure 2 ≈690 mV NHE differs from explicitly annotated Figure 1 ≈650. C1 gives ≈449 versus ≈409 mV SCE; CRA No.276=453.808704961359. Identity is supported, but the secondary source reading is discrepant. Obs_007/009/010 retain less pronounced Figure 2/Figure 4 graphical differences.",
+    "76_obs_005: primary Figure 2 ≈690 mV NHE differs from explicitly annotated Figure 1 ≈650. C1 gives ≈449 versus ≈409 mV SCE; CRA No.276=453.808704961359. Identity is supported, but the secondary source reading is discrepant. 76_obs_007/76_obs_009/76_obs_010 retain less pronounced Figure 2/Figure 4 graphical differences.",
     "Filename cites p.349; visually verified supplied title/authors and actual printed pp.394–397. All registry anchors refer to this supplied PDF."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "76_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -91,7 +91,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "76_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -150,7 +150,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "76_obs_003",
       "status": "matched",
       "matches": [
         {
@@ -209,7 +209,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "76_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -268,7 +268,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "76_obs_005",
       "status": "matched",
       "matches": [
         {
@@ -328,7 +328,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "76_obs_006",
       "status": "matched",
       "matches": [
         {
@@ -388,7 +388,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "76_obs_007",
       "status": "matched",
       "matches": [
         {
@@ -448,7 +448,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "76_obs_008",
       "status": "matched",
       "matches": [
         {
@@ -508,7 +508,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "76_obs_009",
       "status": "matched",
       "matches": [
         {
@@ -568,7 +568,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "76_obs_010",
       "status": "matched",
       "matches": [
         {
@@ -628,175 +628,175 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "76_obs_011",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "76_obs_012",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_013",
+      "observation_id": "76_obs_013",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_014",
+      "observation_id": "76_obs_014",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_015",
+      "observation_id": "76_obs_015",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_016",
+      "observation_id": "76_obs_016",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_017",
+      "observation_id": "76_obs_017",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_018",
+      "observation_id": "76_obs_018",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_019",
+      "observation_id": "76_obs_019",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_020",
+      "observation_id": "76_obs_020",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_021",
+      "observation_id": "76_obs_021",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_022",
+      "observation_id": "76_obs_022",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_023",
+      "observation_id": "76_obs_023",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_024",
+      "observation_id": "76_obs_024",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_025",
+      "observation_id": "76_obs_025",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_026",
+      "observation_id": "76_obs_026",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_027",
+      "observation_id": "76_obs_027",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_028",
+      "observation_id": "76_obs_028",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_029",
+      "observation_id": "76_obs_029",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_030",
+      "observation_id": "76_obs_030",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_031",
+      "observation_id": "76_obs_031",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_032",
+      "observation_id": "76_obs_032",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_033",
+      "observation_id": "76_obs_033",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_034",
+      "observation_id": "76_obs_034",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Supplied CRA rows represent scan-derived E′np in .1/.05 N NaCl. This no-pitting bound, induction-time upper bound or limiting E_np interval is a different result/protocol and has no established counterpart."
     },
     {
-      "observation_id": "obs_035",
+      "observation_id": "76_obs_035",
       "status": "unmatched",
       "matches": [],
       "candidates": [],

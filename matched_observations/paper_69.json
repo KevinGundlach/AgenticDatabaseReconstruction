@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_69.json",
-      "sha256": "480eb3d79989a23d0e0a28e33cfa55cbec8f25ed6e49736dad3b3c9cc1d0a731"
+      "sha256": "e21dbc1cbc8554089eb568facd64c09d4574fe8db0cd6fa9dc47f1c3fef23f3a"
     }
   },
   "inspected_pdf_pages": [
@@ -27,14 +27,14 @@
   "shared_qualifications": [
     "C1: source Fig.6 composition is at% Mo, with Al balance in the stated binary alloy. Using CIAAW Al26.982 andMo95.95 (https://ciaaw.org/abridged-atomic-weights.htm), wt%Mo=100*x*95.95/((100-x)*26.982+x*95.95). Inverting original CRA binary wt% cells gives approximately2.8,5.4,10.4,3.0,4.0,5.0,6.0 and8.2 at% Mo forCRA720-727, respectively. These are explicitly dataset-derived calculations, not independent paper composition measurements.",
     "The actual enlarged Fig.6 points and original registry coordinates are retained; the smooth fitted line is not an observation. Crowded points near3-6 at% are distinct specimens. Matching only a similar potential would conceal composition conflicts. Plausible alternatives around5.0/5.4 at% are retained without choosing the closest potential.",
-    "obs_004 at approximately4.0 at% Mo has about-145 mV(SCE), whereasCRA724 corresponds to approximately4.0 at% but says-330 mV. Composition/medium independently support the identity, with discrepant potential agreement; no reassignment to a nearby-330 mV marker is made. obs_003/005/006/007/008/010 have unresolved composition-counterpart differences and remain candidates.",
+    "69_obs_004 at approximately4.0 at% Mo has about-145 mV(SCE), whereasCRA724 corresponds to approximately4.0 at% but says-330 mV. Composition/medium independently support the identity, with discrepant potential agreement; no reassignment to a nearby-330 mV marker is made. 69_obs_003/69_obs_005/69_obs_006/69_obs_007/69_obs_008/69_obs_010 have unresolved composition-counterpart differences and remain candidates.",
     "The binary films were RF magnetron sputter-deposited and contain Mo in solid solution (PDF pp.2-4). Source0.1 N KCl is N2-deaerated and adjusted topH8 withKOH. For monovalent KCl,0.1 N supplies0.1 mol/L chloride. Source sweep rate is0.2 mV/s after OCP change<1 mV over6 min; the CRA scan-rate cell is blank, not zero.",
     "All source potentials use SCE, so no electrode offset is applied. Source methods do not establish numerical25/26 C test temperatures in the inspected passages; CRA temperature values are not copied to the paper side. The Al-13Mo no-degradation limit at0 V has no corresponding13 at% CRA material and is not treated as a measured breakdown.",
     "Poppler returned success with Symbol/ArialNarrow font warnings. The relevant source text, axes, markers and captions were legible, including the enlarged Fig.6."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "69_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -99,7 +99,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "69_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -164,7 +164,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "69_obs_003",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -229,7 +229,7 @@
       "notes": "Candidate-only: CRA-derived3.0 at% versus source approximately3.4; similar-330 mV values do not resolve composition identity. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "69_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -294,7 +294,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "69_obs_005",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -359,7 +359,7 @@
       "notes": "Candidate-only: CRA-derived4.0 at% versus source approximately4.3; source-250 versusCRA-330 mV also differs. The distinct4.0 at% marker remains registered separately. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "69_obs_006",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -481,7 +481,7 @@
       "notes": "Candidate-only: The adjacent CRA-derived5.4 at% composition is another unresolved nearby alternative; source-145 versusCRA-265 mV disagrees. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "69_obs_007",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -603,7 +603,7 @@
       "notes": "Candidate-only: CRA-derived5.4 at% is also close to source5.3; source-285 versusCRA-265 mV remains a resolvable potential difference. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "69_obs_008",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -668,7 +668,7 @@
       "notes": "Candidate-only: CRA-derived5.4 at% versus source5.6; matching-265 mV values do not resolve the neighboring-composition ambiguity. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "69_obs_009",
       "status": "matched",
       "matches": [
         {
@@ -733,7 +733,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "69_obs_010",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -798,7 +798,7 @@
       "notes": "Candidate-only: CRA-derived8.2 at% versus source8.7; approximate-40/-45 mV agreement is insufficient to repair the composition difference. Independently matching medium/material family is insufficient to identify the particular discrete specimen; the registered coordinate is unchanged."
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "69_obs_011",
       "status": "matched",
       "matches": [
         {
@@ -863,7 +863,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "69_obs_012",
       "status": "unmatched",
       "matches": [],
       "candidates": [],

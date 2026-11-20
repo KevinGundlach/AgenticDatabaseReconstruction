@@ -15,7 +15,7 @@ Counts: supplied 69; eligible 69; written 69; skipped failed 0; flagged 6.
 
 Skipped failed IDs: none.
 
-Flagged output IDs: obs_016, obs_017, obs_018, obs_019, obs_020, obs_021.
+Flagged output IDs: 80_obs_016, 80_obs_017, 80_obs_018, 80_obs_019, 80_obs_020, 80_obs_021.
 
 Qualifications: 69 supplied records retained, including cited results and the strict cited Al–W limit, without following outside references. Fresh reference-3 points use only the prior protocol explicitly given here. Six fresh AlMo markers lack individual earlier-versus-current association and are flagged for unresolved pH/scan rate. Current aged/new tests retain 1 mV/s; room-temperature aging is not a numerical test temperature. The cited W limit has no supplied electrolyte/protocol recipe, so present-test conditions are not copied. Composition remains solute at.% with unquantified Al; nominal 10-at.% Mo remains qualified. Growth-curve start endpoints remain separate supplied outcomes with unspecified aging/run identity; they are not replaced by E_R or merged into Figure 1/4 populations. ±10-mV E_R reproducibility is not an E_p uncertainty.
 
@@ -25,7 +25,7 @@ Validation: actual exit code 0. Structural validity does not certify scientific 
 VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\enriched_observations\paper_80.json
 Supplied=69; eligible=69; written=69; skipped_failed=0; flagged=6.
 Skipped failed IDs: none
-Flagged output IDs: obs_016, obs_017, obs_018, obs_019, obs_020, obs_021
+Flagged output IDs: 80_obs_016, 80_obs_017, 80_obs_018, 80_obs_019, 80_obs_020, 80_obs_021
 Scientific fidelity, retained qualification meanings and actual visual coverage are not certified.
 
 ```

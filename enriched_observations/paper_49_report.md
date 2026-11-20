@@ -10,9 +10,9 @@ Output: [paper_49.json](paper_49.json)
 - Access: All supplied pages accessible; visually inspected PDFium page images. Embedded text used for navigation; no OCR, automatic table extraction or curve tracing.
 - Counts: supplied 110; eligible 110; written 110; skipped failed 0; flagged output 1.
 - Skipped failed IDs: none.
-- Flagged output IDs (nonblank failure_notes): obs_110.
+- Flagged output IDs (nonblank failure_notes): 49_obs_110.
 
-All 110 eligible IDs retained. obs_110 printed alloy label 44653 remains unresolved against Table 1 Monit 44635 and the nearby SMO 254 presentation; no candidate composition is selected and the record is flagged. Literal Table 5 17-4PH seawater 1516 mV, Figure 2 label/annotation conflicts, and Figure 6 SMO 254/PREN conflicts remain scientific source qualifications rather than corrected anchors. Figure 5 log coordinates are kept in prose without exponentiation, table-equivalence assumptions or pooling possible repetitions. Natural seawater receives only the explicitly supplied Table 2 chemistry/pH/chloride; aqueous solutions use the stated pH 7.8 and reported chloride ppm. Table 1 composition ranges, balance Fe, unusual printed Si entries, unquantified elements and combined Cb+Ta text are retained without recipe repair, balancing or splitting. Detailed Ep sweep/conditioning/surface history is not independently restated; the separate acidified CCS 10 mV/s method and prepassivation are not imported.
+All 110 eligible IDs retained. 49_obs_110 printed alloy label 44653 remains unresolved against Table 1 Monit 44635 and the nearby SMO 254 presentation; no candidate composition is selected and the record is flagged. Literal Table 5 17-4PH seawater 1516 mV, Figure 2 label/annotation conflicts, and Figure 6 SMO 254/PREN conflicts remain scientific source qualifications rather than corrected anchors. Figure 5 log coordinates are kept in prose without exponentiation, table-equivalence assumptions or pooling possible repetitions. Natural seawater receives only the explicitly supplied Table 2 chemistry/pH/chloride; aqueous solutions use the stated pH 7.8 and reported chloride ppm. Table 1 composition ranges, balance Fe, unusual printed Si entries, unquantified elements and combined Cb+Ta text are retained without recipe repair, balancing or splitting. Detailed Ep sweep/conditioning/surface history is not independently restated; the separate acidified CCS 10 mV/s method and prepassivation are not imported.
 
 Validation: actual exit code 0; PASS. Checked schemas/models, exact input fingerprints, eligible-ID coverage/order and unchanged raw potential objects. Structural validation does not certify scientific associations or benchmark suitability.
 
@@ -20,7 +20,7 @@ Validation: actual exit code 0; PASS. Checked schemas/models, exact input finger
 VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\enriched_observations\paper_49.json
 Supplied=110; eligible=110; written=110; skipped_failed=0; flagged=1.
 Skipped failed IDs: none
-Flagged output IDs: obs_110
+Flagged output IDs: 49_obs_110
 Scientific fidelity, retained qualification meanings and actual visual coverage are not certified.
 
 ```

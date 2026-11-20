@@ -6,7 +6,7 @@ Covered Figures 3, 12 and 15 and Table 2 Epit column; repeated standard-procedur
 
 Registry: [paper_41.json](paper_41.json). Observations: 26; complete: 26; partial: 0; failed: 0. Partial/failed IDs: none.
 
-Source qualifications and possible repeats: Table 2 CF-11/12/13/14/3/4 values (obs_016–obs_021) may repeat obs_001–obs_006; lack of explicit run correspondence prevents consolidation. Source graph/table discrepancies and differing procedure outcomes are retained. Means/scatter are summaries, not reconstructed replicates.
+Source qualifications and possible repeats: Table 2 CF-11/12/13/14/3/4 values (41_obs_016–41_obs_021) may repeat 41_obs_001–41_obs_006; lack of explicit run correspondence prevents consolidation. Source graph/table discrepancies and differing procedure outcomes are retained. Means/scatter are summaries, not reconstructed replicates.
 
 Validation: exit 0.
 

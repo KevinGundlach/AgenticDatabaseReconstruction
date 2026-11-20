@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_11.json",
-      "sha256": "5e3e13e7244ac0e5c1135af4a14c43829be818dd4b142eaaa6c3a21053fbae52"
+      "sha256": "a3e5b5f9e275cbcc6d1422f549df325e7bee5363b55b0405afc382aeee0b3e32"
     }
   },
   "inspected_pdf_pages": [
@@ -27,12 +27,12 @@
     "C11: V vs SCE x 1000 = mV vs SCE. Terminal scan rates are 54 mV/h /3600 = 0.015 mV/s for the commercial/high-purity alloys, and 60 mV/h /3600 = 0.0166667 mV/s (CRA rounded 0.017) for the 18Cr-2Mo series. Initial sweeps are ten times faster; those stages are not conflated.",
     "Table I NA means not analyzed but assumed within the series. In CRA 355/356, populated Cr/Mo/C and other inferred series values are not independent measured source analyses. The nominal series and measured Ni identify those heats.",
     "Source Table I and Table IV identify the high-Ti alloy as 1.86 wt.% Ti; CRA 359 Ti is 1.88, while its original Comments names 1.86. This composition conflict is retained; the exact table row and other conditions support identity.",
-    "Table IV >0.80 V entries are strict scan bounds without a definite threshold before transpassivity, not measured pitting at 0.80 V. The distinct instantaneous-potential-jump outcome obs_015 (+0.40 V) is not equated to that scan bound.",
-    "Fig.4 obs_013 is an individual representative run, while CRA 353 is a source-reported average. Its contribution to that average is not explicitly identified, so the connection remains candidate-only. obs_014 transient repassivating-pit initiation is a separate result definition."
+    "Table IV >0.80 V entries are strict scan bounds without a definite threshold before transpassivity, not measured pitting at 0.80 V. The distinct instantaneous-potential-jump outcome 11_obs_015 (+0.40 V) is not equated to that scan bound.",
+    "Fig.4 11_obs_013 is an individual representative run, while CRA 353 is a source-reported average. Its contribution to that average is not explicitly identified, so the connection remains candidate-only. 11_obs_014 transient repassivating-pit initiation is a separate result definition."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "11_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -97,7 +97,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "11_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -162,7 +162,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "11_obs_003",
       "status": "matched",
       "matches": [
         {
@@ -227,7 +227,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "11_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -292,7 +292,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "11_obs_005",
       "status": "matched",
       "matches": [
         {
@@ -357,7 +357,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "11_obs_006",
       "status": "matched",
       "matches": [
         {
@@ -422,7 +422,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "11_obs_007",
       "status": "matched",
       "matches": [
         {
@@ -487,7 +487,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "11_obs_008",
       "status": "matched",
       "matches": [
         {
@@ -552,7 +552,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "11_obs_009",
       "status": "matched",
       "matches": [
         {
@@ -623,7 +623,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "11_obs_010",
       "status": "matched",
       "matches": [
         {
@@ -688,7 +688,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "11_obs_011",
       "status": "matched",
       "matches": [
         {
@@ -759,7 +759,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "11_obs_012",
       "status": "matched",
       "matches": [
         {
@@ -830,7 +830,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_013",
+      "observation_id": "11_obs_013",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -889,14 +889,14 @@
       "notes": "Possible individual member of the Table IV mean, identified at the alloy-condition level, but source does not establish which runs contributed. Candidate only, not an additional copy of the mean."
     },
     {
-      "observation_id": "obs_014",
+      "observation_id": "11_obs_014",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Fig.4 transient initiation followed by repassivation is explicitly distinct from the stable-pitting averages in the CSV; no corresponding transient target is supplied."
     },
     {
-      "observation_id": "obs_015",
+      "observation_id": "11_obs_015",
       "status": "unmatched",
       "matches": [],
       "candidates": [],

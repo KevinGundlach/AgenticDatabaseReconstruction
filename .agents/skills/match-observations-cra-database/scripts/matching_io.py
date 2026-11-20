@@ -187,6 +187,10 @@ def prepare_inputs(pdf: Path, csv_path: Path, registry_path: Path) -> PreparedIn
     for label, reference in (("registry reference_number", registry.reference_number), ("CSV Reference", csv_reference)):
         if reference is not None:
             references.append((label, reference))
+    references.extend(("observation_id prefix", number) for number in sorted({
+        int(observation.observation_id.split("_", 1)[0]) for observation in registry.observations
+        if not observation.observation_id.startswith("obs_")
+    }))
     filename_patterns = [
         ("PDF filename", pdf.stem, r"^(\d+)(?=\D|$)"),
         ("registry paper_name", Path(registry.paper_name).stem, r"^(\d+)(?=\D|$)"),

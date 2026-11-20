@@ -12,7 +12,7 @@ Exclusions: Fitted Fig. 5 equations and continuous Fig. 14 region lines are not 
 
 Registry: [paper_39.json](paper_39.json). Observations: 40. Complete: 40; partial: 0; failed: 0. Partial IDs: none. Failed IDs: none.
 
-Source qualifications and consolidation: Experimental results, eight strict >+3.0 V no-pitting limits, a five-hour onset bracket and two calculated expected phase thresholds are distinguished. The Table 1 summary records pitting-containing regions rather than onset equalities. Figure 5’s 0.1 M/1 M pure-Al points are supported repeats of the earlier critical-potential presentations; both original readings are retained. The current-time bracket obs_003 differs in criterion from obs_002 and remains separate without asserting a new independent experiment. No reference-electrode conversion was performed.
+Source qualifications and consolidation: Experimental results, eight strict >+3.0 V no-pitting limits, a five-hour onset bracket and two calculated expected phase thresholds are distinguished. The Table 1 summary records pitting-containing regions rather than onset equalities. Figure 5’s 0.1 M/1 M pure-Al points are supported repeats of the earlier critical-potential presentations; both original readings are retained. The current-time bracket 39_obs_003 differs in criterion from 39_obs_002 and remains separate without asserting a new independent experiment. No reference-electrode conversion was performed.
 
 Validation: bundled validator exit 0. Structural validation does not establish scientific completeness or correctness.
 

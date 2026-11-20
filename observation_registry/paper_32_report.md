@@ -12,7 +12,7 @@ Exclusions: Erp markers/arrows are repassivation, not new-pitting outcomes. Unan
 
 Registry: [paper_32.json](paper_32.json). Observations: 30. Complete: 30; partial: 0; failed: 0. Partial IDs: none. Failed IDs: none.
 
-Source qualifications and consolidation: Median/percentile summaries are experimental, not interpolated. Individual example scans and selected transient events are distinguished from medians. Pure Al summaries obs_017/021/027/030 are retained as uncertain duplicates because run identity is unspecified. Figure 5 has a marker near 11 nm rather than the nominal 10 nm listed in Table I; the plotted selector is retained. All values and interval endpoints are approximate manual graphical readings.
+Source qualifications and consolidation: Median/percentile summaries are experimental, not interpolated. Individual example scans and selected transient events are distinguished from medians. Pure Al summaries 32_obs_017/32_obs_021/32_obs_027/32_obs_030 are retained as uncertain duplicates because run identity is unspecified. Figure 5 has a marker near 11 nm rather than the nominal 10 nm listed in Table I; the plotted selector is retained. All values and interval endpoints are approximate manual graphical readings.
 
 Validation: bundled validator exit 0. Structural validation does not establish scientific completeness or correctness.
 

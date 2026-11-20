@@ -17,7 +17,7 @@ At the root retain `schema_version`, `paper_name`, `reference_number`, `experime
 
 This fragment illustrates metadata only, not a valid complete output. Copy real 64-character lowercase hashes from preparation. IDs are scoped to that exact registry; independent regenerations are not interchangeable. Hashes are of original bytes, including whitespace/BOM, not normalized JSON. Filenames are basenames, not absolute paths.
 
-Strict JSON parsers reject duplicate keys, NaN, Infinity and overflowing numeric literals. UTF-8 with or without BOM is accepted. Preserve IDs with gaps. Resolve references from registry metadata and numbered PDF/registry filenames; any disagreement blocks preparation. Unknown references remain null. A renamed file is a warning requiring paper-identity verification, not permission to assume identity. The helpers check bookkeeping, not PDF renderability or true visual inspection.
+Strict JSON parsers reject duplicate keys, NaN, Infinity and overflowing numeric literals. UTF-8 with or without BOM is accepted. Preserve whole paper-prefixed IDs (e.g. `42_obs_001`), including gaps. Existing unprefixed `obs_001` IDs remain accepted unchanged, without migration. Resolve references from registry metadata, numbered PDF/registry filenames and numeric observation-ID prefixes; any disagreement blocks preparation. Unknown references remain null only for legacy unprefixed registries. A renamed file is a warning requiring paper-identity verification, not permission to assume identity. The helpers check bookkeeping, not PDF renderability or true visual inspection.
 
 ## Immutable outcome, paper-derived context
 

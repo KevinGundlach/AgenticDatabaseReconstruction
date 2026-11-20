@@ -8,7 +8,7 @@ Root, observation, and applicable location/condition fields are required, includ
 
 Existing 1.0 registries and reports are preserved. The current classes/schema/validator accept 1.1 only. Do not fill new fields by guessing from old notes or silently upgrade existing outputs; a fresh extraction or explicitly requested classification review is necessary.
 
-`observation_id` is a registry-scoped bookkeeping key. Assign `obs_001`, `obs_002`, etc. when creating a registry; retain established IDs during edits, even if deletions leave gaps. Preserve author-supplied sample names separately in `sample_label`. Do not derive IDs from target values, composition, or any database identifier.
+`observation_id` is a paper-prefixed bookkeeping key: `<reference_number>_obs_<sequence>`, e.g. `42_obs_001`, `42_obs_002`. Resolve the positive literature reference before creating a new registry; use no leading zeros in the reference and at least three digits for the sequence. The prefix must agree with the root `reference_number`. Retain established IDs during edits, even if deletions leave gaps. Legacy `obs_001` IDs remain accepted for existing 1.1 registries and must be preserved downstream; any migration requires an explicit request because IDs and registry fingerprints bind downstream outputs. Preserve author-supplied sample names separately in `sample_label`. Do not derive IDs from target values, composition, or any database identifier.
 
 ## Measurements and qualifiers
 

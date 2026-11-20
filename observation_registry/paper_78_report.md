@@ -6,7 +6,7 @@ Covered all supplied printed pp. 512–521, Tables 1–4, Figures 1–12, captio
 
 Registry: [paper_78.json](paper_78.json). Observations: 13; complete: 13; partial: 0; failed: 0. Partial/failed IDs: none.
 
-Source qualifications and possible repeats: The printed pitting-potential assignments for 3% Mo and 2% W–2% Mo conflict with Figure 1’s curve ordering; printed text remains primary. Figure 11(a) labels its first point at 1 min while the text identifies that same 84°C baseline as solution-annealed. The typical Figure 2 test may belong to the Figure 3 mean population (obs_004/005); retained separately without claiming independent experiments. CPT graph bars describe temperature spread and have unspecified statistical meaning. No recovery failure was identified.
+Source qualifications and possible repeats: The printed pitting-potential assignments for 3% Mo and 2% W–2% Mo conflict with Figure 1’s curve ordering; printed text remains primary. Figure 11(a) labels its first point at 1 min while the text identifies that same 84°C baseline as solution-annealed. The typical Figure 2 test may belong to the Figure 3 mean population (78_obs_004/78_obs_005); retained separately without claiming independent experiments. CPT graph bars describe temperature spread and have unspecified statistical meaning. No recovery failure was identified.
 
 Validation: exit 0.
 

@@ -15,9 +15,9 @@ Counts: supplied 143; eligible 143; written 143; skipped failed 0; flagged 19.
 
 Skipped failed IDs: none.
 
-Flagged output IDs: obs_125, obs_126, obs_127, obs_128, obs_129, obs_130, obs_131, obs_132, obs_133, obs_134, obs_135, obs_136, obs_137, obs_138, obs_139, obs_140, obs_141, obs_142, obs_143.
+Flagged output IDs: 56_obs_125, 56_obs_126, 56_obs_127, 56_obs_128, 56_obs_129, 56_obs_130, 56_obs_131, 56_obs_132, 56_obs_133, 56_obs_134, 56_obs_135, 56_obs_136, 56_obs_137, 56_obs_138, 56_obs_139, 56_obs_140, 56_obs_141, 56_obs_142, 56_obs_143.
 
-Qualifications: 143 supplied anchors retained, including means, median, graphical populations and possible duplicates. No numerical test temperature is reported; processing and epoxy-cure temperatures are not substituted. Four overlapping Fig.8(a) markers (obs_125–128) remain flagged. Fig.8(b) triangles are microband in the visible caption/area arrow, contrary to registry free-standing labels (obs_129–143); their original association is flagged, with corrected paper-derived geometry context and unchanged potentials. Table 1 crystalline Al-Ni-Y value is preserved despite disagreement with discussion.
+Qualifications: 143 supplied anchors retained, including means, median, graphical populations and possible duplicates. No numerical test temperature is reported; processing and epoxy-cure temperatures are not substituted. Four overlapping Fig.8(a) markers (56_obs_125–56_obs_128) remain flagged. Fig.8(b) triangles are microband in the visible caption/area arrow, contrary to registry free-standing labels (56_obs_129–56_obs_143); their original association is flagged, with corrected paper-derived geometry context and unchanged potentials. Table 1 crystalline Al-Ni-Y value is preserved despite disagreement with discussion.
 
 Validation: actual exit code 0. Structural validation does not certify scientific interpretation or associations.
 
@@ -25,7 +25,7 @@ Validation: actual exit code 0. Structural validation does not certify scientifi
 VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\enriched_observations\paper_56.json
 Supplied=143; eligible=143; written=143; skipped_failed=0; flagged=19.
 Skipped failed IDs: none
-Flagged output IDs: obs_125, obs_126, obs_127, obs_128, obs_129, obs_130, obs_131, obs_132, obs_133, obs_134, obs_135, obs_136, obs_137, obs_138, obs_139, obs_140, obs_141, obs_142, obs_143
+Flagged output IDs: 56_obs_125, 56_obs_126, 56_obs_127, 56_obs_128, 56_obs_129, 56_obs_130, 56_obs_131, 56_obs_132, 56_obs_133, 56_obs_134, 56_obs_135, 56_obs_136, 56_obs_137, 56_obs_138, 56_obs_139, 56_obs_140, 56_obs_141, 56_obs_142, 56_obs_143
 Scientific fidelity, retained qualification meanings and actual visual coverage are not certified.
 
 ```

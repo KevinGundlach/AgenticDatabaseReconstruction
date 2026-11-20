@@ -10,9 +10,9 @@ Output: [paper_4.json](paper_4.json)
 - Access: All supplied pages visually accessible. Poppler/pdftotext initially exited abnormally; PDFium rendered the inspected page images successfully. Embedded text used only for navigation, not as a substitute for visual checks.
 - Counts: supplied 26; eligible 26; written 26; skipped failed 0; flagged output 1.
 - Skipped failed IDs: none.
-- Flagged output IDs (nonblank failure_notes): obs_026.
+- Flagged output IDs (nonblank failure_notes): 4_obs_026.
 
-Eb is a qualified localized-corrosion breakdown potential; source does not cleanly separate pitting and crevice corrosion. Low-temperature transpassivity/hysteresis limitations remain explicit. obs_026 retains the unresolved superposed 100 °C marker. Combined Nb/Cb+Ta content is not split. Neutral is not converted to numeric pH; NaCl is not converted to chloride concentration.
+Eb is a qualified localized-corrosion breakdown potential; source does not cleanly separate pitting and crevice corrosion. Low-temperature transpassivity/hysteresis limitations remain explicit. 4_obs_026 retains the unresolved superposed 100 °C marker. Combined Nb/Cb+Ta content is not split. Neutral is not converted to numeric pH; NaCl is not converted to chloride concentration.
 
 Validation: actual exit code 0; PASS. Exact input hashes, ID coverage/order, schemas/models and unchanged raw anchored potentials checked. Structural validation does not certify scientific associations or benchmark suitability.
 
@@ -20,7 +20,7 @@ Validation: actual exit code 0; PASS. Exact input hashes, ID coverage/order, sch
 VALID: C:\Archives\School\HHU\HHU Courses\Max Plank\Thesis - Work\AgenticDatabaseReconstruction\enriched_observations\paper_4.json
 Supplied=26; eligible=26; written=26; skipped_failed=0; flagged=1.
 Skipped failed IDs: none
-Flagged output IDs: obs_026
+Flagged output IDs: 4_obs_026
 Scientific fidelity, retained qualification meanings and actual visual coverage are not certified.
 
 ```

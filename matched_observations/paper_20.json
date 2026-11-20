@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_20.json",
-      "sha256": "220dd31eff0f557130cf935d720f9f423d38d28b196dc6a9370ddf4c7c1c87db"
+      "sha256": "8243619d1142b98b18c6b78a090e5f0b86e554c7b105e084c185204a2d134a85"
     }
   },
   "inspected_pdf_pages": [
@@ -25,10 +25,10 @@
     14,
     18
   ],
-  "coverage_notes": "Visually inspected all registered locations on PDF pp.14 and18, including both conflicting obs_002 presentations and the full Fig.13 pitting series. Table1 material composition p.3, sample preparation p.4 and test method/reference p.6 were viewed, along with title/context pp.1-2. Inputs and primary/secondary readings were preserved.",
+  "coverage_notes": "Visually inspected all registered locations on PDF pp.14 and18, including both conflicting 20_obs_002 presentations and the full Fig.13 pitting series. Table1 material composition p.3, sample preparation p.4 and test method/reference p.6 were viewed, along with title/context pp.1-2. Inputs and primary/secondary readings were preserved.",
   "shared_qualifications": [
     "C20: Registered source potentials are already V on the SCE scale, so multiply by1000 to compare with CRA mV(SCE); no reference offset is applied.",
-    "Source conflict for obs_002: dedicated Table 3 and associated text (PDF p.14) give HEA/1M NaCl Epit -0.25 V(SCE), whereas Table 5 p.18 gives -0.49 V(SCE) for the same nominal condition. Both are retained; the source labels both SCE, so the 240 mV difference is not repaired by inventing an electrode conversion. CRA 585 agrees with the primary Table 3 reading but not the secondary Table 5 reading.",
+    "Source conflict for 20_obs_002: dedicated Table 3 and associated text (PDF p.14) give HEA/1M NaCl Epit -0.25 V(SCE), whereas Table 5 p.18 gives -0.49 V(SCE) for the same nominal condition. Both are retained; the source labels both SCE, so the 240 mV difference is not repaired by inventing an electrode conversion. CRA 585 agrees with the primary Table 3 reading but not the secondary Table 5 reading.",
     "Method p.6 reports nitrogen deaeration, a1 mV/s sweep and three tests per condition. The tables do not supply individual replicate potentials or a statistical uncertainty for these outcomes; no replicates or means are manufactured.",
     "For1M NaCl the method explicitly reports pH7.4, conflicting with CRA585 pH7.0. The0.1M pH is not explicitly supplied in the inspected passages; CRA584 pH7.0 is not treated as an independent source value.",
     "Source Table 1 bulk composition is wt.%. Paper abstract/microstructure description calls the HEA almost amorphous with little BCC; the CSV description BCC with some amorphous structure reverses that emphasis. The original field remains unchanged and is not used to claim a verified phase fraction.",
@@ -36,7 +36,7 @@
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "20_obs_001",
       "status": "matched",
       "matches": [
         {
@@ -119,7 +119,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "20_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -204,56 +204,56 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "20_obs_003",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Registered304S comparator is a different material from the HEA composition in both supplied CSV rows; no304S counterpart is supplied."
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "20_obs_004",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Registered304S comparator is a different material from the HEA composition in both supplied CSV rows; no304S counterpart is supplied."
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "20_obs_005",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "20_obs_006",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "20_obs_007",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "20_obs_008",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "20_obs_009",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Registered HEA result is in1N H2SO4 plus a specified NaCl concentration. Both supplied CSV rows are NaCl-only; no acid-plus-chloride counterpart is supplied, irrespective of similar potentials."
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "20_obs_010",
       "status": "unmatched",
       "matches": [],
       "candidates": [],

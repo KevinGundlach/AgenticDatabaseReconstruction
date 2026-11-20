@@ -12,7 +12,7 @@ Output: [paper_35.json](paper_35.json)
 - Skipped failed IDs: none.
 - Flagged output IDs (nonblank failure_notes): none.
 
-Both supplied IDs retained. obs_001 remains a +500 mV imposed-potential upper bound at 65 °C; the approximate 10 s growth delay is not a potential-step hold duration. The high-N repassivating trace is not a new stable-pitting outcome. The cited room-temperature Mo-free value receives only nominal identity and context actually restated; current alloy analysis, heat treatment and recipe are not imported. Table 1 balance Fe/wt% and S ppm retained. Homogenization temperatures are reported together without invented allocation or duration; surface ESCA chemistry is not bulk analysis.
+Both supplied IDs retained. 35_obs_001 remains a +500 mV imposed-potential upper bound at 65 °C; the approximate 10 s growth delay is not a potential-step hold duration. The high-N repassivating trace is not a new stable-pitting outcome. The cited room-temperature Mo-free value receives only nominal identity and context actually restated; current alloy analysis, heat treatment and recipe are not imported. Table 1 balance Fe/wt% and S ppm retained. Homogenization temperatures are reported together without invented allocation or duration; surface ESCA chemistry is not bulk analysis.
 
 Validation: actual exit code 0; PASS. Checked schemas/models, exact input fingerprints, eligible-ID coverage/order and unchanged raw potential objects. Structural validation does not certify scientific associations or benchmark suitability.
 

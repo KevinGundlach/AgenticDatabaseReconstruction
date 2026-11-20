@@ -19,7 +19,7 @@ Use the existing Python environment (`pydantic>=2.13.5`, `jsonschema>=4.23,<5`) 
 .\.venv\Scripts\python.exe .agents/skills/enrich-observations/scripts/prepare_inputs.py --pdf "papers/49_example.pdf" --registry observation_registry/paper_49_matched_only.json
 ```
 
-Stdout contains the unchanged registry, exact PDF/registry fingerprints, resolved paper/reference, eligible IDs and skipped failed IDs. Do not infer a reference from the bibliography. Conflicting reference numbers block the run; a renamed-PDF warning requires verifying that it is the same paper. Unavailable reference numbers may remain null. Reject unsupported registry versions without upgrading or rewriting them.
+Stdout contains the unchanged registry, exact PDF/registry fingerprints, resolved paper/reference, eligible IDs and skipped failed IDs. References are checked across metadata, numbered filenames and numeric observation-ID prefixes. Do not infer a reference from the bibliography. Conflicting reference numbers block the run; a renamed-PDF warning requires verifying that it is the same paper. An unavailable reference may remain null for a legacy unprefixed registry. Reject unsupported registry versions without upgrading or rewriting them.
 
 ## Inspect and enrich
 
@@ -27,7 +27,7 @@ Perform a **visual overview of every supplied PDF page** before detailed extract
 
 Direct visual PDF access is acceptable; otherwise render pages and actually view the images, enlarging dense details as needed. Rendering a page, reading its path or searching its text layer does not count as viewing it. Embedded text may locate passages; verify consequential values and associations visually. Rendering/image viewing and arithmetic-free bookkeeping are allowed; automated OCR, table extraction, marker detection and curve tracing are excluded. Preserve the PDF.
 
-Produce exactly one experiment per eligible supplied ID, in input order. Keep `observation_id` unchanged. Do not discover new records, merge possible duplicates, split a registered mean/range into replicates, or renumber a subset. An additional source may clarify context without creating an outcome. Do not filter on `result_type`; contextualize cited/interpolated/calculated/reference/unclear outcomes as far as the supplied paper supports, without following outside citations.
+Produce exactly one experiment per eligible supplied ID, in input order. Keep the whole `observation_id` unchanged, including its paper prefix (e.g. `42_obs_001`). Legacy unprefixed IDs remain accepted for existing registries; never add or remove a prefix during enrichment. Do not discover new records, merge possible duplicates, split a registered mean/range into replicates, or renumber a subset. An additional source may clarify context without creating an outcome. Do not filter on `result_type`; contextualize cited/interpolated/calculated/reference/unclear outcomes as far as the supplied paper supports, without following outside citations.
 
 Copy the observation-level `pitting_potential` **unchanged from the raw registry JSON**, including nulls, original units, bounds, uncertainty and optional-field omissions. It is the primary reading already selected upstream. Do not choose a secondary value, normalize units, repair an apparent error or add default subfields. Copy from raw input when assembling saved JSON: generic model serialization can insert defaults; even `exclude_unset=True` cannot undo defaults the caller explicitly supplied.
 

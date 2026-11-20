@@ -122,8 +122,8 @@
           "type": "string"
         },
         "observation_id": {
-          "description": "Unchanged registry-scoped ID; not an author-supplied experiment identifier.",
-          "pattern": "^obs_[0-9]{3,}$",
+          "description": "Unchanged registry ID, e.g. 42_obs_001; legacy obs_001 IDs remain accepted unchanged. Not an author-supplied experiment identifier.",
+          "pattern": "^(?:[1-9][0-9]*_)?obs_[0-9]{3,}$",
           "title": "Observation Id",
           "type": "string"
         }

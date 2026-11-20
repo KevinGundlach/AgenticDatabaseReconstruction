@@ -13,7 +13,7 @@
     },
     "registry": {
       "filename": "paper_12.json",
-      "sha256": "cda06367749da7d094ed346296ced279c41734f9787025620f8edd8abec74179"
+      "sha256": "c949f1f1f1c8612dd95c4d0da6f8a04d266b439402a3188c13864273fc345efd"
     }
   },
   "inspected_pdf_pages": [
@@ -28,20 +28,20 @@
     "C12 (conditional): E(mV vs SCE)=1000 E(V vs NHE)-244. The paper explicitly states normal hydrogen reference (PDF p.3). The 25 C calomel value +0.244 V vs SHE is tabulated by HORIBA: https://www.horiba.com/twn/water-quality/support/electrochemistry/the-basis-of-ph/electrical-potential-of-reference-electrode/ . Comparison assumes the target saturated-calomel scale is at 25 C and NHE is the common hydrogen scale. Reference-electrode temperature/calibration is not specified; solution temperature alone does not establish it. The constant was not fitted to CRA targets.",
     "The 18Cr-14Ni base is Cr 17.93, Ni 14.38, C 0.036 wt.% (PDF p.2). Table I supplies supplementary contents in wt.%; starred Ce/Re/Mo contents are based on charge. Nominal 5% labels are distinguished from Table I V 4.75% and Si 4.74%.",
     "Table 3 annealed (2 h at 650 C) and quenched (1150 C, water quenched) results are distinct. Quenched V and Si >1.50 V are bounds, not exact thresholds. The quenched baseline and high-V bound have no corresponding row in this CSV.",
-    "obs_006/Ce 0.2% is about 0.66 V in the registry and visible figure, giving conditionally 416 mV versus CRA 400; identity is independently supported but potential agreement is discrepant. obs_007 registry 0.51 V lies below the visible approximately 0.52 V Ce marker; CRA 279 mV corresponds conditionally to 0.523 V. Both registry readings are preserved, with discrepancies explicit.",
-    "Partial obs_024/025/026 retain their unresolved cluster-series assignments. Compatible Nb 0.92, Ta 1.00 and Nb 1.30 rows remain candidates; numerical agreement does not resolve the faint series. Partial low-Si obs_015 is assessed, but no Si 1.45% row is supplied.",
+    "12_obs_006/Ce 0.2% is about 0.66 V in the registry and visible figure, giving conditionally 416 mV versus CRA 400; identity is independently supported but potential agreement is discrepant. 12_obs_007 registry 0.51 V lies below the visible approximately 0.52 V Ce marker; CRA 279 mV corresponds conditionally to 0.523 V. Both registry readings are preserved, with discrepancies explicit.",
+    "Partial 12_obs_024/12_obs_025/12_obs_026 retain their unresolved cluster-series assignments. Compatible Nb 0.92, Ta 1.00 and Nb 1.30 rows remain candidates; numerical agreement does not resolve the faint series. Partial low-Si 12_obs_015 is assessed, but no Si 1.45% row is supplied.",
     "The annealed Mo breakdown is associated in the source with grain-boundary/intergranular attack, rather than unqualified pitting. Si near nominal 5% has an alpha phase in the source (p.2); CRA 383 only says austenitic. Qualifications are retained without excluding the registered outcomes."
   ],
   "observations": [
     {
-      "observation_id": "obs_001",
+      "observation_id": "12_obs_001",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Quenched base alloy Table 3 value 0.644 V has no unalloyed-quenched CRA row. CRA 362 has Ce 0.2%, and CRA 384 is annealed; neither is substituted for the baseline."
     },
     {
-      "observation_id": "obs_002",
+      "observation_id": "12_obs_002",
       "status": "matched",
       "matches": [
         {
@@ -106,7 +106,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_003",
+      "observation_id": "12_obs_003",
       "status": "matched",
       "matches": [
         {
@@ -171,7 +171,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_004",
+      "observation_id": "12_obs_004",
       "status": "matched",
       "matches": [
         {
@@ -236,7 +236,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_005",
+      "observation_id": "12_obs_005",
       "status": "matched",
       "matches": [
         {
@@ -301,7 +301,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_006",
+      "observation_id": "12_obs_006",
       "status": "matched",
       "matches": [
         {
@@ -366,7 +366,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_007",
+      "observation_id": "12_obs_007",
       "status": "matched",
       "matches": [
         {
@@ -431,7 +431,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_008",
+      "observation_id": "12_obs_008",
       "status": "matched",
       "matches": [
         {
@@ -496,7 +496,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_009",
+      "observation_id": "12_obs_009",
       "status": "matched",
       "matches": [
         {
@@ -561,7 +561,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_010",
+      "observation_id": "12_obs_010",
       "status": "matched",
       "matches": [
         {
@@ -626,7 +626,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_011",
+      "observation_id": "12_obs_011",
       "status": "matched",
       "matches": [
         {
@@ -692,7 +692,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_012",
+      "observation_id": "12_obs_012",
       "status": "matched",
       "matches": [
         {
@@ -757,7 +757,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_013",
+      "observation_id": "12_obs_013",
       "status": "matched",
       "matches": [
         {
@@ -822,21 +822,21 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_014",
+      "observation_id": "12_obs_014",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Quenched nominal 5% V >1.50 V bound has no corresponding CSV row; CRA 386 is the annealed 4.75% V result and is not an equivalent condition."
     },
     {
-      "observation_id": "obs_015",
+      "observation_id": "12_obs_015",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Partial low-Si marker/placement remains limited as recorded in the registry; CSV has no Si 1.45% heat. Superposed W 1.5% is a different alloy, not a substitute."
     },
     {
-      "observation_id": "obs_016",
+      "observation_id": "12_obs_016",
       "status": "matched",
       "matches": [
         {
@@ -901,7 +901,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_017",
+      "observation_id": "12_obs_017",
       "status": "matched",
       "matches": [
         {
@@ -967,7 +967,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_018",
+      "observation_id": "12_obs_018",
       "status": "matched",
       "matches": [
         {
@@ -1032,7 +1032,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_019",
+      "observation_id": "12_obs_019",
       "status": "matched",
       "matches": [
         {
@@ -1097,7 +1097,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_020",
+      "observation_id": "12_obs_020",
       "status": "matched",
       "matches": [
         {
@@ -1162,7 +1162,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_021",
+      "observation_id": "12_obs_021",
       "status": "matched",
       "matches": [
         {
@@ -1227,7 +1227,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_022",
+      "observation_id": "12_obs_022",
       "status": "matched",
       "matches": [
         {
@@ -1292,14 +1292,14 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_023",
+      "observation_id": "12_obs_023",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Partial anonymous approximately 0.6 wt.% cluster marker may involve Zr/Ta series not resolved visually; no defensible corresponding supplied CRA composition at this content. Recovery limitation is retained."
     },
     {
-      "observation_id": "obs_024",
+      "observation_id": "12_obs_024",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -1352,7 +1352,7 @@
       "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
     },
     {
-      "observation_id": "obs_025",
+      "observation_id": "12_obs_025",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -1405,7 +1405,7 @@
       "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
     },
     {
-      "observation_id": "obs_026",
+      "observation_id": "12_obs_026",
       "status": "ambiguous",
       "matches": [],
       "candidates": [
@@ -1458,7 +1458,7 @@
       "notes": "Unresolved partial-registry cluster marker; content, symbol region and converted potential make this row a defensible candidate, but independent element/series assignment is insufficient for a supported link."
     },
     {
-      "observation_id": "obs_027",
+      "observation_id": "12_obs_027",
       "status": "matched",
       "matches": [
         {
@@ -1523,7 +1523,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_028",
+      "observation_id": "12_obs_028",
       "status": "matched",
       "matches": [
         {
@@ -1588,7 +1588,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_029",
+      "observation_id": "12_obs_029",
       "status": "matched",
       "matches": [
         {
@@ -1653,7 +1653,7 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_030",
+      "observation_id": "12_obs_030",
       "status": "matched",
       "matches": [
         {
@@ -1718,14 +1718,14 @@
       "notes": ""
     },
     {
-      "observation_id": "obs_031",
+      "observation_id": "12_obs_031",
       "status": "unmatched",
       "matches": [],
       "candidates": [],
       "notes": "Registered explicit pitting onset is in 0.1N HCl, distinct from every supplied CSV NaCl result. No corresponding acid-medium record is supplied."
     },
     {
-      "observation_id": "obs_032",
+      "observation_id": "12_obs_032",
       "status": "unmatched",
       "matches": [],
       "candidates": [],

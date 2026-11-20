@@ -6,11 +6,11 @@ These are automated alignment proposals for this exact supplied registry. Unlink
 
 | Observation | Registered reading / location | Supported CRA No. | Candidate CRA No. | CRA targets (mV SCE) | Evidence / conversion | Status / notes |
 |---|---|---|---|---|---|---|
-| obs_001 | loc 0: -620.0 mV (SCE) (transcribed); PDF p. 6 / printed p. 426, 3.2. Polarization curve in sodium chloride solution and breakdown potential, the more noble one Eb2, close to | none | none | — | — | unmatched: The registered matrix-pitting event Eb2 is about -620 mV(SCE), whereas sole CRA No.802 is -720 mV(SCE). PDF p.6 explicitly associates -720 (Eb1) with selective dissolution/dealloying of S-phase Al2CuMg; matrix pitting/intergranular attack begins at Eb2, confirmed by Fig.7, p.15 discussion and p.17 conclusion. Same alloy/medium cannot establish counterpart identity for these different outcomes; No.802 stays unlinked. No new Eb1 observation is created. |
+| 43_obs_001 | loc 0: -620.0 mV (SCE) (transcribed); PDF p. 6 / printed p. 426, 3.2. Polarization curve in sodium chloride solution and breakdown potential, the more noble one Eb2, close to | none | none | — | — | unmatched: The registered matrix-pitting event Eb2 is about -620 mV(SCE), whereas sole CRA No.802 is -720 mV(SCE). PDF p.6 explicitly associates -720 (Eb1) with selective dissolution/dealloying of S-phase Al2CuMg; matrix pitting/intergranular attack begins at Eb2, confirmed by Fig.7, p.15 discussion and p.17 conclusion. Same alloy/medium cannot establish counterpart identity for these different outcomes; No.802 stays unlinked. No new Eb1 observation is created. |
 
 Status counts: matched=0; ambiguous=0; unmatched=1; not_assessed=0.
 ambiguous IDs: none.
-unmatched IDs: obs_001.
+unmatched IDs: 43_obs_001.
 not_assessed IDs: none.
 
 Supported shared-row groups: none.

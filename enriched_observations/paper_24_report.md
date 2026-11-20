@@ -12,7 +12,7 @@ Output: [paper_24.json](paper_24.json)
 - Skipped failed IDs: none.
 - Flagged output IDs (nonblank failure_notes): none.
 
-Only supplied obs_001 is enriched. The Mo-free as-cast alloy is kept distinct from Mo-containing alloys, their sigma phase and negative hysteresis. Eb is retained as the registered pitting-associated breakdown; Eprot/Erp are not substituted. Numerical test temperature is 25 °C, separate from melt/mold temperatures. OCP stabilization and subsequent cathodic conditioning retain the reported order; the unusual OCP-referenced scan-range wording is retained. No PRE, chloride concentration or composition conversion is calculated.
+Only supplied 24_obs_001 is enriched. The Mo-free as-cast alloy is kept distinct from Mo-containing alloys, their sigma phase and negative hysteresis. Eb is retained as the registered pitting-associated breakdown; Eprot/Erp are not substituted. Numerical test temperature is 25 °C, separate from melt/mold temperatures. OCP stabilization and subsequent cathodic conditioning retain the reported order; the unusual OCP-referenced scan-range wording is retained. No PRE, chloride concentration or composition conversion is calculated.
 
 Validation: actual exit code 0; PASS. Checked schemas/models, exact input fingerprints, eligible-ID coverage/order and unchanged raw potential objects. Structural validation does not certify scientific associations or benchmark suitability.
 

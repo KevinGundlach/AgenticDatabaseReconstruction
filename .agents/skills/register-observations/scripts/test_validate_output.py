@@ -281,8 +281,39 @@ class RegistryContractTests(unittest.TestCase):
         data = example_registry()
         data["observations"][1]["observation_id"] = data["observations"][0]["observation_id"]
         self.assert_invalid(data)
-        data["observations"][1]["observation_id"] = "obs_017"
+        data["observations"][1]["observation_id"] = "42_obs_017"
         self.assert_valid(data)
+
+    def test_paper_prefix_distinguishes_the_same_sequence_across_papers(self):
+        first = single_location_registry()
+        second = deepcopy(first)
+        second.update(reference_number=43, paper_name="43_example.pdf")
+        second["observations"][0]["observation_id"] = "43_obs_001"
+        first_id = self.assert_valid(first).observations[0].observation_id
+        second_id = self.assert_valid(second).observations[0].observation_id
+        self.assertEqual((first_id, second_id), ("42_obs_001", "43_obs_001"))
+
+    def test_prefix_must_agree_with_the_paper_and_other_observations(self):
+        for reference in (42, None):
+            data = example_registry()
+            data["reference_number"] = reference
+            data["observations"][1]["observation_id"] = "43_obs_002"
+            self.assert_invalid(data)
+
+    def test_malformed_paper_prefixes_and_sequences_are_rejected(self):
+        for identifier in ("0_obs_001", "042_obs_001", "-42_obs_001", "paper42_obs_001", "42-obs_001", "42_obs_01"):
+            with self.subTest(identifier=identifier):
+                data = single_location_registry()
+                data["observations"][0]["observation_id"] = identifier
+                self.assert_schema_and_model_invalid(data)
+
+    def test_legacy_ids_remain_valid_without_automatic_prefixing(self):
+        data = example_registry()
+        data.update(reference_number=None, paper_name="example.pdf")
+        for observation in data["observations"]:
+            observation["observation_id"] = observation["observation_id"].split("_", 1)[1]
+        model = self.assert_valid(data)
+        self.assertEqual(model.observations[0].observation_id, "obs_001")
 
     def test_unknown_fields_including_database_identifiers_are_rejected(self):
         for level, key in (("root", "citrine_rows"), ("observation", "citrine_no"),
@@ -338,8 +369,8 @@ class StandaloneCliTests(unittest.TestCase):
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("4 observations", result.stdout)
         self.assertIn("complete=2; partial=1; failed=1", result.stdout)
-        self.assertIn("Partial observation IDs: obs_002", result.stdout)
-        self.assertIn("Failed observation IDs: obs_004", result.stdout)
+        self.assertIn("Partial observation IDs: 42_obs_002", result.stdout)
+        self.assertIn("Failed observation IDs: 42_obs_004", result.stdout)
 
     def test_all_failed_records_are_still_structurally_valid(self):
         data = example_registry()
@@ -347,7 +378,7 @@ class StandaloneCliTests(unittest.TestCase):
         result = self.run_validator(data)
         self.assertEqual(result.returncode, 0, result.stderr)
         self.assertIn("complete=0; partial=0; failed=1", result.stdout)
-        self.assertIn("Failed observation IDs: obs_004", result.stdout)
+        self.assertIn("Failed observation IDs: 42_obs_004", result.stdout)
 
     def test_empty_registry_has_zero_counts_and_no_routing_ids(self):
         data = example_registry()
